@@ -1,0 +1,14 @@
+
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Segoe UI,Arial,sans-serif;background:#eefaf5;color:#234}
+header{position:sticky;top:0;background:#fff;display:flex;justify-content:space-between;align-items:center;padding:15px 25px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.logo{font-size:28px;font-weight:700;color:#36b37e}
+nav a{margin:0 10px;text-decoration:none;color:#234}
+.hero{height:70vh;background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center}
+.overlay{background:rgba(255,255,255,.85);padding:30px;border-radius:20px;text-align:center}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.card{background:#fff;padding:20px;border-radius:16px;box-shadow:0 2px 10px rgba(0,0,0,.08)}
+.container{max-width:1200px;margin:auto;padding:40px 20px}
+img.res{width:100%;border-radius:16px}
+footer{padding:30px;text-align:center;background:#18324a;color:white}
+@media(max-width:768px){header{flex-direction:column}}
