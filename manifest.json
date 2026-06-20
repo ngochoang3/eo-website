@@ -1,0 +1,23 @@
+{
+  "name": "Appalo - Thế Giới Slime MMORPG",
+  "short_name": "Appalo",
+  "description": "MMORPG Slime fantasy thế giới mở với 17 vùng đất, PvP đỉnh cao và Guild bang hội.",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0c1730",
+  "theme_color": "#0c1730",
+  "lang": "vi-VN",
+  "dir": "ltr",
+  "icons": [
+    { "src": "image/icon.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "image/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "image/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "categories": ["games", "entertainment"],
+  "shortcuts": [
+    { "name": "Tải Game", "url": "/download.html" },
+    { "name": "Tin Tức", "url": "/news.html" }
+  ]
+}

@@ -1,0 +1,54 @@
+/*! Appalo / e.io.vn — Responsive Layer */
+
+/* ===== 1440px and up: roomier container ===== */
+@media (min-width:1440px){
+  :root{--container-w:1320px}
+}
+
+/* ===== ≤1024px: tablet ===== */
+@media (max-width:1024px){
+  .feature-grid{grid-template-columns:repeat(2,1fr)}
+  .grid-4{grid-template-columns:repeat(2,1fr)}
+  .grid-3{grid-template-columns:repeat(2,1fr)}
+  .social-grid{grid-template-columns:repeat(3,1fr)}
+  .download-grid{grid-template-columns:repeat(2,1fr)}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .contact-grid{grid-template-columns:1fr}
+  .hero-slime{width:30vw}
+}
+
+/* ===== ≤768px: mobile landscape / small tablet ===== */
+@media (max-width:768px){
+  .main-nav{display:none}
+  .header-actions .btn-login,.header-actions .lang-switch{display:none}
+  .nav-toggle{display:block}
+  .section{padding:64px 0}
+  .feature-grid,.grid-4,.grid-3{grid-template-columns:1fr 1fr}
+  .social-grid{grid-template-columns:repeat(2,1fr)}
+  .download-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:28px}
+  .hero-content{padding-top:120px;max-width:100%}
+  .hero-slime{display:none}
+  .hero-actions{flex-direction:column;align-items:stretch}
+  .hero-actions .btn{width:100%}
+  .slider-slide{aspect-ratio:4/4}
+  .page-hero{min-height:38vh}
+}
+
+/* ===== ≤375px: small phones ===== */
+@media (max-width:375px){
+  .container{padding:0 16px}
+  .feature-grid,.grid-4,.grid-3{grid-template-columns:1fr}
+  .social-grid{grid-template-columns:1fr 1fr}
+  .footer-grid{grid-template-columns:1fr}
+  .hero-title{font-size:34px}
+  .section-title{font-size:26px}
+  .back-to-top{right:14px;bottom:14px;width:44px;height:44px}
+}
+
+/* ===== ≤320px: smallest supported ===== */
+@media (max-width:320px){
+  .btn{padding:12px 22px;font-size:14px}
+  .brand{font-size:18px}
+  .brand img{width:32px;height:32px}
+}

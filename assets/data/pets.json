@@ -1,0 +1,6 @@
+[
+  { "id": "blue",   "image": "image/pet-blue.webp",   "name_vi": "Slime Băng",   "name_en": "Frost Slime",   "rarity": "rare" },
+  { "id": "pink",   "image": "image/pet-pink.webp",   "name_vi": "Slime Hồng",   "name_en": "Blossom Slime", "rarity": "common" },
+  { "id": "green",  "image": "image/pet-green.webp",  "name_vi": "Slime Lá",     "name_en": "Leaf Slime",    "rarity": "common" },
+  { "id": "purple", "image": "image/pet-purple.webp", "name_vi": "Slime Bí Ẩn",  "name_en": "Mystic Slime",  "rarity": "legendary" }
+]
