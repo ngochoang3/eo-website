@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /lang-test.html
 
-Sitemap: https://e.io.vn/sitemap.xml
+Sitemap: https://eo.io.vn/sitemap.xml

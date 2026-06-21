@@ -1,7 +1,7 @@
-/*! Appalo / e.io.vn — Language detection & switching (VI / EN) */
+/*! EO Studio / eo.io.vn — Language detection & switching (VI / EN) */
 (function(){
   "use strict";
-  var STORAGE_KEY = "appalo-lang";
+  var STORAGE_KEY = "eo-lang";
 
   function detectBrowserLang(){
     var nav = navigator.language || navigator.userLanguage || "en";
@@ -46,7 +46,7 @@
     var alt = document.getElementById("og-locale");
     if (alt) alt.setAttribute("content", lang === "vi" ? "vi_VN" : "en_US");
 
-    document.dispatchEvent(new CustomEvent("appalo:langchange", { detail: { lang: lang } }));
+    document.dispatchEvent(new CustomEvent("eo:langchange", { detail: { lang: lang } }));
   }
 
   function setLang(lang){

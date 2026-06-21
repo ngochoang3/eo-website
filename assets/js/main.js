@@ -1,4 +1,4 @@
-/*! Appalo / e.io.vn — Header, drawer, back-to-top, reveal, parallax, dynamic collections */
+/*! EO Studio / eo.io.vn — Header, drawer, back-to-top, reveal, parallax, dynamic collections */
 (function(){
   "use strict";
 
@@ -115,7 +115,7 @@
      yet, so sections render real artwork instead of staying blank. As soon as
      a matching file (e.g. image/world-01.webp) exists, the probe finds it and
      this fallback pool is bypassed automatically. */
-  var FALLBACK_POOL = ["image/Untitled-2.png","image/Untitled-3.png","image/Untitled-5.png","image/Untitled-6.png","image/Untitled-7.png","image/Untitled-8.png","image/Untitled-9.png","image/Untitled-13.png","image/banner.png"];
+  var FALLBACK_POOL = ["image/bgmenu.png","image/fantasy-world-map.png","image/Untitled-2.png","image/Untitled-3.png","image/Untitled-5.png","image/Untitled-6.png","image/Untitled-7.png","image/Untitled-8.png","image/Untitled-9.png","image/Untitled-13.png","image/banner.png"];
 
   async function discoverCollection(key){
     var cfg = window.APPALO && APPALO.COLLECTIONS && APPALO.COLLECTIONS[key];
@@ -159,7 +159,7 @@
     var data = (window.APPALO_DATA && APPALO_DATA.worlds) || [];
     grid.innerHTML = items.map(function(item){
       var meta = data.find(function(d){ return d.index === item.index; }) || {};
-      var name = meta["name_" + lang()] || ("Appalo " + t("world.tag") + " " + item.index);
+      var name = meta["name_" + lang()] || ("EO " + t("world.tag") + " " + item.index);
       var desc = meta["desc_" + lang()] || t("world.cardDesc");
       return (
         '<article class="world-card reveal">' +
@@ -179,7 +179,7 @@
     var data = (window.APPALO_DATA && APPALO_DATA.news) || [];
     grid.innerHTML = items.map(function(item){
       var meta = data.find(function(d){ return d.index === item.index; }) || {};
-      var title = meta["title_" + lang()] || ("Appalo Update #" + item.index);
+      var title = meta["title_" + lang()] || ("EO Update #" + item.index);
       var date = meta.date || "2026-06-01";
       var excerpt = meta["excerpt_" + lang()] || t("news.excerpt");
       return (
@@ -202,7 +202,7 @@
     var dots = root.querySelector(".slider-dots");
     if (!track) return;
     track.innerHTML = items.map(function(item, i){
-      return '<div class="slider-slide"><img src="' + item.src + '" alt="Appalo gameplay screenshot ' + (i + 1) + '" loading="' + (i === 0 ? "eager" : "lazy") + '" width="1200" height="600"></div>';
+      return '<div class="slider-slide"><img src="' + item.src + '" alt="EO gameplay screenshot ' + (i + 1) + '" loading="' + (i === 0 ? "eager" : "lazy") + '" width="1200" height="600"></div>';
     }).join("");
     if (dots) dots.innerHTML = "";
     if (items.length && window.AppaloSlider) window.AppaloSlider.init(root);
@@ -262,7 +262,7 @@
     renderPets();
   }
 
-  document.addEventListener("appalo:langchange", rerender);
+  document.addEventListener("eo:langchange", rerender);
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", rerender);

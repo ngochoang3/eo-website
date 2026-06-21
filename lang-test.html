@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Kiểm Tra Ngôn Ngữ | Appalo</title>
-<meta name="description" content="Trang kiểm tra hệ thống tự động phát hiện và chuyển đổi ngôn ngữ (Tiếng Việt / English) của Appalo.">
+<title>Kiểm Tra Ngôn Ngữ | EO</title>
+<meta name="description" content="Trang kiểm tra hệ thống tự động phát hiện và chuyển đổi ngôn ngữ (Tiếng Việt / English) của EO.">
 <meta name="robots" content="noindex,follow">
-<link rel="canonical" href="https://e.io.vn/lang-test.html">
+<link rel="canonical" href="https://eo.io.vn/lang-test.html">
 <link rel="icon" href="image/icon.png" type="image/png">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#0c1730">
@@ -20,16 +20,16 @@
 <a class="skip-link" href="#main">Bỏ qua đến nội dung chính</a>
 <header class="site-header">
   <div class="container">
-    <a href="index.html" class="brand"><img src="image/logo.png" alt="Appalo logo" width="40" height="40">Appalo</a>
+    <a href="index.html" class="brand"><img src="image/logo.png" alt="EO logo" width="40" height="40">EO</a>
     <nav class="main-nav" aria-label="Menu chính">
-      <a href="index.html">Trang Chủ</a>
-      <a href="world.html">Thế Giới</a>
-      <a href="classes.html">Tính Năng</a>
-      <a href="news.html">Tin Tức</a>
-      <a href="wiki.html">Hướng Dẫn</a>
-      <a href="guilds.html">Cộng Đồng</a>
-      <a href="download.html">Tải Game</a>
-      <a href="contact.html">Liên Hệ</a>
+      <a href="index.html" data-i18n="nav.home">Trang Chủ</a>
+      <a href="games.html" data-i18n="nav.games">Games</a>
+      <a href="apps.html" data-i18n="nav.apps">Apps</a>
+      <a href="universe.html" data-i18n="nav.universe">Universe</a>
+      <a href="news.html" data-i18n="nav.news">Tin Tức</a>
+      <a href="guilds.html" data-i18n="nav.community">Cộng Đồng</a>
+      <a href="about.html" data-i18n="nav.about">Về Chúng Tôi</a>
+      <a href="contact.html" data-i18n="nav.contact">Liên Hệ</a>
     </nav>
     <div class="header-actions">
       <div class="lang-switch" role="group" aria-label="Chọn ngôn ngữ">
@@ -42,14 +42,14 @@
 </header>
 <div class="drawer-overlay"></div>
 <nav class="nav-drawer" id="navDrawer" aria-label="Menu di động">
-  <a href="index.html">Trang Chủ</a>
-  <a href="world.html">Thế Giới</a>
-  <a href="classes.html">Tính Năng</a>
-  <a href="news.html">Tin Tức</a>
-  <a href="wiki.html">Hướng Dẫn</a>
-  <a href="guilds.html">Cộng Đồng</a>
-  <a href="download.html">Tải Game</a>
-  <a href="contact.html">Liên Hệ</a>
+  <a href="index.html" data-i18n="nav.home">Trang Chủ</a>
+  <a href="games.html" data-i18n="nav.games">Games</a>
+  <a href="apps.html" data-i18n="nav.apps">Apps</a>
+  <a href="universe.html" data-i18n="nav.universe">Universe</a>
+  <a href="news.html" data-i18n="nav.news">Tin Tức</a>
+  <a href="guilds.html" data-i18n="nav.community">Cộng Đồng</a>
+  <a href="about.html" data-i18n="nav.about">Về Chúng Tôi</a>
+  <a href="contact.html" data-i18n="nav.contact">Liên Hệ</a>
 </nav>
 
 <main id="main">
@@ -72,7 +72,7 @@
 <footer class="site-footer">
   <div class="container">
     <div class="footer-bottom">
-      <span data-i18n="footer.copyright">© 2026 Appalo Studio. Bảo lưu mọi quyền.</span>
+      <span data-i18n="footer.copyright">© 2026 EO Studio. Bảo lưu mọi quyền.</span>
       <span><a href="index.html" data-i18n="breadcrumb.home">Trang Chủ</a></span>
     </div>
   </div>
@@ -93,7 +93,7 @@
     document.getElementById("currentLang").textContent = labelFor(AppaloI18N.currentLang());
     document.getElementById("navLangRaw").textContent = "navigator.language = \"" + navigator.language + "\"";
   }
-  document.addEventListener("appalo:langchange", refresh);
+  document.addEventListener("eo:langchange", refresh);
   refresh();
 })();
 </script>

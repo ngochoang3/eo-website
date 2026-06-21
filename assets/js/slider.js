@@ -1,4 +1,4 @@
-/*! Appalo / e.io.vn — Lightweight auto/swipe slider (no deps) */
+/*! EO Studio / eo.io.vn — Lightweight auto/swipe slider (no deps) */
 (function(){
   "use strict";
 

@@ -1,7 +1,7 @@
 {
-  "name": "Appalo - Thế Giới Slime MMORPG",
-  "short_name": "Appalo",
-  "description": "MMORPG Slime fantasy thế giới mở với 17 vùng đất, PvP đỉnh cao và Guild bang hội.",
+  "name": "EO Studio - Slime Fantasy Mobile Games",
+  "short_name": "EO Studio",
+  "description": "EO Studio - indie game studio kiến tạo game mobile và ứng dụng fantasy Slime dễ thương.",
   "start_url": "/index.html",
   "scope": "/",
   "display": "standalone",
@@ -17,6 +17,8 @@
   ],
   "categories": ["games", "entertainment"],
   "shortcuts": [
+    { "name": "Games", "url": "/games.html" },
+    { "name": "Apps", "url": "/apps.html" },
     { "name": "Tải Game", "url": "/download.html" },
     { "name": "Tin Tức", "url": "/news.html" }
   ]

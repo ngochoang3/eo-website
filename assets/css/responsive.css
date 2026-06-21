@@ -1,4 +1,4 @@
-/*! Appalo / e.io.vn — Responsive Layer */
+/*! EO Studio / eo.io.vn — Responsive Layer */
 
 /* ===== 1440px and up: roomier container ===== */
 @media (min-width:1440px){
@@ -15,6 +15,8 @@
   .footer-grid{grid-template-columns:1fr 1fr}
   .contact-grid{grid-template-columns:1fr}
   .hero-slime{width:30vw}
+  .featured-game,.app-showcase{grid-template-columns:1fr}
+  .value-grid{grid-template-columns:repeat(2,1fr)}
 }
 
 /* ===== ≤768px: mobile landscape / small tablet ===== */
@@ -33,6 +35,7 @@
   .hero-actions .btn{width:100%}
   .slider-slide{aspect-ratio:4/4}
   .page-hero{min-height:38vh}
+  .value-grid{grid-template-columns:1fr 1fr}
 }
 
 /* ===== ≤375px: small phones ===== */

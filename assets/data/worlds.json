@@ -14,6 +14,6 @@
   { "index": 13, "name_vi": "Thánh Địa Ánh Sáng",     "name_en": "Sanctum of Light",         "desc_vi": "Thánh địa linh thiêng, nơi các pháp sư ánh sáng tu luyện.",                      "desc_en": "A sacred sanctum where light mages hone their craft." },
   { "index": 14, "name_vi": "Vực Sâu Hắc Ám",         "name_en": "Abyssal Depths",           "desc_vi": "Vực sâu tăm tối, nơi trú ẩn của những thế lực hắc ám nguy hiểm.",                "desc_en": "A dark abyss harboring dangerous shadowy forces." },
   { "index": 15, "name_vi": "Thảo Nguyên Vô Tận",     "name_en": "Endless Prairie",          "desc_vi": "Thảo nguyên trải dài vô tận, lý tưởng cho việc cưỡi thú và đua tốc độ.",          "desc_en": "An endless prairie perfect for mounts and speed racing." },
-  { "index": 16, "name_vi": "Lâu Đài Hoàng Gia",      "name_en": "Royal Castle",             "desc_vi": "Lâu đài tráng lệ, trung tâm chính trị của vương quốc Appalo.",                   "desc_en": "A magnificent castle, the political heart of the Appalo kingdom." },
+  { "index": 16, "name_vi": "Lâu Đài Hoàng Gia",      "name_en": "Royal Castle",             "desc_vi": "Lâu đài tráng lệ, trung tâm chính trị của vương quốc EO.",                   "desc_en": "A magnificent castle, the political heart of the EO kingdom." },
   { "index": 17, "name_vi": "Đỉnh Trời Vô Cực",       "name_en": "Infinity Summit",          "desc_vi": "Đỉnh núi cao nhất, nơi diễn ra những trận chiến cuối cùng của cốt truyện.",       "desc_en": "The highest peak, stage for the storyline's ultimate battles." }
 ]

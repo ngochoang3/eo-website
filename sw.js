@@ -1,8 +1,9 @@
-/*! Appalo / e.io.vn — Service Worker (offline fallback + static asset caching) */
-const CACHE_VERSION = "appalo-v1";
+/*! EO Studio / eo.io.vn — Service Worker (offline fallback + static asset caching) */
+const CACHE_VERSION = "eo-v2";
 const OFFLINE_URL = "offline.html";
 const PRECACHE = [
   "/", "index.html", "offline.html",
+  "games.html", "apps.html", "universe.html", "about.html",
   "assets/css/main.css", "assets/css/responsive.css",
   "assets/js/config.js", "assets/js/i18n.js", "assets/js/slider.js", "assets/js/main.js",
   "image/logo.png", "image/icon.png"
