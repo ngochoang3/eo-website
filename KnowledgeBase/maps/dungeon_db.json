@@ -1,5 +1,4 @@
 {
-  "schemaVersion": 1,
   "name": "dungeon_db",
   "count": 127,
   "type_counts": {
@@ -9,7 +8,6 @@
     "tower": 1,
     "elite": 21
   },
-  "world_boss_hp_formula": "base_hp * 100 * sqrt(active_player_count)",
   "personal_loot_policy": "all instances use personal loot — no group loot",
   "time_bonus_rule": "clear within top 30% time remaining = bonus chest",
   "no_death_bonus_rule": "+20% EXP +10% gold if party zero deaths",

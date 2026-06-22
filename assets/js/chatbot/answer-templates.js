@@ -4,13 +4,13 @@
 
   function biomeName(ctx, biomeId) {
     if (biomeId === undefined || biomeId === null || biomeId === "") return null;
-    var idx = ctx.crossRef.biomeById[String(biomeId)];
+    var idx = ctx.index.crossRef.biomeById[String(biomeId)];
     if (idx !== undefined) return ctx.docs[idx].data.name;
     return "Biome " + biomeId;
   }
 
   function itemName(ctx, itemId) {
-    var idx = ctx.crossRef.itemsById[itemId];
+    var idx = ctx.index.crossRef.itemsById[itemId];
     return idx !== undefined ? ctx.docs[idx].data.name : itemId;
   }
 
@@ -64,7 +64,7 @@
     var s = d.display_name + " là NPC" + (d.npc_type ? " loại " + d.npc_type : "") +
       (biome ? ", có mặt tại " + biome : "") + ".";
     if (d.npc_type === "vendor" && d.shop_id) {
-      var shopIdx = ctx.crossRef.shopsByNpc[d.npc_id];
+      var shopIdx = ctx.index.crossRef.shopsByNpc[d.npc_id];
       if (shopIdx !== undefined) {
         var items = ctx.docs[shopIdx].data.items || [];
         var names = items.slice(0, 6).map(function (it) {
@@ -81,7 +81,7 @@
   }
 
   function sentShop(ctx, d) {
-    var npcIdx = ctx.crossRef.npcById[d.npc_id];
+    var npcIdx = ctx.index.crossRef.npcById[d.npc_id];
     var npcName = npcIdx !== undefined ? ctx.docs[npcIdx].data.display_name : d.npc_id;
     var items = d.items || [];
     var lines = items.map(function (it) {
@@ -153,7 +153,7 @@
     var s = d.name + " là vùng/world yêu cầu level " + d.level_min + " đến " + d.level_max +
       (d.element ? ", nguyên tố chủ đạo " + d.element : "") + (d.season ? ", mùa " + d.season : "") + ".";
     s += " Vùng này có " + d.boss_count + " boss và " + d.dungeon_count + " dungeon.";
-    var bossesIdx = ctx.crossRef.bossesByBiome[String(d.id)] || [];
+    var bossesIdx = ctx.index.crossRef.bossesByBiome[String(d.id)] || [];
     if (bossesIdx.length) {
       var names = bossesIdx.map(function (i) { return ctx.docs[i].data.name; });
       s += " Boss tại đây: " + names.join(", ") + ".";
@@ -232,5 +232,91 @@
     }
   }
 
-  global.EOAnswers = { generateAnswer: generateAnswer, biomeName: biomeName, itemName: itemName };
+  var RANK_FIELD_LABELS = {
+    hp: "HP", atk: "ATK", def: "DEF", reward_exp: "EXP thưởng", reward_gold: "vàng thưởng",
+    level: "level", _rankValue: "chỉ số chính"
+  };
+
+  function bulletList(names, max) {
+    max = max || 15;
+    var shown = names.slice(0, max);
+    var s = shown.map(function (n) { return "• " + n; }).join("\n");
+    if (names.length > max) s += "\n• …và " + (names.length - max) + " mục khác";
+    return s;
+  }
+
+  function sentGreeting() {
+    return "Xin chào! Mình là EO Assistant — hỏi mình về item, boss, NPC, quest, map, skill, shop, crafting… trong game EO nhé.";
+  }
+
+  function sentCount(result) {
+    return result.counts.map(function (c) {
+      var n = c.names && c.names.length ? c.names.length : (c.count || 0);
+      var head = "Hiện tại game có " + n + " " + c.label + (c.names && c.names.length ? ":" : ".");
+      if (c.names && c.names.length) return head + "\n" + bulletList(c.names);
+      return head;
+    }).join("\n\n");
+  }
+
+  function sentList(ctx, result) {
+    var head = "Có " + result.docs.length + " " + result.label +
+      (result.world !== undefined ? " tại world " + result.world : "") + ":\n" +
+      bulletList(result.docs.map(function (d) { return d.title; }));
+    if (result.docs.length <= 3) {
+      var details = result.docs.map(function (d) { return generateAnswer(d, ctx); }).join("\n\n");
+      return head + "\n\n" + details;
+    }
+    return head;
+  }
+
+  function sentShopList(ctx, result) {
+    return result.shops.map(function (shop) { return generateAnswer(shop, ctx); }).join("\n\n");
+  }
+
+  function sentDrop(doc) {
+    var d = doc.data;
+    var dropKey = d.drop || d.drop_table;
+    if (!dropKey) return (d.name || doc.title) + " hiện không có dữ liệu rơi đồ.";
+    return (d.name || doc.title) + " rơi vật phẩm theo bảng \"" + dropKey + "\"" +
+      " — tiếc là chi tiết vật phẩm cụ thể trong bảng này chưa có trong cơ sở dữ liệu game, " +
+      "nên mình chưa thể liệt kê chính xác item nào.";
+  }
+
+  function sentBest(ctx, result) {
+    var label = RANK_FIELD_LABELS[result.rankField] || result.rankField;
+    var name = result.best.title;
+    var value = result.best.data[result.rankField];
+    var qualifier = [];
+    if (result.className) qualifier.push("cho class " + result.className);
+    if (result.slot) qualifier.push("vị trí " + result.slot);
+    var head = (qualifier.length ? "Trong số các lựa chọn " + qualifier.join(" ") + ", " : "") +
+      name + " đang dẫn đầu về " + label + " (" + fmtNum(value) + ").";
+    var tail = generateAnswer(result.best, ctx);
+    var runner = result.runnerups.length
+      ? "\n\nXếp sau: " + result.runnerups.map(function (d) { return d.title; }).join(", ") + "."
+      : "";
+    return head + "\n\n" + tail + runner;
+  }
+
+  function generateStructuredAnswer(result, ctx) {
+    switch (result.type) {
+      case "greeting": return sentGreeting();
+      case "count": return sentCount(result);
+      case "list": return sentList(ctx, result);
+      case "shop_list": return sentShopList(ctx, result);
+      case "drop": return sentDrop(result.doc);
+      case "best": return sentBest(ctx, result);
+      case "single": return generateAnswer(result.doc, ctx);
+      case "none":
+      default:
+        return "Xin lỗi, tôi chưa tìm thấy đủ dữ liệu để trả lời chính xác.";
+    }
+  }
+
+  global.EOAnswers = {
+    generateAnswer: generateAnswer,
+    generateStructuredAnswer: generateStructuredAnswer,
+    biomeName: biomeName,
+    itemName: itemName
+  };
 })(window);

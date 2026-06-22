@@ -1,7 +1,7 @@
 {
-  "name": "EO Studio - Slime Fantasy Mobile Games",
+  "name": "EO Studio - Fantasy Mobile Games",
   "short_name": "EO Studio",
-  "description": "EO Studio - indie game studio kiến tạo game mobile và ứng dụng fantasy Slime dễ thương.",
+  "description": "EO Studio - indie game studio kiến tạo game mobile và ứng dụng fantasy dễ thương.",
   "start_url": "/index.html",
   "scope": "/",
   "display": "standalone",

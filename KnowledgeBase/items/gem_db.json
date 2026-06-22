@@ -118,7 +118,6 @@
       "unlock_level": 50,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -137,7 +136,6 @@
       "unlock_level": 100,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -156,7 +154,6 @@
       "unlock_level": 300,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -175,7 +172,6 @@
       "unlock_level": 700,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -194,7 +190,6 @@
       "unlock_level": 1200,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -213,7 +208,6 @@
       "unlock_level": 50,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -232,7 +226,6 @@
       "unlock_level": 100,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -251,7 +244,6 @@
       "unlock_level": 300,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -270,7 +262,6 @@
       "unlock_level": 700,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -289,7 +280,6 @@
       "unlock_level": 1200,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -308,7 +298,6 @@
       "unlock_level": 50,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -327,7 +316,6 @@
       "unlock_level": 100,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -346,7 +334,6 @@
       "unlock_level": 300,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -365,7 +352,6 @@
       "unlock_level": 700,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -384,7 +370,6 @@
       "unlock_level": 1200,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -403,7 +388,6 @@
       "unlock_level": 100,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -422,7 +406,6 @@
       "unlock_level": 200,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -441,7 +424,6 @@
       "unlock_level": 500,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -460,7 +442,6 @@
       "unlock_level": 900,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -479,7 +460,6 @@
       "unlock_level": 1500,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -498,7 +478,6 @@
       "unlock_level": 200,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -517,7 +496,6 @@
       "unlock_level": 400,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -536,7 +514,6 @@
       "unlock_level": 700,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -555,7 +532,6 @@
       "unlock_level": 1000,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -574,7 +550,6 @@
       "unlock_level": 1600,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -593,7 +568,6 @@
       "unlock_level": 200,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -612,7 +586,6 @@
       "unlock_level": 400,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -631,7 +604,6 @@
       "unlock_level": 700,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -650,7 +622,6 @@
       "unlock_level": 1100,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -669,7 +640,6 @@
       "unlock_level": 1700,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -688,7 +658,6 @@
       "unlock_level": 500,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -707,7 +676,6 @@
       "unlock_level": 800,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -726,7 +694,6 @@
       "unlock_level": 1100,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -745,7 +712,6 @@
       "unlock_level": 1500,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     },
     {
@@ -764,7 +730,6 @@
       "unlock_level": 1900,
       "extraction_tool": "gem_extract_tool",
       "extraction_tool_cost_gold": 200,
-      "is_power": true,
       "category": "player_gem"
     }
   ],
@@ -777,7 +742,6 @@
       "tier": 1,
       "flat_bonus": 0.05,
       "source": "creature_ranching",
-      "is_power": false,
       "category": "pet_gem"
     },
     {
@@ -788,7 +752,6 @@
       "tier": 1,
       "flat_bonus": 0.05,
       "source": "pet_expedition",
-      "is_power": false,
       "category": "pet_gem"
     }
   ]

@@ -9,8 +9,7 @@
       "effect": "+Boss Dmg (trong cap 1.3)",
       "rank_req": 1,
       "cost_points": 2,
-      "max_rank": 5,
-      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+      "max_rank": 5
     },
     {
       "id": "asc_02",
@@ -19,8 +18,7 @@
       "effect": "+Elite Dmg",
       "rank_req": 5,
       "cost_points": 2,
-      "max_rank": 5,
-      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+      "max_rank": 5
     },
     {
       "id": "asc_03",
@@ -29,8 +27,7 @@
       "effect": "+Penetration tới cap",
       "rank_req": 9,
       "cost_points": 2,
-      "max_rank": 5,
-      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+      "max_rank": 5
     },
     {
       "id": "asc_04",
@@ -39,8 +36,7 @@
       "effect": "Execute <8% HP non-boss",
       "rank_req": 13,
       "cost_points": 2,
-      "max_rank": 5,
-      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+      "max_rank": 5
     },
     {
       "id": "asc_05",
@@ -49,8 +45,7 @@
       "effect": "-Skill CD",
       "rank_req": 17,
       "cost_points": 2,
-      "max_rank": 5,
-      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+      "max_rank": 5
     },
     {
       "id": "asc_06",
@@ -59,8 +54,7 @@
       "effect": "+Skill Dmg trong budget",
       "rank_req": 21,
       "cost_points": 2,
-      "max_rank": 5,
-      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+      "max_rank": 5
     },
     {
       "id": "asc_07",
@@ -69,8 +63,7 @@
       "effect": "+PvP Dmg riêng",
       "rank_req": 1,
       "cost_points": 2,
-      "max_rank": 5,
-      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+      "max_rank": 5
     },
     {
       "id": "asc_08",
@@ -79,8 +72,7 @@
       "effect": "+PvP DR",
       "rank_req": 5,
       "cost_points": 2,
-      "max_rank": 5,
-      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+      "max_rank": 5
     },
     {
       "id": "asc_09",
@@ -89,8 +81,7 @@
       "effect": "xóa 1 CC/15s",
       "rank_req": 9,
       "cost_points": 2,
-      "max_rank": 5,
-      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+      "max_rank": 5
     },
     {
       "id": "asc_10",
@@ -99,8 +90,7 @@
       "effect": "+Tenacity giảm CC",
       "rank_req": 13,
       "cost_points": 2,
-      "max_rank": 5,
-      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+      "max_rank": 5
     },
     {
       "id": "asc_11",
@@ -109,8 +99,7 @@
       "effect": "Reflect khi block",
       "rank_req": 17,
       "cost_points": 2,
-      "max_rank": 5,
-      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+      "max_rank": 5
     },
     {
       "id": "asc_12",
@@ -119,8 +108,7 @@
       "effect": "+Move khi low HP",
       "rank_req": 21,
       "cost_points": 2,
-      "max_rank": 5,
-      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+      "max_rank": 5
     },
     {
       "id": "asc_13",
@@ -129,8 +117,7 @@
       "effect": "+Gather yield",
       "rank_req": 1,
       "cost_points": 2,
-      "max_rank": 5,
-      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+      "max_rank": 5
     },
     {
       "id": "asc_14",
@@ -139,8 +126,7 @@
       "effect": "+Craft success",
       "rank_req": 5,
       "cost_points": 2,
-      "max_rank": 5,
-      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+      "max_rank": 5
     },
     {
       "id": "asc_15",
@@ -149,8 +135,7 @@
       "effect": "+Rare craft",
       "rank_req": 9,
       "cost_points": 2,
-      "max_rank": 5,
-      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+      "max_rank": 5
     },
     {
       "id": "asc_16",
@@ -159,8 +144,7 @@
       "effect": "+Life stamina cap",
       "rank_req": 13,
       "cost_points": 2,
-      "max_rank": 5,
-      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+      "max_rank": 5
     },
     {
       "id": "asc_17",
@@ -169,8 +153,7 @@
       "effect": "-Craft gold",
       "rank_req": 17,
       "cost_points": 2,
-      "max_rank": 5,
-      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+      "max_rank": 5
     },
     {
       "id": "asc_18",
@@ -179,8 +162,7 @@
       "effect": "+Food buff dur",
       "rank_req": 21,
       "cost_points": 2,
-      "max_rank": 5,
-      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+      "max_rank": 5
     },
     {
       "id": "asc_19",
@@ -189,8 +171,7 @@
       "effect": "+Gold drop",
       "rank_req": 1,
       "cost_points": 2,
-      "max_rank": 5,
-      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+      "max_rank": 5
     },
     {
       "id": "asc_20",
@@ -199,8 +180,7 @@
       "effect": "+Drop rate",
       "rank_req": 5,
       "cost_points": 2,
-      "max_rank": 5,
-      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+      "max_rank": 5
     },
     {
       "id": "asc_21",
@@ -209,8 +189,7 @@
       "effect": "-AH tax",
       "rank_req": 9,
       "cost_points": 2,
-      "max_rank": 5,
-      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+      "max_rank": 5
     },
     {
       "id": "asc_22",
@@ -219,8 +198,7 @@
       "effect": "+Material",
       "rank_req": 13,
       "cost_points": 2,
-      "max_rank": 5,
-      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+      "max_rank": 5
     },
     {
       "id": "asc_23",
@@ -229,8 +207,7 @@
       "effect": "+Soul drop",
       "rank_req": 17,
       "cost_points": 2,
-      "max_rank": 5,
-      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+      "max_rank": 5
     },
     {
       "id": "asc_24",
@@ -239,8 +216,7 @@
       "effect": "-Repair cost",
       "rank_req": 21,
       "cost_points": 2,
-      "max_rank": 5,
-      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+      "max_rank": 5
     }
   ]
 }

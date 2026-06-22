@@ -36,8 +36,9 @@
     var rawTokens = T.tokenizeMeaningful(query);
     if (!rawTokens.length) rawTokens = T.tokenize(query);
 
-    var scores = {}; // docIdx -> accumulated score
+    var scores = {};       // docIdx -> accumulated score
     var matchTypes = {};
+    var matchedTokens = {}; // docIdx -> Set of distinct query tokens that matched it
 
     rawTokens.forEach(function (token) {
       var candidates = [token];
@@ -45,19 +46,25 @@
 
       candidates.forEach(function (term) {
         var docs = index.invertedIndex[term];
-        var weight = idf(index, term);
         if (docs) {
+          // weight by how common the MATCHED term is in the corpus — rare
+          // real terms score high, but an unmatched query token must never
+          // inflate its own weight just because it doesn't exist anywhere.
+          var weight = idf(index, term);
           docs.forEach(function (docIdx) {
             scores[docIdx] = (scores[docIdx] || 0) + weight;
             matchTypes[docIdx] = matchTypes[docIdx] || (term === token ? "keyword" : "synonym");
+            (matchedTokens[docIdx] = matchedTokens[docIdx] || {})[token] = true;
           });
         } else {
           var fuzzy = findFuzzyTerm(index, term, 4000);
           if (fuzzy) {
+            var fuzzyWeight = idf(index, fuzzy.term);
             var fuzzyDocs = index.invertedIndex[fuzzy.term] || [];
             fuzzyDocs.forEach(function (docIdx) {
-              scores[docIdx] = (scores[docIdx] || 0) + weight * fuzzy.score * 0.6;
+              scores[docIdx] = (scores[docIdx] || 0) + fuzzyWeight * fuzzy.score * 0.6;
               matchTypes[docIdx] = matchTypes[docIdx] || "fuzzy";
+              (matchedTokens[docIdx] = matchedTokens[docIdx] || {})[token] = true;
             });
           }
         }
@@ -65,7 +72,9 @@
     });
 
     var ranked = Object.keys(scores).map(function (k) {
-      return { docIdx: parseInt(k, 10), score: scores[k], matchType: matchTypes[k] };
+      var idx = parseInt(k, 10);
+      var coverage = rawTokens.length ? Object.keys(matchedTokens[k] || {}).length / rawTokens.length : 0;
+      return { docIdx: idx, score: scores[k], matchType: matchTypes[k], tokenCoverage: coverage };
     });
     ranked.sort(function (a, b) { return b.score - a.score; });
     return ranked.slice(0, limit);

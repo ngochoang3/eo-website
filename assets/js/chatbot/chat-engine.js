@@ -52,7 +52,7 @@
         window.EOKBCache.setCached(versionTag, { docs: state.docs, index: state.index });
       }
       state.stats.totalDocs = state.docs.length;
-      state.ctx = { docs: state.docs, crossRef: state.index.crossRef };
+      state.ctx = { docs: state.docs, index: state.index };
       state.ready = true;
       return state;
     })();
@@ -66,66 +66,49 @@
     return init(onProgress);
   }
 
-  function docsFromIndices(indices) {
-    return (indices || []).map(function (i) { return state.docs[i]; }).filter(Boolean);
-  }
-
-  function resolveByCrossRef(nlu) {
-    var ref = state.index.crossRef;
-    var w = nlu.worldNumber;
-    if (w === null || w === undefined) return null;
-
-    if (nlu.intents.indexOf("boss") !== -1) return docsFromIndices(ref.bossesByBiome[String(w)]);
-    if (nlu.intents.indexOf("monster") !== -1) return docsFromIndices(ref.monstersByBiome[String(w)]);
-    if (nlu.intents.indexOf("npc") !== -1) return docsFromIndices(ref.npcsByBiome[String(w)]);
-    if (nlu.intents.indexOf("quest") !== -1) return docsFromIndices(ref.questsByBiome[String(w)]);
-    if (nlu.intents.indexOf("dungeon") !== -1) return docsFromIndices(ref.dungeonsByBiome[String(w)]);
-    if (nlu.intents.indexOf("map") !== -1 || nlu.intents.indexOf("levelRequirement") !== -1) {
-      var biomeIdx = ref.biomeById[String(w)];
-      return biomeIdx !== undefined ? [state.docs[biomeIdx]] : null;
+  function resultDocs(result) {
+    if (!result) return [];
+    switch (result.type) {
+      case "single": return [result.doc];
+      case "drop": return [result.doc];
+      case "best": return [result.best];
+      case "list": return result.docs;
+      case "shop_list": return result.npcs.concat(result.shops);
+      default: return [];
     }
-    return null;
   }
 
-  function composeAnswer(docs) {
-    if (!docs || !docs.length) return null;
-    var unique = [];
-    var seenTitles = {};
-    docs.forEach(function (d) {
-      var key = d.category + ":" + d.title;
-      if (!seenTitles[key]) { seenTitles[key] = true; unique.push(d); }
-    });
-    var sentences = unique.slice(0, NO_RESULT_LIMIT).map(function (d) {
-      return window.EOAnswers.generateAnswer(d, state.ctx);
-    });
-    var prefix = unique.length > 1 ? "Có " + unique.length + " kết quả phù hợp:\n\n" : "";
-    return prefix + sentences.join("\n\n");
-  }
-
+  // Phase 1 → 6: Intent Detection → Entity Extraction → Knowledge Retrieval →
+  // Reasoning → Natural Language Generation → Answer. Every step is rule-based
+  // JavaScript running in the browser — no OpenAI/Claude/Gemini/paid AI calls.
   async function ask(userText) {
     await init();
     var memory = window.EOMemory.load();
-    var resolvedText = window.EOMemory.resolvePronoun(memory, userText);
-    var nlu = window.EONLU.analyze(resolvedText);
 
-    var docs = resolveByCrossRef(nlu);
+    var intentResult = window.EOIntent.detect(userText);
+    var entities = window.EOEntities.extract(intentResult, userText, state.ctx, memory);
+    var result = window.EOReasoning.run(intentResult, entities, state.ctx);
 
-    if (!docs || !docs.length) {
-      var results = window.EOSearch.search(state.index, resolvedText, { limit: NO_RESULT_LIMIT });
-      docs = docsFromIndices(results.map(function (r) { return r.docIdx; }));
+    if (result.type === "none" && !entities.pronounResolved) {
+      var fallbackHits = window.EOSearch.search(state.index, userText, { limit: 5 })
+        .filter(function (r) { return r.score >= 1.3 && (r.tokenCoverage === undefined || r.tokenCoverage > 0.5); });
+      if (fallbackHits.length) {
+        result = { type: "list", label: "kết quả", docs: fallbackHits.map(function (r) { return state.docs[r.docIdx]; }) };
+      }
     }
 
-    var answerText = composeAnswer(docs) || FALLBACK_TEXT;
-    var topDoc = docs && docs[0];
+    var answerText = window.EOAnswers.generateStructuredAnswer(result, state.ctx);
+    var entityDocs = resultDocs(result);
 
-    window.EOMemory.remember(memory, userText, answerText, topDoc ? topDoc.title : null, topDoc ? topDoc.category : null);
+    window.EOMemory.remember(memory, userText, answerText, entityDocs, intentResult.intent);
 
     return {
       text: answerText,
-      sources: (docs || []).slice(0, NO_RESULT_LIMIT).map(function (d) {
+      sources: entityDocs.slice(0, NO_RESULT_LIMIT).map(function (d) {
         return { category: d.category, sourceFile: d.sourceFile, title: d.title };
       }),
-      isFallback: !docs || !docs.length
+      intent: intentResult.intent,
+      isFallback: result.type === "none"
     };
   }
 

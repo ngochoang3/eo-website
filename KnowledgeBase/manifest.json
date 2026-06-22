@@ -1,39 +1,7 @@
 {
-  "generatedAt": "2026-06-21",
+  "generatedAt": "2026-06-23b",
   "categories": {
     "items": [
-      {
-        "file": "02_RELIC_SYSTEM.md",
-        "type": "markdown"
-      },
-      {
-        "file": "03_ARTIFACT_SYSTEM.md",
-        "type": "markdown"
-      },
-      {
-        "file": "04_TRAIT_SYSTEM.md",
-        "type": "markdown"
-      },
-      {
-        "file": "05_RUNE_SYSTEM.md",
-        "type": "markdown"
-      },
-      {
-        "file": "08_PET_EQUIPMENT.md",
-        "type": "markdown"
-      },
-      {
-        "file": "MOUNT_SYSTEM.md",
-        "type": "markdown"
-      },
-      {
-        "file": "SOULBOND_SYSTEM.md",
-        "type": "markdown"
-      },
-      {
-        "file": "WING_SYSTEM.md",
-        "type": "markdown"
-      },
       {
         "file": "affix_db.json",
         "type": "json"
@@ -85,18 +53,6 @@
     ],
     "monsters": [
       {
-        "file": "07_CREATURE_SYSTEM.md",
-        "type": "markdown"
-      },
-      {
-        "file": "16_MONSTER_FAMILY_ARCHITECTURE.md",
-        "type": "markdown"
-      },
-      {
-        "file": "PET_BEHAVIOR_ARCHITECTURE.md",
-        "type": "markdown"
-      },
-      {
         "file": "boss_db.json",
         "type": "json"
       },
@@ -119,19 +75,11 @@
     ],
     "quests": [
       {
-        "file": "QUEST_PIPELINE_ARCHITECTURE.md",
-        "type": "markdown"
-      },
-      {
         "file": "quest_db.json",
         "type": "json"
       }
     ],
     "npc": [
-      {
-        "file": "13_NPC_ARCHITECTURE.md",
-        "type": "markdown"
-      },
       {
         "file": "npc_db.json",
         "type": "json"
@@ -139,140 +87,8 @@
     ],
     "maps": [
       {
-        "file": "14_DUNGEON_ARCHITECTURE.md",
-        "type": "markdown"
-      },
-      {
-        "file": "BiomeTemplate.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "ChunkRegistry.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "MainGameMapConfig.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "RegionChunkConfig.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "RegionTownRegistry.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "RespawnConfig.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "SeasonalTileDatabase.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "TownChunkProfile.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "WORLD_MAP_SYSTEM.md",
-        "type": "markdown"
-      },
-      {
-        "file": "WorldRegionConfig.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "WorldRegionDatabase.asset",
-        "type": "unity-yaml"
-      },
-      {
         "file": "dungeon_db.json",
         "type": "json"
-      },
-      {
-        "file": "regions/RegionGridConfig_R00 1.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "regions/RegionGridConfig_R00 10.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "regions/RegionGridConfig_R00 11.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "regions/RegionGridConfig_R00 12.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "regions/RegionGridConfig_R00 13.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "regions/RegionGridConfig_R00 14.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "regions/RegionGridConfig_R00 15.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "regions/RegionGridConfig_R00 16.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "regions/RegionGridConfig_R00 17.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "regions/RegionGridConfig_R00 18.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "regions/RegionGridConfig_R00 19.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "regions/RegionGridConfig_R00 2.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "regions/RegionGridConfig_R00 20.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "regions/RegionGridConfig_R00 3.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "regions/RegionGridConfig_R00 4.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "regions/RegionGridConfig_R00 5.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "regions/RegionGridConfig_R00 6.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "regions/RegionGridConfig_R00 7.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "regions/RegionGridConfig_R00 8.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "regions/RegionGridConfig_R00 9.asset",
-        "type": "unity-yaml"
-      },
-      {
-        "file": "regions/RegionGridConfig_R00.asset",
-        "type": "unity-yaml"
       },
       {
         "file": "territory_zones.json",
@@ -280,22 +96,6 @@
       }
     ],
     "skills": [
-      {
-        "file": "06_MASTERY_SYSTEM.md",
-        "type": "markdown"
-      },
-      {
-        "file": "09_ELEMENT_CHART.md",
-        "type": "markdown"
-      },
-      {
-        "file": "15_DAMAGE_TYPE_ARCHITECTURE.md",
-        "type": "markdown"
-      },
-      {
-        "file": "SKILL_SYSTEM_DETAILED.md",
-        "type": "markdown"
-      },
       {
         "file": "ascension_ranks.json",
         "type": "json"
@@ -309,10 +109,6 @@
         "type": "text"
       },
       {
-        "file": "damage_type_config.json",
-        "type": "json"
-      },
-      {
         "file": "element_chart.json",
         "type": "json"
       },
@@ -323,83 +119,43 @@
     ],
     "drops": [
       {
-        "file": "10_LOOT_ALGORITHM.md",
+        "file": "drop_info_guide.md",
         "type": "markdown"
-      },
-      {
-        "file": "11_PITY_FAILSTACK.md",
-        "type": "markdown"
-      },
-      {
-        "file": "pity_config.json",
-        "type": "json"
       }
     ],
     "shops": [
       {
-        "file": "09_SHOP_ARCHITECTURE.md",
+        "file": "auction_house_guide.md",
         "type": "markdown"
       },
       {
-        "file": "10_GACHA_ARCHITECTURE.md",
-        "type": "markdown"
-      },
-      {
-        "file": "AUCTION_HOUSE_DETAILED.md",
-        "type": "markdown"
-      },
-      {
-        "file": "MONETIZATION_PASS.md",
-        "type": "markdown"
-      },
-      {
-        "file": "MONETIZATION_VIP_COSMETICS.md",
+        "file": "battle_pass_guide.md",
         "type": "markdown"
       },
       {
         "file": "shop_db.json",
         "type": "json"
+      },
+      {
+        "file": "vip_cosmetics_guide.md",
+        "type": "markdown"
       }
     ],
     "crafting": [
       {
-        "file": "CRAFTING_SYSTEM_DETAILED.md",
-        "type": "markdown"
-      },
-      {
-        "file": "GATHERING_SYSTEM_DETAILED.md",
-        "type": "markdown"
-      },
-      {
         "file": "crafting_db.json",
         "type": "json"
+      },
+      {
+        "file": "crafting_guide.md",
+        "type": "markdown"
+      },
+      {
+        "file": "gathering_guide.md",
+        "type": "markdown"
       }
     ],
     "worlds": [
-      {
-        "file": "03_WORLD_EVENT_SYSTEM.md",
-        "type": "markdown"
-      },
-      {
-        "file": "DAY_NIGHT_SYSTEM.md",
-        "type": "markdown"
-      },
-      {
-        "file": "HOUSING_EXPANSION.md",
-        "type": "markdown"
-      },
-      {
-        "file": "HOUSING_SYSTEM_systems.md",
-        "type": "markdown"
-      },
-      {
-        "file": "WEATHER_SYSTEM.md",
-        "type": "markdown"
-      },
-      {
-        "file": "WORLD_SIMULATION_ARCHITECTURE.md",
-        "type": "markdown"
-      },
       {
         "file": "biome_element_weakness.json",
         "type": "json"
@@ -409,18 +165,34 @@
         "type": "json"
       },
       {
+        "file": "day_night_guide.md",
+        "type": "markdown"
+      },
+      {
+        "file": "housing_guide.md",
+        "type": "markdown"
+      },
+      {
         "file": "season_db.json",
         "type": "json"
+      },
+      {
+        "file": "weather_guide.md",
+        "type": "markdown"
+      },
+      {
+        "file": "world_event_guide.md",
+        "type": "markdown"
       }
     ],
     "dialogs": [
       {
-        "file": "REPUTATION_SYSTEM.md",
-        "type": "markdown"
-      },
-      {
         "file": "reputation_factions.json",
         "type": "json"
+      },
+      {
+        "file": "reputation_guide.md",
+        "type": "markdown"
       }
     ],
     "tutorials": [
@@ -431,59 +203,43 @@
     ],
     "guides": [
       {
-        "file": "01_GUILD_ARCHITECTURE.md",
+        "file": "catchup_guide.md",
         "type": "markdown"
       },
       {
-        "file": "02_PARTY_MATCHMAKING_ARCHITECTURE.md",
+        "file": "daily_weekly_guide.md",
         "type": "markdown"
       },
       {
-        "file": "07_DAILY_WEEKLY_ACTIVITY_SYSTEM.md",
+        "file": "friend_guide.md",
         "type": "markdown"
       },
       {
-        "file": "08_MAIL_SYSTEM.md",
+        "file": "guild_guide.md",
         "type": "markdown"
       },
       {
-        "file": "11_LIVEOPS_ARCHITECTURE.md",
+        "file": "mail_guide.md",
         "type": "markdown"
       },
       {
-        "file": "15_OFFLINE_PROGRESS_SYSTEM.md",
+        "file": "mentor_milestones.json",
+        "type": "json"
+      },
+      {
+        "file": "offline_progress_guide.md",
         "type": "markdown"
       },
       {
-        "file": "16_CATCHUP_SYSTEM.md",
+        "file": "party_guide.md",
         "type": "markdown"
       },
       {
-        "file": "FRIEND_SYSTEM.md",
-        "type": "markdown"
+        "file": "party_progression.json",
+        "type": "json"
       },
       {
-        "file": "INDEX.md",
-        "type": "markdown"
-      },
-      {
-        "file": "MMORPG_BIBLE_V10.md",
-        "type": "markdown"
-      },
-      {
-        "file": "MMORPG_BIBLE_V10_VOL2.md",
-        "type": "markdown"
-      },
-      {
-        "file": "PVP_ARCHITECTURE.md",
-        "type": "markdown"
-      },
-      {
-        "file": "README.md",
-        "type": "markdown"
-      },
-      {
-        "file": "UI_UX_ARCHITECTURE.md",
+        "file": "pvp_guide.md",
         "type": "markdown"
       }
     ],
@@ -496,24 +252,20 @@
     "faq": [],
     "achievements": [
       {
-        "file": "04_ACHIEVEMENT_SYSTEM.md",
-        "type": "markdown"
-      },
-      {
-        "file": "05_TITLE_SYSTEM.md",
-        "type": "markdown"
-      },
-      {
-        "file": "06_COLLECTION_CODEX_SYSTEM.md",
-        "type": "markdown"
-      },
-      {
-        "file": "LEADERBOARD_ARCHITECTURE.md",
+        "file": "achievement_guide.md",
         "type": "markdown"
       },
       {
         "file": "battle_pass_db.json",
         "type": "json"
+      },
+      {
+        "file": "collection_codex_guide.md",
+        "type": "markdown"
+      },
+      {
+        "file": "title_guide.md",
+        "type": "markdown"
       }
     ],
     "lore": [
@@ -605,29 +357,7 @@
         "file": "chương 4 sa mac.txt",
         "type": "text"
       }
-    ],
-    "raw": [
-      {
-        "file": "growth_systems_db.json",
-        "type": "json"
-      },
-      {
-        "file": "mentor_milestones.json",
-        "type": "json"
-      },
-      {
-        "file": "party_progression.json",
-        "type": "json"
-      },
-      {
-        "file": "power_budget.json",
-        "type": "json"
-      },
-      {
-        "file": "progression_1_2000.json",
-        "type": "json"
-      }
     ]
   },
-  "totalFiles": 148
+  "totalFiles": 81
 }

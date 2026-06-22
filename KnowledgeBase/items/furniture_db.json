@@ -23,7 +23,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -35,7 +34,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -47,7 +45,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -59,7 +56,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -71,7 +67,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -83,7 +78,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -95,7 +89,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -107,7 +100,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -119,7 +111,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -131,7 +122,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -143,7 +133,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -155,7 +144,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -167,7 +155,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -179,7 +166,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -191,7 +177,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -203,7 +188,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -215,7 +199,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -227,7 +210,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -239,7 +221,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -251,7 +232,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -263,7 +243,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -275,7 +254,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -287,7 +265,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -299,7 +276,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -311,7 +287,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -323,7 +298,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -335,7 +309,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -347,7 +320,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -359,7 +331,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -371,7 +342,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -383,7 +353,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -395,7 +364,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -407,7 +375,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -419,7 +386,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -431,7 +397,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -443,7 +408,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -455,7 +419,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -467,7 +430,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -479,7 +441,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -491,7 +452,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -503,7 +463,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -515,7 +474,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -527,7 +485,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -539,7 +496,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -551,7 +507,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -563,7 +518,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -575,7 +529,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -587,7 +540,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -599,7 +551,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -611,7 +562,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -623,7 +573,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -635,7 +584,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -647,7 +595,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -659,7 +606,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -671,7 +617,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -683,7 +628,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -695,7 +639,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -707,7 +650,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -719,7 +661,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -731,7 +672,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -743,7 +683,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -755,7 +694,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -767,7 +705,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -779,7 +716,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -791,7 +727,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -803,7 +738,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -815,7 +749,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -827,7 +760,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -839,7 +771,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -851,7 +782,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -863,7 +793,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -875,7 +804,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -887,7 +815,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -899,7 +826,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -911,7 +837,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -923,7 +848,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -935,7 +859,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -947,7 +870,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -959,7 +881,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -971,7 +892,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -983,7 +903,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -995,7 +914,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1007,7 +925,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1019,7 +936,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1031,7 +947,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1043,7 +958,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1055,7 +969,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1067,7 +980,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1079,7 +991,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1091,7 +1002,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1103,7 +1013,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1115,7 +1024,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1127,7 +1035,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1139,7 +1046,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1151,7 +1057,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1163,7 +1068,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1175,7 +1079,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1187,7 +1090,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1199,7 +1101,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1211,7 +1112,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1223,7 +1123,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1235,7 +1134,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1247,7 +1145,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1259,7 +1156,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1271,7 +1167,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1283,7 +1178,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1295,7 +1189,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1307,7 +1200,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1319,7 +1211,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1331,7 +1222,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1343,7 +1233,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1355,7 +1244,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1367,7 +1255,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1379,7 +1266,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1391,7 +1277,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1403,7 +1288,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1415,7 +1299,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1427,7 +1310,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1439,7 +1321,6 @@
       "grid_size": 1,
       "housing_score": 10,
       "gold_cost": 500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1451,7 +1332,6 @@
       "grid_size": 2,
       "housing_score": 25,
       "gold_cost": 1500,
-      "is_power": false,
       "effect": null
     },
     {
@@ -1463,7 +1343,6 @@
       "grid_size": 2,
       "housing_score": 20,
       "gold_cost": 3000,
-      "is_power": false,
       "effect": {
         "type": "rest_exp_bonus",
         "value": 0.05,
@@ -1481,7 +1360,6 @@
       "grid_size": 2,
       "housing_score": 20,
       "gold_cost": 3000,
-      "is_power": false,
       "effect": {
         "type": "craft_speed",
         "value": 0.1,
@@ -1499,7 +1377,6 @@
       "grid_size": 2,
       "housing_score": 20,
       "gold_cost": 3000,
-      "is_power": false,
       "effect": {
         "type": "gather_bonus",
         "value": 0.05,
@@ -1517,7 +1394,6 @@
       "grid_size": 2,
       "housing_score": 20,
       "gold_cost": 3000,
-      "is_power": false,
       "effect": {
         "type": "potion_efficiency",
         "value": 0.05,
@@ -1535,7 +1411,6 @@
       "grid_size": 2,
       "housing_score": 20,
       "gold_cost": 3000,
-      "is_power": false,
       "effect": {
         "type": "repair_discount",
         "value": 0.1,
@@ -1553,7 +1428,6 @@
       "grid_size": 2,
       "housing_score": 20,
       "gold_cost": 3000,
-      "is_power": false,
       "effect": {
         "type": "rest_exp_bonus",
         "value": 0.05,
@@ -1571,7 +1445,6 @@
       "grid_size": 2,
       "housing_score": 20,
       "gold_cost": 3000,
-      "is_power": false,
       "effect": {
         "type": "craft_speed",
         "value": 0.1,
@@ -1589,7 +1462,6 @@
       "grid_size": 2,
       "housing_score": 20,
       "gold_cost": 3000,
-      "is_power": false,
       "effect": {
         "type": "gather_bonus",
         "value": 0.05,
@@ -1607,7 +1479,6 @@
       "grid_size": 2,
       "housing_score": 20,
       "gold_cost": 3000,
-      "is_power": false,
       "effect": {
         "type": "potion_efficiency",
         "value": 0.05,
@@ -1625,7 +1496,6 @@
       "grid_size": 2,
       "housing_score": 20,
       "gold_cost": 3000,
-      "is_power": false,
       "effect": {
         "type": "repair_discount",
         "value": 0.1,
@@ -1643,7 +1513,6 @@
       "grid_size": 2,
       "housing_score": 20,
       "gold_cost": 3000,
-      "is_power": false,
       "effect": {
         "type": "rest_exp_bonus",
         "value": 0.05,
@@ -1661,7 +1530,6 @@
       "grid_size": 2,
       "housing_score": 20,
       "gold_cost": 3000,
-      "is_power": false,
       "effect": {
         "type": "craft_speed",
         "value": 0.1,
@@ -1679,7 +1547,6 @@
       "grid_size": 2,
       "housing_score": 20,
       "gold_cost": 3000,
-      "is_power": false,
       "effect": {
         "type": "gather_bonus",
         "value": 0.05,
@@ -1697,7 +1564,6 @@
       "grid_size": 2,
       "housing_score": 20,
       "gold_cost": 3000,
-      "is_power": false,
       "effect": {
         "type": "potion_efficiency",
         "value": 0.05,
@@ -1715,7 +1581,6 @@
       "grid_size": 2,
       "housing_score": 20,
       "gold_cost": 3000,
-      "is_power": false,
       "effect": {
         "type": "repair_discount",
         "value": 0.1,
@@ -1733,7 +1598,6 @@
       "grid_size": 2,
       "housing_score": 20,
       "gold_cost": 3000,
-      "is_power": false,
       "effect": {
         "type": "rest_exp_bonus",
         "value": 0.05,
@@ -1751,7 +1615,6 @@
       "grid_size": 2,
       "housing_score": 20,
       "gold_cost": 3000,
-      "is_power": false,
       "effect": {
         "type": "craft_speed",
         "value": 0.1,
@@ -1769,7 +1632,6 @@
       "grid_size": 2,
       "housing_score": 20,
       "gold_cost": 3000,
-      "is_power": false,
       "effect": {
         "type": "gather_bonus",
         "value": 0.05,
@@ -1787,7 +1649,6 @@
       "grid_size": 2,
       "housing_score": 20,
       "gold_cost": 3000,
-      "is_power": false,
       "effect": {
         "type": "potion_efficiency",
         "value": 0.05,
@@ -1805,7 +1666,6 @@
       "grid_size": 2,
       "housing_score": 20,
       "gold_cost": 3000,
-      "is_power": false,
       "effect": {
         "type": "repair_discount",
         "value": 0.1,
@@ -1823,7 +1683,6 @@
       "grid_size": 2,
       "housing_score": 20,
       "gold_cost": 3000,
-      "is_power": false,
       "effect": {
         "type": "rest_exp_bonus",
         "value": 0.05,
@@ -1841,7 +1700,6 @@
       "grid_size": 2,
       "housing_score": 20,
       "gold_cost": 3000,
-      "is_power": false,
       "effect": {
         "type": "craft_speed",
         "value": 0.1,
@@ -1859,7 +1717,6 @@
       "grid_size": 2,
       "housing_score": 20,
       "gold_cost": 3000,
-      "is_power": false,
       "effect": {
         "type": "gather_bonus",
         "value": 0.05,
@@ -1877,7 +1734,6 @@
       "grid_size": 2,
       "housing_score": 20,
       "gold_cost": 3000,
-      "is_power": false,
       "effect": {
         "type": "potion_efficiency",
         "value": 0.05,
@@ -1895,7 +1751,6 @@
       "grid_size": 2,
       "housing_score": 20,
       "gold_cost": 3000,
-      "is_power": false,
       "effect": {
         "type": "repair_discount",
         "value": 0.1,
@@ -1913,7 +1768,6 @@
       "grid_size": 2,
       "housing_score": 15,
       "gold_cost": 1000,
-      "is_power": false,
       "effect": {
         "type": "gold_gen",
         "gold_per_hour": 100,
@@ -1930,7 +1784,6 @@
       "grid_size": 2,
       "housing_score": 15,
       "gold_cost": 1000,
-      "is_power": false,
       "effect": {
         "type": "gold_gen",
         "gold_per_hour": 100,
@@ -1947,7 +1800,6 @@
       "grid_size": 2,
       "housing_score": 15,
       "gold_cost": 1000,
-      "is_power": false,
       "effect": {
         "type": "gold_gen",
         "gold_per_hour": 100,
@@ -1964,7 +1816,6 @@
       "grid_size": 2,
       "housing_score": 15,
       "gold_cost": 1000,
-      "is_power": false,
       "effect": {
         "type": "gold_gen",
         "gold_per_hour": 100,
@@ -1981,7 +1832,6 @@
       "grid_size": 2,
       "housing_score": 15,
       "gold_cost": 1000,
-      "is_power": false,
       "effect": {
         "type": "gold_gen",
         "gold_per_hour": 100,
@@ -1998,7 +1848,6 @@
       "grid_size": 2,
       "housing_score": 15,
       "gold_cost": 5000,
-      "is_power": false,
       "effect": {
         "type": "gold_gen",
         "gold_per_hour": 250,
@@ -2015,7 +1864,6 @@
       "grid_size": 2,
       "housing_score": 15,
       "gold_cost": 5000,
-      "is_power": false,
       "effect": {
         "type": "gold_gen",
         "gold_per_hour": 250,
@@ -2032,7 +1880,6 @@
       "grid_size": 2,
       "housing_score": 15,
       "gold_cost": 5000,
-      "is_power": false,
       "effect": {
         "type": "gold_gen",
         "gold_per_hour": 250,
@@ -2049,7 +1896,6 @@
       "grid_size": 2,
       "housing_score": 15,
       "gold_cost": 5000,
-      "is_power": false,
       "effect": {
         "type": "gold_gen",
         "gold_per_hour": 250,
@@ -2066,7 +1912,6 @@
       "grid_size": 2,
       "housing_score": 15,
       "gold_cost": 5000,
-      "is_power": false,
       "effect": {
         "type": "gold_gen",
         "gold_per_hour": 250,
@@ -2083,7 +1928,6 @@
       "grid_size": 2,
       "housing_score": 15,
       "gold_cost": 20000,
-      "is_power": false,
       "effect": {
         "type": "gold_gen",
         "gold_per_hour": 500,
@@ -2100,7 +1944,6 @@
       "grid_size": 2,
       "housing_score": 15,
       "gold_cost": 20000,
-      "is_power": false,
       "effect": {
         "type": "gold_gen",
         "gold_per_hour": 500,
@@ -2117,7 +1960,6 @@
       "grid_size": 2,
       "housing_score": 15,
       "gold_cost": 20000,
-      "is_power": false,
       "effect": {
         "type": "gold_gen",
         "gold_per_hour": 500,
@@ -2134,7 +1976,6 @@
       "grid_size": 2,
       "housing_score": 15,
       "gold_cost": 20000,
-      "is_power": false,
       "effect": {
         "type": "gold_gen",
         "gold_per_hour": 500,
@@ -2151,7 +1992,6 @@
       "grid_size": 2,
       "housing_score": 15,
       "gold_cost": 20000,
-      "is_power": false,
       "effect": {
         "type": "gold_gen",
         "gold_per_hour": 500,
@@ -2168,7 +2008,6 @@
       "grid_size": 2,
       "housing_score": 30,
       "gold_cost": 2000,
-      "is_power": false,
       "effect": {
         "type": "display",
         "display_type": "trophy_wall",
@@ -2186,7 +2025,6 @@
       "grid_size": 2,
       "housing_score": 30,
       "gold_cost": 2000,
-      "is_power": false,
       "effect": {
         "type": "display",
         "display_type": "trophy_wall",
@@ -2204,7 +2042,6 @@
       "grid_size": 2,
       "housing_score": 30,
       "gold_cost": 2000,
-      "is_power": false,
       "effect": {
         "type": "display",
         "display_type": "trophy_wall",
@@ -2222,7 +2059,6 @@
       "grid_size": 2,
       "housing_score": 30,
       "gold_cost": 2000,
-      "is_power": false,
       "effect": {
         "type": "display",
         "display_type": "trophy_wall",
@@ -2240,7 +2076,6 @@
       "grid_size": 2,
       "housing_score": 30,
       "gold_cost": 2000,
-      "is_power": false,
       "effect": {
         "type": "display",
         "display_type": "trophy_wall",
@@ -2258,7 +2093,6 @@
       "grid_size": 2,
       "housing_score": 30,
       "gold_cost": 2000,
-      "is_power": false,
       "effect": {
         "type": "display",
         "display_type": "achievement_frame",
@@ -2276,7 +2110,6 @@
       "grid_size": 2,
       "housing_score": 30,
       "gold_cost": 2000,
-      "is_power": false,
       "effect": {
         "type": "display",
         "display_type": "achievement_frame",
@@ -2294,7 +2127,6 @@
       "grid_size": 2,
       "housing_score": 30,
       "gold_cost": 2000,
-      "is_power": false,
       "effect": {
         "type": "display",
         "display_type": "achievement_frame",
@@ -2312,7 +2144,6 @@
       "grid_size": 2,
       "housing_score": 30,
       "gold_cost": 2000,
-      "is_power": false,
       "effect": {
         "type": "display",
         "display_type": "achievement_frame",
@@ -2330,7 +2161,6 @@
       "grid_size": 2,
       "housing_score": 30,
       "gold_cost": 2000,
-      "is_power": false,
       "effect": {
         "type": "display",
         "display_type": "achievement_frame",
@@ -2348,7 +2178,6 @@
       "grid_size": 2,
       "housing_score": 30,
       "gold_cost": 2000,
-      "is_power": false,
       "effect": {
         "type": "display",
         "display_type": "monster_collection",
@@ -2366,7 +2195,6 @@
       "grid_size": 2,
       "housing_score": 30,
       "gold_cost": 2000,
-      "is_power": false,
       "effect": {
         "type": "display",
         "display_type": "monster_collection",
@@ -2384,7 +2212,6 @@
       "grid_size": 2,
       "housing_score": 30,
       "gold_cost": 2000,
-      "is_power": false,
       "effect": {
         "type": "display",
         "display_type": "monster_collection",
@@ -2402,7 +2229,6 @@
       "grid_size": 2,
       "housing_score": 30,
       "gold_cost": 2000,
-      "is_power": false,
       "effect": {
         "type": "display",
         "display_type": "monster_collection",
@@ -2420,7 +2246,6 @@
       "grid_size": 2,
       "housing_score": 30,
       "gold_cost": 2000,
-      "is_power": false,
       "effect": {
         "type": "display",
         "display_type": "monster_collection",
@@ -2438,7 +2263,6 @@
       "grid_size": 2,
       "housing_score": 30,
       "gold_cost": 2000,
-      "is_power": false,
       "effect": {
         "type": "display",
         "display_type": "item_showcase",
@@ -2456,7 +2280,6 @@
       "grid_size": 2,
       "housing_score": 30,
       "gold_cost": 2000,
-      "is_power": false,
       "effect": {
         "type": "display",
         "display_type": "item_showcase",
@@ -2474,7 +2297,6 @@
       "grid_size": 2,
       "housing_score": 30,
       "gold_cost": 2000,
-      "is_power": false,
       "effect": {
         "type": "display",
         "display_type": "item_showcase",
@@ -2492,7 +2314,6 @@
       "grid_size": 2,
       "housing_score": 30,
       "gold_cost": 2000,
-      "is_power": false,
       "effect": {
         "type": "display",
         "display_type": "item_showcase",
@@ -2510,7 +2331,6 @@
       "grid_size": 2,
       "housing_score": 30,
       "gold_cost": 2000,
-      "is_power": false,
       "effect": {
         "type": "display",
         "display_type": "item_showcase",
@@ -2528,7 +2348,6 @@
       "grid_size": 4,
       "housing_score": 20,
       "gold_cost": 1000,
-      "is_power": false,
       "effect": {
         "type": "creature_capacity",
         "capacity": 2,
@@ -2544,7 +2363,6 @@
       "grid_size": 4,
       "housing_score": 20,
       "gold_cost": 1000,
-      "is_power": false,
       "effect": {
         "type": "creature_capacity",
         "capacity": 2,
@@ -2560,7 +2378,6 @@
       "grid_size": 4,
       "housing_score": 20,
       "gold_cost": 1000,
-      "is_power": false,
       "effect": {
         "type": "creature_capacity",
         "capacity": 2,
@@ -2576,7 +2393,6 @@
       "grid_size": 4,
       "housing_score": 20,
       "gold_cost": 5000,
-      "is_power": false,
       "effect": {
         "type": "creature_capacity",
         "capacity": 4,
@@ -2592,7 +2408,6 @@
       "grid_size": 4,
       "housing_score": 20,
       "gold_cost": 5000,
-      "is_power": false,
       "effect": {
         "type": "creature_capacity",
         "capacity": 4,
@@ -2608,7 +2423,6 @@
       "grid_size": 4,
       "housing_score": 20,
       "gold_cost": 5000,
-      "is_power": false,
       "effect": {
         "type": "creature_capacity",
         "capacity": 4,
@@ -2624,7 +2438,6 @@
       "grid_size": 4,
       "housing_score": 20,
       "gold_cost": 15000,
-      "is_power": false,
       "effect": {
         "type": "creature_capacity",
         "capacity": 8,
@@ -2640,7 +2453,6 @@
       "grid_size": 4,
       "housing_score": 20,
       "gold_cost": 15000,
-      "is_power": false,
       "effect": {
         "type": "creature_capacity",
         "capacity": 8,
@@ -2656,7 +2468,6 @@
       "grid_size": 4,
       "housing_score": 20,
       "gold_cost": 15000,
-      "is_power": false,
       "effect": {
         "type": "creature_capacity",
         "capacity": 8,
@@ -2672,7 +2483,6 @@
       "grid_size": 4,
       "housing_score": 20,
       "gold_cost": 50000,
-      "is_power": false,
       "effect": {
         "type": "creature_capacity",
         "capacity": 20,
@@ -2688,7 +2498,6 @@
       "grid_size": 4,
       "housing_score": 20,
       "gold_cost": 50000,
-      "is_power": false,
       "effect": {
         "type": "creature_capacity",
         "capacity": 20,
@@ -2704,7 +2513,6 @@
       "grid_size": 4,
       "housing_score": 20,
       "gold_cost": 50000,
-      "is_power": false,
       "effect": {
         "type": "creature_capacity",
         "capacity": 20,
@@ -2720,7 +2528,6 @@
       "grid_size": 4,
       "housing_score": 50,
       "gold_cost": 10000,
-      "is_power": false,
       "effect": {
         "type": "guild_function",
         "function": "guild_log"
@@ -2735,7 +2542,6 @@
       "grid_size": 4,
       "housing_score": 50,
       "gold_cost": 20000,
-      "is_power": false,
       "effect": {
         "type": "guild_function",
         "function": "guild_bank"
@@ -2750,7 +2556,6 @@
       "grid_size": 4,
       "housing_score": 50,
       "gold_cost": 30000,
-      "is_power": false,
       "effect": {
         "type": "guild_function",
         "function": "guild_crafting"
@@ -2765,7 +2570,6 @@
       "grid_size": 4,
       "housing_score": 50,
       "gold_cost": 40000,
-      "is_power": false,
       "effect": {
         "type": "guild_function",
         "function": "guild_raid_board"
@@ -2780,7 +2584,6 @@
       "grid_size": 4,
       "housing_score": 50,
       "gold_cost": 50000,
-      "is_power": false,
       "effect": {
         "type": "guild_function",
         "function": "guild_territory"

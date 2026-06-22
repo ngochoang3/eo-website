@@ -1,8 +1,6 @@
 {
-  "schemaVersion": 1,
   "name": "trait_db",
   "count": 60,
-  "budget_pct": 3.0,
   "max_active_total": 6,
   "max_active_per_category": 3,
   "categories": [

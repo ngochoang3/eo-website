@@ -34,8 +34,19 @@ function buildIndex(docs) {
     craftById: {},
     biomeById: {},
     npcById: {},
-    docsByCategory: {}
+    docsByCategory: {},
+    equipmentByClassSlot: {}
   };
+
+  // Dynamic facets discovered from the data itself (never hardcoded), so
+  // "Có bao nhiêu class?" etc. always reflects whatever is actually in the KB.
+  var catalogSets = {
+    classes: {}, rarities: {}, slots: {}, npcTypes: {}, dungeonTypes: {}, elements: {}
+  };
+  function track(setName, val) {
+    if (val === undefined || val === null || val === "" || val === "All") return;
+    catalogSets[setName][val] = true;
+  }
 
   for (var i = 0; i < docs.length; i++) {
     var doc = docs[i];
@@ -81,9 +92,16 @@ function buildIndex(docs) {
       }
       if (doc.category === "items") {
         if (d.id) crossRef.itemsById[d.id] = i;
+        if (doc.sourceFile === "equipment_db.json") {
+          addRef(crossRef.equipmentByClassSlot, (d.class || "") + "|" + (d.slot || ""), i);
+          track("classes", d.class);
+          track("slots", d.slot);
+        }
+        track("rarities", d.rarity);
       }
       if (doc.category === "skills" && d.id) {
         crossRef.skillById[d.id] = i;
+        track("classes", d.class);
       }
       if (doc.category === "crafting" && d.id) {
         crossRef.craftById[d.id] = i;
@@ -91,14 +109,24 @@ function buildIndex(docs) {
       if (doc.category === "worlds" && doc.sourceFile === "biome_remap.json" && d.id !== undefined) {
         crossRef.biomeById[d.id] = i;
       }
+      if (doc.category === "npc") track("npcTypes", d.npc_type);
+      if (doc.category === "maps" && doc.sourceFile === "dungeon_db.json") track("dungeonTypes", d.dungeon_type);
+      if (doc.category === "monsters" && doc.sourceFile === "monster_db.json") {
+        track("rarities", d.rarity);
+        track("elements", d.element);
+      }
     }
   }
+
+  var catalogs = {};
+  Object.keys(catalogSets).forEach(function (k) { catalogs[k] = Object.keys(catalogSets[k]).sort(); });
 
   return {
     invertedIndex: invertedIndex,
     exactTitleIndex: exactTitleIndex,
     docFreq: docFreq,
     crossRef: crossRef,
+    catalogs: catalogs,
     totalDocs: docs.length
   };
 }

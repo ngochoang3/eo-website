@@ -1,8 +1,6 @@
 {
-  "schemaVersion": 1,
   "name": "rune_db",
   "count": 150,
-  "budget_pct": 3.0,
   "formula": "RuneStatBonus(tier) = tier * 0.001",
   "max_tier": 5,
   "socket_rules": {

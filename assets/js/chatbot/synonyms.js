@@ -6,6 +6,7 @@
   // so matching against a normalized query is a plain array.includes / token check.
 
   var INTENT_KEYWORDS = {
+    class: ["class", "lop", "nghe", "nghe nghiep", "nhan vat"],
     boss: ["boss", "trum", "vua", "chua te", "thu lanh", "ong trum"],
     monster: ["monster", "quai", "quai vat", "con vat", "ke thu", "mob"],
     npc: ["npc", "thuong nhan", "nguoi ban", "ban hang", "merchant", "vendor"],

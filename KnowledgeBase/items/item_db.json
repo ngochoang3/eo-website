@@ -11,8 +11,7 @@
       "level_req": 1,
       "sell_price": 10,
       "biome": 0,
-      "desc": "Phục hồi 500 HP.",
-      "power_share_pct": 0.0
+      "desc": "Phục hồi 500 HP."
     },
     {
       "id": "item_0002",
@@ -23,8 +22,7 @@
       "level_req": 1,
       "sell_price": 10,
       "biome": 0,
-      "desc": "Phục hồi 300 MP.",
-      "power_share_pct": 0.0
+      "desc": "Phục hồi 300 MP."
     },
     {
       "id": "item_0003",
@@ -35,8 +33,7 @@
       "level_req": 1,
       "sell_price": 10,
       "biome": 0,
-      "desc": "Phục hồi 2000 HP.",
-      "power_share_pct": 0.0
+      "desc": "Phục hồi 2000 HP."
     },
     {
       "id": "item_0004",
@@ -47,8 +44,7 @@
       "level_req": 1,
       "sell_price": 10,
       "biome": 0,
-      "desc": "Phục hồi 1500 MP.",
-      "power_share_pct": 0.0
+      "desc": "Phục hồi 1500 MP."
     },
     {
       "id": "item_0005",
@@ -59,8 +55,7 @@
       "level_req": 1,
       "sell_price": 10,
       "biome": 0,
-      "desc": "Phục hồi 8000 HP.",
-      "power_share_pct": 0.0
+      "desc": "Phục hồi 8000 HP."
     },
     {
       "id": "item_0006",
@@ -71,8 +66,7 @@
       "level_req": 1,
       "sell_price": 10,
       "biome": 0,
-      "desc": "Phục hồi full HP+MP.",
-      "power_share_pct": 0.0
+      "desc": "Phục hồi full HP+MP."
     },
     {
       "id": "item_0007",
@@ -83,8 +77,7 @@
       "level_req": 1,
       "sell_price": 10,
       "biome": 0,
-      "desc": "Tăng 20% EXP 30 phút.",
-      "power_share_pct": 0.0
+      "desc": "Tăng 20% EXP 30 phút."
     },
     {
       "id": "item_0008",
@@ -95,8 +88,7 @@
       "level_req": 1,
       "sell_price": 10,
       "biome": 0,
-      "desc": "Tăng 15% Gold drop 1 giờ.",
-      "power_share_pct": 0.0
+      "desc": "Tăng 15% Gold drop 1 giờ."
     },
     {
       "id": "item_0009",
@@ -107,8 +99,7 @@
       "level_req": 1,
       "sell_price": 50,
       "biome": 1,
-      "desc": "Nguyên liệu từ Verdant Meadow.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Verdant Meadow."
     },
     {
       "id": "item_0010",
@@ -119,8 +110,7 @@
       "level_req": 1,
       "sell_price": 50,
       "biome": 1,
-      "desc": "Nguyên liệu từ Verdant Meadow.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Verdant Meadow."
     },
     {
       "id": "item_0011",
@@ -131,8 +121,7 @@
       "level_req": 1,
       "sell_price": 50,
       "biome": 1,
-      "desc": "Nguyên liệu từ Verdant Meadow.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Verdant Meadow."
     },
     {
       "id": "item_0012",
@@ -143,8 +132,7 @@
       "level_req": 1,
       "sell_price": 50,
       "biome": 1,
-      "desc": "Nguyên liệu từ Verdant Meadow.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Verdant Meadow."
     },
     {
       "id": "item_0013",
@@ -155,8 +143,7 @@
       "level_req": 1,
       "sell_price": 50,
       "biome": 1,
-      "desc": "Nguyên liệu từ Verdant Meadow.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Verdant Meadow."
     },
     {
       "id": "item_0014",
@@ -167,8 +154,7 @@
       "level_req": 1,
       "sell_price": 50,
       "biome": 1,
-      "desc": "Nguyên liệu từ Verdant Meadow.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Verdant Meadow."
     },
     {
       "id": "item_0015",
@@ -179,8 +165,7 @@
       "level_req": 1,
       "sell_price": 50,
       "biome": 1,
-      "desc": "Nguyên liệu từ Verdant Meadow.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Verdant Meadow."
     },
     {
       "id": "item_0016",
@@ -191,8 +176,7 @@
       "level_req": 1,
       "sell_price": 50,
       "biome": 1,
-      "desc": "Nguyên liệu từ Verdant Meadow.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Verdant Meadow."
     },
     {
       "id": "item_0017",
@@ -203,8 +187,7 @@
       "level_req": 96,
       "sell_price": 100,
       "biome": 2,
-      "desc": "Nguyên liệu từ Crystal Cave.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Crystal Cave."
     },
     {
       "id": "item_0018",
@@ -215,8 +198,7 @@
       "level_req": 96,
       "sell_price": 100,
       "biome": 2,
-      "desc": "Nguyên liệu từ Crystal Cave.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Crystal Cave."
     },
     {
       "id": "item_0019",
@@ -227,8 +209,7 @@
       "level_req": 96,
       "sell_price": 100,
       "biome": 2,
-      "desc": "Nguyên liệu từ Crystal Cave.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Crystal Cave."
     },
     {
       "id": "item_0020",
@@ -239,8 +220,7 @@
       "level_req": 96,
       "sell_price": 100,
       "biome": 2,
-      "desc": "Nguyên liệu từ Crystal Cave.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Crystal Cave."
     },
     {
       "id": "item_0021",
@@ -251,8 +231,7 @@
       "level_req": 96,
       "sell_price": 100,
       "biome": 2,
-      "desc": "Nguyên liệu từ Crystal Cave.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Crystal Cave."
     },
     {
       "id": "item_0022",
@@ -263,8 +242,7 @@
       "level_req": 96,
       "sell_price": 100,
       "biome": 2,
-      "desc": "Nguyên liệu từ Crystal Cave.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Crystal Cave."
     },
     {
       "id": "item_0023",
@@ -275,8 +253,7 @@
       "level_req": 96,
       "sell_price": 100,
       "biome": 2,
-      "desc": "Nguyên liệu từ Crystal Cave.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Crystal Cave."
     },
     {
       "id": "item_0024",
@@ -287,8 +264,7 @@
       "level_req": 96,
       "sell_price": 100,
       "biome": 2,
-      "desc": "Nguyên liệu từ Crystal Cave.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Crystal Cave."
     },
     {
       "id": "item_0025",
@@ -299,8 +275,7 @@
       "level_req": 191,
       "sell_price": 150,
       "biome": 3,
-      "desc": "Nguyên liệu từ Volcanic Ridge.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Volcanic Ridge."
     },
     {
       "id": "item_0026",
@@ -311,8 +286,7 @@
       "level_req": 191,
       "sell_price": 150,
       "biome": 3,
-      "desc": "Nguyên liệu từ Volcanic Ridge.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Volcanic Ridge."
     },
     {
       "id": "item_0027",
@@ -323,8 +297,7 @@
       "level_req": 191,
       "sell_price": 150,
       "biome": 3,
-      "desc": "Nguyên liệu từ Volcanic Ridge.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Volcanic Ridge."
     },
     {
       "id": "item_0028",
@@ -335,8 +308,7 @@
       "level_req": 191,
       "sell_price": 150,
       "biome": 3,
-      "desc": "Nguyên liệu từ Volcanic Ridge.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Volcanic Ridge."
     },
     {
       "id": "item_0029",
@@ -347,8 +319,7 @@
       "level_req": 191,
       "sell_price": 150,
       "biome": 3,
-      "desc": "Nguyên liệu từ Volcanic Ridge.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Volcanic Ridge."
     },
     {
       "id": "item_0030",
@@ -359,8 +330,7 @@
       "level_req": 191,
       "sell_price": 150,
       "biome": 3,
-      "desc": "Nguyên liệu từ Volcanic Ridge.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Volcanic Ridge."
     },
     {
       "id": "item_0031",
@@ -371,8 +341,7 @@
       "level_req": 191,
       "sell_price": 150,
       "biome": 3,
-      "desc": "Nguyên liệu từ Volcanic Ridge.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Volcanic Ridge."
     },
     {
       "id": "item_0032",
@@ -383,8 +352,7 @@
       "level_req": 191,
       "sell_price": 150,
       "biome": 3,
-      "desc": "Nguyên liệu từ Volcanic Ridge.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Volcanic Ridge."
     },
     {
       "id": "item_0033",
@@ -395,8 +363,7 @@
       "level_req": 286,
       "sell_price": 200,
       "biome": 4,
-      "desc": "Nguyên liệu từ Frozen Tundra.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Frozen Tundra."
     },
     {
       "id": "item_0034",
@@ -407,8 +374,7 @@
       "level_req": 286,
       "sell_price": 200,
       "biome": 4,
-      "desc": "Nguyên liệu từ Frozen Tundra.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Frozen Tundra."
     },
     {
       "id": "item_0035",
@@ -419,8 +385,7 @@
       "level_req": 286,
       "sell_price": 200,
       "biome": 4,
-      "desc": "Nguyên liệu từ Frozen Tundra.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Frozen Tundra."
     },
     {
       "id": "item_0036",
@@ -431,8 +396,7 @@
       "level_req": 286,
       "sell_price": 200,
       "biome": 4,
-      "desc": "Nguyên liệu từ Frozen Tundra.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Frozen Tundra."
     },
     {
       "id": "item_0037",
@@ -443,8 +407,7 @@
       "level_req": 286,
       "sell_price": 200,
       "biome": 4,
-      "desc": "Nguyên liệu từ Frozen Tundra.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Frozen Tundra."
     },
     {
       "id": "item_0038",
@@ -455,8 +418,7 @@
       "level_req": 286,
       "sell_price": 200,
       "biome": 4,
-      "desc": "Nguyên liệu từ Frozen Tundra.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Frozen Tundra."
     },
     {
       "id": "item_0039",
@@ -467,8 +429,7 @@
       "level_req": 286,
       "sell_price": 200,
       "biome": 4,
-      "desc": "Nguyên liệu từ Frozen Tundra.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Frozen Tundra."
     },
     {
       "id": "item_0040",
@@ -479,8 +440,7 @@
       "level_req": 286,
       "sell_price": 200,
       "biome": 4,
-      "desc": "Nguyên liệu từ Frozen Tundra.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Frozen Tundra."
     },
     {
       "id": "item_0041",
@@ -491,8 +451,7 @@
       "level_req": 381,
       "sell_price": 250,
       "biome": 5,
-      "desc": "Nguyên liệu từ Sunken Reef.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Sunken Reef."
     },
     {
       "id": "item_0042",
@@ -503,8 +462,7 @@
       "level_req": 381,
       "sell_price": 250,
       "biome": 5,
-      "desc": "Nguyên liệu từ Sunken Reef.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Sunken Reef."
     },
     {
       "id": "item_0043",
@@ -515,8 +473,7 @@
       "level_req": 381,
       "sell_price": 250,
       "biome": 5,
-      "desc": "Nguyên liệu từ Sunken Reef.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Sunken Reef."
     },
     {
       "id": "item_0044",
@@ -527,8 +484,7 @@
       "level_req": 381,
       "sell_price": 250,
       "biome": 5,
-      "desc": "Nguyên liệu từ Sunken Reef.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Sunken Reef."
     },
     {
       "id": "item_0045",
@@ -539,8 +495,7 @@
       "level_req": 381,
       "sell_price": 250,
       "biome": 5,
-      "desc": "Nguyên liệu từ Sunken Reef.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Sunken Reef."
     },
     {
       "id": "item_0046",
@@ -551,8 +506,7 @@
       "level_req": 381,
       "sell_price": 250,
       "biome": 5,
-      "desc": "Nguyên liệu từ Sunken Reef.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Sunken Reef."
     },
     {
       "id": "item_0047",
@@ -563,8 +517,7 @@
       "level_req": 381,
       "sell_price": 250,
       "biome": 5,
-      "desc": "Nguyên liệu từ Sunken Reef.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Sunken Reef."
     },
     {
       "id": "item_0048",
@@ -575,8 +528,7 @@
       "level_req": 381,
       "sell_price": 250,
       "biome": 5,
-      "desc": "Nguyên liệu từ Sunken Reef.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Sunken Reef."
     },
     {
       "id": "item_0049",
@@ -587,8 +539,7 @@
       "level_req": 476,
       "sell_price": 300,
       "biome": 6,
-      "desc": "Nguyên liệu từ Ancient Forest.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Ancient Forest."
     },
     {
       "id": "item_0050",
@@ -599,8 +550,7 @@
       "level_req": 476,
       "sell_price": 300,
       "biome": 6,
-      "desc": "Nguyên liệu từ Ancient Forest.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Ancient Forest."
     },
     {
       "id": "item_0051",
@@ -611,8 +561,7 @@
       "level_req": 476,
       "sell_price": 300,
       "biome": 6,
-      "desc": "Nguyên liệu từ Ancient Forest.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Ancient Forest."
     },
     {
       "id": "item_0052",
@@ -623,8 +572,7 @@
       "level_req": 476,
       "sell_price": 300,
       "biome": 6,
-      "desc": "Nguyên liệu từ Ancient Forest.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Ancient Forest."
     },
     {
       "id": "item_0053",
@@ -635,8 +583,7 @@
       "level_req": 476,
       "sell_price": 300,
       "biome": 6,
-      "desc": "Nguyên liệu từ Ancient Forest.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Ancient Forest."
     },
     {
       "id": "item_0054",
@@ -647,8 +594,7 @@
       "level_req": 476,
       "sell_price": 300,
       "biome": 6,
-      "desc": "Nguyên liệu từ Ancient Forest.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Ancient Forest."
     },
     {
       "id": "item_0055",
@@ -659,8 +605,7 @@
       "level_req": 476,
       "sell_price": 300,
       "biome": 6,
-      "desc": "Nguyên liệu từ Ancient Forest.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Ancient Forest."
     },
     {
       "id": "item_0056",
@@ -671,8 +616,7 @@
       "level_req": 476,
       "sell_price": 300,
       "biome": 6,
-      "desc": "Nguyên liệu từ Ancient Forest.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Ancient Forest."
     },
     {
       "id": "item_0057",
@@ -683,8 +627,7 @@
       "level_req": 571,
       "sell_price": 350,
       "biome": 7,
-      "desc": "Nguyên liệu từ Desert Dunes.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Desert Dunes."
     },
     {
       "id": "item_0058",
@@ -695,8 +638,7 @@
       "level_req": 571,
       "sell_price": 350,
       "biome": 7,
-      "desc": "Nguyên liệu từ Desert Dunes.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Desert Dunes."
     },
     {
       "id": "item_0059",
@@ -707,8 +649,7 @@
       "level_req": 571,
       "sell_price": 350,
       "biome": 7,
-      "desc": "Nguyên liệu từ Desert Dunes.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Desert Dunes."
     },
     {
       "id": "item_0060",
@@ -719,8 +660,7 @@
       "level_req": 571,
       "sell_price": 350,
       "biome": 7,
-      "desc": "Nguyên liệu từ Desert Dunes.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Desert Dunes."
     },
     {
       "id": "item_0061",
@@ -731,8 +671,7 @@
       "level_req": 571,
       "sell_price": 350,
       "biome": 7,
-      "desc": "Nguyên liệu từ Desert Dunes.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Desert Dunes."
     },
     {
       "id": "item_0062",
@@ -743,8 +682,7 @@
       "level_req": 571,
       "sell_price": 350,
       "biome": 7,
-      "desc": "Nguyên liệu từ Desert Dunes.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Desert Dunes."
     },
     {
       "id": "item_0063",
@@ -755,8 +693,7 @@
       "level_req": 571,
       "sell_price": 350,
       "biome": 7,
-      "desc": "Nguyên liệu từ Desert Dunes.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Desert Dunes."
     },
     {
       "id": "item_0064",
@@ -767,8 +704,7 @@
       "level_req": 571,
       "sell_price": 350,
       "biome": 7,
-      "desc": "Nguyên liệu từ Desert Dunes.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Desert Dunes."
     },
     {
       "id": "item_0065",
@@ -779,8 +715,7 @@
       "level_req": 666,
       "sell_price": 400,
       "biome": 8,
-      "desc": "Nguyên liệu từ Stormy Highlands.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Stormy Highlands."
     },
     {
       "id": "item_0066",
@@ -791,8 +726,7 @@
       "level_req": 666,
       "sell_price": 400,
       "biome": 8,
-      "desc": "Nguyên liệu từ Stormy Highlands.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Stormy Highlands."
     },
     {
       "id": "item_0067",
@@ -803,8 +737,7 @@
       "level_req": 666,
       "sell_price": 400,
       "biome": 8,
-      "desc": "Nguyên liệu từ Stormy Highlands.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Stormy Highlands."
     },
     {
       "id": "item_0068",
@@ -815,8 +748,7 @@
       "level_req": 666,
       "sell_price": 400,
       "biome": 8,
-      "desc": "Nguyên liệu từ Stormy Highlands.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Stormy Highlands."
     },
     {
       "id": "item_0069",
@@ -827,8 +759,7 @@
       "level_req": 666,
       "sell_price": 400,
       "biome": 8,
-      "desc": "Nguyên liệu từ Stormy Highlands.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Stormy Highlands."
     },
     {
       "id": "item_0070",
@@ -839,8 +770,7 @@
       "level_req": 666,
       "sell_price": 400,
       "biome": 8,
-      "desc": "Nguyên liệu từ Stormy Highlands.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Stormy Highlands."
     },
     {
       "id": "item_0071",
@@ -851,8 +781,7 @@
       "level_req": 666,
       "sell_price": 400,
       "biome": 8,
-      "desc": "Nguyên liệu từ Stormy Highlands.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Stormy Highlands."
     },
     {
       "id": "item_0072",
@@ -863,8 +792,7 @@
       "level_req": 666,
       "sell_price": 400,
       "biome": 8,
-      "desc": "Nguyên liệu từ Stormy Highlands.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Stormy Highlands."
     },
     {
       "id": "item_0073",
@@ -875,8 +803,7 @@
       "level_req": 761,
       "sell_price": 450,
       "biome": 9,
-      "desc": "Nguyên liệu từ Mystic Swamp.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Mystic Swamp."
     },
     {
       "id": "item_0074",
@@ -887,8 +814,7 @@
       "level_req": 761,
       "sell_price": 450,
       "biome": 9,
-      "desc": "Nguyên liệu từ Mystic Swamp.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Mystic Swamp."
     },
     {
       "id": "item_0075",
@@ -899,8 +825,7 @@
       "level_req": 761,
       "sell_price": 450,
       "biome": 9,
-      "desc": "Nguyên liệu từ Mystic Swamp.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Mystic Swamp."
     },
     {
       "id": "item_0076",
@@ -911,8 +836,7 @@
       "level_req": 761,
       "sell_price": 450,
       "biome": 9,
-      "desc": "Nguyên liệu từ Mystic Swamp.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Mystic Swamp."
     },
     {
       "id": "item_0077",
@@ -923,8 +847,7 @@
       "level_req": 761,
       "sell_price": 450,
       "biome": 9,
-      "desc": "Nguyên liệu từ Mystic Swamp.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Mystic Swamp."
     },
     {
       "id": "item_0078",
@@ -935,8 +858,7 @@
       "level_req": 761,
       "sell_price": 450,
       "biome": 9,
-      "desc": "Nguyên liệu từ Mystic Swamp.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Mystic Swamp."
     },
     {
       "id": "item_0079",
@@ -947,8 +869,7 @@
       "level_req": 761,
       "sell_price": 450,
       "biome": 9,
-      "desc": "Nguyên liệu từ Mystic Swamp.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Mystic Swamp."
     },
     {
       "id": "item_0080",
@@ -959,8 +880,7 @@
       "level_req": 761,
       "sell_price": 450,
       "biome": 9,
-      "desc": "Nguyên liệu từ Mystic Swamp.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Mystic Swamp."
     },
     {
       "id": "item_0081",
@@ -971,8 +891,7 @@
       "level_req": 856,
       "sell_price": 500,
       "biome": 10,
-      "desc": "Nguyên liệu từ Celestial Peak.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Celestial Peak."
     },
     {
       "id": "item_0082",
@@ -983,8 +902,7 @@
       "level_req": 856,
       "sell_price": 500,
       "biome": 10,
-      "desc": "Nguyên liệu từ Celestial Peak.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Celestial Peak."
     },
     {
       "id": "item_0083",
@@ -995,8 +913,7 @@
       "level_req": 856,
       "sell_price": 500,
       "biome": 10,
-      "desc": "Nguyên liệu từ Celestial Peak.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Celestial Peak."
     },
     {
       "id": "item_0084",
@@ -1007,8 +924,7 @@
       "level_req": 856,
       "sell_price": 500,
       "biome": 10,
-      "desc": "Nguyên liệu từ Celestial Peak.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Celestial Peak."
     },
     {
       "id": "item_0085",
@@ -1019,8 +935,7 @@
       "level_req": 856,
       "sell_price": 500,
       "biome": 10,
-      "desc": "Nguyên liệu từ Celestial Peak.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Celestial Peak."
     },
     {
       "id": "item_0086",
@@ -1031,8 +946,7 @@
       "level_req": 856,
       "sell_price": 500,
       "biome": 10,
-      "desc": "Nguyên liệu từ Celestial Peak.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Celestial Peak."
     },
     {
       "id": "item_0087",
@@ -1043,8 +957,7 @@
       "level_req": 856,
       "sell_price": 500,
       "biome": 10,
-      "desc": "Nguyên liệu từ Celestial Peak.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Celestial Peak."
     },
     {
       "id": "item_0088",
@@ -1055,8 +968,7 @@
       "level_req": 856,
       "sell_price": 500,
       "biome": 10,
-      "desc": "Nguyên liệu từ Celestial Peak.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Celestial Peak."
     },
     {
       "id": "item_0089",
@@ -1067,8 +979,7 @@
       "level_req": 951,
       "sell_price": 550,
       "biome": 11,
-      "desc": "Nguyên liệu từ Ruined City.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Ruined City."
     },
     {
       "id": "item_0090",
@@ -1079,8 +990,7 @@
       "level_req": 951,
       "sell_price": 550,
       "biome": 11,
-      "desc": "Nguyên liệu từ Ruined City.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Ruined City."
     },
     {
       "id": "item_0091",
@@ -1091,8 +1001,7 @@
       "level_req": 951,
       "sell_price": 550,
       "biome": 11,
-      "desc": "Nguyên liệu từ Ruined City.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Ruined City."
     },
     {
       "id": "item_0092",
@@ -1103,8 +1012,7 @@
       "level_req": 951,
       "sell_price": 550,
       "biome": 11,
-      "desc": "Nguyên liệu từ Ruined City.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Ruined City."
     },
     {
       "id": "item_0093",
@@ -1115,8 +1023,7 @@
       "level_req": 951,
       "sell_price": 550,
       "biome": 11,
-      "desc": "Nguyên liệu từ Ruined City.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Ruined City."
     },
     {
       "id": "item_0094",
@@ -1127,8 +1034,7 @@
       "level_req": 951,
       "sell_price": 550,
       "biome": 11,
-      "desc": "Nguyên liệu từ Ruined City.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Ruined City."
     },
     {
       "id": "item_0095",
@@ -1139,8 +1045,7 @@
       "level_req": 951,
       "sell_price": 550,
       "biome": 11,
-      "desc": "Nguyên liệu từ Ruined City.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Ruined City."
     },
     {
       "id": "item_0096",
@@ -1151,8 +1056,7 @@
       "level_req": 951,
       "sell_price": 550,
       "biome": 11,
-      "desc": "Nguyên liệu từ Ruined City.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Ruined City."
     },
     {
       "id": "item_0097",
@@ -1163,8 +1067,7 @@
       "level_req": 1046,
       "sell_price": 600,
       "biome": 12,
-      "desc": "Nguyên liệu từ Shadow Vale.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Shadow Vale."
     },
     {
       "id": "item_0098",
@@ -1175,8 +1078,7 @@
       "level_req": 1046,
       "sell_price": 600,
       "biome": 12,
-      "desc": "Nguyên liệu từ Shadow Vale.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Shadow Vale."
     },
     {
       "id": "item_0099",
@@ -1187,8 +1089,7 @@
       "level_req": 1046,
       "sell_price": 600,
       "biome": 12,
-      "desc": "Nguyên liệu từ Shadow Vale.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Shadow Vale."
     },
     {
       "id": "item_0100",
@@ -1199,8 +1100,7 @@
       "level_req": 1046,
       "sell_price": 600,
       "biome": 12,
-      "desc": "Nguyên liệu từ Shadow Vale.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Shadow Vale."
     },
     {
       "id": "item_0101",
@@ -1211,8 +1111,7 @@
       "level_req": 1046,
       "sell_price": 600,
       "biome": 12,
-      "desc": "Nguyên liệu từ Shadow Vale.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Shadow Vale."
     },
     {
       "id": "item_0102",
@@ -1223,8 +1122,7 @@
       "level_req": 1046,
       "sell_price": 600,
       "biome": 12,
-      "desc": "Nguyên liệu từ Shadow Vale.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Shadow Vale."
     },
     {
       "id": "item_0103",
@@ -1235,8 +1133,7 @@
       "level_req": 1046,
       "sell_price": 600,
       "biome": 12,
-      "desc": "Nguyên liệu từ Shadow Vale.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Shadow Vale."
     },
     {
       "id": "item_0104",
@@ -1247,8 +1144,7 @@
       "level_req": 1046,
       "sell_price": 600,
       "biome": 12,
-      "desc": "Nguyên liệu từ Shadow Vale.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Shadow Vale."
     },
     {
       "id": "item_0105",
@@ -1259,8 +1155,7 @@
       "level_req": 1141,
       "sell_price": 650,
       "biome": 13,
-      "desc": "Nguyên liệu từ Ember Plains.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Ember Plains."
     },
     {
       "id": "item_0106",
@@ -1271,8 +1166,7 @@
       "level_req": 1141,
       "sell_price": 650,
       "biome": 13,
-      "desc": "Nguyên liệu từ Ember Plains.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Ember Plains."
     },
     {
       "id": "item_0107",
@@ -1283,8 +1177,7 @@
       "level_req": 1141,
       "sell_price": 650,
       "biome": 13,
-      "desc": "Nguyên liệu từ Ember Plains.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Ember Plains."
     },
     {
       "id": "item_0108",
@@ -1295,8 +1188,7 @@
       "level_req": 1141,
       "sell_price": 650,
       "biome": 13,
-      "desc": "Nguyên liệu từ Ember Plains.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Ember Plains."
     },
     {
       "id": "item_0109",
@@ -1307,8 +1199,7 @@
       "level_req": 1141,
       "sell_price": 650,
       "biome": 13,
-      "desc": "Nguyên liệu từ Ember Plains.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Ember Plains."
     },
     {
       "id": "item_0110",
@@ -1319,8 +1210,7 @@
       "level_req": 1141,
       "sell_price": 650,
       "biome": 13,
-      "desc": "Nguyên liệu từ Ember Plains.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Ember Plains."
     },
     {
       "id": "item_0111",
@@ -1331,8 +1221,7 @@
       "level_req": 1141,
       "sell_price": 650,
       "biome": 13,
-      "desc": "Nguyên liệu từ Ember Plains.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Ember Plains."
     },
     {
       "id": "item_0112",
@@ -1343,8 +1232,7 @@
       "level_req": 1141,
       "sell_price": 650,
       "biome": 13,
-      "desc": "Nguyên liệu từ Ember Plains.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Ember Plains."
     },
     {
       "id": "item_0113",
@@ -1355,8 +1243,7 @@
       "level_req": 1236,
       "sell_price": 700,
       "biome": 14,
-      "desc": "Nguyên liệu từ Frost Abyss.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Frost Abyss."
     },
     {
       "id": "item_0114",
@@ -1367,8 +1254,7 @@
       "level_req": 1236,
       "sell_price": 700,
       "biome": 14,
-      "desc": "Nguyên liệu từ Frost Abyss.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Frost Abyss."
     },
     {
       "id": "item_0115",
@@ -1379,8 +1265,7 @@
       "level_req": 1236,
       "sell_price": 700,
       "biome": 14,
-      "desc": "Nguyên liệu từ Frost Abyss.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Frost Abyss."
     },
     {
       "id": "item_0116",
@@ -1391,8 +1276,7 @@
       "level_req": 1236,
       "sell_price": 700,
       "biome": 14,
-      "desc": "Nguyên liệu từ Frost Abyss.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Frost Abyss."
     },
     {
       "id": "item_0117",
@@ -1403,8 +1287,7 @@
       "level_req": 1236,
       "sell_price": 700,
       "biome": 14,
-      "desc": "Nguyên liệu từ Frost Abyss.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Frost Abyss."
     },
     {
       "id": "item_0118",
@@ -1415,8 +1298,7 @@
       "level_req": 1236,
       "sell_price": 700,
       "biome": 14,
-      "desc": "Nguyên liệu từ Frost Abyss.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Frost Abyss."
     },
     {
       "id": "item_0119",
@@ -1427,8 +1309,7 @@
       "level_req": 1236,
       "sell_price": 700,
       "biome": 14,
-      "desc": "Nguyên liệu từ Frost Abyss.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Frost Abyss."
     },
     {
       "id": "item_0120",
@@ -1439,8 +1320,7 @@
       "level_req": 1236,
       "sell_price": 700,
       "biome": 14,
-      "desc": "Nguyên liệu từ Frost Abyss.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Frost Abyss."
     },
     {
       "id": "item_0121",
@@ -1451,8 +1331,7 @@
       "level_req": 1331,
       "sell_price": 750,
       "biome": 15,
-      "desc": "Nguyên liệu từ Coral Labyrinth.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Coral Labyrinth."
     },
     {
       "id": "item_0122",
@@ -1463,8 +1342,7 @@
       "level_req": 1331,
       "sell_price": 750,
       "biome": 15,
-      "desc": "Nguyên liệu từ Coral Labyrinth.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Coral Labyrinth."
     },
     {
       "id": "item_0123",
@@ -1475,8 +1353,7 @@
       "level_req": 1331,
       "sell_price": 750,
       "biome": 15,
-      "desc": "Nguyên liệu từ Coral Labyrinth.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Coral Labyrinth."
     },
     {
       "id": "item_0124",
@@ -1487,8 +1364,7 @@
       "level_req": 1331,
       "sell_price": 750,
       "biome": 15,
-      "desc": "Nguyên liệu từ Coral Labyrinth.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Coral Labyrinth."
     },
     {
       "id": "item_0125",
@@ -1499,8 +1375,7 @@
       "level_req": 1331,
       "sell_price": 750,
       "biome": 15,
-      "desc": "Nguyên liệu từ Coral Labyrinth.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Coral Labyrinth."
     },
     {
       "id": "item_0126",
@@ -1511,8 +1386,7 @@
       "level_req": 1331,
       "sell_price": 750,
       "biome": 15,
-      "desc": "Nguyên liệu từ Coral Labyrinth.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Coral Labyrinth."
     },
     {
       "id": "item_0127",
@@ -1523,8 +1397,7 @@
       "level_req": 1331,
       "sell_price": 750,
       "biome": 15,
-      "desc": "Nguyên liệu từ Coral Labyrinth.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Coral Labyrinth."
     },
     {
       "id": "item_0128",
@@ -1535,8 +1408,7 @@
       "level_req": 1331,
       "sell_price": 750,
       "biome": 15,
-      "desc": "Nguyên liệu từ Coral Labyrinth.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Coral Labyrinth."
     },
     {
       "id": "item_0129",
@@ -1547,8 +1419,7 @@
       "level_req": 1426,
       "sell_price": 800,
       "biome": 16,
-      "desc": "Nguyên liệu từ Thunderspire.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Thunderspire."
     },
     {
       "id": "item_0130",
@@ -1559,8 +1430,7 @@
       "level_req": 1426,
       "sell_price": 800,
       "biome": 16,
-      "desc": "Nguyên liệu từ Thunderspire.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Thunderspire."
     },
     {
       "id": "item_0131",
@@ -1571,8 +1441,7 @@
       "level_req": 1426,
       "sell_price": 800,
       "biome": 16,
-      "desc": "Nguyên liệu từ Thunderspire.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Thunderspire."
     },
     {
       "id": "item_0132",
@@ -1583,8 +1452,7 @@
       "level_req": 1426,
       "sell_price": 800,
       "biome": 16,
-      "desc": "Nguyên liệu từ Thunderspire.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Thunderspire."
     },
     {
       "id": "item_0133",
@@ -1595,8 +1463,7 @@
       "level_req": 1426,
       "sell_price": 800,
       "biome": 16,
-      "desc": "Nguyên liệu từ Thunderspire.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Thunderspire."
     },
     {
       "id": "item_0134",
@@ -1607,8 +1474,7 @@
       "level_req": 1426,
       "sell_price": 800,
       "biome": 16,
-      "desc": "Nguyên liệu từ Thunderspire.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Thunderspire."
     },
     {
       "id": "item_0135",
@@ -1619,8 +1485,7 @@
       "level_req": 1426,
       "sell_price": 800,
       "biome": 16,
-      "desc": "Nguyên liệu từ Thunderspire.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Thunderspire."
     },
     {
       "id": "item_0136",
@@ -1631,8 +1496,7 @@
       "level_req": 1426,
       "sell_price": 800,
       "biome": 16,
-      "desc": "Nguyên liệu từ Thunderspire.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Thunderspire."
     },
     {
       "id": "item_0137",
@@ -1643,8 +1507,7 @@
       "level_req": 1521,
       "sell_price": 850,
       "biome": 17,
-      "desc": "Nguyên liệu từ Blight Marsh.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Blight Marsh."
     },
     {
       "id": "item_0138",
@@ -1655,8 +1518,7 @@
       "level_req": 1521,
       "sell_price": 850,
       "biome": 17,
-      "desc": "Nguyên liệu từ Blight Marsh.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Blight Marsh."
     },
     {
       "id": "item_0139",
@@ -1667,8 +1529,7 @@
       "level_req": 1521,
       "sell_price": 850,
       "biome": 17,
-      "desc": "Nguyên liệu từ Blight Marsh.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Blight Marsh."
     },
     {
       "id": "item_0140",
@@ -1679,8 +1540,7 @@
       "level_req": 1521,
       "sell_price": 850,
       "biome": 17,
-      "desc": "Nguyên liệu từ Blight Marsh.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Blight Marsh."
     },
     {
       "id": "item_0141",
@@ -1691,8 +1551,7 @@
       "level_req": 1521,
       "sell_price": 850,
       "biome": 17,
-      "desc": "Nguyên liệu từ Blight Marsh.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Blight Marsh."
     },
     {
       "id": "item_0142",
@@ -1703,8 +1562,7 @@
       "level_req": 1521,
       "sell_price": 850,
       "biome": 17,
-      "desc": "Nguyên liệu từ Blight Marsh.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Blight Marsh."
     },
     {
       "id": "item_0143",
@@ -1715,8 +1573,7 @@
       "level_req": 1521,
       "sell_price": 850,
       "biome": 17,
-      "desc": "Nguyên liệu từ Blight Marsh.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Blight Marsh."
     },
     {
       "id": "item_0144",
@@ -1727,8 +1584,7 @@
       "level_req": 1521,
       "sell_price": 850,
       "biome": 17,
-      "desc": "Nguyên liệu từ Blight Marsh.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Blight Marsh."
     },
     {
       "id": "item_0145",
@@ -1739,8 +1595,7 @@
       "level_req": 1616,
       "sell_price": 900,
       "biome": 18,
-      "desc": "Nguyên liệu từ Phantom Crossing.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Phantom Crossing."
     },
     {
       "id": "item_0146",
@@ -1751,8 +1606,7 @@
       "level_req": 1616,
       "sell_price": 900,
       "biome": 18,
-      "desc": "Nguyên liệu từ Phantom Crossing.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Phantom Crossing."
     },
     {
       "id": "item_0147",
@@ -1763,8 +1617,7 @@
       "level_req": 1616,
       "sell_price": 900,
       "biome": 18,
-      "desc": "Nguyên liệu từ Phantom Crossing.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Phantom Crossing."
     },
     {
       "id": "item_0148",
@@ -1775,8 +1628,7 @@
       "level_req": 1616,
       "sell_price": 900,
       "biome": 18,
-      "desc": "Nguyên liệu từ Phantom Crossing.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Phantom Crossing."
     },
     {
       "id": "item_0149",
@@ -1787,8 +1639,7 @@
       "level_req": 1616,
       "sell_price": 900,
       "biome": 18,
-      "desc": "Nguyên liệu từ Phantom Crossing.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Phantom Crossing."
     },
     {
       "id": "item_0150",
@@ -1799,8 +1650,7 @@
       "level_req": 1616,
       "sell_price": 900,
       "biome": 18,
-      "desc": "Nguyên liệu từ Phantom Crossing.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Phantom Crossing."
     },
     {
       "id": "item_0151",
@@ -1811,8 +1661,7 @@
       "level_req": 1616,
       "sell_price": 900,
       "biome": 18,
-      "desc": "Nguyên liệu từ Phantom Crossing.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Phantom Crossing."
     },
     {
       "id": "item_0152",
@@ -1823,8 +1672,7 @@
       "level_req": 1616,
       "sell_price": 900,
       "biome": 18,
-      "desc": "Nguyên liệu từ Phantom Crossing.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Phantom Crossing."
     },
     {
       "id": "item_0153",
@@ -1835,8 +1683,7 @@
       "level_req": 1711,
       "sell_price": 950,
       "biome": 19,
-      "desc": "Nguyên liệu từ Lava Fortress.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Lava Fortress."
     },
     {
       "id": "item_0154",
@@ -1847,8 +1694,7 @@
       "level_req": 1711,
       "sell_price": 950,
       "biome": 19,
-      "desc": "Nguyên liệu từ Lava Fortress.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Lava Fortress."
     },
     {
       "id": "item_0155",
@@ -1859,8 +1705,7 @@
       "level_req": 1711,
       "sell_price": 950,
       "biome": 19,
-      "desc": "Nguyên liệu từ Lava Fortress.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Lava Fortress."
     },
     {
       "id": "item_0156",
@@ -1871,8 +1716,7 @@
       "level_req": 1711,
       "sell_price": 950,
       "biome": 19,
-      "desc": "Nguyên liệu từ Lava Fortress.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Lava Fortress."
     },
     {
       "id": "item_0157",
@@ -1883,8 +1727,7 @@
       "level_req": 1711,
       "sell_price": 950,
       "biome": 19,
-      "desc": "Nguyên liệu từ Lava Fortress.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Lava Fortress."
     },
     {
       "id": "item_0158",
@@ -1895,8 +1738,7 @@
       "level_req": 1711,
       "sell_price": 950,
       "biome": 19,
-      "desc": "Nguyên liệu từ Lava Fortress.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Lava Fortress."
     },
     {
       "id": "item_0159",
@@ -1907,8 +1749,7 @@
       "level_req": 1711,
       "sell_price": 950,
       "biome": 19,
-      "desc": "Nguyên liệu từ Lava Fortress.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Lava Fortress."
     },
     {
       "id": "item_0160",
@@ -1919,8 +1760,7 @@
       "level_req": 1711,
       "sell_price": 950,
       "biome": 19,
-      "desc": "Nguyên liệu từ Lava Fortress.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Lava Fortress."
     },
     {
       "id": "item_0161",
@@ -1931,8 +1771,7 @@
       "level_req": 1806,
       "sell_price": 1000,
       "biome": 20,
-      "desc": "Nguyên liệu từ Sky Citadel.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Sky Citadel."
     },
     {
       "id": "item_0162",
@@ -1943,8 +1782,7 @@
       "level_req": 1806,
       "sell_price": 1000,
       "biome": 20,
-      "desc": "Nguyên liệu từ Sky Citadel.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Sky Citadel."
     },
     {
       "id": "item_0163",
@@ -1955,8 +1793,7 @@
       "level_req": 1806,
       "sell_price": 1000,
       "biome": 20,
-      "desc": "Nguyên liệu từ Sky Citadel.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Sky Citadel."
     },
     {
       "id": "item_0164",
@@ -1967,8 +1804,7 @@
       "level_req": 1806,
       "sell_price": 1000,
       "biome": 20,
-      "desc": "Nguyên liệu từ Sky Citadel.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Sky Citadel."
     },
     {
       "id": "item_0165",
@@ -1979,8 +1815,7 @@
       "level_req": 1806,
       "sell_price": 1000,
       "biome": 20,
-      "desc": "Nguyên liệu từ Sky Citadel.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Sky Citadel."
     },
     {
       "id": "item_0166",
@@ -1991,8 +1826,7 @@
       "level_req": 1806,
       "sell_price": 1000,
       "biome": 20,
-      "desc": "Nguyên liệu từ Sky Citadel.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Sky Citadel."
     },
     {
       "id": "item_0167",
@@ -2003,8 +1837,7 @@
       "level_req": 1806,
       "sell_price": 1000,
       "biome": 20,
-      "desc": "Nguyên liệu từ Sky Citadel.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Sky Citadel."
     },
     {
       "id": "item_0168",
@@ -2015,8 +1848,7 @@
       "level_req": 1806,
       "sell_price": 1000,
       "biome": 20,
-      "desc": "Nguyên liệu từ Sky Citadel.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Sky Citadel."
     },
     {
       "id": "item_0169",
@@ -2027,8 +1859,7 @@
       "level_req": 1901,
       "sell_price": 1050,
       "biome": 21,
-      "desc": "Nguyên liệu từ Void Realm.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Void Realm."
     },
     {
       "id": "item_0170",
@@ -2039,8 +1870,7 @@
       "level_req": 1901,
       "sell_price": 1050,
       "biome": 21,
-      "desc": "Nguyên liệu từ Void Realm.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Void Realm."
     },
     {
       "id": "item_0171",
@@ -2051,8 +1881,7 @@
       "level_req": 1901,
       "sell_price": 1050,
       "biome": 21,
-      "desc": "Nguyên liệu từ Void Realm.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Void Realm."
     },
     {
       "id": "item_0172",
@@ -2063,8 +1892,7 @@
       "level_req": 1901,
       "sell_price": 1050,
       "biome": 21,
-      "desc": "Nguyên liệu từ Void Realm.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Void Realm."
     },
     {
       "id": "item_0173",
@@ -2075,8 +1903,7 @@
       "level_req": 1901,
       "sell_price": 1050,
       "biome": 21,
-      "desc": "Nguyên liệu từ Void Realm.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Void Realm."
     },
     {
       "id": "item_0174",
@@ -2087,8 +1914,7 @@
       "level_req": 1901,
       "sell_price": 1050,
       "biome": 21,
-      "desc": "Nguyên liệu từ Void Realm.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Void Realm."
     },
     {
       "id": "item_0175",
@@ -2099,8 +1925,7 @@
       "level_req": 1901,
       "sell_price": 1050,
       "biome": 21,
-      "desc": "Nguyên liệu từ Void Realm.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Void Realm."
     },
     {
       "id": "item_0176",
@@ -2111,8 +1936,7 @@
       "level_req": 1901,
       "sell_price": 1050,
       "biome": 21,
-      "desc": "Nguyên liệu từ Void Realm.",
-      "power_share_pct": 0.0
+      "desc": "Nguyên liệu từ Void Realm."
     },
     {
       "id": "item_0177",
@@ -2123,8 +1947,7 @@
       "level_req": 100,
       "sell_price": 500,
       "biome": 0,
-      "desc": "Tinh thể Fire bậc I.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Fire bậc I."
     },
     {
       "id": "item_0178",
@@ -2135,8 +1958,7 @@
       "level_req": 500,
       "sell_price": 1000,
       "biome": 0,
-      "desc": "Tinh thể Fire bậc II.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Fire bậc II."
     },
     {
       "id": "item_0179",
@@ -2147,8 +1969,7 @@
       "level_req": 900,
       "sell_price": 1500,
       "biome": 0,
-      "desc": "Tinh thể Fire bậc III.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Fire bậc III."
     },
     {
       "id": "item_0180",
@@ -2159,8 +1980,7 @@
       "level_req": 1300,
       "sell_price": 2000,
       "biome": 0,
-      "desc": "Tinh thể Fire bậc IV.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Fire bậc IV."
     },
     {
       "id": "item_0181",
@@ -2171,8 +1991,7 @@
       "level_req": 1700,
       "sell_price": 2500,
       "biome": 0,
-      "desc": "Tinh thể Fire bậc V.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Fire bậc V."
     },
     {
       "id": "item_0182",
@@ -2183,8 +2002,7 @@
       "level_req": 100,
       "sell_price": 500,
       "biome": 0,
-      "desc": "Tinh thể Water bậc I.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Water bậc I."
     },
     {
       "id": "item_0183",
@@ -2195,8 +2013,7 @@
       "level_req": 500,
       "sell_price": 1000,
       "biome": 0,
-      "desc": "Tinh thể Water bậc II.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Water bậc II."
     },
     {
       "id": "item_0184",
@@ -2207,8 +2024,7 @@
       "level_req": 900,
       "sell_price": 1500,
       "biome": 0,
-      "desc": "Tinh thể Water bậc III.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Water bậc III."
     },
     {
       "id": "item_0185",
@@ -2219,8 +2035,7 @@
       "level_req": 1300,
       "sell_price": 2000,
       "biome": 0,
-      "desc": "Tinh thể Water bậc IV.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Water bậc IV."
     },
     {
       "id": "item_0186",
@@ -2231,8 +2046,7 @@
       "level_req": 1700,
       "sell_price": 2500,
       "biome": 0,
-      "desc": "Tinh thể Water bậc V.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Water bậc V."
     },
     {
       "id": "item_0187",
@@ -2243,8 +2057,7 @@
       "level_req": 100,
       "sell_price": 500,
       "biome": 0,
-      "desc": "Tinh thể Earth bậc I.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Earth bậc I."
     },
     {
       "id": "item_0188",
@@ -2255,8 +2068,7 @@
       "level_req": 500,
       "sell_price": 1000,
       "biome": 0,
-      "desc": "Tinh thể Earth bậc II.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Earth bậc II."
     },
     {
       "id": "item_0189",
@@ -2267,8 +2079,7 @@
       "level_req": 900,
       "sell_price": 1500,
       "biome": 0,
-      "desc": "Tinh thể Earth bậc III.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Earth bậc III."
     },
     {
       "id": "item_0190",
@@ -2279,8 +2090,7 @@
       "level_req": 1300,
       "sell_price": 2000,
       "biome": 0,
-      "desc": "Tinh thể Earth bậc IV.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Earth bậc IV."
     },
     {
       "id": "item_0191",
@@ -2291,8 +2101,7 @@
       "level_req": 1700,
       "sell_price": 2500,
       "biome": 0,
-      "desc": "Tinh thể Earth bậc V.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Earth bậc V."
     },
     {
       "id": "item_0192",
@@ -2303,8 +2112,7 @@
       "level_req": 100,
       "sell_price": 500,
       "biome": 0,
-      "desc": "Tinh thể Wind bậc I.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Wind bậc I."
     },
     {
       "id": "item_0193",
@@ -2315,8 +2123,7 @@
       "level_req": 500,
       "sell_price": 1000,
       "biome": 0,
-      "desc": "Tinh thể Wind bậc II.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Wind bậc II."
     },
     {
       "id": "item_0194",
@@ -2327,8 +2134,7 @@
       "level_req": 900,
       "sell_price": 1500,
       "biome": 0,
-      "desc": "Tinh thể Wind bậc III.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Wind bậc III."
     },
     {
       "id": "item_0195",
@@ -2339,8 +2145,7 @@
       "level_req": 1300,
       "sell_price": 2000,
       "biome": 0,
-      "desc": "Tinh thể Wind bậc IV.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Wind bậc IV."
     },
     {
       "id": "item_0196",
@@ -2351,8 +2156,7 @@
       "level_req": 1700,
       "sell_price": 2500,
       "biome": 0,
-      "desc": "Tinh thể Wind bậc V.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Wind bậc V."
     },
     {
       "id": "item_0197",
@@ -2363,8 +2167,7 @@
       "level_req": 100,
       "sell_price": 500,
       "biome": 0,
-      "desc": "Tinh thể Light bậc I.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Light bậc I."
     },
     {
       "id": "item_0198",
@@ -2375,8 +2178,7 @@
       "level_req": 500,
       "sell_price": 1000,
       "biome": 0,
-      "desc": "Tinh thể Light bậc II.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Light bậc II."
     },
     {
       "id": "item_0199",
@@ -2387,8 +2189,7 @@
       "level_req": 900,
       "sell_price": 1500,
       "biome": 0,
-      "desc": "Tinh thể Light bậc III.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Light bậc III."
     },
     {
       "id": "item_0200",
@@ -2399,8 +2200,7 @@
       "level_req": 1300,
       "sell_price": 2000,
       "biome": 0,
-      "desc": "Tinh thể Light bậc IV.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Light bậc IV."
     },
     {
       "id": "item_0201",
@@ -2411,8 +2211,7 @@
       "level_req": 1700,
       "sell_price": 2500,
       "biome": 0,
-      "desc": "Tinh thể Light bậc V.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Light bậc V."
     },
     {
       "id": "item_0202",
@@ -2423,8 +2222,7 @@
       "level_req": 100,
       "sell_price": 500,
       "biome": 0,
-      "desc": "Tinh thể Dark bậc I.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Dark bậc I."
     },
     {
       "id": "item_0203",
@@ -2435,8 +2233,7 @@
       "level_req": 500,
       "sell_price": 1000,
       "biome": 0,
-      "desc": "Tinh thể Dark bậc II.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Dark bậc II."
     },
     {
       "id": "item_0204",
@@ -2447,8 +2244,7 @@
       "level_req": 900,
       "sell_price": 1500,
       "biome": 0,
-      "desc": "Tinh thể Dark bậc III.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Dark bậc III."
     },
     {
       "id": "item_0205",
@@ -2459,8 +2255,7 @@
       "level_req": 1300,
       "sell_price": 2000,
       "biome": 0,
-      "desc": "Tinh thể Dark bậc IV.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Dark bậc IV."
     },
     {
       "id": "item_0206",
@@ -2471,8 +2266,7 @@
       "level_req": 1700,
       "sell_price": 2500,
       "biome": 0,
-      "desc": "Tinh thể Dark bậc V.",
-      "power_share_pct": 0.0
+      "desc": "Tinh thể Dark bậc V."
     },
     {
       "id": "item_0207",
@@ -2483,8 +2277,7 @@
       "level_req": 1,
       "sell_price": 0,
       "biome": 1,
-      "desc": "Mở cửa dungeon tại Verdant Meadow.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Verdant Meadow."
     },
     {
       "id": "item_0208",
@@ -2495,8 +2288,7 @@
       "level_req": 1,
       "sell_price": 0,
       "biome": 1,
-      "desc": "Mở cửa dungeon tại Verdant Meadow.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Verdant Meadow."
     },
     {
       "id": "item_0209",
@@ -2507,8 +2299,7 @@
       "level_req": 96,
       "sell_price": 0,
       "biome": 2,
-      "desc": "Mở cửa dungeon tại Crystal Cave.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Crystal Cave."
     },
     {
       "id": "item_0210",
@@ -2519,8 +2310,7 @@
       "level_req": 96,
       "sell_price": 0,
       "biome": 2,
-      "desc": "Mở cửa dungeon tại Crystal Cave.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Crystal Cave."
     },
     {
       "id": "item_0211",
@@ -2531,8 +2321,7 @@
       "level_req": 191,
       "sell_price": 0,
       "biome": 3,
-      "desc": "Mở cửa dungeon tại Volcanic Ridge.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Volcanic Ridge."
     },
     {
       "id": "item_0212",
@@ -2543,8 +2332,7 @@
       "level_req": 191,
       "sell_price": 0,
       "biome": 3,
-      "desc": "Mở cửa dungeon tại Volcanic Ridge.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Volcanic Ridge."
     },
     {
       "id": "item_0213",
@@ -2555,8 +2343,7 @@
       "level_req": 286,
       "sell_price": 0,
       "biome": 4,
-      "desc": "Mở cửa dungeon tại Frozen Tundra.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Frozen Tundra."
     },
     {
       "id": "item_0214",
@@ -2567,8 +2354,7 @@
       "level_req": 286,
       "sell_price": 0,
       "biome": 4,
-      "desc": "Mở cửa dungeon tại Frozen Tundra.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Frozen Tundra."
     },
     {
       "id": "item_0215",
@@ -2579,8 +2365,7 @@
       "level_req": 381,
       "sell_price": 0,
       "biome": 5,
-      "desc": "Mở cửa dungeon tại Sunken Reef.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Sunken Reef."
     },
     {
       "id": "item_0216",
@@ -2591,8 +2376,7 @@
       "level_req": 381,
       "sell_price": 0,
       "biome": 5,
-      "desc": "Mở cửa dungeon tại Sunken Reef.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Sunken Reef."
     },
     {
       "id": "item_0217",
@@ -2603,8 +2387,7 @@
       "level_req": 476,
       "sell_price": 0,
       "biome": 6,
-      "desc": "Mở cửa dungeon tại Ancient Forest.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Ancient Forest."
     },
     {
       "id": "item_0218",
@@ -2615,8 +2398,7 @@
       "level_req": 476,
       "sell_price": 0,
       "biome": 6,
-      "desc": "Mở cửa dungeon tại Ancient Forest.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Ancient Forest."
     },
     {
       "id": "item_0219",
@@ -2627,8 +2409,7 @@
       "level_req": 571,
       "sell_price": 0,
       "biome": 7,
-      "desc": "Mở cửa dungeon tại Desert Dunes.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Desert Dunes."
     },
     {
       "id": "item_0220",
@@ -2639,8 +2420,7 @@
       "level_req": 571,
       "sell_price": 0,
       "biome": 7,
-      "desc": "Mở cửa dungeon tại Desert Dunes.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Desert Dunes."
     },
     {
       "id": "item_0221",
@@ -2651,8 +2431,7 @@
       "level_req": 666,
       "sell_price": 0,
       "biome": 8,
-      "desc": "Mở cửa dungeon tại Stormy Highlands.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Stormy Highlands."
     },
     {
       "id": "item_0222",
@@ -2663,8 +2442,7 @@
       "level_req": 666,
       "sell_price": 0,
       "biome": 8,
-      "desc": "Mở cửa dungeon tại Stormy Highlands.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Stormy Highlands."
     },
     {
       "id": "item_0223",
@@ -2675,8 +2453,7 @@
       "level_req": 761,
       "sell_price": 0,
       "biome": 9,
-      "desc": "Mở cửa dungeon tại Mystic Swamp.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Mystic Swamp."
     },
     {
       "id": "item_0224",
@@ -2687,8 +2464,7 @@
       "level_req": 761,
       "sell_price": 0,
       "biome": 9,
-      "desc": "Mở cửa dungeon tại Mystic Swamp.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Mystic Swamp."
     },
     {
       "id": "item_0225",
@@ -2699,8 +2475,7 @@
       "level_req": 856,
       "sell_price": 0,
       "biome": 10,
-      "desc": "Mở cửa dungeon tại Celestial Peak.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Celestial Peak."
     },
     {
       "id": "item_0226",
@@ -2711,8 +2486,7 @@
       "level_req": 856,
       "sell_price": 0,
       "biome": 10,
-      "desc": "Mở cửa dungeon tại Celestial Peak.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Celestial Peak."
     },
     {
       "id": "item_0227",
@@ -2723,8 +2497,7 @@
       "level_req": 951,
       "sell_price": 0,
       "biome": 11,
-      "desc": "Mở cửa dungeon tại Ruined City.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Ruined City."
     },
     {
       "id": "item_0228",
@@ -2735,8 +2508,7 @@
       "level_req": 951,
       "sell_price": 0,
       "biome": 11,
-      "desc": "Mở cửa dungeon tại Ruined City.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Ruined City."
     },
     {
       "id": "item_0229",
@@ -2747,8 +2519,7 @@
       "level_req": 1046,
       "sell_price": 0,
       "biome": 12,
-      "desc": "Mở cửa dungeon tại Shadow Vale.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Shadow Vale."
     },
     {
       "id": "item_0230",
@@ -2759,8 +2530,7 @@
       "level_req": 1046,
       "sell_price": 0,
       "biome": 12,
-      "desc": "Mở cửa dungeon tại Shadow Vale.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Shadow Vale."
     },
     {
       "id": "item_0231",
@@ -2771,8 +2541,7 @@
       "level_req": 1141,
       "sell_price": 0,
       "biome": 13,
-      "desc": "Mở cửa dungeon tại Ember Plains.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Ember Plains."
     },
     {
       "id": "item_0232",
@@ -2783,8 +2552,7 @@
       "level_req": 1141,
       "sell_price": 0,
       "biome": 13,
-      "desc": "Mở cửa dungeon tại Ember Plains.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Ember Plains."
     },
     {
       "id": "item_0233",
@@ -2795,8 +2563,7 @@
       "level_req": 1236,
       "sell_price": 0,
       "biome": 14,
-      "desc": "Mở cửa dungeon tại Frost Abyss.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Frost Abyss."
     },
     {
       "id": "item_0234",
@@ -2807,8 +2574,7 @@
       "level_req": 1236,
       "sell_price": 0,
       "biome": 14,
-      "desc": "Mở cửa dungeon tại Frost Abyss.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Frost Abyss."
     },
     {
       "id": "item_0235",
@@ -2819,8 +2585,7 @@
       "level_req": 1331,
       "sell_price": 0,
       "biome": 15,
-      "desc": "Mở cửa dungeon tại Coral Labyrinth.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Coral Labyrinth."
     },
     {
       "id": "item_0236",
@@ -2831,8 +2596,7 @@
       "level_req": 1331,
       "sell_price": 0,
       "biome": 15,
-      "desc": "Mở cửa dungeon tại Coral Labyrinth.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Coral Labyrinth."
     },
     {
       "id": "item_0237",
@@ -2843,8 +2607,7 @@
       "level_req": 1426,
       "sell_price": 0,
       "biome": 16,
-      "desc": "Mở cửa dungeon tại Thunderspire.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Thunderspire."
     },
     {
       "id": "item_0238",
@@ -2855,8 +2618,7 @@
       "level_req": 1426,
       "sell_price": 0,
       "biome": 16,
-      "desc": "Mở cửa dungeon tại Thunderspire.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Thunderspire."
     },
     {
       "id": "item_0239",
@@ -2867,8 +2629,7 @@
       "level_req": 1521,
       "sell_price": 0,
       "biome": 17,
-      "desc": "Mở cửa dungeon tại Blight Marsh.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Blight Marsh."
     },
     {
       "id": "item_0240",
@@ -2879,8 +2640,7 @@
       "level_req": 1521,
       "sell_price": 0,
       "biome": 17,
-      "desc": "Mở cửa dungeon tại Blight Marsh.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Blight Marsh."
     },
     {
       "id": "item_0241",
@@ -2891,8 +2651,7 @@
       "level_req": 1616,
       "sell_price": 0,
       "biome": 18,
-      "desc": "Mở cửa dungeon tại Phantom Crossing.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Phantom Crossing."
     },
     {
       "id": "item_0242",
@@ -2903,8 +2662,7 @@
       "level_req": 1616,
       "sell_price": 0,
       "biome": 18,
-      "desc": "Mở cửa dungeon tại Phantom Crossing.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Phantom Crossing."
     },
     {
       "id": "item_0243",
@@ -2915,8 +2673,7 @@
       "level_req": 1711,
       "sell_price": 0,
       "biome": 19,
-      "desc": "Mở cửa dungeon tại Lava Fortress.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Lava Fortress."
     },
     {
       "id": "item_0244",
@@ -2927,8 +2684,7 @@
       "level_req": 1711,
       "sell_price": 0,
       "biome": 19,
-      "desc": "Mở cửa dungeon tại Lava Fortress.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Lava Fortress."
     },
     {
       "id": "item_0245",
@@ -2939,8 +2695,7 @@
       "level_req": 1806,
       "sell_price": 0,
       "biome": 20,
-      "desc": "Mở cửa dungeon tại Sky Citadel.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Sky Citadel."
     },
     {
       "id": "item_0246",
@@ -2951,8 +2706,7 @@
       "level_req": 1806,
       "sell_price": 0,
       "biome": 20,
-      "desc": "Mở cửa dungeon tại Sky Citadel.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Sky Citadel."
     },
     {
       "id": "item_0247",
@@ -2963,8 +2717,7 @@
       "level_req": 1901,
       "sell_price": 0,
       "biome": 21,
-      "desc": "Mở cửa dungeon tại Void Realm.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Void Realm."
     },
     {
       "id": "item_0248",
@@ -2975,8 +2728,7 @@
       "level_req": 1901,
       "sell_price": 0,
       "biome": 21,
-      "desc": "Mở cửa dungeon tại Void Realm.",
-      "power_share_pct": 0.0
+      "desc": "Mở cửa dungeon tại Void Realm."
     },
     {
       "id": "item_0249",
@@ -2987,8 +2739,7 @@
       "level_req": 1,
       "sell_price": 0,
       "biome": 0,
-      "desc": "Vật phẩm đặc biệt: Slime Trophy.",
-      "power_share_pct": 0.0
+      "desc": "Vật phẩm đặc biệt: Slime Trophy."
     },
     {
       "id": "item_0250",
@@ -2999,8 +2750,7 @@
       "level_req": 1,
       "sell_price": 0,
       "biome": 0,
-      "desc": "Vật phẩm đặc biệt: Ancient Coin.",
-      "power_share_pct": 0.0
+      "desc": "Vật phẩm đặc biệt: Ancient Coin."
     },
     {
       "id": "item_0251",
@@ -3011,8 +2761,7 @@
       "level_req": 1,
       "sell_price": 0,
       "biome": 0,
-      "desc": "Vật phẩm đặc biệt: Star Fragment.",
-      "power_share_pct": 0.0
+      "desc": "Vật phẩm đặc biệt: Star Fragment."
     },
     {
       "id": "item_0252",
@@ -3023,8 +2772,7 @@
       "level_req": 1,
       "sell_price": 0,
       "biome": 0,
-      "desc": "Vật phẩm đặc biệt: Moon Dust.",
-      "power_share_pct": 0.0
+      "desc": "Vật phẩm đặc biệt: Moon Dust."
     },
     {
       "id": "item_0253",
@@ -3035,8 +2783,7 @@
       "level_req": 1,
       "sell_price": 0,
       "biome": 0,
-      "desc": "Vật phẩm đặc biệt: Dragon Scale.",
-      "power_share_pct": 0.0
+      "desc": "Vật phẩm đặc biệt: Dragon Scale."
     },
     {
       "id": "item_0254",
@@ -3047,8 +2794,7 @@
       "level_req": 1,
       "sell_price": 0,
       "biome": 0,
-      "desc": "Vật phẩm đặc biệt: Phoenix Feather.",
-      "power_share_pct": 0.0
+      "desc": "Vật phẩm đặc biệt: Phoenix Feather."
     },
     {
       "id": "item_0255",
@@ -3059,8 +2805,7 @@
       "level_req": 1,
       "sell_price": 0,
       "biome": 0,
-      "desc": "Vật phẩm đặc biệt: Void Shard.",
-      "power_share_pct": 0.0
+      "desc": "Vật phẩm đặc biệt: Void Shard."
     },
     {
       "id": "item_0256",
@@ -3071,8 +2816,7 @@
       "level_req": 1,
       "sell_price": 0,
       "biome": 0,
-      "desc": "Vật phẩm đặc biệt: Time Crystal.",
-      "power_share_pct": 0.0
+      "desc": "Vật phẩm đặc biệt: Time Crystal."
     },
     {
       "id": "item_0257",
@@ -3083,8 +2827,7 @@
       "level_req": 1,
       "sell_price": 0,
       "biome": 0,
-      "desc": "Vật phẩm đặc biệt: Hero Badge.",
-      "power_share_pct": 0.0
+      "desc": "Vật phẩm đặc biệt: Hero Badge."
     },
     {
       "id": "item_0258",
@@ -3095,8 +2838,7 @@
       "level_req": 1,
       "sell_price": 0,
       "biome": 0,
-      "desc": "Vật phẩm đặc biệt: Titan Medal.",
-      "power_share_pct": 0.0
+      "desc": "Vật phẩm đặc biệt: Titan Medal."
     }
   ]
 }

@@ -1,8 +1,6 @@
 {
-  "schemaVersion": 1,
   "name": "relic_db",
   "count": 135,
-  "budget_pct": 5.0,
   "formula": "RelicStatPct(rank) = rank * 0.0025",
   "rank_up_exp": {
     "formula": "500 * 2^(rank-1)",

@@ -1,8 +1,6 @@
 {
-  "schemaVersion": 1,
   "name": "artifact_db",
   "count": 45,
-  "budget_pct": 5.0,
   "formula": "ArtifactStatPct(rank,awaken) = 0.004 + (rank-1)*0.002 + awaken*0.001",
   "max_rank": 5,
   "max_awaken": 5,

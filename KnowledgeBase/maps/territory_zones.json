@@ -8,9 +8,7 @@
       "region": "region_1",
       "buff_type": "AH_tax_reduce",
       "buff_desc": "Giảm 2% thuế Auction House trong vùng",
-      "coin_per_hour": 10.0,
-      "coin_decay_rule": "lose_zone→decay 10%/ngay, het_vung_sau_7_ngay",
-      "dispute_day_of_week": 1
+      "coin_per_hour": 10.0
     },
     {
       "id": "zone_02",
@@ -18,9 +16,7 @@
       "region": "region_1",
       "buff_type": "gold_drop_boost",
       "buff_desc": "+15% Gold drop từ quái trong vùng (không power thô)",
-      "coin_per_hour": 12.5,
-      "coin_decay_rule": "lose_zone→decay 10%/ngay, het_vung_sau_7_ngay",
-      "dispute_day_of_week": 2
+      "coin_per_hour": 12.5
     },
     {
       "id": "zone_03",
@@ -28,9 +24,7 @@
       "region": "region_1",
       "buff_type": "craft_cost_reduce",
       "buff_desc": "Giảm 5% chi phí craft tại workshop vùng",
-      "coin_per_hour": 15.0,
-      "coin_decay_rule": "lose_zone→decay 10%/ngay, het_vung_sau_7_ngay",
-      "dispute_day_of_week": 3
+      "coin_per_hour": 15.0
     },
     {
       "id": "zone_04",
@@ -38,9 +32,7 @@
       "region": "region_1",
       "buff_type": "gather_yield",
       "buff_desc": "+10% sản lượng thu thập tài nguyên trong vùng",
-      "coin_per_hour": 17.5,
-      "coin_decay_rule": "lose_zone→decay 10%/ngay, het_vung_sau_7_ngay",
-      "dispute_day_of_week": 4
+      "coin_per_hour": 17.5
     },
     {
       "id": "zone_05",
@@ -48,9 +40,7 @@
       "region": "region_1",
       "buff_type": "repair_discount",
       "buff_desc": "Giảm 10% chi phí sửa đồ tại NPC vùng",
-      "coin_per_hour": 20.0,
-      "coin_decay_rule": "lose_zone→decay 10%/ngay, het_vung_sau_7_ngay",
-      "dispute_day_of_week": 5
+      "coin_per_hour": 20.0
     },
     {
       "id": "zone_06",
@@ -58,9 +48,7 @@
       "region": "region_1",
       "buff_type": "teleport_fee",
       "buff_desc": "Miễn phí teleport tới vùng này 3 lần/ngày",
-      "coin_per_hour": 22.5,
-      "coin_decay_rule": "lose_zone→decay 10%/ngay, het_vung_sau_7_ngay",
-      "dispute_day_of_week": 1
+      "coin_per_hour": 22.5
     },
     {
       "id": "zone_07",
@@ -68,9 +56,7 @@
       "region": "region_1",
       "buff_type": "dungeon_ticket",
       "buff_desc": "Vào dungeon vùng không tốn key (1 lần/ngày/người)",
-      "coin_per_hour": 25.0,
-      "coin_decay_rule": "lose_zone→decay 10%/ngay, het_vung_sau_7_ngay",
-      "dispute_day_of_week": 2
+      "coin_per_hour": 25.0
     },
     {
       "id": "zone_08",
@@ -78,9 +64,7 @@
       "region": "region_2",
       "buff_type": "AH_tax_reduce",
       "buff_desc": "Giảm 2% thuế Auction House trong vùng",
-      "coin_per_hour": 27.5,
-      "coin_decay_rule": "lose_zone→decay 10%/ngay, het_vung_sau_7_ngay",
-      "dispute_day_of_week": 3
+      "coin_per_hour": 27.5
     },
     {
       "id": "zone_09",
@@ -88,9 +72,7 @@
       "region": "region_2",
       "buff_type": "gold_drop_boost",
       "buff_desc": "+15% Gold drop từ quái trong vùng (không power thô)",
-      "coin_per_hour": 30.0,
-      "coin_decay_rule": "lose_zone→decay 10%/ngay, het_vung_sau_7_ngay",
-      "dispute_day_of_week": 4
+      "coin_per_hour": 30.0
     },
     {
       "id": "zone_10",
@@ -98,9 +80,7 @@
       "region": "region_2",
       "buff_type": "craft_cost_reduce",
       "buff_desc": "Giảm 5% chi phí craft tại workshop vùng",
-      "coin_per_hour": 32.5,
-      "coin_decay_rule": "lose_zone→decay 10%/ngay, het_vung_sau_7_ngay",
-      "dispute_day_of_week": 5
+      "coin_per_hour": 32.5
     },
     {
       "id": "zone_11",
@@ -108,9 +88,7 @@
       "region": "region_2",
       "buff_type": "gather_yield",
       "buff_desc": "+10% sản lượng thu thập tài nguyên trong vùng",
-      "coin_per_hour": 35.0,
-      "coin_decay_rule": "lose_zone→decay 10%/ngay, het_vung_sau_7_ngay",
-      "dispute_day_of_week": 1
+      "coin_per_hour": 35.0
     },
     {
       "id": "zone_12",
@@ -118,9 +96,7 @@
       "region": "region_2",
       "buff_type": "repair_discount",
       "buff_desc": "Giảm 10% chi phí sửa đồ tại NPC vùng",
-      "coin_per_hour": 37.5,
-      "coin_decay_rule": "lose_zone→decay 10%/ngay, het_vung_sau_7_ngay",
-      "dispute_day_of_week": 2
+      "coin_per_hour": 37.5
     },
     {
       "id": "zone_13",
@@ -128,9 +104,7 @@
       "region": "region_2",
       "buff_type": "teleport_fee",
       "buff_desc": "Miễn phí teleport tới vùng này 3 lần/ngày",
-      "coin_per_hour": 40.0,
-      "coin_decay_rule": "lose_zone→decay 10%/ngay, het_vung_sau_7_ngay",
-      "dispute_day_of_week": 3
+      "coin_per_hour": 40.0
     },
     {
       "id": "zone_14",
@@ -138,9 +112,7 @@
       "region": "region_2",
       "buff_type": "dungeon_ticket",
       "buff_desc": "Vào dungeon vùng không tốn key (1 lần/ngày/người)",
-      "coin_per_hour": 42.5,
-      "coin_decay_rule": "lose_zone→decay 10%/ngay, het_vung_sau_7_ngay",
-      "dispute_day_of_week": 4
+      "coin_per_hour": 42.5
     },
     {
       "id": "zone_15",
@@ -148,9 +120,7 @@
       "region": "region_3",
       "buff_type": "AH_tax_reduce",
       "buff_desc": "Giảm 2% thuế Auction House trong vùng",
-      "coin_per_hour": 45.0,
-      "coin_decay_rule": "lose_zone→decay 10%/ngay, het_vung_sau_7_ngay",
-      "dispute_day_of_week": 5
+      "coin_per_hour": 45.0
     },
     {
       "id": "zone_16",
@@ -158,9 +128,7 @@
       "region": "region_3",
       "buff_type": "gold_drop_boost",
       "buff_desc": "+15% Gold drop từ quái trong vùng (không power thô)",
-      "coin_per_hour": 47.5,
-      "coin_decay_rule": "lose_zone→decay 10%/ngay, het_vung_sau_7_ngay",
-      "dispute_day_of_week": 1
+      "coin_per_hour": 47.5
     },
     {
       "id": "zone_17",
@@ -168,9 +136,7 @@
       "region": "region_3",
       "buff_type": "craft_cost_reduce",
       "buff_desc": "Giảm 5% chi phí craft tại workshop vùng",
-      "coin_per_hour": 50.0,
-      "coin_decay_rule": "lose_zone→decay 10%/ngay, het_vung_sau_7_ngay",
-      "dispute_day_of_week": 2
+      "coin_per_hour": 50.0
     },
     {
       "id": "zone_18",
@@ -178,9 +144,7 @@
       "region": "region_3",
       "buff_type": "gather_yield",
       "buff_desc": "+10% sản lượng thu thập tài nguyên trong vùng",
-      "coin_per_hour": 52.5,
-      "coin_decay_rule": "lose_zone→decay 10%/ngay, het_vung_sau_7_ngay",
-      "dispute_day_of_week": 3
+      "coin_per_hour": 52.5
     },
     {
       "id": "zone_19",
@@ -188,9 +152,7 @@
       "region": "region_3",
       "buff_type": "repair_discount",
       "buff_desc": "Giảm 10% chi phí sửa đồ tại NPC vùng",
-      "coin_per_hour": 55.0,
-      "coin_decay_rule": "lose_zone→decay 10%/ngay, het_vung_sau_7_ngay",
-      "dispute_day_of_week": 4
+      "coin_per_hour": 55.0
     },
     {
       "id": "zone_20",
@@ -198,9 +160,7 @@
       "region": "region_3",
       "buff_type": "teleport_fee",
       "buff_desc": "Miễn phí teleport tới vùng này 3 lần/ngày",
-      "coin_per_hour": 57.5,
-      "coin_decay_rule": "lose_zone→decay 10%/ngay, het_vung_sau_7_ngay",
-      "dispute_day_of_week": 5
+      "coin_per_hour": 57.5
     },
     {
       "id": "zone_21",
@@ -208,9 +168,7 @@
       "region": "region_3",
       "buff_type": "dungeon_ticket",
       "buff_desc": "Vào dungeon vùng không tốn key (1 lần/ngày/người)",
-      "coin_per_hour": 60.0,
-      "coin_decay_rule": "lose_zone→decay 10%/ngay, het_vung_sau_7_ngay",
-      "dispute_day_of_week": 1
+      "coin_per_hour": 60.0
     }
   ]
 }
