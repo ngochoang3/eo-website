@@ -1,0 +1,633 @@
+{
+  "generatedAt": "2026-06-21",
+  "categories": {
+    "items": [
+      {
+        "file": "02_RELIC_SYSTEM.md",
+        "type": "markdown"
+      },
+      {
+        "file": "03_ARTIFACT_SYSTEM.md",
+        "type": "markdown"
+      },
+      {
+        "file": "04_TRAIT_SYSTEM.md",
+        "type": "markdown"
+      },
+      {
+        "file": "05_RUNE_SYSTEM.md",
+        "type": "markdown"
+      },
+      {
+        "file": "08_PET_EQUIPMENT.md",
+        "type": "markdown"
+      },
+      {
+        "file": "MOUNT_SYSTEM.md",
+        "type": "markdown"
+      },
+      {
+        "file": "SOULBOND_SYSTEM.md",
+        "type": "markdown"
+      },
+      {
+        "file": "WING_SYSTEM.md",
+        "type": "markdown"
+      },
+      {
+        "file": "affix_db.json",
+        "type": "json"
+      },
+      {
+        "file": "artifact_db.json",
+        "type": "json"
+      },
+      {
+        "file": "equipment_db.json",
+        "type": "json"
+      },
+      {
+        "file": "furniture_db.json",
+        "type": "json"
+      },
+      {
+        "file": "gem_db.json",
+        "type": "json"
+      },
+      {
+        "file": "item_db.json",
+        "type": "json"
+      },
+      {
+        "file": "pet_equipment_db.json",
+        "type": "json"
+      },
+      {
+        "file": "relic_db.json",
+        "type": "json"
+      },
+      {
+        "file": "rune_db.json",
+        "type": "json"
+      },
+      {
+        "file": "set_bonus_db.json",
+        "type": "json"
+      },
+      {
+        "file": "trait_db.json",
+        "type": "json"
+      },
+      {
+        "file": "trangbi-reference.txt",
+        "type": "text"
+      }
+    ],
+    "monsters": [
+      {
+        "file": "07_CREATURE_SYSTEM.md",
+        "type": "markdown"
+      },
+      {
+        "file": "16_MONSTER_FAMILY_ARCHITECTURE.md",
+        "type": "markdown"
+      },
+      {
+        "file": "PET_BEHAVIOR_ARCHITECTURE.md",
+        "type": "markdown"
+      },
+      {
+        "file": "boss_db.json",
+        "type": "json"
+      },
+      {
+        "file": "boss_mechanics_db.json",
+        "type": "json"
+      },
+      {
+        "file": "creature_db.json",
+        "type": "json"
+      },
+      {
+        "file": "monster_db.json",
+        "type": "json"
+      },
+      {
+        "file": "monster_family.json",
+        "type": "json"
+      }
+    ],
+    "quests": [
+      {
+        "file": "QUEST_PIPELINE_ARCHITECTURE.md",
+        "type": "markdown"
+      },
+      {
+        "file": "quest_db.json",
+        "type": "json"
+      }
+    ],
+    "npc": [
+      {
+        "file": "13_NPC_ARCHITECTURE.md",
+        "type": "markdown"
+      },
+      {
+        "file": "npc_db.json",
+        "type": "json"
+      }
+    ],
+    "maps": [
+      {
+        "file": "14_DUNGEON_ARCHITECTURE.md",
+        "type": "markdown"
+      },
+      {
+        "file": "BiomeTemplate.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "ChunkRegistry.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "MainGameMapConfig.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "RegionChunkConfig.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "RegionTownRegistry.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "RespawnConfig.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "SeasonalTileDatabase.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "TownChunkProfile.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "WORLD_MAP_SYSTEM.md",
+        "type": "markdown"
+      },
+      {
+        "file": "WorldRegionConfig.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "WorldRegionDatabase.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "dungeon_db.json",
+        "type": "json"
+      },
+      {
+        "file": "regions/RegionGridConfig_R00 1.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "regions/RegionGridConfig_R00 10.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "regions/RegionGridConfig_R00 11.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "regions/RegionGridConfig_R00 12.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "regions/RegionGridConfig_R00 13.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "regions/RegionGridConfig_R00 14.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "regions/RegionGridConfig_R00 15.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "regions/RegionGridConfig_R00 16.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "regions/RegionGridConfig_R00 17.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "regions/RegionGridConfig_R00 18.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "regions/RegionGridConfig_R00 19.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "regions/RegionGridConfig_R00 2.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "regions/RegionGridConfig_R00 20.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "regions/RegionGridConfig_R00 3.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "regions/RegionGridConfig_R00 4.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "regions/RegionGridConfig_R00 5.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "regions/RegionGridConfig_R00 6.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "regions/RegionGridConfig_R00 7.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "regions/RegionGridConfig_R00 8.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "regions/RegionGridConfig_R00 9.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "regions/RegionGridConfig_R00.asset",
+        "type": "unity-yaml"
+      },
+      {
+        "file": "territory_zones.json",
+        "type": "json"
+      }
+    ],
+    "skills": [
+      {
+        "file": "06_MASTERY_SYSTEM.md",
+        "type": "markdown"
+      },
+      {
+        "file": "09_ELEMENT_CHART.md",
+        "type": "markdown"
+      },
+      {
+        "file": "15_DAMAGE_TYPE_ARCHITECTURE.md",
+        "type": "markdown"
+      },
+      {
+        "file": "SKILL_SYSTEM_DETAILED.md",
+        "type": "markdown"
+      },
+      {
+        "file": "ascension_ranks.json",
+        "type": "json"
+      },
+      {
+        "file": "ascension_tree.json",
+        "type": "json"
+      },
+      {
+        "file": "class-skills-reference.txt",
+        "type": "text"
+      },
+      {
+        "file": "damage_type_config.json",
+        "type": "json"
+      },
+      {
+        "file": "element_chart.json",
+        "type": "json"
+      },
+      {
+        "file": "skill_db.json",
+        "type": "json"
+      }
+    ],
+    "drops": [
+      {
+        "file": "10_LOOT_ALGORITHM.md",
+        "type": "markdown"
+      },
+      {
+        "file": "11_PITY_FAILSTACK.md",
+        "type": "markdown"
+      },
+      {
+        "file": "pity_config.json",
+        "type": "json"
+      }
+    ],
+    "shops": [
+      {
+        "file": "09_SHOP_ARCHITECTURE.md",
+        "type": "markdown"
+      },
+      {
+        "file": "10_GACHA_ARCHITECTURE.md",
+        "type": "markdown"
+      },
+      {
+        "file": "AUCTION_HOUSE_DETAILED.md",
+        "type": "markdown"
+      },
+      {
+        "file": "MONETIZATION_PASS.md",
+        "type": "markdown"
+      },
+      {
+        "file": "MONETIZATION_VIP_COSMETICS.md",
+        "type": "markdown"
+      },
+      {
+        "file": "shop_db.json",
+        "type": "json"
+      }
+    ],
+    "crafting": [
+      {
+        "file": "CRAFTING_SYSTEM_DETAILED.md",
+        "type": "markdown"
+      },
+      {
+        "file": "GATHERING_SYSTEM_DETAILED.md",
+        "type": "markdown"
+      },
+      {
+        "file": "crafting_db.json",
+        "type": "json"
+      }
+    ],
+    "worlds": [
+      {
+        "file": "03_WORLD_EVENT_SYSTEM.md",
+        "type": "markdown"
+      },
+      {
+        "file": "DAY_NIGHT_SYSTEM.md",
+        "type": "markdown"
+      },
+      {
+        "file": "HOUSING_EXPANSION.md",
+        "type": "markdown"
+      },
+      {
+        "file": "HOUSING_SYSTEM_systems.md",
+        "type": "markdown"
+      },
+      {
+        "file": "WEATHER_SYSTEM.md",
+        "type": "markdown"
+      },
+      {
+        "file": "WORLD_SIMULATION_ARCHITECTURE.md",
+        "type": "markdown"
+      },
+      {
+        "file": "biome_element_weakness.json",
+        "type": "json"
+      },
+      {
+        "file": "biome_remap.json",
+        "type": "json"
+      },
+      {
+        "file": "season_db.json",
+        "type": "json"
+      }
+    ],
+    "dialogs": [
+      {
+        "file": "REPUTATION_SYSTEM.md",
+        "type": "markdown"
+      },
+      {
+        "file": "reputation_factions.json",
+        "type": "json"
+      }
+    ],
+    "tutorials": [
+      {
+        "file": "TUTORIAL_ONBOARDING.md",
+        "type": "markdown"
+      }
+    ],
+    "guides": [
+      {
+        "file": "01_GUILD_ARCHITECTURE.md",
+        "type": "markdown"
+      },
+      {
+        "file": "02_PARTY_MATCHMAKING_ARCHITECTURE.md",
+        "type": "markdown"
+      },
+      {
+        "file": "07_DAILY_WEEKLY_ACTIVITY_SYSTEM.md",
+        "type": "markdown"
+      },
+      {
+        "file": "08_MAIL_SYSTEM.md",
+        "type": "markdown"
+      },
+      {
+        "file": "11_LIVEOPS_ARCHITECTURE.md",
+        "type": "markdown"
+      },
+      {
+        "file": "15_OFFLINE_PROGRESS_SYSTEM.md",
+        "type": "markdown"
+      },
+      {
+        "file": "16_CATCHUP_SYSTEM.md",
+        "type": "markdown"
+      },
+      {
+        "file": "FRIEND_SYSTEM.md",
+        "type": "markdown"
+      },
+      {
+        "file": "INDEX.md",
+        "type": "markdown"
+      },
+      {
+        "file": "MMORPG_BIBLE_V10.md",
+        "type": "markdown"
+      },
+      {
+        "file": "MMORPG_BIBLE_V10_VOL2.md",
+        "type": "markdown"
+      },
+      {
+        "file": "PVP_ARCHITECTURE.md",
+        "type": "markdown"
+      },
+      {
+        "file": "README.md",
+        "type": "markdown"
+      },
+      {
+        "file": "UI_UX_ARCHITECTURE.md",
+        "type": "markdown"
+      }
+    ],
+    "patchnotes": [
+      {
+        "file": "MMORPG_EXPANSION_ROADMAP.md",
+        "type": "markdown"
+      }
+    ],
+    "faq": [],
+    "achievements": [
+      {
+        "file": "04_ACHIEVEMENT_SYSTEM.md",
+        "type": "markdown"
+      },
+      {
+        "file": "05_TITLE_SYSTEM.md",
+        "type": "markdown"
+      },
+      {
+        "file": "06_COLLECTION_CODEX_SYSTEM.md",
+        "type": "markdown"
+      },
+      {
+        "file": "LEADERBOARD_ARCHITECTURE.md",
+        "type": "markdown"
+      },
+      {
+        "file": "battle_pass_db.json",
+        "type": "json"
+      }
+    ],
+    "lore": [
+      {
+        "file": "chuong 1 dong co.txt",
+        "type": "text"
+      },
+      {
+        "file": "chuong 10 vung dat doc to.txt",
+        "type": "text"
+      },
+      {
+        "file": "chuong 11 thanh pho co khi omega.txt",
+        "type": "text"
+      },
+      {
+        "file": "chuong 12 vung dat zombie.txt",
+        "type": "text"
+      },
+      {
+        "file": "chuong 13 thien gioi vinh hang.txt",
+        "type": "text"
+      },
+      {
+        "file": "chuong 14 dia nguc hoa nguc.txt",
+        "type": "text"
+      },
+      {
+        "file": "chuong 15 khong gian vu tru.txt",
+        "type": "text"
+      },
+      {
+        "file": "chuong 16 thoi gian vinh cuu  .txt",
+        "type": "text"
+      },
+      {
+        "file": "chuong 17 giac mo tan the.txt",
+        "type": "text"
+      },
+      {
+        "file": "chuong 18 vuong quoc keo ngot vinh hang.txt",
+        "type": "text"
+      },
+      {
+        "file": "chuong 19 the gioi co dai.txt",
+        "type": "text"
+      },
+      {
+        "file": "chuong 2 rung.txt",
+        "type": "text"
+      },
+      {
+        "file": "chuong 20 hu khong vinh biet.txt",
+        "type": "text"
+      },
+      {
+        "file": "chuong 21 than gioi giang the.txt",
+        "type": "text"
+      },
+      {
+        "file": "chuong 3 dam lay.txt",
+        "type": "text"
+      },
+      {
+        "file": "chuong 5 nui titan.txt",
+        "type": "text"
+      },
+      {
+        "file": "chuong 6 hang dong phale.txt",
+        "type": "text"
+      },
+      {
+        "file": "chuong 7 bien vinh cuu.txt",
+        "type": "text"
+      },
+      {
+        "file": "chuong 8 duoi nuoc vuc tham.txt",
+        "type": "text"
+      },
+      {
+        "file": "chuong mo rong.txt",
+        "type": "text"
+      },
+      {
+        "file": "chuong9 bang gia vinh cuu.txt",
+        "type": "text"
+      },
+      {
+        "file": "chương 4 sa mac.txt",
+        "type": "text"
+      }
+    ],
+    "raw": [
+      {
+        "file": "growth_systems_db.json",
+        "type": "json"
+      },
+      {
+        "file": "mentor_milestones.json",
+        "type": "json"
+      },
+      {
+        "file": "party_progression.json",
+        "type": "json"
+      },
+      {
+        "file": "power_budget.json",
+        "type": "json"
+      },
+      {
+        "file": "progression_1_2000.json",
+        "type": "json"
+      }
+    ]
+  },
+  "totalFiles": 148
+}

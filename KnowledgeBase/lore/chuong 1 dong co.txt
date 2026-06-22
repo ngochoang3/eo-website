@@ -1,0 +1,238 @@
+BIOME 01: ĐỒNG CỎ (Lv 1-150)
+Cốt truyện
+
+Người chơi tỉnh dậy tại Làng Mầm Sống.
+
+Các Slime trong khu vực bắt đầu trở nên hung dữ.
+
+Nguyên nhân được cho là từ một nguồn năng lượng cổ đại bên dưới Đồng Cỏ.
+
+CHƯƠNG 1: THỨC TỈNH (Quest 1-5)
+Quest 1 - Tỉnh Giấc
+
+NPC:Trưởng Làng Flora
+Mục tiêu:Nói chuyện với Flora
+
+Thưởng:
+Kiếm Gỗ / Trượng Gỗ / Cung Gỗ
+100 EXP
+
+Quest 2 - Những Vị Khách Không Mời
+
+Mục tiêu:Tiêu diệt 10 Slime Cỏ Xanh
+
+Quái:Slime Cỏ Xanh
+
+Thưởng:
+
+200 EXP
+50 Gold
+Quest 3 - Thu Thập Dược Thảo
+
+Mục tiêu:Thu thập 15 Cỏ Linh Hồn
+
+Thưởng:3 Bình Máu
+
+Quest 4 - Kiểm Tra Kỹ Năng
+
+Mục tiêu:
+
+Sử dụng kỹ năng 20 lần
+
+Thưởng:
+
+300 EXP
+Quest 5 - Người Gác Cổng
+
+Elite:
+
+Slime Cỏ Khổng Lồ
+
+Mục tiêu:
+
+Đánh bại Elite
+
+Thưởng:
+
+Trang bị Common
+CHƯƠNG 2: DẤU HIỆU BẤT THƯỜNG (Quest 6-10)
+Quest 6
+
+Khảo Sát Đồng Hoa
+
+Khám phá khu vực Hoa Dại
+Quest 7
+
+Mùi Hương Kỳ Lạ
+
+Thu thập 10 Phấn Hoa
+
+Quái:
+
+Slime Hoa
+Slime Phấn Hoa
+Quest 8
+
+Dấu Chân Bí Ẩn
+
+Điều tra 3 địa điểm
+Quest 9
+
+Tiếng Gầm Trong Đêm
+
+Tiêu diệt 20 Slime Lá Cây
+Quest 10
+
+Mảnh Đá Cổ
+
+Tìm Ancient Stone
+
+Mở Dungeon 1
+
+CHƯƠNG 3: HANG CỎ CỔ ĐẠI (Quest 11-15)
+Quest 11
+
+Tiến Vào Hang
+
+Dungeon:
+
+Hang Cỏ Cổ Đại
+
+Quest 12
+
+Thanh Tẩy Slime
+
+Giết 30 quái trong dungeon
+Quest 13
+
+Lõi Năng Lượng
+
+Thu thập 5 Core
+Quest 14
+
+Kẻ Bảo Vệ
+
+Boss:
+
+Ancient Grass Beast
+
+Quest 15
+
+Mảnh Ghép Thứ Nhất
+
+Nhận Grass Core Piece
+CHƯƠNG 4: NGUỒN GỐC BIẾN DỊ (Quest 16-20)
+Quest 16
+
+Nhà Khoa Học Lang Thang
+
+NPC:
+
+Professor Slime
+
+Quest 17
+
+Thí Nghiệm Thất Bại
+
+Thu thập 20 Mẫu Slime
+Quest 18
+
+Đột Biến
+
+Đánh bại 10 Mutant Slime
+Quest 19
+
+Cánh Cổng Bị Khóa
+
+Thu thập 3 Chìa Khóa
+Quest 20
+
+Kẻ Đứng Sau
+
+Mini Boss:
+
+Corrupted Slime
+
+CHƯƠNG 5: VUA SLIME (Quest 21-25)
+Quest 21
+
+Chuẩn Bị Chiến Trận
+
+Chế tạo 5 Potion
+Quest 22
+
+Tập Hợp Đồng Minh
+
+Hoàn thành Party Dungeon
+Quest 23
+
+Tấn Công Thành Trì
+
+Vượt qua 3 khu vực
+Quest 24
+
+Ngai Vàng Đồng Cỏ
+
+Boss Arena mở.
+
+Quest 25
+
+Vua Slime Cỏ Xanh
+
+Boss Skills:
+
+Slam
+Summon
+Poison Grass
+
+Thưởng:
+
+Grass Crown
+Epic Equipment
+CHƯƠNG 6: MẢNH LÕI THẾ GIỚI (Quest 26-30)
+Quest 26
+
+Năng Lượng Kỳ Lạ
+
+Điều tra xác Boss
+Quest 27
+
+World Core
+
+Thu hồi Grass Fragment
+Quest 28
+
+Thông Điệp Cổ Đại
+
+Xem ký ức World Core
+Quest 29
+
+Cổng Tới Rừng
+
+Kích hoạt Ancient Portal
+Quest 30
+
+Hành Trình Mới
+
+Mở:
+
+Biome Rừng
+
+Thưởng:
+
+1.000 EXP
+Mount đầu tiên
+Danh hiệu:
+Người Khai Phá Đồng Cỏ
+KẾT QUẢ
+
+Biome Đồng Cỏ hoàn chỉnh:
+
+30 Main Quest
+1 Story Arc
+1 Elite
+1 Mini Boss
+1 Dungeon Boss
+1 Map Boss
+1 World Core Fragment
+Mở map Rừng

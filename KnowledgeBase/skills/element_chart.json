@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "name": "element_chart",
+  "elements": [
+    "Fire",
+    "Water",
+    "Earth",
+    "Wind",
+    "Light",
+    "Dark"
+  ],
+  "chart": [
+    {
+      "attacker_element": "Fire",
+      "defender_element": "Fire",
+      "multiplier": 1.0,
+      "label": "neutral"
+    },
+    {
+      "attacker_element": "Fire",
+      "defender_element": "Water",
+      "multiplier": 0.7,
+      "label": "resist"
+    },
+    {
+      "attacker_element": "Fire",
+      "defender_element": "Earth",
+      "multiplier": 1.4,
+      "label": "effective"
+    },
+    {
+      "attacker_element": "Fire",
+      "defender_element": "Wind",
+      "multiplier": 1.0,
+      "label": "neutral"
+    },
+    {
+      "attacker_element": "Fire",
+      "defender_element": "Light",
+      "multiplier": 1.0,
+      "label": "neutral"
+    },
+    {
+      "attacker_element": "Fire",
+      "defender_element": "Dark",
+      "multiplier": 1.0,
+      "label": "neutral"
+    },
+    {
+      "attacker_element": "Water",
+      "defender_element": "Fire",
+      "multiplier": 1.4,
+      "label": "effective"
+    },
+    {
+      "attacker_element": "Water",
+      "defender_element": "Water",
+      "multiplier": 1.0,
+      "label": "neutral"
+    },
+    {
+      "attacker_element": "Water",
+      "defender_element": "Earth",
+      "multiplier": 0.7,
+      "label": "resist"
+    },
+    {
+      "attacker_element": "Water",
+      "defender_element": "Wind",
+      "multiplier": 1.0,
+      "label": "neutral"
+    },
+    {
+      "attacker_element": "Water",
+      "defender_element": "Light",
+      "multiplier": 1.0,
+      "label": "neutral"
+    },
+    {
+      "attacker_element": "Water",
+      "defender_element": "Dark",
+      "multiplier": 1.0,
+      "label": "neutral"
+    },
+    {
+      "attacker_element": "Earth",
+      "defender_element": "Fire",
+      "multiplier": 0.7,
+      "label": "resist"
+    },
+    {
+      "attacker_element": "Earth",
+      "defender_element": "Water",
+      "multiplier": 1.4,
+      "label": "effective"
+    },
+    {
+      "attacker_element": "Earth",
+      "defender_element": "Earth",
+      "multiplier": 1.0,
+      "label": "neutral"
+    },
+    {
+      "attacker_element": "Earth",
+      "defender_element": "Wind",
+      "multiplier": 1.0,
+      "label": "neutral"
+    },
+    {
+      "attacker_element": "Earth",
+      "defender_element": "Light",
+      "multiplier": 1.0,
+      "label": "neutral"
+    },
+    {
+      "attacker_element": "Earth",
+      "defender_element": "Dark",
+      "multiplier": 1.0,
+      "label": "neutral"
+    },
+    {
+      "attacker_element": "Wind",
+      "defender_element": "Fire",
+      "multiplier": 1.0,
+      "label": "neutral"
+    },
+    {
+      "attacker_element": "Wind",
+      "defender_element": "Water",
+      "multiplier": 1.0,
+      "label": "neutral"
+    },
+    {
+      "attacker_element": "Wind",
+      "defender_element": "Earth",
+      "multiplier": 1.0,
+      "label": "neutral"
+    },
+    {
+      "attacker_element": "Wind",
+      "defender_element": "Wind",
+      "multiplier": 1.0,
+      "label": "neutral"
+    },
+    {
+      "attacker_element": "Wind",
+      "defender_element": "Light",
+      "multiplier": 1.4,
+      "label": "effective"
+    },
+    {
+      "attacker_element": "Wind",
+      "defender_element": "Dark",
+      "multiplier": 0.7,
+      "label": "resist"
+    },
+    {
+      "attacker_element": "Light",
+      "defender_element": "Fire",
+      "multiplier": 1.0,
+      "label": "neutral"
+    },
+    {
+      "attacker_element": "Light",
+      "defender_element": "Water",
+      "multiplier": 1.0,
+      "label": "neutral"
+    },
+    {
+      "attacker_element": "Light",
+      "defender_element": "Earth",
+      "multiplier": 1.0,
+      "label": "neutral"
+    },
+    {
+      "attacker_element": "Light",
+      "defender_element": "Wind",
+      "multiplier": 0.7,
+      "label": "resist"
+    },
+    {
+      "attacker_element": "Light",
+      "defender_element": "Light",
+      "multiplier": 1.0,
+      "label": "neutral"
+    },
+    {
+      "attacker_element": "Light",
+      "defender_element": "Dark",
+      "multiplier": 1.4,
+      "label": "effective"
+    },
+    {
+      "attacker_element": "Dark",
+      "defender_element": "Fire",
+      "multiplier": 1.0,
+      "label": "neutral"
+    },
+    {
+      "attacker_element": "Dark",
+      "defender_element": "Water",
+      "multiplier": 1.0,
+      "label": "neutral"
+    },
+    {
+      "attacker_element": "Dark",
+      "defender_element": "Earth",
+      "multiplier": 1.0,
+      "label": "neutral"
+    },
+    {
+      "attacker_element": "Dark",
+      "defender_element": "Wind",
+      "multiplier": 1.4,
+      "label": "effective"
+    },
+    {
+      "attacker_element": "Dark",
+      "defender_element": "Light",
+      "multiplier": 0.7,
+      "label": "resist"
+    },
+    {
+      "attacker_element": "Dark",
+      "defender_element": "Dark",
+      "multiplier": 1.0,
+      "label": "neutral"
+    }
+  ],
+  "invariant": {
+    "min_mult": 0.7,
+    "max_mult": 1.4
+  }
+}

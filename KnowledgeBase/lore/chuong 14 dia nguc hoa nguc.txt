@@ -1,0 +1,340 @@
+BIOME 14: ĐỊA NGỤC HỎA NGỤC (Lv 3100–3400)
+Cốt truyện chính
+
+Sau khi thu được Celestial Core Fragment, người chơi phát hiện một sự thật bị che giấu từ thời Sáng Thế.
+
+Thiên Giới và Địa Ngục không phải hai thế giới đối lập.
+
+Chúng từng là một.
+
+Khi cuộc chiến chống The Void nổ ra, các vị Thần lựa chọn phong ấn sức mạnh hủy diệt xuống tầng sâu nhất của thế giới.
+
+Nơi đó trở thành:
+
+ĐỊA NGỤC HỎA NGỤC
+
+Qua hàng vạn năm, phong ấn suy yếu.
+
+Năng lượng Hư Không hòa lẫn với Ma Hỏa.
+
+Những Chúa Quỷ cổ đại lần lượt thức tỉnh.
+
+Boss cuối khu vực:
+
+LÕI QUỶ ĐỊA NGỤC
+
+Mảnh World Core:
+
+Inferno Core Fragment
+QUÁI VẬT KHU VỰC
+Thường
+Slime Dung Nham
+Slime Ác Ma
+Slime Địa Ngục
+Slime Hỏa Ngục
+Slime Tro Tàn
+Slime Huyết Ma
+Elite
+Infernal Guardian
+Hell Knight
+Demon Executioner
+CHƯƠNG 1: CỔNG ĐỊA NGỤC (QUEST 511–515)
+Quest 511 – Con Đường Xuống Vực Sâu
+
+NPC:
+
+Archdemon Azrael
+
+Mục tiêu:
+
+Tiến vào Địa Ngục Hỏa Ngục
+
+Thưởng:
+
+8.000.000 EXP
+2.000.000 Gold
+Quest 512 – Dòng Sông Dung Nham
+
+Tiêu diệt:
+
+20 Slime Dung Nham
+Quest 513 – Hơi Thở Ma Hỏa
+
+Thu thập:
+
+20 Infernal Ember
+Quest 514 – Thành Trì Quỷ Tộc
+
+Khám phá:
+
+Hell Fortress
+Quest 515 – Kẻ Gác Cổng Địa Ngục
+
+Elite Boss:
+
+Infernal Guardian
+
+CHƯƠNG 2: ĐẾ CHẾ QUỶ TỘC (QUEST 516–520)
+Quest 516 – Thành Phố Tro Tàn
+
+NPC:
+
+Azrael
+
+Quest 517 – Những Linh Hồn Bị Xiềng Xích
+
+Giải cứu:
+
+10 Lost Souls
+Quest 518 – Chiến Tranh Thiên Ma
+
+Thu thập:
+
+15 Infernal Chronicle
+Quest 519 – Đội Quân Huyết Ma
+
+Tiêu diệt:
+
+25 Slime Huyết Ma
+Quest 520 – Cánh Cửa Quỷ Vương
+
+Mở Dungeon 1
+
+CHƯƠNG 3: DUNGEON 1 – PHÁO ĐÀI HUYẾT MA (QUEST 521–525)
+Quest 521 – Thành Trì Đỏ Máu
+
+Dungeon:
+
+Blood Fortress
+
+Quest 522 – Đội Quân Địa Ngục
+
+Tiêu diệt:
+
+60 quái
+Quest 523 – Tinh Hoa Huyết Ma
+
+Thu thập:
+
+20 Blood Core
+Quest 524 – Đại Tướng Quỷ Tộc
+
+Boss:
+
+Blood General Slime
+
+Quest 525 – Hồ Sơ Ma Tộc
+
+Nhận:
+
+Inferno Archive I
+CHƯƠNG 4: SỰ THẬT VỀ ĐỊA NGỤC (QUEST 526–530)
+Quest 526 – Lịch Sử Bị Bóp Méo
+
+NPC:
+
+Ancient Demon Sage
+
+Quest 527 – Cuộc Nội Chiến Thần Thánh
+
+Xem:
+
+3 Ancient Memory
+Quest 528 – Những Kẻ Bị Lưu Đày
+
+Điều tra:
+
+Fallen Kingdom
+Quest 529 – Chúa Quỷ Sa Ngã
+
+Mini Boss:
+
+Demon Lord Fragment
+
+Quest 530 – Bí Mật Ma Ấn
+
+Nhận:
+
+Inferno Archive II
+CHƯƠNG 5: DUNGEON 2 – HỐ SÂU VÔ TẬN (QUEST 531–535)
+Quest 531 – Tầng Sâu Địa Ngục
+
+Dungeon:
+
+Abyss of Inferno
+
+Quest 532 – Ác Linh Hỏa Ngục
+
+Tiêu diệt:
+
+70 quái
+Quest 533 – Mảnh Vỡ Ma Ấn
+
+Thu thập:
+
+20 Infernal Seal Fragment
+Quest 534 – Người Giữ Hố Sâu
+
+Boss:
+
+Infernal Colossus
+
+Quest 535 – Chìa Khóa Ma Ấn
+
+Nhận:
+
+Demon Seal Key
+CHƯƠNG 6: MA ẤN HỦY DIỆT (QUEST 536–540)
+Quest 536 – Sự Rạn Nứt Của Phong Ấn
+
+NPC:
+
+Azrael
+
+Quest 537 – Các Trụ Ma Hỏa
+
+Kích hoạt:
+
+5 Infernal Pillar
+Quest 538 – Đội Quân Tha Hóa
+
+Tiêu diệt:
+
+30 Slime Hỏa Ngục
+Quest 539 – Trái Tim Địa Ngục
+
+Điều tra:
+
+Inferno Core
+Quest 540 – Cánh Cửa Cuối Cùng
+
+Mở Dungeon 3
+
+CHƯƠNG 7: DUNGEON 3 – LÕI MA HỎA (QUEST 541–545)
+Quest 541 – Trung Tâm Hỏa Ngục
+
+Dungeon:
+
+Inferno Core Chamber
+
+Quest 542 – Dòng Chảy Hủy Diệt
+
+Vượt qua:
+
+3 tầng dungeon
+Quest 543 – Linh Hồn Quỷ Vương
+
+Thu thập:
+
+20 Demon Soul
+Quest 544 – Chúa Quỷ Cổ Đại
+
+Boss:
+
+Ancient Demon King
+
+Quest 545 – Điện Ngai Địa Ngục
+
+Mở Boss Arena
+
+CHƯƠNG 8: LÕI QUỶ ĐỊA NGỤC (QUEST 546–550)
+Quest 546 – Ngai Vàng Hủy Diệt
+
+Tiến vào:
+
+Infernal Throne
+Quest 547 – Ma Hỏa Nguyên Thủy
+
+Thu thập:
+
+20 Infernal Essence
+Quest 548 – Hợp Nhất Phong Ấn
+
+Kích hoạt:
+
+5 Demon Seal
+Quest 549 – Đại Chiến Thiên - Ma
+
+Boss Arena
+
+Quest 550 – LÕI QUỶ ĐỊA NGỤC
+Phase 1
+Inferno Slash
+Hellfire Wave
+Lava Eruption
+Phase 2
+Demon Army
+Blood Curse
+Infernal Meteor
+Phase 3
+Apocalypse Flame
+World Burn
+Infernal Resonance
+Berserk (10%)
+End of Inferno
+Hell Cataclysm
+PHẦN THƯỞNG
+Inferno Core Fragment
+Epic Set Lv3400
+10.000.000 EXP
+3.000.000 Gold
+Infernal King's Chest
+WORLD BOSS
+HELL EMPEROR SLIME
+
+Xuất hiện:
+
+06:00
+12:00
+18:00
+22:00
+Kỹ năng
+Infernal Storm
+Lava Rain
+Demon Legion
+Hell Collapse
+Phần thưởng
+Inferno Crystal
+Guild Contribution
+World Boss Token
+Mythic Equipment
+Pet Egg: Baby Hell Slime
+Nguyên liệu chế tạo Inferno Set
+KẾT THÚC BIOME
+
+Người chơi nhận:
+
+Danh hiệu
+
+Kẻ Chinh Phục Địa Ngục
+
+Mount
+
+Infernal Dragon
+
+Fragment
+
+Inferno Core Fragment
+
+Mở Biome 15
+KHÔNG GIAN VŨ TRỤ (Lv 3400–3700)
+TIẾT LỘ LORE QUAN TRỌNG
+
+Sau khi hợp nhất:
+
+Thiên Ấn Thánh Quang
+Ma Ấn Hủy Diệt
+
+Người chơi phát hiện:
+
+Thiên Giới và Địa Ngục chỉ là hai nửa của một phong ấn khổng lồ.
+
+Phong ấn này được tạo ra để khóa một thực thể vượt ngoài mọi quy luật vật lý.
+
+Tên của thực thể đó là:
+
+THE VOID STAR
+
+Một mảnh ý thức cổ xưa của The Void đã trốn thoát khỏi thế giới vật chất và ẩn náu ngoài không gian.
+
+Tín hiệu tiếp theo dẫn tới:

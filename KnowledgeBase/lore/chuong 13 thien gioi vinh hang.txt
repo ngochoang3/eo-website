@@ -1,0 +1,335 @@
+BIOME 13: THIÊN GIỚI VĨNH HẰNG (Lv 2800–3100)
+Cốt truyện chính
+
+Sau khi thanh tẩy Zombie Overlord Slime, người chơi thu được Necro Core Fragment.
+
+Các World Core Fragment tiếp tục cộng hưởng.
+
+Lần đầu tiên trong lịch sử, một cánh cổng thần thánh xuất hiện giữa bầu trời.
+
+Phía bên kia là:
+
+THIÊN GIỚI VĨNH HẰNG
+
+Nơi cư ngụ của những Thiên Thần đầu tiên.
+
+Nơi các Thần Sáng Thế từng cai quản thế giới.
+
+Tuy nhiên Thiên Giới hiện tại không còn như trong truyền thuyết.
+
+Nhiều thiên thần đã bị Hư Không tha hóa.
+
+Các phong ấn cổ đại đang sụp đổ.
+
+Boss cuối khu vực:
+
+ĐẠI THIÊN THẦN SLIME
+
+Mảnh World Core:
+
+Celestial Core Fragment
+QUÁI VẬT KHU VỰC
+Thường
+Slime Thánh Quang
+Slime Thiên Thần
+Slime Mây Trắng
+Slime Ánh Sáng
+Slime Hào Quang
+Slime Lục Dực
+Elite
+Celestial Guardian
+Angel Knight
+Divine Watcher
+CHƯƠNG 1: CÁNH CỔNG THIÊN GIỚI (QUEST 471–475)
+Quest 471 – Con Đường Trên Mây
+
+NPC:
+
+Archangel Seraphina
+
+Mục tiêu:
+
+Tiến vào Thiên Giới Vĩnh Hằng
+
+Thưởng:
+
+5.000.000 EXP
+1.000.000 Gold
+Quest 472 – Người Canh Giữ Bầu Trời
+
+Tiêu diệt:
+
+20 Slime Mây Trắng
+Quest 473 – Ánh Sáng Cổ Đại
+
+Thu thập:
+
+20 Holy Crystal
+Quest 474 – Tiếng Gọi Thiên Đường
+
+Kích hoạt:
+
+5 Celestial Beacon
+Quest 475 – Vệ Binh Thiên Giới
+
+Elite Boss:
+
+Celestial Guardian
+
+CHƯƠNG 2: THÀNH PHỐ THIÊN THẦN (QUEST 476–480)
+Quest 476 – Thánh Thành Elysium
+
+NPC:
+
+Seraphina
+
+Mục tiêu:
+
+Khám phá Thánh Thành Elysium
+Quest 477 – Những Linh Hồn Thuần Khiết
+
+Giải cứu:
+
+10 Angel Spirit
+Quest 478 – Hồ Sơ Sáng Thế
+
+Thu thập:
+
+15 Divine Archive
+Quest 479 – Kẻ Quan Sát Trên Cao
+
+Tiêu diệt:
+
+25 Slime Hào Quang
+Quest 480 – Cổng Thánh Điện
+
+Mở Dungeon 1
+
+CHƯƠNG 3: DUNGEON 1 – THƯ VIỆN SÁNG THẾ (QUEST 481–485)
+Quest 481 – Kho Tri Thức Thần Thánh
+
+Dungeon:
+
+Library of Creation
+
+Quest 482 – Người Giữ Tri Thức
+
+Tiêu diệt:
+
+50 quái
+Quest 483 – Trang Sách Thiên Giới
+
+Thu thập:
+
+20 Divine Page
+Quest 484 – Tổng Quản Tri Thức
+
+Boss:
+
+Celestial Archivist
+
+Quest 485 – Biên Niên Sử Thần Giới
+
+Nhận:
+
+Celestial Archive I
+CHƯƠNG 4: SỰ THẬT VỀ CÁC THẦN (QUEST 486–490)
+Quest 486 – Hội Đồng Sáng Thế
+
+NPC:
+
+Spirit of Creation
+
+Quest 487 – Cuộc Chiến Đầu Tiên
+
+Xem:
+
+3 Ancient Vision
+Quest 488 – The Void Xuất Hiện
+
+Điều tra:
+
+Hall of Prophecy
+Quest 489 – Thiên Thần Sa Ngã
+
+Mini Boss:
+
+Corrupted Angel Slime
+
+Quest 490 – Lời Tiên Tri Cuối Cùng
+
+Nhận:
+
+Prophecy Fragment
+CHƯƠNG 5: DUNGEON 2 – THÁNH ĐIỆN THIÊN THẦN (QUEST 491–495)
+Quest 491 – Điện Thờ Vĩnh Hằng
+
+Dungeon:
+
+Temple of Angels
+
+Quest 492 – Đội Quân Thiên Giới
+
+Tiêu diệt:
+
+60 quái
+Quest 493 – Tinh Hoa Thánh Quang
+
+Thu thập:
+
+20 Holy Essence
+Quest 494 – Đại Tướng Thiên Thần
+
+Boss:
+
+Angel Commander
+
+Quest 495 – Chìa Khóa Thánh Ấn
+
+Nhận:
+
+Holy Seal Key
+CHƯƠNG 6: THIÊN ẤN THÁNH QUANG (QUEST 496–500)
+Quest 496 – Phong Ấn Lung Lay
+
+NPC:
+
+Seraphina
+
+Quest 497 – Những Vết Nứt Trên Thiên Đường
+
+Đóng:
+
+5 Holy Rift
+Quest 498 – Đội Quân Tha Hóa
+
+Tiêu diệt:
+
+30 Slime Lục Dực
+Quest 499 – Trái Tim Thiên Giới
+
+Điều tra:
+
+Celestial Core
+Quest 500 – Con Đường Đến Ngai Vàng
+
+Mở Dungeon 3
+
+CHƯƠNG 7: DUNGEON 3 – THIÊN CUNG VĨNH HẰNG (QUEST 501–505)
+Quest 501 – Thánh Điện Tối Cao
+
+Dungeon:
+
+Celestial Palace
+
+Quest 502 – Những Người Giữ Ấn
+
+Tiêu diệt:
+
+70 quái
+Quest 503 – Mảnh Hồn Thiên Thần
+
+Thu thập:
+
+20 Angel Soul
+Quest 504 – Seraph Sa Ngã
+
+Boss:
+
+Fallen Seraph
+
+Quest 505 – Điện Ngai Thánh Quang
+
+Mở Boss Arena
+
+CHƯƠNG 8: ĐẠI THIÊN THẦN SLIME (QUEST 506–510)
+Quest 506 – Ngai Vàng Thánh Quang
+
+Tiến vào:
+
+Celestial Throne
+Quest 507 – Năng Lượng Sáng Thế
+
+Thu thập:
+
+20 Creation Essence
+Quest 508 – Kích Hoạt Thiên Ấn
+
+Kích hoạt:
+
+5 Divine Seal
+Quest 509 – Trận Chiến Thiên Đường
+
+Boss Arena
+
+Quest 510 – Đại Thiên Thần Slime
+Phase 1
+Holy Spear
+Light Beam
+Divine Wings
+Phase 2
+Celestial Judgment
+Angel Army
+Holy Storm
+Phase 3
+Heaven's Wrath
+Divine Cataclysm
+Creation Resonance
+Berserk (10%)
+Final Judgment
+Eternal Light
+PHẦN THƯỞNG
+Celestial Core Fragment
+Epic Set Lv3100
+6.500.000 EXP
+1.500.000 Gold
+Celestial King's Chest
+WORLD BOSS
+Celestial Dragon Slime
+
+Xuất hiện:
+
+06:00
+12:00
+18:00
+22:00
+Kỹ năng
+Holy Breath
+Divine Meteor
+Angel Summon
+Heaven Storm
+Phần thưởng
+Celestial Crystal
+Guild Contribution
+World Boss Token
+Mythic Equipment
+Pet Egg: Baby Angel Slime
+Nguyên liệu chế tạo Celestial Set
+KẾT THÚC BIOME
+
+Người chơi nhận:
+
+Danh hiệu
+
+Người Được Thiên Giới Công Nhận
+
+Mount
+
+Celestial Pegasus
+
+Fragment
+
+Celestial Core Fragment
+
+Mở Biome 14
+ĐỊA NGỤC HỎA NGỤC (Lv 3100–3400)
+TIẾT LỘ LORE QUAN TRỌNG
+
+Sau khi đánh bại Đại Thiên Thần Slime, người chơi khám phá sự thật:
+
+Thiên Giới và Địa Ngục từng là một thế giới duy nhất.
+Cuộc nội chiến giữa các thực thể thần thánh đã chia đôi thế giới.
+The Void lợi dụng cuộc chiến này để phá hủy nhiều phong ấn.
+Thiên Ấn Thánh Quang chỉ là một nửa của phong ấn hoàn chỉnh.
+
+Nửa còn lại nằm tại:

@@ -1,0 +1,359 @@
+BIOME 19: THẾ GIỚI CỔ ĐẠI THẤT LẠC (Lv 4500–4700)
+Cốt truyện chính
+
+Sau khi thanh tẩy Candy Core, người chơi thu được mảnh ghép thứ 18 của World Core.
+
+Khi các mảnh ghép cộng hưởng, một cánh cổng cổ đại xuất hiện.
+
+Không thuộc Thiên Giới.
+
+Không thuộc Địa Ngục.
+
+Không thuộc bất kỳ nền văn minh nào từng biết đến.
+
+Phía sau cánh cổng là:
+
+THẾ GIỚI CỔ ĐẠI THẤT LẠC
+
+Nơi từng là quê hương của:
+
+THE FIRST CIVILIZATION
+
+Nền văn minh đầu tiên trong lịch sử tồn tại.
+
+Họ không phải Thần.
+
+Không phải Quỷ.
+
+Không phải sinh vật Astral.
+
+Họ là những người đầu tiên phát hiện The Void.
+
+Và cũng là những người đầu tiên thất bại trước nó.
+
+Boss cuối khu vực:
+
+TITAN DI VẬT CỔ ĐẠI
+
+Mảnh World Core:
+
+Ancient Core Fragment
+QUÁI VẬT KHU VỰC
+Thường
+Slime Di Vật
+Slime Hóa Thạch
+Slime Cổ Ngữ
+Slime Pharaoh
+Slime Totem
+Slime Hộ Vệ Cổ Đại
+Elite
+Ancient Sentinel
+Titan Guardian
+Forgotten Watcher
+CHƯƠNG 1: THÀNH PHỐ ĐẦU TIÊN (QUEST 711–715)
+Quest 711 – Cánh Cổng Khởi Nguyên
+
+NPC:
+
+Ancient Oracle Arkan
+
+Mục tiêu:
+
+Tiến vào Thế Giới Cổ Đại
+
+Thưởng:
+
+80.000.000 EXP
+25.000.000 Gold
+Quest 712 – Tàn Tích Bị Lãng Quên
+
+Tiêu diệt:
+
+20 Slime Di Vật
+Quest 713 – Ngôn Ngữ Đã Mất
+
+Thu thập:
+
+20 Ancient Tablet
+Quest 714 – Dấu Tích Khởi Nguyên
+
+Khám phá:
+
+5 Ancient Monument
+Quest 715 – Người Canh Giữ Thành Cổ
+
+Elite Boss:
+
+Ancient Sentinel
+
+CHƯƠNG 2: NỀN VĂN MINH ĐẦU TIÊN (QUEST 716–720)
+Quest 716 – Ký Ức Bị Chôn Vùi
+
+NPC:
+
+Arkan
+
+Quest 717 – Những Người Khổng Lồ
+
+Thu thập:
+
+15 Ancient Record
+Quest 718 – Kỷ Nguyên Hoàng Kim
+
+Xem:
+
+3 Ancient Vision
+Quest 719 – Sự Sụp Đổ
+
+Tiêu diệt:
+
+25 Slime Hộ Vệ Cổ Đại
+Quest 720 – Bí Mật Của World Core
+
+Mở Dungeon 1
+
+CHƯƠNG 3: DUNGEON 1 – THƯ VIỆN KHỞI NGUYÊN (QUEST 721–725)
+Quest 721 – Kho Tri Thức Đầu Tiên
+
+Dungeon:
+
+Origin Library
+
+Quest 722 – Những Người Giữ Bí Mật
+
+Tiêu diệt:
+
+120 quái
+Quest 723 – Bản Đồ Thế Giới Đầu Tiên
+
+Thu thập:
+
+20 Origin Scroll
+Quest 724 – Nhà Hiền Triết Cổ Đại
+
+Boss:
+
+Ancient Scholar
+
+Quest 725 – Hồ Sơ Khởi Nguyên
+
+Nhận:
+
+Ancient Archive I
+CHƯƠNG 4: CUỘC CHIẾN ĐẦU TIÊN VỚI THE VOID (QUEST 726–730)
+Quest 726 – Kẻ Địch Từ Ngoài Thực Tại
+
+NPC:
+
+Prime Oracle
+
+Quest 727 – Sự Xuất Hiện Đầu Tiên
+
+Điều tra:
+
+First Void Rift
+Quest 728 – Những Người Hùng Đã Ngã Xuống
+
+Khám phá:
+
+Hall of Fallen Titans
+Quest 729 – Chiến Binh Cuối Cùng
+
+Mini Boss:
+
+Forgotten Titan
+
+Quest 730 – Bí Mật Cấm Kỵ
+
+Nhận:
+
+Ancient Archive II
+CHƯƠNG 5: DUNGEON 2 – KIM TỰ THÁP THỜI KHÔNG (QUEST 731–735)
+Quest 731 – Công Trình Bất Khả Thi
+
+Dungeon:
+
+Chrono Pyramid
+
+Quest 732 – Cạm Bẫy Khởi Nguyên
+
+Tiêu diệt:
+
+130 quái
+Quest 733 – Tinh Hoa Cổ Đại
+
+Thu thập:
+
+20 Ancient Essence
+Quest 734 – Pharaoh Bất Tử
+
+Boss:
+
+Ancient Pharaoh Slime
+
+Quest 735 – Chìa Khóa Ancient Seal
+
+Nhận:
+
+Ancient Seal Key
+CHƯƠNG 6: PHÒNG THỦ CUỐI CÙNG (QUEST 736–740)
+Quest 736 – Thành Trì Cuối Cùng
+
+NPC:
+
+Arkan
+
+Quest 737 – Các Trụ Phong Ấn
+
+Kích hoạt:
+
+5 Ancient Pillar
+Quest 738 – Quân Đoàn Hộ Vệ
+
+Tiêu diệt:
+
+30 Slime Totem
+Quest 739 – Trái Tim Nền Văn Minh
+
+Điều tra:
+
+Ancient Core Chamber
+Quest 740 – Cánh Cửa Titan
+
+Mở Dungeon 3
+
+CHƯƠNG 7: DUNGEON 3 – THÀNH PHỐ TITAN (QUEST 741–745)
+Quest 741 – Thủ Đô Khổng Lồ
+
+Dungeon:
+
+Titan City
+
+Quest 742 – Những Người Canh Giữ Cuối
+
+Tiêu diệt:
+
+150 quái
+Quest 743 – Linh Hồn Titan
+
+Thu thập:
+
+20 Titan Soul
+Quest 744 – Hoàng Đế Titan
+
+Boss:
+
+Titan Emperor
+
+Quest 745 – Điện Ngai Khởi Nguyên
+
+Mở Boss Arena
+
+CHƯƠNG 8: TITAN DI VẬT CỔ ĐẠI (QUEST 746–750)
+Quest 746 – Thành Phố Cuối Cùng
+
+Tiến vào:
+
+Origin Throne
+Quest 747 – Năng Lượng Khởi Nguyên
+
+Thu thập:
+
+20 Origin Crystal
+Quest 748 – Kích Hoạt Ancient Seal
+
+Kích hoạt:
+
+5 Origin Seal
+Quest 749 – Trận Chiến Của Những Kẻ Sáng Lập
+
+Boss Arena
+
+Quest 750 – TITAN DI VẬT CỔ ĐẠI
+Phase 1
+Titan Smash
+Ancient Beam
+Totem Summon
+Phase 2
+World Builder
+Titan Army
+Ancient Storm
+Phase 3
+Origin Collapse
+Civilization Memory
+Core Resonance
+Berserk (10%)
+Last Empire
+Ancient Apocalypse
+PHẦN THƯỞNG
+Ancient Core Fragment
+Epic Set Lv4700
+100.000.000 EXP
+30.000.000 Gold
+Ancient Emperor Chest
+WORLD BOSS
+ANCIENT WORLD TITAN
+
+Xuất hiện:
+
+06:00
+12:00
+18:00
+22:00
+Kỹ năng
+Titan Earthquake
+Ancient Meteor
+Civilization Collapse
+World Breaker
+Phần thưởng
+Ancient Crystal
+Guild Contribution
+World Boss Token
+Mythic Equipment
+Pet Egg: Baby Titan Slime
+Nguyên liệu chế tạo Ancient Set
+KẾT THÚC BIOME
+
+Người chơi nhận:
+
+Danh hiệu
+
+Người Kế Thừa Khởi Nguyên
+
+Mount
+
+Ancient Titan Beast
+
+Fragment
+
+Ancient Core Fragment
+
+Mở Biome 20
+HƯ KHÔNG VĨNH DIỆT (Lv 4700–4900)
+TIẾT LỘ LORE QUAN TRỌNG
+
+Sau khi đánh bại Titan Di Vật Cổ Đại, người chơi cuối cùng biết được toàn bộ sự thật:
+
+The First Civilization không thất bại vì yếu hơn The Void.
+Họ thất bại vì một phần The Void đã xuất hiện bên trong chính họ.
+The Void không phải sinh vật.
+Không phải vị thần.
+Không phải quái vật.
+
+Nó là một ý niệm sống.
+
+Một lực lượng tồn tại từ trước cả thực tại.
+
+Các Titan cổ đại đã dùng toàn bộ sức mạnh để phong ấn nó vào nơi gọi là:
+
+HƯ KHÔNG VĨNH DIỆT
+
+Trung tâm thật sự của The Void.
+
+Nơi tồn tại:
+
+Chúa Tể Hư Không
+
+Kẻ canh giữ cánh cửa dẫn tới trận chiến cuối cùng của toàn bộ thế giới.
+
+Biome 20 sẽ là bước đầu tiên người chơi tiến vào lãnh địa thật sự của The Void trước khi mở ra Biome 21 – THẦN GIỚI SÁNG THẾ, khu vực cuối cùng của toàn bộ game và trận chiến với Chí Tôn Thần Slime ở cấp độ 5000.

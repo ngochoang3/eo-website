@@ -1,0 +1,344 @@
+BIOME 05: NÚI TITAN (Lv 650–850)
+Cốt truyện chính
+
+Sau khi thu được Desert Core Fragment, người chơi phát hiện một tọa độ cổ được ghi trong tàn tích Sa Mạc.
+
+Tọa độ dẫn đến Dãy Núi Titan, nơi sinh sống của những Guardian đầu tiên được World Core tạo ra.
+
+Tại đây, người chơi khám phá ra rằng các Titan không phải quái vật.
+
+Họ là những người bảo vệ cuối cùng của World Core.
+
+Tuy nhiên một thế lực Hư Không đã bắt đầu làm tha hóa họ.
+
+Boss cuối khu vực:
+
+Titan Slime Đá
+
+Mảnh World Core:
+
+Titan Core Fragment
+
+CHƯƠNG 1: CON ĐƯỜNG LÊN ĐỈNH NÚI (QUEST 151–155)
+Quest 151 – Dãy Núi Khổng Lồ
+
+NPC:
+
+Nhà Thám Hiểm Kael
+
+Mục tiêu:
+
+Đến Trạm Núi Titan
+
+Thưởng:
+
+12.000 EXP
+1.200 Gold
+Quest 152 – Đá Biết Di Chuyển
+
+Mục tiêu:
+
+Tiêu diệt:
+20 Slime Đá
+
+Thưởng:
+
+14.000 EXP
+Quest 153 – Tiếng Vọng Trong Núi
+
+Mục tiêu:
+
+Điều tra 5 điểm cộng hưởng
+Quest 154 – Khoáng Thạch Kỳ Lạ
+
+Mục tiêu:
+
+Thu thập:
+20 Titan Ore
+Quest 155 – Người Gác Cổng Núi
+
+Elite:
+
+Stone Guardian Slime
+
+Thưởng:
+
+Rare Equipment
+16.000 EXP
+CHƯƠNG 2: TÀN TÍCH TITAN (QUEST 156–160)
+Quest 156 – Thành Phố Trên Mây
+
+NPC:
+
+Titan Watcher Arkon
+
+Mục tiêu:
+
+Khám phá Thành Phố Titan
+Quest 157 – Những Tượng Đá Cổ
+
+Mục tiêu:
+
+Kích hoạt 5 Titan Monument
+Quest 158 – Tiếng Nói Của Người Khổng Lồ
+
+Mục tiêu:
+
+Thu thập:
+10 Titan Rune
+Quest 159 – Lời Cảnh Báo
+
+Mục tiêu:
+
+Xem ký ức Titan
+Quest 160 – Cổng Đá Khổng Lồ
+
+Mở Dungeon 1
+
+CHƯƠNG 3: DUNGEON 1 - MỎ PHA LÊ TITAN (QUEST 161–165)
+Quest 161 – Tiến Vào Hầm Mỏ
+
+Dungeon:
+
+Mỏ Pha Lê Titan
+
+Quest 162 – Tinh Thể Cộng Hưởng
+
+Mục tiêu:
+
+Thu thập:
+15 Crystal Shard
+Quest 163 – Kẻ Đào Mỏ Cuồng Hóa
+
+Mục tiêu:
+
+Tiêu diệt:
+40 quái
+Quest 164 – Người Bảo Hộ Hầm Mỏ
+
+Boss:
+
+Crystal Excavator Slime
+
+Quest 165 – Tinh Thể Cổ Đại
+
+Nhận:
+
+Titan Crystal Core
+CHƯƠNG 4: TITAN THỨC TỈNH (QUEST 166–170)
+Quest 166 – Động Đất
+
+Mục tiêu:
+
+Điều tra khu vực sụp đổ
+Quest 167 – Những Người Khổng Lồ
+
+NPC:
+
+Titan Elder Vargos
+
+Quest 168 – Kẻ Bị Tha Hóa
+
+Mục tiêu:
+
+Tiêu diệt:
+20 Slime Hoa Cương Cuồng Hóa
+Quest 169 – Trái Tim Núi Đá
+
+Mục tiêu:
+
+Thu thập:
+10 Earth Core
+Quest 170 – Sự Thật Về World Core
+
+Thưởng:
+
+Titan Lore Fragment
+CHƯƠNG 5: DUNGEON 2 - THÁNH ĐỊA TITAN (QUEST 171–175)
+Quest 171 – Cánh Cổng Người Khổng Lồ
+
+Dungeon:
+
+Thánh Địa Titan
+
+Quest 172 – Những Người Canh Giữ
+
+Mục tiêu:
+
+Tiêu diệt:
+50 Guardian Slime
+Quest 173 – Huyết Mạch Titan
+
+Mục tiêu:
+
+Thu thập:
+15 Titan Blood Crystal
+Quest 174 – Thủ Lĩnh Titan
+
+Boss:
+
+Titan Champion Slime
+
+Quest 175 – Di Sản Người Khổng Lồ
+
+Nhận:
+
+Titan Relic
+CHƯƠNG 6: SỰ XÂM NHẬP CỦA HƯ KHÔNG (QUEST 176–180)
+Quest 176 – Bóng Tối Trong Lòng Núi
+
+NPC:
+
+Elder Vargos
+
+Quest 177 – Vết Nứt Hư Không
+
+Mục tiêu:
+
+Đóng 5 Void Rift
+Quest 178 – Kẻ Truyền Nhiễm
+
+Mục tiêu:
+
+Tiêu diệt:
+30 Slime Vọng Âm Tha Hóa
+Quest 179 – Tín Hiệu Từ Tương Lai
+
+Mục tiêu:
+
+Kích hoạt Ancient Beacon
+Quest 180 – Cửa Vào Trái Tim Núi
+
+Mở Dungeon 3
+
+CHƯƠNG 7: DUNGEON 3 - TRÁI TIM TITAN (QUEST 181–185)
+Quest 181 – Hành Trình Cuối
+
+Dungeon:
+
+Trái Tim Titan
+
+Quest 182 – Huyết Mạch Núi
+
+Mục tiêu:
+
+Vượt qua 3 tầng dungeon
+Quest 183 – Titan Bị Tha Hóa
+
+Mục tiêu:
+
+Tiêu diệt:
+30 Corrupted Titan Slime
+Quest 184 – Người Khổng Lồ Sa Ngã
+
+Boss:
+
+Void Titan Guardian
+
+Quest 185 – Điện Thờ Titan
+
+Mở Boss Arena
+
+CHƯƠNG 8: BOSS KHU VỰC (QUEST 186–190)
+Quest 186 – Tiếng Gầm Của Núi
+
+Mục tiêu:
+
+Tiến vào Điện Thờ Titan
+Quest 187 – Những Người Bảo Hộ Cuối Cùng
+
+Mục tiêu:
+
+Đánh bại:
+3 Ancient Guardian
+Quest 188 – Nguồn Sức Mạnh Titan
+
+Mục tiêu:
+
+Thu thập:
+20 Titan Essence
+Quest 189 – Ngai Vàng Người Khổng Lồ
+
+Boss Arena
+
+Quest 190 – Titan Slime Đá
+
+Boss:
+
+Titan Slime Đá
+
+Giai đoạn 1
+Stone Slam
+Boulder Throw
+Earthquake
+Giai đoạn 2
+Titan Roar
+Mountain Crush
+Summon Stone Guardian
+Giai đoạn 3 (20% HP)
+World Core Resonance
+Titan Fury
+Continental Break
+PHẦN THƯỞNG
+Titan Core Fragment
+Epic Equipment Set Lv 850
+90.000 EXP
+15.000 Gold
+Titan Treasure Chest
+KẾT THÚC BIOME NÚI TITAN
+
+Người chơi nhận:
+
+Danh hiệu
+
+Người Kế Thừa Titan
+
+Mount
+
+Titan Mammoth
+
+Fragment
+
+Titan Core Fragment
+
+Mở Biome Tiếp Theo
+
+Hang Động Pha Lê (Lv 850–1050)
+
+WORLD BOSS NÚI TITAN
+Colossus Mountain Slime
+
+Xuất hiện:
+
+06:00
+12:00
+18:00
+22:00
+Cơ chế
+Phase 1
+Ném đá khổng lồ
+Động đất diện rộng
+Phase 2
+Phá hủy địa hình
+Triệu hồi Stone Guardian
+Phase 3
+Titan Awakening
+Tăng 200% sát thương
+Phần thưởng
+Titan Crystal
+World Boss Token
+Guild Contribution
+Rare → Mythic Equipment
+Pet Egg: Baby Titan Slime
+Nguyên liệu chế tạo Titan Set
+Tổng kết Biome Núi Titan
+Quest: 151–190 (40 quest)
+3 Dungeon
+1 Elite Boss
+1 Mini Story Boss
+3 Dungeon Boss
+1 Regional Boss
+1 World Boss
+1 Titan Core Fragment
+Hé lộ sự thật về các Guardian Titan
+Tiết lộ Hư Không đang tha hóa World Core

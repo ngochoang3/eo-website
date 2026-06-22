@@ -1,0 +1,144 @@
+/*! EO Studio Chatbot — widget styling (ChatGPT-like, MMORPG dark theme) */
+#eo-chat-widget {
+  --eo-bg: #0c1730;
+  --eo-bg-alt: #142544;
+  --eo-text: #f3fbf6;
+  --eo-text-dim: rgba(243,251,246,.65);
+  --eo-bubble-user: var(--grad-brand, linear-gradient(135deg,#6BD968,#4CC9F0));
+  --eo-bubble-bot: #1c2c4f;
+  --eo-border: rgba(255,255,255,.08);
+  position: fixed;
+  z-index: 2000;
+  right: 24px;
+  bottom: 24px;
+  font-family: var(--font-body, "Nunito", sans-serif);
+}
+#eo-chat-widget[data-theme="light"] {
+  --eo-bg: #ffffff;
+  --eo-bg-alt: #f3fbf6;
+  --eo-text: #16213a;
+  --eo-text-dim: #5a6b8a;
+  --eo-bubble-bot: #eef3f0;
+  --eo-border: rgba(12,23,48,.08);
+}
+
+#eo-chat-bubble {
+  width: 60px; height: 60px; border-radius: 50%;
+  background: var(--grad-brand, linear-gradient(135deg,#6BD968,#4CC9F0));
+  border: none; color: #fff; font-size: 26px; cursor: pointer;
+  box-shadow: 0 12px 28px rgba(0,0,0,.35);
+  display: flex; align-items: center; justify-content: center;
+  transition: transform .25s cubic-bezier(.22,1,.36,1);
+  animation: eo-bubble-pulse 2.6s ease-in-out infinite;
+}
+#eo-chat-bubble:hover { transform: scale(1.08); }
+@keyframes eo-bubble-pulse {
+  0%, 100% { box-shadow: 0 12px 28px rgba(0,0,0,.35), 0 0 0 0 rgba(76,201,240,.4); }
+  50% { box-shadow: 0 12px 28px rgba(0,0,0,.35), 0 0 0 10px rgba(76,201,240,0); }
+}
+.eo-chat-open #eo-chat-bubble { transform: scale(0); opacity: 0; pointer-events: none; }
+
+#eo-chat-panel {
+  position: absolute;
+  right: 0; bottom: 76px;
+  width: 380px; height: 600px; max-height: 78vh;
+  background: var(--eo-bg);
+  color: var(--eo-text);
+  border-radius: 20px;
+  box-shadow: 0 24px 60px rgba(0,0,0,.45);
+  display: flex; flex-direction: column; overflow: hidden;
+  border: 1px solid var(--eo-border);
+  opacity: 0; visibility: hidden; transform: translateY(16px) scale(.98);
+  transition: opacity .25s cubic-bezier(.22,1,.36,1), transform .25s cubic-bezier(.22,1,.36,1), visibility .25s;
+}
+.eo-chat-open #eo-chat-panel { opacity: 1; visibility: visible; transform: translateY(0) scale(1); }
+
+.eo-chat-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 14px 16px; border-bottom: 1px solid var(--eo-border);
+  background: var(--eo-bg-alt);
+}
+.eo-chat-header-title { display: flex; align-items: center; gap: 10px; }
+.eo-chat-avatar { font-size: 22px; }
+.eo-chat-header-title strong { display: block; font-family: var(--font-display, inherit); font-size: 15px; }
+.eo-chat-subtitle { display: block; font-size: 12px; color: var(--eo-text-dim); }
+.eo-chat-header-actions { display: flex; gap: 4px; }
+.eo-chat-icon-btn {
+  background: transparent; border: none; color: var(--eo-text-dim);
+  font-size: 15px; width: 30px; height: 30px; border-radius: 8px; cursor: pointer;
+  transition: background .2s;
+}
+.eo-chat-icon-btn:hover { background: rgba(255,255,255,.08); color: var(--eo-text); }
+
+.eo-chat-messages {
+  flex: 1; overflow-y: auto; padding: 16px; display: flex; flex-direction: column; gap: 10px;
+  scroll-behavior: smooth;
+}
+.eo-chat-msg { display: flex; animation: eo-msg-in .25s cubic-bezier(.22,1,.36,1); }
+@keyframes eo-msg-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+.eo-chat-msg-user { justify-content: flex-end; }
+.eo-chat-msg-bot { justify-content: flex-start; }
+.eo-chat-msg-bubble {
+  max-width: 84%; padding: 10px 14px; border-radius: 16px; font-size: 14px; line-height: 1.5;
+  white-space: pre-wrap; word-break: break-word;
+}
+.eo-chat-msg-user .eo-chat-msg-bubble { background: var(--eo-bubble-user); color: #fff; border-bottom-right-radius: 4px; }
+.eo-chat-msg-bot .eo-chat-msg-bubble { background: var(--eo-bubble-bot); color: var(--eo-text); border-bottom-left-radius: 4px; }
+.eo-streaming::after { content: "▌"; animation: eo-caret-blink 1s steps(1) infinite; }
+@keyframes eo-caret-blink { 50% { opacity: 0; } }
+
+.eo-chat-typing {
+  display: flex; gap: 4px; padding: 0 16px 10px;
+}
+.eo-chat-typing span {
+  width: 7px; height: 7px; border-radius: 50%; background: var(--eo-text-dim);
+  animation: eo-typing-bounce 1.2s infinite ease-in-out;
+}
+.eo-chat-typing span:nth-child(2) { animation-delay: .15s; }
+.eo-chat-typing span:nth-child(3) { animation-delay: .3s; }
+@keyframes eo-typing-bounce { 0%, 80%, 100% { transform: translateY(0); opacity: .4; } 40% { transform: translateY(-5px); opacity: 1; } }
+
+.eo-chat-input-row {
+  display: flex; gap: 8px; padding: 12px; border-top: 1px solid var(--eo-border); background: var(--eo-bg);
+}
+#eo-chat-input {
+  flex: 1; background: var(--eo-bg-alt); color: var(--eo-text); border: 1px solid var(--eo-border);
+  border-radius: 999px; padding: 10px 16px; font-size: 14px; font-family: inherit;
+}
+#eo-chat-input:focus { outline: none; border-color: #4CC9F0; }
+.eo-chat-send-btn {
+  width: 40px; height: 40px; border-radius: 50%; border: none; cursor: pointer;
+  background: var(--grad-brand, linear-gradient(135deg,#6BD968,#4CC9F0)); color: #fff; font-size: 15px;
+  display: flex; align-items: center; justify-content: center; transition: transform .2s;
+}
+.eo-chat-send-btn:hover { transform: scale(1.06); }
+
+.eo-chat-admin {
+  position: absolute; inset: 0; background: var(--eo-bg); padding: 16px; overflow-y: auto;
+}
+.eo-chat-admin h4 { margin: 0 0 8px; font-family: var(--font-display, inherit); }
+.eo-chat-admin-stats { font-size: 12.5px; color: var(--eo-text-dim); margin-bottom: 14px; }
+.eo-chat-admin-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 14px; }
+.eo-chat-admin-actions .btn { font-size: 12.5px; padding: 8px 10px; }
+.eo-chat-admin-log {
+  font-size: 11px; background: var(--eo-bg-alt); border-radius: 10px; padding: 10px;
+  max-height: 320px; overflow-y: auto; white-space: pre-wrap; color: var(--eo-text-dim);
+}
+
+/* Keep the page's own "back to top" button from sitting under the chat
+   bubble — push it up so the two stack vertically with a clear gap. */
+.back-to-top { bottom: 96px; }
+
+@media (max-width: 640px) {
+  #eo-chat-widget { right: 14px; bottom: 14px; }
+  #eo-chat-panel {
+    width: 100vw; height: 100vh; max-height: 100vh;
+    position: fixed; inset: 0; right: auto; bottom: auto; border-radius: 0;
+  }
+  .back-to-top { bottom: 78px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #eo-chat-bubble { animation: none; }
+  .eo-chat-msg, #eo-chat-panel { animation: none !important; transition: none !important; }
+}

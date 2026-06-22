@@ -1,0 +1,116 @@
+{
+  "name": "growth_systems_db",
+  "count": 10,
+  "rows": [
+    {
+      "id": "growth_blacksmith",
+      "name": "Blacksmithing",
+      "category": "Profession",
+      "max_level": 300,
+      "exp_curve": "linear",
+      "exp_per_level": 100,
+      "unlock_level_req": 1,
+      "reward_desc": "Mỗi 10 level: mở recipe mới + giảm craft time 1%",
+      "power_share_pct": 0.0
+    },
+    {
+      "id": "growth_alchemy",
+      "name": "Alchemy",
+      "category": "Profession",
+      "max_level": 300,
+      "exp_curve": "linear",
+      "exp_per_level": 100,
+      "unlock_level_req": 1,
+      "reward_desc": "Mỗi 10 level: mở potion tier mới + tăng yield 1%",
+      "power_share_pct": 0.0
+    },
+    {
+      "id": "growth_gathering",
+      "name": "Gathering",
+      "category": "Profession",
+      "max_level": 300,
+      "exp_curve": "linear",
+      "exp_per_level": 80,
+      "unlock_level_req": 1,
+      "reward_desc": "Mỗi 10 level: tăng drop rate nguyên liệu 1%",
+      "power_share_pct": 0.0
+    },
+    {
+      "id": "growth_enchanting",
+      "name": "Enchanting",
+      "category": "Profession",
+      "max_level": 300,
+      "exp_curve": "quadratic",
+      "exp_per_level": 150,
+      "unlock_level_req": 50,
+      "reward_desc": "Mỗi 10 level: mở enchant tier mới",
+      "power_share_pct": 0.0
+    },
+    {
+      "id": "growth_fishing",
+      "name": "Fishing",
+      "category": "Profession",
+      "max_level": 300,
+      "exp_curve": "linear",
+      "exp_per_level": 60,
+      "unlock_level_req": 1,
+      "reward_desc": "Mỗi 10 level: mở fishing spot mới",
+      "power_share_pct": 0.0
+    },
+    {
+      "id": "growth_dodge",
+      "name": "Dodge Mastery",
+      "category": "CombatSkill",
+      "max_level": 100,
+      "exp_curve": "linear",
+      "exp_per_level": 200,
+      "unlock_level_req": 1,
+      "reward_desc": "Mỗi 10 level: giảm dodge cooldown 0.1 giây",
+      "power_share_pct": 0.0
+    },
+    {
+      "id": "growth_mount_riding",
+      "name": "Mount Riding",
+      "category": "CombatSkill",
+      "max_level": 50,
+      "exp_curve": "linear",
+      "exp_per_level": 300,
+      "unlock_level_req": 1,
+      "reward_desc": "Mỗi 10 level: tăng tốc độ mount 5%",
+      "power_share_pct": 0.0
+    },
+    {
+      "id": "growth_enhance",
+      "name": "Equipment Enhancement",
+      "category": "Enhancement",
+      "max_level": 20,
+      "exp_curve": "none",
+      "exp_per_level": 0,
+      "unlock_level_req": 1,
+      "reward_desc": "Tham chiếu enhance_cost_table.json. Tổng max +20 = +9% power per slot.",
+      "power_share_pct": 0.01
+    },
+    {
+      "id": "growth_mentor_exp",
+      "name": "Mentor Experience",
+      "category": "Social",
+      "max_level": 10,
+      "exp_curve": "linear",
+      "exp_per_level": 500,
+      "unlock_level_req": 1500,
+      "reward_desc": "Tham chiếu mentor_milestones.json. Không có power.",
+      "power_share_pct": 0.0
+    },
+    {
+      "id": "growth_party_bond",
+      "name": "Party Bond Level",
+      "category": "Social",
+      "max_level": 20,
+      "exp_curve": "linear",
+      "exp_per_level": 1000,
+      "unlock_level_req": 1,
+      "reward_desc": "Tham chiếu party_progression.json. EXP bonus tối đa 5%.",
+      "power_share_pct": 0.0
+    }
+  ]
+}

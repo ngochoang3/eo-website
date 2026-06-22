@@ -1,0 +1,348 @@
+BIOME 17: GIẤC MƠ TẬN THẾ (Lv 4000–4300)
+Cốt truyện chính
+
+Sau khi đánh bại Chronos Slime, người chơi nhận được Chrono Core Fragment.
+
+Tưởng rằng đã hiểu được nguồn gốc của The Void.
+
+Nhưng sự thật còn đáng sợ hơn.
+
+Trong Thư Viện Thời Gian, một dòng ghi chép cuối cùng xuất hiện:
+
+"The Void không sinh ra trong thế giới vật chất."
+
+"Nó sinh ra từ nỗi sợ hãi của những nền văn minh đã chết."
+
+Toàn bộ ký ức, cảm xúc, hy vọng và tuyệt vọng của vô số thế giới bị hủy diệt đã hợp nhất thành một chiều không gian đặc biệt.
+
+Nơi đó gọi là:
+
+GIẤC MƠ TẬN THẾ
+
+Một thế giới liên tục thay đổi.
+
+Không có quy luật.
+
+Không có ranh giới giữa thật và giả.
+
+Không ai biết mình đang thức hay đang mơ.
+
+Boss cuối khu vực:
+
+KẺ ĂN MÒN GIẤC MƠ
+
+Mảnh World Core:
+
+Dream Core Fragment
+QUÁI VẬT KHU VỰC
+Thường
+Slime Mộng Mị
+Slime Ác Mộng
+Slime Ngái Ngủ
+Slime Ảo Giác
+Slime Huyễn Tưởng
+Slime Ánh Trăng
+Elite
+Nightmare Walker
+Dream Devourer
+Illusion Keeper
+CHƯƠNG 1: THẾ GIỚI KHÔNG CÓ THẬT (QUEST 631–635)
+Quest 631 – Bước Vào Giấc Mơ
+
+NPC:
+
+Dream Keeper Luna
+
+Mục tiêu:
+
+Tiến vào Giấc Mơ Tận Thế
+
+Thưởng:
+
+30.000.000 EXP
+10.000.000 Gold
+Quest 632 – Những Ký Ức Tan Vỡ
+
+Tiêu diệt:
+
+20 Slime Mộng Mị
+Quest 633 – Mảnh Giấc Mơ
+
+Thu thập:
+
+20 Dream Fragment
+Quest 634 – Tiếng Thì Thầm Trong Bóng Tối
+
+Kích hoạt:
+
+5 Dream Crystal
+Quest 635 – Người Gác Giấc Mơ
+
+Elite Boss:
+
+Nightmare Walker
+
+CHƯƠNG 2: NHỮNG THẾ GIỚI ĐÃ CHẾT (QUEST 636–640)
+Quest 636 – Thành Phố Không Tồn Tại
+
+NPC:
+
+Luna
+
+Quest 637 – Ký Ức Của Kẻ Đã Mất
+
+Thu thập:
+
+15 Lost Memory
+Quest 638 – Những Người Đã Biến Mất
+
+Giải cứu:
+
+10 Dream Soul
+Quest 639 – Hồi Ức Sai Lệch
+
+Tiêu diệt:
+
+25 Slime Ảo Giác
+Quest 640 – Cánh Cổng Huyễn Mộng
+
+Mở Dungeon 1
+
+CHƯƠNG 3: DUNGEON 1 – MÊ CUNG GIẤC MƠ (QUEST 641–645)
+Quest 641 – Con Đường Không Điểm Cuối
+
+Dungeon:
+
+Dream Labyrinth
+
+Quest 642 – Thực Tại Méo Mó
+
+Tiêu diệt:
+
+80 quái
+Quest 643 – Tinh Thể Huyễn Ảnh
+
+Thu thập:
+
+20 Illusion Crystal
+Quest 644 – Người Gác Ký Ức
+
+Boss:
+
+Memory Guardian
+
+Quest 645 – Biên Niên Sử Giấc Mơ
+
+Nhận:
+
+Dream Archive I
+CHƯƠNG 4: BÍ MẬT CỦA THE VOID (QUEST 646–650)
+Quest 646 – Giấc Mơ Đầu Tiên
+
+NPC:
+
+Ancient Dream Spirit
+
+Quest 647 – Nguồn Gốc Của Nỗi Sợ
+
+Khám phá:
+
+First Nightmare
+Quest 648 – Bóng Đen Trong Tâm Trí
+
+Điều tra:
+
+Nightmare Realm
+Quest 649 – Kẻ Du Hành Giấc Mơ
+
+Mini Boss:
+
+Dream Wanderer
+
+Quest 650 – Sự Thật Bị Lãng Quên
+
+Nhận:
+
+Dream Archive II
+CHƯƠNG 5: DUNGEON 2 – THÀNH PHỐ ÁC MỘNG (QUEST 651–655)
+Quest 651 – Vùng Đất Không Thức Tỉnh
+
+Dungeon:
+
+Nightmare City
+
+Quest 652 – Cư Dân Trong Mơ
+
+Tiêu diệt:
+
+90 quái
+Quest 653 – Linh Hồn Ác Mộng
+
+Thu thập:
+
+20 Nightmare Soul
+Quest 654 – Chúa Tể Huyễn Ảnh
+
+Boss:
+
+Illusion Monarch
+
+Quest 655 – Chìa Khóa Mộng Cảnh
+
+Nhận:
+
+Dream Seal Key
+CHƯƠNG 6: THỰC TẠI BỊ NUỐT CHỬNG (QUEST 656–660)
+Quest 656 – Những Vết Nứt Trong Ý Thức
+
+NPC:
+
+Luna
+
+Quest 657 – Cơn Ác Mộng Lan Tràn
+
+Đóng:
+
+5 Nightmare Rift
+Quest 658 – Bầy Quái Vật Trong Mơ
+
+Tiêu diệt:
+
+30 Slime Ác Mộng
+Quest 659 – Trái Tim Mộng Cảnh
+
+Điều tra:
+
+Dream Core
+Quest 660 – Con Đường Đến Tận Cùng Giấc Mơ
+
+Mở Dungeon 3
+
+CHƯƠNG 7: DUNGEON 3 – LÕI MỘNG GIỚI (QUEST 661–665)
+Quest 661 – Trung Tâm Ý Thức
+
+Dungeon:
+
+Dream Core Nexus
+
+Quest 662 – Dòng Chảy Ký Ức
+
+Vượt qua:
+
+3 tầng dungeon
+Quest 663 – Tinh Hoa Mộng Giới
+
+Thu thập:
+
+20 Dream Essence
+Quest 664 – Người Giữ Mộng Cảnh
+
+Boss:
+
+Ancient Dream Titan
+
+Quest 665 – Điện Ngai Mộng Giới
+
+Mở Boss Arena
+
+CHƯƠNG 8: KẺ ĂN MÒN GIẤC MƠ (QUEST 666–670)
+Quest 666 – Cơn Ác Mộng Cuối Cùng
+
+Tiến vào:
+
+Nightmare Throne
+Quest 667 – Năng Lượng Mộng Tưởng
+
+Thu thập:
+
+20 Nightmare Essence
+Quest 668 – Kích Hoạt Dream Seal
+
+Kích hoạt:
+
+5 Dream Seal
+Quest 669 – Trận Chiến Trong Ý Thức
+
+Boss Arena
+
+Quest 670 – KẺ ĂN MÒN GIẤC MƠ
+Phase 1
+Illusion Blade
+Nightmare Wave
+Dream Clone
+Phase 2
+Mind Collapse
+Fear Manifestation
+Endless Nightmare
+Phase 3
+Dream Devour
+Reality Distortion
+Nightmare Apocalypse
+Berserk (10%)
+End of Consciousness
+Eternal Nightmare
+PHẦN THƯỞNG
+Dream Core Fragment
+Epic Set Lv4300
+40.000.000 EXP
+12.000.000 Gold
+Nightmare King's Chest
+WORLD BOSS
+DREAM DRAGON OF APOCALYPSE
+
+Xuất hiện:
+
+06:00
+12:00
+18:00
+22:00
+Kỹ năng
+Nightmare Breath
+Dream Collapse
+Fear Storm
+Mind Devour
+Phần thưởng
+Dream Crystal
+Guild Contribution
+World Boss Token
+Mythic Equipment
+Pet Egg: Baby Dream Dragon
+Nguyên liệu chế tạo Dream Set
+KẾT THÚC BIOME
+
+Người chơi nhận:
+
+Danh hiệu
+
+Kẻ Chinh Phục Ác Mộng
+
+Mount
+
+Nightmare Dragon
+
+Fragment
+
+Dream Core Fragment
+
+Mở Biome 18
+VƯƠNG QUỐC KẸO NGỌT VĨNH HẰNG (Lv 4300–4500)
+TIẾT LỘ LORE QUAN TRỌNG
+
+Sau khi đánh bại Kẻ Ăn Mòn Giấc Mơ, người chơi phát hiện một điều kỳ lạ:
+
+Không phải mọi ký ức trong Giấc Mơ Tận Thế đều chứa nỗi sợ.
+Một số ký ức vẫn còn giữ được niềm vui, hy vọng và hạnh phúc.
+
+Những ký ức đó tập hợp thành một thế giới riêng biệt.
+
+Một thế giới tưởng như trẻ con nhưng lại là tuyến phòng thủ cuối cùng chống lại The Void.
+
+Nơi đó gọi là:
+
+VƯƠNG QUỐC KẸO NGỌT VĨNH HẰNG
+
+Nơi tồn tại Candy Core.
+
+Một trong những World Core cuối cùng còn nguyên vẹn.
+
+Tuy nhiên The Void đã bắt đầu xâm nhập vào cả những giấc mơ hạnh phúc nhất.

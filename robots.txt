@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /lang-test.html
+Disallow: /KnowledgeBase/
+
+Sitemap: https://eo.io.vn/sitemap.xml

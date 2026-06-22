@@ -1,0 +1,430 @@
+BIOME 20: HƯ KHÔNG VĨNH DIỆT (Lv 4700–4900)
+Cốt truyện chính
+
+Sau khi thu thập:
+
+Nature Core
+Swamp Core
+Desert Core
+Mountain Core
+Crystal Core
+Ocean Core
+Abyss Core
+Frost Core
+Venom Core
+Omega Core
+Zombie Core
+Celestial Core
+Inferno Core
+Astral Core
+Chrono Core
+Dream Core
+Candy Core
+Ancient Core
+
+Người chơi đã sở hữu gần như toàn bộ sức mạnh của thế giới.
+
+Các World Core hợp nhất thành:
+
+THE WORLD KEY
+
+Chiếc chìa khóa cuối cùng.
+
+Cánh cổng bị phong ấn hàng triệu năm mở ra.
+
+Đó là nơi mà mọi nền văn minh đều sợ hãi.
+
+Nơi ngay cả các Titan cổ đại cũng không dám bước vào.
+
+Một chiều không gian không tồn tại ánh sáng.
+
+Không tồn tại thời gian.
+
+Không tồn tại sự sống.
+
+Nơi đó là:
+
+HƯ KHÔNG VĨNH DIỆT
+
+Lãnh địa thật sự của The Void.
+
+Nơi toàn bộ thực tại đang bị ăn mòn từ bên trong.
+
+Boss cuối khu vực:
+
+CHÚA TỂ HƯ KHÔNG
+
+Mảnh World Core cuối cùng:
+
+Void Core Fragment
+QUÁI VẬT KHU VỰC
+Thường
+Slime Hư Không
+Slime Hỗn Mang
+Slime Vật Chất Tối
+Slime Nhật Thực
+Slime Vực Sâu
+Slime Hủy Diệt
+Elite
+Void Reaper
+Abyss Watcher
+Chaos Titan
+CHƯƠNG 1: CÁNH CỔNG TẬN THẾ (QUEST 751–755)
+Quest 751 – Chìa Khóa Thế Giới
+
+NPC:
+
+Prime Oracle Arkan
+
+Mục tiêu:
+
+Sử dụng World Key
+
+Thưởng:
+
+150.000.000 EXP
+50.000.000 Gold
+Quest 752 – Vết Nứt Cuối Cùng
+
+Tiêu diệt:
+
+20 Slime Hư Không
+Quest 753 – Năng Lượng Hắc Ám
+
+Thu thập:
+
+20 Void Essence
+Quest 754 – Cổng Không Tồn Tại
+
+Khám phá:
+
+Eternal Void Gate
+Quest 755 – Người Gác Cổng Hư Không
+
+Elite Boss:
+
+Void Reaper
+
+CHƯƠNG 2: THỰC TẠI TAN RÃ (QUEST 756–760)
+Quest 756 – Những Thế Giới Đã Chết
+
+NPC:
+
+Echo of Creation
+
+Quest 757 – Tàn Tích Vũ Trụ
+
+Khám phá:
+
+5 Fallen Reality
+Quest 758 – Ký Ức Cuối Cùng
+
+Thu thập:
+
+15 Reality Fragment
+Quest 759 – Bầy Quái Hủy Diệt
+
+Tiêu diệt:
+
+25 Slime Hủy Diệt
+Quest 760 – Thành Trì Hư Không
+
+Mở Dungeon 1
+
+CHƯƠNG 3: DUNGEON 1 – THÀNH PHỐ BỊ XÓA SỔ (QUEST 761–765)
+Quest 761 – Thành Phố Không Tồn Tại
+
+Dungeon:
+
+Forgotten Reality
+
+Quest 762 – Những Linh Hồn Mất Tích
+
+Tiêu diệt:
+
+150 quái
+Quest 763 – Mảnh Thực Tại
+
+Thu thập:
+
+20 Reality Core
+Quest 764 – Người Canh Giữ Ký Ức
+
+Boss:
+
+Reality Guardian
+
+Quest 765 – Hồ Sơ Hủy Diệt
+
+Nhận:
+
+Void Archive I
+CHƯƠNG 4: NGUỒN GỐC THE VOID (QUEST 766–770)
+Quest 766 – Trước Khi Có Ánh Sáng
+
+NPC:
+
+Echo of Creation
+
+Quest 767 – Khoảnh Khắc Đầu Tiên
+
+Khám phá:
+
+Origin Void
+Quest 768 – Kẻ Không Được Sinh Ra
+
+Điều tra:
+
+Void Genesis
+Quest 769 – Bóng Ma Cổ Đại
+
+Mini Boss:
+
+Void Apostle
+
+Quest 770 – Sự Thật Cuối Cùng
+
+Nhận:
+
+Void Archive II
+CHƯƠNG 5: DUNGEON 2 – BIỂN HỖN MANG (QUEST 771–775)
+Quest 771 – Đại Dương Không Tận
+
+Dungeon:
+
+Sea of Chaos
+
+Quest 772 – Dòng Chảy Hủy Diệt
+
+Tiêu diệt:
+
+180 quái
+Quest 773 – Tinh Hoa Hỗn Mang
+
+Thu thập:
+
+20 Chaos Essence
+Quest 774 – Titan Hỗn Mang
+
+Boss:
+
+Chaos Titan
+
+Quest 775 – Chìa Khóa Void Seal
+
+Nhận:
+
+Void Seal Key
+CHƯƠNG 6: NHỮNG NGƯỜI PHONG ẤN CUỐI CÙNG (QUEST 776–780)
+Quest 776 – Di Chúc Titan
+
+NPC:
+
+Ancient Titan Echo
+
+Quest 777 – Các Trụ Phong Ấn Cuối
+
+Kích hoạt:
+
+5 Eternal Seal Pillar
+Quest 778 – Quân Đoàn Hư Không
+
+Tiêu diệt:
+
+30 Slime Vật Chất Tối
+Quest 779 – Trái Tim Hư Không
+
+Điều tra:
+
+Void Core Chamber
+Quest 780 – Cánh Cửa Tận Cùng
+
+Mở Dungeon 3
+
+CHƯƠNG 7: DUNGEON 3 – TRUNG TÂM HƯ KHÔNG (QUEST 781–785)
+Quest 781 – Nơi Không Có Thực Tại
+
+Dungeon:
+
+Void Nexus
+
+Quest 782 – Dòng Chảy Hủy Diệt
+
+Vượt qua:
+
+3 tầng dungeon
+Quest 783 – Tinh Hoa Hư Không
+
+Thu thập:
+
+20 Void Crystal
+Quest 784 – Người Giữ Cánh Cửa
+
+Boss:
+
+Abyss Watcher Prime
+
+Quest 785 – Điện Ngai Hư Không
+
+Mở Boss Arena
+
+CHƯƠNG 8: CHÚA TỂ HƯ KHÔNG (QUEST 786–790)
+Quest 786 – Trung Tâm Tận Thế
+
+Tiến vào:
+
+Void Throne
+Quest 787 – Năng Lượng Hủy Diệt
+
+Thu thập:
+
+20 Apocalypse Fragment
+Quest 788 – Kích Hoạt Void Seal
+
+Kích hoạt:
+
+5 Void Seal
+Quest 789 – Trận Chiến Vì Thực Tại
+
+Boss Arena
+
+Quest 790 – CHÚA TỂ HƯ KHÔNG
+Phase 1 – Void Awakening
+Void Slash
+Dark Matter Storm
+Abyss Beam
+Corruption Wave
+Phase 2 – Collapse
+Reality Break
+Dimension Tear
+Void Army
+Black Eclipse
+Phase 3 – End of Creation
+World Eraser
+Infinite Darkness
+Void Resonance
+Entropy Storm
+Phase 4 – True Form
+Universe Collapse
+Absolute Corruption
+Void Heart
+End of Reality
+Berserk (5%)
+Final Void
+Eternal Oblivion
+PHẦN THƯỞNG
+Void Core Fragment
+Mythic Set Lv4900
+250.000.000 EXP
+100.000.000 Gold
+Void Emperor Chest
+WORLD BOSS
+ETERNAL VOID DRAGON
+
+Xuất hiện hàng ngày:
+
+06:00
+12:00
+18:00
+22:00
+HP
+20.000.000.000
+Kỹ năng
+Void Breath
+Dark Star Rain
+Black Hole Prison
+End of Worlds
+Reality Collapse
+Phần thưởng
+Void Crystal
+Guild Contribution
+World Boss Token
+Mythic Equipment
+Pet Egg: Void Dragon
+Void Relic
+Nguyên liệu chế tạo Void Set
+BỘ TRANG BỊ CUỐI BIOME
+VOID SET (Lv 4900)
+Warrior
+Void Destroyer Helm
+Void Destroyer Armor
+Void Destroyer Gloves
+Void Destroyer Boots
+Void Destroyer Greatsword
+Archer
+Void Hunter Hood
+Void Hunter Armor
+Void Hunter Gloves
+Void Hunter Boots
+Void Hunter Bow
+Mage
+Void Sage Crown
+Void Sage Robe
+Void Sage Gloves
+Void Sage Boots
+Void Sage Staff
+KẾT THÚC BIOME
+
+Người chơi nhận:
+
+Danh hiệu
+
+Kẻ Chống Lại Hư Không
+
+Mount
+
+Eternal Void Dragon
+
+Pet
+
+Baby Void Emperor
+
+Fragment
+
+Void Core Fragment
+
+TIẾT LỘ CUỐI BIOME
+
+Sau khi Chúa Tể Hư Không bị đánh bại:
+
+Toàn bộ người chơi tin rằng cuộc chiến đã kết thúc.
+
+Nhưng Void Core không bị phá hủy.
+
+Nó phản ứng với toàn bộ 20 World Core.
+
+Từ trong Void Core phát ra một giọng nói:
+
+"Các ngươi vẫn chưa hiểu gì cả."
+
+"Ta không phải The Void."
+
+"Ta chỉ là người gác cổng."
+
+Một thực thể khổng lồ xuất hiện phía sau thực tại.
+
+Lần đầu tiên trong lịch sử:
+
+Thiên Giới rung chuyển
+Địa Ngục sụp đổ
+Thời Gian ngừng hoạt động
+Không Gian nứt vỡ
+
+Toàn bộ 20 World Core hợp nhất thành:
+
+ORIGIN CORE
+
+Cánh cổng cuối cùng mở ra.
+
+Dẫn tới:
+
+BIOME 21 – THẦN GIỚI SÁNG THẾ (Lv 4900–5000)
+
+Nơi tồn tại thực thể tối cao đã tạo ra:
+
+The Void
+Các Titan
+Các World Core
+Toàn bộ thế giới Slime
+
+Và cũng là nơi diễn ra trận chiến cuối cùng của toàn bộ cốt truyện MMORPG cấp 1 → 5000.

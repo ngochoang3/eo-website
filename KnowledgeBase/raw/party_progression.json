@@ -1,0 +1,186 @@
+{
+  "name": "party_progression",
+  "count": 20,
+  "rows": [
+    {
+      "id": "party_lv_01",
+      "party_level": 1,
+      "level_name": "Party Level 1",
+      "exp_bonus_pct": 0.0025,
+      "drop_bonus_pct": 0.002,
+      "unlock_bonus": "Party Chat unlock",
+      "cosmetic_reward": ""
+    },
+    {
+      "id": "party_lv_02",
+      "party_level": 2,
+      "level_name": "Party Level 2",
+      "exp_bonus_pct": 0.005,
+      "drop_bonus_pct": 0.004,
+      "unlock_bonus": "Party minimap share",
+      "cosmetic_reward": ""
+    },
+    {
+      "id": "party_lv_03",
+      "party_level": 3,
+      "level_name": "Party Level 3",
+      "exp_bonus_pct": 0.0075,
+      "drop_bonus_pct": 0.006,
+      "unlock_bonus": "Party Dungeon slot +1",
+      "cosmetic_reward": "Party Banner I"
+    },
+    {
+      "id": "party_lv_04",
+      "party_level": 4,
+      "level_name": "Party Level 4",
+      "exp_bonus_pct": 0.01,
+      "drop_bonus_pct": 0.008,
+      "unlock_bonus": "Party buff aura (cosmetic)",
+      "cosmetic_reward": ""
+    },
+    {
+      "id": "party_lv_05",
+      "party_level": 5,
+      "level_name": "Party Level 5",
+      "exp_bonus_pct": 0.0125,
+      "drop_bonus_pct": 0.01,
+      "unlock_bonus": "Shared map waypoints",
+      "cosmetic_reward": "Party Aura I"
+    },
+    {
+      "id": "party_lv_06",
+      "party_level": 6,
+      "level_name": "Party Level 6",
+      "exp_bonus_pct": 0.015,
+      "drop_bonus_pct": 0.012,
+      "unlock_bonus": "Party Quest board",
+      "cosmetic_reward": ""
+    },
+    {
+      "id": "party_lv_07",
+      "party_level": 7,
+      "level_name": "Party Level 7",
+      "exp_bonus_pct": 0.0175,
+      "drop_bonus_pct": 0.014,
+      "unlock_bonus": "Party Dungeon slot +2",
+      "cosmetic_reward": "Party Banner II"
+    },
+    {
+      "id": "party_lv_08",
+      "party_level": 8,
+      "level_name": "Party Level 8",
+      "exp_bonus_pct": 0.02,
+      "drop_bonus_pct": 0.016,
+      "unlock_bonus": "Party cosmetic: banner color",
+      "cosmetic_reward": ""
+    },
+    {
+      "id": "party_lv_09",
+      "party_level": 9,
+      "level_name": "Party Level 9",
+      "exp_bonus_pct": 0.0225,
+      "drop_bonus_pct": 0.018,
+      "unlock_bonus": "Party shared chest (dungeon)",
+      "cosmetic_reward": ""
+    },
+    {
+      "id": "party_lv_10",
+      "party_level": 10,
+      "level_name": "Party Level 10",
+      "exp_bonus_pct": 0.025,
+      "drop_bonus_pct": 0.02,
+      "unlock_bonus": "Party cosmetic: team aura I",
+      "cosmetic_reward": "Party Aura II"
+    },
+    {
+      "id": "party_lv_11",
+      "party_level": 11,
+      "level_name": "Party Level 11",
+      "exp_bonus_pct": 0.0275,
+      "drop_bonus_pct": 0.022,
+      "unlock_bonus": "Party Dungeon slot +3",
+      "cosmetic_reward": ""
+    },
+    {
+      "id": "party_lv_12",
+      "party_level": 12,
+      "level_name": "Party Level 12",
+      "exp_bonus_pct": 0.03,
+      "drop_bonus_pct": 0.024,
+      "unlock_bonus": "Party cosmetic: name color",
+      "cosmetic_reward": "Party Banner III"
+    },
+    {
+      "id": "party_lv_13",
+      "party_level": 13,
+      "level_name": "Party Level 13",
+      "exp_bonus_pct": 0.0325,
+      "drop_bonus_pct": 0.026,
+      "unlock_bonus": "Party shared repair discount 5%",
+      "cosmetic_reward": ""
+    },
+    {
+      "id": "party_lv_14",
+      "party_level": 14,
+      "level_name": "Party Level 14",
+      "exp_bonus_pct": 0.035,
+      "drop_bonus_pct": 0.028,
+      "unlock_bonus": "Party cosmetic: team aura II",
+      "cosmetic_reward": ""
+    },
+    {
+      "id": "party_lv_15",
+      "party_level": 15,
+      "level_name": "Party Level 15",
+      "exp_bonus_pct": 0.0375,
+      "drop_bonus_pct": 0.03,
+      "unlock_bonus": "Party Dungeon slot +4",
+      "cosmetic_reward": "Party Aura III"
+    },
+    {
+      "id": "party_lv_16",
+      "party_level": 16,
+      "level_name": "Party Level 16",
+      "exp_bonus_pct": 0.04,
+      "drop_bonus_pct": 0.032,
+      "unlock_bonus": "Party cosmetic: banner design",
+      "cosmetic_reward": "Party Mount Skin Shard"
+    },
+    {
+      "id": "party_lv_17",
+      "party_level": 17,
+      "level_name": "Party Level 17",
+      "exp_bonus_pct": 0.0425,
+      "drop_bonus_pct": 0.034,
+      "unlock_bonus": "Party AH shortlist share",
+      "cosmetic_reward": ""
+    },
+    {
+      "id": "party_lv_18",
+      "party_level": 18,
+      "level_name": "Party Level 18",
+      "exp_bonus_pct": 0.045,
+      "drop_bonus_pct": 0.036,
+      "unlock_bonus": "Party cosmetic: team mount skin",
+      "cosmetic_reward": ""
+    },
+    {
+      "id": "party_lv_19",
+      "party_level": 19,
+      "level_name": "Party Level 19",
+      "exp_bonus_pct": 0.0475,
+      "drop_bonus_pct": 0.038,
+      "unlock_bonus": "Party Dungeon slot +5",
+      "cosmetic_reward": ""
+    },
+    {
+      "id": "party_lv_20",
+      "party_level": 20,
+      "level_name": "Party Level 20",
+      "exp_bonus_pct": 0.05,
+      "drop_bonus_pct": 0.04,
+      "unlock_bonus": "Party cosmetic: Legendary Party Emblem",
+      "cosmetic_reward": "Party Legendary Emblem"
+    }
+  ]
+}

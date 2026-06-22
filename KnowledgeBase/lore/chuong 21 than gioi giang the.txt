@@ -1,0 +1,422 @@
+BIOME 21 – THẦN GIỚI SÁNG THẾ (Lv 4900–5000)
+BIOME CUỐI CÙNG CỦA TOÀN BỘ MMORPG
+CỐT TRUYỆN CHÍNH
+
+Sau khi đánh bại:
+
+Chúa Tể Hư Không
+Thu thập toàn bộ 20 World Core
+Hợp nhất thành Origin Core
+
+Người chơi tin rằng The Void là kẻ địch cuối cùng.
+
+Nhưng sự thật được hé lộ.
+
+The Void chỉ là một công cụ.
+
+Một cơ chế cân bằng.
+
+Một sức mạnh được tạo ra bởi thực thể cổ xưa hơn mọi vị thần.
+
+Từ trung tâm thực tại xuất hiện:
+
+THẦN GIỚI SÁNG THẾ
+
+Nơi không thuộc:
+
+Không Gian
+Thời Gian
+Thiên Giới
+Địa Ngục
+
+Đây là nơi khai sinh toàn bộ vũ trụ.
+
+Nơi sinh ra:
+
+World Core
+Titan
+Thần
+The Void
+
+Và cả chủng tộc Slime.
+
+THÔNG TIN BIOME
+Level
+
+4900 → 5000
+
+Số Main Quest
+
+30 Quest
+
+Dungeon
+
+3 Dungeon
+
+World Boss
+
+1
+
+Final Boss
+
+1
+
+QUÁI VẬT KHU VỰC
+Thường
+Slime Thần Thánh
+Slime Thiên Thể
+Slime Thần Hạch
+Slime Vĩnh Hằng
+Slime Đỉnh Thiên
+Slime Sáng Thế
+Elite
+Genesis Guardian
+Origin Angel
+Eternal Creator
+CHƯƠNG 1: CÁNH CỔNG SÁNG THẾ (QUEST 791–795)
+Quest 791 – Con Đường Cuối Cùng
+
+NPC:
+
+Genesis Oracle
+
+Mục tiêu:
+
+Tiến vào Thần Giới Sáng Thế
+
+Thưởng:
+
+500.000.000 EXP
+250.000.000 Gold
+Quest 792 – Những Đứa Con Đầu Tiên
+
+Tiêu diệt:
+
+20 Slime Thần Thánh
+Quest 793 – Hơi Thở Sáng Thế
+
+Thu thập:
+
+20 Genesis Crystal
+Quest 794 – Trụ Cột Vũ Trụ
+
+Kích hoạt:
+
+5 Creation Pillar
+Quest 795 – Người Gác Cổng Khởi Nguyên
+
+Elite Boss:
+
+Genesis Guardian
+
+CHƯƠNG 2: NGUỒN GỐC THẾ GIỚI (QUEST 796–800)
+Quest 796 – Kỷ Nguyên Đầu Tiên
+
+NPC:
+
+Oracle Genesis
+
+Quest 797 – Sự Ra Đời Của Các Titan
+
+Khám phá:
+
+Titan Archives
+Quest 798 – Những Thần Đầu Tiên
+
+Thu thập:
+
+15 Creation Record
+Quest 799 – Nguồn Gốc Slime
+
+Điều tra:
+
+Hall of Slimes
+Quest 800 – Bí Mật Cuối Cùng
+
+Mở Dungeon 1
+
+CHƯƠNG 3: DUNGEON 1 – THƯ VIỆN SÁNG THẾ (QUEST 801–805)
+Quest 801 – Kho Tri Thức Vĩnh Hằng
+
+Dungeon:
+
+Genesis Library
+
+Quest 802 – Những Người Gác Tri Thức
+
+Tiêu diệt:
+
+200 quái
+Quest 803 – Biên Niên Sử Khởi Nguyên
+
+Thu thập:
+
+20 Genesis Scroll
+Quest 804 – Thiên Sứ Cổ Đại
+
+Boss:
+
+Origin Angel
+
+Quest 805 – Genesis Archive I
+
+Nhận tài liệu cổ
+
+CHƯƠNG 4: THE VOID THẬT SỰ (QUEST 806–810)
+Quest 806 – Bên Ngoài Thực Tại
+
+NPC:
+
+Prime Oracle
+
+Quest 807 – Lịch Sử Bị Che Giấu
+
+Khám phá:
+
+Origin Timeline
+Quest 808 – The Void Được Tạo Ra
+
+Điều tra:
+
+Void Genesis Chamber
+Quest 809 – Người Chứng Kiến Đầu Tiên
+
+Mini Boss:
+
+Eternal Witness
+
+Quest 810 – Sự Thật Tuyệt Đối
+
+Nhận:
+
+Genesis Archive II
+CHƯƠNG 5: DUNGEON 2 – VƯỜN SÁNG THẾ (QUEST 811–815)
+Quest 811 – Khu Vườn Đầu Tiên
+
+Dungeon:
+
+Garden of Creation
+
+Quest 812 – Sinh Vật Khởi Nguyên
+
+Tiêu diệt:
+
+220 quái
+Quest 813 – Hạt Giống Sáng Thế
+
+Thu thập:
+
+20 Genesis Seed
+Quest 814 – Người Làm Vườn Vĩnh Hằng
+
+Boss:
+
+Creator Keeper
+
+Quest 815 – Genesis Seal Key
+
+Nhận chìa khóa
+
+CHƯƠNG 6: ORIGIN CORE (QUEST 816–820)
+Quest 816 – Trái Tim Thế Giới
+
+NPC:
+
+Genesis Oracle
+
+Quest 817 – Hợp Nhất 20 Core
+
+Kích hoạt:
+
+20 World Core
+Quest 818 – Thức Tỉnh Origin Core
+
+Nghi thức hợp nhất
+
+Quest 819 – Cánh Cửa Tạo Hóa
+
+Mở Genesis Throne
+
+Quest 820 – Tiến Vào Trung Tâm Sáng Thế
+
+Mở Dungeon 3
+
+CHƯƠNG 7: DUNGEON 3 – NGAI VÀNG KHỞI NGUYÊN (QUEST 821–825)
+Quest 821 – Trung Tâm Tạo Hóa
+
+Dungeon:
+
+Origin Throne
+
+Quest 822 – Các Mảnh Linh Hồn Thần
+
+Tiêu diệt:
+
+250 quái
+Quest 823 – Tinh Hoa Genesis
+
+Thu thập:
+
+20 Genesis Essence
+Quest 824 – Thần Hộ Vệ Cuối Cùng
+
+Boss:
+
+Eternal Creator
+
+Quest 825 – Mở Final Arena
+CHƯƠNG 8: CHÍ TÔN THẦN SLIME (QUEST 826–830)
+Quest 826 – Sự Khởi Đầu Và Kết Thúc
+
+Tiến vào:
+
+Genesis Arena
+Quest 827 – Sức Mạnh Cuối Cùng
+
+Thu thập:
+
+20 Origin Essence
+Quest 828 – Kích Hoạt Origin Core
+
+Nghi thức cuối cùng
+
+Quest 829 – Trận Chiến Vì Sự Tồn Tại
+
+Final Arena
+
+QUEST 830 – CHÍ TÔN THẦN SLIME
+Giai đoạn 1: Creator Form
+
+Kỹ năng:
+
+Genesis Beam
+Holy Nova
+Divine Slash
+Creation Pulse
+Giai đoạn 2: World Maker
+
+Kỹ năng:
+
+Create Mountain
+Create Ocean
+Create Star
+Divine Storm
+
+Arena thay đổi liên tục giữa 20 biome.
+
+Giai đoạn 3: Origin Form
+
+Kỹ năng:
+
+Time Rewind
+Space Collapse
+Dream Corruption
+Void Resonance
+
+Sử dụng sức mạnh của toàn bộ 20 World Core.
+
+Giai đoạn 4: True Creator
+
+Kỹ năng:
+
+Genesis Apocalypse
+Reality Rewrite
+Eternal Judgment
+Origin Collapse
+Giai đoạn 5: Final Form (5% HP)
+GOD OF SLIMES
+
+Kỹ năng:
+
+End of Worlds
+Final Genesis
+Universal Reset
+Infinite Creation
+
+Đây là trận chiến dài nhất game.
+
+WORLD BOSS CUỐI GAME
+GENESIS WORLD DRAGON
+
+Xuất hiện:
+
+06:00
+12:00
+18:00
+22:00
+HP
+
+50.000.000.000
+
+Cơ chế
+500 người cùng đánh
+Guild ranking
+Top damage ranking
+Last hit bonus
+Phần thưởng
+Genesis Crystal
+Genesis Relic
+Mythic Equipment
+World Boss Token
+Guild Contribution
+Pet Egg: Genesis Dragon
+TRANG BỊ CẤP 5000
+GENESIS SET
+Warrior
+Genesis Crown
+Genesis Armor
+Genesis Gauntlet
+Genesis Boots
+Genesis Greatsword
+Archer
+Genesis Hood
+Genesis Armor
+Genesis Gloves
+Genesis Boots
+Genesis Bow
+Mage
+Genesis Crown
+Genesis Robe
+Genesis Gloves
+Genesis Boots
+Genesis Staff
+PHẦN THƯỞNG HOÀN THÀNH GAME
+Danh Hiệu
+
+Đấng Chinh Phục Sáng Thế
+
+Mount
+
+Genesis Dragon
+
+Pet
+
+Baby Creator Slime
+
+Skin Aura
+
+Genesis Aura
+
+Thành tựu
+
+Hoàn Thành Main Story 1 → 5000
+
+EPILOGUE (KẾT THÚC MỞ)
+
+Sau khi Chí Tôn Thần Slime thất bại, người chơi phát hiện một thông điệp cuối cùng:
+
+"Thực tại này đã được cứu."
+
+"Nhưng đây không phải thực tại duy nhất."
+
+Một bản đồ mới xuất hiện.
+
+Không thuộc 21 biome.
+
+Không thuộc thế giới hiện tại.
+
+Tên của nó là:
+
+MULTIVERSE GATE
+
+Đây là điểm khởi đầu hoàn hảo cho các bản mở rộng sau phát hành (Level 5000+), giúp game tiếp tục phát triển nhiều năm mà không phá vỡ cốt truyện chính đã hoàn thành.

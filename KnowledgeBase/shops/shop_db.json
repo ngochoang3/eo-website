@@ -1,0 +1,822 @@
+{
+  "meta": {
+    "total": 23,
+    "generator": "gen_npc_db.py"
+  },
+  "shops": [
+    {
+      "shop_id": "shop_verdant_plains_vendor_01",
+      "npc_id": "npc_verdant_plains_vendor_01",
+      "biome_id": 1,
+      "refresh_type": "daily",
+      "items": [
+        {
+          "item_id": "potion_hp_small",
+          "price_currency": "gold",
+          "price": 60,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "potion_mp_small",
+          "price_currency": "gold",
+          "price": 60,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "scroll_id_verdant_plains",
+          "price_currency": "gold",
+          "price": 250,
+          "daily_limit": 5,
+          "is_power": false
+        },
+        {
+          "item_id": "material_verdant_plains_01",
+          "price_currency": "gold",
+          "price": 120,
+          "daily_limit": 30,
+          "is_power": false
+        }
+      ]
+    },
+    {
+      "shop_id": "shop_scorched_wastes_vendor_01",
+      "npc_id": "npc_scorched_wastes_vendor_01",
+      "biome_id": 2,
+      "refresh_type": "daily",
+      "items": [
+        {
+          "item_id": "potion_hp_small",
+          "price_currency": "gold",
+          "price": 70,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "potion_mp_small",
+          "price_currency": "gold",
+          "price": 70,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "scroll_id_scorched_wastes",
+          "price_currency": "gold",
+          "price": 300,
+          "daily_limit": 5,
+          "is_power": false
+        },
+        {
+          "item_id": "material_scorched_wastes_01",
+          "price_currency": "gold",
+          "price": 140,
+          "daily_limit": 30,
+          "is_power": false
+        }
+      ]
+    },
+    {
+      "shop_id": "shop_sunken_ruins_vendor_01",
+      "npc_id": "npc_sunken_ruins_vendor_01",
+      "biome_id": 3,
+      "refresh_type": "daily",
+      "items": [
+        {
+          "item_id": "potion_hp_small",
+          "price_currency": "gold",
+          "price": 80,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "potion_mp_small",
+          "price_currency": "gold",
+          "price": 80,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "scroll_id_sunken_ruins",
+          "price_currency": "gold",
+          "price": 350,
+          "daily_limit": 5,
+          "is_power": false
+        },
+        {
+          "item_id": "material_sunken_ruins_01",
+          "price_currency": "gold",
+          "price": 160,
+          "daily_limit": 30,
+          "is_power": false
+        }
+      ]
+    },
+    {
+      "shop_id": "shop_frozen_tundra_vendor_01",
+      "npc_id": "npc_frozen_tundra_vendor_01",
+      "biome_id": 4,
+      "refresh_type": "daily",
+      "items": [
+        {
+          "item_id": "potion_hp_small",
+          "price_currency": "gold",
+          "price": 90,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "potion_mp_small",
+          "price_currency": "gold",
+          "price": 90,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "scroll_id_frozen_tundra",
+          "price_currency": "gold",
+          "price": 400,
+          "daily_limit": 5,
+          "is_power": false
+        },
+        {
+          "item_id": "material_frozen_tundra_01",
+          "price_currency": "gold",
+          "price": 180,
+          "daily_limit": 30,
+          "is_power": false
+        }
+      ]
+    },
+    {
+      "shop_id": "shop_storm_peaks_vendor_01",
+      "npc_id": "npc_storm_peaks_vendor_01",
+      "biome_id": 5,
+      "refresh_type": "daily",
+      "items": [
+        {
+          "item_id": "potion_hp_small",
+          "price_currency": "gold",
+          "price": 100,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "potion_mp_small",
+          "price_currency": "gold",
+          "price": 100,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "scroll_id_storm_peaks",
+          "price_currency": "gold",
+          "price": 450,
+          "daily_limit": 5,
+          "is_power": false
+        },
+        {
+          "item_id": "material_storm_peaks_01",
+          "price_currency": "gold",
+          "price": 200,
+          "daily_limit": 30,
+          "is_power": false
+        }
+      ]
+    },
+    {
+      "shop_id": "shop_wildwood_forest_vendor_01",
+      "npc_id": "npc_wildwood_forest_vendor_01",
+      "biome_id": 6,
+      "refresh_type": "daily",
+      "items": [
+        {
+          "item_id": "potion_hp_small",
+          "price_currency": "gold",
+          "price": 110,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "potion_mp_small",
+          "price_currency": "gold",
+          "price": 110,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "scroll_id_wildwood_forest",
+          "price_currency": "gold",
+          "price": 500,
+          "daily_limit": 5,
+          "is_power": false
+        },
+        {
+          "item_id": "material_wildwood_forest_01",
+          "price_currency": "gold",
+          "price": 220,
+          "daily_limit": 30,
+          "is_power": false
+        }
+      ]
+    },
+    {
+      "shop_id": "shop_crimson_savanna_vendor_01",
+      "npc_id": "npc_crimson_savanna_vendor_01",
+      "biome_id": 7,
+      "refresh_type": "daily",
+      "items": [
+        {
+          "item_id": "potion_hp_small",
+          "price_currency": "gold",
+          "price": 120,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "potion_mp_small",
+          "price_currency": "gold",
+          "price": 120,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "scroll_id_crimson_savanna",
+          "price_currency": "gold",
+          "price": 550,
+          "daily_limit": 5,
+          "is_power": false
+        },
+        {
+          "item_id": "material_crimson_savanna_01",
+          "price_currency": "gold",
+          "price": 240,
+          "daily_limit": 30,
+          "is_power": false
+        }
+      ]
+    },
+    {
+      "shop_id": "shop_volcanic_islands_vendor_01",
+      "npc_id": "npc_volcanic_islands_vendor_01",
+      "biome_id": 8,
+      "refresh_type": "daily",
+      "items": [
+        {
+          "item_id": "potion_hp_small",
+          "price_currency": "gold",
+          "price": 130,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "potion_mp_small",
+          "price_currency": "gold",
+          "price": 130,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "scroll_id_volcanic_islands",
+          "price_currency": "gold",
+          "price": 600,
+          "daily_limit": 5,
+          "is_power": false
+        },
+        {
+          "item_id": "material_volcanic_islands_01",
+          "price_currency": "gold",
+          "price": 260,
+          "daily_limit": 30,
+          "is_power": false
+        }
+      ]
+    },
+    {
+      "shop_id": "shop_crystal_caverns_vendor_01",
+      "npc_id": "npc_crystal_caverns_vendor_01",
+      "biome_id": 9,
+      "refresh_type": "daily",
+      "items": [
+        {
+          "item_id": "potion_hp_small",
+          "price_currency": "gold",
+          "price": 140,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "potion_mp_small",
+          "price_currency": "gold",
+          "price": 140,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "scroll_id_crystal_caverns",
+          "price_currency": "gold",
+          "price": 650,
+          "daily_limit": 5,
+          "is_power": false
+        },
+        {
+          "item_id": "material_crystal_caverns_01",
+          "price_currency": "gold",
+          "price": 280,
+          "daily_limit": 30,
+          "is_power": false
+        }
+      ]
+    },
+    {
+      "shop_id": "shop_haunted_moors_vendor_01",
+      "npc_id": "npc_haunted_moors_vendor_01",
+      "biome_id": 10,
+      "refresh_type": "daily",
+      "items": [
+        {
+          "item_id": "potion_hp_small",
+          "price_currency": "gold",
+          "price": 150,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "potion_mp_small",
+          "price_currency": "gold",
+          "price": 150,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "scroll_id_haunted_moors",
+          "price_currency": "gold",
+          "price": 700,
+          "daily_limit": 5,
+          "is_power": false
+        },
+        {
+          "item_id": "material_haunted_moors_01",
+          "price_currency": "gold",
+          "price": 300,
+          "daily_limit": 30,
+          "is_power": false
+        }
+      ]
+    },
+    {
+      "shop_id": "shop_ruined_kingdom_vendor_01",
+      "npc_id": "npc_ruined_kingdom_vendor_01",
+      "biome_id": 11,
+      "refresh_type": "daily",
+      "items": [
+        {
+          "item_id": "potion_hp_small",
+          "price_currency": "gold",
+          "price": 160,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "potion_mp_small",
+          "price_currency": "gold",
+          "price": 160,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "scroll_id_ruined_kingdom",
+          "price_currency": "gold",
+          "price": 750,
+          "daily_limit": 5,
+          "is_power": false
+        },
+        {
+          "item_id": "material_ruined_kingdom_01",
+          "price_currency": "gold",
+          "price": 320,
+          "daily_limit": 30,
+          "is_power": false
+        }
+      ]
+    },
+    {
+      "shop_id": "shop_demon_wastes_vendor_01",
+      "npc_id": "npc_demon_wastes_vendor_01",
+      "biome_id": 12,
+      "refresh_type": "daily",
+      "items": [
+        {
+          "item_id": "potion_hp_small",
+          "price_currency": "gold",
+          "price": 170,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "potion_mp_small",
+          "price_currency": "gold",
+          "price": 170,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "scroll_id_demon_wastes",
+          "price_currency": "gold",
+          "price": 800,
+          "daily_limit": 5,
+          "is_power": false
+        },
+        {
+          "item_id": "material_demon_wastes_01",
+          "price_currency": "gold",
+          "price": 340,
+          "daily_limit": 30,
+          "is_power": false
+        }
+      ]
+    },
+    {
+      "shop_id": "shop_ancient_desert_vendor_01",
+      "npc_id": "npc_ancient_desert_vendor_01",
+      "biome_id": 13,
+      "refresh_type": "daily",
+      "items": [
+        {
+          "item_id": "potion_hp_small",
+          "price_currency": "gold",
+          "price": 180,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "potion_mp_small",
+          "price_currency": "gold",
+          "price": 180,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "scroll_id_ancient_desert",
+          "price_currency": "gold",
+          "price": 850,
+          "daily_limit": 5,
+          "is_power": false
+        },
+        {
+          "item_id": "material_ancient_desert_01",
+          "price_currency": "gold",
+          "price": 360,
+          "daily_limit": 30,
+          "is_power": false
+        }
+      ]
+    },
+    {
+      "shop_id": "shop_floating_isles_vendor_01",
+      "npc_id": "npc_floating_isles_vendor_01",
+      "biome_id": 14,
+      "refresh_type": "daily",
+      "items": [
+        {
+          "item_id": "potion_hp_small",
+          "price_currency": "gold",
+          "price": 190,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "potion_mp_small",
+          "price_currency": "gold",
+          "price": 190,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "scroll_id_floating_isles",
+          "price_currency": "gold",
+          "price": 900,
+          "daily_limit": 5,
+          "is_power": false
+        },
+        {
+          "item_id": "material_floating_isles_01",
+          "price_currency": "gold",
+          "price": 380,
+          "daily_limit": 30,
+          "is_power": false
+        }
+      ]
+    },
+    {
+      "shop_id": "shop_clockwork_city_vendor_01",
+      "npc_id": "npc_clockwork_city_vendor_01",
+      "biome_id": 15,
+      "refresh_type": "daily",
+      "items": [
+        {
+          "item_id": "potion_hp_small",
+          "price_currency": "gold",
+          "price": 200,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "potion_mp_small",
+          "price_currency": "gold",
+          "price": 200,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "scroll_id_clockwork_city",
+          "price_currency": "gold",
+          "price": 950,
+          "daily_limit": 5,
+          "is_power": false
+        },
+        {
+          "item_id": "material_clockwork_city_01",
+          "price_currency": "gold",
+          "price": 400,
+          "daily_limit": 30,
+          "is_power": false
+        }
+      ]
+    },
+    {
+      "shop_id": "shop_overgrown_jungle_vendor_01",
+      "npc_id": "npc_overgrown_jungle_vendor_01",
+      "biome_id": 16,
+      "refresh_type": "daily",
+      "items": [
+        {
+          "item_id": "potion_hp_small",
+          "price_currency": "gold",
+          "price": 210,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "potion_mp_small",
+          "price_currency": "gold",
+          "price": 210,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "scroll_id_overgrown_jungle",
+          "price_currency": "gold",
+          "price": 1000,
+          "daily_limit": 5,
+          "is_power": false
+        },
+        {
+          "item_id": "material_overgrown_jungle_01",
+          "price_currency": "gold",
+          "price": 420,
+          "daily_limit": 30,
+          "is_power": false
+        }
+      ]
+    },
+    {
+      "shop_id": "shop_shadow_realm_vendor_01",
+      "npc_id": "npc_shadow_realm_vendor_01",
+      "biome_id": 17,
+      "refresh_type": "daily",
+      "items": [
+        {
+          "item_id": "potion_hp_small",
+          "price_currency": "gold",
+          "price": 220,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "potion_mp_small",
+          "price_currency": "gold",
+          "price": 220,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "scroll_id_shadow_realm",
+          "price_currency": "gold",
+          "price": 1050,
+          "daily_limit": 5,
+          "is_power": false
+        },
+        {
+          "item_id": "material_shadow_realm_01",
+          "price_currency": "gold",
+          "price": 440,
+          "daily_limit": 30,
+          "is_power": false
+        }
+      ]
+    },
+    {
+      "shop_id": "shop_cursed_depths_vendor_01",
+      "npc_id": "npc_cursed_depths_vendor_01",
+      "biome_id": 18,
+      "refresh_type": "daily",
+      "items": [
+        {
+          "item_id": "potion_hp_small",
+          "price_currency": "gold",
+          "price": 230,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "potion_mp_small",
+          "price_currency": "gold",
+          "price": 230,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "scroll_id_cursed_depths",
+          "price_currency": "gold",
+          "price": 1100,
+          "daily_limit": 5,
+          "is_power": false
+        },
+        {
+          "item_id": "material_cursed_depths_01",
+          "price_currency": "gold",
+          "price": 460,
+          "daily_limit": 30,
+          "is_power": false
+        }
+      ]
+    },
+    {
+      "shop_id": "shop_arcane_sanctum_vendor_01",
+      "npc_id": "npc_arcane_sanctum_vendor_01",
+      "biome_id": 19,
+      "refresh_type": "daily",
+      "items": [
+        {
+          "item_id": "potion_hp_small",
+          "price_currency": "gold",
+          "price": 240,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "potion_mp_small",
+          "price_currency": "gold",
+          "price": 240,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "scroll_id_arcane_sanctum",
+          "price_currency": "gold",
+          "price": 1150,
+          "daily_limit": 5,
+          "is_power": false
+        },
+        {
+          "item_id": "material_arcane_sanctum_01",
+          "price_currency": "gold",
+          "price": 480,
+          "daily_limit": 30,
+          "is_power": false
+        }
+      ]
+    },
+    {
+      "shop_id": "shop_celestial_spire_vendor_01",
+      "npc_id": "npc_celestial_spire_vendor_01",
+      "biome_id": 20,
+      "refresh_type": "daily",
+      "items": [
+        {
+          "item_id": "potion_hp_small",
+          "price_currency": "gold",
+          "price": 250,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "potion_mp_small",
+          "price_currency": "gold",
+          "price": 250,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "scroll_id_celestial_spire",
+          "price_currency": "gold",
+          "price": 1200,
+          "daily_limit": 5,
+          "is_power": false
+        },
+        {
+          "item_id": "material_celestial_spire_01",
+          "price_currency": "gold",
+          "price": 500,
+          "daily_limit": 30,
+          "is_power": false
+        }
+      ]
+    },
+    {
+      "shop_id": "shop_void_rift_vendor_01",
+      "npc_id": "npc_void_rift_vendor_01",
+      "biome_id": 21,
+      "refresh_type": "daily",
+      "items": [
+        {
+          "item_id": "potion_hp_small",
+          "price_currency": "gold",
+          "price": 260,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "potion_mp_small",
+          "price_currency": "gold",
+          "price": 260,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "scroll_id_void_rift",
+          "price_currency": "gold",
+          "price": 1250,
+          "daily_limit": 5,
+          "is_power": false
+        },
+        {
+          "item_id": "material_void_rift_01",
+          "price_currency": "gold",
+          "price": 520,
+          "daily_limit": 30,
+          "is_power": false
+        }
+      ]
+    },
+    {
+      "shop_id": "shop_town_enchanter",
+      "npc_id": "npc_town_enchanter",
+      "biome_id": 0,
+      "refresh_type": "never",
+      "items": [
+        {
+          "item_id": "enchant_stone_t1",
+          "price_currency": "gold",
+          "price": 100,
+          "daily_limit": 0,
+          "is_power": false
+        },
+        {
+          "item_id": "enchant_stone_t2",
+          "price_currency": "gold",
+          "price": 300,
+          "daily_limit": 20,
+          "is_power": false
+        },
+        {
+          "item_id": "lock_scroll",
+          "price_currency": "gold",
+          "price": 500,
+          "daily_limit": 5,
+          "is_power": false
+        },
+        {
+          "item_id": "gem_extract_tool",
+          "price_currency": "gold",
+          "price": 200,
+          "daily_limit": 10,
+          "is_power": false
+        }
+      ]
+    },
+    {
+      "shop_id": "shop_town_housing",
+      "npc_id": "npc_town_housing_agent",
+      "biome_id": 0,
+      "refresh_type": "never",
+      "items": [
+        {
+          "item_id": "house_upgrade_kit",
+          "price_currency": "gold",
+          "price": 5000,
+          "daily_limit": 0,
+          "is_power": false
+        },
+        {
+          "item_id": "furniture_basic",
+          "price_currency": "gold",
+          "price": 200,
+          "daily_limit": 10,
+          "is_power": false
+        }
+      ]
+    }
+  ]
+}

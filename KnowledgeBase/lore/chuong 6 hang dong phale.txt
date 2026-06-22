@@ -1,0 +1,341 @@
+BIOME 06: HANG ĐỘNG PHA LÊ (Lv 850–1050)
+Cốt truyện chính
+
+Sau khi đánh bại Titan Slime Đá, người chơi nhận được Titan Core Fragment.
+
+Trước khi tan biến, Titan Elder Vargos tiết lộ:
+
+"Sự thật về World Core không nằm trên mặt đất... mà nằm dưới lòng thế giới."
+
+Bên dưới Dãy Núi Titan là một hệ thống hang động khổng lồ chứa các Pha Lê Ký Ức.
+
+Những tinh thể này lưu giữ toàn bộ lịch sử thế giới trước khi World Core bị phân mảnh.
+
+Tuy nhiên, năng lượng Hư Không đã xâm nhập vào các ký ức này.
+
+Người chơi phải tìm ra sự thật trước khi lịch sử bị xóa sổ.
+
+Boss cuối khu vực:
+
+Vương Giả Hang Động Pha Lê
+
+Mảnh World Core:
+
+Crystal Core Fragment
+
+CHƯƠNG 1: ÁNH SÁNG TRONG BÓNG TỐI (QUEST 191–195)
+Quest 191 – Cửa Vào Lòng Đất
+
+NPC:
+
+Nhà Khảo Cổ Lyra
+
+Mục tiêu:
+
+Tiến vào Hang Động Pha Lê
+
+Thưởng:
+
+20.000 EXP
+2.000 Gold
+Quest 192 – Sinh Vật Phát Quang
+
+Mục tiêu:
+
+Tiêu diệt:
+20 Slime Phát Quang
+Quest 193 – Tinh Thể Cổ Đại
+
+Mục tiêu:
+
+Thu thập:
+15 Crystal Fragment
+Quest 194 – Âm Thanh Kỳ Lạ
+
+Mục tiêu:
+
+Điều tra 5 Tinh Thể Cộng Hưởng
+Quest 195 – Người Canh Gác Lối Vào
+
+Elite Boss:
+
+Crystal Watcher Slime
+
+Thưởng:
+
+Rare Equipment
+25.000 EXP
+CHƯƠNG 2: NHỮNG KÝ ỨC BỊ LÃNG QUÊN (QUEST 196–200)
+Quest 196 – Pha Lê Ký Ức
+
+NPC:
+
+Spirit Archivist
+
+Mục tiêu:
+
+Kích hoạt Memory Crystal
+Quest 197 – Hình Ảnh Quá Khứ
+
+Mục tiêu:
+
+Xem 3 đoạn ký ức cổ đại
+Quest 198 – Thế Giới Trước Đại Thảm Họa
+
+Mục tiêu:
+
+Thu thập:
+10 Ancient Memory Shard
+Quest 199 – Những Người Canh Giữ
+
+Mục tiêu:
+
+Tiêu diệt:
+25 Slime Đá Quý
+Quest 200 – Cánh Cổng Pha Lê
+
+Mở Dungeon 1
+
+CHƯƠNG 3: DUNGEON 1 - HÀNH LANG KÝ ỨC (QUEST 201–205)
+Quest 201 – Tiến Vào Ký Ức
+
+Dungeon:
+
+Hành Lang Ký Ức
+
+Quest 202 – Mảnh Ghép Lịch Sử
+
+Mục tiêu:
+
+Thu thập:
+20 Memory Fragment
+Quest 203 – Ký Ức Bị Nhiễm Bẩn
+
+Mục tiêu:
+
+Tiêu diệt:
+40 Corrupted Crystal Slime
+Quest 204 – Người Gác Thư Viện
+
+Boss:
+
+Ancient Crystal Librarian
+
+Quest 205 – Hồ Sơ Thế Giới
+
+Nhận:
+
+World Archive I
+CHƯƠNG 4: BÍ MẬT CỦA WORLD CORE (QUEST 206–210)
+Quest 206 – Nhật Ký Sáng Thế
+
+NPC:
+
+Archivist Lumina
+
+Quest 207 – Sự Ra Đời Của Slime
+
+Mục tiêu:
+
+Xem Ancient Vision
+Quest 208 – Thời Đại Hoàng Kim
+
+Mục tiêu:
+
+Kích hoạt:
+5 Crystal Archive
+Quest 209 – Dấu Hiệu Hư Không
+
+Mục tiêu:
+
+Điều tra Void Crystal
+Quest 210 – Kẻ Đột Nhập
+
+Mini Boss:
+
+Void Crystal Stalker
+
+CHƯƠNG 5: DUNGEON 2 - THƯ VIỆN PHA LÊ (QUEST 211–215)
+Quest 211 – Kho Lưu Trữ Cổ Đại
+
+Dungeon:
+
+Thư Viện Pha Lê
+
+Quest 212 – Những Trang Sách Bị Mất
+
+Mục tiêu:
+
+Thu thập:
+15 Lost Crystal Page
+Quest 213 – Người Bảo Hộ Tri Thức
+
+Mục tiêu:
+
+Tiêu diệt:
+50 Crystal Guardian
+Quest 214 – Thủ Thư Cuối Cùng
+
+Boss:
+
+Grand Crystal Archivist
+
+Quest 215 – Biên Niên Sử World Core
+
+Nhận:
+
+World Archive II
+CHƯƠNG 6: KẺ XÓA KÝ ỨC (QUEST 216–220)
+Quest 216 – Lỗ Hổng Trong Lịch Sử
+
+NPC:
+
+Lumina
+
+Quest 217 – Những Ký Ức Biến Mất
+
+Mục tiêu:
+
+Tìm 10 Lost Memory
+Quest 218 – Hư Không Đang Hành Động
+
+Mục tiêu:
+
+Đóng 5 Void Crystal Rift
+Quest 219 – Kẻ Săn Ký Ức
+
+Mục tiêu:
+
+Tiêu diệt:
+30 Slime Bóng Tối
+Quest 220 – Trái Tim Hang Động
+
+Mở Dungeon 3
+
+CHƯƠNG 7: DUNGEON 3 - LÕI PHA LÊ THẾ GIỚI (QUEST 221–225)
+Quest 221 – Trung Tâm Dữ Liệu Cổ Đại
+
+Dungeon:
+
+Lõi Pha Lê Thế Giới
+
+Quest 222 – Hệ Thống Phòng Thủ
+
+Mục tiêu:
+
+Kích hoạt 5 Crystal Beacon
+Quest 223 – Kẻ Bảo Vệ Cuối Cùng
+
+Mục tiêu:
+
+Tiêu diệt:
+40 Crystal Sentinel
+Quest 224 – Titan Ký Ức
+
+Boss:
+
+Memory Titan Slime
+
+Quest 225 – Điện Thờ Pha Lê
+
+Mở Boss Arena
+
+CHƯƠNG 8: VƯƠNG GIẢ HANG ĐỘNG PHA LÊ (QUEST 226–230)
+Quest 226 – Tiến Vào Điện Thờ
+
+Mục tiêu:
+
+Vào Crystal Throne Hall
+Quest 227 – Những Mảnh Ký Ức Cuối Cùng
+
+Mục tiêu:
+
+Thu thập:
+20 Crystal Essence
+Quest 228 – Bản Ghi Cuối Cùng
+
+Mục tiêu:
+
+Kích hoạt World Archive III
+Quest 229 – Ngai Vàng Pha Lê
+
+Boss Arena
+
+Quest 230 – Vương Giả Hang Động Pha Lê
+
+Boss:
+
+Vương Giả Hang Động Pha Lê
+
+Phase 1
+Crystal Spear
+Reflection Beam
+Crystal Prison
+Phase 2 (70%)
+Memory Clone
+Crystal Rain
+Shatter Wave
+Phase 3 (30%)
+World Archive Release
+Crystal Cataclysm
+Void Corruption
+PHẦN THƯỞNG
+Crystal Core Fragment
+Epic Equipment Set Lv1050
+150.000 EXP
+25.000 Gold
+Crystal King's Treasure
+KẾT THÚC BIOME HANG ĐỘNG PHA LÊ
+
+Người chơi nhận:
+
+Danh hiệu
+
+Người Gìn Giữ Ký Ức
+
+Mount
+
+Crystal Drake
+
+Fragment
+
+Crystal Core Fragment
+
+Mở Biome Tiếp Theo
+
+Biển Vĩnh Cửu (Lv 1050–1300)
+
+WORLD BOSS HANG ĐỘNG PHA LÊ
+Ancient Crystal Colossus
+
+Xuất hiện:
+
+06:00
+12:00
+18:00
+22:00
+Cơ chế
+Giai đoạn 1
+Crystal Laser
+Crystal Golem Summon
+Giai đoạn 2
+Reflection Shield
+Crystal Storm
+Giai đoạn 3
+Crystal Overload
+Map-wide Crystal Explosion
+Phần thưởng
+Crystal Shard
+World Boss Token
+Guild Contribution
+Rare → Mythic Equipment
+Pet Egg: Crystal Slime
+Nguyên liệu chế tạo Crystal Set
+TIẾT LỘ CỐT TRUYỆN QUAN TRỌNG
+
+Tại cuối Biome này, người chơi phát hiện:
+
+World Core từng là một thực thể duy nhất.
+Các Titan chỉ là người bảo vệ.
+Một thực thể mang tên The Void đã cố xóa toàn bộ lịch sử thế giới.
+Những mảnh World Core đang dẫn tới một vị trí dưới đáy đại dương.

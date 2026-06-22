@@ -1,0 +1,246 @@
+{
+  "name": "ascension_tree",
+  "count": 24,
+  "rows": [
+    {
+      "id": "asc_01",
+      "branch": "PvE",
+      "node": "Boss Slayer",
+      "effect": "+Boss Dmg (trong cap 1.3)",
+      "rank_req": 1,
+      "cost_points": 2,
+      "max_rank": 5,
+      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+    },
+    {
+      "id": "asc_02",
+      "branch": "PvE",
+      "node": "Elite Hunter",
+      "effect": "+Elite Dmg",
+      "rank_req": 5,
+      "cost_points": 2,
+      "max_rank": 5,
+      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+    },
+    {
+      "id": "asc_03",
+      "branch": "PvE",
+      "node": "Penetrator",
+      "effect": "+Penetration tới cap",
+      "rank_req": 9,
+      "cost_points": 2,
+      "max_rank": 5,
+      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+    },
+    {
+      "id": "asc_04",
+      "branch": "PvE",
+      "node": "Executioner",
+      "effect": "Execute <8% HP non-boss",
+      "rank_req": 13,
+      "cost_points": 2,
+      "max_rank": 5,
+      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+    },
+    {
+      "id": "asc_05",
+      "branch": "PvE",
+      "node": "Relentless",
+      "effect": "-Skill CD",
+      "rank_req": 17,
+      "cost_points": 2,
+      "max_rank": 5,
+      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+    },
+    {
+      "id": "asc_06",
+      "branch": "PvE",
+      "node": "Overload",
+      "effect": "+Skill Dmg trong budget",
+      "rank_req": 21,
+      "cost_points": 2,
+      "max_rank": 5,
+      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+    },
+    {
+      "id": "asc_07",
+      "branch": "PvP",
+      "node": "Duelist",
+      "effect": "+PvP Dmg riêng",
+      "rank_req": 1,
+      "cost_points": 2,
+      "max_rank": 5,
+      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+    },
+    {
+      "id": "asc_08",
+      "branch": "PvP",
+      "node": "Bulwark",
+      "effect": "+PvP DR",
+      "rank_req": 5,
+      "cost_points": 2,
+      "max_rank": 5,
+      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+    },
+    {
+      "id": "asc_09",
+      "branch": "PvP",
+      "node": "Cleanse",
+      "effect": "xóa 1 CC/15s",
+      "rank_req": 9,
+      "cost_points": 2,
+      "max_rank": 5,
+      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+    },
+    {
+      "id": "asc_10",
+      "branch": "PvP",
+      "node": "Tenacity",
+      "effect": "+Tenacity giảm CC",
+      "rank_req": 13,
+      "cost_points": 2,
+      "max_rank": 5,
+      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+    },
+    {
+      "id": "asc_11",
+      "branch": "PvP",
+      "node": "Counter",
+      "effect": "Reflect khi block",
+      "rank_req": 17,
+      "cost_points": 2,
+      "max_rank": 5,
+      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+    },
+    {
+      "id": "asc_12",
+      "branch": "PvP",
+      "node": "Adrenaline",
+      "effect": "+Move khi low HP",
+      "rank_req": 21,
+      "cost_points": 2,
+      "max_rank": 5,
+      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+    },
+    {
+      "id": "asc_13",
+      "branch": "Life",
+      "node": "Gatherer",
+      "effect": "+Gather yield",
+      "rank_req": 1,
+      "cost_points": 2,
+      "max_rank": 5,
+      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+    },
+    {
+      "id": "asc_14",
+      "branch": "Life",
+      "node": "Master Craft",
+      "effect": "+Craft success",
+      "rank_req": 5,
+      "cost_points": 2,
+      "max_rank": 5,
+      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+    },
+    {
+      "id": "asc_15",
+      "branch": "Life",
+      "node": "Lucky Hand",
+      "effect": "+Rare craft",
+      "rank_req": 9,
+      "cost_points": 2,
+      "max_rank": 5,
+      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+    },
+    {
+      "id": "asc_16",
+      "branch": "Life",
+      "node": "Stamina",
+      "effect": "+Life stamina cap",
+      "rank_req": 13,
+      "cost_points": 2,
+      "max_rank": 5,
+      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+    },
+    {
+      "id": "asc_17",
+      "branch": "Life",
+      "node": "Logistics",
+      "effect": "-Craft gold",
+      "rank_req": 17,
+      "cost_points": 2,
+      "max_rank": 5,
+      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+    },
+    {
+      "id": "asc_18",
+      "branch": "Life",
+      "node": "Connoisseur",
+      "effect": "+Food buff dur",
+      "rank_req": 21,
+      "cost_points": 2,
+      "max_rank": 5,
+      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+    },
+    {
+      "id": "asc_19",
+      "branch": "Economy",
+      "node": "Midas",
+      "effect": "+Gold drop",
+      "rank_req": 1,
+      "cost_points": 2,
+      "max_rank": 5,
+      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+    },
+    {
+      "id": "asc_20",
+      "branch": "Economy",
+      "node": "Fortune",
+      "effect": "+Drop rate",
+      "rank_req": 5,
+      "cost_points": 2,
+      "max_rank": 5,
+      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+    },
+    {
+      "id": "asc_21",
+      "branch": "Economy",
+      "node": "Trader",
+      "effect": "-AH tax",
+      "rank_req": 9,
+      "cost_points": 2,
+      "max_rank": 5,
+      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+    },
+    {
+      "id": "asc_22",
+      "branch": "Economy",
+      "node": "Scavenger",
+      "effect": "+Material",
+      "rank_req": 13,
+      "cost_points": 2,
+      "max_rank": 5,
+      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+    },
+    {
+      "id": "asc_23",
+      "branch": "Economy",
+      "node": "Soul Harvest",
+      "effect": "+Soul drop",
+      "rank_req": 17,
+      "cost_points": 2,
+      "max_rank": 5,
+      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+    },
+    {
+      "id": "asc_24",
+      "branch": "Economy",
+      "node": "Frugal",
+      "effect": "-Repair cost",
+      "rank_req": 21,
+      "cost_points": 2,
+      "max_rank": 5,
+      "per_rank": "+ nhỏ, tổng nhánh ≤ giới hạn budget"
+    }
+  ]
+}

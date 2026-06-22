@@ -1,0 +1,8247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870e3976767ebf541a4ef98eec9dd272, type: 3}
+  m_Name: ChunkRegistry
+  m_EditorClassIdentifier: MMORPG.World::MMORPG.Gameplay.World.ChunkRegistry
+  _definitions:
+  - RegionId: 1
+    GridX: 0
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_001
+    IsSpawnSafe: 0
+    ChunkSaveId: e65c845957f1
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 1
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_002
+    IsSpawnSafe: 0
+    ChunkSaveId: 1a10fe64c038
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 2
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_003
+    IsSpawnSafe: 0
+    ChunkSaveId: 275c5a3bf26e
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 3
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_004
+    IsSpawnSafe: 0
+    ChunkSaveId: 65ca163b61fc
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 4
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_005
+    IsSpawnSafe: 0
+    ChunkSaveId: 5985f1b36924
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 5
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_006
+    IsSpawnSafe: 0
+    ChunkSaveId: e86d59bf0726
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 6
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_007
+    IsSpawnSafe: 0
+    ChunkSaveId: 1382e5a3513d
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 0
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_008
+    IsSpawnSafe: 0
+    ChunkSaveId: 8d023f2dad65
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 1
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_009
+    IsSpawnSafe: 0
+    ChunkSaveId: 628b329dea90
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 2
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_010
+    IsSpawnSafe: 0
+    ChunkSaveId: dc4da24db016
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 3
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_011
+    IsSpawnSafe: 0
+    ChunkSaveId: 17ae2b524cb8
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 4
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_012
+    IsSpawnSafe: 0
+    ChunkSaveId: 439f8c3bce2f
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 5
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_013
+    IsSpawnSafe: 0
+    ChunkSaveId: 36161dc31427
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 6
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_014
+    IsSpawnSafe: 0
+    ChunkSaveId: 3d55c58f25fd
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 0
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_015
+    IsSpawnSafe: 0
+    ChunkSaveId: 192e61fa568f
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 1
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_016
+    IsSpawnSafe: 0
+    ChunkSaveId: 537594274ae5
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 2
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_017
+    IsSpawnSafe: 0
+    ChunkSaveId: 8282f3ad28f4
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 3
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_018
+    IsSpawnSafe: 0
+    ChunkSaveId: f2f49e623c0b
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 4
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_019
+    IsSpawnSafe: 0
+    ChunkSaveId: 674b11857b08
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 5
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_020
+    IsSpawnSafe: 0
+    ChunkSaveId: b2c77af5f8b8
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 6
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_021
+    IsSpawnSafe: 0
+    ChunkSaveId: 05d8e948ba17
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 0
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_022
+    IsSpawnSafe: 0
+    ChunkSaveId: ba7518fc9ec6
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 1
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_023
+    IsSpawnSafe: 0
+    ChunkSaveId: 72b2b472110d
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 2
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_024
+    IsSpawnSafe: 0
+    ChunkSaveId: 8832ae9047c6
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 3
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_025
+    IsSpawnSafe: 0
+    ChunkSaveId: d013cbef6fed
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 4
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_026
+    IsSpawnSafe: 0
+    ChunkSaveId: 42d6eae4e222
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 5
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_027
+    IsSpawnSafe: 0
+    ChunkSaveId: 8c342fe01993
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 6
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_028
+    IsSpawnSafe: 0
+    ChunkSaveId: d036ee516cf1
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 0
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_029
+    IsSpawnSafe: 0
+    ChunkSaveId: 84d148c20d61
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 1
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_030
+    IsSpawnSafe: 0
+    ChunkSaveId: ec9b9fb76354
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 2
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_031
+    IsSpawnSafe: 0
+    ChunkSaveId: 81ee75b66264
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 3
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_032
+    IsSpawnSafe: 0
+    ChunkSaveId: 341ccd866c1e
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 4
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_033
+    IsSpawnSafe: 0
+    ChunkSaveId: 582822970d3a
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 5
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_034
+    IsSpawnSafe: 0
+    ChunkSaveId: b25c51f07790
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 6
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_035
+    IsSpawnSafe: 0
+    ChunkSaveId: 4b1119f253c9
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 0
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_036
+    IsSpawnSafe: 0
+    ChunkSaveId: 8207333f0652
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 1
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_037
+    IsSpawnSafe: 0
+    ChunkSaveId: 59b56cddcf4a
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 2
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_038
+    IsSpawnSafe: 0
+    ChunkSaveId: 990db329ff0c
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 3
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_039
+    IsSpawnSafe: 0
+    ChunkSaveId: 61d2e554f708
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 4
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_040
+    IsSpawnSafe: 0
+    ChunkSaveId: 560248732631
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 5
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_041
+    IsSpawnSafe: 0
+    ChunkSaveId: f7125aedfd18
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 6
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_042
+    IsSpawnSafe: 0
+    ChunkSaveId: 97ce544a4b7f
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 0
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_043
+    IsSpawnSafe: 0
+    ChunkSaveId: 9de47661d236
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 1
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_044
+    IsSpawnSafe: 0
+    ChunkSaveId: 5dcbedb49e8a
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 2
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_045
+    IsSpawnSafe: 0
+    ChunkSaveId: 0e414a5c58f9
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 3
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_046
+    IsSpawnSafe: 0
+    ChunkSaveId: ed692fbb68ac
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 4
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_047
+    IsSpawnSafe: 0
+    ChunkSaveId: c1d825bca363
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 5
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_048
+    IsSpawnSafe: 0
+    ChunkSaveId: 3ade797a0a4b
+    WeatherOverrideKey: 
+  - RegionId: 1
+    GridX: 6
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Grassland_Chunk_049
+    IsSpawnSafe: 0
+    ChunkSaveId: 77228ee1a492
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 0
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_001
+    IsSpawnSafe: 0
+    ChunkSaveId: 5e137afa5520
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 1
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_002
+    IsSpawnSafe: 0
+    ChunkSaveId: eeaf65ee4641
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 2
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_003
+    IsSpawnSafe: 0
+    ChunkSaveId: 734ba7a924f9
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 3
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_004
+    IsSpawnSafe: 0
+    ChunkSaveId: 16f046169b11
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 4
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_005
+    IsSpawnSafe: 0
+    ChunkSaveId: e270fb6a35cb
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 5
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_006
+    IsSpawnSafe: 0
+    ChunkSaveId: 4174e0b3d701
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 6
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_007
+    IsSpawnSafe: 0
+    ChunkSaveId: 69f82d2ca2ca
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 0
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_008
+    IsSpawnSafe: 0
+    ChunkSaveId: ae7864840f2c
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 1
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_009
+    IsSpawnSafe: 0
+    ChunkSaveId: d051a74e328b
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 2
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_010
+    IsSpawnSafe: 0
+    ChunkSaveId: ee131427324c
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 3
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_011
+    IsSpawnSafe: 0
+    ChunkSaveId: 3324de7dcfb1
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 4
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_012
+    IsSpawnSafe: 0
+    ChunkSaveId: 2cc667dc0e77
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 5
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_013
+    IsSpawnSafe: 0
+    ChunkSaveId: 80c80d73404b
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 6
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_014
+    IsSpawnSafe: 0
+    ChunkSaveId: 20239c54cd24
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 0
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_015
+    IsSpawnSafe: 0
+    ChunkSaveId: 3dadfb93f200
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 1
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_016
+    IsSpawnSafe: 0
+    ChunkSaveId: 82c685b2a7d8
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 2
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_017
+    IsSpawnSafe: 0
+    ChunkSaveId: 85a033e417f9
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 3
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_018
+    IsSpawnSafe: 0
+    ChunkSaveId: eff3bb16f455
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 4
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_019
+    IsSpawnSafe: 0
+    ChunkSaveId: 5cd147cfa9c3
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 5
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_020
+    IsSpawnSafe: 0
+    ChunkSaveId: 3ebdc98e9132
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 6
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_021
+    IsSpawnSafe: 0
+    ChunkSaveId: 009c347b6b7c
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 0
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_022
+    IsSpawnSafe: 0
+    ChunkSaveId: 62bbbbb2171b
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 1
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_023
+    IsSpawnSafe: 0
+    ChunkSaveId: cca1c7223709
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 2
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_024
+    IsSpawnSafe: 0
+    ChunkSaveId: c91a706ea0ad
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 3
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_025
+    IsSpawnSafe: 0
+    ChunkSaveId: 4fa08fdb2ef7
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 4
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_026
+    IsSpawnSafe: 0
+    ChunkSaveId: e0cd5daf4b0a
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 5
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_027
+    IsSpawnSafe: 0
+    ChunkSaveId: 117970ec4abd
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 6
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_028
+    IsSpawnSafe: 0
+    ChunkSaveId: bf47380e551e
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 0
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_029
+    IsSpawnSafe: 0
+    ChunkSaveId: 697cfbef707d
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 1
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_030
+    IsSpawnSafe: 0
+    ChunkSaveId: d32b3bf60c3a
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 2
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_031
+    IsSpawnSafe: 0
+    ChunkSaveId: c7c933493a06
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 3
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_032
+    IsSpawnSafe: 0
+    ChunkSaveId: 3cc438a5a5f9
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 4
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_033
+    IsSpawnSafe: 0
+    ChunkSaveId: 247009e41c3c
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 5
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_034
+    IsSpawnSafe: 0
+    ChunkSaveId: 81a3dbdb3505
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 6
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_035
+    IsSpawnSafe: 0
+    ChunkSaveId: 0565f6aa0214
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 0
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_036
+    IsSpawnSafe: 0
+    ChunkSaveId: b024b06dc21d
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 1
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_037
+    IsSpawnSafe: 0
+    ChunkSaveId: 7115d1ea16a5
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 2
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_038
+    IsSpawnSafe: 0
+    ChunkSaveId: 31afa3bbb908
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 3
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_039
+    IsSpawnSafe: 0
+    ChunkSaveId: 030432084383
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 4
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_040
+    IsSpawnSafe: 0
+    ChunkSaveId: 1bc564b50e6f
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 5
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_041
+    IsSpawnSafe: 0
+    ChunkSaveId: 7b58e6232cb1
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 6
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_042
+    IsSpawnSafe: 0
+    ChunkSaveId: 766237b2bd50
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 0
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_043
+    IsSpawnSafe: 0
+    ChunkSaveId: 7691f55bd01d
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 1
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_044
+    IsSpawnSafe: 0
+    ChunkSaveId: 518c6a40c2af
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 2
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_045
+    IsSpawnSafe: 0
+    ChunkSaveId: ea463426dbb0
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 3
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_046
+    IsSpawnSafe: 0
+    ChunkSaveId: ae92b271712f
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 4
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_047
+    IsSpawnSafe: 0
+    ChunkSaveId: fa620205e1fc
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 5
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_048
+    IsSpawnSafe: 0
+    ChunkSaveId: 328cbf2e1f8f
+    WeatherOverrideKey: 
+  - RegionId: 2
+    GridX: 6
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Forest_Chunk_049
+    IsSpawnSafe: 0
+    ChunkSaveId: 7fd276d46742
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 0
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_001
+    IsSpawnSafe: 0
+    ChunkSaveId: 594220b565df
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 1
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_002
+    IsSpawnSafe: 0
+    ChunkSaveId: d2cccc04af0a
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 2
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_003
+    IsSpawnSafe: 0
+    ChunkSaveId: ef23e97d8e3a
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 3
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_004
+    IsSpawnSafe: 0
+    ChunkSaveId: 6d7ce01cb511
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 4
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_005
+    IsSpawnSafe: 0
+    ChunkSaveId: a0c761c7307f
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 5
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_006
+    IsSpawnSafe: 0
+    ChunkSaveId: bde2d4b98ae7
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 6
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_007
+    IsSpawnSafe: 0
+    ChunkSaveId: 4b311403b5f9
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 0
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_008
+    IsSpawnSafe: 0
+    ChunkSaveId: 64a930c4c2a3
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 1
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_009
+    IsSpawnSafe: 0
+    ChunkSaveId: 901f891bf42e
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 2
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_010
+    IsSpawnSafe: 0
+    ChunkSaveId: f808dbc7658e
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 3
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_011
+    IsSpawnSafe: 0
+    ChunkSaveId: 83defdcb0d0f
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 4
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_012
+    IsSpawnSafe: 0
+    ChunkSaveId: 7527d8465c17
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 5
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_013
+    IsSpawnSafe: 0
+    ChunkSaveId: 622fb8ec10fb
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 6
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_014
+    IsSpawnSafe: 0
+    ChunkSaveId: 670cdb6a99a7
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 0
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_015
+    IsSpawnSafe: 0
+    ChunkSaveId: 541d73685ce4
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 1
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_016
+    IsSpawnSafe: 0
+    ChunkSaveId: d0af92556847
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 2
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_017
+    IsSpawnSafe: 0
+    ChunkSaveId: 16b5699d104a
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 3
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_018
+    IsSpawnSafe: 0
+    ChunkSaveId: bae9aaccd9e5
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 4
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_019
+    IsSpawnSafe: 0
+    ChunkSaveId: 6a34c31be0c0
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 5
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_020
+    IsSpawnSafe: 0
+    ChunkSaveId: f2953988bea0
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 6
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_021
+    IsSpawnSafe: 0
+    ChunkSaveId: e9a5579f280c
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 0
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_022
+    IsSpawnSafe: 0
+    ChunkSaveId: 2a5300bd65ea
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 1
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_023
+    IsSpawnSafe: 0
+    ChunkSaveId: 366c0cfba0b0
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 2
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_024
+    IsSpawnSafe: 0
+    ChunkSaveId: 7435ffaa4182
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 3
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_025
+    IsSpawnSafe: 0
+    ChunkSaveId: 6e92f2d6a36b
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 4
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_026
+    IsSpawnSafe: 0
+    ChunkSaveId: 09663abd3d99
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 5
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_027
+    IsSpawnSafe: 0
+    ChunkSaveId: 5c054baf03bb
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 6
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_028
+    IsSpawnSafe: 0
+    ChunkSaveId: e9948f7abfd7
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 0
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_029
+    IsSpawnSafe: 0
+    ChunkSaveId: 0a7232df33ce
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 1
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_030
+    IsSpawnSafe: 0
+    ChunkSaveId: cd08b61bd5fe
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 2
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_031
+    IsSpawnSafe: 0
+    ChunkSaveId: 169365fefa6a
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 3
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_032
+    IsSpawnSafe: 0
+    ChunkSaveId: e54505653747
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 4
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_033
+    IsSpawnSafe: 0
+    ChunkSaveId: f6544f007444
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 5
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_034
+    IsSpawnSafe: 0
+    ChunkSaveId: 2070fde05b48
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 6
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_035
+    IsSpawnSafe: 0
+    ChunkSaveId: a319a15d3de9
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 0
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_036
+    IsSpawnSafe: 0
+    ChunkSaveId: f3b2f723284b
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 1
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_037
+    IsSpawnSafe: 0
+    ChunkSaveId: 5e31c26c2f0c
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 2
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_038
+    IsSpawnSafe: 0
+    ChunkSaveId: 3c54b8f1c8d0
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 3
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_039
+    IsSpawnSafe: 0
+    ChunkSaveId: 437c7e038ff5
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 4
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_040
+    IsSpawnSafe: 0
+    ChunkSaveId: c35536429b87
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 5
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_041
+    IsSpawnSafe: 0
+    ChunkSaveId: 05ddfa6c598b
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 6
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_042
+    IsSpawnSafe: 0
+    ChunkSaveId: e1ed3ffe1e3e
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 0
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_043
+    IsSpawnSafe: 0
+    ChunkSaveId: 80cad2d20554
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 1
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_044
+    IsSpawnSafe: 0
+    ChunkSaveId: 764a93e5585f
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 2
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_045
+    IsSpawnSafe: 0
+    ChunkSaveId: a5c995768ecf
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 3
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_046
+    IsSpawnSafe: 0
+    ChunkSaveId: 2785b44928ca
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 4
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_047
+    IsSpawnSafe: 0
+    ChunkSaveId: cc38be5d123f
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 5
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_048
+    IsSpawnSafe: 0
+    ChunkSaveId: 46597ff891fc
+    WeatherOverrideKey: 
+  - RegionId: 3
+    GridX: 6
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Swamp_Chunk_049
+    IsSpawnSafe: 0
+    ChunkSaveId: b09aadd85c68
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 0
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_001
+    IsSpawnSafe: 0
+    ChunkSaveId: 7dcfee183d6e
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 1
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_002
+    IsSpawnSafe: 0
+    ChunkSaveId: 1b14bc109a77
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 2
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_003
+    IsSpawnSafe: 0
+    ChunkSaveId: 11544d748d9b
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 3
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_004
+    IsSpawnSafe: 0
+    ChunkSaveId: 37dbc8a26776
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 4
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_005
+    IsSpawnSafe: 0
+    ChunkSaveId: 0a4ba6098de0
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 5
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_006
+    IsSpawnSafe: 0
+    ChunkSaveId: 3d40348006b3
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 6
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_007
+    IsSpawnSafe: 0
+    ChunkSaveId: 7f2d3f912a63
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 0
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_008
+    IsSpawnSafe: 0
+    ChunkSaveId: d3af18e59931
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 1
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_009
+    IsSpawnSafe: 0
+    ChunkSaveId: 855d89b74325
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 2
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_010
+    IsSpawnSafe: 0
+    ChunkSaveId: f3adb1d283da
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 3
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_011
+    IsSpawnSafe: 0
+    ChunkSaveId: 0a22916d48a8
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 4
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_012
+    IsSpawnSafe: 0
+    ChunkSaveId: ec74214eba5c
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 5
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_013
+    IsSpawnSafe: 0
+    ChunkSaveId: 5d06c0384211
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 6
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_014
+    IsSpawnSafe: 0
+    ChunkSaveId: 9c2d49d1993a
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 0
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_015
+    IsSpawnSafe: 0
+    ChunkSaveId: c93626b4a8b0
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 1
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_016
+    IsSpawnSafe: 0
+    ChunkSaveId: bf72a327f005
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 2
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_017
+    IsSpawnSafe: 0
+    ChunkSaveId: 58a93b79fe14
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 3
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_018
+    IsSpawnSafe: 0
+    ChunkSaveId: fd01b4ca7329
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 4
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_019
+    IsSpawnSafe: 0
+    ChunkSaveId: dab04d866065
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 5
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_020
+    IsSpawnSafe: 0
+    ChunkSaveId: 349f9cc82fff
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 6
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_021
+    IsSpawnSafe: 0
+    ChunkSaveId: daa1ecea287a
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 0
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_022
+    IsSpawnSafe: 0
+    ChunkSaveId: 724b865b4b19
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 1
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_023
+    IsSpawnSafe: 0
+    ChunkSaveId: 026fa4699874
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 2
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_024
+    IsSpawnSafe: 0
+    ChunkSaveId: 8409267a6d8d
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 3
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_025
+    IsSpawnSafe: 0
+    ChunkSaveId: 00cd1ce89f5b
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 4
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_026
+    IsSpawnSafe: 0
+    ChunkSaveId: 278b2ac9a49f
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 5
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_027
+    IsSpawnSafe: 0
+    ChunkSaveId: 5b23ea36980c
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 6
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_028
+    IsSpawnSafe: 0
+    ChunkSaveId: d1be31799cc0
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 0
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_029
+    IsSpawnSafe: 0
+    ChunkSaveId: 4e595ac4a49c
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 1
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_030
+    IsSpawnSafe: 0
+    ChunkSaveId: c08f9ddd8973
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 2
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_031
+    IsSpawnSafe: 0
+    ChunkSaveId: 5531a67c65de
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 3
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_032
+    IsSpawnSafe: 0
+    ChunkSaveId: 6b36bbbffda1
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 4
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_033
+    IsSpawnSafe: 0
+    ChunkSaveId: efa62402fbdb
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 5
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_034
+    IsSpawnSafe: 0
+    ChunkSaveId: 39e60481b24e
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 6
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_035
+    IsSpawnSafe: 0
+    ChunkSaveId: 1c150003bb5a
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 0
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_036
+    IsSpawnSafe: 0
+    ChunkSaveId: 6ef8e096c7f5
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 1
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_037
+    IsSpawnSafe: 0
+    ChunkSaveId: ee956533ffaa
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 2
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_038
+    IsSpawnSafe: 0
+    ChunkSaveId: 91f18118ac3f
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 3
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_039
+    IsSpawnSafe: 0
+    ChunkSaveId: 23ecabe7530a
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 4
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_040
+    IsSpawnSafe: 0
+    ChunkSaveId: 5de6ea5023b0
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 5
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_041
+    IsSpawnSafe: 0
+    ChunkSaveId: 1c2a5c48184d
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 6
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_042
+    IsSpawnSafe: 0
+    ChunkSaveId: 2b60bcef9e12
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 0
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_043
+    IsSpawnSafe: 0
+    ChunkSaveId: 49a046c1df11
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 1
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_044
+    IsSpawnSafe: 0
+    ChunkSaveId: 7a4d61247c65
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 2
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_045
+    IsSpawnSafe: 0
+    ChunkSaveId: 61ad7bfe4cdb
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 3
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_046
+    IsSpawnSafe: 0
+    ChunkSaveId: 88203a5e366d
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 4
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_047
+    IsSpawnSafe: 0
+    ChunkSaveId: d73d781cb243
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 5
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_048
+    IsSpawnSafe: 0
+    ChunkSaveId: 1b901fa44603
+    WeatherOverrideKey: 
+  - RegionId: 4
+    GridX: 6
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Desert_Chunk_049
+    IsSpawnSafe: 0
+    ChunkSaveId: 93355fdafc6f
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 0
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_001
+    IsSpawnSafe: 0
+    ChunkSaveId: 7277e1e1dcd4
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 1
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_002
+    IsSpawnSafe: 0
+    ChunkSaveId: c66fd8e4dde7
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 2
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_003
+    IsSpawnSafe: 0
+    ChunkSaveId: 77fe4b68a01d
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 3
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_004
+    IsSpawnSafe: 0
+    ChunkSaveId: 93e3566b1afb
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 4
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_005
+    IsSpawnSafe: 0
+    ChunkSaveId: 690743885219
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 5
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_006
+    IsSpawnSafe: 0
+    ChunkSaveId: 4ff8857c8bfb
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 6
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_007
+    IsSpawnSafe: 0
+    ChunkSaveId: 7d05420a8893
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 0
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_008
+    IsSpawnSafe: 0
+    ChunkSaveId: c1fad83a5cef
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 1
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_009
+    IsSpawnSafe: 0
+    ChunkSaveId: 629a0c80cd72
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 2
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_010
+    IsSpawnSafe: 0
+    ChunkSaveId: c29d8cfe821e
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 3
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_011
+    IsSpawnSafe: 0
+    ChunkSaveId: 16815b60c1c1
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 4
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_012
+    IsSpawnSafe: 0
+    ChunkSaveId: cdaf5f8d6da9
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 5
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_013
+    IsSpawnSafe: 0
+    ChunkSaveId: a67e9c04f537
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 6
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_014
+    IsSpawnSafe: 0
+    ChunkSaveId: bbe387c8ff77
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 0
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_015
+    IsSpawnSafe: 0
+    ChunkSaveId: 9e5d2595bc6c
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 1
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_016
+    IsSpawnSafe: 0
+    ChunkSaveId: f66a40e394d4
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 2
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_017
+    IsSpawnSafe: 0
+    ChunkSaveId: 5327ac5ef3ac
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 3
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_018
+    IsSpawnSafe: 0
+    ChunkSaveId: 36d47c1cac3f
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 4
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_019
+    IsSpawnSafe: 0
+    ChunkSaveId: 4443f6e2fa61
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 5
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_020
+    IsSpawnSafe: 0
+    ChunkSaveId: bd0e0180f9c1
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 6
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_021
+    IsSpawnSafe: 0
+    ChunkSaveId: 70db74de3d42
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 0
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_022
+    IsSpawnSafe: 0
+    ChunkSaveId: 7faf1f15c328
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 1
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_023
+    IsSpawnSafe: 0
+    ChunkSaveId: 682318ddd0cd
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 2
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_024
+    IsSpawnSafe: 0
+    ChunkSaveId: bae200ca6da1
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 3
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_025
+    IsSpawnSafe: 0
+    ChunkSaveId: c4e3b4b223b8
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 4
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_026
+    IsSpawnSafe: 0
+    ChunkSaveId: a87fb427681f
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 5
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_027
+    IsSpawnSafe: 0
+    ChunkSaveId: ffe0ea10580e
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 6
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_028
+    IsSpawnSafe: 0
+    ChunkSaveId: cef73805efd0
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 0
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_029
+    IsSpawnSafe: 0
+    ChunkSaveId: ee43a98bf4e8
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 1
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_030
+    IsSpawnSafe: 0
+    ChunkSaveId: 7d1fd84a7ef7
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 2
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_031
+    IsSpawnSafe: 0
+    ChunkSaveId: bdcd8a6fd685
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 3
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_032
+    IsSpawnSafe: 0
+    ChunkSaveId: 7054a5952681
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 4
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_033
+    IsSpawnSafe: 0
+    ChunkSaveId: 13d7eedbc39e
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 5
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_034
+    IsSpawnSafe: 0
+    ChunkSaveId: 870a910495f2
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 6
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_035
+    IsSpawnSafe: 0
+    ChunkSaveId: 1e85ed690f74
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 0
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_036
+    IsSpawnSafe: 0
+    ChunkSaveId: 608a4e47094c
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 1
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_037
+    IsSpawnSafe: 0
+    ChunkSaveId: 99e2297f5849
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 2
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_038
+    IsSpawnSafe: 0
+    ChunkSaveId: d0f2b8065a42
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 3
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_039
+    IsSpawnSafe: 0
+    ChunkSaveId: 5e92e5d78c86
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 4
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_040
+    IsSpawnSafe: 0
+    ChunkSaveId: 1903c66d24e7
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 5
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_041
+    IsSpawnSafe: 0
+    ChunkSaveId: 591462b7ef7f
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 6
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_042
+    IsSpawnSafe: 0
+    ChunkSaveId: 90f1d30efdc6
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 0
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_043
+    IsSpawnSafe: 0
+    ChunkSaveId: 3eb1ee4d4b95
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 1
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_044
+    IsSpawnSafe: 0
+    ChunkSaveId: 4911aaeebb11
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 2
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_045
+    IsSpawnSafe: 0
+    ChunkSaveId: 4dd59ef13949
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 3
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_046
+    IsSpawnSafe: 0
+    ChunkSaveId: 67e67ae4abbb
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 4
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_047
+    IsSpawnSafe: 0
+    ChunkSaveId: 76d1de23c2c2
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 5
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_048
+    IsSpawnSafe: 0
+    ChunkSaveId: 82d0dd2ad659
+    WeatherOverrideKey: 
+  - RegionId: 5
+    GridX: 6
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Mountain_Chunk_049
+    IsSpawnSafe: 0
+    ChunkSaveId: 50bc4be4674e
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 0
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_001
+    IsSpawnSafe: 0
+    ChunkSaveId: c6c59fde6369
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 1
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_002
+    IsSpawnSafe: 0
+    ChunkSaveId: e9c6caa6e081
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 2
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_003
+    IsSpawnSafe: 0
+    ChunkSaveId: 275b83553861
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 3
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_004
+    IsSpawnSafe: 0
+    ChunkSaveId: ec09e043a39c
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 4
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_005
+    IsSpawnSafe: 0
+    ChunkSaveId: 61d23fe05366
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 5
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_006
+    IsSpawnSafe: 0
+    ChunkSaveId: e13faeac3a4d
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 6
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_007
+    IsSpawnSafe: 0
+    ChunkSaveId: beaf11014161
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 0
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_008
+    IsSpawnSafe: 0
+    ChunkSaveId: 6bc3a46c1744
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 1
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_009
+    IsSpawnSafe: 0
+    ChunkSaveId: 20df8f53ab9b
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 2
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_010
+    IsSpawnSafe: 0
+    ChunkSaveId: f2872c8fa991
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 3
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_011
+    IsSpawnSafe: 0
+    ChunkSaveId: 51ccc01d9e00
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 4
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_012
+    IsSpawnSafe: 0
+    ChunkSaveId: 3a9602f119e1
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 5
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_013
+    IsSpawnSafe: 0
+    ChunkSaveId: fcec7f647a87
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 6
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_014
+    IsSpawnSafe: 0
+    ChunkSaveId: a818ccc0514f
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 0
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_015
+    IsSpawnSafe: 0
+    ChunkSaveId: 5231a1fb70da
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 1
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_016
+    IsSpawnSafe: 0
+    ChunkSaveId: b983dbd5d89f
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 2
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_017
+    IsSpawnSafe: 0
+    ChunkSaveId: d20a14736c58
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 3
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_018
+    IsSpawnSafe: 0
+    ChunkSaveId: be9fc45827fa
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 4
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_019
+    IsSpawnSafe: 0
+    ChunkSaveId: f422ccad176e
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 5
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_020
+    IsSpawnSafe: 0
+    ChunkSaveId: 5aec9a8cde43
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 6
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_021
+    IsSpawnSafe: 0
+    ChunkSaveId: 6ea5e423ea9c
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 0
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_022
+    IsSpawnSafe: 0
+    ChunkSaveId: 7970bc4b7706
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 1
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_023
+    IsSpawnSafe: 0
+    ChunkSaveId: f6fd1f8fdf71
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 2
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_024
+    IsSpawnSafe: 0
+    ChunkSaveId: c880c4d40427
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 3
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_025
+    IsSpawnSafe: 0
+    ChunkSaveId: 99341fa04a57
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 4
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_026
+    IsSpawnSafe: 0
+    ChunkSaveId: 0b968c5a7766
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 5
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_027
+    IsSpawnSafe: 0
+    ChunkSaveId: c06bf52d8b07
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 6
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_028
+    IsSpawnSafe: 0
+    ChunkSaveId: d1dc3d6a24ef
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 0
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_029
+    IsSpawnSafe: 0
+    ChunkSaveId: 73f8d08cd19d
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 1
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_030
+    IsSpawnSafe: 0
+    ChunkSaveId: ceb7ee97a9bb
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 2
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_031
+    IsSpawnSafe: 0
+    ChunkSaveId: e67b23f1dfc9
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 3
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_032
+    IsSpawnSafe: 0
+    ChunkSaveId: 09c02a0699e6
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 4
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_033
+    IsSpawnSafe: 0
+    ChunkSaveId: 7e2f11819f46
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 5
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_034
+    IsSpawnSafe: 0
+    ChunkSaveId: 22328902ef26
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 6
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_035
+    IsSpawnSafe: 0
+    ChunkSaveId: b512d13f2056
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 0
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_036
+    IsSpawnSafe: 0
+    ChunkSaveId: e809e0b6e489
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 1
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_037
+    IsSpawnSafe: 0
+    ChunkSaveId: 24204d9b676e
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 2
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_038
+    IsSpawnSafe: 0
+    ChunkSaveId: 629ff62170a8
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 3
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_039
+    IsSpawnSafe: 0
+    ChunkSaveId: d55a99ff1757
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 4
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_040
+    IsSpawnSafe: 0
+    ChunkSaveId: 45a061147bd4
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 5
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_041
+    IsSpawnSafe: 0
+    ChunkSaveId: 958947b70abb
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 6
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_042
+    IsSpawnSafe: 0
+    ChunkSaveId: af478788abb5
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 0
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_043
+    IsSpawnSafe: 0
+    ChunkSaveId: bdc058383cd8
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 1
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_044
+    IsSpawnSafe: 0
+    ChunkSaveId: 2ead59fddd7b
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 2
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_045
+    IsSpawnSafe: 0
+    ChunkSaveId: 6e59124dc49f
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 3
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_046
+    IsSpawnSafe: 0
+    ChunkSaveId: d5113017d988
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 4
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_047
+    IsSpawnSafe: 0
+    ChunkSaveId: d278f09006b3
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 5
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_048
+    IsSpawnSafe: 0
+    ChunkSaveId: f22350f879bb
+    WeatherOverrideKey: 
+  - RegionId: 6
+    GridX: 6
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Cave_Chunk_049
+    IsSpawnSafe: 0
+    ChunkSaveId: 964c38531a8b
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 0
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_001
+    IsSpawnSafe: 0
+    ChunkSaveId: 106848742351
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 1
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_002
+    IsSpawnSafe: 0
+    ChunkSaveId: 29676203958d
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 2
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_003
+    IsSpawnSafe: 0
+    ChunkSaveId: 86fd81086142
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 3
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_004
+    IsSpawnSafe: 0
+    ChunkSaveId: ddbdaf8de052
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 4
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_005
+    IsSpawnSafe: 0
+    ChunkSaveId: 1da7abe07214
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 5
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_006
+    IsSpawnSafe: 0
+    ChunkSaveId: 9a79d84d1875
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 6
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_007
+    IsSpawnSafe: 0
+    ChunkSaveId: c6a9de7425ae
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 0
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_008
+    IsSpawnSafe: 0
+    ChunkSaveId: 96bd1402b1d1
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 1
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_009
+    IsSpawnSafe: 0
+    ChunkSaveId: 1fadea81ab3e
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 2
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_010
+    IsSpawnSafe: 0
+    ChunkSaveId: f200b57d14dc
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 3
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_011
+    IsSpawnSafe: 0
+    ChunkSaveId: 7772fbdd434b
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 4
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_012
+    IsSpawnSafe: 0
+    ChunkSaveId: dd5e2398440e
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 5
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_013
+    IsSpawnSafe: 0
+    ChunkSaveId: 126e69a26ee5
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 6
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_014
+    IsSpawnSafe: 0
+    ChunkSaveId: 2514c10f9db0
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 0
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_015
+    IsSpawnSafe: 0
+    ChunkSaveId: 365bb25b468f
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 1
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_016
+    IsSpawnSafe: 0
+    ChunkSaveId: 265221e2cd69
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 2
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_017
+    IsSpawnSafe: 0
+    ChunkSaveId: 62f0f6575e39
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 3
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_018
+    IsSpawnSafe: 0
+    ChunkSaveId: 8f78d0716c93
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 4
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_019
+    IsSpawnSafe: 0
+    ChunkSaveId: e4b1f83198ef
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 5
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_020
+    IsSpawnSafe: 0
+    ChunkSaveId: 9d36f855ceeb
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 6
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_021
+    IsSpawnSafe: 0
+    ChunkSaveId: c357b8aa801c
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 0
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_022
+    IsSpawnSafe: 0
+    ChunkSaveId: 664075d711df
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 1
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_023
+    IsSpawnSafe: 0
+    ChunkSaveId: 1c8cf1210b7d
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 2
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_024
+    IsSpawnSafe: 0
+    ChunkSaveId: d5d27c5bb87a
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 3
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_025
+    IsSpawnSafe: 0
+    ChunkSaveId: 3935c0844ef6
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 4
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_026
+    IsSpawnSafe: 0
+    ChunkSaveId: b20d73b207a7
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 5
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_027
+    IsSpawnSafe: 0
+    ChunkSaveId: 5d309ad72b7a
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 6
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_028
+    IsSpawnSafe: 0
+    ChunkSaveId: c06f8f5af9f5
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 0
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_029
+    IsSpawnSafe: 0
+    ChunkSaveId: 07a43c8ea26c
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 1
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_030
+    IsSpawnSafe: 0
+    ChunkSaveId: 6a34369321ae
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 2
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_031
+    IsSpawnSafe: 0
+    ChunkSaveId: d4d0facf9aea
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 3
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_032
+    IsSpawnSafe: 0
+    ChunkSaveId: 876b4ba7e6b9
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 4
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_033
+    IsSpawnSafe: 0
+    ChunkSaveId: 3f6c4f365de9
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 5
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_034
+    IsSpawnSafe: 0
+    ChunkSaveId: ee789969cafd
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 6
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_035
+    IsSpawnSafe: 0
+    ChunkSaveId: 237483e0e286
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 0
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_036
+    IsSpawnSafe: 0
+    ChunkSaveId: 26169f99a852
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 1
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_037
+    IsSpawnSafe: 0
+    ChunkSaveId: 087aa9879866
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 2
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_038
+    IsSpawnSafe: 0
+    ChunkSaveId: ff8580c2a8b3
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 3
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_039
+    IsSpawnSafe: 0
+    ChunkSaveId: d749e156eea3
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 4
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_040
+    IsSpawnSafe: 0
+    ChunkSaveId: bd6cdf7a2698
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 5
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_041
+    IsSpawnSafe: 0
+    ChunkSaveId: 20451af72384
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 6
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_042
+    IsSpawnSafe: 0
+    ChunkSaveId: 7def5e22e364
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 0
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_043
+    IsSpawnSafe: 0
+    ChunkSaveId: c8fa10b6eaad
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 1
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_044
+    IsSpawnSafe: 0
+    ChunkSaveId: 295a884481aa
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 2
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_045
+    IsSpawnSafe: 0
+    ChunkSaveId: 29709e3b8d0e
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 3
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_046
+    IsSpawnSafe: 0
+    ChunkSaveId: a61c3f8262dc
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 4
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_047
+    IsSpawnSafe: 0
+    ChunkSaveId: 4f38e1a519c3
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 5
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_048
+    IsSpawnSafe: 0
+    ChunkSaveId: 9a01888f46a3
+    WeatherOverrideKey: 
+  - RegionId: 7
+    GridX: 6
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Ocean_Chunk_049
+    IsSpawnSafe: 0
+    ChunkSaveId: 254d98b3ba7b
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 0
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_001
+    IsSpawnSafe: 0
+    ChunkSaveId: 9a4bc2cb2879
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 1
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_002
+    IsSpawnSafe: 0
+    ChunkSaveId: 5ad10476937b
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 2
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_003
+    IsSpawnSafe: 0
+    ChunkSaveId: 36598415b022
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 3
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_004
+    IsSpawnSafe: 0
+    ChunkSaveId: af7a7367ac1b
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 4
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_005
+    IsSpawnSafe: 0
+    ChunkSaveId: 4d7bedbf2126
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 5
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_006
+    IsSpawnSafe: 0
+    ChunkSaveId: 831328fe1716
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 6
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_007
+    IsSpawnSafe: 0
+    ChunkSaveId: b464586a6f50
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 0
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_008
+    IsSpawnSafe: 0
+    ChunkSaveId: 339c79af63d4
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 1
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_009
+    IsSpawnSafe: 0
+    ChunkSaveId: 1cd80d0895f4
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 2
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_010
+    IsSpawnSafe: 0
+    ChunkSaveId: bf4cf573391f
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 3
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_011
+    IsSpawnSafe: 0
+    ChunkSaveId: 440964f41579
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 4
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_012
+    IsSpawnSafe: 0
+    ChunkSaveId: ff878cda29b6
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 5
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_013
+    IsSpawnSafe: 0
+    ChunkSaveId: b3141f628150
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 6
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_014
+    IsSpawnSafe: 0
+    ChunkSaveId: 894eee6d04b4
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 0
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_015
+    IsSpawnSafe: 0
+    ChunkSaveId: 637b4c103cc0
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 1
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_016
+    IsSpawnSafe: 0
+    ChunkSaveId: e7afb6dcf716
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 2
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_017
+    IsSpawnSafe: 0
+    ChunkSaveId: 9242d85efff2
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 3
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_018
+    IsSpawnSafe: 0
+    ChunkSaveId: 6e8f4ca26625
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 4
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_019
+    IsSpawnSafe: 0
+    ChunkSaveId: 50f867158663
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 5
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_020
+    IsSpawnSafe: 0
+    ChunkSaveId: 68791927663d
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 6
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_021
+    IsSpawnSafe: 0
+    ChunkSaveId: 878658a93fb1
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 0
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_022
+    IsSpawnSafe: 0
+    ChunkSaveId: fd03c020b0d1
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 1
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_023
+    IsSpawnSafe: 0
+    ChunkSaveId: 16173242b6b4
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 2
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_024
+    IsSpawnSafe: 0
+    ChunkSaveId: b83f9b614641
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 3
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_025
+    IsSpawnSafe: 0
+    ChunkSaveId: 0d0ca624d100
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 4
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_026
+    IsSpawnSafe: 0
+    ChunkSaveId: 13a0ae8205bf
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 5
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_027
+    IsSpawnSafe: 0
+    ChunkSaveId: ae50843cae56
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 6
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_028
+    IsSpawnSafe: 0
+    ChunkSaveId: 8463d5e2a93c
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 0
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_029
+    IsSpawnSafe: 0
+    ChunkSaveId: 7671a44b9a87
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 1
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_030
+    IsSpawnSafe: 0
+    ChunkSaveId: dff1d80fdb52
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 2
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_031
+    IsSpawnSafe: 0
+    ChunkSaveId: 05ade17e8118
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 3
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_032
+    IsSpawnSafe: 0
+    ChunkSaveId: 59424e50097d
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 4
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_033
+    IsSpawnSafe: 0
+    ChunkSaveId: 81763ea68ce3
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 5
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_034
+    IsSpawnSafe: 0
+    ChunkSaveId: 968f817b4626
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 6
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_035
+    IsSpawnSafe: 0
+    ChunkSaveId: f9f37a189ddc
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 0
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_036
+    IsSpawnSafe: 0
+    ChunkSaveId: 69ee84c22fd6
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 1
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_037
+    IsSpawnSafe: 0
+    ChunkSaveId: 7f99ccfa9333
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 2
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_038
+    IsSpawnSafe: 0
+    ChunkSaveId: 9e37a2466d1b
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 3
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_039
+    IsSpawnSafe: 0
+    ChunkSaveId: 45e432696c7b
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 4
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_040
+    IsSpawnSafe: 0
+    ChunkSaveId: fe90d26f72c4
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 5
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_041
+    IsSpawnSafe: 0
+    ChunkSaveId: 726c042bf755
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 6
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_042
+    IsSpawnSafe: 0
+    ChunkSaveId: 1f3c38e496ff
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 0
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_043
+    IsSpawnSafe: 0
+    ChunkSaveId: 2430b245869a
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 1
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_044
+    IsSpawnSafe: 0
+    ChunkSaveId: 9a4925b9e557
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 2
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_045
+    IsSpawnSafe: 0
+    ChunkSaveId: 3870500c5b94
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 3
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_046
+    IsSpawnSafe: 0
+    ChunkSaveId: a543d043b25e
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 4
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_047
+    IsSpawnSafe: 0
+    ChunkSaveId: 9afab3453eb7
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 5
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_048
+    IsSpawnSafe: 0
+    ChunkSaveId: 28e8550b86e8
+    WeatherOverrideKey: 
+  - RegionId: 8
+    GridX: 6
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Underwater_Chunk_049
+    IsSpawnSafe: 0
+    ChunkSaveId: 11e40e55174e
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 0
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_001
+    IsSpawnSafe: 0
+    ChunkSaveId: d9c8f71e3b4e
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 1
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_002
+    IsSpawnSafe: 0
+    ChunkSaveId: b483f90cbafb
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 2
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_003
+    IsSpawnSafe: 0
+    ChunkSaveId: ace97e8e2943
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 3
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_004
+    IsSpawnSafe: 0
+    ChunkSaveId: 71b83fc2c915
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 4
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_005
+    IsSpawnSafe: 0
+    ChunkSaveId: c0454995f7dd
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 5
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_006
+    IsSpawnSafe: 0
+    ChunkSaveId: f134938874d5
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 6
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_007
+    IsSpawnSafe: 0
+    ChunkSaveId: 5e358fee9549
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 0
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_008
+    IsSpawnSafe: 0
+    ChunkSaveId: b38e14a60cff
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 1
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_009
+    IsSpawnSafe: 0
+    ChunkSaveId: d1858998fc1c
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 2
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_010
+    IsSpawnSafe: 0
+    ChunkSaveId: 4e73d1e1a0dc
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 3
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_011
+    IsSpawnSafe: 0
+    ChunkSaveId: dbe970f6496e
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 4
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_012
+    IsSpawnSafe: 0
+    ChunkSaveId: add6dcc2bfb0
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 5
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_013
+    IsSpawnSafe: 0
+    ChunkSaveId: bca589d6a277
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 6
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_014
+    IsSpawnSafe: 0
+    ChunkSaveId: a189e6310402
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 0
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_015
+    IsSpawnSafe: 0
+    ChunkSaveId: 76b5f5c94f40
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 1
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_016
+    IsSpawnSafe: 0
+    ChunkSaveId: dfaedf623c56
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 2
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_017
+    IsSpawnSafe: 0
+    ChunkSaveId: cdc0d82d91ca
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 3
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_018
+    IsSpawnSafe: 0
+    ChunkSaveId: 8ecb3997632b
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 4
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_019
+    IsSpawnSafe: 0
+    ChunkSaveId: d4e3c1baacec
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 5
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_020
+    IsSpawnSafe: 0
+    ChunkSaveId: b71a0ef3a326
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 6
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_021
+    IsSpawnSafe: 0
+    ChunkSaveId: e4dcfa5efafd
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 0
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_022
+    IsSpawnSafe: 0
+    ChunkSaveId: 56a549f794f9
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 1
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_023
+    IsSpawnSafe: 0
+    ChunkSaveId: 08756d6e9641
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 2
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_024
+    IsSpawnSafe: 0
+    ChunkSaveId: ed5e25a2e890
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 3
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_025
+    IsSpawnSafe: 0
+    ChunkSaveId: cd06496307a6
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 4
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_026
+    IsSpawnSafe: 0
+    ChunkSaveId: ebba2a4112cc
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 5
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_027
+    IsSpawnSafe: 0
+    ChunkSaveId: 3d593494e081
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 6
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_028
+    IsSpawnSafe: 0
+    ChunkSaveId: 002bdb7fc517
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 0
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_029
+    IsSpawnSafe: 0
+    ChunkSaveId: 9f771719b525
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 1
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_030
+    IsSpawnSafe: 0
+    ChunkSaveId: 9a109687ff5e
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 2
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_031
+    IsSpawnSafe: 0
+    ChunkSaveId: 9d17a74172b7
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 3
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_032
+    IsSpawnSafe: 0
+    ChunkSaveId: 567dbb0affa6
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 4
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_033
+    IsSpawnSafe: 0
+    ChunkSaveId: 4b79f2dbdb18
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 5
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_034
+    IsSpawnSafe: 0
+    ChunkSaveId: 682d65ed9379
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 6
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_035
+    IsSpawnSafe: 0
+    ChunkSaveId: 454cea87c0c8
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 0
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_036
+    IsSpawnSafe: 0
+    ChunkSaveId: 4acdfc6e2462
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 1
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_037
+    IsSpawnSafe: 0
+    ChunkSaveId: 48a45a411d90
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 2
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_038
+    IsSpawnSafe: 0
+    ChunkSaveId: 7dc43eed5a5d
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 3
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_039
+    IsSpawnSafe: 0
+    ChunkSaveId: 8af60851029d
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 4
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_040
+    IsSpawnSafe: 0
+    ChunkSaveId: f0ea38467339
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 5
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_041
+    IsSpawnSafe: 0
+    ChunkSaveId: 6918916cc26e
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 6
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_042
+    IsSpawnSafe: 0
+    ChunkSaveId: 26ad9ec5c8f9
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 0
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_043
+    IsSpawnSafe: 0
+    ChunkSaveId: 6e8d4619fff1
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 1
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_044
+    IsSpawnSafe: 0
+    ChunkSaveId: 44209cb39e91
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 2
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_045
+    IsSpawnSafe: 0
+    ChunkSaveId: 82a37b7f6663
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 3
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_046
+    IsSpawnSafe: 0
+    ChunkSaveId: 7cb64d81be2c
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 4
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_047
+    IsSpawnSafe: 0
+    ChunkSaveId: da0d5dc6da1e
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 5
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_048
+    IsSpawnSafe: 0
+    ChunkSaveId: 4c6843a92cf5
+    WeatherOverrideKey: 
+  - RegionId: 9
+    GridX: 6
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Ice_Chunk_049
+    IsSpawnSafe: 0
+    ChunkSaveId: f1df3a17bd7f
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 0
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_001
+    IsSpawnSafe: 0
+    ChunkSaveId: ce58d51fe6a6
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 1
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_002
+    IsSpawnSafe: 0
+    ChunkSaveId: 9920d82f29b5
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 2
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_003
+    IsSpawnSafe: 0
+    ChunkSaveId: 2bb2a92545c7
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 3
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_004
+    IsSpawnSafe: 0
+    ChunkSaveId: c169606068f5
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 4
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_005
+    IsSpawnSafe: 0
+    ChunkSaveId: cdc640a1668d
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 5
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_006
+    IsSpawnSafe: 0
+    ChunkSaveId: 6d10336f8f8c
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 6
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_007
+    IsSpawnSafe: 0
+    ChunkSaveId: f051661c782d
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 0
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_008
+    IsSpawnSafe: 0
+    ChunkSaveId: 04395476bac3
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 1
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_009
+    IsSpawnSafe: 0
+    ChunkSaveId: 214e3638f30d
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 2
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_010
+    IsSpawnSafe: 0
+    ChunkSaveId: 0f22817a5385
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 3
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_011
+    IsSpawnSafe: 0
+    ChunkSaveId: df116453a6ab
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 4
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_012
+    IsSpawnSafe: 0
+    ChunkSaveId: 57e2d989ba7f
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 5
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_013
+    IsSpawnSafe: 0
+    ChunkSaveId: 0dcd2dbc2a72
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 6
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_014
+    IsSpawnSafe: 0
+    ChunkSaveId: 46dfe879c88b
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 0
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_015
+    IsSpawnSafe: 0
+    ChunkSaveId: fce821e3d483
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 1
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_016
+    IsSpawnSafe: 0
+    ChunkSaveId: 1c29e2991ec8
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 2
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_017
+    IsSpawnSafe: 0
+    ChunkSaveId: 9108f5fb985b
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 3
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_018
+    IsSpawnSafe: 0
+    ChunkSaveId: fcad59672b62
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 4
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_019
+    IsSpawnSafe: 0
+    ChunkSaveId: fa368a40db61
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 5
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_020
+    IsSpawnSafe: 0
+    ChunkSaveId: b787ec16fa49
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 6
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_021
+    IsSpawnSafe: 0
+    ChunkSaveId: bd8eea05dcd4
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 0
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_022
+    IsSpawnSafe: 0
+    ChunkSaveId: b170d09e81cb
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 1
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_023
+    IsSpawnSafe: 0
+    ChunkSaveId: 19d3de26988e
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 2
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_024
+    IsSpawnSafe: 0
+    ChunkSaveId: b1b12081d9dc
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 3
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_025
+    IsSpawnSafe: 0
+    ChunkSaveId: eb0c038af81f
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 4
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_026
+    IsSpawnSafe: 0
+    ChunkSaveId: 8b2773e5bc9e
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 5
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_027
+    IsSpawnSafe: 0
+    ChunkSaveId: acd92e5f9316
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 6
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_028
+    IsSpawnSafe: 0
+    ChunkSaveId: 115110019796
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 0
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_029
+    IsSpawnSafe: 0
+    ChunkSaveId: 63ab7771d133
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 1
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_030
+    IsSpawnSafe: 0
+    ChunkSaveId: fa0133834d0c
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 2
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_031
+    IsSpawnSafe: 0
+    ChunkSaveId: f111f6b8cdfe
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 3
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_032
+    IsSpawnSafe: 0
+    ChunkSaveId: b87eab4b379b
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 4
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_033
+    IsSpawnSafe: 0
+    ChunkSaveId: f15e4fb5e614
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 5
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_034
+    IsSpawnSafe: 0
+    ChunkSaveId: 69530b20defa
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 6
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_035
+    IsSpawnSafe: 0
+    ChunkSaveId: 8236faac3007
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 0
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_036
+    IsSpawnSafe: 0
+    ChunkSaveId: d2d158f3b6b3
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 1
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_037
+    IsSpawnSafe: 0
+    ChunkSaveId: 6f769a2f60e4
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 2
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_038
+    IsSpawnSafe: 0
+    ChunkSaveId: 9c71eb4c9129
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 3
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_039
+    IsSpawnSafe: 0
+    ChunkSaveId: 735b065f9117
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 4
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_040
+    IsSpawnSafe: 0
+    ChunkSaveId: 753f81f3cad3
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 5
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_041
+    IsSpawnSafe: 0
+    ChunkSaveId: 534e5560332f
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 6
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_042
+    IsSpawnSafe: 0
+    ChunkSaveId: 3286ebce7f41
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 0
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_043
+    IsSpawnSafe: 0
+    ChunkSaveId: 5e435c5b1914
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 1
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_044
+    IsSpawnSafe: 0
+    ChunkSaveId: 1ec641e8d1f4
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 2
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_045
+    IsSpawnSafe: 0
+    ChunkSaveId: 685f402a44cf
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 3
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_046
+    IsSpawnSafe: 0
+    ChunkSaveId: 951a39441cc4
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 4
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_047
+    IsSpawnSafe: 0
+    ChunkSaveId: cb839798fd6f
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 5
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_048
+    IsSpawnSafe: 0
+    ChunkSaveId: f087b91f696a
+    WeatherOverrideKey: 
+  - RegionId: 10
+    GridX: 6
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Toxic_Chunk_049
+    IsSpawnSafe: 0
+    ChunkSaveId: 1f5d9c966e92
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 0
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_001
+    IsSpawnSafe: 0
+    ChunkSaveId: a692c3008c24
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 1
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_002
+    IsSpawnSafe: 0
+    ChunkSaveId: ec69b0acb059
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 2
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_003
+    IsSpawnSafe: 0
+    ChunkSaveId: 27d85a7921be
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 3
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_004
+    IsSpawnSafe: 0
+    ChunkSaveId: 8f0f9a790022
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 4
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_005
+    IsSpawnSafe: 0
+    ChunkSaveId: 2c2bab3c9793
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 5
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_006
+    IsSpawnSafe: 0
+    ChunkSaveId: 208a0f7c9098
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 6
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_007
+    IsSpawnSafe: 0
+    ChunkSaveId: 261f240d288b
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 0
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_008
+    IsSpawnSafe: 0
+    ChunkSaveId: 9c2b3e30bb58
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 1
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_009
+    IsSpawnSafe: 0
+    ChunkSaveId: 968329eb101d
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 2
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_010
+    IsSpawnSafe: 0
+    ChunkSaveId: b9249cb314e1
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 3
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_011
+    IsSpawnSafe: 0
+    ChunkSaveId: 68bf3032b8c1
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 4
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_012
+    IsSpawnSafe: 0
+    ChunkSaveId: 4e3cc6a588a1
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 5
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_013
+    IsSpawnSafe: 0
+    ChunkSaveId: 79c1ff8ca394
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 6
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_014
+    IsSpawnSafe: 0
+    ChunkSaveId: bd11f4cc4971
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 0
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_015
+    IsSpawnSafe: 0
+    ChunkSaveId: b118887d5aed
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 1
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_016
+    IsSpawnSafe: 0
+    ChunkSaveId: ec25fb82d198
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 2
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_017
+    IsSpawnSafe: 0
+    ChunkSaveId: 07a15dc1a09e
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 3
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_018
+    IsSpawnSafe: 0
+    ChunkSaveId: d4b8929f8494
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 4
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_019
+    IsSpawnSafe: 0
+    ChunkSaveId: 9dd4a5259c6e
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 5
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_020
+    IsSpawnSafe: 0
+    ChunkSaveId: dd68c65e8a72
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 6
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_021
+    IsSpawnSafe: 0
+    ChunkSaveId: d0033948f020
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 0
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_022
+    IsSpawnSafe: 0
+    ChunkSaveId: 2b0c10424c82
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 1
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_023
+    IsSpawnSafe: 0
+    ChunkSaveId: b3dbf200b080
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 2
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_024
+    IsSpawnSafe: 0
+    ChunkSaveId: 10cce03f493f
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 3
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_025
+    IsSpawnSafe: 0
+    ChunkSaveId: b902667a2979
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 4
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_026
+    IsSpawnSafe: 0
+    ChunkSaveId: 413a19ab3923
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 5
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_027
+    IsSpawnSafe: 0
+    ChunkSaveId: 176d0dc63a22
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 6
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_028
+    IsSpawnSafe: 0
+    ChunkSaveId: aa28b20ac630
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 0
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_029
+    IsSpawnSafe: 0
+    ChunkSaveId: e03e5f0643e0
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 1
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_030
+    IsSpawnSafe: 0
+    ChunkSaveId: 68af681bf7ca
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 2
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_031
+    IsSpawnSafe: 0
+    ChunkSaveId: 8170a691d440
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 3
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_032
+    IsSpawnSafe: 0
+    ChunkSaveId: 4daaf15f0345
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 4
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_033
+    IsSpawnSafe: 0
+    ChunkSaveId: 37982dc503b5
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 5
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_034
+    IsSpawnSafe: 0
+    ChunkSaveId: 51053918d2b4
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 6
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_035
+    IsSpawnSafe: 0
+    ChunkSaveId: 3243251bd1cf
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 0
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_036
+    IsSpawnSafe: 0
+    ChunkSaveId: 9363a7511442
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 1
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_037
+    IsSpawnSafe: 0
+    ChunkSaveId: bebde507ae73
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 2
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_038
+    IsSpawnSafe: 0
+    ChunkSaveId: 3f9d0e49036d
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 3
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_039
+    IsSpawnSafe: 0
+    ChunkSaveId: 050d22344e5e
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 4
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_040
+    IsSpawnSafe: 0
+    ChunkSaveId: 8a713ebbf8fd
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 5
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_041
+    IsSpawnSafe: 0
+    ChunkSaveId: bbcd2a4bfd4a
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 6
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_042
+    IsSpawnSafe: 0
+    ChunkSaveId: 1e430d4f4959
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 0
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_043
+    IsSpawnSafe: 0
+    ChunkSaveId: 6771cbf137e5
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 1
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_044
+    IsSpawnSafe: 0
+    ChunkSaveId: 4fa0388cec1a
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 2
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_045
+    IsSpawnSafe: 0
+    ChunkSaveId: 981107048f78
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 3
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_046
+    IsSpawnSafe: 0
+    ChunkSaveId: 3d8cf3b605de
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 4
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_047
+    IsSpawnSafe: 0
+    ChunkSaveId: 9e5475f2a6d2
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 5
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_048
+    IsSpawnSafe: 0
+    ChunkSaveId: cefc283a8557
+    WeatherOverrideKey: 
+  - RegionId: 11
+    GridX: 6
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Mechanical_Chunk_049
+    IsSpawnSafe: 0
+    ChunkSaveId: 35fab745cc82
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 0
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_001
+    IsSpawnSafe: 0
+    ChunkSaveId: 7c8cf8c67bd6
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 1
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_002
+    IsSpawnSafe: 0
+    ChunkSaveId: cf7415181d6d
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 2
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_003
+    IsSpawnSafe: 0
+    ChunkSaveId: b17e196110bf
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 3
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_004
+    IsSpawnSafe: 0
+    ChunkSaveId: 82ea4a9b6098
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 4
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_005
+    IsSpawnSafe: 0
+    ChunkSaveId: 704c30f059ec
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 5
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_006
+    IsSpawnSafe: 0
+    ChunkSaveId: 9b9cfd5df00c
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 6
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_007
+    IsSpawnSafe: 0
+    ChunkSaveId: ab4375b781c8
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 0
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_008
+    IsSpawnSafe: 0
+    ChunkSaveId: 4a59555f205b
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 1
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_009
+    IsSpawnSafe: 0
+    ChunkSaveId: 0a81c5606b32
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 2
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_010
+    IsSpawnSafe: 0
+    ChunkSaveId: 94885b4c4146
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 3
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_011
+    IsSpawnSafe: 0
+    ChunkSaveId: d2f32ca0117c
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 4
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_012
+    IsSpawnSafe: 0
+    ChunkSaveId: 5f2f6c967742
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 5
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_013
+    IsSpawnSafe: 0
+    ChunkSaveId: e828e60e3396
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 6
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_014
+    IsSpawnSafe: 0
+    ChunkSaveId: e9d6fe80d7e3
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 0
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_015
+    IsSpawnSafe: 0
+    ChunkSaveId: f3e958906aa7
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 1
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_016
+    IsSpawnSafe: 0
+    ChunkSaveId: b10c1e9b5d49
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 2
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_017
+    IsSpawnSafe: 0
+    ChunkSaveId: 69549a7dead5
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 3
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_018
+    IsSpawnSafe: 0
+    ChunkSaveId: ad751b60a8f9
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 4
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_019
+    IsSpawnSafe: 0
+    ChunkSaveId: 49fb07c90711
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 5
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_020
+    IsSpawnSafe: 0
+    ChunkSaveId: b242acca616f
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 6
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_021
+    IsSpawnSafe: 0
+    ChunkSaveId: f1cc7bf5d4fa
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 0
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_022
+    IsSpawnSafe: 0
+    ChunkSaveId: f9e4dfd59968
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 1
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_023
+    IsSpawnSafe: 0
+    ChunkSaveId: 2044933279c6
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 2
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_024
+    IsSpawnSafe: 0
+    ChunkSaveId: 8515b881e2be
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 3
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_025
+    IsSpawnSafe: 0
+    ChunkSaveId: d514cf343392
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 4
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_026
+    IsSpawnSafe: 0
+    ChunkSaveId: 34315de73726
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 5
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_027
+    IsSpawnSafe: 0
+    ChunkSaveId: 0e6c3b43abeb
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 6
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_028
+    IsSpawnSafe: 0
+    ChunkSaveId: 7da1a016b213
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 0
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_029
+    IsSpawnSafe: 0
+    ChunkSaveId: d82189f69f50
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 1
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_030
+    IsSpawnSafe: 0
+    ChunkSaveId: 48839d8c8b09
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 2
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_031
+    IsSpawnSafe: 0
+    ChunkSaveId: 59513ec3f0d3
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 3
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_032
+    IsSpawnSafe: 0
+    ChunkSaveId: a9dc843e4ade
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 4
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_033
+    IsSpawnSafe: 0
+    ChunkSaveId: fc1f5c8663fb
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 5
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_034
+    IsSpawnSafe: 0
+    ChunkSaveId: b2b1929d532b
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 6
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_035
+    IsSpawnSafe: 0
+    ChunkSaveId: 337890b269b6
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 0
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_036
+    IsSpawnSafe: 0
+    ChunkSaveId: b9634735c81e
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 1
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_037
+    IsSpawnSafe: 0
+    ChunkSaveId: cc800562d9af
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 2
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_038
+    IsSpawnSafe: 0
+    ChunkSaveId: 78aa84736b3a
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 3
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_039
+    IsSpawnSafe: 0
+    ChunkSaveId: 1d05ea451b40
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 4
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_040
+    IsSpawnSafe: 0
+    ChunkSaveId: 2c111f515772
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 5
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_041
+    IsSpawnSafe: 0
+    ChunkSaveId: 531d4be493d0
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 6
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_042
+    IsSpawnSafe: 0
+    ChunkSaveId: 3482553f6d54
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 0
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_043
+    IsSpawnSafe: 0
+    ChunkSaveId: e345d323bfdf
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 1
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_044
+    IsSpawnSafe: 0
+    ChunkSaveId: e73c6b2ab62e
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 2
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_045
+    IsSpawnSafe: 0
+    ChunkSaveId: d5a31b3b6093
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 3
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_046
+    IsSpawnSafe: 0
+    ChunkSaveId: 7877ee1b1b70
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 4
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_047
+    IsSpawnSafe: 0
+    ChunkSaveId: edf39cc90295
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 5
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_048
+    IsSpawnSafe: 0
+    ChunkSaveId: 0bdb2482375d
+    WeatherOverrideKey: 
+  - RegionId: 12
+    GridX: 6
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Zombie_Chunk_049
+    IsSpawnSafe: 0
+    ChunkSaveId: fec6221a8037
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 0
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_001
+    IsSpawnSafe: 0
+    ChunkSaveId: 9eb59acb1a0b
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 1
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_002
+    IsSpawnSafe: 0
+    ChunkSaveId: e802489852a5
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 2
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_003
+    IsSpawnSafe: 0
+    ChunkSaveId: e86d413feb62
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 3
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_004
+    IsSpawnSafe: 0
+    ChunkSaveId: 092d326879f9
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 4
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_005
+    IsSpawnSafe: 0
+    ChunkSaveId: f7943ecb9049
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 5
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_006
+    IsSpawnSafe: 0
+    ChunkSaveId: fb3d84887b64
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 6
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_007
+    IsSpawnSafe: 0
+    ChunkSaveId: d3d45ca5e05e
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 0
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_008
+    IsSpawnSafe: 0
+    ChunkSaveId: ee0ada050b76
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 1
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_009
+    IsSpawnSafe: 0
+    ChunkSaveId: 16f95cf0a9fe
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 2
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_010
+    IsSpawnSafe: 0
+    ChunkSaveId: 9287e6d5ec6a
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 3
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_011
+    IsSpawnSafe: 0
+    ChunkSaveId: d108908c9aa9
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 4
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_012
+    IsSpawnSafe: 0
+    ChunkSaveId: d3b172d6fd4b
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 5
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_013
+    IsSpawnSafe: 0
+    ChunkSaveId: abe8157ab6f4
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 6
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_014
+    IsSpawnSafe: 0
+    ChunkSaveId: 5a27b3c356ba
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 0
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_015
+    IsSpawnSafe: 0
+    ChunkSaveId: 06be4dec2396
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 1
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_016
+    IsSpawnSafe: 0
+    ChunkSaveId: 3cd4ada21357
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 2
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_017
+    IsSpawnSafe: 0
+    ChunkSaveId: d3721ec5ed18
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 3
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_018
+    IsSpawnSafe: 0
+    ChunkSaveId: d0bb8ccd29b5
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 4
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_019
+    IsSpawnSafe: 0
+    ChunkSaveId: 1b0b4acb3193
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 5
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_020
+    IsSpawnSafe: 0
+    ChunkSaveId: 7df971cea634
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 6
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_021
+    IsSpawnSafe: 0
+    ChunkSaveId: d9d5788ce3df
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 0
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_022
+    IsSpawnSafe: 0
+    ChunkSaveId: a90507ac3881
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 1
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_023
+    IsSpawnSafe: 0
+    ChunkSaveId: e7f77dc249c8
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 2
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_024
+    IsSpawnSafe: 0
+    ChunkSaveId: 380fc3467ef2
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 3
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_025
+    IsSpawnSafe: 0
+    ChunkSaveId: 1c2f8cc419bf
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 4
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_026
+    IsSpawnSafe: 0
+    ChunkSaveId: 7280060aba77
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 5
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_027
+    IsSpawnSafe: 0
+    ChunkSaveId: 4fdd30f1e4ea
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 6
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_028
+    IsSpawnSafe: 0
+    ChunkSaveId: dde7fd463f1c
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 0
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_029
+    IsSpawnSafe: 0
+    ChunkSaveId: 02de6e35afe7
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 1
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_030
+    IsSpawnSafe: 0
+    ChunkSaveId: 153f7fdf6859
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 2
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_031
+    IsSpawnSafe: 0
+    ChunkSaveId: 7adaf67402e4
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 3
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_032
+    IsSpawnSafe: 0
+    ChunkSaveId: 895f98caeb8a
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 4
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_033
+    IsSpawnSafe: 0
+    ChunkSaveId: e476f34b8e4c
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 5
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_034
+    IsSpawnSafe: 0
+    ChunkSaveId: 5d74e4a41af7
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 6
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_035
+    IsSpawnSafe: 0
+    ChunkSaveId: f73c891a98dd
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 0
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_036
+    IsSpawnSafe: 0
+    ChunkSaveId: 6a2d5434c180
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 1
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_037
+    IsSpawnSafe: 0
+    ChunkSaveId: 4f09d36c8260
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 2
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_038
+    IsSpawnSafe: 0
+    ChunkSaveId: 5de6ef360c68
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 3
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_039
+    IsSpawnSafe: 0
+    ChunkSaveId: 317434994f1f
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 4
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_040
+    IsSpawnSafe: 0
+    ChunkSaveId: d0ca9ebad462
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 5
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_041
+    IsSpawnSafe: 0
+    ChunkSaveId: f2dc8f40257f
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 6
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_042
+    IsSpawnSafe: 0
+    ChunkSaveId: 26aab236ceba
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 0
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_043
+    IsSpawnSafe: 0
+    ChunkSaveId: 5bc49554f441
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 1
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_044
+    IsSpawnSafe: 0
+    ChunkSaveId: cce83d8d36fb
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 2
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_045
+    IsSpawnSafe: 0
+    ChunkSaveId: 55e55ae63131
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 3
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_046
+    IsSpawnSafe: 0
+    ChunkSaveId: 0962fd143b11
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 4
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_047
+    IsSpawnSafe: 0
+    ChunkSaveId: 886a0afcdb35
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 5
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_048
+    IsSpawnSafe: 0
+    ChunkSaveId: bce6eef8e9db
+    WeatherOverrideKey: 
+  - RegionId: 13
+    GridX: 6
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Heavenly_Chunk_049
+    IsSpawnSafe: 0
+    ChunkSaveId: 29ea36c94507
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 0
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_001
+    IsSpawnSafe: 0
+    ChunkSaveId: afe111e2d4c4
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 1
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_002
+    IsSpawnSafe: 0
+    ChunkSaveId: 13980d9ffb8b
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 2
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_003
+    IsSpawnSafe: 0
+    ChunkSaveId: ab8a7ecbea08
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 3
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_004
+    IsSpawnSafe: 0
+    ChunkSaveId: 45533b8fbce4
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 4
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_005
+    IsSpawnSafe: 0
+    ChunkSaveId: 74db358dc25a
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 5
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_006
+    IsSpawnSafe: 0
+    ChunkSaveId: bbaac536dd37
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 6
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_007
+    IsSpawnSafe: 0
+    ChunkSaveId: 5d008864236a
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 0
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_008
+    IsSpawnSafe: 0
+    ChunkSaveId: d5dc8122848f
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 1
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_009
+    IsSpawnSafe: 0
+    ChunkSaveId: 197eab51d61c
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 2
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_010
+    IsSpawnSafe: 0
+    ChunkSaveId: 6d35febe49a9
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 3
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_011
+    IsSpawnSafe: 0
+    ChunkSaveId: c3b8b5ca8d2c
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 4
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_012
+    IsSpawnSafe: 0
+    ChunkSaveId: 3b342c98d1c0
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 5
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_013
+    IsSpawnSafe: 0
+    ChunkSaveId: dc376531e349
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 6
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_014
+    IsSpawnSafe: 0
+    ChunkSaveId: 5dd133ca8cf6
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 0
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_015
+    IsSpawnSafe: 0
+    ChunkSaveId: 557830cc0863
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 1
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_016
+    IsSpawnSafe: 0
+    ChunkSaveId: 15b600745875
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 2
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_017
+    IsSpawnSafe: 0
+    ChunkSaveId: 14637a4e094c
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 3
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_018
+    IsSpawnSafe: 0
+    ChunkSaveId: 3b1d21c61e5c
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 4
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_019
+    IsSpawnSafe: 0
+    ChunkSaveId: 54adcfe74a2c
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 5
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_020
+    IsSpawnSafe: 0
+    ChunkSaveId: 3a5d054d9732
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 6
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_021
+    IsSpawnSafe: 0
+    ChunkSaveId: 384bf570e548
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 0
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_022
+    IsSpawnSafe: 0
+    ChunkSaveId: 1f581493c75a
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 1
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_023
+    IsSpawnSafe: 0
+    ChunkSaveId: c50af74ee5d7
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 2
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_024
+    IsSpawnSafe: 0
+    ChunkSaveId: faea9bf3c90e
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 3
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_025
+    IsSpawnSafe: 0
+    ChunkSaveId: 1d1f6014c88a
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 4
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_026
+    IsSpawnSafe: 0
+    ChunkSaveId: 53f6742d49db
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 5
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_027
+    IsSpawnSafe: 0
+    ChunkSaveId: 6d49d3858937
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 6
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_028
+    IsSpawnSafe: 0
+    ChunkSaveId: 24665a5703ab
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 0
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_029
+    IsSpawnSafe: 0
+    ChunkSaveId: 8cc85b3ddd97
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 1
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_030
+    IsSpawnSafe: 0
+    ChunkSaveId: 6b2baa2d4f54
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 2
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_031
+    IsSpawnSafe: 0
+    ChunkSaveId: 6224bd4396d1
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 3
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_032
+    IsSpawnSafe: 0
+    ChunkSaveId: 9ca60b3af349
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 4
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_033
+    IsSpawnSafe: 0
+    ChunkSaveId: 98f08f37cf4d
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 5
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_034
+    IsSpawnSafe: 0
+    ChunkSaveId: 99d7f2189080
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 6
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_035
+    IsSpawnSafe: 0
+    ChunkSaveId: a4508400de8b
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 0
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_036
+    IsSpawnSafe: 0
+    ChunkSaveId: 85248a53d362
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 1
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_037
+    IsSpawnSafe: 0
+    ChunkSaveId: 0e9d98779af0
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 2
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_038
+    IsSpawnSafe: 0
+    ChunkSaveId: b97cc91e1a39
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 3
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_039
+    IsSpawnSafe: 0
+    ChunkSaveId: df495d2a85fa
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 4
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_040
+    IsSpawnSafe: 0
+    ChunkSaveId: 195304236cd7
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 5
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_041
+    IsSpawnSafe: 0
+    ChunkSaveId: c45f75fbe277
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 6
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_042
+    IsSpawnSafe: 0
+    ChunkSaveId: 08464d7f587a
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 0
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_043
+    IsSpawnSafe: 0
+    ChunkSaveId: d2459e2da805
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 1
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_044
+    IsSpawnSafe: 0
+    ChunkSaveId: fefac59e120b
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 2
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_045
+    IsSpawnSafe: 0
+    ChunkSaveId: e0a97ebe5fe0
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 3
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_046
+    IsSpawnSafe: 0
+    ChunkSaveId: a284d55af644
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 4
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_047
+    IsSpawnSafe: 0
+    ChunkSaveId: 70888ed8ef94
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 5
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_048
+    IsSpawnSafe: 0
+    ChunkSaveId: fe709c637850
+    WeatherOverrideKey: 
+  - RegionId: 14
+    GridX: 6
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Hell_Chunk_049
+    IsSpawnSafe: 0
+    ChunkSaveId: 6db27e4f0635
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 0
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Space_Chunk_001
+    IsSpawnSafe: 0
+    ChunkSaveId: 8982bfb5ab75
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 1
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Space_Chunk_002
+    IsSpawnSafe: 0
+    ChunkSaveId: 17f45ba6dc68
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 2
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Space_Chunk_003
+    IsSpawnSafe: 0
+    ChunkSaveId: c434d87380ab
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 3
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Space_Chunk_004
+    IsSpawnSafe: 0
+    ChunkSaveId: fb5998b4e270
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 4
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Space_Chunk_005
+    IsSpawnSafe: 0
+    ChunkSaveId: badbb68b1500
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 5
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Space_Chunk_006
+    IsSpawnSafe: 0
+    ChunkSaveId: 9db24e495a14
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 6
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Space_Chunk_007
+    IsSpawnSafe: 0
+    ChunkSaveId: ae4322f561b3
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 0
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Space_Chunk_008
+    IsSpawnSafe: 0
+    ChunkSaveId: 11b2e939c3bb
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 1
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Space_Chunk_009
+    IsSpawnSafe: 0
+    ChunkSaveId: 875a5f726c3a
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 2
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Space_Chunk_010
+    IsSpawnSafe: 0
+    ChunkSaveId: c2e66565a9ee
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 3
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Space_Chunk_011
+    IsSpawnSafe: 0
+    ChunkSaveId: 20f75375be80
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 4
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Space_Chunk_012
+    IsSpawnSafe: 0
+    ChunkSaveId: c233a02d2829
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 5
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Space_Chunk_013
+    IsSpawnSafe: 0
+    ChunkSaveId: c96776adc3f3
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 6
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Space_Chunk_014
+    IsSpawnSafe: 0
+    ChunkSaveId: 0f8e5e4c552c
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 0
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Space_Chunk_015
+    IsSpawnSafe: 0
+    ChunkSaveId: 38dabcd84652
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 1
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Space_Chunk_016
+    IsSpawnSafe: 0
+    ChunkSaveId: 67cf023a9fb4
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 2
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Space_Chunk_017
+    IsSpawnSafe: 0
+    ChunkSaveId: 748662c34803
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 3
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Space_Chunk_018
+    IsSpawnSafe: 0
+    ChunkSaveId: fe80aefc58e9
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 4
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Space_Chunk_019
+    IsSpawnSafe: 0
+    ChunkSaveId: b70bf231d229
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 5
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Space_Chunk_020
+    IsSpawnSafe: 0
+    ChunkSaveId: 6aa4707a74bb
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 6
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Space_Chunk_021
+    IsSpawnSafe: 0
+    ChunkSaveId: 0988ac882b6d
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 0
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Space_Chunk_022
+    IsSpawnSafe: 0
+    ChunkSaveId: 78c1602fc740
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 1
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Space_Chunk_023
+    IsSpawnSafe: 0
+    ChunkSaveId: 8114af3c7c31
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 2
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Space_Chunk_024
+    IsSpawnSafe: 0
+    ChunkSaveId: 812252c848c6
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 3
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Space_Chunk_025
+    IsSpawnSafe: 0
+    ChunkSaveId: ea26b021f2a4
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 4
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Space_Chunk_026
+    IsSpawnSafe: 0
+    ChunkSaveId: 7d3caefe231e
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 5
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Space_Chunk_027
+    IsSpawnSafe: 0
+    ChunkSaveId: 0b627e5ce5c8
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 6
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Space_Chunk_028
+    IsSpawnSafe: 0
+    ChunkSaveId: c1c02c2fcfdf
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 0
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Space_Chunk_029
+    IsSpawnSafe: 0
+    ChunkSaveId: 102e2fe12a9b
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 1
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Space_Chunk_030
+    IsSpawnSafe: 0
+    ChunkSaveId: 4181a213b193
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 2
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Space_Chunk_031
+    IsSpawnSafe: 0
+    ChunkSaveId: b4caaf255fb1
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 3
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Space_Chunk_032
+    IsSpawnSafe: 0
+    ChunkSaveId: 14b2008f04f5
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 4
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Space_Chunk_033
+    IsSpawnSafe: 0
+    ChunkSaveId: 247457571a06
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 5
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Space_Chunk_034
+    IsSpawnSafe: 0
+    ChunkSaveId: c9bee0c8dd01
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 6
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Space_Chunk_035
+    IsSpawnSafe: 0
+    ChunkSaveId: 646ee7164e1e
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 0
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Space_Chunk_036
+    IsSpawnSafe: 0
+    ChunkSaveId: baa9fbabad38
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 1
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Space_Chunk_037
+    IsSpawnSafe: 0
+    ChunkSaveId: c5edf522b2b0
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 2
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Space_Chunk_038
+    IsSpawnSafe: 0
+    ChunkSaveId: 0ceb6326f1a2
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 3
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Space_Chunk_039
+    IsSpawnSafe: 0
+    ChunkSaveId: a5d529ca96bf
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 4
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Space_Chunk_040
+    IsSpawnSafe: 0
+    ChunkSaveId: 6b662eba234c
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 5
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Space_Chunk_041
+    IsSpawnSafe: 0
+    ChunkSaveId: 846e57956dd4
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 6
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Space_Chunk_042
+    IsSpawnSafe: 0
+    ChunkSaveId: 162ae2e159c3
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 0
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Space_Chunk_043
+    IsSpawnSafe: 0
+    ChunkSaveId: e015f20fc303
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 1
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Space_Chunk_044
+    IsSpawnSafe: 0
+    ChunkSaveId: 21405d436fbc
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 2
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Space_Chunk_045
+    IsSpawnSafe: 0
+    ChunkSaveId: 3249c0d22e03
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 3
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Space_Chunk_046
+    IsSpawnSafe: 0
+    ChunkSaveId: 274ff2b7275f
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 4
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Space_Chunk_047
+    IsSpawnSafe: 0
+    ChunkSaveId: f62cdd838a44
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 5
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Space_Chunk_048
+    IsSpawnSafe: 0
+    ChunkSaveId: b01ec909ea42
+    WeatherOverrideKey: 
+  - RegionId: 15
+    GridX: 6
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Space_Chunk_049
+    IsSpawnSafe: 0
+    ChunkSaveId: f3c4feecdead
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 0
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Time_Chunk_001
+    IsSpawnSafe: 0
+    ChunkSaveId: b54347a39fce
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 1
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Time_Chunk_002
+    IsSpawnSafe: 0
+    ChunkSaveId: a69bcce220f2
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 2
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Time_Chunk_003
+    IsSpawnSafe: 0
+    ChunkSaveId: 907d8c4f2866
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 3
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Time_Chunk_004
+    IsSpawnSafe: 0
+    ChunkSaveId: 02772d7c084b
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 4
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Time_Chunk_005
+    IsSpawnSafe: 0
+    ChunkSaveId: 69f52ac8e6db
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 5
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Time_Chunk_006
+    IsSpawnSafe: 0
+    ChunkSaveId: c8a3c4b8715f
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 6
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Time_Chunk_007
+    IsSpawnSafe: 0
+    ChunkSaveId: c68127216465
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 0
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Time_Chunk_008
+    IsSpawnSafe: 0
+    ChunkSaveId: 30c686927a1f
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 1
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Time_Chunk_009
+    IsSpawnSafe: 0
+    ChunkSaveId: de924aa90f63
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 2
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Time_Chunk_010
+    IsSpawnSafe: 0
+    ChunkSaveId: 868ded0b3b30
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 3
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Time_Chunk_011
+    IsSpawnSafe: 0
+    ChunkSaveId: 732a7a37807e
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 4
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Time_Chunk_012
+    IsSpawnSafe: 0
+    ChunkSaveId: bcffd554d463
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 5
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Time_Chunk_013
+    IsSpawnSafe: 0
+    ChunkSaveId: e87418d7a285
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 6
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Time_Chunk_014
+    IsSpawnSafe: 0
+    ChunkSaveId: 3e5b880d93ea
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 0
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Time_Chunk_015
+    IsSpawnSafe: 0
+    ChunkSaveId: 8bf804d04c98
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 1
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Time_Chunk_016
+    IsSpawnSafe: 0
+    ChunkSaveId: 6c41e87ef6f5
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 2
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Time_Chunk_017
+    IsSpawnSafe: 0
+    ChunkSaveId: 84bc948e8d3e
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 3
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Time_Chunk_018
+    IsSpawnSafe: 0
+    ChunkSaveId: c49a0bc27886
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 4
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Time_Chunk_019
+    IsSpawnSafe: 0
+    ChunkSaveId: 748471a88a45
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 5
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Time_Chunk_020
+    IsSpawnSafe: 0
+    ChunkSaveId: b88257b7d065
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 6
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Time_Chunk_021
+    IsSpawnSafe: 0
+    ChunkSaveId: 6ed20a4e3a9c
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 0
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Time_Chunk_022
+    IsSpawnSafe: 0
+    ChunkSaveId: fad59d230929
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 1
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Time_Chunk_023
+    IsSpawnSafe: 0
+    ChunkSaveId: c20726ead941
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 2
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Time_Chunk_024
+    IsSpawnSafe: 0
+    ChunkSaveId: 709d486692e2
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 3
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Time_Chunk_025
+    IsSpawnSafe: 0
+    ChunkSaveId: 444e47f59a0c
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 4
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Time_Chunk_026
+    IsSpawnSafe: 0
+    ChunkSaveId: 6cf548ffcf9d
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 5
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Time_Chunk_027
+    IsSpawnSafe: 0
+    ChunkSaveId: 82b6e36b69a7
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 6
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Time_Chunk_028
+    IsSpawnSafe: 0
+    ChunkSaveId: 980fc4e446e2
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 0
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Time_Chunk_029
+    IsSpawnSafe: 0
+    ChunkSaveId: d78ad25bf4eb
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 1
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Time_Chunk_030
+    IsSpawnSafe: 0
+    ChunkSaveId: f4d8c21a2407
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 2
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Time_Chunk_031
+    IsSpawnSafe: 0
+    ChunkSaveId: 6fad5463d8cc
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 3
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Time_Chunk_032
+    IsSpawnSafe: 0
+    ChunkSaveId: 8bcb8b48ff24
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 4
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Time_Chunk_033
+    IsSpawnSafe: 0
+    ChunkSaveId: be2eff0b8924
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 5
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Time_Chunk_034
+    IsSpawnSafe: 0
+    ChunkSaveId: 158e2963987c
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 6
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Time_Chunk_035
+    IsSpawnSafe: 0
+    ChunkSaveId: 1dd97ff933ef
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 0
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Time_Chunk_036
+    IsSpawnSafe: 0
+    ChunkSaveId: d97e3faee0ac
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 1
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Time_Chunk_037
+    IsSpawnSafe: 0
+    ChunkSaveId: 844b67862f79
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 2
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Time_Chunk_038
+    IsSpawnSafe: 0
+    ChunkSaveId: d6f4cdfd6098
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 3
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Time_Chunk_039
+    IsSpawnSafe: 0
+    ChunkSaveId: e34f09a47d09
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 4
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Time_Chunk_040
+    IsSpawnSafe: 0
+    ChunkSaveId: 1796923ec6e7
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 5
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Time_Chunk_041
+    IsSpawnSafe: 0
+    ChunkSaveId: 2cd4ea130ffd
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 6
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Time_Chunk_042
+    IsSpawnSafe: 0
+    ChunkSaveId: a1106afa2b8e
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 0
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Time_Chunk_043
+    IsSpawnSafe: 0
+    ChunkSaveId: ec1fa0219ac9
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 1
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Time_Chunk_044
+    IsSpawnSafe: 0
+    ChunkSaveId: c18bfaf31907
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 2
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Time_Chunk_045
+    IsSpawnSafe: 0
+    ChunkSaveId: fe9461e9e54f
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 3
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Time_Chunk_046
+    IsSpawnSafe: 0
+    ChunkSaveId: 2f4837f61d54
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 4
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Time_Chunk_047
+    IsSpawnSafe: 0
+    ChunkSaveId: 288c124fe015
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 5
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Time_Chunk_048
+    IsSpawnSafe: 0
+    ChunkSaveId: c597b59508b2
+    WeatherOverrideKey: 
+  - RegionId: 16
+    GridX: 6
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Time_Chunk_049
+    IsSpawnSafe: 0
+    ChunkSaveId: a3089c894b21
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 0
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_001
+    IsSpawnSafe: 0
+    ChunkSaveId: d601fad8016c
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 1
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_002
+    IsSpawnSafe: 0
+    ChunkSaveId: a8c5782ffae5
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 2
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_003
+    IsSpawnSafe: 0
+    ChunkSaveId: 4a881dabfe3d
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 3
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_004
+    IsSpawnSafe: 0
+    ChunkSaveId: 3560022b6b64
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 4
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_005
+    IsSpawnSafe: 0
+    ChunkSaveId: a043d7e9c2ef
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 5
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_006
+    IsSpawnSafe: 0
+    ChunkSaveId: fed4fc236733
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 6
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_007
+    IsSpawnSafe: 0
+    ChunkSaveId: 05ff2cb79976
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 0
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_008
+    IsSpawnSafe: 0
+    ChunkSaveId: 5aadaebbca2f
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 1
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_009
+    IsSpawnSafe: 0
+    ChunkSaveId: e31f6e75b7cf
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 2
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_010
+    IsSpawnSafe: 0
+    ChunkSaveId: 5d20df0fde03
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 3
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_011
+    IsSpawnSafe: 0
+    ChunkSaveId: 009bd9433781
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 4
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_012
+    IsSpawnSafe: 0
+    ChunkSaveId: e0f728c5c3db
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 5
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_013
+    IsSpawnSafe: 0
+    ChunkSaveId: 1a828f6eec85
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 6
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_014
+    IsSpawnSafe: 0
+    ChunkSaveId: 73560aa4757c
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 0
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_015
+    IsSpawnSafe: 0
+    ChunkSaveId: f71a6d4677de
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 1
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_016
+    IsSpawnSafe: 0
+    ChunkSaveId: d7dfb76177e3
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 2
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_017
+    IsSpawnSafe: 0
+    ChunkSaveId: 2b192df4269d
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 3
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_018
+    IsSpawnSafe: 0
+    ChunkSaveId: dd2456ee3d49
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 4
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_019
+    IsSpawnSafe: 0
+    ChunkSaveId: e393d981b4b4
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 5
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_020
+    IsSpawnSafe: 0
+    ChunkSaveId: 82445764f39d
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 6
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_021
+    IsSpawnSafe: 0
+    ChunkSaveId: 4475ac83acd6
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 0
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_022
+    IsSpawnSafe: 0
+    ChunkSaveId: 32bd8055e028
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 1
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_023
+    IsSpawnSafe: 0
+    ChunkSaveId: 7d2b95612136
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 2
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_024
+    IsSpawnSafe: 0
+    ChunkSaveId: e20f0a4506e1
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 3
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_025
+    IsSpawnSafe: 0
+    ChunkSaveId: bba6cd85ed1d
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 4
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_026
+    IsSpawnSafe: 0
+    ChunkSaveId: 5004786e3c0a
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 5
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_027
+    IsSpawnSafe: 0
+    ChunkSaveId: d1e792cc9a61
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 6
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_028
+    IsSpawnSafe: 0
+    ChunkSaveId: b15a0c94789a
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 0
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_029
+    IsSpawnSafe: 0
+    ChunkSaveId: 2bdefc3626c3
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 1
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_030
+    IsSpawnSafe: 0
+    ChunkSaveId: 41b1aaf54a5f
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 2
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_031
+    IsSpawnSafe: 0
+    ChunkSaveId: 4ea150b8ab23
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 3
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_032
+    IsSpawnSafe: 0
+    ChunkSaveId: 844d6d6f8164
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 4
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_033
+    IsSpawnSafe: 0
+    ChunkSaveId: b487cf5d037c
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 5
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_034
+    IsSpawnSafe: 0
+    ChunkSaveId: 7b06aa1fa76f
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 6
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_035
+    IsSpawnSafe: 0
+    ChunkSaveId: ca2f2e277cc9
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 0
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_036
+    IsSpawnSafe: 0
+    ChunkSaveId: ff2e27df937d
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 1
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_037
+    IsSpawnSafe: 0
+    ChunkSaveId: b17966988734
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 2
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_038
+    IsSpawnSafe: 0
+    ChunkSaveId: c860052fba1b
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 3
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_039
+    IsSpawnSafe: 0
+    ChunkSaveId: e9d0eaa22c1e
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 4
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_040
+    IsSpawnSafe: 0
+    ChunkSaveId: 648a30b983a1
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 5
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_041
+    IsSpawnSafe: 0
+    ChunkSaveId: 484736f4a7a2
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 6
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_042
+    IsSpawnSafe: 0
+    ChunkSaveId: 4e7fd9810550
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 0
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_043
+    IsSpawnSafe: 0
+    ChunkSaveId: 1830eb5a38c5
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 1
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_044
+    IsSpawnSafe: 0
+    ChunkSaveId: b7e672d275c2
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 2
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_045
+    IsSpawnSafe: 0
+    ChunkSaveId: 37b9826621f8
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 3
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_046
+    IsSpawnSafe: 0
+    ChunkSaveId: 9bb2740926d5
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 4
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_047
+    IsSpawnSafe: 0
+    ChunkSaveId: a3863f252ddb
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 5
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_048
+    IsSpawnSafe: 0
+    ChunkSaveId: 5e5be0664ecd
+    WeatherOverrideKey: 
+  - RegionId: 17
+    GridX: 6
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Dream_Chunk_049
+    IsSpawnSafe: 0
+    ChunkSaveId: b7160135c1d6
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 0
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_001
+    IsSpawnSafe: 0
+    ChunkSaveId: 7d4ca9b1b326
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 1
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_002
+    IsSpawnSafe: 0
+    ChunkSaveId: be9df7ae7008
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 2
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_003
+    IsSpawnSafe: 0
+    ChunkSaveId: e0f8c453ef3a
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 3
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_004
+    IsSpawnSafe: 0
+    ChunkSaveId: 5b8e4607258d
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 4
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_005
+    IsSpawnSafe: 0
+    ChunkSaveId: 70a928ea9d26
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 5
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_006
+    IsSpawnSafe: 0
+    ChunkSaveId: 45c011affa10
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 6
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_007
+    IsSpawnSafe: 0
+    ChunkSaveId: dab27e9ef168
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 0
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_008
+    IsSpawnSafe: 0
+    ChunkSaveId: 8c6eb055c7cf
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 1
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_009
+    IsSpawnSafe: 0
+    ChunkSaveId: c66c033d831c
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 2
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_010
+    IsSpawnSafe: 0
+    ChunkSaveId: e75c10a41fa5
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 3
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_011
+    IsSpawnSafe: 0
+    ChunkSaveId: 89fedf5cd013
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 4
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_012
+    IsSpawnSafe: 0
+    ChunkSaveId: f3027adaaa1f
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 5
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_013
+    IsSpawnSafe: 0
+    ChunkSaveId: 5d12577acdda
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 6
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_014
+    IsSpawnSafe: 0
+    ChunkSaveId: fd64a9710d19
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 0
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_015
+    IsSpawnSafe: 0
+    ChunkSaveId: aab5a0b26c10
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 1
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_016
+    IsSpawnSafe: 0
+    ChunkSaveId: ada220e91934
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 2
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_017
+    IsSpawnSafe: 0
+    ChunkSaveId: 4396608c4580
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 3
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_018
+    IsSpawnSafe: 0
+    ChunkSaveId: fa381d177d29
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 4
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_019
+    IsSpawnSafe: 0
+    ChunkSaveId: 00bb01ae9814
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 5
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_020
+    IsSpawnSafe: 0
+    ChunkSaveId: c4e6b9663980
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 6
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_021
+    IsSpawnSafe: 0
+    ChunkSaveId: 3519044eecaa
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 0
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_022
+    IsSpawnSafe: 0
+    ChunkSaveId: e42dffc1a0a4
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 1
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_023
+    IsSpawnSafe: 0
+    ChunkSaveId: 3efdcc97b68e
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 2
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_024
+    IsSpawnSafe: 0
+    ChunkSaveId: a022f575fa01
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 3
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_025
+    IsSpawnSafe: 0
+    ChunkSaveId: d1308cf4a8d0
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 4
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_026
+    IsSpawnSafe: 0
+    ChunkSaveId: ded9c54b1808
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 5
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_027
+    IsSpawnSafe: 0
+    ChunkSaveId: 7a7c6d467125
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 6
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_028
+    IsSpawnSafe: 0
+    ChunkSaveId: 8fac5c531955
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 0
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_029
+    IsSpawnSafe: 0
+    ChunkSaveId: a1310f9a5f4e
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 1
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_030
+    IsSpawnSafe: 0
+    ChunkSaveId: d1f7e8cffb63
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 2
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_031
+    IsSpawnSafe: 0
+    ChunkSaveId: 205123fb3e92
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 3
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_032
+    IsSpawnSafe: 0
+    ChunkSaveId: 8b8145e122a0
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 4
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_033
+    IsSpawnSafe: 0
+    ChunkSaveId: 24e9d927896c
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 5
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_034
+    IsSpawnSafe: 0
+    ChunkSaveId: 0a0f0410c169
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 6
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_035
+    IsSpawnSafe: 0
+    ChunkSaveId: e7ab3c716d45
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 0
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_036
+    IsSpawnSafe: 0
+    ChunkSaveId: 0a4480a53d8a
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 1
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_037
+    IsSpawnSafe: 0
+    ChunkSaveId: a956560c8260
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 2
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_038
+    IsSpawnSafe: 0
+    ChunkSaveId: b8515a7846f0
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 3
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_039
+    IsSpawnSafe: 0
+    ChunkSaveId: 1951cce752f9
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 4
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_040
+    IsSpawnSafe: 0
+    ChunkSaveId: 7c2038a3b934
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 5
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_041
+    IsSpawnSafe: 0
+    ChunkSaveId: 0ed45976745b
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 6
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_042
+    IsSpawnSafe: 0
+    ChunkSaveId: 3e912152b864
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 0
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_043
+    IsSpawnSafe: 0
+    ChunkSaveId: 4668601fbb5e
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 1
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_044
+    IsSpawnSafe: 0
+    ChunkSaveId: 930e7be942d2
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 2
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_045
+    IsSpawnSafe: 0
+    ChunkSaveId: 9eec69f19d95
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 3
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_046
+    IsSpawnSafe: 0
+    ChunkSaveId: 0aedfd4ca631
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 4
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_047
+    IsSpawnSafe: 0
+    ChunkSaveId: 8bf78d95418b
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 5
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_048
+    IsSpawnSafe: 0
+    ChunkSaveId: 8cb7e657d0af
+    WeatherOverrideKey: 
+  - RegionId: 18
+    GridX: 6
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Candy_Chunk_049
+    IsSpawnSafe: 0
+    ChunkSaveId: 1209ff0b3ab2
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 0
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_001
+    IsSpawnSafe: 0
+    ChunkSaveId: caec736320e3
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 1
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_002
+    IsSpawnSafe: 0
+    ChunkSaveId: 5605fd4fc281
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 2
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_003
+    IsSpawnSafe: 0
+    ChunkSaveId: 896cdb63a21d
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 3
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_004
+    IsSpawnSafe: 0
+    ChunkSaveId: ab709a8783e5
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 4
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_005
+    IsSpawnSafe: 0
+    ChunkSaveId: 793f14629e9e
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 5
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_006
+    IsSpawnSafe: 0
+    ChunkSaveId: a9bbf19b06d9
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 6
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_007
+    IsSpawnSafe: 0
+    ChunkSaveId: 7a52525a7742
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 0
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_008
+    IsSpawnSafe: 0
+    ChunkSaveId: 84c26cad4815
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 1
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_009
+    IsSpawnSafe: 0
+    ChunkSaveId: 39dbdefc6a09
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 2
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_010
+    IsSpawnSafe: 0
+    ChunkSaveId: b6b9ab41edd7
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 3
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_011
+    IsSpawnSafe: 0
+    ChunkSaveId: 82a5db84087c
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 4
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_012
+    IsSpawnSafe: 0
+    ChunkSaveId: 17f39f3ba7f1
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 5
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_013
+    IsSpawnSafe: 0
+    ChunkSaveId: 2a9009445a99
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 6
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_014
+    IsSpawnSafe: 0
+    ChunkSaveId: e1ff24126cf9
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 0
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_015
+    IsSpawnSafe: 0
+    ChunkSaveId: f918b14a5f35
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 1
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_016
+    IsSpawnSafe: 0
+    ChunkSaveId: 9b06ed6cdd89
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 2
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_017
+    IsSpawnSafe: 0
+    ChunkSaveId: 52ecd4d74215
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 3
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_018
+    IsSpawnSafe: 0
+    ChunkSaveId: dd62375f0e06
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 4
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_019
+    IsSpawnSafe: 0
+    ChunkSaveId: c87611ad0478
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 5
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_020
+    IsSpawnSafe: 0
+    ChunkSaveId: 4d831764167e
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 6
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_021
+    IsSpawnSafe: 0
+    ChunkSaveId: 222d1392b6b3
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 0
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_022
+    IsSpawnSafe: 0
+    ChunkSaveId: 14a0663242f8
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 1
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_023
+    IsSpawnSafe: 0
+    ChunkSaveId: 58e8fddabd50
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 2
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_024
+    IsSpawnSafe: 0
+    ChunkSaveId: 431585a96840
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 3
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_025
+    IsSpawnSafe: 0
+    ChunkSaveId: 6ab2a9508f9a
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 4
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_026
+    IsSpawnSafe: 0
+    ChunkSaveId: bfc896b96745
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 5
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_027
+    IsSpawnSafe: 0
+    ChunkSaveId: 32188fd90558
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 6
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_028
+    IsSpawnSafe: 0
+    ChunkSaveId: 588522acf5db
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 0
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_029
+    IsSpawnSafe: 0
+    ChunkSaveId: ee71866bfe22
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 1
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_030
+    IsSpawnSafe: 0
+    ChunkSaveId: 5b2f53333239
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 2
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_031
+    IsSpawnSafe: 0
+    ChunkSaveId: 23d0803fdf19
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 3
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_032
+    IsSpawnSafe: 0
+    ChunkSaveId: 2e35397e9f20
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 4
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_033
+    IsSpawnSafe: 0
+    ChunkSaveId: 98fa437aa639
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 5
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_034
+    IsSpawnSafe: 0
+    ChunkSaveId: e3f666cc4a89
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 6
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_035
+    IsSpawnSafe: 0
+    ChunkSaveId: ccb019729734
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 0
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_036
+    IsSpawnSafe: 0
+    ChunkSaveId: 38ef5f48e522
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 1
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_037
+    IsSpawnSafe: 0
+    ChunkSaveId: c96114f8afb2
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 2
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_038
+    IsSpawnSafe: 0
+    ChunkSaveId: e1bec9eba742
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 3
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_039
+    IsSpawnSafe: 0
+    ChunkSaveId: a95c40995169
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 4
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_040
+    IsSpawnSafe: 0
+    ChunkSaveId: 56e83190ca68
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 5
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_041
+    IsSpawnSafe: 0
+    ChunkSaveId: 64fd659c84b5
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 6
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_042
+    IsSpawnSafe: 0
+    ChunkSaveId: eb9eb07b646d
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 0
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_043
+    IsSpawnSafe: 0
+    ChunkSaveId: afcf55d32d0d
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 1
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_044
+    IsSpawnSafe: 0
+    ChunkSaveId: e06cfae760e9
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 2
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_045
+    IsSpawnSafe: 0
+    ChunkSaveId: be4ba8a313c1
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 3
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_046
+    IsSpawnSafe: 0
+    ChunkSaveId: e590fe10bd48
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 4
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_047
+    IsSpawnSafe: 0
+    ChunkSaveId: af487e6da59d
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 5
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_048
+    IsSpawnSafe: 0
+    ChunkSaveId: f02f1c911b07
+    WeatherOverrideKey: 
+  - RegionId: 19
+    GridX: 6
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Ancient_Chunk_049
+    IsSpawnSafe: 0
+    ChunkSaveId: 2c03d972f9da
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 0
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Void_Chunk_001
+    IsSpawnSafe: 0
+    ChunkSaveId: ebc391a9546b
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 1
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Void_Chunk_002
+    IsSpawnSafe: 0
+    ChunkSaveId: 5f252da6e7e6
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 2
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Void_Chunk_003
+    IsSpawnSafe: 0
+    ChunkSaveId: 17d2de8d459f
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 3
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Void_Chunk_004
+    IsSpawnSafe: 0
+    ChunkSaveId: f2247f809441
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 4
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Void_Chunk_005
+    IsSpawnSafe: 0
+    ChunkSaveId: 7b80f195be2e
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 5
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Void_Chunk_006
+    IsSpawnSafe: 0
+    ChunkSaveId: 8ec0e45303de
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 6
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Void_Chunk_007
+    IsSpawnSafe: 0
+    ChunkSaveId: a906c3ec1147
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 0
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Void_Chunk_008
+    IsSpawnSafe: 0
+    ChunkSaveId: 6931fb527bc4
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 1
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Void_Chunk_009
+    IsSpawnSafe: 0
+    ChunkSaveId: 9dcdcfccedd7
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 2
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Void_Chunk_010
+    IsSpawnSafe: 0
+    ChunkSaveId: 5d6e576e414e
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 3
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Void_Chunk_011
+    IsSpawnSafe: 0
+    ChunkSaveId: 7d0f26ff3ca4
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 4
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Void_Chunk_012
+    IsSpawnSafe: 0
+    ChunkSaveId: 84a42ca3edd0
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 5
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Void_Chunk_013
+    IsSpawnSafe: 0
+    ChunkSaveId: 478b7e65733d
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 6
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Void_Chunk_014
+    IsSpawnSafe: 0
+    ChunkSaveId: 507a1b89dc9e
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 0
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Void_Chunk_015
+    IsSpawnSafe: 0
+    ChunkSaveId: 841940b95802
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 1
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Void_Chunk_016
+    IsSpawnSafe: 0
+    ChunkSaveId: e47b98f3dc1a
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 2
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Void_Chunk_017
+    IsSpawnSafe: 0
+    ChunkSaveId: cf7d1499f0a6
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 3
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Void_Chunk_018
+    IsSpawnSafe: 0
+    ChunkSaveId: 1cbf746fff4a
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 4
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Void_Chunk_019
+    IsSpawnSafe: 0
+    ChunkSaveId: 329af6838a6c
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 5
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Void_Chunk_020
+    IsSpawnSafe: 0
+    ChunkSaveId: 8b8300f139f0
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 6
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Void_Chunk_021
+    IsSpawnSafe: 0
+    ChunkSaveId: a97c41c325a4
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 0
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Void_Chunk_022
+    IsSpawnSafe: 0
+    ChunkSaveId: 720a5f76d2ee
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 1
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Void_Chunk_023
+    IsSpawnSafe: 0
+    ChunkSaveId: 62a461285de1
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 2
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Void_Chunk_024
+    IsSpawnSafe: 0
+    ChunkSaveId: 083fbadc3234
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 3
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Void_Chunk_025
+    IsSpawnSafe: 0
+    ChunkSaveId: f73ac0764aec
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 4
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Void_Chunk_026
+    IsSpawnSafe: 0
+    ChunkSaveId: 7888b95e0abf
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 5
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Void_Chunk_027
+    IsSpawnSafe: 0
+    ChunkSaveId: 33af73147a8b
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 6
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Void_Chunk_028
+    IsSpawnSafe: 0
+    ChunkSaveId: afcf9e2771ae
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 0
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Void_Chunk_029
+    IsSpawnSafe: 0
+    ChunkSaveId: be76a19913fe
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 1
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Void_Chunk_030
+    IsSpawnSafe: 0
+    ChunkSaveId: 07f663fde872
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 2
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Void_Chunk_031
+    IsSpawnSafe: 0
+    ChunkSaveId: ee5b73b9f647
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 3
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Void_Chunk_032
+    IsSpawnSafe: 0
+    ChunkSaveId: c45dab24c51b
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 4
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Void_Chunk_033
+    IsSpawnSafe: 0
+    ChunkSaveId: 1ccad53c3ca6
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 5
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Void_Chunk_034
+    IsSpawnSafe: 0
+    ChunkSaveId: d4b4435b368c
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 6
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Void_Chunk_035
+    IsSpawnSafe: 0
+    ChunkSaveId: a222ee8cb896
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 0
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Void_Chunk_036
+    IsSpawnSafe: 0
+    ChunkSaveId: 733dd6d4ca52
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 1
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Void_Chunk_037
+    IsSpawnSafe: 0
+    ChunkSaveId: 9d92a6a371f5
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 2
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Void_Chunk_038
+    IsSpawnSafe: 0
+    ChunkSaveId: e20a9a13c47b
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 3
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Void_Chunk_039
+    IsSpawnSafe: 0
+    ChunkSaveId: 4987e844197e
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 4
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Void_Chunk_040
+    IsSpawnSafe: 0
+    ChunkSaveId: a7b113335c2e
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 5
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Void_Chunk_041
+    IsSpawnSafe: 0
+    ChunkSaveId: 6878d3222984
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 6
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Void_Chunk_042
+    IsSpawnSafe: 0
+    ChunkSaveId: 050fc3af5a08
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 0
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Void_Chunk_043
+    IsSpawnSafe: 0
+    ChunkSaveId: c43b989c9547
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 1
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Void_Chunk_044
+    IsSpawnSafe: 0
+    ChunkSaveId: 115b1125c6b3
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 2
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Void_Chunk_045
+    IsSpawnSafe: 0
+    ChunkSaveId: 2728a6b872c7
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 3
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Void_Chunk_046
+    IsSpawnSafe: 0
+    ChunkSaveId: 80bb0ddfbdf1
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 4
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Void_Chunk_047
+    IsSpawnSafe: 0
+    ChunkSaveId: 60eb1ece1594
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 5
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Void_Chunk_048
+    IsSpawnSafe: 0
+    ChunkSaveId: 5e18d9aa5cd0
+    WeatherOverrideKey: 
+  - RegionId: 20
+    GridX: 6
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Void_Chunk_049
+    IsSpawnSafe: 0
+    ChunkSaveId: 8100de753663
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 0
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Future_Chunk_001
+    IsSpawnSafe: 0
+    ChunkSaveId: 1221f5cd5b72
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 1
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Future_Chunk_002
+    IsSpawnSafe: 0
+    ChunkSaveId: 495e38e27976
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 2
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Future_Chunk_003
+    IsSpawnSafe: 0
+    ChunkSaveId: 176780d6c571
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 3
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Future_Chunk_004
+    IsSpawnSafe: 0
+    ChunkSaveId: b5bbec34f35f
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 4
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Future_Chunk_005
+    IsSpawnSafe: 0
+    ChunkSaveId: 7d7fa102499b
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 5
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Future_Chunk_006
+    IsSpawnSafe: 0
+    ChunkSaveId: 313891fe62ff
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 6
+    GridY: 6
+    ChunkType: 0
+    AddressableKey: Future_Chunk_007
+    IsSpawnSafe: 0
+    ChunkSaveId: d0f6e567e1ff
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 0
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Future_Chunk_008
+    IsSpawnSafe: 0
+    ChunkSaveId: 6e113559f444
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 1
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Future_Chunk_009
+    IsSpawnSafe: 0
+    ChunkSaveId: 4b221766c5b6
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 2
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Future_Chunk_010
+    IsSpawnSafe: 0
+    ChunkSaveId: c7eeb6c3d231
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 3
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Future_Chunk_011
+    IsSpawnSafe: 0
+    ChunkSaveId: 5d6c65c044a6
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 4
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Future_Chunk_012
+    IsSpawnSafe: 0
+    ChunkSaveId: 8317698c5479
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 5
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Future_Chunk_013
+    IsSpawnSafe: 0
+    ChunkSaveId: dc3179640075
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 6
+    GridY: 5
+    ChunkType: 0
+    AddressableKey: Future_Chunk_014
+    IsSpawnSafe: 0
+    ChunkSaveId: 5e068d6e7744
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 0
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Future_Chunk_015
+    IsSpawnSafe: 0
+    ChunkSaveId: 7b28fa79ca08
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 1
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Future_Chunk_016
+    IsSpawnSafe: 0
+    ChunkSaveId: 5ae715403182
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 2
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Future_Chunk_017
+    IsSpawnSafe: 0
+    ChunkSaveId: bbd00a5c0b60
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 3
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Future_Chunk_018
+    IsSpawnSafe: 0
+    ChunkSaveId: 8c02489ea166
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 4
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Future_Chunk_019
+    IsSpawnSafe: 0
+    ChunkSaveId: e717594b6f30
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 5
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Future_Chunk_020
+    IsSpawnSafe: 0
+    ChunkSaveId: 32e50039c83c
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 6
+    GridY: 4
+    ChunkType: 0
+    AddressableKey: Future_Chunk_021
+    IsSpawnSafe: 0
+    ChunkSaveId: ae9da70afb50
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 0
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Future_Chunk_022
+    IsSpawnSafe: 0
+    ChunkSaveId: e9e9f7fba682
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 1
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Future_Chunk_023
+    IsSpawnSafe: 0
+    ChunkSaveId: 273edf0c2a24
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 2
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Future_Chunk_024
+    IsSpawnSafe: 0
+    ChunkSaveId: a86cd6f0543e
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 3
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Future_Chunk_025
+    IsSpawnSafe: 0
+    ChunkSaveId: d2e7c8c09a54
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 4
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Future_Chunk_026
+    IsSpawnSafe: 0
+    ChunkSaveId: e64096773699
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 5
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Future_Chunk_027
+    IsSpawnSafe: 0
+    ChunkSaveId: 8835f4572e17
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 6
+    GridY: 3
+    ChunkType: 0
+    AddressableKey: Future_Chunk_028
+    IsSpawnSafe: 0
+    ChunkSaveId: 4bea73714028
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 0
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Future_Chunk_029
+    IsSpawnSafe: 0
+    ChunkSaveId: 820756755841
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 1
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Future_Chunk_030
+    IsSpawnSafe: 0
+    ChunkSaveId: e9376be1fa22
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 2
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Future_Chunk_031
+    IsSpawnSafe: 0
+    ChunkSaveId: 8e114a65364c
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 3
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Future_Chunk_032
+    IsSpawnSafe: 0
+    ChunkSaveId: 7f89a0e5f0c2
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 4
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Future_Chunk_033
+    IsSpawnSafe: 0
+    ChunkSaveId: 3c77f342c254
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 5
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Future_Chunk_034
+    IsSpawnSafe: 0
+    ChunkSaveId: 6c24a91620c9
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 6
+    GridY: 2
+    ChunkType: 0
+    AddressableKey: Future_Chunk_035
+    IsSpawnSafe: 0
+    ChunkSaveId: f1a2b561d054
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 0
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Future_Chunk_036
+    IsSpawnSafe: 0
+    ChunkSaveId: 2514a4a1bf14
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 1
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Future_Chunk_037
+    IsSpawnSafe: 0
+    ChunkSaveId: d8509e3b220b
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 2
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Future_Chunk_038
+    IsSpawnSafe: 0
+    ChunkSaveId: 9faea5ed8531
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 3
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Future_Chunk_039
+    IsSpawnSafe: 0
+    ChunkSaveId: 198d5da73be2
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 4
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Future_Chunk_040
+    IsSpawnSafe: 0
+    ChunkSaveId: fe9c1c16d7ad
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 5
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Future_Chunk_041
+    IsSpawnSafe: 0
+    ChunkSaveId: 728042c261be
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 6
+    GridY: 1
+    ChunkType: 0
+    AddressableKey: Future_Chunk_042
+    IsSpawnSafe: 0
+    ChunkSaveId: f7808f9e06de
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 0
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Future_Chunk_043
+    IsSpawnSafe: 0
+    ChunkSaveId: e5a326f40615
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 1
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Future_Chunk_044
+    IsSpawnSafe: 0
+    ChunkSaveId: 1c8c157baf18
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 2
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Future_Chunk_045
+    IsSpawnSafe: 0
+    ChunkSaveId: e1b3a1024532
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 3
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Future_Chunk_046
+    IsSpawnSafe: 0
+    ChunkSaveId: c485579827ea
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 4
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Future_Chunk_047
+    IsSpawnSafe: 0
+    ChunkSaveId: 78d7f66eb1c3
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 5
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Future_Chunk_048
+    IsSpawnSafe: 0
+    ChunkSaveId: b53d6da6ad40
+    WeatherOverrideKey: 
+  - RegionId: 21
+    GridX: 6
+    GridY: 0
+    ChunkType: 0
+    AddressableKey: Future_Chunk_049
+    IsSpawnSafe: 0
+    ChunkSaveId: cc0957620f12
+    WeatherOverrideKey: 

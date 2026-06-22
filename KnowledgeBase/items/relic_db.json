@@ -1,0 +1,6747 @@
+{
+  "schemaVersion": 1,
+  "name": "relic_db",
+  "count": 135,
+  "budget_pct": 5.0,
+  "formula": "RelicStatPct(rank) = rank * 0.0025",
+  "rank_up_exp": {
+    "formula": "500 * 2^(rank-1)",
+    "values": [
+      500,
+      1000,
+      2000,
+      4000,
+      8000
+    ]
+  },
+  "slots": 4,
+  "invariant": {
+    "max_total_stat_pct": 0.05,
+    "max_rank": 5
+  },
+  "relics": [
+    {
+      "relic_id": "relic_verdant_plains_offensive",
+      "display_name": "Relic of the Destroyer — Verdant Plains",
+      "biome_id": 1,
+      "element": "Earth",
+      "archetype": "offensive",
+      "primary_stat": "atk_pct",
+      "secondary_stats": [
+        "hp_pct",
+        "def_pct"
+      ],
+      "min_level_req": 6,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Verdant Plains, resonating with Earth energy.",
+      "icon": "icon_relic_verdant_plains_offensive"
+    },
+    {
+      "relic_id": "relic_verdant_plains_defensive",
+      "display_name": "Relic of the Guardian — Verdant Plains",
+      "biome_id": 1,
+      "element": "Earth",
+      "archetype": "defensive",
+      "primary_stat": "def_pct",
+      "secondary_stats": [
+        "hp_pct",
+        "atk_pct"
+      ],
+      "min_level_req": 11,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Verdant Plains, resonating with Earth energy.",
+      "icon": "icon_relic_verdant_plains_defensive"
+    },
+    {
+      "relic_id": "relic_verdant_plains_critical",
+      "display_name": "Relic of the Predator — Verdant Plains",
+      "biome_id": 1,
+      "element": "Earth",
+      "archetype": "critical",
+      "primary_stat": "crit_rate",
+      "secondary_stats": [
+        "hp_pct",
+        "def_pct"
+      ],
+      "min_level_req": 6,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Verdant Plains, resonating with Earth energy.",
+      "icon": "icon_relic_verdant_plains_critical"
+    },
+    {
+      "relic_id": "relic_verdant_plains_sustain",
+      "display_name": "Relic of Endurance — Verdant Plains",
+      "biome_id": 1,
+      "element": "Earth",
+      "archetype": "sustain",
+      "primary_stat": "hp_pct",
+      "secondary_stats": [
+        "def_pct",
+        "atk_pct"
+      ],
+      "min_level_req": 11,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "quest",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Verdant Plains, resonating with Earth energy.",
+      "icon": "icon_relic_verdant_plains_sustain"
+    },
+    {
+      "relic_id": "relic_verdant_plains_element",
+      "display_name": "Relic of the Elements — Verdant Plains",
+      "biome_id": 1,
+      "element": "Earth",
+      "archetype": "element",
+      "primary_stat": "elem_dmg_pct",
+      "secondary_stats": [
+        "hp_pct",
+        "def_pct"
+      ],
+      "min_level_req": 6,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Verdant Plains, resonating with Earth energy.",
+      "icon": "icon_relic_verdant_plains_element"
+    },
+    {
+      "relic_id": "relic_verdant_plains_utility",
+      "display_name": "Relic of the Scholar — Verdant Plains",
+      "biome_id": 1,
+      "element": "Earth",
+      "archetype": "utility",
+      "primary_stat": "exp_pct",
+      "secondary_stats": [
+        "hp_pct",
+        "def_pct"
+      ],
+      "min_level_req": 11,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Verdant Plains, resonating with Earth energy.",
+      "icon": "icon_relic_verdant_plains_utility"
+    },
+    {
+      "relic_id": "relic_scorched_wastes_offensive",
+      "display_name": "Relic of the Destroyer — Scorched Wastes",
+      "biome_id": 2,
+      "element": "Fire",
+      "archetype": "offensive",
+      "primary_stat": "atk_pct",
+      "secondary_stats": [
+        "crit_rate",
+        "skill_mult"
+      ],
+      "min_level_req": 101,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Scorched Wastes, resonating with Fire energy.",
+      "icon": "icon_relic_scorched_wastes_offensive"
+    },
+    {
+      "relic_id": "relic_scorched_wastes_defensive",
+      "display_name": "Relic of the Guardian — Scorched Wastes",
+      "biome_id": 2,
+      "element": "Fire",
+      "archetype": "defensive",
+      "primary_stat": "def_pct",
+      "secondary_stats": [
+        "atk_pct",
+        "crit_rate"
+      ],
+      "min_level_req": 106,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Scorched Wastes, resonating with Fire energy.",
+      "icon": "icon_relic_scorched_wastes_defensive"
+    },
+    {
+      "relic_id": "relic_scorched_wastes_critical",
+      "display_name": "Relic of the Predator — Scorched Wastes",
+      "biome_id": 2,
+      "element": "Fire",
+      "archetype": "critical",
+      "primary_stat": "crit_rate",
+      "secondary_stats": [
+        "atk_pct",
+        "skill_mult"
+      ],
+      "min_level_req": 101,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Scorched Wastes, resonating with Fire energy.",
+      "icon": "icon_relic_scorched_wastes_critical"
+    },
+    {
+      "relic_id": "relic_scorched_wastes_sustain",
+      "display_name": "Relic of Endurance — Scorched Wastes",
+      "biome_id": 2,
+      "element": "Fire",
+      "archetype": "sustain",
+      "primary_stat": "hp_pct",
+      "secondary_stats": [
+        "atk_pct",
+        "crit_rate"
+      ],
+      "min_level_req": 106,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "quest",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Scorched Wastes, resonating with Fire energy.",
+      "icon": "icon_relic_scorched_wastes_sustain"
+    },
+    {
+      "relic_id": "relic_scorched_wastes_element",
+      "display_name": "Relic of the Elements — Scorched Wastes",
+      "biome_id": 2,
+      "element": "Fire",
+      "archetype": "element",
+      "primary_stat": "elem_dmg_pct",
+      "secondary_stats": [
+        "atk_pct",
+        "crit_rate"
+      ],
+      "min_level_req": 101,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Scorched Wastes, resonating with Fire energy.",
+      "icon": "icon_relic_scorched_wastes_element"
+    },
+    {
+      "relic_id": "relic_scorched_wastes_utility",
+      "display_name": "Relic of the Scholar — Scorched Wastes",
+      "biome_id": 2,
+      "element": "Fire",
+      "archetype": "utility",
+      "primary_stat": "exp_pct",
+      "secondary_stats": [
+        "atk_pct",
+        "crit_rate"
+      ],
+      "min_level_req": 106,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Scorched Wastes, resonating with Fire energy.",
+      "icon": "icon_relic_scorched_wastes_utility"
+    },
+    {
+      "relic_id": "relic_aqua_depths_offensive",
+      "display_name": "Relic of the Destroyer — Aqua Depths",
+      "biome_id": 3,
+      "element": "Water",
+      "archetype": "offensive",
+      "primary_stat": "atk_pct",
+      "secondary_stats": [
+        "def_pct",
+        "hp_pct"
+      ],
+      "min_level_req": 196,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Aqua Depths, resonating with Water energy.",
+      "icon": "icon_relic_aqua_depths_offensive"
+    },
+    {
+      "relic_id": "relic_aqua_depths_defensive",
+      "display_name": "Relic of the Guardian — Aqua Depths",
+      "biome_id": 3,
+      "element": "Water",
+      "archetype": "defensive",
+      "primary_stat": "def_pct",
+      "secondary_stats": [
+        "hp_pct",
+        "heal_pct"
+      ],
+      "min_level_req": 201,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Aqua Depths, resonating with Water energy.",
+      "icon": "icon_relic_aqua_depths_defensive"
+    },
+    {
+      "relic_id": "relic_aqua_depths_critical",
+      "display_name": "Relic of the Predator — Aqua Depths",
+      "biome_id": 3,
+      "element": "Water",
+      "archetype": "critical",
+      "primary_stat": "crit_rate",
+      "secondary_stats": [
+        "def_pct",
+        "hp_pct"
+      ],
+      "min_level_req": 196,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Aqua Depths, resonating with Water energy.",
+      "icon": "icon_relic_aqua_depths_critical"
+    },
+    {
+      "relic_id": "relic_aqua_depths_sustain",
+      "display_name": "Relic of Endurance — Aqua Depths",
+      "biome_id": 3,
+      "element": "Water",
+      "archetype": "sustain",
+      "primary_stat": "hp_pct",
+      "secondary_stats": [
+        "def_pct",
+        "heal_pct"
+      ],
+      "min_level_req": 201,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "quest",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Aqua Depths, resonating with Water energy.",
+      "icon": "icon_relic_aqua_depths_sustain"
+    },
+    {
+      "relic_id": "relic_aqua_depths_element",
+      "display_name": "Relic of the Elements — Aqua Depths",
+      "biome_id": 3,
+      "element": "Water",
+      "archetype": "element",
+      "primary_stat": "elem_dmg_pct",
+      "secondary_stats": [
+        "def_pct",
+        "hp_pct"
+      ],
+      "min_level_req": 196,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Aqua Depths, resonating with Water energy.",
+      "icon": "icon_relic_aqua_depths_element"
+    },
+    {
+      "relic_id": "relic_aqua_depths_utility",
+      "display_name": "Relic of the Scholar — Aqua Depths",
+      "biome_id": 3,
+      "element": "Water",
+      "archetype": "utility",
+      "primary_stat": "exp_pct",
+      "secondary_stats": [
+        "def_pct",
+        "hp_pct"
+      ],
+      "min_level_req": 201,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Aqua Depths, resonating with Water energy.",
+      "icon": "icon_relic_aqua_depths_utility"
+    },
+    {
+      "relic_id": "relic_windy_peaks_offensive",
+      "display_name": "Relic of the Destroyer — Windy Peaks",
+      "biome_id": 4,
+      "element": "Wind",
+      "archetype": "offensive",
+      "primary_stat": "atk_pct",
+      "secondary_stats": [
+        "atk_spd",
+        "crit_dmg"
+      ],
+      "min_level_req": 291,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Windy Peaks, resonating with Wind energy.",
+      "icon": "icon_relic_windy_peaks_offensive"
+    },
+    {
+      "relic_id": "relic_windy_peaks_defensive",
+      "display_name": "Relic of the Guardian — Windy Peaks",
+      "biome_id": 4,
+      "element": "Wind",
+      "archetype": "defensive",
+      "primary_stat": "def_pct",
+      "secondary_stats": [
+        "atk_spd",
+        "crit_dmg"
+      ],
+      "min_level_req": 296,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Windy Peaks, resonating with Wind energy.",
+      "icon": "icon_relic_windy_peaks_defensive"
+    },
+    {
+      "relic_id": "relic_windy_peaks_critical",
+      "display_name": "Relic of the Predator — Windy Peaks",
+      "biome_id": 4,
+      "element": "Wind",
+      "archetype": "critical",
+      "primary_stat": "crit_rate",
+      "secondary_stats": [
+        "atk_spd",
+        "crit_dmg"
+      ],
+      "min_level_req": 291,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Windy Peaks, resonating with Wind energy.",
+      "icon": "icon_relic_windy_peaks_critical"
+    },
+    {
+      "relic_id": "relic_windy_peaks_sustain",
+      "display_name": "Relic of Endurance — Windy Peaks",
+      "biome_id": 4,
+      "element": "Wind",
+      "archetype": "sustain",
+      "primary_stat": "hp_pct",
+      "secondary_stats": [
+        "atk_spd",
+        "crit_dmg"
+      ],
+      "min_level_req": 296,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "quest",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Windy Peaks, resonating with Wind energy.",
+      "icon": "icon_relic_windy_peaks_sustain"
+    },
+    {
+      "relic_id": "relic_windy_peaks_element",
+      "display_name": "Relic of the Elements — Windy Peaks",
+      "biome_id": 4,
+      "element": "Wind",
+      "archetype": "element",
+      "primary_stat": "elem_dmg_pct",
+      "secondary_stats": [
+        "atk_spd",
+        "crit_dmg"
+      ],
+      "min_level_req": 291,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Windy Peaks, resonating with Wind energy.",
+      "icon": "icon_relic_windy_peaks_element"
+    },
+    {
+      "relic_id": "relic_windy_peaks_utility",
+      "display_name": "Relic of the Scholar — Windy Peaks",
+      "biome_id": 4,
+      "element": "Wind",
+      "archetype": "utility",
+      "primary_stat": "exp_pct",
+      "secondary_stats": [
+        "atk_spd",
+        "crit_dmg"
+      ],
+      "min_level_req": 296,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Windy Peaks, resonating with Wind energy.",
+      "icon": "icon_relic_windy_peaks_utility"
+    },
+    {
+      "relic_id": "relic_crystal_caverns_offensive",
+      "display_name": "Relic of the Destroyer — Crystal Caverns",
+      "biome_id": 5,
+      "element": "Earth",
+      "archetype": "offensive",
+      "primary_stat": "atk_pct",
+      "secondary_stats": [
+        "hp_pct",
+        "def_pct"
+      ],
+      "min_level_req": 386,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Crystal Caverns, resonating with Earth energy.",
+      "icon": "icon_relic_crystal_caverns_offensive"
+    },
+    {
+      "relic_id": "relic_crystal_caverns_defensive",
+      "display_name": "Relic of the Guardian — Crystal Caverns",
+      "biome_id": 5,
+      "element": "Earth",
+      "archetype": "defensive",
+      "primary_stat": "def_pct",
+      "secondary_stats": [
+        "hp_pct",
+        "atk_pct"
+      ],
+      "min_level_req": 391,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Crystal Caverns, resonating with Earth energy.",
+      "icon": "icon_relic_crystal_caverns_defensive"
+    },
+    {
+      "relic_id": "relic_crystal_caverns_critical",
+      "display_name": "Relic of the Predator — Crystal Caverns",
+      "biome_id": 5,
+      "element": "Earth",
+      "archetype": "critical",
+      "primary_stat": "crit_rate",
+      "secondary_stats": [
+        "hp_pct",
+        "def_pct"
+      ],
+      "min_level_req": 386,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Crystal Caverns, resonating with Earth energy.",
+      "icon": "icon_relic_crystal_caverns_critical"
+    },
+    {
+      "relic_id": "relic_crystal_caverns_sustain",
+      "display_name": "Relic of Endurance — Crystal Caverns",
+      "biome_id": 5,
+      "element": "Earth",
+      "archetype": "sustain",
+      "primary_stat": "hp_pct",
+      "secondary_stats": [
+        "def_pct",
+        "atk_pct"
+      ],
+      "min_level_req": 391,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "quest",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Crystal Caverns, resonating with Earth energy.",
+      "icon": "icon_relic_crystal_caverns_sustain"
+    },
+    {
+      "relic_id": "relic_crystal_caverns_element",
+      "display_name": "Relic of the Elements — Crystal Caverns",
+      "biome_id": 5,
+      "element": "Earth",
+      "archetype": "element",
+      "primary_stat": "elem_dmg_pct",
+      "secondary_stats": [
+        "hp_pct",
+        "def_pct"
+      ],
+      "min_level_req": 386,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Crystal Caverns, resonating with Earth energy.",
+      "icon": "icon_relic_crystal_caverns_element"
+    },
+    {
+      "relic_id": "relic_crystal_caverns_utility",
+      "display_name": "Relic of the Scholar — Crystal Caverns",
+      "biome_id": 5,
+      "element": "Earth",
+      "archetype": "utility",
+      "primary_stat": "exp_pct",
+      "secondary_stats": [
+        "hp_pct",
+        "def_pct"
+      ],
+      "min_level_req": 391,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Crystal Caverns, resonating with Earth energy.",
+      "icon": "icon_relic_crystal_caverns_utility"
+    },
+    {
+      "relic_id": "relic_swamp_marshes_offensive",
+      "display_name": "Relic of the Destroyer — Swamp Marshes",
+      "biome_id": 6,
+      "element": "Water",
+      "archetype": "offensive",
+      "primary_stat": "atk_pct",
+      "secondary_stats": [
+        "def_pct",
+        "hp_pct"
+      ],
+      "min_level_req": 481,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Swamp Marshes, resonating with Water energy.",
+      "icon": "icon_relic_swamp_marshes_offensive"
+    },
+    {
+      "relic_id": "relic_swamp_marshes_defensive",
+      "display_name": "Relic of the Guardian — Swamp Marshes",
+      "biome_id": 6,
+      "element": "Water",
+      "archetype": "defensive",
+      "primary_stat": "def_pct",
+      "secondary_stats": [
+        "hp_pct",
+        "heal_pct"
+      ],
+      "min_level_req": 486,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Swamp Marshes, resonating with Water energy.",
+      "icon": "icon_relic_swamp_marshes_defensive"
+    },
+    {
+      "relic_id": "relic_swamp_marshes_critical",
+      "display_name": "Relic of the Predator — Swamp Marshes",
+      "biome_id": 6,
+      "element": "Water",
+      "archetype": "critical",
+      "primary_stat": "crit_rate",
+      "secondary_stats": [
+        "def_pct",
+        "hp_pct"
+      ],
+      "min_level_req": 481,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Swamp Marshes, resonating with Water energy.",
+      "icon": "icon_relic_swamp_marshes_critical"
+    },
+    {
+      "relic_id": "relic_swamp_marshes_sustain",
+      "display_name": "Relic of Endurance — Swamp Marshes",
+      "biome_id": 6,
+      "element": "Water",
+      "archetype": "sustain",
+      "primary_stat": "hp_pct",
+      "secondary_stats": [
+        "def_pct",
+        "heal_pct"
+      ],
+      "min_level_req": 486,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "quest",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Swamp Marshes, resonating with Water energy.",
+      "icon": "icon_relic_swamp_marshes_sustain"
+    },
+    {
+      "relic_id": "relic_swamp_marshes_element",
+      "display_name": "Relic of the Elements — Swamp Marshes",
+      "biome_id": 6,
+      "element": "Water",
+      "archetype": "element",
+      "primary_stat": "elem_dmg_pct",
+      "secondary_stats": [
+        "def_pct",
+        "hp_pct"
+      ],
+      "min_level_req": 481,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Swamp Marshes, resonating with Water energy.",
+      "icon": "icon_relic_swamp_marshes_element"
+    },
+    {
+      "relic_id": "relic_swamp_marshes_utility",
+      "display_name": "Relic of the Scholar — Swamp Marshes",
+      "biome_id": 6,
+      "element": "Water",
+      "archetype": "utility",
+      "primary_stat": "exp_pct",
+      "secondary_stats": [
+        "def_pct",
+        "hp_pct"
+      ],
+      "min_level_req": 486,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Swamp Marshes, resonating with Water energy.",
+      "icon": "icon_relic_swamp_marshes_utility"
+    },
+    {
+      "relic_id": "relic_bamboo_forest_offensive",
+      "display_name": "Relic of the Destroyer — Bamboo Forest",
+      "biome_id": 7,
+      "element": "Earth",
+      "archetype": "offensive",
+      "primary_stat": "atk_pct",
+      "secondary_stats": [
+        "hp_pct",
+        "def_pct"
+      ],
+      "min_level_req": 576,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Bamboo Forest, resonating with Earth energy.",
+      "icon": "icon_relic_bamboo_forest_offensive"
+    },
+    {
+      "relic_id": "relic_bamboo_forest_defensive",
+      "display_name": "Relic of the Guardian — Bamboo Forest",
+      "biome_id": 7,
+      "element": "Earth",
+      "archetype": "defensive",
+      "primary_stat": "def_pct",
+      "secondary_stats": [
+        "hp_pct",
+        "atk_pct"
+      ],
+      "min_level_req": 581,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Bamboo Forest, resonating with Earth energy.",
+      "icon": "icon_relic_bamboo_forest_defensive"
+    },
+    {
+      "relic_id": "relic_bamboo_forest_critical",
+      "display_name": "Relic of the Predator — Bamboo Forest",
+      "biome_id": 7,
+      "element": "Earth",
+      "archetype": "critical",
+      "primary_stat": "crit_rate",
+      "secondary_stats": [
+        "hp_pct",
+        "def_pct"
+      ],
+      "min_level_req": 576,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Bamboo Forest, resonating with Earth energy.",
+      "icon": "icon_relic_bamboo_forest_critical"
+    },
+    {
+      "relic_id": "relic_bamboo_forest_sustain",
+      "display_name": "Relic of Endurance — Bamboo Forest",
+      "biome_id": 7,
+      "element": "Earth",
+      "archetype": "sustain",
+      "primary_stat": "hp_pct",
+      "secondary_stats": [
+        "def_pct",
+        "atk_pct"
+      ],
+      "min_level_req": 581,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "quest",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Bamboo Forest, resonating with Earth energy.",
+      "icon": "icon_relic_bamboo_forest_sustain"
+    },
+    {
+      "relic_id": "relic_bamboo_forest_element",
+      "display_name": "Relic of the Elements — Bamboo Forest",
+      "biome_id": 7,
+      "element": "Earth",
+      "archetype": "element",
+      "primary_stat": "elem_dmg_pct",
+      "secondary_stats": [
+        "hp_pct",
+        "def_pct"
+      ],
+      "min_level_req": 576,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Bamboo Forest, resonating with Earth energy.",
+      "icon": "icon_relic_bamboo_forest_element"
+    },
+    {
+      "relic_id": "relic_bamboo_forest_utility",
+      "display_name": "Relic of the Scholar — Bamboo Forest",
+      "biome_id": 7,
+      "element": "Earth",
+      "archetype": "utility",
+      "primary_stat": "exp_pct",
+      "secondary_stats": [
+        "hp_pct",
+        "def_pct"
+      ],
+      "min_level_req": 581,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Bamboo Forest, resonating with Earth energy.",
+      "icon": "icon_relic_bamboo_forest_utility"
+    },
+    {
+      "relic_id": "relic_volcano_summit_offensive",
+      "display_name": "Relic of the Destroyer — Volcano Summit",
+      "biome_id": 8,
+      "element": "Fire",
+      "archetype": "offensive",
+      "primary_stat": "atk_pct",
+      "secondary_stats": [
+        "crit_rate",
+        "skill_mult"
+      ],
+      "min_level_req": 671,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Volcano Summit, resonating with Fire energy.",
+      "icon": "icon_relic_volcano_summit_offensive"
+    },
+    {
+      "relic_id": "relic_volcano_summit_defensive",
+      "display_name": "Relic of the Guardian — Volcano Summit",
+      "biome_id": 8,
+      "element": "Fire",
+      "archetype": "defensive",
+      "primary_stat": "def_pct",
+      "secondary_stats": [
+        "atk_pct",
+        "crit_rate"
+      ],
+      "min_level_req": 676,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Volcano Summit, resonating with Fire energy.",
+      "icon": "icon_relic_volcano_summit_defensive"
+    },
+    {
+      "relic_id": "relic_volcano_summit_critical",
+      "display_name": "Relic of the Predator — Volcano Summit",
+      "biome_id": 8,
+      "element": "Fire",
+      "archetype": "critical",
+      "primary_stat": "crit_rate",
+      "secondary_stats": [
+        "atk_pct",
+        "skill_mult"
+      ],
+      "min_level_req": 671,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Volcano Summit, resonating with Fire energy.",
+      "icon": "icon_relic_volcano_summit_critical"
+    },
+    {
+      "relic_id": "relic_volcano_summit_sustain",
+      "display_name": "Relic of Endurance — Volcano Summit",
+      "biome_id": 8,
+      "element": "Fire",
+      "archetype": "sustain",
+      "primary_stat": "hp_pct",
+      "secondary_stats": [
+        "atk_pct",
+        "crit_rate"
+      ],
+      "min_level_req": 676,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "quest",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Volcano Summit, resonating with Fire energy.",
+      "icon": "icon_relic_volcano_summit_sustain"
+    },
+    {
+      "relic_id": "relic_volcano_summit_element",
+      "display_name": "Relic of the Elements — Volcano Summit",
+      "biome_id": 8,
+      "element": "Fire",
+      "archetype": "element",
+      "primary_stat": "elem_dmg_pct",
+      "secondary_stats": [
+        "atk_pct",
+        "crit_rate"
+      ],
+      "min_level_req": 671,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Volcano Summit, resonating with Fire energy.",
+      "icon": "icon_relic_volcano_summit_element"
+    },
+    {
+      "relic_id": "relic_volcano_summit_utility",
+      "display_name": "Relic of the Scholar — Volcano Summit",
+      "biome_id": 8,
+      "element": "Fire",
+      "archetype": "utility",
+      "primary_stat": "exp_pct",
+      "secondary_stats": [
+        "atk_pct",
+        "crit_rate"
+      ],
+      "min_level_req": 676,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Volcano Summit, resonating with Fire energy.",
+      "icon": "icon_relic_volcano_summit_utility"
+    },
+    {
+      "relic_id": "relic_sky_archipelago_offensive",
+      "display_name": "Relic of the Destroyer — Sky Archipelago",
+      "biome_id": 9,
+      "element": "Wind",
+      "archetype": "offensive",
+      "primary_stat": "atk_pct",
+      "secondary_stats": [
+        "atk_spd",
+        "crit_dmg"
+      ],
+      "min_level_req": 766,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Sky Archipelago, resonating with Wind energy.",
+      "icon": "icon_relic_sky_archipelago_offensive"
+    },
+    {
+      "relic_id": "relic_sky_archipelago_defensive",
+      "display_name": "Relic of the Guardian — Sky Archipelago",
+      "biome_id": 9,
+      "element": "Wind",
+      "archetype": "defensive",
+      "primary_stat": "def_pct",
+      "secondary_stats": [
+        "atk_spd",
+        "crit_dmg"
+      ],
+      "min_level_req": 771,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Sky Archipelago, resonating with Wind energy.",
+      "icon": "icon_relic_sky_archipelago_defensive"
+    },
+    {
+      "relic_id": "relic_sky_archipelago_critical",
+      "display_name": "Relic of the Predator — Sky Archipelago",
+      "biome_id": 9,
+      "element": "Wind",
+      "archetype": "critical",
+      "primary_stat": "crit_rate",
+      "secondary_stats": [
+        "atk_spd",
+        "crit_dmg"
+      ],
+      "min_level_req": 766,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Sky Archipelago, resonating with Wind energy.",
+      "icon": "icon_relic_sky_archipelago_critical"
+    },
+    {
+      "relic_id": "relic_sky_archipelago_sustain",
+      "display_name": "Relic of Endurance — Sky Archipelago",
+      "biome_id": 9,
+      "element": "Wind",
+      "archetype": "sustain",
+      "primary_stat": "hp_pct",
+      "secondary_stats": [
+        "atk_spd",
+        "crit_dmg"
+      ],
+      "min_level_req": 771,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "quest",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Sky Archipelago, resonating with Wind energy.",
+      "icon": "icon_relic_sky_archipelago_sustain"
+    },
+    {
+      "relic_id": "relic_sky_archipelago_element",
+      "display_name": "Relic of the Elements — Sky Archipelago",
+      "biome_id": 9,
+      "element": "Wind",
+      "archetype": "element",
+      "primary_stat": "elem_dmg_pct",
+      "secondary_stats": [
+        "atk_spd",
+        "crit_dmg"
+      ],
+      "min_level_req": 766,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Sky Archipelago, resonating with Wind energy.",
+      "icon": "icon_relic_sky_archipelago_element"
+    },
+    {
+      "relic_id": "relic_sky_archipelago_utility",
+      "display_name": "Relic of the Scholar — Sky Archipelago",
+      "biome_id": 9,
+      "element": "Wind",
+      "archetype": "utility",
+      "primary_stat": "exp_pct",
+      "secondary_stats": [
+        "atk_spd",
+        "crit_dmg"
+      ],
+      "min_level_req": 771,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Sky Archipelago, resonating with Wind energy.",
+      "icon": "icon_relic_sky_archipelago_utility"
+    },
+    {
+      "relic_id": "relic_frozen_tundra_offensive",
+      "display_name": "Relic of the Destroyer — Frozen Tundra",
+      "biome_id": 10,
+      "element": "Water",
+      "archetype": "offensive",
+      "primary_stat": "atk_pct",
+      "secondary_stats": [
+        "def_pct",
+        "hp_pct"
+      ],
+      "min_level_req": 861,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Frozen Tundra, resonating with Water energy.",
+      "icon": "icon_relic_frozen_tundra_offensive"
+    },
+    {
+      "relic_id": "relic_frozen_tundra_defensive",
+      "display_name": "Relic of the Guardian — Frozen Tundra",
+      "biome_id": 10,
+      "element": "Water",
+      "archetype": "defensive",
+      "primary_stat": "def_pct",
+      "secondary_stats": [
+        "hp_pct",
+        "heal_pct"
+      ],
+      "min_level_req": 866,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Frozen Tundra, resonating with Water energy.",
+      "icon": "icon_relic_frozen_tundra_defensive"
+    },
+    {
+      "relic_id": "relic_frozen_tundra_critical",
+      "display_name": "Relic of the Predator — Frozen Tundra",
+      "biome_id": 10,
+      "element": "Water",
+      "archetype": "critical",
+      "primary_stat": "crit_rate",
+      "secondary_stats": [
+        "def_pct",
+        "hp_pct"
+      ],
+      "min_level_req": 861,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Frozen Tundra, resonating with Water energy.",
+      "icon": "icon_relic_frozen_tundra_critical"
+    },
+    {
+      "relic_id": "relic_frozen_tundra_sustain",
+      "display_name": "Relic of Endurance — Frozen Tundra",
+      "biome_id": 10,
+      "element": "Water",
+      "archetype": "sustain",
+      "primary_stat": "hp_pct",
+      "secondary_stats": [
+        "def_pct",
+        "heal_pct"
+      ],
+      "min_level_req": 866,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "quest",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Frozen Tundra, resonating with Water energy.",
+      "icon": "icon_relic_frozen_tundra_sustain"
+    },
+    {
+      "relic_id": "relic_frozen_tundra_element",
+      "display_name": "Relic of the Elements — Frozen Tundra",
+      "biome_id": 10,
+      "element": "Water",
+      "archetype": "element",
+      "primary_stat": "elem_dmg_pct",
+      "secondary_stats": [
+        "def_pct",
+        "hp_pct"
+      ],
+      "min_level_req": 861,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Frozen Tundra, resonating with Water energy.",
+      "icon": "icon_relic_frozen_tundra_element"
+    },
+    {
+      "relic_id": "relic_frozen_tundra_utility",
+      "display_name": "Relic of the Scholar — Frozen Tundra",
+      "biome_id": 10,
+      "element": "Water",
+      "archetype": "utility",
+      "primary_stat": "exp_pct",
+      "secondary_stats": [
+        "def_pct",
+        "hp_pct"
+      ],
+      "min_level_req": 866,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Frozen Tundra, resonating with Water energy.",
+      "icon": "icon_relic_frozen_tundra_utility"
+    },
+    {
+      "relic_id": "relic_ruined_kingdom_offensive",
+      "display_name": "Relic of the Destroyer — Ruined Kingdom",
+      "biome_id": 11,
+      "element": "Dark",
+      "archetype": "offensive",
+      "primary_stat": "atk_pct",
+      "secondary_stats": [
+        "crit_rate",
+        "dark_dmg_pct"
+      ],
+      "min_level_req": 956,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Ruined Kingdom, resonating with Dark energy.",
+      "icon": "icon_relic_ruined_kingdom_offensive"
+    },
+    {
+      "relic_id": "relic_ruined_kingdom_defensive",
+      "display_name": "Relic of the Guardian — Ruined Kingdom",
+      "biome_id": 11,
+      "element": "Dark",
+      "archetype": "defensive",
+      "primary_stat": "def_pct",
+      "secondary_stats": [
+        "crit_rate",
+        "dark_dmg_pct"
+      ],
+      "min_level_req": 961,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Ruined Kingdom, resonating with Dark energy.",
+      "icon": "icon_relic_ruined_kingdom_defensive"
+    },
+    {
+      "relic_id": "relic_ruined_kingdom_critical",
+      "display_name": "Relic of the Predator — Ruined Kingdom",
+      "biome_id": 11,
+      "element": "Dark",
+      "archetype": "critical",
+      "primary_stat": "crit_rate",
+      "secondary_stats": [
+        "dark_dmg_pct",
+        "lifesteal_pct"
+      ],
+      "min_level_req": 956,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Ruined Kingdom, resonating with Dark energy.",
+      "icon": "icon_relic_ruined_kingdom_critical"
+    },
+    {
+      "relic_id": "relic_ruined_kingdom_sustain",
+      "display_name": "Relic of Endurance — Ruined Kingdom",
+      "biome_id": 11,
+      "element": "Dark",
+      "archetype": "sustain",
+      "primary_stat": "hp_pct",
+      "secondary_stats": [
+        "crit_rate",
+        "dark_dmg_pct"
+      ],
+      "min_level_req": 961,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "quest",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Ruined Kingdom, resonating with Dark energy.",
+      "icon": "icon_relic_ruined_kingdom_sustain"
+    },
+    {
+      "relic_id": "relic_ruined_kingdom_element",
+      "display_name": "Relic of the Elements — Ruined Kingdom",
+      "biome_id": 11,
+      "element": "Dark",
+      "archetype": "element",
+      "primary_stat": "elem_dmg_pct",
+      "secondary_stats": [
+        "crit_rate",
+        "dark_dmg_pct"
+      ],
+      "min_level_req": 956,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Ruined Kingdom, resonating with Dark energy.",
+      "icon": "icon_relic_ruined_kingdom_element"
+    },
+    {
+      "relic_id": "relic_ruined_kingdom_utility",
+      "display_name": "Relic of the Scholar — Ruined Kingdom",
+      "biome_id": 11,
+      "element": "Dark",
+      "archetype": "utility",
+      "primary_stat": "exp_pct",
+      "secondary_stats": [
+        "crit_rate",
+        "dark_dmg_pct"
+      ],
+      "min_level_req": 961,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Ruined Kingdom, resonating with Dark energy.",
+      "icon": "icon_relic_ruined_kingdom_utility"
+    },
+    {
+      "relic_id": "relic_shadow_vale_offensive",
+      "display_name": "Relic of the Destroyer — Shadow Vale",
+      "biome_id": 12,
+      "element": "Dark",
+      "archetype": "offensive",
+      "primary_stat": "atk_pct",
+      "secondary_stats": [
+        "crit_rate",
+        "dark_dmg_pct"
+      ],
+      "min_level_req": 1051,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Shadow Vale, resonating with Dark energy.",
+      "icon": "icon_relic_shadow_vale_offensive"
+    },
+    {
+      "relic_id": "relic_shadow_vale_defensive",
+      "display_name": "Relic of the Guardian — Shadow Vale",
+      "biome_id": 12,
+      "element": "Dark",
+      "archetype": "defensive",
+      "primary_stat": "def_pct",
+      "secondary_stats": [
+        "crit_rate",
+        "dark_dmg_pct"
+      ],
+      "min_level_req": 1056,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Shadow Vale, resonating with Dark energy.",
+      "icon": "icon_relic_shadow_vale_defensive"
+    },
+    {
+      "relic_id": "relic_shadow_vale_critical",
+      "display_name": "Relic of the Predator — Shadow Vale",
+      "biome_id": 12,
+      "element": "Dark",
+      "archetype": "critical",
+      "primary_stat": "crit_rate",
+      "secondary_stats": [
+        "dark_dmg_pct",
+        "lifesteal_pct"
+      ],
+      "min_level_req": 1051,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Shadow Vale, resonating with Dark energy.",
+      "icon": "icon_relic_shadow_vale_critical"
+    },
+    {
+      "relic_id": "relic_shadow_vale_sustain",
+      "display_name": "Relic of Endurance — Shadow Vale",
+      "biome_id": 12,
+      "element": "Dark",
+      "archetype": "sustain",
+      "primary_stat": "hp_pct",
+      "secondary_stats": [
+        "crit_rate",
+        "dark_dmg_pct"
+      ],
+      "min_level_req": 1056,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "quest",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Shadow Vale, resonating with Dark energy.",
+      "icon": "icon_relic_shadow_vale_sustain"
+    },
+    {
+      "relic_id": "relic_shadow_vale_element",
+      "display_name": "Relic of the Elements — Shadow Vale",
+      "biome_id": 12,
+      "element": "Dark",
+      "archetype": "element",
+      "primary_stat": "elem_dmg_pct",
+      "secondary_stats": [
+        "crit_rate",
+        "dark_dmg_pct"
+      ],
+      "min_level_req": 1051,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Shadow Vale, resonating with Dark energy.",
+      "icon": "icon_relic_shadow_vale_element"
+    },
+    {
+      "relic_id": "relic_shadow_vale_utility",
+      "display_name": "Relic of the Scholar — Shadow Vale",
+      "biome_id": 12,
+      "element": "Dark",
+      "archetype": "utility",
+      "primary_stat": "exp_pct",
+      "secondary_stats": [
+        "crit_rate",
+        "dark_dmg_pct"
+      ],
+      "min_level_req": 1056,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Shadow Vale, resonating with Dark energy.",
+      "icon": "icon_relic_shadow_vale_utility"
+    },
+    {
+      "relic_id": "relic_ember_desert_offensive",
+      "display_name": "Relic of the Destroyer — Ember Desert",
+      "biome_id": 13,
+      "element": "Fire",
+      "archetype": "offensive",
+      "primary_stat": "atk_pct",
+      "secondary_stats": [
+        "crit_rate",
+        "skill_mult"
+      ],
+      "min_level_req": 1146,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Ember Desert, resonating with Fire energy.",
+      "icon": "icon_relic_ember_desert_offensive"
+    },
+    {
+      "relic_id": "relic_ember_desert_defensive",
+      "display_name": "Relic of the Guardian — Ember Desert",
+      "biome_id": 13,
+      "element": "Fire",
+      "archetype": "defensive",
+      "primary_stat": "def_pct",
+      "secondary_stats": [
+        "atk_pct",
+        "crit_rate"
+      ],
+      "min_level_req": 1151,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Ember Desert, resonating with Fire energy.",
+      "icon": "icon_relic_ember_desert_defensive"
+    },
+    {
+      "relic_id": "relic_ember_desert_critical",
+      "display_name": "Relic of the Predator — Ember Desert",
+      "biome_id": 13,
+      "element": "Fire",
+      "archetype": "critical",
+      "primary_stat": "crit_rate",
+      "secondary_stats": [
+        "atk_pct",
+        "skill_mult"
+      ],
+      "min_level_req": 1146,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Ember Desert, resonating with Fire energy.",
+      "icon": "icon_relic_ember_desert_critical"
+    },
+    {
+      "relic_id": "relic_ember_desert_sustain",
+      "display_name": "Relic of Endurance — Ember Desert",
+      "biome_id": 13,
+      "element": "Fire",
+      "archetype": "sustain",
+      "primary_stat": "hp_pct",
+      "secondary_stats": [
+        "atk_pct",
+        "crit_rate"
+      ],
+      "min_level_req": 1151,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "quest",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Ember Desert, resonating with Fire energy.",
+      "icon": "icon_relic_ember_desert_sustain"
+    },
+    {
+      "relic_id": "relic_ember_desert_element",
+      "display_name": "Relic of the Elements — Ember Desert",
+      "biome_id": 13,
+      "element": "Fire",
+      "archetype": "element",
+      "primary_stat": "elem_dmg_pct",
+      "secondary_stats": [
+        "atk_pct",
+        "crit_rate"
+      ],
+      "min_level_req": 1146,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Ember Desert, resonating with Fire energy.",
+      "icon": "icon_relic_ember_desert_element"
+    },
+    {
+      "relic_id": "relic_ember_desert_utility",
+      "display_name": "Relic of the Scholar — Ember Desert",
+      "biome_id": 13,
+      "element": "Fire",
+      "archetype": "utility",
+      "primary_stat": "exp_pct",
+      "secondary_stats": [
+        "atk_pct",
+        "crit_rate"
+      ],
+      "min_level_req": 1151,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Ember Desert, resonating with Fire energy.",
+      "icon": "icon_relic_ember_desert_utility"
+    },
+    {
+      "relic_id": "relic_celestial_shrine_offensive",
+      "display_name": "Relic of the Destroyer — Celestial Shrine",
+      "biome_id": 14,
+      "element": "Light",
+      "archetype": "offensive",
+      "primary_stat": "atk_pct",
+      "secondary_stats": [
+        "heal_pct",
+        "light_dmg_pct"
+      ],
+      "min_level_req": 1241,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Celestial Shrine, resonating with Light energy.",
+      "icon": "icon_relic_celestial_shrine_offensive"
+    },
+    {
+      "relic_id": "relic_celestial_shrine_defensive",
+      "display_name": "Relic of the Guardian — Celestial Shrine",
+      "biome_id": 14,
+      "element": "Light",
+      "archetype": "defensive",
+      "primary_stat": "def_pct",
+      "secondary_stats": [
+        "heal_pct",
+        "light_dmg_pct"
+      ],
+      "min_level_req": 1246,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Celestial Shrine, resonating with Light energy.",
+      "icon": "icon_relic_celestial_shrine_defensive"
+    },
+    {
+      "relic_id": "relic_celestial_shrine_critical",
+      "display_name": "Relic of the Predator — Celestial Shrine",
+      "biome_id": 14,
+      "element": "Light",
+      "archetype": "critical",
+      "primary_stat": "crit_rate",
+      "secondary_stats": [
+        "heal_pct",
+        "light_dmg_pct"
+      ],
+      "min_level_req": 1241,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Celestial Shrine, resonating with Light energy.",
+      "icon": "icon_relic_celestial_shrine_critical"
+    },
+    {
+      "relic_id": "relic_celestial_shrine_sustain",
+      "display_name": "Relic of Endurance — Celestial Shrine",
+      "biome_id": 14,
+      "element": "Light",
+      "archetype": "sustain",
+      "primary_stat": "hp_pct",
+      "secondary_stats": [
+        "heal_pct",
+        "light_dmg_pct"
+      ],
+      "min_level_req": 1246,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "quest",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Celestial Shrine, resonating with Light energy.",
+      "icon": "icon_relic_celestial_shrine_sustain"
+    },
+    {
+      "relic_id": "relic_celestial_shrine_element",
+      "display_name": "Relic of the Elements — Celestial Shrine",
+      "biome_id": 14,
+      "element": "Light",
+      "archetype": "element",
+      "primary_stat": "elem_dmg_pct",
+      "secondary_stats": [
+        "heal_pct",
+        "light_dmg_pct"
+      ],
+      "min_level_req": 1241,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Celestial Shrine, resonating with Light energy.",
+      "icon": "icon_relic_celestial_shrine_element"
+    },
+    {
+      "relic_id": "relic_celestial_shrine_utility",
+      "display_name": "Relic of the Scholar — Celestial Shrine",
+      "biome_id": 14,
+      "element": "Light",
+      "archetype": "utility",
+      "primary_stat": "exp_pct",
+      "secondary_stats": [
+        "heal_pct",
+        "light_dmg_pct"
+      ],
+      "min_level_req": 1246,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Celestial Shrine, resonating with Light energy.",
+      "icon": "icon_relic_celestial_shrine_utility"
+    },
+    {
+      "relic_id": "relic_iron_fortress_offensive",
+      "display_name": "Relic of the Destroyer — Iron Fortress",
+      "biome_id": 15,
+      "element": "Earth",
+      "archetype": "offensive",
+      "primary_stat": "atk_pct",
+      "secondary_stats": [
+        "hp_pct",
+        "def_pct"
+      ],
+      "min_level_req": 1336,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Iron Fortress, resonating with Earth energy.",
+      "icon": "icon_relic_iron_fortress_offensive"
+    },
+    {
+      "relic_id": "relic_iron_fortress_defensive",
+      "display_name": "Relic of the Guardian — Iron Fortress",
+      "biome_id": 15,
+      "element": "Earth",
+      "archetype": "defensive",
+      "primary_stat": "def_pct",
+      "secondary_stats": [
+        "hp_pct",
+        "atk_pct"
+      ],
+      "min_level_req": 1341,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Iron Fortress, resonating with Earth energy.",
+      "icon": "icon_relic_iron_fortress_defensive"
+    },
+    {
+      "relic_id": "relic_iron_fortress_critical",
+      "display_name": "Relic of the Predator — Iron Fortress",
+      "biome_id": 15,
+      "element": "Earth",
+      "archetype": "critical",
+      "primary_stat": "crit_rate",
+      "secondary_stats": [
+        "hp_pct",
+        "def_pct"
+      ],
+      "min_level_req": 1336,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Iron Fortress, resonating with Earth energy.",
+      "icon": "icon_relic_iron_fortress_critical"
+    },
+    {
+      "relic_id": "relic_iron_fortress_sustain",
+      "display_name": "Relic of Endurance — Iron Fortress",
+      "biome_id": 15,
+      "element": "Earth",
+      "archetype": "sustain",
+      "primary_stat": "hp_pct",
+      "secondary_stats": [
+        "def_pct",
+        "atk_pct"
+      ],
+      "min_level_req": 1341,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "quest",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Iron Fortress, resonating with Earth energy.",
+      "icon": "icon_relic_iron_fortress_sustain"
+    },
+    {
+      "relic_id": "relic_iron_fortress_element",
+      "display_name": "Relic of the Elements — Iron Fortress",
+      "biome_id": 15,
+      "element": "Earth",
+      "archetype": "element",
+      "primary_stat": "elem_dmg_pct",
+      "secondary_stats": [
+        "hp_pct",
+        "def_pct"
+      ],
+      "min_level_req": 1336,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Iron Fortress, resonating with Earth energy.",
+      "icon": "icon_relic_iron_fortress_element"
+    },
+    {
+      "relic_id": "relic_iron_fortress_utility",
+      "display_name": "Relic of the Scholar — Iron Fortress",
+      "biome_id": 15,
+      "element": "Earth",
+      "archetype": "utility",
+      "primary_stat": "exp_pct",
+      "secondary_stats": [
+        "hp_pct",
+        "def_pct"
+      ],
+      "min_level_req": 1341,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Iron Fortress, resonating with Earth energy.",
+      "icon": "icon_relic_iron_fortress_utility"
+    },
+    {
+      "relic_id": "relic_coral_reef_offensive",
+      "display_name": "Relic of the Destroyer — Coral Reef",
+      "biome_id": 16,
+      "element": "Water",
+      "archetype": "offensive",
+      "primary_stat": "atk_pct",
+      "secondary_stats": [
+        "def_pct",
+        "hp_pct"
+      ],
+      "min_level_req": 1431,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Coral Reef, resonating with Water energy.",
+      "icon": "icon_relic_coral_reef_offensive"
+    },
+    {
+      "relic_id": "relic_coral_reef_defensive",
+      "display_name": "Relic of the Guardian — Coral Reef",
+      "biome_id": 16,
+      "element": "Water",
+      "archetype": "defensive",
+      "primary_stat": "def_pct",
+      "secondary_stats": [
+        "hp_pct",
+        "heal_pct"
+      ],
+      "min_level_req": 1436,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Coral Reef, resonating with Water energy.",
+      "icon": "icon_relic_coral_reef_defensive"
+    },
+    {
+      "relic_id": "relic_coral_reef_critical",
+      "display_name": "Relic of the Predator — Coral Reef",
+      "biome_id": 16,
+      "element": "Water",
+      "archetype": "critical",
+      "primary_stat": "crit_rate",
+      "secondary_stats": [
+        "def_pct",
+        "hp_pct"
+      ],
+      "min_level_req": 1431,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Coral Reef, resonating with Water energy.",
+      "icon": "icon_relic_coral_reef_critical"
+    },
+    {
+      "relic_id": "relic_coral_reef_sustain",
+      "display_name": "Relic of Endurance — Coral Reef",
+      "biome_id": 16,
+      "element": "Water",
+      "archetype": "sustain",
+      "primary_stat": "hp_pct",
+      "secondary_stats": [
+        "def_pct",
+        "heal_pct"
+      ],
+      "min_level_req": 1436,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "quest",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Coral Reef, resonating with Water energy.",
+      "icon": "icon_relic_coral_reef_sustain"
+    },
+    {
+      "relic_id": "relic_coral_reef_element",
+      "display_name": "Relic of the Elements — Coral Reef",
+      "biome_id": 16,
+      "element": "Water",
+      "archetype": "element",
+      "primary_stat": "elem_dmg_pct",
+      "secondary_stats": [
+        "def_pct",
+        "hp_pct"
+      ],
+      "min_level_req": 1431,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Coral Reef, resonating with Water energy.",
+      "icon": "icon_relic_coral_reef_element"
+    },
+    {
+      "relic_id": "relic_coral_reef_utility",
+      "display_name": "Relic of the Scholar — Coral Reef",
+      "biome_id": 16,
+      "element": "Water",
+      "archetype": "utility",
+      "primary_stat": "exp_pct",
+      "secondary_stats": [
+        "def_pct",
+        "hp_pct"
+      ],
+      "min_level_req": 1436,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Coral Reef, resonating with Water energy.",
+      "icon": "icon_relic_coral_reef_utility"
+    },
+    {
+      "relic_id": "relic_abyssal_rift_offensive",
+      "display_name": "Relic of the Destroyer — Abyssal Rift",
+      "biome_id": 17,
+      "element": "Dark",
+      "archetype": "offensive",
+      "primary_stat": "atk_pct",
+      "secondary_stats": [
+        "crit_rate",
+        "dark_dmg_pct"
+      ],
+      "min_level_req": 1526,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Abyssal Rift, resonating with Dark energy.",
+      "icon": "icon_relic_abyssal_rift_offensive"
+    },
+    {
+      "relic_id": "relic_abyssal_rift_defensive",
+      "display_name": "Relic of the Guardian — Abyssal Rift",
+      "biome_id": 17,
+      "element": "Dark",
+      "archetype": "defensive",
+      "primary_stat": "def_pct",
+      "secondary_stats": [
+        "crit_rate",
+        "dark_dmg_pct"
+      ],
+      "min_level_req": 1531,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Abyssal Rift, resonating with Dark energy.",
+      "icon": "icon_relic_abyssal_rift_defensive"
+    },
+    {
+      "relic_id": "relic_abyssal_rift_critical",
+      "display_name": "Relic of the Predator — Abyssal Rift",
+      "biome_id": 17,
+      "element": "Dark",
+      "archetype": "critical",
+      "primary_stat": "crit_rate",
+      "secondary_stats": [
+        "dark_dmg_pct",
+        "lifesteal_pct"
+      ],
+      "min_level_req": 1526,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Abyssal Rift, resonating with Dark energy.",
+      "icon": "icon_relic_abyssal_rift_critical"
+    },
+    {
+      "relic_id": "relic_abyssal_rift_sustain",
+      "display_name": "Relic of Endurance — Abyssal Rift",
+      "biome_id": 17,
+      "element": "Dark",
+      "archetype": "sustain",
+      "primary_stat": "hp_pct",
+      "secondary_stats": [
+        "crit_rate",
+        "dark_dmg_pct"
+      ],
+      "min_level_req": 1531,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "quest",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Abyssal Rift, resonating with Dark energy.",
+      "icon": "icon_relic_abyssal_rift_sustain"
+    },
+    {
+      "relic_id": "relic_abyssal_rift_element",
+      "display_name": "Relic of the Elements — Abyssal Rift",
+      "biome_id": 17,
+      "element": "Dark",
+      "archetype": "element",
+      "primary_stat": "elem_dmg_pct",
+      "secondary_stats": [
+        "crit_rate",
+        "dark_dmg_pct"
+      ],
+      "min_level_req": 1526,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Abyssal Rift, resonating with Dark energy.",
+      "icon": "icon_relic_abyssal_rift_element"
+    },
+    {
+      "relic_id": "relic_abyssal_rift_utility",
+      "display_name": "Relic of the Scholar — Abyssal Rift",
+      "biome_id": 17,
+      "element": "Dark",
+      "archetype": "utility",
+      "primary_stat": "exp_pct",
+      "secondary_stats": [
+        "crit_rate",
+        "dark_dmg_pct"
+      ],
+      "min_level_req": 1531,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Abyssal Rift, resonating with Dark energy.",
+      "icon": "icon_relic_abyssal_rift_utility"
+    },
+    {
+      "relic_id": "relic_phantom_grove_offensive",
+      "display_name": "Relic of the Destroyer — Phantom Grove",
+      "biome_id": 18,
+      "element": "Light",
+      "archetype": "offensive",
+      "primary_stat": "atk_pct",
+      "secondary_stats": [
+        "heal_pct",
+        "light_dmg_pct"
+      ],
+      "min_level_req": 1621,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Phantom Grove, resonating with Light energy.",
+      "icon": "icon_relic_phantom_grove_offensive"
+    },
+    {
+      "relic_id": "relic_phantom_grove_defensive",
+      "display_name": "Relic of the Guardian — Phantom Grove",
+      "biome_id": 18,
+      "element": "Light",
+      "archetype": "defensive",
+      "primary_stat": "def_pct",
+      "secondary_stats": [
+        "heal_pct",
+        "light_dmg_pct"
+      ],
+      "min_level_req": 1626,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Phantom Grove, resonating with Light energy.",
+      "icon": "icon_relic_phantom_grove_defensive"
+    },
+    {
+      "relic_id": "relic_phantom_grove_critical",
+      "display_name": "Relic of the Predator — Phantom Grove",
+      "biome_id": 18,
+      "element": "Light",
+      "archetype": "critical",
+      "primary_stat": "crit_rate",
+      "secondary_stats": [
+        "heal_pct",
+        "light_dmg_pct"
+      ],
+      "min_level_req": 1621,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Phantom Grove, resonating with Light energy.",
+      "icon": "icon_relic_phantom_grove_critical"
+    },
+    {
+      "relic_id": "relic_phantom_grove_sustain",
+      "display_name": "Relic of Endurance — Phantom Grove",
+      "biome_id": 18,
+      "element": "Light",
+      "archetype": "sustain",
+      "primary_stat": "hp_pct",
+      "secondary_stats": [
+        "heal_pct",
+        "light_dmg_pct"
+      ],
+      "min_level_req": 1626,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "quest",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Phantom Grove, resonating with Light energy.",
+      "icon": "icon_relic_phantom_grove_sustain"
+    },
+    {
+      "relic_id": "relic_phantom_grove_element",
+      "display_name": "Relic of the Elements — Phantom Grove",
+      "biome_id": 18,
+      "element": "Light",
+      "archetype": "element",
+      "primary_stat": "elem_dmg_pct",
+      "secondary_stats": [
+        "heal_pct",
+        "light_dmg_pct"
+      ],
+      "min_level_req": 1621,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Phantom Grove, resonating with Light energy.",
+      "icon": "icon_relic_phantom_grove_element"
+    },
+    {
+      "relic_id": "relic_phantom_grove_utility",
+      "display_name": "Relic of the Scholar — Phantom Grove",
+      "biome_id": 18,
+      "element": "Light",
+      "archetype": "utility",
+      "primary_stat": "exp_pct",
+      "secondary_stats": [
+        "heal_pct",
+        "light_dmg_pct"
+      ],
+      "min_level_req": 1626,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Phantom Grove, resonating with Light energy.",
+      "icon": "icon_relic_phantom_grove_utility"
+    },
+    {
+      "relic_id": "relic_lava_maze_offensive",
+      "display_name": "Relic of the Destroyer — Lava Maze",
+      "biome_id": 19,
+      "element": "Fire",
+      "archetype": "offensive",
+      "primary_stat": "atk_pct",
+      "secondary_stats": [
+        "crit_rate",
+        "skill_mult"
+      ],
+      "min_level_req": 1716,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Lava Maze, resonating with Fire energy.",
+      "icon": "icon_relic_lava_maze_offensive"
+    },
+    {
+      "relic_id": "relic_lava_maze_defensive",
+      "display_name": "Relic of the Guardian — Lava Maze",
+      "biome_id": 19,
+      "element": "Fire",
+      "archetype": "defensive",
+      "primary_stat": "def_pct",
+      "secondary_stats": [
+        "atk_pct",
+        "crit_rate"
+      ],
+      "min_level_req": 1721,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Lava Maze, resonating with Fire energy.",
+      "icon": "icon_relic_lava_maze_defensive"
+    },
+    {
+      "relic_id": "relic_lava_maze_critical",
+      "display_name": "Relic of the Predator — Lava Maze",
+      "biome_id": 19,
+      "element": "Fire",
+      "archetype": "critical",
+      "primary_stat": "crit_rate",
+      "secondary_stats": [
+        "atk_pct",
+        "skill_mult"
+      ],
+      "min_level_req": 1716,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Lava Maze, resonating with Fire energy.",
+      "icon": "icon_relic_lava_maze_critical"
+    },
+    {
+      "relic_id": "relic_lava_maze_sustain",
+      "display_name": "Relic of Endurance — Lava Maze",
+      "biome_id": 19,
+      "element": "Fire",
+      "archetype": "sustain",
+      "primary_stat": "hp_pct",
+      "secondary_stats": [
+        "atk_pct",
+        "crit_rate"
+      ],
+      "min_level_req": 1721,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "quest",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Lava Maze, resonating with Fire energy.",
+      "icon": "icon_relic_lava_maze_sustain"
+    },
+    {
+      "relic_id": "relic_lava_maze_element",
+      "display_name": "Relic of the Elements — Lava Maze",
+      "biome_id": 19,
+      "element": "Fire",
+      "archetype": "element",
+      "primary_stat": "elem_dmg_pct",
+      "secondary_stats": [
+        "atk_pct",
+        "crit_rate"
+      ],
+      "min_level_req": 1716,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Lava Maze, resonating with Fire energy.",
+      "icon": "icon_relic_lava_maze_element"
+    },
+    {
+      "relic_id": "relic_lava_maze_utility",
+      "display_name": "Relic of the Scholar — Lava Maze",
+      "biome_id": 19,
+      "element": "Fire",
+      "archetype": "utility",
+      "primary_stat": "exp_pct",
+      "secondary_stats": [
+        "atk_pct",
+        "crit_rate"
+      ],
+      "min_level_req": 1721,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Lava Maze, resonating with Fire energy.",
+      "icon": "icon_relic_lava_maze_utility"
+    },
+    {
+      "relic_id": "relic_sky_citadel_offensive",
+      "display_name": "Relic of the Destroyer — Sky Citadel",
+      "biome_id": 20,
+      "element": "Wind",
+      "archetype": "offensive",
+      "primary_stat": "atk_pct",
+      "secondary_stats": [
+        "atk_spd",
+        "crit_dmg"
+      ],
+      "min_level_req": 1811,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Sky Citadel, resonating with Wind energy.",
+      "icon": "icon_relic_sky_citadel_offensive"
+    },
+    {
+      "relic_id": "relic_sky_citadel_defensive",
+      "display_name": "Relic of the Guardian — Sky Citadel",
+      "biome_id": 20,
+      "element": "Wind",
+      "archetype": "defensive",
+      "primary_stat": "def_pct",
+      "secondary_stats": [
+        "atk_spd",
+        "crit_dmg"
+      ],
+      "min_level_req": 1816,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Sky Citadel, resonating with Wind energy.",
+      "icon": "icon_relic_sky_citadel_defensive"
+    },
+    {
+      "relic_id": "relic_sky_citadel_critical",
+      "display_name": "Relic of the Predator — Sky Citadel",
+      "biome_id": 20,
+      "element": "Wind",
+      "archetype": "critical",
+      "primary_stat": "crit_rate",
+      "secondary_stats": [
+        "atk_spd",
+        "crit_dmg"
+      ],
+      "min_level_req": 1811,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Sky Citadel, resonating with Wind energy.",
+      "icon": "icon_relic_sky_citadel_critical"
+    },
+    {
+      "relic_id": "relic_sky_citadel_sustain",
+      "display_name": "Relic of Endurance — Sky Citadel",
+      "biome_id": 20,
+      "element": "Wind",
+      "archetype": "sustain",
+      "primary_stat": "hp_pct",
+      "secondary_stats": [
+        "atk_spd",
+        "crit_dmg"
+      ],
+      "min_level_req": 1816,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "quest",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Sky Citadel, resonating with Wind energy.",
+      "icon": "icon_relic_sky_citadel_sustain"
+    },
+    {
+      "relic_id": "relic_sky_citadel_element",
+      "display_name": "Relic of the Elements — Sky Citadel",
+      "biome_id": 20,
+      "element": "Wind",
+      "archetype": "element",
+      "primary_stat": "elem_dmg_pct",
+      "secondary_stats": [
+        "atk_spd",
+        "crit_dmg"
+      ],
+      "min_level_req": 1811,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Sky Citadel, resonating with Wind energy.",
+      "icon": "icon_relic_sky_citadel_element"
+    },
+    {
+      "relic_id": "relic_sky_citadel_utility",
+      "display_name": "Relic of the Scholar — Sky Citadel",
+      "biome_id": 20,
+      "element": "Wind",
+      "archetype": "utility",
+      "primary_stat": "exp_pct",
+      "secondary_stats": [
+        "atk_spd",
+        "crit_dmg"
+      ],
+      "min_level_req": 1816,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Sky Citadel, resonating with Wind energy.",
+      "icon": "icon_relic_sky_citadel_utility"
+    },
+    {
+      "relic_id": "relic_void_realm_offensive",
+      "display_name": "Relic of the Destroyer — Void Realm",
+      "biome_id": 21,
+      "element": "Dark",
+      "archetype": "offensive",
+      "primary_stat": "atk_pct",
+      "secondary_stats": [
+        "crit_rate",
+        "dark_dmg_pct"
+      ],
+      "min_level_req": 1906,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Void Realm, resonating with Dark energy.",
+      "icon": "icon_relic_void_realm_offensive"
+    },
+    {
+      "relic_id": "relic_void_realm_defensive",
+      "display_name": "Relic of the Guardian — Void Realm",
+      "biome_id": 21,
+      "element": "Dark",
+      "archetype": "defensive",
+      "primary_stat": "def_pct",
+      "secondary_stats": [
+        "crit_rate",
+        "dark_dmg_pct"
+      ],
+      "min_level_req": 1911,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Void Realm, resonating with Dark energy.",
+      "icon": "icon_relic_void_realm_defensive"
+    },
+    {
+      "relic_id": "relic_void_realm_critical",
+      "display_name": "Relic of the Predator — Void Realm",
+      "biome_id": 21,
+      "element": "Dark",
+      "archetype": "critical",
+      "primary_stat": "crit_rate",
+      "secondary_stats": [
+        "dark_dmg_pct",
+        "lifesteal_pct"
+      ],
+      "min_level_req": 1906,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Void Realm, resonating with Dark energy.",
+      "icon": "icon_relic_void_realm_critical"
+    },
+    {
+      "relic_id": "relic_void_realm_sustain",
+      "display_name": "Relic of Endurance — Void Realm",
+      "biome_id": 21,
+      "element": "Dark",
+      "archetype": "sustain",
+      "primary_stat": "hp_pct",
+      "secondary_stats": [
+        "crit_rate",
+        "dark_dmg_pct"
+      ],
+      "min_level_req": 1911,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "quest",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Void Realm, resonating with Dark energy.",
+      "icon": "icon_relic_void_realm_sustain"
+    },
+    {
+      "relic_id": "relic_void_realm_element",
+      "display_name": "Relic of the Elements — Void Realm",
+      "biome_id": 21,
+      "element": "Dark",
+      "archetype": "element",
+      "primary_stat": "elem_dmg_pct",
+      "secondary_stats": [
+        "crit_rate",
+        "dark_dmg_pct"
+      ],
+      "min_level_req": 1906,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "boss_kill",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Void Realm, resonating with Dark energy.",
+      "icon": "icon_relic_void_realm_element"
+    },
+    {
+      "relic_id": "relic_void_realm_utility",
+      "display_name": "Relic of the Scholar — Void Realm",
+      "biome_id": 21,
+      "element": "Dark",
+      "archetype": "utility",
+      "primary_stat": "exp_pct",
+      "secondary_stats": [
+        "crit_rate",
+        "dark_dmg_pct"
+      ],
+      "min_level_req": 1911,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "collection",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A relic forged in Void Realm, resonating with Dark energy.",
+      "icon": "icon_relic_void_realm_utility"
+    },
+    {
+      "relic_id": "relic_world_ancient_flame",
+      "display_name": "Ancient Flame",
+      "biome_id": 0,
+      "element": "Fire",
+      "archetype": "special",
+      "primary_stat": "atk_pct",
+      "secondary_stats": [],
+      "min_level_req": 1,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "world_drop",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A legendary relic of immense power.",
+      "icon": "icon_relic_world_ancient_flame"
+    },
+    {
+      "relic_id": "relic_world_tidal_heart",
+      "display_name": "Tidal Heart",
+      "biome_id": 0,
+      "element": "Water",
+      "archetype": "special",
+      "primary_stat": "hp_pct",
+      "secondary_stats": [],
+      "min_level_req": 1,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "world_drop",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A legendary relic of immense power.",
+      "icon": "icon_relic_world_tidal_heart"
+    },
+    {
+      "relic_id": "relic_world_stone_of_ages",
+      "display_name": "Stone of Ages",
+      "biome_id": 0,
+      "element": "Earth",
+      "archetype": "special",
+      "primary_stat": "def_pct",
+      "secondary_stats": [],
+      "min_level_req": 1,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "world_drop",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A legendary relic of immense power.",
+      "icon": "icon_relic_world_stone_of_ages"
+    },
+    {
+      "relic_id": "relic_world_tempest_eye",
+      "display_name": "Tempest Eye",
+      "biome_id": 0,
+      "element": "Wind",
+      "archetype": "special",
+      "primary_stat": "crit_dmg",
+      "secondary_stats": [],
+      "min_level_req": 1,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "world_drop",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A legendary relic of immense power.",
+      "icon": "icon_relic_world_tempest_eye"
+    },
+    {
+      "relic_id": "relic_world_radiant_core",
+      "display_name": "Radiant Core",
+      "biome_id": 0,
+      "element": "Light",
+      "archetype": "special",
+      "primary_stat": "heal_pct",
+      "secondary_stats": [],
+      "min_level_req": 1,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "world_drop",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A legendary relic of immense power.",
+      "icon": "icon_relic_world_radiant_core"
+    },
+    {
+      "relic_id": "relic_world_void_shard",
+      "display_name": "Void Shard",
+      "biome_id": 0,
+      "element": "Dark",
+      "archetype": "special",
+      "primary_stat": "lifesteal_pct",
+      "secondary_stats": [],
+      "min_level_req": 1,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "world_drop",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A legendary relic of immense power.",
+      "icon": "icon_relic_world_void_shard"
+    },
+    {
+      "relic_id": "relic_world_balance",
+      "display_name": "Relic of Balance",
+      "biome_id": 0,
+      "element": "Neutral",
+      "archetype": "special",
+      "primary_stat": "all_stat_pct",
+      "secondary_stats": [],
+      "min_level_req": 1,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "world_drop",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A legendary relic of immense power.",
+      "icon": "icon_relic_world_balance"
+    },
+    {
+      "relic_id": "relic_world_time",
+      "display_name": "Shard of Time",
+      "biome_id": 0,
+      "element": "Neutral",
+      "archetype": "special",
+      "primary_stat": "skill_cd_pct",
+      "secondary_stats": [],
+      "min_level_req": 1,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "raid_drop",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A legendary relic of immense power.",
+      "icon": "icon_relic_world_time"
+    },
+    {
+      "relic_id": "relic_world_primordial",
+      "display_name": "Primordial Essence",
+      "biome_id": 0,
+      "element": "Neutral",
+      "archetype": "special",
+      "primary_stat": "power_pct",
+      "secondary_stats": [],
+      "min_level_req": 1,
+      "slot_count": 1,
+      "max_rank": 5,
+      "unlock_condition_type": "tower_100",
+      "rank_table": [
+        {
+          "rank": 1,
+          "primary_stat_bonus": 0.0025,
+          "secondary_stat_bonus": 0.0013,
+          "rank_up_exp_cost": 500
+        },
+        {
+          "rank": 2,
+          "primary_stat_bonus": 0.005,
+          "secondary_stat_bonus": 0.0025,
+          "rank_up_exp_cost": 1000
+        },
+        {
+          "rank": 3,
+          "primary_stat_bonus": 0.0075,
+          "secondary_stat_bonus": 0.0037,
+          "rank_up_exp_cost": 2000
+        },
+        {
+          "rank": 4,
+          "primary_stat_bonus": 0.01,
+          "secondary_stat_bonus": 0.005,
+          "rank_up_exp_cost": 4000
+        },
+        {
+          "rank": 5,
+          "primary_stat_bonus": 0.0125,
+          "secondary_stat_bonus": 0.0063,
+          "rank_up_exp_cost": 0
+        }
+      ],
+      "lore": "A legendary relic of immense power.",
+      "icon": "icon_relic_world_primordial"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "name": "season_db",
+  "count": 8,
+  "rows": [
+    {
+      "id": "season_01",
+      "name": "Slime Awakening",
+      "theme": "ancient",
+      "boss_affix": "Armored+DamageShield",
+      "total_tiers": 50,
+      "duration_days": 90,
+      "reset_type": "soft",
+      "cosmetic_reward": "Exclusive Slime Awakening Mount Skin"
+    },
+    {
+      "id": "season_02",
+      "name": "Frozen Veil",
+      "theme": "ice",
+      "boss_affix": "Berserk+AoEExpand",
+      "total_tiers": 50,
+      "duration_days": 90,
+      "reset_type": "soft",
+      "cosmetic_reward": "Exclusive Frozen Veil Mount Skin"
+    },
+    {
+      "id": "season_03",
+      "name": "Infernal Surge",
+      "theme": "fire",
+      "boss_affix": "Regen+DarkNova",
+      "total_tiers": 50,
+      "duration_days": 90,
+      "reset_type": "soft",
+      "cosmetic_reward": "Exclusive Infernal Surge Mount Skin"
+    },
+    {
+      "id": "season_04",
+      "name": "Celestial Tide",
+      "theme": "celestial",
+      "boss_affix": "Haste+TwinPhase",
+      "total_tiers": 50,
+      "duration_days": 90,
+      "reset_type": "soft",
+      "cosmetic_reward": "Exclusive Celestial Tide Mount Skin"
+    },
+    {
+      "id": "season_05",
+      "name": "Shadow Convergence",
+      "theme": "shadow",
+      "boss_affix": "Reflect+VoidWave",
+      "total_tiers": 50,
+      "duration_days": 90,
+      "reset_type": "soft",
+      "cosmetic_reward": "Exclusive Shadow Convergence Mount Skin"
+    },
+    {
+      "id": "season_06",
+      "name": "Verdant Bloom",
+      "theme": "nature",
+      "boss_affix": "Frozen+MassStun",
+      "total_tiers": 50,
+      "duration_days": 90,
+      "reset_type": "soft",
+      "cosmetic_reward": "Exclusive Verdant Bloom Mount Skin"
+    },
+    {
+      "id": "season_07",
+      "name": "Void Fracture",
+      "theme": "void",
+      "boss_affix": "Flame+DOT",
+      "total_tiers": 50,
+      "duration_days": 90,
+      "reset_type": "soft",
+      "cosmetic_reward": "Exclusive Void Fracture Mount Skin"
+    },
+    {
+      "id": "season_08",
+      "name": "Storm Ascent",
+      "theme": "storm",
+      "boss_affix": "Electro+ChainCC",
+      "total_tiers": 50,
+      "duration_days": 90,
+      "reset_type": "soft",
+      "cosmetic_reward": "Exclusive Storm Ascent Mount Skin"
+    }
+  ]
+}

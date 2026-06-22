@@ -1,0 +1,4794 @@
+{
+  "name": "crafting_db",
+  "count": 219,
+  "rows": [
+    {
+      "id": "craft_0001",
+      "result_item": "equip_helm_01_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 1,
+      "gold_cost": 1000,
+      "ingredients": [
+        {
+          "item_id": "item_0016",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0017",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0018",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 30
+    },
+    {
+      "id": "craft_0002",
+      "result_item": "equip_helm_01_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 1,
+      "gold_cost": 1000,
+      "ingredients": [
+        {
+          "item_id": "item_0016",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0017",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0018",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 30
+    },
+    {
+      "id": "craft_0003",
+      "result_item": "equip_helm_01_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 1,
+      "gold_cost": 1000,
+      "ingredients": [
+        {
+          "item_id": "item_0016",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0017",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0018",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 30
+    },
+    {
+      "id": "craft_0004",
+      "result_item": "equip_chest_01_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 1,
+      "gold_cost": 1000,
+      "ingredients": [
+        {
+          "item_id": "item_0016",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0017",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0018",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 30
+    },
+    {
+      "id": "craft_0005",
+      "result_item": "equip_chest_01_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 1,
+      "gold_cost": 1000,
+      "ingredients": [
+        {
+          "item_id": "item_0016",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0017",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0018",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 30
+    },
+    {
+      "id": "craft_0006",
+      "result_item": "equip_chest_01_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 1,
+      "gold_cost": 1000,
+      "ingredients": [
+        {
+          "item_id": "item_0016",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0017",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0018",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 30
+    },
+    {
+      "id": "craft_0007",
+      "result_item": "equip_weapon_01_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 1,
+      "gold_cost": 1000,
+      "ingredients": [
+        {
+          "item_id": "item_0016",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0017",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0018",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 30
+    },
+    {
+      "id": "craft_0008",
+      "result_item": "equip_weapon_01_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 1,
+      "gold_cost": 1000,
+      "ingredients": [
+        {
+          "item_id": "item_0016",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0017",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0018",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 30
+    },
+    {
+      "id": "craft_0009",
+      "result_item": "equip_weapon_01_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 1,
+      "gold_cost": 1000,
+      "ingredients": [
+        {
+          "item_id": "item_0016",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0017",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0018",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 30
+    },
+    {
+      "id": "craft_0010",
+      "result_item": "equip_pants_01_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 1,
+      "gold_cost": 1000,
+      "ingredients": [
+        {
+          "item_id": "item_0016",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0017",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0018",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 30
+    },
+    {
+      "id": "craft_0011",
+      "result_item": "equip_pants_01_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 1,
+      "gold_cost": 1000,
+      "ingredients": [
+        {
+          "item_id": "item_0016",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0017",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0018",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 30
+    },
+    {
+      "id": "craft_0012",
+      "result_item": "equip_pants_01_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 1,
+      "gold_cost": 1000,
+      "ingredients": [
+        {
+          "item_id": "item_0016",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0017",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0018",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 30
+    },
+    {
+      "id": "craft_0013",
+      "result_item": "equip_boots_01_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 1,
+      "gold_cost": 1000,
+      "ingredients": [
+        {
+          "item_id": "item_0016",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0017",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0018",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 30
+    },
+    {
+      "id": "craft_0014",
+      "result_item": "equip_boots_01_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 1,
+      "gold_cost": 1000,
+      "ingredients": [
+        {
+          "item_id": "item_0016",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0017",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0018",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 30
+    },
+    {
+      "id": "craft_0015",
+      "result_item": "equip_boots_01_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 1,
+      "gold_cost": 1000,
+      "ingredients": [
+        {
+          "item_id": "item_0016",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0017",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0018",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 30
+    },
+    {
+      "id": "craft_0016",
+      "result_item": "equip_helm_02_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 96,
+      "gold_cost": 2000,
+      "ingredients": [
+        {
+          "item_id": "item_0024",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0025",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0026",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 60
+    },
+    {
+      "id": "craft_0017",
+      "result_item": "equip_helm_02_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 96,
+      "gold_cost": 2000,
+      "ingredients": [
+        {
+          "item_id": "item_0024",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0025",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0026",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 60
+    },
+    {
+      "id": "craft_0018",
+      "result_item": "equip_helm_02_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 96,
+      "gold_cost": 2000,
+      "ingredients": [
+        {
+          "item_id": "item_0024",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0025",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0026",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 60
+    },
+    {
+      "id": "craft_0019",
+      "result_item": "equip_chest_02_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 96,
+      "gold_cost": 2000,
+      "ingredients": [
+        {
+          "item_id": "item_0024",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0025",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0026",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 60
+    },
+    {
+      "id": "craft_0020",
+      "result_item": "equip_chest_02_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 96,
+      "gold_cost": 2000,
+      "ingredients": [
+        {
+          "item_id": "item_0024",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0025",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0026",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 60
+    },
+    {
+      "id": "craft_0021",
+      "result_item": "equip_chest_02_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 96,
+      "gold_cost": 2000,
+      "ingredients": [
+        {
+          "item_id": "item_0024",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0025",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0026",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 60
+    },
+    {
+      "id": "craft_0022",
+      "result_item": "equip_weapon_02_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 96,
+      "gold_cost": 2000,
+      "ingredients": [
+        {
+          "item_id": "item_0024",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0025",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0026",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 60
+    },
+    {
+      "id": "craft_0023",
+      "result_item": "equip_weapon_02_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 96,
+      "gold_cost": 2000,
+      "ingredients": [
+        {
+          "item_id": "item_0024",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0025",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0026",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 60
+    },
+    {
+      "id": "craft_0024",
+      "result_item": "equip_weapon_02_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 96,
+      "gold_cost": 2000,
+      "ingredients": [
+        {
+          "item_id": "item_0024",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0025",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0026",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 60
+    },
+    {
+      "id": "craft_0025",
+      "result_item": "equip_pants_02_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 96,
+      "gold_cost": 2000,
+      "ingredients": [
+        {
+          "item_id": "item_0024",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0025",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0026",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 60
+    },
+    {
+      "id": "craft_0026",
+      "result_item": "equip_pants_02_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 96,
+      "gold_cost": 2000,
+      "ingredients": [
+        {
+          "item_id": "item_0024",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0025",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0026",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 60
+    },
+    {
+      "id": "craft_0027",
+      "result_item": "equip_pants_02_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 96,
+      "gold_cost": 2000,
+      "ingredients": [
+        {
+          "item_id": "item_0024",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0025",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0026",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 60
+    },
+    {
+      "id": "craft_0028",
+      "result_item": "equip_boots_02_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 96,
+      "gold_cost": 2000,
+      "ingredients": [
+        {
+          "item_id": "item_0024",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0025",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0026",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 60
+    },
+    {
+      "id": "craft_0029",
+      "result_item": "equip_boots_02_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 96,
+      "gold_cost": 2000,
+      "ingredients": [
+        {
+          "item_id": "item_0024",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0025",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0026",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 60
+    },
+    {
+      "id": "craft_0030",
+      "result_item": "equip_boots_02_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 96,
+      "gold_cost": 2000,
+      "ingredients": [
+        {
+          "item_id": "item_0024",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0025",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0026",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 60
+    },
+    {
+      "id": "craft_0031",
+      "result_item": "equip_helm_03_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 191,
+      "gold_cost": 3000,
+      "ingredients": [
+        {
+          "item_id": "item_0032",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0033",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0034",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 90
+    },
+    {
+      "id": "craft_0032",
+      "result_item": "equip_helm_03_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 191,
+      "gold_cost": 3000,
+      "ingredients": [
+        {
+          "item_id": "item_0032",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0033",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0034",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 90
+    },
+    {
+      "id": "craft_0033",
+      "result_item": "equip_helm_03_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 191,
+      "gold_cost": 3000,
+      "ingredients": [
+        {
+          "item_id": "item_0032",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0033",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0034",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 90
+    },
+    {
+      "id": "craft_0034",
+      "result_item": "equip_chest_03_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 191,
+      "gold_cost": 3000,
+      "ingredients": [
+        {
+          "item_id": "item_0032",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0033",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0034",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 90
+    },
+    {
+      "id": "craft_0035",
+      "result_item": "equip_chest_03_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 191,
+      "gold_cost": 3000,
+      "ingredients": [
+        {
+          "item_id": "item_0032",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0033",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0034",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 90
+    },
+    {
+      "id": "craft_0036",
+      "result_item": "equip_chest_03_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 191,
+      "gold_cost": 3000,
+      "ingredients": [
+        {
+          "item_id": "item_0032",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0033",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0034",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 90
+    },
+    {
+      "id": "craft_0037",
+      "result_item": "equip_weapon_03_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 191,
+      "gold_cost": 3000,
+      "ingredients": [
+        {
+          "item_id": "item_0032",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0033",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0034",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 90
+    },
+    {
+      "id": "craft_0038",
+      "result_item": "equip_weapon_03_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 191,
+      "gold_cost": 3000,
+      "ingredients": [
+        {
+          "item_id": "item_0032",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0033",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0034",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 90
+    },
+    {
+      "id": "craft_0039",
+      "result_item": "equip_weapon_03_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 191,
+      "gold_cost": 3000,
+      "ingredients": [
+        {
+          "item_id": "item_0032",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0033",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0034",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 90
+    },
+    {
+      "id": "craft_0040",
+      "result_item": "equip_pants_03_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 191,
+      "gold_cost": 3000,
+      "ingredients": [
+        {
+          "item_id": "item_0032",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0033",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0034",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 90
+    },
+    {
+      "id": "craft_0041",
+      "result_item": "equip_pants_03_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 191,
+      "gold_cost": 3000,
+      "ingredients": [
+        {
+          "item_id": "item_0032",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0033",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0034",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 90
+    },
+    {
+      "id": "craft_0042",
+      "result_item": "equip_pants_03_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 191,
+      "gold_cost": 3000,
+      "ingredients": [
+        {
+          "item_id": "item_0032",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0033",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0034",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 90
+    },
+    {
+      "id": "craft_0043",
+      "result_item": "equip_boots_03_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 191,
+      "gold_cost": 3000,
+      "ingredients": [
+        {
+          "item_id": "item_0032",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0033",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0034",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 90
+    },
+    {
+      "id": "craft_0044",
+      "result_item": "equip_boots_03_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 191,
+      "gold_cost": 3000,
+      "ingredients": [
+        {
+          "item_id": "item_0032",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0033",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0034",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 90
+    },
+    {
+      "id": "craft_0045",
+      "result_item": "equip_boots_03_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 191,
+      "gold_cost": 3000,
+      "ingredients": [
+        {
+          "item_id": "item_0032",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0033",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0034",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 90
+    },
+    {
+      "id": "craft_0046",
+      "result_item": "equip_helm_04_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 286,
+      "gold_cost": 4000,
+      "ingredients": [
+        {
+          "item_id": "item_0040",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0041",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0042",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 120
+    },
+    {
+      "id": "craft_0047",
+      "result_item": "equip_helm_04_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 286,
+      "gold_cost": 4000,
+      "ingredients": [
+        {
+          "item_id": "item_0040",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0041",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0042",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 120
+    },
+    {
+      "id": "craft_0048",
+      "result_item": "equip_helm_04_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 286,
+      "gold_cost": 4000,
+      "ingredients": [
+        {
+          "item_id": "item_0040",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0041",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0042",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 120
+    },
+    {
+      "id": "craft_0049",
+      "result_item": "equip_chest_04_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 286,
+      "gold_cost": 4000,
+      "ingredients": [
+        {
+          "item_id": "item_0040",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0041",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0042",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 120
+    },
+    {
+      "id": "craft_0050",
+      "result_item": "equip_chest_04_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 286,
+      "gold_cost": 4000,
+      "ingredients": [
+        {
+          "item_id": "item_0040",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0041",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0042",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 120
+    },
+    {
+      "id": "craft_0051",
+      "result_item": "equip_chest_04_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 286,
+      "gold_cost": 4000,
+      "ingredients": [
+        {
+          "item_id": "item_0040",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0041",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0042",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 120
+    },
+    {
+      "id": "craft_0052",
+      "result_item": "equip_weapon_04_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 286,
+      "gold_cost": 4000,
+      "ingredients": [
+        {
+          "item_id": "item_0040",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0041",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0042",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 120
+    },
+    {
+      "id": "craft_0053",
+      "result_item": "equip_weapon_04_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 286,
+      "gold_cost": 4000,
+      "ingredients": [
+        {
+          "item_id": "item_0040",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0041",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0042",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 120
+    },
+    {
+      "id": "craft_0054",
+      "result_item": "equip_weapon_04_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 286,
+      "gold_cost": 4000,
+      "ingredients": [
+        {
+          "item_id": "item_0040",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0041",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0042",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 120
+    },
+    {
+      "id": "craft_0055",
+      "result_item": "equip_pants_04_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 286,
+      "gold_cost": 4000,
+      "ingredients": [
+        {
+          "item_id": "item_0040",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0041",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0042",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 120
+    },
+    {
+      "id": "craft_0056",
+      "result_item": "equip_pants_04_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 286,
+      "gold_cost": 4000,
+      "ingredients": [
+        {
+          "item_id": "item_0040",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0041",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0042",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 120
+    },
+    {
+      "id": "craft_0057",
+      "result_item": "equip_pants_04_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 286,
+      "gold_cost": 4000,
+      "ingredients": [
+        {
+          "item_id": "item_0040",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0041",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0042",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 120
+    },
+    {
+      "id": "craft_0058",
+      "result_item": "equip_boots_04_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 286,
+      "gold_cost": 4000,
+      "ingredients": [
+        {
+          "item_id": "item_0040",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0041",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0042",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 120
+    },
+    {
+      "id": "craft_0059",
+      "result_item": "equip_boots_04_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 286,
+      "gold_cost": 4000,
+      "ingredients": [
+        {
+          "item_id": "item_0040",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0041",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0042",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 120
+    },
+    {
+      "id": "craft_0060",
+      "result_item": "equip_boots_04_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 286,
+      "gold_cost": 4000,
+      "ingredients": [
+        {
+          "item_id": "item_0040",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0041",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0042",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 120
+    },
+    {
+      "id": "craft_0061",
+      "result_item": "equip_helm_05_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 381,
+      "gold_cost": 5000,
+      "ingredients": [
+        {
+          "item_id": "item_0048",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0049",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0050",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 150
+    },
+    {
+      "id": "craft_0062",
+      "result_item": "equip_helm_05_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 381,
+      "gold_cost": 5000,
+      "ingredients": [
+        {
+          "item_id": "item_0048",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0049",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0050",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 150
+    },
+    {
+      "id": "craft_0063",
+      "result_item": "equip_helm_05_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 381,
+      "gold_cost": 5000,
+      "ingredients": [
+        {
+          "item_id": "item_0048",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0049",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0050",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 150
+    },
+    {
+      "id": "craft_0064",
+      "result_item": "equip_chest_05_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 381,
+      "gold_cost": 5000,
+      "ingredients": [
+        {
+          "item_id": "item_0048",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0049",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0050",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 150
+    },
+    {
+      "id": "craft_0065",
+      "result_item": "equip_chest_05_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 381,
+      "gold_cost": 5000,
+      "ingredients": [
+        {
+          "item_id": "item_0048",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0049",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0050",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 150
+    },
+    {
+      "id": "craft_0066",
+      "result_item": "equip_chest_05_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 381,
+      "gold_cost": 5000,
+      "ingredients": [
+        {
+          "item_id": "item_0048",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0049",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0050",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 150
+    },
+    {
+      "id": "craft_0067",
+      "result_item": "equip_weapon_05_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 381,
+      "gold_cost": 5000,
+      "ingredients": [
+        {
+          "item_id": "item_0048",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0049",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0050",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 150
+    },
+    {
+      "id": "craft_0068",
+      "result_item": "equip_weapon_05_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 381,
+      "gold_cost": 5000,
+      "ingredients": [
+        {
+          "item_id": "item_0048",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0049",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0050",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 150
+    },
+    {
+      "id": "craft_0069",
+      "result_item": "equip_weapon_05_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 381,
+      "gold_cost": 5000,
+      "ingredients": [
+        {
+          "item_id": "item_0048",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0049",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0050",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 150
+    },
+    {
+      "id": "craft_0070",
+      "result_item": "equip_pants_05_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 381,
+      "gold_cost": 5000,
+      "ingredients": [
+        {
+          "item_id": "item_0048",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0049",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0050",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 150
+    },
+    {
+      "id": "craft_0071",
+      "result_item": "equip_pants_05_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 381,
+      "gold_cost": 5000,
+      "ingredients": [
+        {
+          "item_id": "item_0048",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0049",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0050",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 150
+    },
+    {
+      "id": "craft_0072",
+      "result_item": "equip_pants_05_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 381,
+      "gold_cost": 5000,
+      "ingredients": [
+        {
+          "item_id": "item_0048",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0049",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0050",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 150
+    },
+    {
+      "id": "craft_0073",
+      "result_item": "equip_boots_05_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 381,
+      "gold_cost": 5000,
+      "ingredients": [
+        {
+          "item_id": "item_0048",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0049",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0050",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 150
+    },
+    {
+      "id": "craft_0074",
+      "result_item": "equip_boots_05_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 381,
+      "gold_cost": 5000,
+      "ingredients": [
+        {
+          "item_id": "item_0048",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0049",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0050",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 150
+    },
+    {
+      "id": "craft_0075",
+      "result_item": "equip_boots_05_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 381,
+      "gold_cost": 5000,
+      "ingredients": [
+        {
+          "item_id": "item_0048",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0049",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0050",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 150
+    },
+    {
+      "id": "craft_0076",
+      "result_item": "equip_helm_06_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 476,
+      "gold_cost": 6000,
+      "ingredients": [
+        {
+          "item_id": "item_0056",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0057",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0058",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 180
+    },
+    {
+      "id": "craft_0077",
+      "result_item": "equip_helm_06_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 476,
+      "gold_cost": 6000,
+      "ingredients": [
+        {
+          "item_id": "item_0056",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0057",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0058",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 180
+    },
+    {
+      "id": "craft_0078",
+      "result_item": "equip_helm_06_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 476,
+      "gold_cost": 6000,
+      "ingredients": [
+        {
+          "item_id": "item_0056",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0057",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0058",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 180
+    },
+    {
+      "id": "craft_0079",
+      "result_item": "equip_chest_06_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 476,
+      "gold_cost": 6000,
+      "ingredients": [
+        {
+          "item_id": "item_0056",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0057",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0058",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 180
+    },
+    {
+      "id": "craft_0080",
+      "result_item": "equip_chest_06_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 476,
+      "gold_cost": 6000,
+      "ingredients": [
+        {
+          "item_id": "item_0056",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0057",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0058",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 180
+    },
+    {
+      "id": "craft_0081",
+      "result_item": "equip_chest_06_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 476,
+      "gold_cost": 6000,
+      "ingredients": [
+        {
+          "item_id": "item_0056",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0057",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0058",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 180
+    },
+    {
+      "id": "craft_0082",
+      "result_item": "equip_weapon_06_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 476,
+      "gold_cost": 6000,
+      "ingredients": [
+        {
+          "item_id": "item_0056",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0057",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0058",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 180
+    },
+    {
+      "id": "craft_0083",
+      "result_item": "equip_weapon_06_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 476,
+      "gold_cost": 6000,
+      "ingredients": [
+        {
+          "item_id": "item_0056",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0057",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0058",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 180
+    },
+    {
+      "id": "craft_0084",
+      "result_item": "equip_weapon_06_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 476,
+      "gold_cost": 6000,
+      "ingredients": [
+        {
+          "item_id": "item_0056",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0057",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0058",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 180
+    },
+    {
+      "id": "craft_0085",
+      "result_item": "equip_pants_06_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 476,
+      "gold_cost": 6000,
+      "ingredients": [
+        {
+          "item_id": "item_0056",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0057",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0058",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 180
+    },
+    {
+      "id": "craft_0086",
+      "result_item": "equip_pants_06_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 476,
+      "gold_cost": 6000,
+      "ingredients": [
+        {
+          "item_id": "item_0056",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0057",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0058",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 180
+    },
+    {
+      "id": "craft_0087",
+      "result_item": "equip_pants_06_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 476,
+      "gold_cost": 6000,
+      "ingredients": [
+        {
+          "item_id": "item_0056",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0057",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0058",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 180
+    },
+    {
+      "id": "craft_0088",
+      "result_item": "equip_boots_06_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 476,
+      "gold_cost": 6000,
+      "ingredients": [
+        {
+          "item_id": "item_0056",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0057",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0058",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 180
+    },
+    {
+      "id": "craft_0089",
+      "result_item": "equip_boots_06_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 476,
+      "gold_cost": 6000,
+      "ingredients": [
+        {
+          "item_id": "item_0056",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0057",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0058",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 180
+    },
+    {
+      "id": "craft_0090",
+      "result_item": "equip_boots_06_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 476,
+      "gold_cost": 6000,
+      "ingredients": [
+        {
+          "item_id": "item_0056",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0057",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0058",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 180
+    },
+    {
+      "id": "craft_0091",
+      "result_item": "equip_helm_07_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 571,
+      "gold_cost": 7000,
+      "ingredients": [
+        {
+          "item_id": "item_0064",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0065",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0066",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 210
+    },
+    {
+      "id": "craft_0092",
+      "result_item": "equip_helm_07_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 571,
+      "gold_cost": 7000,
+      "ingredients": [
+        {
+          "item_id": "item_0064",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0065",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0066",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 210
+    },
+    {
+      "id": "craft_0093",
+      "result_item": "equip_helm_07_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 571,
+      "gold_cost": 7000,
+      "ingredients": [
+        {
+          "item_id": "item_0064",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0065",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0066",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 210
+    },
+    {
+      "id": "craft_0094",
+      "result_item": "equip_chest_07_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 571,
+      "gold_cost": 7000,
+      "ingredients": [
+        {
+          "item_id": "item_0064",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0065",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0066",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 210
+    },
+    {
+      "id": "craft_0095",
+      "result_item": "equip_chest_07_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 571,
+      "gold_cost": 7000,
+      "ingredients": [
+        {
+          "item_id": "item_0064",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0065",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0066",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 210
+    },
+    {
+      "id": "craft_0096",
+      "result_item": "equip_chest_07_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 571,
+      "gold_cost": 7000,
+      "ingredients": [
+        {
+          "item_id": "item_0064",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0065",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0066",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 210
+    },
+    {
+      "id": "craft_0097",
+      "result_item": "equip_weapon_07_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 571,
+      "gold_cost": 7000,
+      "ingredients": [
+        {
+          "item_id": "item_0064",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0065",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0066",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 210
+    },
+    {
+      "id": "craft_0098",
+      "result_item": "equip_weapon_07_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 571,
+      "gold_cost": 7000,
+      "ingredients": [
+        {
+          "item_id": "item_0064",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0065",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0066",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 210
+    },
+    {
+      "id": "craft_0099",
+      "result_item": "equip_weapon_07_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 571,
+      "gold_cost": 7000,
+      "ingredients": [
+        {
+          "item_id": "item_0064",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0065",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0066",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 210
+    },
+    {
+      "id": "craft_0100",
+      "result_item": "equip_pants_07_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 571,
+      "gold_cost": 7000,
+      "ingredients": [
+        {
+          "item_id": "item_0064",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0065",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0066",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 210
+    },
+    {
+      "id": "craft_0101",
+      "result_item": "equip_pants_07_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 571,
+      "gold_cost": 7000,
+      "ingredients": [
+        {
+          "item_id": "item_0064",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0065",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0066",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 210
+    },
+    {
+      "id": "craft_0102",
+      "result_item": "equip_pants_07_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 571,
+      "gold_cost": 7000,
+      "ingredients": [
+        {
+          "item_id": "item_0064",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0065",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0066",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 210
+    },
+    {
+      "id": "craft_0103",
+      "result_item": "equip_boots_07_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 571,
+      "gold_cost": 7000,
+      "ingredients": [
+        {
+          "item_id": "item_0064",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0065",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0066",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 210
+    },
+    {
+      "id": "craft_0104",
+      "result_item": "equip_boots_07_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 571,
+      "gold_cost": 7000,
+      "ingredients": [
+        {
+          "item_id": "item_0064",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0065",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0066",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 210
+    },
+    {
+      "id": "craft_0105",
+      "result_item": "equip_boots_07_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 571,
+      "gold_cost": 7000,
+      "ingredients": [
+        {
+          "item_id": "item_0064",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0065",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0066",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 210
+    },
+    {
+      "id": "craft_0106",
+      "result_item": "equip_helm_08_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 666,
+      "gold_cost": 8000,
+      "ingredients": [
+        {
+          "item_id": "item_0072",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0073",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0074",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 240
+    },
+    {
+      "id": "craft_0107",
+      "result_item": "equip_helm_08_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 666,
+      "gold_cost": 8000,
+      "ingredients": [
+        {
+          "item_id": "item_0072",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0073",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0074",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 240
+    },
+    {
+      "id": "craft_0108",
+      "result_item": "equip_helm_08_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 666,
+      "gold_cost": 8000,
+      "ingredients": [
+        {
+          "item_id": "item_0072",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0073",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0074",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 240
+    },
+    {
+      "id": "craft_0109",
+      "result_item": "equip_chest_08_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 666,
+      "gold_cost": 8000,
+      "ingredients": [
+        {
+          "item_id": "item_0072",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0073",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0074",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 240
+    },
+    {
+      "id": "craft_0110",
+      "result_item": "equip_chest_08_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 666,
+      "gold_cost": 8000,
+      "ingredients": [
+        {
+          "item_id": "item_0072",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0073",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0074",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 240
+    },
+    {
+      "id": "craft_0111",
+      "result_item": "equip_chest_08_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 666,
+      "gold_cost": 8000,
+      "ingredients": [
+        {
+          "item_id": "item_0072",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0073",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0074",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 240
+    },
+    {
+      "id": "craft_0112",
+      "result_item": "equip_weapon_08_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 666,
+      "gold_cost": 8000,
+      "ingredients": [
+        {
+          "item_id": "item_0072",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0073",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0074",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 240
+    },
+    {
+      "id": "craft_0113",
+      "result_item": "equip_weapon_08_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 666,
+      "gold_cost": 8000,
+      "ingredients": [
+        {
+          "item_id": "item_0072",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0073",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0074",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 240
+    },
+    {
+      "id": "craft_0114",
+      "result_item": "equip_weapon_08_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 666,
+      "gold_cost": 8000,
+      "ingredients": [
+        {
+          "item_id": "item_0072",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0073",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0074",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 240
+    },
+    {
+      "id": "craft_0115",
+      "result_item": "equip_pants_08_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 666,
+      "gold_cost": 8000,
+      "ingredients": [
+        {
+          "item_id": "item_0072",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0073",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0074",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 240
+    },
+    {
+      "id": "craft_0116",
+      "result_item": "equip_pants_08_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 666,
+      "gold_cost": 8000,
+      "ingredients": [
+        {
+          "item_id": "item_0072",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0073",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0074",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 240
+    },
+    {
+      "id": "craft_0117",
+      "result_item": "equip_pants_08_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 666,
+      "gold_cost": 8000,
+      "ingredients": [
+        {
+          "item_id": "item_0072",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0073",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0074",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 240
+    },
+    {
+      "id": "craft_0118",
+      "result_item": "equip_boots_08_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 666,
+      "gold_cost": 8000,
+      "ingredients": [
+        {
+          "item_id": "item_0072",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0073",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0074",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 240
+    },
+    {
+      "id": "craft_0119",
+      "result_item": "equip_boots_08_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 666,
+      "gold_cost": 8000,
+      "ingredients": [
+        {
+          "item_id": "item_0072",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0073",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0074",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 240
+    },
+    {
+      "id": "craft_0120",
+      "result_item": "equip_boots_08_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 666,
+      "gold_cost": 8000,
+      "ingredients": [
+        {
+          "item_id": "item_0072",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0073",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0074",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 240
+    },
+    {
+      "id": "craft_0121",
+      "result_item": "equip_helm_09_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 761,
+      "gold_cost": 9000,
+      "ingredients": [
+        {
+          "item_id": "item_0080",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0081",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0082",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 270
+    },
+    {
+      "id": "craft_0122",
+      "result_item": "equip_helm_09_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 761,
+      "gold_cost": 9000,
+      "ingredients": [
+        {
+          "item_id": "item_0080",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0081",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0082",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 270
+    },
+    {
+      "id": "craft_0123",
+      "result_item": "equip_helm_09_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 761,
+      "gold_cost": 9000,
+      "ingredients": [
+        {
+          "item_id": "item_0080",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0081",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0082",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 270
+    },
+    {
+      "id": "craft_0124",
+      "result_item": "equip_chest_09_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 761,
+      "gold_cost": 9000,
+      "ingredients": [
+        {
+          "item_id": "item_0080",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0081",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0082",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 270
+    },
+    {
+      "id": "craft_0125",
+      "result_item": "equip_chest_09_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 761,
+      "gold_cost": 9000,
+      "ingredients": [
+        {
+          "item_id": "item_0080",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0081",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0082",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 270
+    },
+    {
+      "id": "craft_0126",
+      "result_item": "equip_chest_09_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 761,
+      "gold_cost": 9000,
+      "ingredients": [
+        {
+          "item_id": "item_0080",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0081",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0082",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 270
+    },
+    {
+      "id": "craft_0127",
+      "result_item": "equip_weapon_09_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 761,
+      "gold_cost": 9000,
+      "ingredients": [
+        {
+          "item_id": "item_0080",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0081",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0082",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 270
+    },
+    {
+      "id": "craft_0128",
+      "result_item": "equip_weapon_09_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 761,
+      "gold_cost": 9000,
+      "ingredients": [
+        {
+          "item_id": "item_0080",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0081",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0082",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 270
+    },
+    {
+      "id": "craft_0129",
+      "result_item": "equip_weapon_09_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 761,
+      "gold_cost": 9000,
+      "ingredients": [
+        {
+          "item_id": "item_0080",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0081",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0082",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 270
+    },
+    {
+      "id": "craft_0130",
+      "result_item": "equip_pants_09_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 761,
+      "gold_cost": 9000,
+      "ingredients": [
+        {
+          "item_id": "item_0080",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0081",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0082",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 270
+    },
+    {
+      "id": "craft_0131",
+      "result_item": "equip_pants_09_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 761,
+      "gold_cost": 9000,
+      "ingredients": [
+        {
+          "item_id": "item_0080",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0081",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0082",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 270
+    },
+    {
+      "id": "craft_0132",
+      "result_item": "equip_pants_09_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 761,
+      "gold_cost": 9000,
+      "ingredients": [
+        {
+          "item_id": "item_0080",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0081",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0082",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 270
+    },
+    {
+      "id": "craft_0133",
+      "result_item": "equip_boots_09_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 761,
+      "gold_cost": 9000,
+      "ingredients": [
+        {
+          "item_id": "item_0080",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0081",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0082",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 270
+    },
+    {
+      "id": "craft_0134",
+      "result_item": "equip_boots_09_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 761,
+      "gold_cost": 9000,
+      "ingredients": [
+        {
+          "item_id": "item_0080",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0081",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0082",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 270
+    },
+    {
+      "id": "craft_0135",
+      "result_item": "equip_boots_09_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 761,
+      "gold_cost": 9000,
+      "ingredients": [
+        {
+          "item_id": "item_0080",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0081",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0082",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 270
+    },
+    {
+      "id": "craft_0136",
+      "result_item": "equip_helm_10_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 856,
+      "gold_cost": 10000,
+      "ingredients": [
+        {
+          "item_id": "item_0088",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0089",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0090",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 300
+    },
+    {
+      "id": "craft_0137",
+      "result_item": "equip_helm_10_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 856,
+      "gold_cost": 10000,
+      "ingredients": [
+        {
+          "item_id": "item_0088",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0089",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0090",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 300
+    },
+    {
+      "id": "craft_0138",
+      "result_item": "equip_helm_10_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 856,
+      "gold_cost": 10000,
+      "ingredients": [
+        {
+          "item_id": "item_0088",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0089",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0090",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 300
+    },
+    {
+      "id": "craft_0139",
+      "result_item": "equip_chest_10_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 856,
+      "gold_cost": 10000,
+      "ingredients": [
+        {
+          "item_id": "item_0088",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0089",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0090",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 300
+    },
+    {
+      "id": "craft_0140",
+      "result_item": "equip_chest_10_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 856,
+      "gold_cost": 10000,
+      "ingredients": [
+        {
+          "item_id": "item_0088",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0089",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0090",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 300
+    },
+    {
+      "id": "craft_0141",
+      "result_item": "equip_chest_10_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 856,
+      "gold_cost": 10000,
+      "ingredients": [
+        {
+          "item_id": "item_0088",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0089",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0090",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 300
+    },
+    {
+      "id": "craft_0142",
+      "result_item": "equip_weapon_10_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 856,
+      "gold_cost": 10000,
+      "ingredients": [
+        {
+          "item_id": "item_0088",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0089",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0090",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 300
+    },
+    {
+      "id": "craft_0143",
+      "result_item": "equip_weapon_10_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 856,
+      "gold_cost": 10000,
+      "ingredients": [
+        {
+          "item_id": "item_0088",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0089",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0090",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 300
+    },
+    {
+      "id": "craft_0144",
+      "result_item": "equip_weapon_10_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 856,
+      "gold_cost": 10000,
+      "ingredients": [
+        {
+          "item_id": "item_0088",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0089",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0090",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 300
+    },
+    {
+      "id": "craft_0145",
+      "result_item": "equip_pants_10_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 856,
+      "gold_cost": 10000,
+      "ingredients": [
+        {
+          "item_id": "item_0088",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0089",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0090",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 300
+    },
+    {
+      "id": "craft_0146",
+      "result_item": "equip_pants_10_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 856,
+      "gold_cost": 10000,
+      "ingredients": [
+        {
+          "item_id": "item_0088",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0089",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0090",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 300
+    },
+    {
+      "id": "craft_0147",
+      "result_item": "equip_pants_10_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 856,
+      "gold_cost": 10000,
+      "ingredients": [
+        {
+          "item_id": "item_0088",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0089",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0090",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 300
+    },
+    {
+      "id": "craft_0148",
+      "result_item": "equip_boots_10_war",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 856,
+      "gold_cost": 10000,
+      "ingredients": [
+        {
+          "item_id": "item_0088",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0089",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0090",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 300
+    },
+    {
+      "id": "craft_0149",
+      "result_item": "equip_boots_10_mag",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 856,
+      "gold_cost": 10000,
+      "ingredients": [
+        {
+          "item_id": "item_0088",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0089",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0090",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 300
+    },
+    {
+      "id": "craft_0150",
+      "result_item": "equip_boots_10_ran",
+      "result_qty": 1,
+      "type": "Equipment",
+      "level_req": 856,
+      "gold_cost": 10000,
+      "ingredients": [
+        {
+          "item_id": "item_0088",
+          "qty": 3
+        },
+        {
+          "item_id": "item_0089",
+          "qty": 2
+        },
+        {
+          "item_id": "item_0090",
+          "qty": 1
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 300
+    },
+    {
+      "id": "craft_0151",
+      "result_item": "equip_upgrade_t01",
+      "result_qty": 1,
+      "type": "Upgrade",
+      "level_req": 80,
+      "gold_cost": 5000,
+      "ingredients": [
+        {
+          "item_id": "item_0019",
+          "qty": 5
+        },
+        {
+          "item_id": "item_0020",
+          "qty": 3
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 60
+    },
+    {
+      "id": "craft_0152",
+      "result_item": "equip_upgrade_t02",
+      "result_qty": 1,
+      "type": "Upgrade",
+      "level_req": 175,
+      "gold_cost": 10000,
+      "ingredients": [
+        {
+          "item_id": "item_0027",
+          "qty": 5
+        },
+        {
+          "item_id": "item_0028",
+          "qty": 3
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 120
+    },
+    {
+      "id": "craft_0153",
+      "result_item": "equip_upgrade_t03",
+      "result_qty": 1,
+      "type": "Upgrade",
+      "level_req": 270,
+      "gold_cost": 15000,
+      "ingredients": [
+        {
+          "item_id": "item_0035",
+          "qty": 5
+        },
+        {
+          "item_id": "item_0036",
+          "qty": 3
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 180
+    },
+    {
+      "id": "craft_0154",
+      "result_item": "equip_upgrade_t04",
+      "result_qty": 1,
+      "type": "Upgrade",
+      "level_req": 365,
+      "gold_cost": 20000,
+      "ingredients": [
+        {
+          "item_id": "item_0043",
+          "qty": 5
+        },
+        {
+          "item_id": "item_0044",
+          "qty": 3
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 240
+    },
+    {
+      "id": "craft_0155",
+      "result_item": "equip_upgrade_t05",
+      "result_qty": 1,
+      "type": "Upgrade",
+      "level_req": 460,
+      "gold_cost": 25000,
+      "ingredients": [
+        {
+          "item_id": "item_0051",
+          "qty": 5
+        },
+        {
+          "item_id": "item_0052",
+          "qty": 3
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 300
+    },
+    {
+      "id": "craft_0156",
+      "result_item": "equip_upgrade_t06",
+      "result_qty": 1,
+      "type": "Upgrade",
+      "level_req": 555,
+      "gold_cost": 30000,
+      "ingredients": [
+        {
+          "item_id": "item_0059",
+          "qty": 5
+        },
+        {
+          "item_id": "item_0060",
+          "qty": 3
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 360
+    },
+    {
+      "id": "craft_0157",
+      "result_item": "equip_upgrade_t07",
+      "result_qty": 1,
+      "type": "Upgrade",
+      "level_req": 650,
+      "gold_cost": 35000,
+      "ingredients": [
+        {
+          "item_id": "item_0067",
+          "qty": 5
+        },
+        {
+          "item_id": "item_0068",
+          "qty": 3
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 420
+    },
+    {
+      "id": "craft_0158",
+      "result_item": "equip_upgrade_t08",
+      "result_qty": 1,
+      "type": "Upgrade",
+      "level_req": 745,
+      "gold_cost": 40000,
+      "ingredients": [
+        {
+          "item_id": "item_0075",
+          "qty": 5
+        },
+        {
+          "item_id": "item_0076",
+          "qty": 3
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 480
+    },
+    {
+      "id": "craft_0159",
+      "result_item": "equip_upgrade_t09",
+      "result_qty": 1,
+      "type": "Upgrade",
+      "level_req": 840,
+      "gold_cost": 45000,
+      "ingredients": [
+        {
+          "item_id": "item_0083",
+          "qty": 5
+        },
+        {
+          "item_id": "item_0084",
+          "qty": 3
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 540
+    },
+    {
+      "id": "craft_0160",
+      "result_item": "equip_upgrade_t10",
+      "result_qty": 1,
+      "type": "Upgrade",
+      "level_req": 935,
+      "gold_cost": 50000,
+      "ingredients": [
+        {
+          "item_id": "item_0091",
+          "qty": 5
+        },
+        {
+          "item_id": "item_0092",
+          "qty": 3
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 600
+    },
+    {
+      "id": "craft_0161",
+      "result_item": "equip_upgrade_t11",
+      "result_qty": 1,
+      "type": "Upgrade",
+      "level_req": 1030,
+      "gold_cost": 55000,
+      "ingredients": [
+        {
+          "item_id": "item_0099",
+          "qty": 5
+        },
+        {
+          "item_id": "item_0100",
+          "qty": 3
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 660
+    },
+    {
+      "id": "craft_0162",
+      "result_item": "equip_upgrade_t12",
+      "result_qty": 1,
+      "type": "Upgrade",
+      "level_req": 1125,
+      "gold_cost": 60000,
+      "ingredients": [
+        {
+          "item_id": "item_0107",
+          "qty": 5
+        },
+        {
+          "item_id": "item_0108",
+          "qty": 3
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 720
+    },
+    {
+      "id": "craft_0163",
+      "result_item": "equip_upgrade_t13",
+      "result_qty": 1,
+      "type": "Upgrade",
+      "level_req": 1220,
+      "gold_cost": 65000,
+      "ingredients": [
+        {
+          "item_id": "item_0115",
+          "qty": 5
+        },
+        {
+          "item_id": "item_0116",
+          "qty": 3
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 780
+    },
+    {
+      "id": "craft_0164",
+      "result_item": "equip_upgrade_t14",
+      "result_qty": 1,
+      "type": "Upgrade",
+      "level_req": 1315,
+      "gold_cost": 70000,
+      "ingredients": [
+        {
+          "item_id": "item_0123",
+          "qty": 5
+        },
+        {
+          "item_id": "item_0124",
+          "qty": 3
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 840
+    },
+    {
+      "id": "craft_0165",
+      "result_item": "equip_upgrade_t15",
+      "result_qty": 1,
+      "type": "Upgrade",
+      "level_req": 1410,
+      "gold_cost": 75000,
+      "ingredients": [
+        {
+          "item_id": "item_0131",
+          "qty": 5
+        },
+        {
+          "item_id": "item_0132",
+          "qty": 3
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 900
+    },
+    {
+      "id": "craft_0166",
+      "result_item": "equip_upgrade_t16",
+      "result_qty": 1,
+      "type": "Upgrade",
+      "level_req": 1505,
+      "gold_cost": 80000,
+      "ingredients": [
+        {
+          "item_id": "item_0139",
+          "qty": 5
+        },
+        {
+          "item_id": "item_0140",
+          "qty": 3
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 960
+    },
+    {
+      "id": "craft_0167",
+      "result_item": "equip_upgrade_t17",
+      "result_qty": 1,
+      "type": "Upgrade",
+      "level_req": 1600,
+      "gold_cost": 85000,
+      "ingredients": [
+        {
+          "item_id": "item_0147",
+          "qty": 5
+        },
+        {
+          "item_id": "item_0148",
+          "qty": 3
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 1020
+    },
+    {
+      "id": "craft_0168",
+      "result_item": "equip_upgrade_t18",
+      "result_qty": 1,
+      "type": "Upgrade",
+      "level_req": 1695,
+      "gold_cost": 90000,
+      "ingredients": [
+        {
+          "item_id": "item_0155",
+          "qty": 5
+        },
+        {
+          "item_id": "item_0156",
+          "qty": 3
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 1080
+    },
+    {
+      "id": "craft_0169",
+      "result_item": "equip_upgrade_t19",
+      "result_qty": 1,
+      "type": "Upgrade",
+      "level_req": 1790,
+      "gold_cost": 95000,
+      "ingredients": [
+        {
+          "item_id": "item_0163",
+          "qty": 5
+        },
+        {
+          "item_id": "item_0164",
+          "qty": 3
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 1140
+    },
+    {
+      "id": "craft_0170",
+      "result_item": "equip_upgrade_t20",
+      "result_qty": 1,
+      "type": "Upgrade",
+      "level_req": 1885,
+      "gold_cost": 100000,
+      "ingredients": [
+        {
+          "item_id": "item_0171",
+          "qty": 5
+        },
+        {
+          "item_id": "item_0172",
+          "qty": 3
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 1200
+    },
+    {
+      "id": "craft_0171",
+      "result_item": "equip_upgrade_t21",
+      "result_qty": 1,
+      "type": "Upgrade",
+      "level_req": 1980,
+      "gold_cost": 105000,
+      "ingredients": [
+        {
+          "item_id": "item_0179",
+          "qty": 5
+        },
+        {
+          "item_id": "item_0180",
+          "qty": 3
+        }
+      ],
+      "station": "Forge",
+      "craft_time_sec": 1260
+    },
+    {
+      "id": "craft_0172",
+      "result_item": "hp_potion",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 50,
+      "gold_cost": 200,
+      "ingredients": [
+        {
+          "item_id": "item_0016",
+          "qty": 3
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0173",
+      "result_item": "mp_potion",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 50,
+      "gold_cost": 150,
+      "ingredients": [
+        {
+          "item_id": "item_0016",
+          "qty": 3
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0174",
+      "result_item": "hp_potion_2",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 50,
+      "gold_cost": 500,
+      "ingredients": [
+        {
+          "item_id": "item_0016",
+          "qty": 5
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0175",
+      "result_item": "elixir",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 50,
+      "gold_cost": 2000,
+      "ingredients": [
+        {
+          "item_id": "item_0016",
+          "qty": 8
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0176",
+      "result_item": "stamina",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 50,
+      "gold_cost": 100,
+      "ingredients": [
+        {
+          "item_id": "item_0016",
+          "qty": 3
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0177",
+      "result_item": "goldboost",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 50,
+      "gold_cost": 300,
+      "ingredients": [
+        {
+          "item_id": "item_0016",
+          "qty": 5
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0178",
+      "result_item": "hp_potion",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 100,
+      "gold_cost": 200,
+      "ingredients": [
+        {
+          "item_id": "item_0024",
+          "qty": 3
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0179",
+      "result_item": "mp_potion",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 100,
+      "gold_cost": 150,
+      "ingredients": [
+        {
+          "item_id": "item_0024",
+          "qty": 3
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0180",
+      "result_item": "hp_potion_2",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 100,
+      "gold_cost": 500,
+      "ingredients": [
+        {
+          "item_id": "item_0024",
+          "qty": 5
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0181",
+      "result_item": "elixir",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 100,
+      "gold_cost": 2000,
+      "ingredients": [
+        {
+          "item_id": "item_0024",
+          "qty": 8
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0182",
+      "result_item": "stamina",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 100,
+      "gold_cost": 100,
+      "ingredients": [
+        {
+          "item_id": "item_0024",
+          "qty": 3
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0183",
+      "result_item": "goldboost",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 100,
+      "gold_cost": 300,
+      "ingredients": [
+        {
+          "item_id": "item_0024",
+          "qty": 5
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0184",
+      "result_item": "hp_potion",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 150,
+      "gold_cost": 200,
+      "ingredients": [
+        {
+          "item_id": "item_0032",
+          "qty": 3
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0185",
+      "result_item": "mp_potion",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 150,
+      "gold_cost": 150,
+      "ingredients": [
+        {
+          "item_id": "item_0032",
+          "qty": 3
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0186",
+      "result_item": "hp_potion_2",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 150,
+      "gold_cost": 500,
+      "ingredients": [
+        {
+          "item_id": "item_0032",
+          "qty": 5
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0187",
+      "result_item": "elixir",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 150,
+      "gold_cost": 2000,
+      "ingredients": [
+        {
+          "item_id": "item_0032",
+          "qty": 8
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0188",
+      "result_item": "stamina",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 150,
+      "gold_cost": 100,
+      "ingredients": [
+        {
+          "item_id": "item_0032",
+          "qty": 3
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0189",
+      "result_item": "goldboost",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 150,
+      "gold_cost": 300,
+      "ingredients": [
+        {
+          "item_id": "item_0032",
+          "qty": 5
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0190",
+      "result_item": "hp_potion",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 200,
+      "gold_cost": 200,
+      "ingredients": [
+        {
+          "item_id": "item_0040",
+          "qty": 3
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0191",
+      "result_item": "mp_potion",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 200,
+      "gold_cost": 150,
+      "ingredients": [
+        {
+          "item_id": "item_0040",
+          "qty": 3
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0192",
+      "result_item": "hp_potion_2",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 200,
+      "gold_cost": 500,
+      "ingredients": [
+        {
+          "item_id": "item_0040",
+          "qty": 5
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0193",
+      "result_item": "elixir",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 200,
+      "gold_cost": 2000,
+      "ingredients": [
+        {
+          "item_id": "item_0040",
+          "qty": 8
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0194",
+      "result_item": "stamina",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 200,
+      "gold_cost": 100,
+      "ingredients": [
+        {
+          "item_id": "item_0040",
+          "qty": 3
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0195",
+      "result_item": "goldboost",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 200,
+      "gold_cost": 300,
+      "ingredients": [
+        {
+          "item_id": "item_0040",
+          "qty": 5
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0196",
+      "result_item": "hp_potion",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 250,
+      "gold_cost": 200,
+      "ingredients": [
+        {
+          "item_id": "item_0048",
+          "qty": 3
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0197",
+      "result_item": "mp_potion",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 250,
+      "gold_cost": 150,
+      "ingredients": [
+        {
+          "item_id": "item_0048",
+          "qty": 3
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0198",
+      "result_item": "hp_potion_2",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 250,
+      "gold_cost": 500,
+      "ingredients": [
+        {
+          "item_id": "item_0048",
+          "qty": 5
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0199",
+      "result_item": "elixir",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 250,
+      "gold_cost": 2000,
+      "ingredients": [
+        {
+          "item_id": "item_0048",
+          "qty": 8
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0200",
+      "result_item": "stamina",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 250,
+      "gold_cost": 100,
+      "ingredients": [
+        {
+          "item_id": "item_0048",
+          "qty": 3
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0201",
+      "result_item": "goldboost",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 250,
+      "gold_cost": 300,
+      "ingredients": [
+        {
+          "item_id": "item_0048",
+          "qty": 5
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0202",
+      "result_item": "hp_potion",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 300,
+      "gold_cost": 200,
+      "ingredients": [
+        {
+          "item_id": "item_0056",
+          "qty": 3
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0203",
+      "result_item": "mp_potion",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 300,
+      "gold_cost": 150,
+      "ingredients": [
+        {
+          "item_id": "item_0056",
+          "qty": 3
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0204",
+      "result_item": "hp_potion_2",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 300,
+      "gold_cost": 500,
+      "ingredients": [
+        {
+          "item_id": "item_0056",
+          "qty": 5
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0205",
+      "result_item": "elixir",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 300,
+      "gold_cost": 2000,
+      "ingredients": [
+        {
+          "item_id": "item_0056",
+          "qty": 8
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0206",
+      "result_item": "stamina",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 300,
+      "gold_cost": 100,
+      "ingredients": [
+        {
+          "item_id": "item_0056",
+          "qty": 3
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0207",
+      "result_item": "goldboost",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 300,
+      "gold_cost": 300,
+      "ingredients": [
+        {
+          "item_id": "item_0056",
+          "qty": 5
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0208",
+      "result_item": "hp_potion",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 350,
+      "gold_cost": 200,
+      "ingredients": [
+        {
+          "item_id": "item_0064",
+          "qty": 3
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0209",
+      "result_item": "mp_potion",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 350,
+      "gold_cost": 150,
+      "ingredients": [
+        {
+          "item_id": "item_0064",
+          "qty": 3
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0210",
+      "result_item": "hp_potion_2",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 350,
+      "gold_cost": 500,
+      "ingredients": [
+        {
+          "item_id": "item_0064",
+          "qty": 5
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0211",
+      "result_item": "elixir",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 350,
+      "gold_cost": 2000,
+      "ingredients": [
+        {
+          "item_id": "item_0064",
+          "qty": 8
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0212",
+      "result_item": "stamina",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 350,
+      "gold_cost": 100,
+      "ingredients": [
+        {
+          "item_id": "item_0064",
+          "qty": 3
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0213",
+      "result_item": "goldboost",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 350,
+      "gold_cost": 300,
+      "ingredients": [
+        {
+          "item_id": "item_0064",
+          "qty": 5
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0214",
+      "result_item": "hp_potion",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 400,
+      "gold_cost": 200,
+      "ingredients": [
+        {
+          "item_id": "item_0072",
+          "qty": 3
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0215",
+      "result_item": "mp_potion",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 400,
+      "gold_cost": 150,
+      "ingredients": [
+        {
+          "item_id": "item_0072",
+          "qty": 3
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0216",
+      "result_item": "hp_potion_2",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 400,
+      "gold_cost": 500,
+      "ingredients": [
+        {
+          "item_id": "item_0072",
+          "qty": 5
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0217",
+      "result_item": "elixir",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 400,
+      "gold_cost": 2000,
+      "ingredients": [
+        {
+          "item_id": "item_0072",
+          "qty": 8
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0218",
+      "result_item": "stamina",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 400,
+      "gold_cost": 100,
+      "ingredients": [
+        {
+          "item_id": "item_0072",
+          "qty": 3
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    },
+    {
+      "id": "craft_0219",
+      "result_item": "goldboost",
+      "result_qty": 5,
+      "type": "Consumable",
+      "level_req": 400,
+      "gold_cost": 300,
+      "ingredients": [
+        {
+          "item_id": "item_0072",
+          "qty": 5
+        }
+      ],
+      "station": "Alchemy",
+      "craft_time_sec": 10
+    }
+  ]
+}

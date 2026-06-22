@@ -1,0 +1,317 @@
+BIOME 02: RỪNG CỔ ĐẠI (Lv 150–300)
+Cốt truyện chính
+
+Sau khi kích hoạt Cổng Cổ Đại tại Đồng Cỏ, người chơi tiến vào Rừng Cổ Đại.
+
+Tại đây, năng lượng của Grass Core Fragment phản ứng với một sức mạnh bí ẩn đang lan rộng trong khu rừng.
+
+Các Slime Thiên Nhiên vốn hiền hòa đang trở nên hung dữ.
+
+Người chơi phát hiện có một thế lực đang tìm kiếm các mảnh World Core trước mình.
+
+Boss cuối khu vực:
+
+Slime Rừng Cổ Đại
+
+Mảnh World Core:
+
+Nature Core Fragment
+
+CHƯƠNG 1: KHU RỪNG THỨC TỈNH (QUEST 31–35)
+Quest 31 – Bước Chân Vào Rừng
+
+NPC:
+
+Người Gác Rừng Elwyn
+
+Mục tiêu:
+
+Đến Trạm Kiểm Lâm
+Nói chuyện với Elwyn
+
+Thưởng:
+
+2.000 EXP
+200 Gold
+Quest 32 – Những Sinh Vật Bất Thường
+
+Mục tiêu:
+
+Tiêu diệt:
+15 Slime Gỗ
+15 Slime Rêu
+
+Thưởng:
+
+2.500 EXP
+Quest 33 – Dấu Vết Trong Lá
+
+Mục tiêu:
+
+Điều tra 5 điểm khả nghi
+
+Thưởng:
+
+3.000 EXP
+Quest 34 – Hạt Giống Cổ Đại
+
+Mục tiêu:
+
+Thu thập:
+20 Hạt Sồi Ma Thuật
+
+Rơi từ:
+
+Slime Hạt Sồi
+Quest 35 – Kẻ Canh Gác Đầu Tiên
+
+Elite Boss:
+
+Ancient Oak Slime
+
+Thưởng:
+
+Trang bị Uncommon
+5.000 EXP
+CHƯƠNG 2: LỜI THÌ THẦM CỦA THIÊN NHIÊN (QUEST 36–40)
+Quest 36 – Tiếng Gọi Từ Cây Thế Giới
+
+NPC:
+
+Linh Hồn Rừng
+
+Mục tiêu:
+
+Tìm Cây Thế Giới
+Quest 37 – Khu Rừng Bị Nhiễm Bẩn
+
+Mục tiêu:
+
+Tiêu diệt:
+20 Slime Dây Leo
+Quest 38 – Nấm Ký Sinh
+
+Mục tiêu:
+
+Tiêu diệt:
+25 Slime Nấm
+Quest 39 – Hơi Thở Của Sự Sống
+
+Mục tiêu:
+
+Thu thập:
+15 Tinh Chất Thiên Nhiên
+Quest 40 – Mảnh Ký Ức Thứ Hai
+
+Mục tiêu:
+
+Kích hoạt Ancient Memory Stone
+
+Mở Dungeon 1
+
+CHƯƠNG 3: DUNGEON 1 - MÊ CUNG DÂY LEO (QUEST 41–45)
+Quest 41 – Tiến Vào Mê Cung
+
+Dungeon:
+
+Mê Cung Dây Leo
+
+Quest 42 – Đường Hầm Xanh
+
+Mục tiêu:
+
+Tiêu diệt 40 quái
+Quest 43 – Cánh Cửa Gai
+
+Mục tiêu:
+
+Thu thập 3 Chìa Khóa Gai
+Quest 44 – Người Bảo Hộ Mê Cung
+
+Boss:
+
+Thorn Guardian Slime
+
+Quest 45 – Bí Mật Bị Chôn Vùi
+
+Thưởng:
+
+Nature Relic
+CHƯƠNG 4: CUỘC SĂN KẺ XÂM NHẬP (QUEST 46–50)
+Quest 46 – Kẻ Trộm World Core
+
+Mục tiêu:
+
+Điều tra dấu chân bí ẩn
+Quest 47 – Trại Bí Mật
+
+Mục tiêu:
+
+Khám phá khu vực mới
+Quest 48 – Thợ Săn Trong Bóng Tối
+
+Mini Boss:
+
+Shadow Vine Slime
+
+Quest 49 – Kẻ Phục Kích
+
+Mục tiêu:
+
+Đánh bại:
+15 Slime Thiên Nhiên Cuồng Hóa
+Quest 50 – Manh Mối Đầu Tiên
+
+Thưởng:
+
+Bản Đồ Cổ
+CHƯƠNG 5: DUNGEON 2 - ĐỀN CÂY THẾ GIỚI (QUEST 51–55)
+Quest 51 – Cánh Cổng Thiêng
+
+Dungeon:
+
+Đền Cây Thế Giới
+
+Quest 52 – Những Người Bảo Hộ
+
+Mục tiêu:
+
+Tiêu diệt:
+50 quái
+Quest 53 – Hạt Nhân Sinh Mệnh
+
+Mục tiêu:
+
+Thu thập:
+10 Nature Core
+Quest 54 – Thử Thách Thiên Nhiên
+
+Mini Boss:
+
+Guardian Seed Slime
+
+Quest 55 – Trái Tim Khu Rừng
+
+Thưởng:
+
+Rare Equipment
+CHƯƠNG 6: SỰ THẬT VỀ WORLD CORE (QUEST 56–60)
+Quest 56 – Tiếng Nói Cổ Xưa
+
+NPC:
+
+Tinh Linh Sylva
+
+Quest 57 – Ký Ức World Core
+
+Mục tiêu:
+
+Xem Ancient Vision
+Quest 58 – Lời Tiên Tri
+
+Mục tiêu:
+
+Thu thập 5 Rune Cổ Đại
+Quest 59 – Kẻ Thao Túng
+
+Mục tiêu:
+
+Điều tra nguồn năng lượng lạ
+Quest 60 – Chuẩn Bị Cuộc Chiến
+
+Mở Dungeon 3
+
+CHƯƠNG 7: DUNGEON 3 - TRÁI TIM KHU RỪNG (QUEST 61–65)
+Quest 61 – Con Đường Cuối Cùng
+
+Dungeon:
+
+Trái Tim Khu Rừng
+
+Quest 62 – Những Cái Rễ Khổng Lồ
+
+Mục tiêu:
+
+Vượt 3 tầng dungeon
+Quest 63 – Năng Lượng Hắc Ám
+
+Mục tiêu:
+
+Tiêu diệt:
+30 Corrupted Nature Slime
+Quest 64 – Thủ Lĩnh Cuồng Hóa
+
+Boss:
+
+Corrupted Forest Titan
+
+Quest 65 – Cánh Cửa Tới Điện Thờ
+
+Mở Boss Arena
+
+CHƯƠNG 8: BOSS KHU VỰC (QUEST 66–70)
+Quest 66 – Tiếng Gầm Của Rừng Già
+
+Mục tiêu:
+
+Tiến vào Điện Thờ Rừng Cổ
+Quest 67 – Những Người Bảo Hộ Cuối Cùng
+
+Mục tiêu:
+
+Đánh bại:
+3 Elite Guardian
+Quest 68 – Sức Mạnh Cổ Đại
+
+Mục tiêu:
+
+Thu thập:
+10 Ancient Bark
+Quest 69 – Ngai Vàng Thiên Nhiên
+
+Boss Arena
+
+Quest 70 – Slime Rừng Cổ Đại
+
+Boss:
+
+Slime Rừng Cổ Đại
+
+Kỹ năng:
+
+Vine Prison
+Nature Wave
+Ancient Roots
+Forest Regeneration
+
+Thưởng:
+
+Nature Core Fragment
+Epic Equipment
+25.000 EXP
+KẾT THÚC BIOME RỪNG
+
+Người chơi nhận:
+
+Nature Core Fragment
+Danh hiệu: Người Bảo Hộ Rừng Già
+Mount: Sói Rừng Cổ Đại
+Mở biome tiếp theo: Đầm Lầy
+Mở World Boss Rừng
+World Boss Rừng
+
+World Tree Slime
+
+Xuất hiện:
+
+06:00
+12:00
+18:00
+22:00
+
+Phần thưởng:
+
+Rare → Mythic Equipment
+Nature Crystal
+Guild Contribution
+World Boss Token

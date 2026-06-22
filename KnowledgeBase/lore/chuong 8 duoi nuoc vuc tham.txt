@@ -1,0 +1,344 @@
+BIOME 08: DƯỚI NƯỚC VỰC THẲM (Lv 1300–1600)
+Cốt truyện chính
+
+Sau khi đánh bại Leviathan Slime, người chơi thu được Ocean Core Fragment.
+
+Khi các World Core Fragment cộng hưởng, một cánh cổng cổ đại dưới đáy Atlantis mở ra.
+
+Bên dưới đại dương tồn tại một thế giới khác.
+
+Một thế giới chưa từng được ghi lại trong lịch sử.
+
+Nơi đó được gọi là:
+
+VỰC THẲM THỦY NGUYÊN
+
+Đây là chiến trường đầu tiên giữa The Void và các Thần Sáng Thế.
+
+Các sinh vật nơi đây không còn là Slime bình thường.
+
+Chúng đã bị Hư Không biến đổi hàng ngàn năm.
+
+Boss cuối khu vực:
+
+Chúa Tể Đại Dương Vực Thẳm
+
+Mảnh World Core:
+
+Abyss Core Fragment
+
+CHƯƠNG 1: CÁNH CỔNG VỰC THẲM (QUEST 271–275)
+Quest 271 – Xuống Dưới Đáy Biển
+
+NPC:
+
+Nhà Thám Hiểm Marina
+
+Mục tiêu:
+
+Tiến vào Vực Thẳm
+
+Thưởng:
+
+300.000 EXP
+50.000 Gold
+Quest 272 – Ánh Sáng Cuối Cùng
+
+Mục tiêu:
+
+Tiêu diệt:
+
+20 Slime Cá Đèn Lồng
+
+Thưởng:
+
+320.000 EXP
+Quest 273 – Thành Phố Bóng Tối
+
+Mục tiêu:
+
+Khám phá Thành Phố Abyss
+Quest 274 – Âm Thanh Trong Nước
+
+Mục tiêu:
+
+Điều tra 5 Trụ Cộng Hưởng
+Quest 275 – Người Canh Giữ Cổng
+
+Elite Boss:
+
+Abyss Gatekeeper
+
+Thưởng:
+
+Epic Equipment
+350.000 EXP
+CHƯƠNG 2: THÀNH PHỐ ĐÃ CHẾT (QUEST 276–280)
+Quest 276 – Tàn Tích Vực Thẳm
+
+NPC:
+
+Linh Hồn Atlantis Cổ
+
+Quest 277 – Những Người Không Thể Chết
+
+Mục tiêu:
+
+Tiêu diệt:
+
+25 Slime Biển Sâu
+Quest 278 – Hơi Thở Của Hư Không
+
+Mục tiêu:
+
+Thu thập:
+
+20 Void Water Essence
+Quest 279 – Những Bức Tượng Cổ
+
+Mục tiêu:
+
+Kích hoạt 5 Ancient Statue
+Quest 280 – Cổng Thành Abyss
+
+Mở Dungeon 1
+
+CHƯƠNG 3: DUNGEON 1 – THÀNH PHỐ CHÌM ABYSS (QUEST 281–285)
+Quest 281 – Bước Vào Thành Phố Chìm
+
+Dungeon:
+
+Abyss Sunken City
+
+Quest 282 – Kẻ Bị Nguyền Rủa
+
+Mục tiêu:
+
+Tiêu diệt 50 quái
+Quest 283 – Tàn Dư Atlantis
+
+Mục tiêu:
+
+Thu thập:
+
+15 Ancient Relic
+Quest 284 – Vệ Binh Vực Thẳm
+
+Boss:
+
+Abyss Guardian Slime
+
+Quest 285 – Nhật Ký Atlantis
+
+Nhận:
+
+Abyss Archive I
+CHƯƠNG 4: BÍ MẬT THẦN SÁNG THẾ (QUEST 286–290)
+Quest 286 – Cuộc Chiến Đầu Tiên
+
+NPC:
+
+Thần Quan Atlas
+
+Quest 287 – Ký Ức Của Thần
+
+Mục tiêu:
+
+Xem 3 Vision
+Quest 288 – The Void Xuất Hiện
+
+Mục tiêu:
+
+Điều tra Ancient Battlefield
+Quest 289 – Người Canh Giữ Ký Ức
+
+Mini Boss:
+
+Void Tide Slime
+
+Quest 290 – Lời Tiên Tri Sụp Đổ
+
+Nhận:
+
+Ancient Prophecy
+CHƯƠNG 5: DUNGEON 2 – ĐỀN THỜ HẢI THẦN (QUEST 291–295)
+Quest 291 – Cánh Cửa Thần Thánh
+
+Dungeon:
+
+Temple of Ocean God
+
+Quest 292 – Linh Hồn Bị Tha Hóa
+
+Mục tiêu:
+
+Tiêu diệt:
+60 quái
+Quest 293 – Nước Mắt Hải Thần
+
+Mục tiêu:
+
+Thu thập:
+
+10 Divine Tear
+Quest 294 – Đại Tư Tế Atlantis
+
+Boss:
+
+High Priest Abyss Slime
+
+Quest 295 – Bí Mật Thần Giới
+
+Nhận:
+
+Abyss Archive II
+CHƯƠNG 6: SỰ THỨC TỈNH CỦA HƯ KHÔNG (QUEST 296–300)
+Quest 296 – Tiếng Gọi Từ Bóng Tối
+
+NPC:
+
+Spirit Atlas
+
+Quest 297 – Những Vết Nứt Không Gian
+
+Mục tiêu:
+
+Đóng 5 Abyss Rift
+Quest 298 – Đội Quân Hư Không
+
+Mục tiêu:
+
+Tiêu diệt:
+
+30 Slime Vực Thẳm
+Quest 299 – Trái Tim Bóng Tối
+
+Mục tiêu:
+
+Điều tra Abyss Core
+Quest 300 – Cánh Cổng Tận Cùng
+
+Mở Dungeon 3
+
+CHƯƠNG 7: DUNGEON 3 – TRÁI TIM VỰC THẲM (QUEST 301–305)
+Quest 301 – Đi Vào Hư Không
+
+Dungeon:
+
+Heart of Abyss
+
+Quest 302 – Dòng Chảy Hỗn Mang
+
+Mục tiêu:
+
+Vượt 3 tầng dungeon
+Quest 303 – Mảnh Hồn Hải Thần
+
+Mục tiêu:
+
+Thu thập:
+
+20 Divine Soul Fragment
+Quest 304 – Hải Thần Sa Ngã
+
+Boss:
+
+Corrupted Ocean God
+
+Quest 305 – Điện Thờ Vực Thẳm
+
+Mở Boss Arena
+
+CHƯƠNG 8: CHÚA TỂ ĐẠI DƯƠNG VỰC THẲM (QUEST 306–310)
+Quest 306 – Tiến Vào Ngai Vàng Abyss
+
+Mục tiêu:
+
+Tiến vào Abyss Throne
+Quest 307 – Tàn Tích Hải Thần
+
+Mục tiêu:
+
+Thu thập:
+
+20 Abyss Crystal
+Quest 308 – Nghi Thức Thanh Tẩy
+
+Mục tiêu:
+
+Kích hoạt 5 Divine Seal
+Quest 309 – Cơn Thịnh Nộ Vực Thẳm
+
+Boss Arena
+
+Quest 310 – Chúa Tể Đại Dương Vực Thẳm
+
+Boss:
+
+Phase 1
+Abyss Wave
+Dark Whirlpool
+Abyss Spear
+Phase 2
+Void Tsunami
+Summon Abyss Slime
+Deep Sea Curse
+Phase 3
+Ocean Collapse
+Abyss Cataclysm
+Void Awakening
+Berserk (10%)
+Wrath of Abyss
+Instant Kill Zones
+PHẦN THƯỞNG
+Abyss Core Fragment
+Epic Set Lv1600
+500.000 EXP
+100.000 Gold
+Abyss King's Chest
+WORLD BOSS
+Abyss Kraken Slime
+
+Xuất hiện:
+
+06:00
+12:00
+18:00
+22:00
+Kỹ năng
+Kraken Tentacle
+Abyss Whirlpool
+Ocean Collapse
+Void Storm
+Phần thưởng
+Abyss Crystal
+Guild Contribution
+World Boss Token
+Mythic Equipment
+Pet Egg: Baby Kraken Slime
+KẾT THÚC BIOME
+
+Người chơi nhận:
+
+Danh hiệu
+
+Kẻ Chinh Phục Vực Thẳm
+
+Mount
+
+Abyss Whale
+
+Fragment
+
+Abyss Core Fragment
+
+Mở Biome 09
+BĂNG GIÁ VĨNH CỬU (Lv 1600–1900)
+TIẾT LỘ LORE QUAN TRỌNG
+
+Tại cuối Biome này, người chơi biết được:
+
+The Void không phải sinh vật.
+The Void là một phần bị tách khỏi World Core nguyên thủy.
+Các Thần Sáng Thế đã phong ấn nó thành 21 mảnh.
+Các World Core Fragment mà người chơi thu thập thực chất là chìa khóa mở lại World Core hoàn chỉnh

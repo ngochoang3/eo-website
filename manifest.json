@@ -1,0 +1,25 @@
+{
+  "name": "EO Studio - Slime Fantasy Mobile Games",
+  "short_name": "EO Studio",
+  "description": "EO Studio - indie game studio kiến tạo game mobile và ứng dụng fantasy Slime dễ thương.",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0c1730",
+  "theme_color": "#0c1730",
+  "lang": "vi-VN",
+  "dir": "ltr",
+  "icons": [
+    { "src": "image/icon.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "image/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "image/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "categories": ["games", "entertainment"],
+  "shortcuts": [
+    { "name": "Games", "url": "/games.html" },
+    { "name": "Apps", "url": "/apps.html" },
+    { "name": "Tải Game", "url": "/download.html" },
+    { "name": "Tin Tức", "url": "/news.html" }
+  ]
+}

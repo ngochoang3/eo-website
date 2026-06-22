@@ -1,0 +1,352 @@
+BIOME 12: VÙNG ĐẤT ZOMBIE TẬN THẾ (Lv 2500–2800)
+Cốt truyện chính
+
+Sau khi đánh bại Omega Slime Bánh Răng, người chơi nhận được Omega Core Fragment.
+
+Trong cơ sở dữ liệu Omega tồn tại một hồ sơ tối mật:
+
+PROJECT NECROS
+
+Dự án quân sự cuối cùng của nền văn minh cổ đại.
+
+Mục tiêu:
+
+Tạo ra đội quân bất tử chống lại The Void.
+
+Ban đầu dự án thành công.
+
+Các chiến binh không còn già đi.
+
+Không còn cảm giác đau đớn.
+
+Không thể chết.
+
+Nhưng rồi The Void xâm nhập.
+
+Toàn bộ đội quân mất kiểm soát.
+
+Hàng triệu chiến binh biến thành Zombie.
+
+Toàn bộ khu vực bị phong ấn.
+
+Sau hàng ngàn năm.
+
+Phong ấn đã nứt vỡ.
+
+Boss cuối khu vực:
+
+NECRO KING SLIME
+
+(World Boss của vùng)
+
+Boss cốt truyện:
+
+ZOMBIE OVERLORD SLIME
+
+Mảnh World Core:
+
+Necro Core Fragment
+QUÁI VẬT KHU VỰC
+Thường
+Zombie Slime
+Walker Slime
+Plague Zombie Slime
+Bone Slime
+Toxic Zombie Slime
+Mutant Zombie Slime
+Elite
+Necro Warrior
+Corpse Brute
+Zombie Commander
+CHƯƠNG 1: VÙNG ĐẤT CHẾT (QUEST 431–435)
+Quest 431 – Thành Phố Không Tiếng Thở
+
+NPC:
+
+Captain Leon
+
+Mục tiêu:
+
+Tiến vào Necros City
+
+Thưởng:
+
+3.000.000 EXP
+600.000 Gold
+Quest 432 – Người Đã Chết
+
+Tiêu diệt:
+
+20 Zombie Slime
+Quest 433 – Tín Hiệu Cầu Cứu
+
+Thu thập:
+
+15 Emergency Beacon
+Quest 434 – Người Sống Sót Cuối Cùng
+
+Giải cứu:
+
+5 Survivor Camp
+Quest 435 – Người Canh Gác Nghĩa Địa
+
+Elite Boss:
+
+Necro Warrior
+
+CHƯƠNG 2: PROJECT NECROS (QUEST 436–440)
+Quest 436 – Hồ Sơ Tối Mật
+
+NPC:
+
+Scientist Alpha
+
+Quest 437 – Thí Nghiệm Bất Tử
+
+Thu thập:
+
+20 Necro Sample
+Quest 438 – Sai Lầm Của Nhân Loại
+
+Tiêu diệt:
+
+25 Mutant Zombie Slime
+Quest 439 – Khu Nghiên Cứu Bỏ Hoang
+
+Điều tra:
+
+5 Research Facility
+Quest 440 – Cổng Dự Án NECROS
+
+Mở Dungeon 1
+
+CHƯƠNG 3: DUNGEON 1 – PHÒNG THÍ NGHIỆM NECROS (QUEST 441–445)
+Quest 441 – Trung Tâm Nghiên Cứu
+
+Dungeon:
+
+Necros Laboratory
+
+Quest 442 – Mẫu Thí Nghiệm Hỏng
+
+Tiêu diệt:
+
+50 quái
+Quest 443 – ADN Đột Biến
+
+Thu thập:
+
+20 Mutation DNA
+Quest 444 – Nhà Khoa Học Bất Tử
+
+Boss:
+
+Dr. Necros
+
+Quest 445 – Báo Cáo Tận Thế
+
+Nhận:
+
+Necro Archive I
+CHƯƠNG 4: ĐỘI QUÂN BẤT TỬ (QUEST 446–450)
+Quest 446 – Thành Phố Sụp Đổ
+
+NPC:
+
+Captain Leon
+
+Quest 447 – Quân Đoàn Không Chết
+
+Tiêu diệt:
+
+30 Bone Slime
+Quest 448 – Chiến Trường Cuối Cùng
+
+Khám phá:
+
+Ancient Battlefield
+Quest 449 – Vị Tướng Sa Ngã
+
+Mini Boss:
+
+Zombie Commander
+
+Quest 450 – Mệnh Lệnh Cuối
+
+Nhận:
+
+Necro Archive II
+CHƯƠNG 5: DUNGEON 2 – PHÁO ĐÀI TỬ THẦN (QUEST 451–455)
+Quest 451 – Thành Trì Bất Tử
+
+Dungeon:
+
+Necro Fortress
+
+Quest 452 – Lính Canh Tử Thần
+
+Tiêu diệt:
+
+60 quái
+Quest 453 – Linh Hồn Bị Trói Buộc
+
+Thu thập:
+
+20 Soul Chain
+Quest 454 – Đại Tướng Bất Tử
+
+Boss:
+
+Immortal General
+
+Quest 455 – Chìa Khóa Phong Ấn
+
+Nhận:
+
+Necro Seal Key
+CHƯƠNG 6: THỨC TỈNH CỔ THẦN CHẾT CHÓC (QUEST 456–460)
+Quest 456 – Tiếng Gọi Từ Mồ Chôn
+
+NPC:
+
+Spirit Guardian
+
+Quest 457 – Phong Ấn Nứt Vỡ
+
+Đóng:
+
+5 Necro Rift
+Quest 458 – Hơi Thở Tử Vong
+
+Tiêu diệt:
+
+30 Toxic Zombie Slime
+Quest 459 – Trái Tim Nghĩa Địa
+
+Điều tra:
+
+Necro Core
+Quest 460 – Cánh Cửa Hắc Ám
+
+Mở Dungeon 3
+
+CHƯƠNG 7: DUNGEON 3 – THUNG LŨNG LINH HỒN (QUEST 461–465)
+Quest 461 – Con Đường Xuống Địa Ngục
+
+Dungeon:
+
+Valley of Souls
+
+Quest 462 – Linh Hồn Lạc Lối
+
+Giải cứu:
+
+20 Lost Souls
+Quest 463 – Mảnh Vỡ Tử Thần
+
+Thu thập:
+
+20 Death Crystal
+Quest 464 – Kẻ Giữ Nghĩa Trang
+
+Boss:
+
+Soul Reaper Slime
+
+Quest 465 – Điện Thờ Necros
+
+Mở Boss Arena
+
+CHƯƠNG 8: ZOMBIE OVERLORD SLIME (QUEST 466–470)
+Quest 466 – Ngai Vàng Xương Trắng
+
+Tiến vào:
+
+Necro Throne
+Quest 467 – Tinh Hoa Tử Vong
+
+Thu thập:
+
+20 Death Essence
+Quest 468 – Thanh Tẩy Linh Hồn
+
+Kích hoạt:
+
+5 Holy Beacon
+Quest 469 – Trận Chiến Cuối
+
+Boss Arena
+
+Quest 470 – Zombie Overlord Slime
+Phase 1
+Bone Slash
+Toxic Bite
+Zombie Summon
+Phase 2
+Death Aura
+Soul Drain
+Necro Explosion
+Phase 3
+Army of Dead
+Endless Resurrection
+Necro Apocalypse
+Berserk (10%)
+World of Death
+Extinction Wave
+PHẦN THƯỞNG
+Necro Core Fragment
+Epic Set Lv2800
+4.000.000 EXP
+800.000 Gold
+Necro King's Chest
+WORLD BOSS
+NECRO KING SLIME
+
+Xuất hiện:
+
+06:00
+12:00
+18:00
+22:00
+Cơ chế
+Phase 1
+Zombie Army
+Toxic Cloud
+Phase 2
+Raise Dead
+Death Storm
+Phase 3
+Necro Cataclysm
+Global Curse
+Phần thưởng
+Necro Crystal
+Guild Contribution
+World Boss Token
+Mythic Equipment
+Pet Egg: Baby Necro Slime
+Nguyên liệu chế tạo Necro Set
+KẾT THÚC BIOME
+
+Người chơi nhận:
+
+Danh hiệu
+
+Kẻ Chinh Phục Cái Chết
+
+Mount
+
+Undead Dragon
+
+Fragment
+
+Necro Core Fragment
+
+Mở Biome 13
+THIÊN GIỚI VĨNH HẰNG (Lv 2800–3100)
+TIẾT LỘ LORE QUAN TRỌNG
+
+Sau khi đánh bại Zombie Overlord Slime, người chơi phát hiện một bí mật kinh hoàng:
+
+Dự án NECROS được tài trợ bởi chính các Thần Sáng Thế.
+Các vị thần từng tuyệt vọng đến mức thử tạo ra đội quân bất tử để chống The Void.
+Thất bại này khiến một phần Thiên Giới sụp đổ.

@@ -1,0 +1,346 @@
+BIOME 04: SA MẠC CỔ ĐẠI (Lv 450–650)
+Cốt truyện chính
+
+Sau khi đánh bại Chúa Tể Đầm Lầy, người chơi thu được Toxic Core Fragment.
+
+Ba mảnh World Core bắt đầu cộng hưởng và dẫn đường tới vùng đất bị chôn vùi dưới cát.
+
+Đây là nơi từng tồn tại nền văn minh đầu tiên nghiên cứu World Core.
+
+Nhưng toàn bộ đế chế đã biến mất không dấu vết.
+
+Giữa những cơn bão cát bất tận, các Slime đang bảo vệ bí mật của một nền văn minh cổ đại.
+
+Boss cuối khu vực:
+
+Slime Cồn Cát Vàng
+
+Mảnh World Core:
+
+Desert Core Fragment
+
+CHƯƠNG 1: BIỂN CÁT VÔ TẬN (QUEST 111–115)
+Quest 111 – Bước Chân Vào Sa Mạc
+
+NPC:
+
+Nhà Khảo Cổ Hassan
+
+Mục tiêu:
+
+Đến Trạm Thám Hiểm Sa Mạc
+
+Thưởng:
+
+8.000 EXP
+800 Gold
+Quest 112 – Cơn Bão Cát Đầu Tiên
+
+Mục tiêu:
+
+Tiêu diệt:
+20 Slime Cát
+
+Thưởng:
+
+10.000 EXP
+Quest 113 – Những Bóng Ma Trong Cát
+
+Mục tiêu:
+
+Điều tra 5 Ảo Ảnh Bí Ẩn
+Quest 114 – Xương Rồng Biến Dị
+
+Mục tiêu:
+
+Tiêu diệt:
+20 Slime Xương Rồng
+Quest 115 – Người Canh Gác Cổng Sa Mạc
+
+Elite:
+
+Desert Sentinel Slime
+
+Thưởng:
+
+Rare Equipment
+12.000 EXP
+CHƯƠNG 2: DẤU VẾT VĂN MINH CỔ (QUEST 116–120)
+Quest 116 – Tàn Tích Bị Chôn Vùi
+
+NPC:
+
+Nhà Khảo Cổ Hassan
+
+Mục tiêu:
+
+Khám phá Tàn Tích Pharaoh
+Quest 117 – Chữ Viết Bí Ẩn
+
+Mục tiêu:
+
+Thu thập:
+10 Ancient Tablet
+Quest 118 – Kho Báu Mất Tích
+
+Mục tiêu:
+
+Mở 5 Rương Cổ
+Quest 119 – Những Người Bảo Vệ Cát
+
+Mục tiêu:
+
+Tiêu diệt:
+25 Slime Cồn Cát
+Quest 120 – Cánh Cổng Kim Tự Tháp
+
+Mở Dungeon 1
+
+CHƯƠNG 3: DUNGEON 1 - KIM TỰ THÁP BỊ LÃNG QUÊN (QUEST 121–125)
+Quest 121 – Bước Vào Kim Tự Tháp
+
+Dungeon:
+
+Kim Tự Tháp Bị Lãng Quên
+
+Quest 122 – Bẫy Cổ Đại
+
+Mục tiêu:
+
+Vượt qua 10 cạm bẫy
+Quest 123 – Phòng Chôn Cất
+
+Mục tiêu:
+
+Tiêu diệt:
+40 quái
+Quest 124 – Người Bảo Hộ Kim Tự Tháp
+
+Boss:
+
+Ancient Pharaoh Slime
+
+Quest 125 – Cuộn Giấy Da Cổ
+
+Nhận:
+
+Ancient Scroll
+CHƯƠNG 4: THÀNH PHỐ BỊ CHÔN VÙI (QUEST 126–130)
+Quest 126 – Dưới Lòng Cát
+
+Mục tiêu:
+
+Khám phá Thành Phố Mất Tích
+Quest 127 – Tiếng Gọi Từ Quá Khứ
+
+Mục tiêu:
+
+Kích hoạt 3 Obelisk
+Quest 128 – Bí Mật Hoàng Gia
+
+Mục tiêu:
+
+Thu thập:
+15 Royal Relic
+Quest 129 – Kẻ Canh Giữ Kho Báu
+
+Mini Boss:
+
+Golden Scarab Slime
+
+Quest 130 – Bản Đồ Đế Chế
+
+Thưởng:
+
+Epic Ring
+CHƯƠNG 5: DUNGEON 2 - THÀNH PHỐ DƯỚI CÁT (QUEST 131–135)
+Quest 131 – Mở Cổng Thành Phố
+
+Dungeon:
+
+Thành Phố Dưới Cát
+
+Quest 132 – Hành Lang Hoàng Gia
+
+Mục tiêu:
+
+Tiêu diệt:
+50 quái
+Quest 133 – Kho Báu Hoàng Kim
+
+Mục tiêu:
+
+Thu thập:
+10 Golden Crystal
+Quest 134 – Hoàng Đế Bị Lãng Quên
+
+Boss:
+
+Golden Emperor Slime
+
+Quest 135 – Mảnh Ký Ức Đế Chế
+
+Nhận:
+
+Desert Memory Fragment
+CHƯƠNG 6: BÍ MẬT WORLD CORE (QUEST 136–140)
+Quest 136 – Nhật Ký Hoàng Gia
+
+NPC:
+
+Linh Hồn Pharaoh
+
+Quest 137 – Lời Tiên Tri Cổ Đại
+
+Mục tiêu:
+
+Thu thập:
+5 Prophecy Stone
+Quest 138 – Đại Thảm Họa
+
+Mục tiêu:
+
+Xem Ancient Vision
+Quest 139 – Kẻ Đánh Cắp World Core
+
+Mục tiêu:
+
+Điều tra dấu vết Hư Không
+Quest 140 – Cánh Cổng Cuối Cùng
+
+Mở Dungeon 3
+
+CHƯƠNG 7: DUNGEON 3 - ĐỀN MẶT TRỜI VĨNH CỬU (QUEST 141–145)
+Quest 141 – Hành Trình Cuối
+
+Dungeon:
+
+Đền Mặt Trời Vĩnh Cửu
+
+Quest 142 – Thử Thách Ánh Sáng
+
+Mục tiêu:
+
+Kích hoạt 5 Solar Crystal
+Quest 143 – Vệ Binh Hoàng Kim
+
+Mục tiêu:
+
+Tiêu diệt:
+30 Guardian Slime
+Quest 144 – Titan Sa Mạc
+
+Boss:
+
+Ancient Sand Titan
+
+Quest 145 – Điện Thờ Cát Vàng
+
+Mở Boss Arena
+
+CHƯƠNG 8: BOSS KHU VỰC (QUEST 146–150)
+Quest 146 – Bão Cát Tận Thế
+
+Mục tiêu:
+
+Tiến vào Điện Thờ Cát Vàng
+Quest 147 – Những Người Bảo Hộ Cuối Cùng
+
+Mục tiêu:
+
+Đánh bại:
+3 Sand Guardian
+Quest 148 – Năng Lượng Hoàng Kim
+
+Mục tiêu:
+
+Thu thập:
+20 Golden Essence
+Quest 149 – Ngai Vàng Sa Mạc
+
+Boss Arena
+
+Quest 150 – Slime Cồn Cát Vàng
+
+Boss:
+
+Slime Cồn Cát Vàng
+
+Kỹ năng
+Sandstorm
+
+Tạo bão cát toàn bản đồ.
+
+Mirage Clone
+
+Tạo ảo ảnh giả.
+
+Golden Spear
+
+Triệu hồi giáo cát từ mặt đất.
+
+Desert Burial
+
+Chôn người chơi dưới cát.
+
+Solar Rage
+
+Phase 2 khi còn 25% HP.
+
+PHẦN THƯỞNG
+Desert Core Fragment
+Epic Equipment Set Lv 650
+60.000 EXP
+10.000 Gold
+1 Desert Boss Chest
+KẾT THÚC BIOME SA MẠC
+
+Người chơi nhận:
+
+Danh hiệu
+
+Kẻ Chinh Phục Biển Cát
+
+Mount
+
+Lạc Đà Hoàng Kim
+
+Fragment
+
+Desert Core Fragment
+
+Mở Biome Tiếp Theo
+
+Núi Titan (Lv 650–850)
+
+WORLD BOSS SA MẠC
+Ancient Sun Pharaoh Slime
+
+Xuất hiện:
+
+06:00
+12:00
+18:00
+22:00
+Cơ chế
+Chuyển đổi Ngày / Đêm
+Triệu hồi vệ binh Pharaoh
+Bão cát liên tục
+Tăng sức mạnh theo số người tham chiến
+Phần thưởng
+Desert Crystal
+Guild Contribution
+World Boss Token
+Rare → Mythic Equipment
+Pet Egg: Pharaoh Slime
+Nguyên liệu chế tạo Set Hoàng Kim
+Tổng kết Biome Sa Mạc
+30 Main Quest (111–150)
+3 Dungeon
+1 Elite Boss
+1 Mini Boss
+3 Dungeon Boss
+1 Regional Boss
+1 World Boss
+1 World Core Fragment
+Mở cốt truyện về nền văn minh đầu tiên nghiên cứu World Core

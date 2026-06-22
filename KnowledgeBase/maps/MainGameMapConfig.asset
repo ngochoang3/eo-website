@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8795ff8cf01175848a75b9aeccddbc52, type: 3}
+  m_Name: MainGameMapConfig
+  m_EditorClassIdentifier: Assembly-CSharp::StreamingMap.StreamingMapConfig
+  chunkWidth: 200
+  chunkHeight: 120
+  useSlidingWindow: 1
+  windowSize: 4
+  totalChunkCount: 1050
+  firstChunkIndex: 0
+  alwaysLoadTownChunks: 1
+  preloadRangeLeft: 2
+  preloadRangeRight: 3
+  unloadRangeLeft: 4
+  unloadRangeRight: 4
+  checkInterval: 0.2
+  useChunkPooling: 1
+  prewarmChunkPool: 1
+  prewarmInstancesPerPrefab: 1
+  prewarmMaxPrefabs: 10
+  deferChunkLoadOneFrame: 1
+  maxChunkLoadsPerTick: 1
+  deferCheckpointReset: 1
+  maxChunkUnloadsPerTick: 2
+  useAddressables: 0
+  addressablesKeyPrefix: MapChunks/
+  releaseAddressablesOnChunkUnload: 1
+  addressableMaxCachedPrefabs: 16
+  preloadAllPrefabsAtStart: 0
+  maxChunksInMemory: 10
+  enableChunkVisualLod: 1
+  fullDetailDistanceFactor: 0.55
+  cullRendererDistanceFactor: 1.05
+  chunkLodCheckInterval: 0.35
+  combineChunkMeshesOnLoad: 1
+  enableMemoryTrim: 1
+  ramPressureMb: 0
+  ramPressureDeltaMb: 200
+  skipRamPressureInEditor: 1
+  trimStartupGraceSec: 45
+  fpsPressureThreshold: 42
+  fpsPressureDurationSec: 4
+  chunkUnloadsBeforeTrim: 6
+  minSecondsBetweenTrims: 75
+  addressablesReleasePerFrame: 2
+  framesBetweenTrimPhases: 2
+  runResourcesUnloadPhase: 1
+  runGcOnlyIfStillCritical: 1
+  gcRamThresholdMb: 420
+  gcRamDeltaMb: 280
+  preferPrefabNavMeshData: 1
+  debugLogging: 0
+  debugLogInDevelopmentBuild: 0
+  visualizeChunkBounds: 0

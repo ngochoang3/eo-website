@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kiểm Tra Ngôn Ngữ | EO</title>
+<meta name="description" content="Trang kiểm tra hệ thống tự động phát hiện và chuyển đổi ngôn ngữ (Tiếng Việt / English) của EO.">
+<meta name="robots" content="noindex,follow">
+<link rel="canonical" href="https://eo.io.vn/lang-test.html">
+<link rel="icon" href="image/icon.png" type="image/png">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0c1730">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Nunito:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+<link rel="stylesheet" href="assets/css/chatbot.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Bỏ qua đến nội dung chính</a>
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand"><img src="image/logo.png" alt="EO logo" width="40" height="40">EO</a>
+    <nav class="main-nav" aria-label="Menu chính">
+      <a href="index.html" data-i18n="nav.home">Trang Chủ</a>
+      <a href="games.html" data-i18n="nav.games">Games</a>
+      <a href="apps.html" data-i18n="nav.apps">Apps</a>
+      <a href="universe.html" data-i18n="nav.universe">Universe</a>
+      <a href="news.html" data-i18n="nav.news">Tin Tức</a>
+      <a href="guilds.html" data-i18n="nav.community">Cộng Đồng</a>
+      <a href="about.html" data-i18n="nav.about">Về Chúng Tôi</a>
+      <a href="contact.html" data-i18n="nav.contact">Liên Hệ</a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-switch" role="group" aria-label="Chọn ngôn ngữ">
+        <button type="button" data-lang="vi">VI</button>
+        <button type="button" data-lang="en">EN</button>
+      </div>
+      <button class="nav-toggle" aria-label="Mở menu" aria-expanded="false" aria-controls="navDrawer"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="drawer-overlay"></div>
+<nav class="nav-drawer" id="navDrawer" aria-label="Menu di động">
+  <a href="index.html" data-i18n="nav.home">Trang Chủ</a>
+  <a href="games.html" data-i18n="nav.games">Games</a>
+  <a href="apps.html" data-i18n="nav.apps">Apps</a>
+  <a href="universe.html" data-i18n="nav.universe">Universe</a>
+  <a href="news.html" data-i18n="nav.news">Tin Tức</a>
+  <a href="guilds.html" data-i18n="nav.community">Cộng Đồng</a>
+  <a href="about.html" data-i18n="nav.about">Về Chúng Tôi</a>
+  <a href="contact.html" data-i18n="nav.contact">Liên Hệ</a>
+</nav>
+
+<main id="main">
+  <section class="section" style="padding-top:calc(var(--header-h) + 60px)">
+    <div class="container">
+      <div class="lang-test-box">
+        <h1 data-i18n="langtest.title">Kiểm Tra Ngôn Ngữ</h1>
+        <p><span data-i18n="langtest.detected">Ngôn ngữ trình duyệt phát hiện:</span> <strong id="detectedLang">…</strong></p>
+        <p><span data-i18n="langtest.current">Ngôn ngữ hiện tại đang dùng:</span> <strong id="currentLang">…</strong></p>
+        <p><code id="navLangRaw"></code></p>
+        <div class="hero-actions" style="justify-content:center;margin-top:20px">
+          <button class="btn btn-outline" data-lang="vi" id="forceVi">VI</button>
+          <button class="btn btn-outline" data-lang="en" id="forceEn">EN</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-bottom">
+      <span data-i18n="footer.copyright">© 2026 EO Studio. Bảo lưu mọi quyền.</span>
+      <span><a href="index.html" data-i18n="breadcrumb.home">Trang Chủ</a></span>
+    </div>
+  </div>
+</footer>
+<button class="back-to-top" aria-label="Lên đầu trang">↑</button>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/chatbot/text-utils.js"></script>
+<script src="assets/js/chatbot/synonyms.js"></script>
+<script src="assets/js/chatbot/kb-loader.js"></script>
+<script src="assets/js/chatbot/kb-cache.js"></script>
+<script src="assets/js/chatbot/search-engine.js"></script>
+<script src="assets/js/chatbot/nlu.js"></script>
+<script src="assets/js/chatbot/memory.js"></script>
+<script src="assets/js/chatbot/answer-templates.js"></script>
+<script src="assets/js/chatbot/chat-engine.js"></script>
+<script src="assets/js/chatbot/chat-admin.js"></script>
+<script src="assets/js/chatbot/chat-ui.js"></script>
+<script>
+(function(){
+  function labelFor(lang){
+    return lang === "vi"
+      ? (window.APPALO.I18N.vi["langtest.vi"])
+      : (window.APPALO.I18N.en["langtest.en"]);
+  }
+  function refresh(){
+    document.getElementById("detectedLang").textContent = labelFor(AppaloI18N.detectBrowserLang());
+    document.getElementById("currentLang").textContent = labelFor(AppaloI18N.currentLang());
+    document.getElementById("navLangRaw").textContent = "navigator.language = \"" + navigator.language + "\"";
+  }
+  document.addEventListener("eo:langchange", refresh);
+  refresh();
+})();
+</script>
+</body>
+</html>

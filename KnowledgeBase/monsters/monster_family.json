@@ -1,0 +1,2294 @@
+{
+  "schemaVersion": 1,
+  "name": "monster_family",
+  "families": [
+    {
+      "family_id": "beast",
+      "display_name": "Beast",
+      "element_weakness": "Fire",
+      "element_resistance": "Water",
+      "cc_immunity": [
+        "sleep"
+      ],
+      "bestiary_bonus_type": "gold_pct",
+      "bestiary_bonus_value": 0.05,
+      "bestiary_threshold": 100,
+      "slayer_trait_id": "trait_off_beast_slayer",
+      "slayer_rune_id": "rune_fire_elem_dmg_t3",
+      "primary_biomes": [
+        1,
+        6,
+        7,
+        8
+      ],
+      "description": "Sinh vat tu nhien cua cac vung dong co va rung ram.",
+      "icon": "icon_family_beast",
+      "sub_types": [
+        "wolf",
+        "bear",
+        "boar",
+        "bird",
+        "lizard",
+        "serpent",
+        "tiger",
+        "rhinoceros"
+      ]
+    },
+    {
+      "family_id": "undead",
+      "display_name": "Undead",
+      "element_weakness": "Light",
+      "element_resistance": "Dark",
+      "cc_immunity": [
+        "stun"
+      ],
+      "bestiary_bonus_type": "drop_rate",
+      "bestiary_bonus_value": 0.1,
+      "bestiary_threshold": 100,
+      "slayer_trait_id": "trait_off_undead_slayer",
+      "slayer_rune_id": "rune_light_elem_dmg_t3",
+      "primary_biomes": [
+        11,
+        18
+      ],
+      "description": "Nhung thu da chet nhung khong chiu nam yen.",
+      "icon": "icon_family_undead",
+      "sub_types": [
+        "skeleton",
+        "zombie",
+        "ghost",
+        "lich",
+        "wraith",
+        "vampire",
+        "banshee",
+        "mummy"
+      ]
+    },
+    {
+      "family_id": "elemental",
+      "display_name": "Elemental",
+      "element_weakness": "opposite_element",
+      "element_resistance": "own_element",
+      "cc_immunity": [
+        "slow",
+        "root"
+      ],
+      "bestiary_bonus_type": "exp_pct",
+      "bestiary_bonus_value": 0.05,
+      "bestiary_threshold": 100,
+      "slayer_trait_id": "trait_off_element_slayer",
+      "slayer_rune_id": "rune_earth_elem_dmg_t3",
+      "primary_biomes": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        9
+      ],
+      "description": "Hien than cua suc manh nguyen to thuan khiet.",
+      "icon": "icon_family_elemental",
+      "sub_types": [
+        "fire_sprite",
+        "water_golem",
+        "earth_titan",
+        "wind_djinn",
+        "light_seraph",
+        "dark_shade"
+      ],
+      "special_rule": "element_weakness = opposite in ElementChart; element_resistance = own element"
+    },
+    {
+      "family_id": "construct",
+      "display_name": "Construct",
+      "element_weakness": "Earth",
+      "element_resistance": "physical",
+      "cc_immunity": [
+        "silence"
+      ],
+      "bestiary_bonus_type": "gold_pct",
+      "bestiary_bonus_value": 0.05,
+      "bestiary_threshold": 100,
+      "slayer_trait_id": "trait_off_construct_slayer",
+      "slayer_rune_id": "rune_earth_elem_dmg_t3",
+      "primary_biomes": [
+        15,
+        19,
+        20
+      ],
+      "description": "May moc va cong trinh khong co linh hon.",
+      "icon": "icon_family_construct",
+      "sub_types": [
+        "golem",
+        "automaton",
+        "sentinel",
+        "warforged",
+        "clockwork",
+        "siege_engine",
+        "drone",
+        "colossus"
+      ]
+    },
+    {
+      "family_id": "demon",
+      "display_name": "Demon",
+      "element_weakness": "Light",
+      "element_resistance": "dark",
+      "cc_immunity": [
+        "freeze"
+      ],
+      "bestiary_bonus_type": "drop_rate",
+      "bestiary_bonus_value": 0.1,
+      "bestiary_threshold": 100,
+      "slayer_trait_id": "trait_off_demon_slayer",
+      "slayer_rune_id": "rune_light_elem_dmg_t3",
+      "primary_biomes": [
+        12,
+        17,
+        21
+      ],
+      "description": "Sinh vat tu cac chieu khong gian toi tam.",
+      "icon": "icon_family_demon",
+      "sub_types": [
+        "imp",
+        "succubus",
+        "balor",
+        "pit_lord",
+        "shadow_fiend",
+        "hellhound",
+        "infernal",
+        "demonlord"
+      ]
+    },
+    {
+      "family_id": "humanoid",
+      "display_name": "Humanoid",
+      "element_weakness": null,
+      "element_resistance": null,
+      "cc_immunity": [],
+      "bestiary_bonus_type": "exp_pct",
+      "bestiary_bonus_value": 0.08,
+      "bestiary_threshold": 100,
+      "slayer_trait_id": "trait_off_humanoid_slayer",
+      "slayer_rune_id": "rune_wind_atk_t3",
+      "primary_biomes": [
+        10,
+        11,
+        13
+      ],
+      "description": "Ke thu co ly tri va chien thuat.",
+      "icon": "icon_family_humanoid",
+      "sub_types": [
+        "bandit",
+        "soldier",
+        "mage",
+        "archer",
+        "assassin",
+        "warlord",
+        "cultist",
+        "berserker"
+      ]
+    }
+  ],
+  "bestiary_milestones": [
+    {
+      "kill_threshold": 1,
+      "reward_type": "discovery",
+      "reward_value": 0,
+      "achievement_id": "ach_bestiary_discover"
+    },
+    {
+      "kill_threshold": 10,
+      "reward_type": "drop_hint",
+      "reward_value": 0,
+      "achievement_id": null
+    },
+    {
+      "kill_threshold": 50,
+      "reward_type": "weakness_reveal",
+      "reward_value": 0,
+      "achievement_id": null
+    },
+    {
+      "kill_threshold": 100,
+      "reward_type": "bestiary_bonus",
+      "reward_value": 0,
+      "achievement_id": "ach_bestiary_100"
+    },
+    {
+      "kill_threshold": 500,
+      "reward_type": "title_unlock",
+      "reward_value": 0,
+      "achievement_id": "ach_bestiary_500"
+    },
+    {
+      "kill_threshold": 1000,
+      "reward_type": "cosmetic",
+      "reward_value": 0,
+      "achievement_id": "ach_bestiary_1000"
+    }
+  ],
+  "monster_family_assignments": [
+    {
+      "monster_id": "mon_verdant_plains_basic_melee",
+      "biome_id": 1,
+      "family_id": "beast",
+      "archetype": "basic_melee",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_verdant_plains_basic_range",
+      "biome_id": 1,
+      "family_id": "beast",
+      "archetype": "basic_range",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_verdant_plains_elite_melee",
+      "biome_id": 1,
+      "family_id": "beast",
+      "archetype": "elite_melee",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_verdant_plains_elite_range",
+      "biome_id": 1,
+      "family_id": "beast",
+      "archetype": "elite_range",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_verdant_plains_healer",
+      "biome_id": 1,
+      "family_id": "beast",
+      "archetype": "healer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_verdant_plains_tank",
+      "biome_id": 1,
+      "family_id": "beast",
+      "archetype": "tank",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_verdant_plains_fast_attacker",
+      "biome_id": 1,
+      "family_id": "beast",
+      "archetype": "fast_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_verdant_plains_area_attacker",
+      "biome_id": 1,
+      "family_id": "beast",
+      "archetype": "area_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_verdant_plains_debuffer",
+      "biome_id": 1,
+      "family_id": "beast",
+      "archetype": "debuffer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_verdant_plains_summoner",
+      "biome_id": 1,
+      "family_id": "beast",
+      "archetype": "summoner",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_verdant_plains_alpha",
+      "biome_id": 1,
+      "family_id": "beast",
+      "archetype": "alpha",
+      "sub_type": "named"
+    },
+    {
+      "monster_id": "mon_verdant_plains_miniboss",
+      "biome_id": 1,
+      "family_id": "beast",
+      "archetype": "miniboss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_verdant_plains_boss",
+      "biome_id": 1,
+      "family_id": "beast",
+      "archetype": "boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_verdant_plains_world_boss",
+      "biome_id": 1,
+      "family_id": "beast",
+      "archetype": "world_boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_scorched_wastes_basic_melee",
+      "biome_id": 2,
+      "family_id": "elemental",
+      "archetype": "basic_melee",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_scorched_wastes_basic_range",
+      "biome_id": 2,
+      "family_id": "elemental",
+      "archetype": "basic_range",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_scorched_wastes_elite_melee",
+      "biome_id": 2,
+      "family_id": "elemental",
+      "archetype": "elite_melee",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_scorched_wastes_elite_range",
+      "biome_id": 2,
+      "family_id": "elemental",
+      "archetype": "elite_range",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_scorched_wastes_healer",
+      "biome_id": 2,
+      "family_id": "elemental",
+      "archetype": "healer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_scorched_wastes_tank",
+      "biome_id": 2,
+      "family_id": "elemental",
+      "archetype": "tank",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_scorched_wastes_fast_attacker",
+      "biome_id": 2,
+      "family_id": "elemental",
+      "archetype": "fast_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_scorched_wastes_area_attacker",
+      "biome_id": 2,
+      "family_id": "elemental",
+      "archetype": "area_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_scorched_wastes_debuffer",
+      "biome_id": 2,
+      "family_id": "elemental",
+      "archetype": "debuffer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_scorched_wastes_summoner",
+      "biome_id": 2,
+      "family_id": "elemental",
+      "archetype": "summoner",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_scorched_wastes_alpha",
+      "biome_id": 2,
+      "family_id": "elemental",
+      "archetype": "alpha",
+      "sub_type": "named"
+    },
+    {
+      "monster_id": "mon_scorched_wastes_miniboss",
+      "biome_id": 2,
+      "family_id": "elemental",
+      "archetype": "miniboss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_scorched_wastes_boss",
+      "biome_id": 2,
+      "family_id": "elemental",
+      "archetype": "boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_scorched_wastes_world_boss",
+      "biome_id": 2,
+      "family_id": "elemental",
+      "archetype": "world_boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_aqua_depths_basic_melee",
+      "biome_id": 3,
+      "family_id": "elemental",
+      "archetype": "basic_melee",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_aqua_depths_basic_range",
+      "biome_id": 3,
+      "family_id": "elemental",
+      "archetype": "basic_range",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_aqua_depths_elite_melee",
+      "biome_id": 3,
+      "family_id": "elemental",
+      "archetype": "elite_melee",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_aqua_depths_elite_range",
+      "biome_id": 3,
+      "family_id": "elemental",
+      "archetype": "elite_range",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_aqua_depths_healer",
+      "biome_id": 3,
+      "family_id": "elemental",
+      "archetype": "healer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_aqua_depths_tank",
+      "biome_id": 3,
+      "family_id": "elemental",
+      "archetype": "tank",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_aqua_depths_fast_attacker",
+      "biome_id": 3,
+      "family_id": "elemental",
+      "archetype": "fast_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_aqua_depths_area_attacker",
+      "biome_id": 3,
+      "family_id": "elemental",
+      "archetype": "area_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_aqua_depths_debuffer",
+      "biome_id": 3,
+      "family_id": "elemental",
+      "archetype": "debuffer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_aqua_depths_summoner",
+      "biome_id": 3,
+      "family_id": "elemental",
+      "archetype": "summoner",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_aqua_depths_alpha",
+      "biome_id": 3,
+      "family_id": "elemental",
+      "archetype": "alpha",
+      "sub_type": "named"
+    },
+    {
+      "monster_id": "mon_aqua_depths_miniboss",
+      "biome_id": 3,
+      "family_id": "elemental",
+      "archetype": "miniboss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_aqua_depths_boss",
+      "biome_id": 3,
+      "family_id": "elemental",
+      "archetype": "boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_aqua_depths_world_boss",
+      "biome_id": 3,
+      "family_id": "elemental",
+      "archetype": "world_boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_windy_peaks_basic_melee",
+      "biome_id": 4,
+      "family_id": "elemental",
+      "archetype": "basic_melee",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_windy_peaks_basic_range",
+      "biome_id": 4,
+      "family_id": "elemental",
+      "archetype": "basic_range",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_windy_peaks_elite_melee",
+      "biome_id": 4,
+      "family_id": "elemental",
+      "archetype": "elite_melee",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_windy_peaks_elite_range",
+      "biome_id": 4,
+      "family_id": "elemental",
+      "archetype": "elite_range",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_windy_peaks_healer",
+      "biome_id": 4,
+      "family_id": "elemental",
+      "archetype": "healer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_windy_peaks_tank",
+      "biome_id": 4,
+      "family_id": "elemental",
+      "archetype": "tank",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_windy_peaks_fast_attacker",
+      "biome_id": 4,
+      "family_id": "elemental",
+      "archetype": "fast_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_windy_peaks_area_attacker",
+      "biome_id": 4,
+      "family_id": "elemental",
+      "archetype": "area_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_windy_peaks_debuffer",
+      "biome_id": 4,
+      "family_id": "elemental",
+      "archetype": "debuffer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_windy_peaks_summoner",
+      "biome_id": 4,
+      "family_id": "elemental",
+      "archetype": "summoner",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_windy_peaks_alpha",
+      "biome_id": 4,
+      "family_id": "elemental",
+      "archetype": "alpha",
+      "sub_type": "named"
+    },
+    {
+      "monster_id": "mon_windy_peaks_miniboss",
+      "biome_id": 4,
+      "family_id": "elemental",
+      "archetype": "miniboss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_windy_peaks_boss",
+      "biome_id": 4,
+      "family_id": "elemental",
+      "archetype": "boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_windy_peaks_world_boss",
+      "biome_id": 4,
+      "family_id": "elemental",
+      "archetype": "world_boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_crystal_caverns_basic_melee",
+      "biome_id": 5,
+      "family_id": "construct",
+      "archetype": "basic_melee",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_crystal_caverns_basic_range",
+      "biome_id": 5,
+      "family_id": "construct",
+      "archetype": "basic_range",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_crystal_caverns_elite_melee",
+      "biome_id": 5,
+      "family_id": "construct",
+      "archetype": "elite_melee",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_crystal_caverns_elite_range",
+      "biome_id": 5,
+      "family_id": "construct",
+      "archetype": "elite_range",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_crystal_caverns_healer",
+      "biome_id": 5,
+      "family_id": "construct",
+      "archetype": "healer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_crystal_caverns_tank",
+      "biome_id": 5,
+      "family_id": "construct",
+      "archetype": "tank",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_crystal_caverns_fast_attacker",
+      "biome_id": 5,
+      "family_id": "construct",
+      "archetype": "fast_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_crystal_caverns_area_attacker",
+      "biome_id": 5,
+      "family_id": "construct",
+      "archetype": "area_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_crystal_caverns_debuffer",
+      "biome_id": 5,
+      "family_id": "construct",
+      "archetype": "debuffer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_crystal_caverns_summoner",
+      "biome_id": 5,
+      "family_id": "construct",
+      "archetype": "summoner",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_crystal_caverns_alpha",
+      "biome_id": 5,
+      "family_id": "construct",
+      "archetype": "alpha",
+      "sub_type": "named"
+    },
+    {
+      "monster_id": "mon_crystal_caverns_miniboss",
+      "biome_id": 5,
+      "family_id": "construct",
+      "archetype": "miniboss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_crystal_caverns_boss",
+      "biome_id": 5,
+      "family_id": "construct",
+      "archetype": "boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_crystal_caverns_world_boss",
+      "biome_id": 5,
+      "family_id": "construct",
+      "archetype": "world_boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_swamp_marshes_basic_melee",
+      "biome_id": 6,
+      "family_id": "beast",
+      "archetype": "basic_melee",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_swamp_marshes_basic_range",
+      "biome_id": 6,
+      "family_id": "beast",
+      "archetype": "basic_range",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_swamp_marshes_elite_melee",
+      "biome_id": 6,
+      "family_id": "beast",
+      "archetype": "elite_melee",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_swamp_marshes_elite_range",
+      "biome_id": 6,
+      "family_id": "beast",
+      "archetype": "elite_range",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_swamp_marshes_healer",
+      "biome_id": 6,
+      "family_id": "beast",
+      "archetype": "healer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_swamp_marshes_tank",
+      "biome_id": 6,
+      "family_id": "beast",
+      "archetype": "tank",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_swamp_marshes_fast_attacker",
+      "biome_id": 6,
+      "family_id": "beast",
+      "archetype": "fast_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_swamp_marshes_area_attacker",
+      "biome_id": 6,
+      "family_id": "beast",
+      "archetype": "area_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_swamp_marshes_debuffer",
+      "biome_id": 6,
+      "family_id": "beast",
+      "archetype": "debuffer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_swamp_marshes_summoner",
+      "biome_id": 6,
+      "family_id": "beast",
+      "archetype": "summoner",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_swamp_marshes_alpha",
+      "biome_id": 6,
+      "family_id": "beast",
+      "archetype": "alpha",
+      "sub_type": "named"
+    },
+    {
+      "monster_id": "mon_swamp_marshes_miniboss",
+      "biome_id": 6,
+      "family_id": "beast",
+      "archetype": "miniboss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_swamp_marshes_boss",
+      "biome_id": 6,
+      "family_id": "beast",
+      "archetype": "boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_swamp_marshes_world_boss",
+      "biome_id": 6,
+      "family_id": "beast",
+      "archetype": "world_boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_bamboo_forest_basic_melee",
+      "biome_id": 7,
+      "family_id": "beast",
+      "archetype": "basic_melee",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_bamboo_forest_basic_range",
+      "biome_id": 7,
+      "family_id": "beast",
+      "archetype": "basic_range",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_bamboo_forest_elite_melee",
+      "biome_id": 7,
+      "family_id": "beast",
+      "archetype": "elite_melee",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_bamboo_forest_elite_range",
+      "biome_id": 7,
+      "family_id": "beast",
+      "archetype": "elite_range",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_bamboo_forest_healer",
+      "biome_id": 7,
+      "family_id": "beast",
+      "archetype": "healer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_bamboo_forest_tank",
+      "biome_id": 7,
+      "family_id": "beast",
+      "archetype": "tank",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_bamboo_forest_fast_attacker",
+      "biome_id": 7,
+      "family_id": "beast",
+      "archetype": "fast_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_bamboo_forest_area_attacker",
+      "biome_id": 7,
+      "family_id": "beast",
+      "archetype": "area_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_bamboo_forest_debuffer",
+      "biome_id": 7,
+      "family_id": "beast",
+      "archetype": "debuffer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_bamboo_forest_summoner",
+      "biome_id": 7,
+      "family_id": "beast",
+      "archetype": "summoner",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_bamboo_forest_alpha",
+      "biome_id": 7,
+      "family_id": "beast",
+      "archetype": "alpha",
+      "sub_type": "named"
+    },
+    {
+      "monster_id": "mon_bamboo_forest_miniboss",
+      "biome_id": 7,
+      "family_id": "beast",
+      "archetype": "miniboss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_bamboo_forest_boss",
+      "biome_id": 7,
+      "family_id": "beast",
+      "archetype": "boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_bamboo_forest_world_boss",
+      "biome_id": 7,
+      "family_id": "beast",
+      "archetype": "world_boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_volcano_summit_basic_melee",
+      "biome_id": 8,
+      "family_id": "elemental",
+      "archetype": "basic_melee",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_volcano_summit_basic_range",
+      "biome_id": 8,
+      "family_id": "elemental",
+      "archetype": "basic_range",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_volcano_summit_elite_melee",
+      "biome_id": 8,
+      "family_id": "elemental",
+      "archetype": "elite_melee",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_volcano_summit_elite_range",
+      "biome_id": 8,
+      "family_id": "elemental",
+      "archetype": "elite_range",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_volcano_summit_healer",
+      "biome_id": 8,
+      "family_id": "elemental",
+      "archetype": "healer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_volcano_summit_tank",
+      "biome_id": 8,
+      "family_id": "elemental",
+      "archetype": "tank",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_volcano_summit_fast_attacker",
+      "biome_id": 8,
+      "family_id": "elemental",
+      "archetype": "fast_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_volcano_summit_area_attacker",
+      "biome_id": 8,
+      "family_id": "elemental",
+      "archetype": "area_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_volcano_summit_debuffer",
+      "biome_id": 8,
+      "family_id": "elemental",
+      "archetype": "debuffer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_volcano_summit_summoner",
+      "biome_id": 8,
+      "family_id": "elemental",
+      "archetype": "summoner",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_volcano_summit_alpha",
+      "biome_id": 8,
+      "family_id": "elemental",
+      "archetype": "alpha",
+      "sub_type": "named"
+    },
+    {
+      "monster_id": "mon_volcano_summit_miniboss",
+      "biome_id": 8,
+      "family_id": "elemental",
+      "archetype": "miniboss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_volcano_summit_boss",
+      "biome_id": 8,
+      "family_id": "elemental",
+      "archetype": "boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_volcano_summit_world_boss",
+      "biome_id": 8,
+      "family_id": "elemental",
+      "archetype": "world_boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_sky_archipelago_basic_melee",
+      "biome_id": 9,
+      "family_id": "elemental",
+      "archetype": "basic_melee",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_sky_archipelago_basic_range",
+      "biome_id": 9,
+      "family_id": "elemental",
+      "archetype": "basic_range",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_sky_archipelago_elite_melee",
+      "biome_id": 9,
+      "family_id": "elemental",
+      "archetype": "elite_melee",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_sky_archipelago_elite_range",
+      "biome_id": 9,
+      "family_id": "elemental",
+      "archetype": "elite_range",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_sky_archipelago_healer",
+      "biome_id": 9,
+      "family_id": "elemental",
+      "archetype": "healer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_sky_archipelago_tank",
+      "biome_id": 9,
+      "family_id": "elemental",
+      "archetype": "tank",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_sky_archipelago_fast_attacker",
+      "biome_id": 9,
+      "family_id": "elemental",
+      "archetype": "fast_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_sky_archipelago_area_attacker",
+      "biome_id": 9,
+      "family_id": "elemental",
+      "archetype": "area_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_sky_archipelago_debuffer",
+      "biome_id": 9,
+      "family_id": "elemental",
+      "archetype": "debuffer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_sky_archipelago_summoner",
+      "biome_id": 9,
+      "family_id": "elemental",
+      "archetype": "summoner",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_sky_archipelago_alpha",
+      "biome_id": 9,
+      "family_id": "elemental",
+      "archetype": "alpha",
+      "sub_type": "named"
+    },
+    {
+      "monster_id": "mon_sky_archipelago_miniboss",
+      "biome_id": 9,
+      "family_id": "elemental",
+      "archetype": "miniboss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_sky_archipelago_boss",
+      "biome_id": 9,
+      "family_id": "elemental",
+      "archetype": "boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_sky_archipelago_world_boss",
+      "biome_id": 9,
+      "family_id": "elemental",
+      "archetype": "world_boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_frozen_tundra_basic_melee",
+      "biome_id": 10,
+      "family_id": "undead",
+      "archetype": "basic_melee",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_frozen_tundra_basic_range",
+      "biome_id": 10,
+      "family_id": "undead",
+      "archetype": "basic_range",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_frozen_tundra_elite_melee",
+      "biome_id": 10,
+      "family_id": "undead",
+      "archetype": "elite_melee",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_frozen_tundra_elite_range",
+      "biome_id": 10,
+      "family_id": "undead",
+      "archetype": "elite_range",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_frozen_tundra_healer",
+      "biome_id": 10,
+      "family_id": "undead",
+      "archetype": "healer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_frozen_tundra_tank",
+      "biome_id": 10,
+      "family_id": "undead",
+      "archetype": "tank",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_frozen_tundra_fast_attacker",
+      "biome_id": 10,
+      "family_id": "undead",
+      "archetype": "fast_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_frozen_tundra_area_attacker",
+      "biome_id": 10,
+      "family_id": "undead",
+      "archetype": "area_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_frozen_tundra_debuffer",
+      "biome_id": 10,
+      "family_id": "undead",
+      "archetype": "debuffer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_frozen_tundra_summoner",
+      "biome_id": 10,
+      "family_id": "undead",
+      "archetype": "summoner",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_frozen_tundra_alpha",
+      "biome_id": 10,
+      "family_id": "undead",
+      "archetype": "alpha",
+      "sub_type": "named"
+    },
+    {
+      "monster_id": "mon_frozen_tundra_miniboss",
+      "biome_id": 10,
+      "family_id": "undead",
+      "archetype": "miniboss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_frozen_tundra_boss",
+      "biome_id": 10,
+      "family_id": "undead",
+      "archetype": "boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_frozen_tundra_world_boss",
+      "biome_id": 10,
+      "family_id": "undead",
+      "archetype": "world_boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_ruined_kingdom_basic_melee",
+      "biome_id": 11,
+      "family_id": "undead",
+      "archetype": "basic_melee",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_ruined_kingdom_basic_range",
+      "biome_id": 11,
+      "family_id": "undead",
+      "archetype": "basic_range",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_ruined_kingdom_elite_melee",
+      "biome_id": 11,
+      "family_id": "undead",
+      "archetype": "elite_melee",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_ruined_kingdom_elite_range",
+      "biome_id": 11,
+      "family_id": "undead",
+      "archetype": "elite_range",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_ruined_kingdom_healer",
+      "biome_id": 11,
+      "family_id": "undead",
+      "archetype": "healer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_ruined_kingdom_tank",
+      "biome_id": 11,
+      "family_id": "undead",
+      "archetype": "tank",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_ruined_kingdom_fast_attacker",
+      "biome_id": 11,
+      "family_id": "undead",
+      "archetype": "fast_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_ruined_kingdom_area_attacker",
+      "biome_id": 11,
+      "family_id": "undead",
+      "archetype": "area_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_ruined_kingdom_debuffer",
+      "biome_id": 11,
+      "family_id": "undead",
+      "archetype": "debuffer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_ruined_kingdom_summoner",
+      "biome_id": 11,
+      "family_id": "undead",
+      "archetype": "summoner",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_ruined_kingdom_alpha",
+      "biome_id": 11,
+      "family_id": "undead",
+      "archetype": "alpha",
+      "sub_type": "named"
+    },
+    {
+      "monster_id": "mon_ruined_kingdom_miniboss",
+      "biome_id": 11,
+      "family_id": "undead",
+      "archetype": "miniboss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_ruined_kingdom_boss",
+      "biome_id": 11,
+      "family_id": "undead",
+      "archetype": "boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_ruined_kingdom_world_boss",
+      "biome_id": 11,
+      "family_id": "undead",
+      "archetype": "world_boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_shadow_vale_basic_melee",
+      "biome_id": 12,
+      "family_id": "demon",
+      "archetype": "basic_melee",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_shadow_vale_basic_range",
+      "biome_id": 12,
+      "family_id": "demon",
+      "archetype": "basic_range",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_shadow_vale_elite_melee",
+      "biome_id": 12,
+      "family_id": "demon",
+      "archetype": "elite_melee",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_shadow_vale_elite_range",
+      "biome_id": 12,
+      "family_id": "demon",
+      "archetype": "elite_range",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_shadow_vale_healer",
+      "biome_id": 12,
+      "family_id": "demon",
+      "archetype": "healer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_shadow_vale_tank",
+      "biome_id": 12,
+      "family_id": "demon",
+      "archetype": "tank",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_shadow_vale_fast_attacker",
+      "biome_id": 12,
+      "family_id": "demon",
+      "archetype": "fast_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_shadow_vale_area_attacker",
+      "biome_id": 12,
+      "family_id": "demon",
+      "archetype": "area_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_shadow_vale_debuffer",
+      "biome_id": 12,
+      "family_id": "demon",
+      "archetype": "debuffer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_shadow_vale_summoner",
+      "biome_id": 12,
+      "family_id": "demon",
+      "archetype": "summoner",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_shadow_vale_alpha",
+      "biome_id": 12,
+      "family_id": "demon",
+      "archetype": "alpha",
+      "sub_type": "named"
+    },
+    {
+      "monster_id": "mon_shadow_vale_miniboss",
+      "biome_id": 12,
+      "family_id": "demon",
+      "archetype": "miniboss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_shadow_vale_boss",
+      "biome_id": 12,
+      "family_id": "demon",
+      "archetype": "boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_shadow_vale_world_boss",
+      "biome_id": 12,
+      "family_id": "demon",
+      "archetype": "world_boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_ember_desert_basic_melee",
+      "biome_id": 13,
+      "family_id": "humanoid",
+      "archetype": "basic_melee",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_ember_desert_basic_range",
+      "biome_id": 13,
+      "family_id": "humanoid",
+      "archetype": "basic_range",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_ember_desert_elite_melee",
+      "biome_id": 13,
+      "family_id": "humanoid",
+      "archetype": "elite_melee",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_ember_desert_elite_range",
+      "biome_id": 13,
+      "family_id": "humanoid",
+      "archetype": "elite_range",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_ember_desert_healer",
+      "biome_id": 13,
+      "family_id": "humanoid",
+      "archetype": "healer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_ember_desert_tank",
+      "biome_id": 13,
+      "family_id": "humanoid",
+      "archetype": "tank",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_ember_desert_fast_attacker",
+      "biome_id": 13,
+      "family_id": "humanoid",
+      "archetype": "fast_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_ember_desert_area_attacker",
+      "biome_id": 13,
+      "family_id": "humanoid",
+      "archetype": "area_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_ember_desert_debuffer",
+      "biome_id": 13,
+      "family_id": "humanoid",
+      "archetype": "debuffer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_ember_desert_summoner",
+      "biome_id": 13,
+      "family_id": "humanoid",
+      "archetype": "summoner",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_ember_desert_alpha",
+      "biome_id": 13,
+      "family_id": "humanoid",
+      "archetype": "alpha",
+      "sub_type": "named"
+    },
+    {
+      "monster_id": "mon_ember_desert_miniboss",
+      "biome_id": 13,
+      "family_id": "humanoid",
+      "archetype": "miniboss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_ember_desert_boss",
+      "biome_id": 13,
+      "family_id": "humanoid",
+      "archetype": "boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_ember_desert_world_boss",
+      "biome_id": 13,
+      "family_id": "humanoid",
+      "archetype": "world_boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_celestial_shrine_basic_melee",
+      "biome_id": 14,
+      "family_id": "undead",
+      "archetype": "basic_melee",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_celestial_shrine_basic_range",
+      "biome_id": 14,
+      "family_id": "undead",
+      "archetype": "basic_range",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_celestial_shrine_elite_melee",
+      "biome_id": 14,
+      "family_id": "undead",
+      "archetype": "elite_melee",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_celestial_shrine_elite_range",
+      "biome_id": 14,
+      "family_id": "undead",
+      "archetype": "elite_range",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_celestial_shrine_healer",
+      "biome_id": 14,
+      "family_id": "undead",
+      "archetype": "healer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_celestial_shrine_tank",
+      "biome_id": 14,
+      "family_id": "undead",
+      "archetype": "tank",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_celestial_shrine_fast_attacker",
+      "biome_id": 14,
+      "family_id": "undead",
+      "archetype": "fast_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_celestial_shrine_area_attacker",
+      "biome_id": 14,
+      "family_id": "undead",
+      "archetype": "area_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_celestial_shrine_debuffer",
+      "biome_id": 14,
+      "family_id": "undead",
+      "archetype": "debuffer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_celestial_shrine_summoner",
+      "biome_id": 14,
+      "family_id": "undead",
+      "archetype": "summoner",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_celestial_shrine_alpha",
+      "biome_id": 14,
+      "family_id": "undead",
+      "archetype": "alpha",
+      "sub_type": "named"
+    },
+    {
+      "monster_id": "mon_celestial_shrine_miniboss",
+      "biome_id": 14,
+      "family_id": "undead",
+      "archetype": "miniboss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_celestial_shrine_boss",
+      "biome_id": 14,
+      "family_id": "undead",
+      "archetype": "boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_celestial_shrine_world_boss",
+      "biome_id": 14,
+      "family_id": "undead",
+      "archetype": "world_boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_iron_fortress_basic_melee",
+      "biome_id": 15,
+      "family_id": "construct",
+      "archetype": "basic_melee",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_iron_fortress_basic_range",
+      "biome_id": 15,
+      "family_id": "construct",
+      "archetype": "basic_range",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_iron_fortress_elite_melee",
+      "biome_id": 15,
+      "family_id": "construct",
+      "archetype": "elite_melee",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_iron_fortress_elite_range",
+      "biome_id": 15,
+      "family_id": "construct",
+      "archetype": "elite_range",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_iron_fortress_healer",
+      "biome_id": 15,
+      "family_id": "construct",
+      "archetype": "healer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_iron_fortress_tank",
+      "biome_id": 15,
+      "family_id": "construct",
+      "archetype": "tank",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_iron_fortress_fast_attacker",
+      "biome_id": 15,
+      "family_id": "construct",
+      "archetype": "fast_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_iron_fortress_area_attacker",
+      "biome_id": 15,
+      "family_id": "construct",
+      "archetype": "area_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_iron_fortress_debuffer",
+      "biome_id": 15,
+      "family_id": "construct",
+      "archetype": "debuffer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_iron_fortress_summoner",
+      "biome_id": 15,
+      "family_id": "construct",
+      "archetype": "summoner",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_iron_fortress_alpha",
+      "biome_id": 15,
+      "family_id": "construct",
+      "archetype": "alpha",
+      "sub_type": "named"
+    },
+    {
+      "monster_id": "mon_iron_fortress_miniboss",
+      "biome_id": 15,
+      "family_id": "construct",
+      "archetype": "miniboss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_iron_fortress_boss",
+      "biome_id": 15,
+      "family_id": "construct",
+      "archetype": "boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_iron_fortress_world_boss",
+      "biome_id": 15,
+      "family_id": "construct",
+      "archetype": "world_boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_coral_reef_basic_melee",
+      "biome_id": 16,
+      "family_id": "beast",
+      "archetype": "basic_melee",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_coral_reef_basic_range",
+      "biome_id": 16,
+      "family_id": "beast",
+      "archetype": "basic_range",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_coral_reef_elite_melee",
+      "biome_id": 16,
+      "family_id": "beast",
+      "archetype": "elite_melee",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_coral_reef_elite_range",
+      "biome_id": 16,
+      "family_id": "beast",
+      "archetype": "elite_range",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_coral_reef_healer",
+      "biome_id": 16,
+      "family_id": "beast",
+      "archetype": "healer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_coral_reef_tank",
+      "biome_id": 16,
+      "family_id": "beast",
+      "archetype": "tank",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_coral_reef_fast_attacker",
+      "biome_id": 16,
+      "family_id": "beast",
+      "archetype": "fast_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_coral_reef_area_attacker",
+      "biome_id": 16,
+      "family_id": "beast",
+      "archetype": "area_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_coral_reef_debuffer",
+      "biome_id": 16,
+      "family_id": "beast",
+      "archetype": "debuffer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_coral_reef_summoner",
+      "biome_id": 16,
+      "family_id": "beast",
+      "archetype": "summoner",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_coral_reef_alpha",
+      "biome_id": 16,
+      "family_id": "beast",
+      "archetype": "alpha",
+      "sub_type": "named"
+    },
+    {
+      "monster_id": "mon_coral_reef_miniboss",
+      "biome_id": 16,
+      "family_id": "beast",
+      "archetype": "miniboss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_coral_reef_boss",
+      "biome_id": 16,
+      "family_id": "beast",
+      "archetype": "boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_coral_reef_world_boss",
+      "biome_id": 16,
+      "family_id": "beast",
+      "archetype": "world_boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_abyssal_rift_basic_melee",
+      "biome_id": 17,
+      "family_id": "demon",
+      "archetype": "basic_melee",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_abyssal_rift_basic_range",
+      "biome_id": 17,
+      "family_id": "demon",
+      "archetype": "basic_range",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_abyssal_rift_elite_melee",
+      "biome_id": 17,
+      "family_id": "demon",
+      "archetype": "elite_melee",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_abyssal_rift_elite_range",
+      "biome_id": 17,
+      "family_id": "demon",
+      "archetype": "elite_range",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_abyssal_rift_healer",
+      "biome_id": 17,
+      "family_id": "demon",
+      "archetype": "healer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_abyssal_rift_tank",
+      "biome_id": 17,
+      "family_id": "demon",
+      "archetype": "tank",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_abyssal_rift_fast_attacker",
+      "biome_id": 17,
+      "family_id": "demon",
+      "archetype": "fast_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_abyssal_rift_area_attacker",
+      "biome_id": 17,
+      "family_id": "demon",
+      "archetype": "area_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_abyssal_rift_debuffer",
+      "biome_id": 17,
+      "family_id": "demon",
+      "archetype": "debuffer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_abyssal_rift_summoner",
+      "biome_id": 17,
+      "family_id": "demon",
+      "archetype": "summoner",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_abyssal_rift_alpha",
+      "biome_id": 17,
+      "family_id": "demon",
+      "archetype": "alpha",
+      "sub_type": "named"
+    },
+    {
+      "monster_id": "mon_abyssal_rift_miniboss",
+      "biome_id": 17,
+      "family_id": "demon",
+      "archetype": "miniboss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_abyssal_rift_boss",
+      "biome_id": 17,
+      "family_id": "demon",
+      "archetype": "boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_abyssal_rift_world_boss",
+      "biome_id": 17,
+      "family_id": "demon",
+      "archetype": "world_boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_phantom_grove_basic_melee",
+      "biome_id": 18,
+      "family_id": "undead",
+      "archetype": "basic_melee",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_phantom_grove_basic_range",
+      "biome_id": 18,
+      "family_id": "undead",
+      "archetype": "basic_range",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_phantom_grove_elite_melee",
+      "biome_id": 18,
+      "family_id": "undead",
+      "archetype": "elite_melee",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_phantom_grove_elite_range",
+      "biome_id": 18,
+      "family_id": "undead",
+      "archetype": "elite_range",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_phantom_grove_healer",
+      "biome_id": 18,
+      "family_id": "undead",
+      "archetype": "healer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_phantom_grove_tank",
+      "biome_id": 18,
+      "family_id": "undead",
+      "archetype": "tank",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_phantom_grove_fast_attacker",
+      "biome_id": 18,
+      "family_id": "undead",
+      "archetype": "fast_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_phantom_grove_area_attacker",
+      "biome_id": 18,
+      "family_id": "undead",
+      "archetype": "area_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_phantom_grove_debuffer",
+      "biome_id": 18,
+      "family_id": "undead",
+      "archetype": "debuffer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_phantom_grove_summoner",
+      "biome_id": 18,
+      "family_id": "undead",
+      "archetype": "summoner",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_phantom_grove_alpha",
+      "biome_id": 18,
+      "family_id": "undead",
+      "archetype": "alpha",
+      "sub_type": "named"
+    },
+    {
+      "monster_id": "mon_phantom_grove_miniboss",
+      "biome_id": 18,
+      "family_id": "undead",
+      "archetype": "miniboss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_phantom_grove_boss",
+      "biome_id": 18,
+      "family_id": "undead",
+      "archetype": "boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_phantom_grove_world_boss",
+      "biome_id": 18,
+      "family_id": "undead",
+      "archetype": "world_boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_lava_maze_basic_melee",
+      "biome_id": 19,
+      "family_id": "elemental",
+      "archetype": "basic_melee",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_lava_maze_basic_range",
+      "biome_id": 19,
+      "family_id": "elemental",
+      "archetype": "basic_range",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_lava_maze_elite_melee",
+      "biome_id": 19,
+      "family_id": "elemental",
+      "archetype": "elite_melee",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_lava_maze_elite_range",
+      "biome_id": 19,
+      "family_id": "elemental",
+      "archetype": "elite_range",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_lava_maze_healer",
+      "biome_id": 19,
+      "family_id": "elemental",
+      "archetype": "healer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_lava_maze_tank",
+      "biome_id": 19,
+      "family_id": "elemental",
+      "archetype": "tank",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_lava_maze_fast_attacker",
+      "biome_id": 19,
+      "family_id": "elemental",
+      "archetype": "fast_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_lava_maze_area_attacker",
+      "biome_id": 19,
+      "family_id": "elemental",
+      "archetype": "area_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_lava_maze_debuffer",
+      "biome_id": 19,
+      "family_id": "elemental",
+      "archetype": "debuffer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_lava_maze_summoner",
+      "biome_id": 19,
+      "family_id": "elemental",
+      "archetype": "summoner",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_lava_maze_alpha",
+      "biome_id": 19,
+      "family_id": "elemental",
+      "archetype": "alpha",
+      "sub_type": "named"
+    },
+    {
+      "monster_id": "mon_lava_maze_miniboss",
+      "biome_id": 19,
+      "family_id": "elemental",
+      "archetype": "miniboss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_lava_maze_boss",
+      "biome_id": 19,
+      "family_id": "elemental",
+      "archetype": "boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_lava_maze_world_boss",
+      "biome_id": 19,
+      "family_id": "elemental",
+      "archetype": "world_boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_sky_citadel_basic_melee",
+      "biome_id": 20,
+      "family_id": "construct",
+      "archetype": "basic_melee",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_sky_citadel_basic_range",
+      "biome_id": 20,
+      "family_id": "construct",
+      "archetype": "basic_range",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_sky_citadel_elite_melee",
+      "biome_id": 20,
+      "family_id": "construct",
+      "archetype": "elite_melee",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_sky_citadel_elite_range",
+      "biome_id": 20,
+      "family_id": "construct",
+      "archetype": "elite_range",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_sky_citadel_healer",
+      "biome_id": 20,
+      "family_id": "construct",
+      "archetype": "healer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_sky_citadel_tank",
+      "biome_id": 20,
+      "family_id": "construct",
+      "archetype": "tank",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_sky_citadel_fast_attacker",
+      "biome_id": 20,
+      "family_id": "construct",
+      "archetype": "fast_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_sky_citadel_area_attacker",
+      "biome_id": 20,
+      "family_id": "construct",
+      "archetype": "area_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_sky_citadel_debuffer",
+      "biome_id": 20,
+      "family_id": "construct",
+      "archetype": "debuffer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_sky_citadel_summoner",
+      "biome_id": 20,
+      "family_id": "construct",
+      "archetype": "summoner",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_sky_citadel_alpha",
+      "biome_id": 20,
+      "family_id": "construct",
+      "archetype": "alpha",
+      "sub_type": "named"
+    },
+    {
+      "monster_id": "mon_sky_citadel_miniboss",
+      "biome_id": 20,
+      "family_id": "construct",
+      "archetype": "miniboss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_sky_citadel_boss",
+      "biome_id": 20,
+      "family_id": "construct",
+      "archetype": "boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_sky_citadel_world_boss",
+      "biome_id": 20,
+      "family_id": "construct",
+      "archetype": "world_boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_void_realm_basic_melee",
+      "biome_id": 21,
+      "family_id": "demon",
+      "archetype": "basic_melee",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_void_realm_basic_range",
+      "biome_id": 21,
+      "family_id": "demon",
+      "archetype": "basic_range",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_void_realm_elite_melee",
+      "biome_id": 21,
+      "family_id": "demon",
+      "archetype": "elite_melee",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_void_realm_elite_range",
+      "biome_id": 21,
+      "family_id": "demon",
+      "archetype": "elite_range",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_void_realm_healer",
+      "biome_id": 21,
+      "family_id": "demon",
+      "archetype": "healer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_void_realm_tank",
+      "biome_id": 21,
+      "family_id": "demon",
+      "archetype": "tank",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_void_realm_fast_attacker",
+      "biome_id": 21,
+      "family_id": "demon",
+      "archetype": "fast_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_void_realm_area_attacker",
+      "biome_id": 21,
+      "family_id": "demon",
+      "archetype": "area_attacker",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_void_realm_debuffer",
+      "biome_id": 21,
+      "family_id": "demon",
+      "archetype": "debuffer",
+      "sub_type": "normal"
+    },
+    {
+      "monster_id": "mon_void_realm_summoner",
+      "biome_id": 21,
+      "family_id": "demon",
+      "archetype": "summoner",
+      "sub_type": "elite"
+    },
+    {
+      "monster_id": "mon_void_realm_alpha",
+      "biome_id": 21,
+      "family_id": "demon",
+      "archetype": "alpha",
+      "sub_type": "named"
+    },
+    {
+      "monster_id": "mon_void_realm_miniboss",
+      "biome_id": 21,
+      "family_id": "demon",
+      "archetype": "miniboss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_void_realm_boss",
+      "biome_id": 21,
+      "family_id": "demon",
+      "archetype": "boss",
+      "sub_type": "boss"
+    },
+    {
+      "monster_id": "mon_void_realm_world_boss",
+      "biome_id": 21,
+      "family_id": "demon",
+      "archetype": "world_boss",
+      "sub_type": "boss"
+    }
+  ],
+  "total_monsters": 294,
+  "slayer_bonus_note": "Slayer bonus inside Trait+Rune 6% budget — not additive on top",
+  "cc_immune_note": "CC immunity is per-named-mob; regular mobs of family can be CCed unless specified"
+}

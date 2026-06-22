@@ -1,0 +1,6 @@
+[
+  { "id": "warrior",  "image": "image/class-warrior.webp",  "name_vi": "Chiến Binh", "name_en": "Warrior",  "desc_vi": "Sức mạnh cận chiến vượt trội, lá chắn vững chắc cho cả đội.",            "desc_en": "Superior melee power and a sturdy shield for the whole party." },
+  { "id": "mage",     "image": "image/class-mage.webp",     "name_vi": "Pháp Sư",    "name_en": "Mage",     "desc_vi": "Phép thuật hủy diệt diện rộng, sát thương khủng khiếp từ xa.",          "desc_en": "Devastating area magic with terrifying ranged damage." },
+  { "id": "archer",   "image": "image/class-archer.webp",   "name_vi": "Cung Thủ",   "name_en": "Archer",   "desc_vi": "Tốc độ và độ chính xác, làm chủ chiến trường từ khoảng cách an toàn.",   "desc_en": "Speed and precision — dominate the battlefield from a safe distance." },
+  { "id": "assassin", "image": "image/class-assassin.webp", "name_vi": "Sát Thủ",    "name_en": "Assassin", "desc_vi": "Ẩn mình trong bóng tối, kết liễu kẻ địch trong tích tắc.",              "desc_en": "Strike from the shadows and finish enemies in an instant." }
+]

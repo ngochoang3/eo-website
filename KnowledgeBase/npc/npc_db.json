@@ -1,0 +1,509 @@
+{
+  "meta": {
+    "total": 49,
+    "generator": "gen_npc_db.py"
+  },
+  "npcs": [
+    {
+      "npc_id": "npc_verdant_plains_vendor_01",
+      "npc_type": "vendor",
+      "biome_id": 1,
+      "display_name": "Merchant Minh",
+      "shop_id": "shop_verdant_plains_vendor_01",
+      "dialog_root": "Chào mừng khách! Ta có gì cho bạn ở Verdant Plains?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_verdant_plains_quest_01",
+      "npc_type": "quest_giver",
+      "biome_id": 1,
+      "display_name": "Scout Minh",
+      "quest_ids": [
+        "quest_verdant_plains_main_01",
+        "quest_verdant_plains_side_01"
+      ],
+      "dialog_root": "Nguy hiểm lắm ở Verdant Plains. Bạn có muốn giúp tôi không?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_scorched_wastes_vendor_01",
+      "npc_type": "vendor",
+      "biome_id": 2,
+      "display_name": "Merchant Lan",
+      "shop_id": "shop_scorched_wastes_vendor_01",
+      "dialog_root": "Chào mừng khách! Ta có gì cho bạn ở Scorched Wastes?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_scorched_wastes_quest_01",
+      "npc_type": "quest_giver",
+      "biome_id": 2,
+      "display_name": "Scout Lan",
+      "quest_ids": [
+        "quest_scorched_wastes_main_01",
+        "quest_scorched_wastes_side_01"
+      ],
+      "dialog_root": "Nguy hiểm lắm ở Scorched Wastes. Bạn có muốn giúp tôi không?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_sunken_ruins_vendor_01",
+      "npc_type": "vendor",
+      "biome_id": 3,
+      "display_name": "Merchant Hung",
+      "shop_id": "shop_sunken_ruins_vendor_01",
+      "dialog_root": "Chào mừng khách! Ta có gì cho bạn ở Sunken Ruins?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_sunken_ruins_quest_01",
+      "npc_type": "quest_giver",
+      "biome_id": 3,
+      "display_name": "Scout Hung",
+      "quest_ids": [
+        "quest_sunken_ruins_main_01",
+        "quest_sunken_ruins_side_01"
+      ],
+      "dialog_root": "Nguy hiểm lắm ở Sunken Ruins. Bạn có muốn giúp tôi không?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_frozen_tundra_vendor_01",
+      "npc_type": "vendor",
+      "biome_id": 4,
+      "display_name": "Merchant Phuong",
+      "shop_id": "shop_frozen_tundra_vendor_01",
+      "dialog_root": "Chào mừng khách! Ta có gì cho bạn ở Frozen Tundra?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_frozen_tundra_quest_01",
+      "npc_type": "quest_giver",
+      "biome_id": 4,
+      "display_name": "Scout Phuong",
+      "quest_ids": [
+        "quest_frozen_tundra_main_01",
+        "quest_frozen_tundra_side_01"
+      ],
+      "dialog_root": "Nguy hiểm lắm ở Frozen Tundra. Bạn có muốn giúp tôi không?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_storm_peaks_vendor_01",
+      "npc_type": "vendor",
+      "biome_id": 5,
+      "display_name": "Merchant Duc",
+      "shop_id": "shop_storm_peaks_vendor_01",
+      "dialog_root": "Chào mừng khách! Ta có gì cho bạn ở Storm Peaks?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_storm_peaks_quest_01",
+      "npc_type": "quest_giver",
+      "biome_id": 5,
+      "display_name": "Scout Duc",
+      "quest_ids": [
+        "quest_storm_peaks_main_01",
+        "quest_storm_peaks_side_01"
+      ],
+      "dialog_root": "Nguy hiểm lắm ở Storm Peaks. Bạn có muốn giúp tôi không?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_wildwood_forest_vendor_01",
+      "npc_type": "vendor",
+      "biome_id": 6,
+      "display_name": "Merchant Mai",
+      "shop_id": "shop_wildwood_forest_vendor_01",
+      "dialog_root": "Chào mừng khách! Ta có gì cho bạn ở Wildwood Forest?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_wildwood_forest_quest_01",
+      "npc_type": "quest_giver",
+      "biome_id": 6,
+      "display_name": "Scout Mai",
+      "quest_ids": [
+        "quest_wildwood_forest_main_01",
+        "quest_wildwood_forest_side_01"
+      ],
+      "dialog_root": "Nguy hiểm lắm ở Wildwood Forest. Bạn có muốn giúp tôi không?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_crimson_savanna_vendor_01",
+      "npc_type": "vendor",
+      "biome_id": 7,
+      "display_name": "Merchant Tuan",
+      "shop_id": "shop_crimson_savanna_vendor_01",
+      "dialog_root": "Chào mừng khách! Ta có gì cho bạn ở Crimson Savanna?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_crimson_savanna_quest_01",
+      "npc_type": "quest_giver",
+      "biome_id": 7,
+      "display_name": "Scout Tuan",
+      "quest_ids": [
+        "quest_crimson_savanna_main_01",
+        "quest_crimson_savanna_side_01"
+      ],
+      "dialog_root": "Nguy hiểm lắm ở Crimson Savanna. Bạn có muốn giúp tôi không?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_volcanic_islands_vendor_01",
+      "npc_type": "vendor",
+      "biome_id": 8,
+      "display_name": "Merchant Nga",
+      "shop_id": "shop_volcanic_islands_vendor_01",
+      "dialog_root": "Chào mừng khách! Ta có gì cho bạn ở Volcanic Islands?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_volcanic_islands_quest_01",
+      "npc_type": "quest_giver",
+      "biome_id": 8,
+      "display_name": "Scout Nga",
+      "quest_ids": [
+        "quest_volcanic_islands_main_01",
+        "quest_volcanic_islands_side_01"
+      ],
+      "dialog_root": "Nguy hiểm lắm ở Volcanic Islands. Bạn có muốn giúp tôi không?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_crystal_caverns_vendor_01",
+      "npc_type": "vendor",
+      "biome_id": 9,
+      "display_name": "Merchant Binh",
+      "shop_id": "shop_crystal_caverns_vendor_01",
+      "dialog_root": "Chào mừng khách! Ta có gì cho bạn ở Crystal Caverns?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_crystal_caverns_quest_01",
+      "npc_type": "quest_giver",
+      "biome_id": 9,
+      "display_name": "Scout Binh",
+      "quest_ids": [
+        "quest_crystal_caverns_main_01",
+        "quest_crystal_caverns_side_01"
+      ],
+      "dialog_root": "Nguy hiểm lắm ở Crystal Caverns. Bạn có muốn giúp tôi không?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_haunted_moors_vendor_01",
+      "npc_type": "vendor",
+      "biome_id": 10,
+      "display_name": "Merchant Thu",
+      "shop_id": "shop_haunted_moors_vendor_01",
+      "dialog_root": "Chào mừng khách! Ta có gì cho bạn ở Haunted Moors?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_haunted_moors_quest_01",
+      "npc_type": "quest_giver",
+      "biome_id": 10,
+      "display_name": "Scout Thu",
+      "quest_ids": [
+        "quest_haunted_moors_main_01",
+        "quest_haunted_moors_side_01"
+      ],
+      "dialog_root": "Nguy hiểm lắm ở Haunted Moors. Bạn có muốn giúp tôi không?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_ruined_kingdom_vendor_01",
+      "npc_type": "vendor",
+      "biome_id": 11,
+      "display_name": "Merchant Long",
+      "shop_id": "shop_ruined_kingdom_vendor_01",
+      "dialog_root": "Chào mừng khách! Ta có gì cho bạn ở Ruined Kingdom?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_ruined_kingdom_quest_01",
+      "npc_type": "quest_giver",
+      "biome_id": 11,
+      "display_name": "Scout Long",
+      "quest_ids": [
+        "quest_ruined_kingdom_main_01",
+        "quest_ruined_kingdom_side_01"
+      ],
+      "dialog_root": "Nguy hiểm lắm ở Ruined Kingdom. Bạn có muốn giúp tôi không?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_demon_wastes_vendor_01",
+      "npc_type": "vendor",
+      "biome_id": 12,
+      "display_name": "Merchant Hoa",
+      "shop_id": "shop_demon_wastes_vendor_01",
+      "dialog_root": "Chào mừng khách! Ta có gì cho bạn ở Demon Wastes?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_demon_wastes_quest_01",
+      "npc_type": "quest_giver",
+      "biome_id": 12,
+      "display_name": "Scout Hoa",
+      "quest_ids": [
+        "quest_demon_wastes_main_01",
+        "quest_demon_wastes_side_01"
+      ],
+      "dialog_root": "Nguy hiểm lắm ở Demon Wastes. Bạn có muốn giúp tôi không?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_ancient_desert_vendor_01",
+      "npc_type": "vendor",
+      "biome_id": 13,
+      "display_name": "Merchant Son",
+      "shop_id": "shop_ancient_desert_vendor_01",
+      "dialog_root": "Chào mừng khách! Ta có gì cho bạn ở Ancient Desert?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_ancient_desert_quest_01",
+      "npc_type": "quest_giver",
+      "biome_id": 13,
+      "display_name": "Scout Son",
+      "quest_ids": [
+        "quest_ancient_desert_main_01",
+        "quest_ancient_desert_side_01"
+      ],
+      "dialog_root": "Nguy hiểm lắm ở Ancient Desert. Bạn có muốn giúp tôi không?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_floating_isles_vendor_01",
+      "npc_type": "vendor",
+      "biome_id": 14,
+      "display_name": "Merchant Linh",
+      "shop_id": "shop_floating_isles_vendor_01",
+      "dialog_root": "Chào mừng khách! Ta có gì cho bạn ở Floating Isles?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_floating_isles_quest_01",
+      "npc_type": "quest_giver",
+      "biome_id": 14,
+      "display_name": "Scout Linh",
+      "quest_ids": [
+        "quest_floating_isles_main_01",
+        "quest_floating_isles_side_01"
+      ],
+      "dialog_root": "Nguy hiểm lắm ở Floating Isles. Bạn có muốn giúp tôi không?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_clockwork_city_vendor_01",
+      "npc_type": "vendor",
+      "biome_id": 15,
+      "display_name": "Merchant Nam",
+      "shop_id": "shop_clockwork_city_vendor_01",
+      "dialog_root": "Chào mừng khách! Ta có gì cho bạn ở Clockwork City?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_clockwork_city_quest_01",
+      "npc_type": "quest_giver",
+      "biome_id": 15,
+      "display_name": "Scout Nam",
+      "quest_ids": [
+        "quest_clockwork_city_main_01",
+        "quest_clockwork_city_side_01"
+      ],
+      "dialog_root": "Nguy hiểm lắm ở Clockwork City. Bạn có muốn giúp tôi không?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_overgrown_jungle_vendor_01",
+      "npc_type": "vendor",
+      "biome_id": 16,
+      "display_name": "Merchant Van",
+      "shop_id": "shop_overgrown_jungle_vendor_01",
+      "dialog_root": "Chào mừng khách! Ta có gì cho bạn ở Overgrown Jungle?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_overgrown_jungle_quest_01",
+      "npc_type": "quest_giver",
+      "biome_id": 16,
+      "display_name": "Scout Van",
+      "quest_ids": [
+        "quest_overgrown_jungle_main_01",
+        "quest_overgrown_jungle_side_01"
+      ],
+      "dialog_root": "Nguy hiểm lắm ở Overgrown Jungle. Bạn có muốn giúp tôi không?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_shadow_realm_vendor_01",
+      "npc_type": "vendor",
+      "biome_id": 17,
+      "display_name": "Merchant Khanh",
+      "shop_id": "shop_shadow_realm_vendor_01",
+      "dialog_root": "Chào mừng khách! Ta có gì cho bạn ở Shadow Realm?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_shadow_realm_quest_01",
+      "npc_type": "quest_giver",
+      "biome_id": 17,
+      "display_name": "Scout Khanh",
+      "quest_ids": [
+        "quest_shadow_realm_main_01",
+        "quest_shadow_realm_side_01"
+      ],
+      "dialog_root": "Nguy hiểm lắm ở Shadow Realm. Bạn có muốn giúp tôi không?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_cursed_depths_vendor_01",
+      "npc_type": "vendor",
+      "biome_id": 18,
+      "display_name": "Merchant Yen",
+      "shop_id": "shop_cursed_depths_vendor_01",
+      "dialog_root": "Chào mừng khách! Ta có gì cho bạn ở Cursed Depths?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_cursed_depths_quest_01",
+      "npc_type": "quest_giver",
+      "biome_id": 18,
+      "display_name": "Scout Yen",
+      "quest_ids": [
+        "quest_cursed_depths_main_01",
+        "quest_cursed_depths_side_01"
+      ],
+      "dialog_root": "Nguy hiểm lắm ở Cursed Depths. Bạn có muốn giúp tôi không?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_arcane_sanctum_vendor_01",
+      "npc_type": "vendor",
+      "biome_id": 19,
+      "display_name": "Merchant Bach",
+      "shop_id": "shop_arcane_sanctum_vendor_01",
+      "dialog_root": "Chào mừng khách! Ta có gì cho bạn ở Arcane Sanctum?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_arcane_sanctum_quest_01",
+      "npc_type": "quest_giver",
+      "biome_id": 19,
+      "display_name": "Scout Bach",
+      "quest_ids": [
+        "quest_arcane_sanctum_main_01",
+        "quest_arcane_sanctum_side_01"
+      ],
+      "dialog_root": "Nguy hiểm lắm ở Arcane Sanctum. Bạn có muốn giúp tôi không?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_celestial_spire_vendor_01",
+      "npc_type": "vendor",
+      "biome_id": 20,
+      "display_name": "Merchant Nhat",
+      "shop_id": "shop_celestial_spire_vendor_01",
+      "dialog_root": "Chào mừng khách! Ta có gì cho bạn ở Celestial Spire?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_celestial_spire_quest_01",
+      "npc_type": "quest_giver",
+      "biome_id": 20,
+      "display_name": "Scout Nhat",
+      "quest_ids": [
+        "quest_celestial_spire_main_01",
+        "quest_celestial_spire_side_01"
+      ],
+      "dialog_root": "Nguy hiểm lắm ở Celestial Spire. Bạn có muốn giúp tôi không?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_void_rift_vendor_01",
+      "npc_type": "vendor",
+      "biome_id": 21,
+      "display_name": "Merchant Dung",
+      "shop_id": "shop_void_rift_vendor_01",
+      "dialog_root": "Chào mừng khách! Ta có gì cho bạn ở Void Rift?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_void_rift_quest_01",
+      "npc_type": "quest_giver",
+      "biome_id": 21,
+      "display_name": "Scout Dung",
+      "quest_ids": [
+        "quest_void_rift_main_01",
+        "quest_void_rift_side_01"
+      ],
+      "dialog_root": "Nguy hiểm lắm ở Void Rift. Bạn có muốn giúp tôi không?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_town_enchanter",
+      "npc_type": "enchanter",
+      "biome_id": 0,
+      "display_name": "Enchanter Jade",
+      "dialog_root": "Enchant dịch vụ: tôi có thể thêm Affix vào Equipment của bạn.",
+      "is_always_hostile": false,
+      "shop_id": "shop_town_enchanter"
+    },
+    {
+      "npc_id": "npc_town_guildmaster",
+      "npc_type": "guild_master",
+      "biome_id": 0,
+      "display_name": "Guild Master Rex",
+      "dialog_root": "Bạn muốn quản lý Guild không?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_town_arena_master",
+      "npc_type": "arena_master",
+      "biome_id": 0,
+      "display_name": "Arena Master Volt",
+      "dialog_root": "Sẵn sàng PvP chưa?",
+      "is_always_hostile": false
+    },
+    {
+      "npc_id": "npc_town_housing_agent",
+      "npc_type": "housing_agent",
+      "biome_id": 0,
+      "display_name": "Housing Agent Lee",
+      "dialog_root": "Bạn muốn nâng cấp nhà không?",
+      "is_always_hostile": false,
+      "shop_id": "shop_town_housing"
+    },
+    {
+      "npc_id": "npc_town_creature_handler",
+      "npc_type": "creature_handler",
+      "biome_id": 0,
+      "display_name": "Handler Kim",
+      "dialog_root": "Mua bán sinh vật tại đây!",
+      "is_always_hostile": false,
+      "shop_id": "shop_town_creatures"
+    },
+    {
+      "npc_id": "npc_town_reputation_01",
+      "npc_type": "reputation_vendor",
+      "biome_id": 0,
+      "display_name": "Faction Leader Anh",
+      "dialog_root": "Điểm uy tín của bạn đang tốt.",
+      "is_always_hostile": false,
+      "shop_id": "shop_town_rep_01"
+    },
+    {
+      "npc_id": "npc_town_banker",
+      "npc_type": "banker",
+      "biome_id": 0,
+      "display_name": "Banker Hieu",
+      "dialog_root": "Tôi quản lý Auction House và kho vật phẩm.",
+      "is_always_hostile": false
+    }
+  ]
+}

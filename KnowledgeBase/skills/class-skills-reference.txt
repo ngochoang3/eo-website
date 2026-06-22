@@ -1,0 +1,79 @@
+# Map skill 3 class — nguồn: F:\unitygame\skill.txt
+
+## Unity setup
+1. **Ball Skills → System Skill → Map All Class Skills From skill.txt** (loadout + skill assets)
+2. **Ball Skills → System Skill → Setup Class Skill UI on Canvas** (HUD + panel)
+
+Loadout:
+
+- Skill assets: `Assets/script/Skill/Data/Skill_{Warrior|Archer|Mage}_*.asset`
+- Combat: `Assets/script/Skill/Data/Combat/Combat_*.asset`
+- Loadout: `Assets/Resources/GameplaySkills/Loadouts/Loadout_{Warrior|Archer|Mage}.asset`
+- Runtime: `BallClassSkillBinder` gán 5 slot khi load class (`BallProgressController`)
+
+## Giai đoạn level
+| Level   | Giai đoạn      | reincarnationTier |
+| 1–10    | Novice         | 0                 |
+| 11–20   | Chuyển Sinh 1  | 1                 |
+| 21–30   | Chuyển Sinh 2  | 2                 |
+| 31–40   | Chuyển Sinh 3  | 3                 |
+| 41–50   | Chuyển Sinh 4  | 4                 |
+| 51+     | Awakening      | 5                 |
+
+Mỗi 10 level: quest chuyển sinh (boss, item, dungeon, NPC). Thất bại → không skill mới, không tăng tier.
+Đủ cấp chưa quest → dấu `!` trên nút skill (UI — TODO).
+
+## EXP skill
+| Slot | Công thức              | Max Lv |
+| 1    | 30×Lv^1.3              | 10     |
+| 2    | 30×Lv^1.4              | 15     |
+| 3    | 50×Lv^1.5              | 15     |
+| 4    | 50×Lv^1.7              | 20     |
+| 5    | 200×Lv^2               | 5      |
+
+EXP hành động: dùng +1, trúng +2, crit +3, giết +5, combo bonus.
+FinalStat = BaseStat × (1 + EvolutionBonus%)
+
+## Tiến hóa skill
+| Slot | Evo1 | Evo2 | Bonus Evo1 | Bonus Evo2 |
+| 1    | Lv5  | —    | +2%        | —          |
+| 2    | Lv5  | Lv10 | +3%        | +5%        |
+| 3    | Lv7  | —    | +2%        | —          |
+| 4    | Lv7  | Lv15 | +4%        | +6%        |
+| 5    | Lv3  | —    | +10%       | —          |
+
+---
+
+## WARRIOR (Melee) — Tank / Bruiser
+| Slot | Tên               | Mở khóa   | CD   | Mana | Shape / Delivery        |
+| 0    | Power Slash       | Sẵn       | 0s   | 5    | Line                    |
+| 1    | Whirlwind         | CS1 Lv10  | 9s   | 25   | SelfCircle AoE          |
+| 2    | Iron Roar         | CS2 Lv20  | 15s  | 30   | Buff +DEF               |
+| 3    | Blood Berserk     | CS3 Lv30  | 22s  | 40   | Buff +%ATK (HP thấp)    |
+| 4    | Ragnarok Breaker  | CS5 Lv50  | 75s  | 80   | Ultimate AoE + Stun     |
+
+Quest CS: Fighter→Whirlwind, Knight→Iron Roar, Berserker→Blood Berserk, Warlord→combo, Ragnarok→Ultimate.
+
+## ARCHER (Ranged)
+| Slot | Tên              | Mở khóa  | CD   | Mana |
+| 0    | Rapid Shot       | Sẵn      | 0s   | 5    |
+| 1    | Piercing Arrow   | CS1      | 8s   | 22   |
+| 2    | Shadow Step      | CS2      | 14s  | 28   |
+| 3    | Rain of Arrows   | CS3      | 25s  | 38   |
+| 4    | Phantom Storm    | CS5      | 90s  | 75   |
+
+## MAGE (Magic)
+| Slot | Tên               | Mở khóa  | CD    | Mana |
+| 0    | Fireball          | Sẵn      | 0s    | 6    |
+| 1    | Frost Spike       | CS1      | 10s   | 24   |
+| 2    | Chain Lightning   | CS2      | 16s   | 32   |
+| 3    | Arcane Barrier    | CS3      | 20s   | 42   |
+| 4    | Apocalypse        | CS5      | 100s  | 90   |
+
+Class bonus (skill.txt): Warrior HP/DEF/STR; Archer AGI/Crit/Speed; Mage MATK/Mana/CDR.
+
+## HUD
+- Mana: thêm cột vào `ScoreHealthHudController` (field manaTextTmp).
+- Panel skill: icon + tên + level + mô tả; khóa + mờ nếu chưa học (`ClassSkillProgressRules.IsSkillUnlocked`).
+
+Code rules: `ClassSkillTxtCatalog`, `ClassSkillProgressRules`, `ClassSkillSlotMeta` trên loadout.
