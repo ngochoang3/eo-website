@@ -33,9 +33,11 @@
       if (dict[key] !== undefined) el.innerHTML = dict[key];
     });
     document.querySelectorAll("[data-i18n-attr]").forEach(function(el){
-      var spec = el.getAttribute("data-i18n-attr").split(":");
-      var attr = spec[0], key = spec[1];
-      if (dict[key] !== undefined) el.setAttribute(attr, dict[key]);
+      el.getAttribute("data-i18n-attr").split(";").forEach(function(pair){
+        var spec = pair.split(":");
+        var attr = spec[0], key = spec[1];
+        if (dict[key] !== undefined) el.setAttribute(attr, dict[key]);
+      });
     });
 
     document.querySelectorAll(".lang-switch button").forEach(function(btn){
@@ -45,6 +47,8 @@
 
     var alt = document.getElementById("og-locale");
     if (alt) alt.setAttribute("content", lang === "vi" ? "vi_VN" : "en_US");
+    var altOpp = document.querySelector('meta[property="og:locale:alternate"]');
+    if (altOpp) altOpp.setAttribute("content", lang === "vi" ? "en_US" : "vi_VN");
 
     document.dispatchEvent(new CustomEvent("eo:langchange", { detail: { lang: lang } }));
   }

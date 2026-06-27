@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Apps - EO Studio | Mobile App Developer Fantasy</title>
-<meta name="description" content="EO Chat - ứng dụng trò chuyện di động phong cách fantasy dễ thương từ EO Studio, mobile app developer chuyên về thế giới Slime ấm áp, gần gũi.">
-<meta name="keywords" content="EO Studio, mobile app developer, ứng dụng chat, fantasy mobile app, cute mobile app, game development studio">
+<title data-i18n="apps.seo.title">EO Sales Chat - App Chat Bán Hàng Cho Shop Online | EO Studio</title>
+<meta name="description" data-i18n-attr="content:apps.seo.description" content="EO Sales Chat - hệ thống chat bán hàng 2 ứng dụng (khách hàng & chủ shop) từ EO Studio, giúp tư vấn, chốt đơn và quản lý khách hàng ngay trong app. Mua trên itch.io.">
+<meta name="keywords" data-i18n-attr="content:apps.seo.keywords" content="EO Sales Chat, app chat bán hàng, phần mềm chat bán hàng online, ứng dụng chat cho shop, live chat bán hàng mobile, app tư vấn khách hàng, source code chat app, EO Studio, mobile app developer, business chat application">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="canonical" href="https://eo.io.vn/apps.html">
 <link rel="alternate" hreflang="vi-VN" href="https://eo.io.vn/apps.html">
@@ -16,14 +16,16 @@
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#0c1730">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Apps - EO Studio">
-<meta property="og:description" content="Ứng dụng trò chuyện di động phong cách fantasy dễ thương từ EO Studio.">
+<meta property="og:title" data-i18n-attr="content:apps.seo.ogtitle" content="EO Sales Chat - App Chat Bán Hàng Cho Shop Online">
+<meta property="og:description" data-i18n-attr="content:apps.seo.ogdesc" content="Hệ thống chat bán hàng 2 ứng dụng (khách hàng & chủ shop) từ EO Studio. Tư vấn, chốt đơn và quản lý khách hàng ngay trong app.">
 <meta property="og:url" content="https://eo.io.vn/apps.html">
 <meta property="og:image" content="https://eo.io.vn/image/og-image.webp">
 <meta property="og:locale" id="og-locale" content="vi_VN">
+<meta property="og:locale:alternate" content="en_US">
 <meta property="og:site_name" content="EO Studio">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Apps - EO Studio">
+<meta name="twitter:title" data-i18n-attr="content:apps.seo.ogtitle" content="EO Sales Chat - App Chat Bán Hàng Cho Shop Online">
+<meta name="twitter:description" data-i18n-attr="content:apps.seo.ogdesc" content="Hệ thống chat bán hàng 2 ứng dụng (khách hàng & chủ shop), tư vấn và chốt đơn ngay trong app.">
 <meta name="twitter:image" content="https://eo.io.vn/image/og-image.webp">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,7 +40,16 @@
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Trang Chủ","item":"https://eo.io.vn/index.html"},{"@type":"ListItem","position":2,"name":"Apps","item":"https://eo.io.vn/apps.html"}]}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"MobileApplication","name":"EO Chat","operatingSystem":"Android, iOS","applicationCategory":"SocialNetworkingApplication","offers":{"@type":"Offer","price":"0","priceCurrency":"VND"}}
+{"@context":"https://schema.org","@type":"MobileApplication","name":"EO Sales Chat","operatingSystem":"Android, iOS","applicationCategory":"BusinessApplication","offers":{"@type":"Offer","url":"https://appalo.itch.io/sales-chat-system","priceCurrency":"USD"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"EO Sales Chat dùng để làm gì?","acceptedAnswer":{"@type":"Answer","text":"EO Sales Chat là hệ thống chat bán hàng gồm 2 ứng dụng — app khách hàng và app chủ shop — giúp tư vấn, chốt đơn và quản lý khách hàng ngay trong app."}},
+{"@type":"Question","name":"EO Sales Chat gồm mấy ứng dụng?","acceptedAnswer":{"@type":"Answer","text":"Gồm 2 ứng dụng riêng biệt: app dành cho khách hàng và app dành cho chủ shop, cùng vận hành trên một hệ thống chat real-time."}},
+{"@type":"Question","name":"Khách hàng có cần đăng ký tài khoản không?","acceptedAnswer":{"@type":"Answer","text":"Không cần. App khách hàng tự động đăng nhập bằng ID thiết bị — gỡ và cài lại app vẫn giữ phiên đăng nhập."}},
+{"@type":"Question","name":"Dữ liệu chat và hình ảnh có được dọn dẹp tự động không?","acceptedAnswer":{"@type":"Answer","text":"Có. Hệ thống tự động xoá tin nhắn và hình ảnh cũ theo định kỳ trên Firebase và ImageKit để tránh vượt giới hạn lưu trữ, tiết kiệm chi phí cho shop nhỏ."}},
+{"@type":"Question","name":"Mua EO Sales Chat ở đâu?","acceptedAnswer":{"@type":"Answer","text":"Mua trực tiếp trên itch.io tại appalo.itch.io/sales-chat-system, hoặc liên hệ qua Telegram t.me/eoiovn để được tư vấn."}}
+]}
 </script>
 </head>
 <body>
@@ -77,6 +88,10 @@
   <a href="guilds.html" data-i18n="nav.community">Cộng Đồng</a>
   <a href="about.html" data-i18n="nav.about">Về Chúng Tôi</a>
   <a href="contact.html" data-i18n="nav.contact">Liên Hệ</a>
+  <div class="lang-switch lang-switch--drawer" role="group" aria-label="Chọn ngôn ngữ">
+    <button type="button" data-lang="vi">VI</button>
+    <button type="button" data-lang="en">EN</button>
+  </div>
   <div class="drawer-actions">
     <a href="#" class="btn btn-outline btn-block" data-i18n="nav.login">Đăng Nhập</a>
     <a href="#" class="btn btn-primary btn-block" data-i18n="nav.play">Chơi Ngay</a>
@@ -91,7 +106,7 @@
         <a href="index.html" data-i18n="breadcrumb.home">Trang Chủ</a><span>/</span><span aria-current="page">Apps</span>
       </nav>
       <h1 data-i18n="apps.title">Apps Của EO Studio</h1>
-      <p data-i18n="apps.sub">Ứng dụng trò chuyện di động mang phong cách fantasy ấm áp, gần gũi.</p>
+      <p data-i18n="apps.sub">Hệ thống chat bán hàng cho shop online — tư vấn, chốt đơn và quản lý khách hàng ngay trong app.</p>
     </div>
   </section>
 
@@ -99,24 +114,110 @@
     <div class="container">
       <div class="section-head">
         <span class="eyebrow" data-i18n="apps.eyebrow">Ứng dụng</span>
-        <h2 class="section-title" id="app-showcase-title">EO Chat</h2>
+        <h2 class="section-title" id="app-showcase-title">EO Sales Chat</h2>
       </div>
       <div class="app-showcase reveal is-visible">
-        <div class="media"><img src="image/Untitled-11.png" alt="EO Chat app screenshot" width="480" height="600" loading="lazy"></div>
+        <div class="media"><img src="image/apvn.png" alt="Ảnh chụp màn hình EO Sales Chat - app chat bán hàng tiếng Việt cho shop online" data-i18n-attr="src:apps.screenshot.src;alt:apps.screenshot.alt" width="480" height="600" loading="lazy"></div>
         <div>
-          <p style="color:#5a6b8a">EO Chat là ứng dụng trò chuyện di động mang phong cách fantasy dễ thương, nơi bạn có thể trò chuyện cùng bạn bè với sticker Slime độc quyền và giao diện ấm áp, gần gũi.</p>
+          <p style="color:#5a6b8a" data-i18n="apps.intro">EO Sales Chat là hệ thống chat bán hàng gồm 2 ứng dụng — app cho khách hàng và app cho chủ shop — giúp tư vấn, chốt đơn và quản lý khách hàng ngay trong app, vận hành ổn định và bảo mật.</p>
           <h3 data-i18n="apps.features" style="font-size:18px;margin-top:20px">Tính Năng Nổi Bật</h3>
           <ul class="app-feature-list">
-            <li><span class="ico" aria-hidden="true">💬</span><div><h4>Chat Nhanh & Nhẹ</h4><p>Trò chuyện mượt mà, tối ưu cho mọi thiết bị mobile.</p></div></li>
-            <li><span class="ico" aria-hidden="true">🟢</span><div><h4>Sticker Slime Độc Quyền</h4><p>Bộ sticker Slime dễ thương cập nhật theo mùa.</p></div></li>
-            <li><span class="ico" aria-hidden="true">🛡️</span><div><h4>Bảo Mật Riêng Tư</h4><p>Tin nhắn được mã hóa, bảo vệ thông tin người dùng.</p></div></li>
+            <li><span class="ico" aria-hidden="true">💬</span><div><h4 data-i18n="apps.f1.title">Chat & Gọi Trực Tiếp</h4><p data-i18n="apps.f1.desc">Khách hàng chat, gọi và đặt mua ngay trong app với chủ shop, không cần tạo tài khoản.</p></div></li>
+            <li><span class="ico" aria-hidden="true">🛒</span><div><h4 data-i18n="apps.f2.title">Quản Lý Bán Hàng Dễ Dàng</h4><p data-i18n="apps.f2.desc">Đăng sản phẩm, danh mục, theo dõi và lưu thông tin khách hàng tự động.</p></div></li>
+            <li><span class="ico" aria-hidden="true">🛡️</span><div><h4 data-i18n="apps.f3.title">Bảo Mật & Tối Ưu</h4><p data-i18n="apps.f3.desc">Kiểm duyệt qua Cloud Functions, tự dọn rác, chống nóng máy, tối ưu pin và tài nguyên.</p></div></li>
           </ul>
           <div class="store-badges">
-            <a href="#" class="store-badge">▶ Google Play</a>
-            <a href="#" class="store-badge"> App Store</a>
+            <a href="https://appalo.itch.io/sales-chat-system" class="btn btn-primary" target="_blank" rel="noopener" data-i18n="apps.buy">🛒 Mua Ngay Trên itch.io</a>
+            <a href="https://t.me/eoiovn" class="btn btn-outline" target="_blank" rel="noopener" data-i18n="apps.telegram">✈️ Liên Hệ Qua Telegram</a>
           </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" aria-labelledby="app-video-title">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow" data-i18n="apps.eyebrow">Ứng dụng</span>
+        <h2 class="section-title" id="app-video-title" data-i18n="apps.video.title">Video Giới Thiệu</h2>
+      </div>
+      <div class="video-embed reveal is-visible">
+        <iframe src="https://www.youtube.com/embed/YKnn32ngboc?si=xmamI5z8nbX2Fdgk" title="EO Sales Chat - Video giới thiệu" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="app-detail-title">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow" data-i18n="apps.eyebrow">Ứng dụng</span>
+        <h2 class="section-title" id="app-detail-title" data-i18n="apps.detail.title">Chi Tiết Tính Năng</h2>
+        <p class="section-sub" data-i18n="apps.detail.sub">EO Sales Chat gồm 2 ứng dụng riêng biệt: app cho khách hàng và app cho chủ shop, cùng vận hành trên một hệ thống chat real-time.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card feature-card--list reveal is-visible">
+          <div class="feature-icon" aria-hidden="true">🧑‍🤝‍🧑</div>
+          <h3 data-i18n="apps.customer.title">Dành Cho Khách Hàng</h3>
+          <p data-i18n="apps.customer.f1">Đăng nhập tự động bằng ID thiết bị — gỡ và cài lại app vẫn tự đăng nhập, không cần tạo tài khoản.</p>
+          <p data-i18n="apps.customer.f2">Chat và gọi điện trực tiếp với chủ shop.</p>
+          <p data-i18n="apps.customer.f3">Thêm sản phẩm vào giỏ hàng và đặt mua ngay trong app.</p>
+          <p data-i18n="apps.customer.f4">Gửi vị trí của bạn cho shop.</p>
+        </article>
+        <article class="feature-card feature-card--list reveal is-visible">
+          <div class="feature-icon" aria-hidden="true">🏪</div>
+          <h3 data-i18n="apps.shop.title">Dành Cho Chủ Shop</h3>
+          <p data-i18n="apps.shop.f1">Đăng nhập bằng email (không cần hệ thống xác thực phức tạp của Firebase).</p>
+          <p data-i18n="apps.shop.f2">Chat, gọi điện và lưu thông tin từng khách hàng.</p>
+          <p data-i18n="apps.shop.f3">Đăng, sửa, xoá bài viết, danh mục và sản phẩm theo từng danh mục.</p>
+          <p data-i18n="apps.shop.f4">Chia sẻ tin nhắn, hình ảnh, thông tin của một khách hàng cho người khác trong danh bạ; danh bạ tự cập nhật khi có khách mới đăng nhập.</p>
+        </article>
+        <article class="feature-card feature-card--list reveal is-visible">
+          <div class="feature-icon" aria-hidden="true">🔍</div>
+          <h3 data-i18n="apps.general.title">Tính Năng Chung</h3>
+          <p data-i18n="apps.general.f1">Tìm kiếm sản phẩm nhanh.</p>
+          <p data-i18n="apps.general.f2">Vuốt, phóng to ảnh và tải ảnh về máy.</p>
+          <p data-i18n="apps.general.f3">Vuốt để đóng bài viết/ảnh; vuốt ngang để chuyển giữa tab Sản Phẩm và Bài Viết.</p>
+        </article>
+        <article class="feature-card feature-card--list reveal is-visible">
+          <div class="feature-icon" aria-hidden="true">⚙️</div>
+          <h3 data-i18n="apps.system.title">Hệ Thống & Tối Ưu</h3>
+          <p data-i18n="apps.system.f1">Tự động dọn rác sau thời gian dài sử dụng, tối ưu FPS và tài nguyên, chống nóng máy.</p>
+          <p data-i18n="apps.system.f2">Kết nối lại nhanh, tải tin nhắn thông minh, nhận thông báo tin nhắn/gọi ngay cả khi app không hoạt động, có nhắc lịch hẹn.</p>
+          <p data-i18n="apps.system.f3">Tự động xoá tin nhắn/ảnh cũ theo định kỳ trên Firebase và ImageKit để tránh vượt giới hạn lưu trữ — tiết kiệm chi phí cho shop nhỏ.</p>
+          <p data-i18n="apps.system.f4">Chặn ngôn từ thô tục và link đáng ngờ; xử lý kiểm duyệt/gửi ảnh/tin nhắn qua Cloud Functions bảo mật.</p>
+          <p data-i18n="apps.system.f5">Mở Google Maps khi bấm vào địa chỉ; nhận diện và tương tác số điện thoại trong tin nhắn.</p>
+          <p data-i18n="apps.system.f6">Bàn phím riêng được tối ưu, ổn định (không dùng bàn phím mặc định của máy); tự động xin quyền khi thiếu; có quảng cáo AdMob.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" aria-labelledby="app-faq-title">
+    <div class="container prose" style="max-width:760px">
+      <div class="section-head">
+        <span class="eyebrow" data-i18n="apps.eyebrow">Ứng dụng</span>
+        <h2 class="section-title" id="app-faq-title" data-i18n="apps.faq.title">Câu Hỏi Thường Gặp</h2>
+      </div>
+      <details class="faq-item" open>
+        <summary data-i18n="apps.faq.q1">EO Sales Chat dùng để làm gì?</summary>
+        <p data-i18n="apps.faq.a1">EO Sales Chat là hệ thống chat bán hàng gồm 2 ứng dụng — app khách hàng và app chủ shop — giúp tư vấn, chốt đơn và quản lý khách hàng ngay trong app.</p>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="apps.faq.q2">EO Sales Chat gồm mấy ứng dụng?</summary>
+        <p data-i18n="apps.faq.a2">Gồm 2 ứng dụng riêng biệt: app dành cho khách hàng và app dành cho chủ shop, cùng vận hành trên một hệ thống chat real-time.</p>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="apps.faq.q3">Khách hàng có cần đăng ký tài khoản không?</summary>
+        <p data-i18n="apps.faq.a3">Không cần. App khách hàng tự động đăng nhập bằng ID thiết bị — gỡ và cài lại app vẫn giữ phiên đăng nhập.</p>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="apps.faq.q4">Dữ liệu chat và hình ảnh có được dọn dẹp tự động không?</summary>
+        <p data-i18n="apps.faq.a4">Có. Hệ thống tự động xoá tin nhắn và hình ảnh cũ theo định kỳ trên Firebase và ImageKit để tránh vượt giới hạn lưu trữ, tiết kiệm chi phí cho shop nhỏ.</p>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="apps.faq.q5">Mua EO Sales Chat ở đâu?</summary>
+        <p data-i18n-html="apps.faq.a5_html">Mua trực tiếp trên itch.io tại <a href="https://appalo.itch.io/sales-chat-system" target="_blank" rel="noopener">appalo.itch.io/sales-chat-system</a>, hoặc liên hệ qua Telegram <a href="https://t.me/eoiovn" target="_blank" rel="noopener">t.me/eoiovn</a> để được tư vấn.</p>
+      </details>
     </div>
   </section>
 </main>
