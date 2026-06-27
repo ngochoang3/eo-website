@@ -12,7 +12,7 @@
   .grid-3{grid-template-columns:repeat(2,1fr)}
   .social-grid{grid-template-columns:repeat(3,1fr)}
   .download-grid{grid-template-columns:repeat(2,1fr)}
-  .footer-grid{grid-template-columns:1fr 1fr}
+  .footer-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
   .contact-grid{grid-template-columns:1fr}
   .hero-slime{width:30vw}
   .featured-game,.app-showcase{grid-template-columns:1fr}
@@ -28,7 +28,7 @@
   .feature-grid,.grid-4,.grid-3{grid-template-columns:1fr 1fr}
   .social-grid{grid-template-columns:repeat(2,1fr)}
   .download-grid{grid-template-columns:1fr}
-  .footer-grid{grid-template-columns:1fr 1fr;gap:28px}
+  .footer-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px}
   .hero-content{padding-top:120px;max-width:100%}
   .hero-slime{display:none}
   .hero-actions{flex-direction:column;align-items:stretch}
@@ -43,7 +43,7 @@
   .container{padding:0 16px}
   .feature-grid,.grid-4,.grid-3{grid-template-columns:1fr}
   .social-grid{grid-template-columns:1fr 1fr}
-  .footer-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:minmax(0,1fr)}
   .hero-title{font-size:34px}
   .section-title{font-size:26px}
   .back-to-top{right:14px;bottom:14px;width:44px;height:44px}
