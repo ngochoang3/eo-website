@@ -269,4 +269,48 @@
   } else {
     rerender();
   }
+
+  /* ---------- Tech tabs ---------- */
+  document.querySelectorAll(".tech-tab").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var panel = btn.getAttribute("data-panel");
+      document.querySelectorAll(".tech-tab").forEach(function(b){ b.classList.remove("active"); b.setAttribute("aria-selected","false"); });
+      document.querySelectorAll(".tech-panel").forEach(function(p){ p.classList.remove("active"); });
+      btn.classList.add("active");
+      btn.setAttribute("aria-selected","true");
+      var el = document.getElementById("tech-" + panel);
+      if (el) el.classList.add("active");
+    });
+  });
+
+  /* ---------- Mega menu keyboard (Escape to close) ---------- */
+  document.addEventListener("keydown", function(e){
+    if (e.key === "Escape") {
+      document.querySelectorAll(".nav-mega-trigger").forEach(function(t){ t.setAttribute("aria-expanded","false"); });
+    }
+  });
+
+  /* ---------- Stats counter animation ---------- */
+  var counters = document.querySelectorAll(".stat-card .num[data-count]");
+  if (counters.length && "IntersectionObserver" in window) {
+    var counterIO = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if (!entry.isIntersecting) return;
+        var el = entry.target;
+        var target = parseInt(el.getAttribute("data-count"), 10);
+        var suffix = el.getAttribute("data-suffix") || "";
+        var duration = 1500;
+        var start = performance.now();
+        function tick(now){
+          var progress = Math.min((now - start) / duration, 1);
+          var ease = 1 - Math.pow(1 - progress, 3);
+          el.textContent = Math.round(ease * target) + suffix;
+          if (progress < 1) requestAnimationFrame(tick);
+        }
+        requestAnimationFrame(tick);
+        counterIO.unobserve(el);
+      });
+    }, { threshold: 0.5 });
+    counters.forEach(function(el){ counterIO.observe(el); });
+  }
 })();

@@ -1,0 +1,15 @@
+# EO Technology — 301 Redirects (SEO equity preservation)
+/games                              /portfolio/cloud-ball           301
+/games/*                            /portfolio/cloud-ball/:splat    301
+/apps                               /portfolio/eo-sales-chat        301
+/universe                           /portfolio/cloud-ball/universe  301
+/wiki                               /portfolio/cloud-ball/wiki      301
+/wiki/*                             /portfolio/cloud-ball/wiki/:splat 301
+/download                           /portfolio/cloud-ball/download  301
+/community                          /portfolio/cloud-ball/community 301
+/guilds.html                        /portfolio/cloud-ball/community 301
+/classes.html                       /portfolio/cloud-ball           301
+/pets.html                          /portfolio/cloud-ball           301
+/world.html                         /portfolio/cloud-ball/universe  301
+/news.html                          /blog                           301
+/privacy.html                       /privacy-policy                 301

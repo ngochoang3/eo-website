@@ -1,11 +1,11 @@
-/*! EO Studio / eo.io.vn — Service Worker (offline fallback + static asset caching) */
-const CACHE_VERSION = "eo-v2";
+/*! EO Technology / eo.io.vn — Service Worker v3.0 */
+const CACHE_VERSION = "eo-tech-v1";
 const OFFLINE_URL = "offline.html";
 const PRECACHE = [
   "/", "index.html", "offline.html",
-  "games.html", "apps.html", "universe.html", "about.html",
+  "about.html", "contact.html", "portfolio.html",
   "assets/css/main.css", "assets/css/responsive.css",
-  "assets/js/config.js", "assets/js/i18n.js", "assets/js/slider.js", "assets/js/main.js",
+  "assets/js/config.js", "assets/js/i18n.js", "assets/js/main.js",
   "image/logo.png", "image/icon.png"
 ];
 

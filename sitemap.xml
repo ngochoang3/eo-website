@@ -1,70 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-<url><loc>https://eo.io.vn/index.html</loc><changefreq>weekly</changefreq><priority>1.0</priority>
-<xhtml:link rel="alternate" hreflang="vi-VN" href="https://eo.io.vn/index.html"/>
-<xhtml:link rel="alternate" hreflang="en-US" href="https://eo.io.vn/index.html"/>
-<xhtml:link rel="alternate" hreflang="x-default" href="https://eo.io.vn/index.html"/>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+<!-- Home -->
+<url>
+  <loc>https://eo.io.vn/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://eo.io.vn/"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://eo.io.vn/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://eo.io.vn/"/>
 </url>
-<url><loc>https://eo.io.vn/games.html</loc><changefreq>weekly</changefreq><priority>0.95</priority>
-<xhtml:link rel="alternate" hreflang="vi-VN" href="https://eo.io.vn/games.html"/>
-<xhtml:link rel="alternate" hreflang="en-US" href="https://eo.io.vn/games.html"/>
-<xhtml:link rel="alternate" hreflang="x-default" href="https://eo.io.vn/games.html"/>
-</url>
-<url><loc>https://eo.io.vn/apps.html</loc><changefreq>monthly</changefreq><priority>0.8</priority>
-<xhtml:link rel="alternate" hreflang="vi-VN" href="https://eo.io.vn/apps.html"/>
-<xhtml:link rel="alternate" hreflang="en-US" href="https://eo.io.vn/apps.html"/>
-<xhtml:link rel="alternate" hreflang="x-default" href="https://eo.io.vn/apps.html"/>
-</url>
-<url><loc>https://eo.io.vn/universe.html</loc><changefreq>weekly</changefreq><priority>0.85</priority>
-<xhtml:link rel="alternate" hreflang="vi-VN" href="https://eo.io.vn/universe.html"/>
-<xhtml:link rel="alternate" hreflang="en-US" href="https://eo.io.vn/universe.html"/>
-<xhtml:link rel="alternate" hreflang="x-default" href="https://eo.io.vn/universe.html"/>
-</url>
-<url><loc>https://eo.io.vn/about.html</loc><changefreq>monthly</changefreq><priority>0.7</priority>
-<xhtml:link rel="alternate" hreflang="vi-VN" href="https://eo.io.vn/about.html"/>
-<xhtml:link rel="alternate" hreflang="en-US" href="https://eo.io.vn/about.html"/>
-<xhtml:link rel="alternate" hreflang="x-default" href="https://eo.io.vn/about.html"/>
-</url>
-<url><loc>https://eo.io.vn/world.html</loc><changefreq>weekly</changefreq><priority>0.75</priority>
-<xhtml:link rel="alternate" hreflang="vi-VN" href="https://eo.io.vn/world.html"/>
-<xhtml:link rel="alternate" hreflang="en-US" href="https://eo.io.vn/world.html"/>
-<xhtml:link rel="alternate" hreflang="x-default" href="https://eo.io.vn/world.html"/>
-</url>
-<url><loc>https://eo.io.vn/classes.html</loc><changefreq>monthly</changefreq><priority>0.8</priority>
-<xhtml:link rel="alternate" hreflang="vi-VN" href="https://eo.io.vn/classes.html"/>
-<xhtml:link rel="alternate" hreflang="en-US" href="https://eo.io.vn/classes.html"/>
-<xhtml:link rel="alternate" hreflang="x-default" href="https://eo.io.vn/classes.html"/>
-</url>
-<url><loc>https://eo.io.vn/pets.html</loc><changefreq>monthly</changefreq><priority>0.8</priority>
-<xhtml:link rel="alternate" hreflang="vi-VN" href="https://eo.io.vn/pets.html"/>
-<xhtml:link rel="alternate" hreflang="en-US" href="https://eo.io.vn/pets.html"/>
-<xhtml:link rel="alternate" hreflang="x-default" href="https://eo.io.vn/pets.html"/>
-</url>
-<url><loc>https://eo.io.vn/guilds.html</loc><changefreq>weekly</changefreq><priority>0.7</priority>
-<xhtml:link rel="alternate" hreflang="vi-VN" href="https://eo.io.vn/guilds.html"/>
-<xhtml:link rel="alternate" hreflang="en-US" href="https://eo.io.vn/guilds.html"/>
-<xhtml:link rel="alternate" hreflang="x-default" href="https://eo.io.vn/guilds.html"/>
-</url>
-<url><loc>https://eo.io.vn/news.html</loc><changefreq>daily</changefreq><priority>0.9</priority>
-<xhtml:link rel="alternate" hreflang="vi-VN" href="https://eo.io.vn/news.html"/>
-<xhtml:link rel="alternate" hreflang="en-US" href="https://eo.io.vn/news.html"/>
-<xhtml:link rel="alternate" hreflang="x-default" href="https://eo.io.vn/news.html"/>
-</url>
-<url><loc>https://eo.io.vn/wiki.html</loc><changefreq>monthly</changefreq><priority>0.7</priority>
-<xhtml:link rel="alternate" hreflang="vi-VN" href="https://eo.io.vn/wiki.html"/>
-<xhtml:link rel="alternate" hreflang="en-US" href="https://eo.io.vn/wiki.html"/>
-<xhtml:link rel="alternate" hreflang="x-default" href="https://eo.io.vn/wiki.html"/>
-</url>
-<url><loc>https://eo.io.vn/download.html</loc><changefreq>monthly</changefreq><priority>0.9</priority>
-<xhtml:link rel="alternate" hreflang="vi-VN" href="https://eo.io.vn/download.html"/>
-<xhtml:link rel="alternate" hreflang="en-US" href="https://eo.io.vn/download.html"/>
-<xhtml:link rel="alternate" hreflang="x-default" href="https://eo.io.vn/download.html"/>
-</url>
-<url><loc>https://eo.io.vn/contact.html</loc><changefreq>yearly</changefreq><priority>0.5</priority>
-<xhtml:link rel="alternate" hreflang="vi-VN" href="https://eo.io.vn/contact.html"/>
-<xhtml:link rel="alternate" hreflang="en-US" href="https://eo.io.vn/contact.html"/>
-<xhtml:link rel="alternate" hreflang="x-default" href="https://eo.io.vn/contact.html"/>
-</url>
-<url><loc>https://eo.io.vn/privacy.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+
+<!-- Company -->
+<url><loc>https://eo.io.vn/about.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+<url><loc>https://eo.io.vn/contact.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://eo.io.vn/faq.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://eo.io.vn/pricing.html</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+<url><loc>https://eo.io.vn/blog.html</loc><changefreq>weekly</changefreq><priority>0.75</priority></url>
+<url><loc>https://eo.io.vn/career.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://eo.io.vn/status.html</loc><changefreq>daily</changefreq><priority>0.4</priority></url>
+
+<!-- Services -->
+<url><loc>https://eo.io.vn/services.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+<url><loc>https://eo.io.vn/services/hosting.html</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+<url><loc>https://eo.io.vn/services/cloud.html</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+<url><loc>https://eo.io.vn/services/vps.html</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+<url><loc>https://eo.io.vn/services/web-development.html</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+<url><loc>https://eo.io.vn/services/mobile-app.html</loc><changefreq>monthly</changefreq><priority>0.80</priority></url>
+<url><loc>https://eo.io.vn/services/game-development.html</loc><changefreq>monthly</changefreq><priority>0.80</priority></url>
+<url><loc>https://eo.io.vn/services/ai-solutions.html</loc><changefreq>monthly</changefreq><priority>0.80</priority></url>
+<url><loc>https://eo.io.vn/services/saas.html</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+
+<!-- Portfolio -->
+<url><loc>https://eo.io.vn/portfolio.html</loc><changefreq>monthly</changefreq><priority>0.80</priority></url>
+<url><loc>https://eo.io.vn/portfolio/cloud-ball.html</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+<url><loc>https://eo.io.vn/portfolio/eo-sales-chat.html</loc><changefreq>monthly</changefreq><priority>0.70</priority></url>
+<url><loc>https://eo.io.vn/portfolio/cloud-ball/universe.html</loc><changefreq>monthly</changefreq><priority>0.55</priority></url>
+<url><loc>https://eo.io.vn/portfolio/cloud-ball/wiki.html</loc><changefreq>monthly</changefreq><priority>0.50</priority></url>
+<url><loc>https://eo.io.vn/portfolio/cloud-ball/download.html</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+<url><loc>https://eo.io.vn/portfolio/cloud-ball/community.html</loc><changefreq>weekly</changefreq><priority>0.55</priority></url>
+
+<!-- Legal -->
+<url><loc>https://eo.io.vn/privacy-policy.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
 <url><loc>https://eo.io.vn/terms.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+
+<!-- Legacy URLs (301 redirected — keep for SEO signal preservation) -->
+<url><loc>https://eo.io.vn/apps.html</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+
 </urlset>

@@ -1,13 +1,13 @@
 {
-  "name": "EO Studio - Fantasy Mobile Games",
-  "short_name": "EO Studio",
-  "description": "EO Studio - indie game studio kiến tạo game mobile và ứng dụng fantasy dễ thương.",
-  "start_url": "/index.html",
+  "name": "EO Technology - Web · Cloud · AI · Game",
+  "short_name": "EO Technology",
+  "description": "EO Technology - Giải pháp công nghệ toàn diện: Web Development, Cloud Hosting, VPS, AI Solutions, Game Development.",
+  "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "background_color": "#0c1730",
-  "theme_color": "#0c1730",
+  "background_color": "#060c18",
+  "theme_color": "#060c18",
   "lang": "vi-VN",
   "dir": "ltr",
   "icons": [
@@ -15,11 +15,11 @@
     { "src": "image/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
     { "src": "image/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ],
-  "categories": ["games", "entertainment"],
+  "categories": ["business", "productivity", "developer"],
   "shortcuts": [
-    { "name": "Games", "url": "/games.html" },
-    { "name": "Apps", "url": "/apps.html" },
-    { "name": "Tải Game", "url": "/download.html" },
-    { "name": "Tin Tức", "url": "/news.html" }
+    { "name": "Dịch Vụ", "url": "/services.html" },
+    { "name": "Portfolio", "url": "/portfolio.html" },
+    { "name": "Liên Hệ", "url": "/contact.html" },
+    { "name": "Cloud Ball", "url": "/portfolio/cloud-ball.html" }
   ]
 }
