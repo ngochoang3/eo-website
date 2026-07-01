@@ -331,12 +331,12 @@ p:last-child { margin-bottom:0 }
 .nav-mega-wrap:hover .nav-mega-trigger svg { transform:rotate(180deg) }
 
 .mega-menu {
-  position:absolute; top:calc(100% + 12px); left:50%;
+  position:absolute; top:100%; left:50%;
   transform:translateX(-50%);
   background:var(--c-surface);
   border:1px solid var(--c-border-md);
   border-radius:var(--radius-xl);
-  padding:var(--sp-6);
+  padding:12px var(--sp-6) var(--sp-6);
   min-width:700px;
   box-shadow:var(--shadow-lg);
   display:grid; grid-template-columns:1fr 1fr 1fr auto;

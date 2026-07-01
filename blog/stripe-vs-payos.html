@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="vi" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stripe vs PayOS cho SaaS: So sánh thực tế — EO Technology Blog</title>
+<meta name="description" content="So sánh Stripe và PayOS cho SaaS tại Việt Nam: phí giao dịch, phương thức thanh toán, developer experience, và khi nào dùng cái nào.">
+<link rel="canonical" href="https://eo.io.vn/blog/stripe-vs-payos">
+<link rel="icon" href="../image/icon.png" type="image/png">
+<meta name="theme-color" content="#060c18">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/css/responsive.css">
+<link rel="stylesheet" href="../assets/css/chatbot.css">
+<style>
+.article-body { max-width:740px; margin:0 auto; }
+.article-body h2 { font-size:var(--text-xl); margin:40px 0 14px; }
+.article-body h3 { font-size:var(--text-lg); margin:28px 0 10px; }
+.article-body p { font-size:var(--text-sm); color:var(--c-text-muted); line-height:1.85; margin-bottom:16px; }
+.article-body ul, .article-body ol { padding-left:22px; margin-bottom:16px; }
+.article-body li { font-size:var(--text-sm); color:var(--c-text-muted); line-height:1.7; margin-bottom:8px; }
+.article-body strong { color:var(--c-text); }
+.article-body code { background:var(--c-surface-3); padding:2px 7px; border-radius:4px; font-size:12px; font-family:monospace; }
+.article-meta { display:flex; gap:16px; align-items:center; font-size:12px; color:var(--c-text-muted); margin-bottom:32px; flex-wrap:wrap; }
+.article-tag { background:rgba(245,158,11,.12); color:#fbbf24; padding:3px 10px; border-radius:99px; font-size:11px; font-weight:700; text-transform:uppercase; }
+.callout { background:rgba(0,144,232,.07); border-left:3px solid var(--c-accent-500); padding:14px 18px; border-radius:0 8px 8px 0; margin:24px 0; }
+.callout p { margin:0; }
+.callout.warn { background:rgba(245,158,11,.07); border-left-color:#f59e0b; }
+.comparison-table { width:100%; border-collapse:collapse; margin:20px 0; font-size:var(--text-sm); }
+.comparison-table th { background:var(--c-surface-3); color:var(--c-text); font-weight:600; padding:10px 14px; text-align:left; border:1px solid var(--c-border); }
+.comparison-table td { padding:10px 14px; border:1px solid var(--c-border); color:var(--c-text-muted); }
+.comparison-table td.good { color:#10b981; }
+.comparison-table td.bad { color:#f87171; }
+.comparison-table td.mid { color:#f59e0b; }
+.verdict-box { background:var(--c-surface-2); border:1px solid var(--c-border); border-radius:12px; padding:24px; margin:24px 0; }
+.verdict-box h3 { margin-top:0; font-size:var(--text-base); }
+</style>
+</head>
+<body>
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <a href="../index.html" class="brand"><img src="../image/logo.png" alt="EO Technology" width="36" height="36"><span class="brand-text"><span class="brand-name">EO</span><span class="brand-sub">Technology</span></span></a>
+    <nav class="main-nav"><a href="../index.html">Trang Chủ</a><a href="../services.html">Dịch Vụ</a><a href="../portfolio.html">Portfolio</a><a href="../pricing.html">Bảng Giá</a><a href="../blog.html" aria-current="page">Blog</a><a href="../about.html">Về Chúng Tôi</a></nav>
+    <div class="header-actions">
+      <a href="../contact.html" class="btn btn-primary btn-sm">Liên hệ ngay</a>
+      <button class="nav-toggle" aria-label="Mở menu" aria-expanded="false" aria-controls="navDrawer"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<nav class="nav-drawer" id="navDrawer">
+  <a href="../index.html">Trang Chủ</a><a href="../services.html">Dịch Vụ</a><a href="../portfolio.html">Portfolio</a><a href="../blog.html">Blog</a><a href="../contact.html">Liên Hệ</a>
+  <div class="drawer-actions"><a href="../contact.html" class="btn btn-primary btn-block">Liên hệ ngay</a></div>
+</nav>
+
+<main id="main">
+  <section class="page-hero" style="padding-bottom:40px">
+    <div class="container">
+      <nav class="breadcrumb"><a href="../index.html">Trang Chủ</a><span>›</span><a href="../blog.html">Blog</a><span>›</span><span>Stripe vs PayOS</span></nav>
+      <div style="margin-bottom:16px"><span class="article-tag">SaaS</span></div>
+      <h1 style="max-width:760px">Stripe vs PayOS cho SaaS: So sánh thực tế cho thị trường Việt Nam</h1>
+      <div class="article-meta">
+        <span>12 tháng 5, 2025</span><span>·</span><span>8 phút đọc</span><span>·</span><span>EO Technology</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="article-body">
+        <p>Khi xây dựng SaaS tại Việt Nam, câu hỏi thanh toán luôn xuất hiện sớm: Stripe để nhận thanh toán quốc tế, PayOS cho nội địa, hay cả hai? Bài này so sánh trực tiếp dựa trên kinh nghiệm tích hợp thực tế — không phải marketing copy từ trang chủ của họ.</p>
+
+        <div class="callout warn"><p><strong>Lưu ý thời điểm:</strong> Phí và chính sách có thể thay đổi. Kiểm tra trang chính thức của Stripe và PayOS trước khi quyết định. Thông tin trong bài tính đến tháng 5/2025.</p></div>
+
+        <h2>Stripe — Payment gateway quốc tế</h2>
+        <p>Stripe là lựa chọn de facto cho SaaS nhắm thị trường quốc tế. Stripe chính thức hỗ trợ Việt Nam từ tháng 3/2024 — doanh nghiệp Việt Nam có thể đăng ký tài khoản Stripe và nhận tiền về tài khoản ngân hàng nội địa.</p>
+
+        <h3>Phí giao dịch Stripe (Việt Nam)</h3>
+        <ul>
+          <li>Card quốc tế (Visa, Mastercard): <strong>3.4% + $0.30/giao dịch</strong></li>
+          <li>Card nội địa (nếu có): tùy loại card</li>
+          <li>Không có phí monthly, không có phí setup</li>
+          <li>Hoàn tiền (refund): mất phí xử lý $0.30, không hoàn lại phí transaction</li>
+          <li>Payout về tài khoản Việt Nam: thường 7 ngày làm việc, có thể cấu hình</li>
+        </ul>
+
+        <h3>Stripe mạnh ở đâu?</h3>
+        <ul>
+          <li><strong>Developer experience xuất sắc:</strong> API design rõ ràng, documentation đầy đủ, SDKs cho mọi ngôn ngữ, CLI để test local</li>
+          <li><strong>Stripe Billing:</strong> Built-in subscription management, invoicing, prorations, trial periods — tiết kiệm hàng tuần dev time</li>
+          <li><strong>Webhook đáng tin cậy:</strong> Retry logic, event log, và dashboard để debug event failures</li>
+          <li><strong>Stripe Radar:</strong> Fraud detection built-in, tự động block suspicious transactions</li>
+          <li><strong>Stripe Dashboard:</strong> Analytics, customer management, dispute handling tất cả trong một chỗ</li>
+        </ul>
+
+        <h2>PayOS — Payment gateway nội địa Việt Nam</h2>
+        <p>PayOS là sản phẩm của VNPAY, hỗ trợ thanh toán qua QR code VietQR, Internet Banking, và ví điện tử (MoMo, ZaloPay, ShopeePay...). Đây là cách người Việt ưa thích thanh toán — đặc biệt là QR chuyển khoản ngân hàng.</p>
+
+        <h3>Phí giao dịch PayOS</h3>
+        <ul>
+          <li>Chuyển khoản ngân hàng (VietQR): <strong>0% phí giao dịch</strong> (thu phí theo gói subscription hàng tháng)</li>
+          <li>Ví điện tử: thường 1.1–1.5% tùy đối tác</li>
+          <li>Phí đăng ký và duy trì: tùy gói, có gói miễn phí với giới hạn số giao dịch</li>
+          <li>Settlement: thường T+1 (ngày hôm sau)</li>
+        </ul>
+
+        <h3>PayOS mạnh ở đâu?</h3>
+        <ul>
+          <li><strong>Conversion rate cao với user Việt Nam:</strong> QR code chuyển khoản ngân hàng quen thuộc, không cần nhập thông tin thẻ</li>
+          <li><strong>Phí thấp hơn cho giao dịch nhỏ:</strong> 3.4% của Stripe đau hơn nhiều với đơn $5 so với 0% VietQR</li>
+          <li><strong>Settlement nhanh:</strong> T+1 thay vì 7 ngày của Stripe</li>
+          <li><strong>Không cần thẻ ngân hàng quốc tế:</strong> Mở rộng đến người dùng không có thẻ Visa/Mastercard</li>
+        </ul>
+
+        <h2>So sánh trực tiếp</h2>
+        <table class="comparison-table">
+          <thead><tr><th>Tiêu chí</th><th>Stripe</th><th>PayOS</th></tr></thead>
+          <tbody>
+            <tr><td>Phí giao dịch</td><td class="mid">3.4% + $0.30</td><td class="good">0% (VietQR)</td></tr>
+            <tr><td>Settlement</td><td class="mid">7 ngày làm việc</td><td class="good">T+1</td></tr>
+            <tr><td>Thị trường</td><td class="good">Toàn cầu</td><td>Việt Nam</td></tr>
+            <tr><td>Subscription billing</td><td class="good">Có (Stripe Billing)</td><td class="bad">Không có built-in</td></tr>
+            <tr><td>Developer experience</td><td class="good">Xuất sắc</td><td class="mid">Đủ dùng</td></tr>
+            <tr><td>Phương thức thanh toán</td><td>Card quốc tế, Apple/Google Pay</td><td class="good">QR, Internet Banking, ví điện tử</td></tr>
+            <tr><td>Conversion rate (user VN)</td><td class="mid">Thấp hơn</td><td class="good">Cao hơn</td></tr>
+            <tr><td>Fraud protection</td><td class="good">Stripe Radar built-in</td><td class="mid">Tùy dự án</td></tr>
+            <tr><td>Documentation</td><td class="good">Rất tốt</td><td class="mid">Đủ dùng</td></tr>
+          </tbody>
+        </table>
+
+        <h2>Khi nào dùng Stripe?</h2>
+        <ul>
+          <li>SaaS nhắm thị trường quốc tế (US, EU, Singapore...)</li>
+          <li>Cần subscription management phức tạp (tiers, trials, proration, usage-based billing)</li>
+          <li>Khách hàng là doanh nghiệp nước ngoài thanh toán bằng corporate card</li>
+          <li>Team developer cần API quality cao để move fast</li>
+          <li>Average transaction value cao (phí 3.4% ít đau hơn với đơn $100+ so với đơn $5)</li>
+        </ul>
+
+        <h2>Khi nào dùng PayOS?</h2>
+        <ul>
+          <li>SaaS chủ yếu cho thị trường Việt Nam</li>
+          <li>Giao dịch nhỏ lẻ (dưới 200.000 VNĐ), phí % cao của Stripe không hợp lý</li>
+          <li>Cần settlement nhanh để quản lý cash flow</li>
+          <li>User base ít quen thanh toán bằng thẻ quốc tế</li>
+          <li>Muốn tối đa hóa conversion rate với khách hàng Việt Nam</li>
+        </ul>
+
+        <div class="verdict-box">
+          <h3>Kết luận thực tế: Dùng cả hai</h3>
+          <p style="font-size:var(--text-sm);color:var(--c-text-muted);margin:0">Đây không phải lựa chọn loại trừ nhau. Kiến trúc phổ biến nhất cho SaaS Việt Nam nhắm dual market: <strong>Stripe</strong> cho thanh toán quốc tế và subscription management, <strong>PayOS</strong> cho QR/Internet Banking nội địa. Implement PayOS trước nếu 80%+ user hiện tại là Việt Nam — đây là ưu tiên conversion rate. Thêm Stripe khi bắt đầu nhắm international market.</p>
+        </div>
+
+        <h2>Gotchas khi tích hợp</h2>
+        <p><strong>Stripe:</strong> Webhook endpoint phải return HTTP 200 trong 5 giây — nếu logic xử lý nặng, reply 200 trước rồi process async. Dispute (chargeback) của Stripe tốn $15/case kể cả khi thắng — implement fraud checks kỹ để minimize.</p>
+        <p><strong>PayOS:</strong> QR code có thời hạn (expiry) — cần handle expired QR và cho user tạo lại. Webhook signature verification quan trọng — không skip bước này để tránh fake payment notification.</p>
+
+        <div style="margin-top:48px;padding-top:32px;border-top:1px solid var(--c-border);display:flex;gap:16px;flex-wrap:wrap">
+          <a href="../blog.html" class="btn btn-secondary">← Về danh sách Blog</a>
+          <a href="../contact.html" class="btn btn-primary">Tư vấn tích hợp thanh toán →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-bottom"><span>© 2025 EO Technology. Mọi quyền được bảo lưu.</span></div>
+  </div>
+</footer>
+<script src="../assets/js/config.js"></script><script src="../assets/js/i18n.js"></script><script src="../assets/js/main.js"></script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6a45042d854f801d4378b7b0/1jsepgkpf';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+</html>

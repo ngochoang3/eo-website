@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="vi" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RAG vs Fine-tuning: Cái nào phù hợp với bạn? — EO Technology Blog</title>
+<meta name="description" content="RAG và Fine-tuning đều giúp LLM hiểu domain của bạn, nhưng giải quyết bài toán khác nhau. So sánh chi phí, latency, độ chính xác và khi nào dùng cái nào.">
+<link rel="canonical" href="https://eo.io.vn/blog/rag-vs-fine-tuning">
+<link rel="icon" href="../image/icon.png" type="image/png">
+<meta name="theme-color" content="#060c18">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/css/responsive.css">
+<link rel="stylesheet" href="../assets/css/chatbot.css">
+<style>
+.article-body { max-width:740px; margin:0 auto; }
+.article-body h2 { font-size:var(--text-xl); margin:40px 0 14px; }
+.article-body h3 { font-size:var(--text-lg); margin:28px 0 10px; }
+.article-body p { font-size:var(--text-sm); color:var(--c-text-muted); line-height:1.85; margin-bottom:16px; }
+.article-body ul, .article-body ol { padding-left:22px; margin-bottom:16px; }
+.article-body li { font-size:var(--text-sm); color:var(--c-text-muted); line-height:1.7; margin-bottom:8px; }
+.article-body strong { color:var(--c-text); }
+.article-body code { background:var(--c-surface-3); padding:2px 7px; border-radius:4px; font-size:12px; font-family:monospace; }
+.article-meta { display:flex; gap:16px; align-items:center; font-size:12px; color:var(--c-text-muted); margin-bottom:32px; flex-wrap:wrap; }
+.article-tag { background:rgba(124,58,237,.12); color:#a78bfa; padding:3px 10px; border-radius:99px; font-size:11px; font-weight:700; text-transform:uppercase; }
+.callout { background:rgba(0,144,232,.07); border-left:3px solid var(--c-accent-500); padding:14px 18px; border-radius:0 8px 8px 0; margin:24px 0; }
+.callout p { margin:0; }
+.callout.warn { background:rgba(245,158,11,.07); border-left-color:#f59e0b; }
+.comparison-table { width:100%; border-collapse:collapse; margin:20px 0; font-size:var(--text-sm); }
+.comparison-table th { background:var(--c-surface-3); color:var(--c-text); font-weight:600; padding:10px 14px; text-align:left; border:1px solid var(--c-border); }
+.comparison-table td { padding:10px 14px; border:1px solid var(--c-border); color:var(--c-text-muted); }
+.comparison-table td.good { color:#10b981; }
+.comparison-table td.bad { color:#f87171; }
+.comparison-table td.mid { color:#f59e0b; }
+</style>
+</head>
+<body>
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <a href="../index.html" class="brand"><img src="../image/logo.png" alt="EO Technology" width="36" height="36"><span class="brand-text"><span class="brand-name">EO</span><span class="brand-sub">Technology</span></span></a>
+    <nav class="main-nav"><a href="../index.html">Trang Chủ</a><a href="../services.html">Dịch Vụ</a><a href="../portfolio.html">Portfolio</a><a href="../pricing.html">Bảng Giá</a><a href="../blog.html" aria-current="page">Blog</a><a href="../about.html">Về Chúng Tôi</a></nav>
+    <div class="header-actions">
+      <a href="../contact.html" class="btn btn-primary btn-sm">Liên hệ ngay</a>
+      <button class="nav-toggle" aria-label="Mở menu" aria-expanded="false" aria-controls="navDrawer"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<nav class="nav-drawer" id="navDrawer">
+  <a href="../index.html">Trang Chủ</a><a href="../services.html">Dịch Vụ</a><a href="../portfolio.html">Portfolio</a><a href="../blog.html">Blog</a><a href="../contact.html">Liên Hệ</a>
+  <div class="drawer-actions"><a href="../contact.html" class="btn btn-primary btn-block">Liên hệ ngay</a></div>
+</nav>
+
+<main id="main">
+  <section class="page-hero" style="padding-bottom:40px">
+    <div class="container">
+      <nav class="breadcrumb"><a href="../index.html">Trang Chủ</a><span>›</span><a href="../blog.html">Blog</a><span>›</span><span>RAG vs Fine-tuning</span></nav>
+      <div style="margin-bottom:16px"><span class="article-tag">AI</span></div>
+      <h1 style="max-width:760px">RAG vs Fine-tuning: Cái nào phù hợp với use case của bạn?</h1>
+      <div class="article-meta">
+        <span>10 tháng 6, 2025</span><span>·</span><span>10 phút đọc</span><span>·</span><span>EO Technology</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="article-body">
+        <p>Bạn muốn chatbot của mình biết về sản phẩm công ty, hiểu quy trình nội bộ, hoặc trả lời câu hỏi trong domain chuyên biệt. Có 2 cách phổ biến: RAG (Retrieval-Augmented Generation) và Fine-tuning. Nhiều người nhầm lẫn giữa hai kỹ thuật này — bài viết này giải thích rõ khi nào dùng cái nào.</p>
+
+        <h2>RAG là gì?</h2>
+        <p>RAG (Retrieval-Augmented Generation) là kỹ thuật kết hợp 2 bước:</p>
+        <ol>
+          <li><strong>Retrieval:</strong> Khi user hỏi, hệ thống tìm kiếm trong knowledge base (thường là vector database) để lấy các đoạn văn bản liên quan nhất.</li>
+          <li><strong>Generation:</strong> LLM (GPT-4, Claude, Gemini...) được cung cấp context vừa retrieve được, sau đó tổng hợp câu trả lời.</li>
+        </ol>
+        <p>Model LLM gốc không bị thay đổi. Chỉ thêm context vào prompt. Đây là lý do RAG còn gọi là "in-context learning" hay "grounded generation".</p>
+        <p><strong>Ví dụ thực tế:</strong> Chatbot hỗ trợ khách hàng của ngân hàng. Knowledge base chứa 10.000 trang FAQ, policy, sản phẩm. Khi khách hỏi "lãi suất vay mua nhà tháng này?", hệ thống tìm đoạn văn bản liên quan trong 10.000 trang rồi đưa vào prompt cho LLM trả lời — không cần train lại model.</p>
+
+        <h2>Fine-tuning là gì?</h2>
+        <p>Fine-tuning là quá trình tiếp tục train một LLM có sẵn (pretrained model) trên dataset mới của bạn, để model "học" thêm kiến thức hoặc điều chỉnh hành vi. Kết quả là một model mới, khác với model gốc.</p>
+        <p><strong>Ví dụ thực tế:</strong> Bạn fine-tune GPT-4o-mini trên 10.000 cặp câu hỏi/trả lời của luật sư, để model học cách viết văn bản pháp lý đúng format, dùng thuật ngữ pháp lý chính xác. Sau fine-tuning, model không cần được nhắc "viết như luật sư" vì nó đã học style đó.</p>
+
+        <h2>Sự khác biệt cốt lõi</h2>
+        <p>RAG và Fine-tuning giải quyết hai vấn đề khác nhau:</p>
+        <ul>
+          <li><strong>RAG:</strong> Giải quyết vấn đề <em>thiếu thông tin</em> — LLM không biết về dữ liệu mới/nội bộ của bạn. RAG cấp thông tin đó vào context lúc runtime.</li>
+          <li><strong>Fine-tuning:</strong> Giải quyết vấn đề <em>hành vi sai</em> — model biết thông tin nhưng không trả lời đúng format, tone, style hoặc convention bạn cần.</li>
+        </ul>
+
+        <table class="comparison-table">
+          <thead><tr><th>Tiêu chí</th><th>RAG</th><th>Fine-tuning</th></tr></thead>
+          <tbody>
+            <tr><td>Chi phí ban đầu</td><td class="good">Thấp (setup pipeline)</td><td class="bad">Cao (GPU compute để train)</td></tr>
+            <tr><td>Cập nhật knowledge base</td><td class="good">Realtime — thêm document vào DB</td><td class="bad">Phải retrain model mỗi lần</td></tr>
+            <tr><td>Latency</td><td class="mid">Tăng thêm ~200-500ms (retrieval step)</td><td class="good">Không thêm</td></tr>
+            <tr><td>Hallucination</td><td class="good">Giảm (có grounding)</td><td class="mid">Vẫn có thể xảy ra</td></tr>
+            <tr><td>Format/style/tone</td><td class="bad">Cần prompt engineering phức tạp</td><td class="good">Model tự học</td></tr>
+            <tr><td>Thông tin private/nội bộ</td><td class="good">Phù hợp</td><td class="mid">Rủi ro nếu model được share</td></tr>
+            <tr><td>Khi knowledge base lớn</td><td class="good">Tốt (chỉ retrieve phần liên quan)</td><td class="bad">Context limit của model</td></tr>
+          </tbody>
+        </table>
+
+        <h2>Khi nào dùng RAG?</h2>
+        <ul>
+          <li>Knowledge base thường xuyên cập nhật (sản phẩm mới, policy mới, tin tức)</li>
+          <li>Chatbot cần trả lời dựa trên document nội bộ, không thể đưa vào training data</li>
+          <li>Cần trả lời chính xác với nguồn tham chiếu rõ ràng (giảm hallucination)</li>
+          <li>Muốn thử nghiệm nhanh không cần đầu tư GPU</li>
+          <li>Knowledge base lớn (hàng nghìn trang) — không thể nhét vào context window</li>
+        </ul>
+
+        <h2>Khi nào dùng Fine-tuning?</h2>
+        <ul>
+          <li>Cần model viết theo format cố định (code, JSON schema, báo cáo)</li>
+          <li>Điều chỉnh tone/style nhất quán (formal, concise, trong domain chuyên biệt)</li>
+          <li>Model cần học "implicit knowledge" — kiến thức khó diễn đạt bằng document</li>
+          <li>Muốn giảm chi phí inference (model nhỏ hơn sau fine-tune có thể bằng model lớn hơn)</li>
+          <li>Latency là yếu tố quan trọng và mỗi millisecond có giá trị</li>
+        </ul>
+
+        <div class="callout">
+          <p><strong>Câu trả lời thực tế cho đa số use case:</strong> Bắt đầu với RAG. Nó rẻ hơn, nhanh hơn để triển khai, và dễ update. Chỉ xem xét fine-tuning khi RAG đã chạy tốt nhưng bạn vẫn cần cải thiện format/style của câu trả lời, hoặc muốn reduce latency/cost ở scale lớn.</p>
+        </div>
+
+        <h2>Có thể kết hợp cả hai không?</h2>
+        <p>Có, và đây thường là best practice ở scale lớn: Fine-tune model để học domain-specific language và format, sau đó dùng RAG để cung cấp thông tin cập nhật. Ví dụ: OpenAI dùng cả fine-tuning và retrieval cho nhiều sản phẩm của họ.</p>
+        <p>Tuy nhiên, độ phức tạp tăng đáng kể. Chỉ nên làm khi đã validate riêng từng phương pháp.</p>
+
+        <div class="callout warn">
+          <p><strong>Lưu ý về chi phí fine-tuning:</strong> Fine-tuning GPT-4o-mini với 100K tokens training data tốn khoảng $3 (theo giá OpenAI tại thời điểm viết bài). Nhưng inference cost của fine-tuned model cao hơn base model. Tính toán TCO (Total Cost of Ownership) trước khi quyết định.</p>
+        </div>
+
+        <div style="margin-top:48px;padding-top:32px;border-top:1px solid var(--c-border);display:flex;gap:16px;flex-wrap:wrap">
+          <a href="../blog.html" class="btn btn-secondary">← Về danh sách Blog</a>
+          <a href="../services/ai-solutions.html" class="btn btn-primary">Xem dịch vụ AI của EO →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-bottom"><span>© 2025 EO Technology. Mọi quyền được bảo lưu.</span></div>
+  </div>
+</footer>
+<script src="../assets/js/config.js"></script><script src="../assets/js/i18n.js"></script><script src="../assets/js/main.js"></script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6a45042d854f801d4378b7b0/1jsepgkpf';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+</html>

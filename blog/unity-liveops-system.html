@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="vi" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Xây LiveOps system cho mobile game Unity — EO Technology Blog</title>
+<meta name="description" content="Kiến trúc LiveOps đơn giản cho Unity mobile game: remote config, event system, và admin dashboard. Cách cập nhật game mà không cần release version mới.">
+<link rel="canonical" href="https://eo.io.vn/blog/unity-liveops-system">
+<link rel="icon" href="../image/icon.png" type="image/png">
+<meta name="theme-color" content="#060c18">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/css/responsive.css">
+<link rel="stylesheet" href="../assets/css/chatbot.css">
+<style>
+.article-body { max-width:740px; margin:0 auto; }
+.article-body h2 { font-size:var(--text-xl); margin:40px 0 14px; }
+.article-body h3 { font-size:var(--text-lg); margin:28px 0 10px; }
+.article-body p { font-size:var(--text-sm); color:var(--c-text-muted); line-height:1.85; margin-bottom:16px; }
+.article-body ul, .article-body ol { padding-left:22px; margin-bottom:16px; }
+.article-body li { font-size:var(--text-sm); color:var(--c-text-muted); line-height:1.7; margin-bottom:8px; }
+.article-body strong { color:var(--c-text); }
+.article-body code { background:var(--c-surface-3); padding:2px 7px; border-radius:4px; font-size:12px; font-family:monospace; }
+.article-meta { display:flex; gap:16px; align-items:center; font-size:12px; color:var(--c-text-muted); margin-bottom:32px; flex-wrap:wrap; }
+.article-tag { background:rgba(168,85,247,.12); color:#c084fc; padding:3px 10px; border-radius:99px; font-size:11px; font-weight:700; text-transform:uppercase; }
+.callout { background:rgba(0,144,232,.07); border-left:3px solid var(--c-accent-500); padding:14px 18px; border-radius:0 8px 8px 0; margin:24px 0; }
+.callout p { margin:0; }
+pre.code-block { background:var(--c-surface-2); border:1px solid var(--c-border); border-radius:10px; padding:16px 20px; overflow-x:auto; font-size:12px; font-family:monospace; line-height:1.7; color:#e2e8f0; margin:16px 0; }
+</style>
+</head>
+<body>
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <a href="../index.html" class="brand"><img src="../image/logo.png" alt="EO Technology" width="36" height="36"><span class="brand-text"><span class="brand-name">EO</span><span class="brand-sub">Technology</span></span></a>
+    <nav class="main-nav"><a href="../index.html">Trang Chủ</a><a href="../services.html">Dịch Vụ</a><a href="../portfolio.html">Portfolio</a><a href="../pricing.html">Bảng Giá</a><a href="../blog.html" aria-current="page">Blog</a><a href="../about.html">Về Chúng Tôi</a></nav>
+    <div class="header-actions">
+      <a href="../contact.html" class="btn btn-primary btn-sm">Liên hệ ngay</a>
+      <button class="nav-toggle" aria-label="Mở menu" aria-expanded="false" aria-controls="navDrawer"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<nav class="nav-drawer" id="navDrawer">
+  <a href="../index.html">Trang Chủ</a><a href="../services.html">Dịch Vụ</a><a href="../portfolio.html">Portfolio</a><a href="../blog.html">Blog</a><a href="../contact.html">Liên Hệ</a>
+  <div class="drawer-actions"><a href="../contact.html" class="btn btn-primary btn-block">Liên hệ ngay</a></div>
+</nav>
+
+<main id="main">
+  <section class="page-hero" style="padding-bottom:40px">
+    <div class="container">
+      <nav class="breadcrumb"><a href="../index.html">Trang Chủ</a><span>›</span><a href="../blog.html">Blog</a><span>›</span><span>Unity LiveOps</span></nav>
+      <div style="margin-bottom:16px"><span class="article-tag">Game Dev</span></div>
+      <h1 style="max-width:760px">Xây LiveOps system cho mobile game Unity: Event, Balance, và Admin Dashboard</h1>
+      <div class="article-meta">
+        <span>1 tháng 6, 2025</span><span>·</span><span>12 phút đọc</span><span>·</span><span>EO Technology</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="article-body">
+        <p>Sau khi launch game lên App Store và Google Play, thứ đáng sợ nhất là nhận ra mình cần thay đổi gameplay balance hoặc bật/tắt feature — nhưng phải chờ review cycle 1-3 ngày của Apple mỗi lần. LiveOps system giải quyết vấn đề này bằng cách cho phép cập nhật game mà không cần release version mới.</p>
+        <p>Bài này trình bày kiến trúc LiveOps tối giản mà chúng tôi đã xây cho Cloud Ball — đủ để sử dụng thực tế mà không over-engineer.</p>
+
+        <h2>LiveOps là gì và cần những gì?</h2>
+        <p>LiveOps (Live Operations) là khả năng thay đổi nội dung, balance, và event trong game sau khi đã release — không cần update binary. Về cơ bản cần 3 thành phần:</p>
+        <ul>
+          <li><strong>Remote Config:</strong> File JSON trên server, game đọc khi khởi động để lấy các giá trị thay đổi được (damage, spawn rate, pricing...)</li>
+          <li><strong>Event System:</strong> Định nghĩa event (Halloween, New Year...) với thời gian bắt đầu/kết thúc, rewards, và rules trên server — game tự activate/deactivate</li>
+          <li><strong>Admin Dashboard:</strong> Giao diện web để thay đổi các giá trị trên mà không cần sửa code hay deploy lại server</li>
+        </ul>
+
+        <h2>Kiến trúc đơn giản nhất có thể</h2>
+        <p>Thay vì dùng Firebase Remote Config (vendor lock-in) hay Unity Gaming Services (tốn tiền ở scale), ta tự build với stack tối giản:</p>
+        <ul>
+          <li>Backend: Node.js + Express hoặc Fastify, PostgreSQL</li>
+          <li>API: REST endpoint đơn giản, authenticated bằng API key</li>
+          <li>Admin: Next.js hoặc plain HTML+JS dashboard</li>
+          <li>Unity client: <code>UnityWebRequest</code> + <code>JsonUtility</code></li>
+        </ul>
+
+        <h3>Cấu trúc Remote Config JSON</h3>
+        <pre class="code-block">{
+  "version": 42,
+  "gameplay": {
+    "ballSpeed": 8.5,
+    "gravityScale": 1.2,
+    "maxBounces": 10,
+    "comboMultiplier": 1.5
+  },
+  "monetization": {
+    "adIntervalSeconds": 120,
+    "rewardedAdCoins": 50
+  },
+  "events": [
+    {
+      "id": "summer_2025",
+      "name": "Summer Festival",
+      "startUtc": "2025-06-01T00:00:00Z",
+      "endUtc": "2025-06-30T23:59:59Z",
+      "active": true,
+      "rewards": { "dailyBonus": 200, "specialSkin": "summer_ball" }
+    }
+  ]
+}</pre>
+
+        <h3>Unity client: Fetch và cache config</h3>
+        <pre class="code-block">// RemoteConfigManager.cs
+public class RemoteConfigManager : MonoBehaviour
+{
+    private const string CONFIG_URL = "https://api.yourgame.com/config";
+    private const string CACHE_KEY = "remote_config_cache";
+    private const float CACHE_TTL_HOURS = 1f;
+
+    public static GameConfig Config { get; private set; }
+
+    void Awake()
+    {
+        // Load cache ngay để game có thể start
+        LoadCachedConfig();
+        // Fetch fresh config từ server
+        StartCoroutine(FetchConfig());
+    }
+
+    IEnumerator FetchConfig()
+    {
+        using var req = UnityWebRequest.Get(CONFIG_URL);
+        req.SetRequestHeader("X-API-Key", SecureStorage.GetApiKey());
+        yield return req.SendWebRequest();
+
+        if (req.result == UnityWebRequest.Result.Success)
+        {
+            var json = req.downloadHandler.text;
+            Config = JsonUtility.FromJson&lt;GameConfig&gt;(json);
+            PlayerPrefs.SetString(CACHE_KEY, json);
+            PlayerPrefs.SetString(CACHE_KEY + "_time",
+                DateTime.UtcNow.ToString("o"));
+        }
+    }
+
+    void LoadCachedConfig()
+    {
+        var cached = PlayerPrefs.GetString(CACHE_KEY, "");
+        if (!string.IsNullOrEmpty(cached))
+            Config = JsonUtility.FromJson&lt;GameConfig&gt;(cached);
+        else
+            Config = GameConfig.Default; // fallback hardcoded
+    }
+}</pre>
+
+        <h2>Event System</h2>
+        <p>Event được định nghĩa trên server, Unity client chỉ cần kiểm tra thời gian và <code>active</code> flag:</p>
+        <pre class="code-block">// EventManager.cs
+public class EventManager : MonoBehaviour
+{
+    public static GameEvent GetActiveEvent()
+    {
+        if (RemoteConfigManager.Config?.events == null) return null;
+
+        var now = DateTime.UtcNow;
+        return RemoteConfigManager.Config.events
+            .FirstOrDefault(e => e.active
+                && DateTime.Parse(e.startUtc) &lt;= now
+                && now &lt;= DateTime.Parse(e.endUtc));
+    }
+
+    public static bool HasActiveEvent() => GetActiveEvent() != null;
+}</pre>
+        <p>Để bật/tắt event, admin chỉ cần đổi <code>"active": false</code> trong dashboard — không cần touch Unity code.</p>
+
+        <h2>Admin Dashboard</h2>
+        <p>Dashboard tối giản nhất: một trang HTML + Fetch API để CRUD các giá trị config. Quan trọng hơn là authentication — không để dashboard public:</p>
+        <ul>
+          <li>Dùng HTTP Basic Auth hoặc session-based auth với Argon2-hashed password</li>
+          <li>Rate limit endpoint edit (tránh brute force)</li>
+          <li>Audit log: ghi lại ai thay đổi gì, khi nào</li>
+          <li>Version increment tự động mỗi khi config thay đổi (để client detect)</li>
+        </ul>
+
+        <h2>Vấn đề thường gặp</h2>
+        <p><strong>Config không nhất quán giữa các device:</strong> Dùng version number trong config. Client chỉ apply config mới nếu version &gt; version hiện tại.</p>
+        <p><strong>Offline users:</strong> Luôn có fallback values hardcoded trong game. Cache là lớp thứ 2, server là lớp tốt nhất nhưng không bắt buộc.</p>
+        <p><strong>A/B testing:</strong> Thêm <code>userSegment</code> field trong response dựa trên user ID hash. Mỗi segment nhận config khác nhau. Đơn giản nhưng đủ dùng cho game indie.</p>
+
+        <div class="callout"><p><strong>Kết luận:</strong> LiveOps không cần phức tạp để có hiệu quả. Với kiến trúc trên, bạn có thể thay đổi balance, bật/tắt event, và điều chỉnh monetization trong vòng vài phút mà không release version mới.</p></div>
+
+        <div style="margin-top:48px;padding-top:32px;border-top:1px solid var(--c-border);display:flex;gap:16px;flex-wrap:wrap">
+          <a href="../blog.html" class="btn btn-secondary">← Về danh sách Blog</a>
+          <a href="../services/game-development.html" class="btn btn-primary">Dịch vụ Game Development →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-bottom"><span>© 2025 EO Technology. Mọi quyền được bảo lưu.</span></div>
+  </div>
+</footer>
+<script src="../assets/js/config.js"></script><script src="../assets/js/i18n.js"></script><script src="../assets/js/main.js"></script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6a45042d854f801d4378b7b0/1jsepgkpf';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+</html>

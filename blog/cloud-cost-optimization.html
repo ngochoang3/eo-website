@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="vi" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Giảm 40% chi phí cloud mà không giảm hiệu năng — EO Technology Blog</title>
+<meta name="description" content="6 kỹ thuật thực tế để tối ưu chi phí AWS/GCP/Azure: right-sizing, spot instances, reserved capacity, CDN offload, auto-scaling, và storage tiering.">
+<link rel="canonical" href="https://eo.io.vn/blog/cloud-cost-optimization">
+<link rel="icon" href="../image/icon.png" type="image/png">
+<meta name="theme-color" content="#060c18">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/css/responsive.css">
+<link rel="stylesheet" href="../assets/css/chatbot.css">
+<style>
+.article-body { max-width:740px; margin:0 auto; }
+.article-body h2 { font-size:var(--text-xl); margin:40px 0 14px; }
+.article-body h3 { font-size:var(--text-lg); margin:28px 0 10px; }
+.article-body p { font-size:var(--text-sm); color:var(--c-text-muted); line-height:1.85; margin-bottom:16px; }
+.article-body ul, .article-body ol { padding-left:22px; margin-bottom:16px; }
+.article-body li { font-size:var(--text-sm); color:var(--c-text-muted); line-height:1.7; margin-bottom:8px; }
+.article-body strong { color:var(--c-text); }
+.article-body code { background:var(--c-surface-3); padding:2px 7px; border-radius:4px; font-size:12px; font-family:monospace; }
+.article-meta { display:flex; gap:16px; align-items:center; font-size:12px; color:var(--c-text-muted); margin-bottom:32px; flex-wrap:wrap; }
+.article-tag { background:rgba(6,182,212,.12); color:#22d3ee; padding:3px 10px; border-radius:99px; font-size:11px; font-weight:700; text-transform:uppercase; }
+.callout { background:rgba(0,144,232,.07); border-left:3px solid var(--c-accent-500); padding:14px 18px; border-radius:0 8px 8px 0; margin:24px 0; }
+.callout p { margin:0; }
+.callout.success { background:rgba(16,185,129,.07); border-left-color:#10b981; }
+.saving-card { background:var(--c-surface-2); border:1px solid var(--c-border); border-radius:12px; padding:20px 24px; margin:16px 0; display:grid; grid-template-columns:1fr auto; gap:16px; align-items:start; }
+.saving-pct { font-size:28px; font-weight:800; color:#10b981; white-space:nowrap; }
+.saving-pct span { font-size:13px; font-weight:500; color:var(--c-text-muted); display:block; }
+</style>
+</head>
+<body>
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <a href="../index.html" class="brand"><img src="../image/logo.png" alt="EO Technology" width="36" height="36"><span class="brand-text"><span class="brand-name">EO</span><span class="brand-sub">Technology</span></span></a>
+    <nav class="main-nav"><a href="../index.html">Trang Chủ</a><a href="../services.html">Dịch Vụ</a><a href="../portfolio.html">Portfolio</a><a href="../pricing.html">Bảng Giá</a><a href="../blog.html" aria-current="page">Blog</a><a href="../about.html">Về Chúng Tôi</a></nav>
+    <div class="header-actions">
+      <a href="../contact.html" class="btn btn-primary btn-sm">Liên hệ ngay</a>
+      <button class="nav-toggle" aria-label="Mở menu" aria-expanded="false" aria-controls="navDrawer"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<nav class="nav-drawer" id="navDrawer">
+  <a href="../index.html">Trang Chủ</a><a href="../services.html">Dịch Vụ</a><a href="../portfolio.html">Portfolio</a><a href="../blog.html">Blog</a><a href="../contact.html">Liên Hệ</a>
+  <div class="drawer-actions"><a href="../contact.html" class="btn btn-primary btn-block">Liên hệ ngay</a></div>
+</nav>
+
+<main id="main">
+  <section class="page-hero" style="padding-bottom:40px">
+    <div class="container">
+      <nav class="breadcrumb"><a href="../index.html">Trang Chủ</a><span>›</span><a href="../blog.html">Blog</a><span>›</span><span>Cloud Cost Optimization</span></nav>
+      <div style="margin-bottom:16px"><span class="article-tag">Cloud</span></div>
+      <h1 style="max-width:760px">Giảm 40% chi phí cloud mà không giảm hiệu năng</h1>
+      <div class="article-meta">
+        <span>20 tháng 5, 2025</span><span>·</span><span>9 phút đọc</span><span>·</span><span>EO Technology</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="article-body">
+        <p>Cloud bill của bạn tăng đều mỗi tháng dù traffic không tăng tương ứng? Đây là vấn đề rất phổ biến — theo Flexera 2024 State of the Cloud Report, trung bình 30% chi phí cloud là lãng phí. Bài này trình bày 6 kỹ thuật cụ thể, áp dụng được ngay mà không cần refactor lớn.</p>
+
+        <div class="callout success"><p><strong>Context:</strong> Các con số trong bài dựa trên thực tế tối ưu cho nhiều dự án từ $200–$3.000/tháng trên AWS, GCP, và một số trên DigitalOcean. Tỷ lệ tiết kiệm sẽ khác nhau tùy kiến trúc cụ thể.</p></div>
+
+        <h2>1. Right-sizing: Giảm instance type về đúng nhu cầu thực</h2>
+        <div class="saving-card">
+          <div>
+            <p style="margin:0 0 8px">Đây thường là nguồn lãng phí lớn nhất. Nhiều dự án chọn instance lớn "cho an toàn" lúc ban đầu và không review lại. AWS Cost Explorer, GCP Recommender, và Azure Advisor đều có tính năng right-sizing recommendation — miễn phí.</p>
+            <p style="margin:0"><strong>Cách làm:</strong> Xem CPU utilization trung bình 2-4 tuần qua. Nếu CPU trung bình dưới 20% và peak dưới 40%, bạn đang dư thừa ít nhất 1 tier. Downsize instance type (ví dụ từ <code>t3.medium</code> → <code>t3.small</code>) hoặc đổi family (từ compute-optimized sang general purpose nếu không cần).</p>
+          </div>
+          <div class="saving-pct">15–25%<span>tiết kiệm</span></div>
+        </div>
+
+        <h2>2. Spot/Preemptible Instances cho workload không time-critical</h2>
+        <div class="saving-card">
+          <div>
+            <p style="margin:0 0 8px">Spot Instances (AWS) hay Preemptible VMs (GCP) là unused capacity mà cloud provider bán với giá giảm 60-90% so với on-demand — nhưng có thể bị thu hồi với 2 phút báo trước.</p>
+            <p style="margin:0"><strong>Phù hợp với:</strong> Batch jobs, data processing, CI/CD pipeline runners, ML training, dev/test environments. <strong>Không phù hợp:</strong> Database instances, stateful services, production API servers cần uptime 100%.</p>
+            <p style="margin:0;margin-top:8px"><strong>Chiến lược hỗn hợp:</strong> Dùng 2-3 on-demand instances (minimum capacity) + 5-10 spot instances (scale-out). Auto Scaling Group của AWS hỗ trợ mixed instances policy tự động.</p>
+          </div>
+          <div class="saving-pct">60–90%<span>cho eligible workload</span></div>
+        </div>
+
+        <h2>3. Reserved Instances / Committed Use — cam kết để tiết kiệm</h2>
+        <div class="saving-card">
+          <div>
+            <p style="margin:0 0 8px">Nếu bạn chắc chắn sẽ dùng một lượng tài nguyên nhất định trong 1-3 năm tới, Reserved Instances (AWS) hay Committed Use Discounts (GCP) tiết kiệm 30-60% so với on-demand.</p>
+            <p style="margin:0"><strong>Lưu ý:</strong> Chỉ commit sau khi đã right-size. Committing một instance quá lớn khóa bạn vào lãng phí trong 1 năm. AWS Compute Savings Plans linh hoạt hơn — áp dụng cho bất kỳ EC2 instance type nào trong region, không gắn cứng vào instance type cụ thể.</p>
+          </div>
+          <div class="saving-pct">30–60%<span>vs on-demand</span></div>
+        </div>
+
+        <h2>4. CDN Offload — giảm data transfer và compute</h2>
+        <p>Data transfer là chi phí ẩn lớn — AWS tính $0.09/GB egress ra internet. Nếu bạn serve nhiều static content (image, video, file download) thẳng từ EC2 hoặc GCS/S3, chi phí egress cộng dồn rất nhanh.</p>
+        <p><strong>Giải pháp:</strong> Đặt Cloudflare (free tier phù hợp với hầu hết trường hợp) hoặc CloudFront trước origin. Cloudflare không tính tiền bandwidth giữa Cloudflare và origin, chỉ tính bandwidth từ origin đến Cloudflare. Trong thực tế, 70-90% static traffic được serve từ cache, giảm đáng kể cả egress cost lẫn compute cost.</p>
+
+        <h2>5. Auto-scaling thay vì over-provisioning cố định</h2>
+        <p>Nhiều hệ thống chạy constant capacity để xử lý peak traffic, nhưng off-peak có thể chỉ cần 20% capacity đó. Với auto-scaling:</p>
+        <ul>
+          <li><strong>Horizontal scaling:</strong> Thêm/bớt instance dựa trên CPU/request rate. Phù hợp stateless services.</li>
+          <li><strong>Scheduled scaling:</strong> Nếu pattern traffic predictable (ví dụ thấp ban đêm), scale down theo lịch — đơn giản và hiệu quả hơn reactive scaling.</li>
+          <li><strong>Serverless cho spiky workload:</strong> Lambda/Cloud Functions tính tiền theo invocation, không tính khi idle. Phù hợp API có traffic không đều.</li>
+        </ul>
+
+        <h2>6. Storage Tiering — không phải dữ liệu nào cũng cần hot storage</h2>
+        <p>S3 Standard tốn $0.023/GB/tháng. S3 Glacier Instant Retrieval tốn $0.004/GB/tháng — rẻ hơn 6 lần, truy cập trong milliseconds. S3 Glacier Deep Archive tốn $0.00099/GB/tháng — rẻ hơn 23 lần, nhưng restore mất 12 giờ.</p>
+        <p><strong>S3 Intelligent-Tiering</strong> tự động chuyển object giữa các tier dựa trên access pattern — không cần quản lý thủ công. Phí monitoring nhỏ nhưng thường worth it cho bucket lớn hơn 100GB.</p>
+        <p>Với log files, backup, và dữ liệu audit cũ hơn 90 ngày — Glacier Instant Retrieval gần như luôn đủ. Implement Lifecycle Policy để tự động chuyển.</p>
+
+        <h2>Tổng kết: Thứ tự ưu tiên</h2>
+        <ol>
+          <li><strong>Right-sizing trước tiên</strong> — ít rủi ro, impact ngay, không cần code changes</li>
+          <li><strong>Storage tiering</strong> — set-and-forget với Lifecycle Policy</li>
+          <li><strong>CDN Offload</strong> — giảm egress và compute cùng lúc, thường cải thiện cả performance</li>
+          <li><strong>Reserved Instances</strong> — sau khi right-size và biết chắc usage pattern</li>
+          <li><strong>Spot Instances</strong> — cho batch/dev workload</li>
+          <li><strong>Auto-scaling</strong> — cần testing kỹ hơn, nhưng impact lớn nhất dài hạn</li>
+        </ol>
+
+        <div class="callout"><p><strong>Bắt đầu từ đâu?</strong> Mở AWS Cost Explorer (hoặc GCP Cost Management) → xem top 5 service tốn tiền nhất → đọc recommendation của họ. 80% tiết kiệm thường đến từ 20% nguồn chi phí lớn nhất.</p></div>
+
+        <div style="margin-top:48px;padding-top:32px;border-top:1px solid var(--c-border);display:flex;gap:16px;flex-wrap:wrap">
+          <a href="../blog.html" class="btn btn-secondary">← Về danh sách Blog</a>
+          <a href="../services/cloud.html" class="btn btn-primary">Dịch vụ Cloud của EO →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-bottom"><span>© 2025 EO Technology. Mọi quyền được bảo lưu.</span></div>
+  </div>
+</footer>
+<script src="../assets/js/config.js"></script><script src="../assets/js/i18n.js"></script><script src="../assets/js/main.js"></script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6a45042d854f801d4378b7b0/1jsepgkpf';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+</html>

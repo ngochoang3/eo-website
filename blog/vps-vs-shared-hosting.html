@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="vi" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Khi nào nên dùng VPS thay vì Shared Hosting? — EO Technology Blog</title>
+<meta name="description" content="5 dấu hiệu rõ ràng cho thấy bạn đã outgrow shared hosting và cần chuyển sang VPS: response time, concurrent users, custom stack, cronjob, database performance.">
+<link rel="canonical" href="https://eo.io.vn/blog/vps-vs-shared-hosting">
+<link rel="icon" href="../image/icon.png" type="image/png">
+<meta name="theme-color" content="#060c18">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/css/responsive.css">
+<link rel="stylesheet" href="../assets/css/chatbot.css">
+<style>
+.article-body { max-width:740px; margin:0 auto; }
+.article-body h2 { font-size:var(--text-xl); margin:40px 0 14px; }
+.article-body h3 { font-size:var(--text-lg); margin:28px 0 10px; color:var(--c-text); }
+.article-body p { font-size:var(--text-sm); color:var(--c-text-muted); line-height:1.85; margin-bottom:16px; }
+.article-body ul, .article-body ol { padding-left:22px; margin-bottom:16px; }
+.article-body li { font-size:var(--text-sm); color:var(--c-text-muted); line-height:1.7; margin-bottom:8px; }
+.article-body strong { color:var(--c-text); }
+.article-body code { background:var(--c-surface-3); padding:2px 7px; border-radius:4px; font-size:12px; font-family:monospace; }
+.article-meta { display:flex; gap:16px; align-items:center; font-size:12px; color:var(--c-text-muted); margin-bottom:32px; flex-wrap:wrap; }
+.article-tag { background:rgba(0,144,232,.1); color:var(--c-accent-500); padding:3px 10px; border-radius:99px; font-size:11px; font-weight:700; text-transform:uppercase; }
+.callout { background:rgba(0,144,232,.07); border-left:3px solid var(--c-accent-500); padding:14px 18px; border-radius:0 8px 8px 0; margin:24px 0; }
+.callout p { margin:0; }
+.comparison-table { width:100%; border-collapse:collapse; margin:20px 0; font-size:var(--text-sm); }
+.comparison-table th { background:var(--c-surface-3); color:var(--c-text); font-weight:600; padding:10px 14px; text-align:left; border:1px solid var(--c-border); }
+.comparison-table td { padding:10px 14px; border:1px solid var(--c-border); color:var(--c-text-muted); }
+.comparison-table td.good { color:#10b981; }
+.comparison-table td.bad { color:#f87171; }
+</style>
+</head>
+<body>
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <a href="../index.html" class="brand"><img src="../image/logo.png" alt="EO Technology" width="36" height="36"><span class="brand-text"><span class="brand-name">EO</span><span class="brand-sub">Technology</span></span></a>
+    <nav class="main-nav"><a href="../index.html">Trang Chủ</a><a href="../services.html">Dịch Vụ</a><a href="../portfolio.html">Portfolio</a><a href="../pricing.html">Bảng Giá</a><a href="../blog.html" aria-current="page">Blog</a><a href="../about.html">Về Chúng Tôi</a></nav>
+    <div class="header-actions">
+      <a href="../contact.html" class="btn btn-primary btn-sm">Liên hệ ngay</a>
+      <button class="nav-toggle" aria-label="Mở menu" aria-expanded="false" aria-controls="navDrawer"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<nav class="nav-drawer" id="navDrawer">
+  <a href="../index.html">Trang Chủ</a><a href="../services.html">Dịch Vụ</a><a href="../portfolio.html">Portfolio</a><a href="../blog.html">Blog</a><a href="../contact.html">Liên Hệ</a>
+  <div class="drawer-actions"><a href="../contact.html" class="btn btn-primary btn-block">Liên hệ ngay</a></div>
+</nav>
+
+<main id="main">
+  <section class="page-hero" style="padding-bottom:40px">
+    <div class="container">
+      <nav class="breadcrumb"><a href="../index.html">Trang Chủ</a><span>›</span><a href="../blog.html">Blog</a><span>›</span><span>VPS vs Shared Hosting</span></nav>
+      <div style="margin-bottom:16px"><span class="article-tag">Cloud</span></div>
+      <h1 style="max-width:760px">Khi nào nên dùng VPS thay vì Shared Hosting?</h1>
+      <div class="article-meta">
+        <span>15 tháng 6, 2025</span>
+        <span>·</span>
+        <span>6 phút đọc</span>
+        <span>·</span>
+        <span>EO Technology</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="article-body">
+
+        <p>Shared hosting phù hợp để bắt đầu — giá thấp, không cần quản lý server. Nhưng đến một giai đoạn nhất định, website của bạn sẽ "outgrow" shared hosting và bắt đầu gặp vấn đề mà bạn không thể fix dù làm gì đi nữa. Bài này chỉ ra 5 dấu hiệu rõ ràng nhất.</p>
+
+        <h2>Shared Hosting hoạt động như thế nào?</h2>
+        <p>Trên shared hosting, hàng trăm website cùng chia sẻ một server vật lý — CPU, RAM, storage, băng thông đều dùng chung. Nhà cung cấp hosting dùng cPanel/Plesk để phân chia tài nguyên và cách ly các account với nhau.</p>
+        <p><strong>Lợi thế:</strong> Không cần quản lý OS, không cần biết Linux, giá rẻ (thường $3-15/tháng), phù hợp website nhỏ dưới 1.000 lượt truy cập/ngày.</p>
+        <p><strong>Hạn chế cố hữu:</strong> Tài nguyên bị giới hạn cứng (soft limits + hard limits), không có root access, không tùy chỉnh được phần mềm server, bị ảnh hưởng bởi "noisy neighbor" — website khác cùng server dùng nhiều tài nguyên.</p>
+
+        <h2>5 dấu hiệu bạn cần chuyển sang VPS</h2>
+
+        <h3>1. Response time tăng không giải thích được</h3>
+        <p>Bạn đã optimize code, thêm cache, nén ảnh — nhưng TTFB (Time to First Byte) vẫn cao ngẫu nhiên, đặc biệt vào giờ cao điểm. Đây thường là "noisy neighbor effect": một website khác trên cùng server đang xử lý nhiều request, chiếm CPU của bạn.</p>
+        <p>Trên shared hosting, bạn không có quyền xem process của người khác và không thể làm gì. Trên VPS, bạn có CPU và RAM riêng — không ai cạnh tranh tài nguyên với bạn.</p>
+        <div class="callout"><p><strong>Cách kiểm tra:</strong> Dùng <code>curl -w "%{time_starttransfer}" -o /dev/null -s https://yoursite.com</code> vào nhiều khung giờ khác nhau trong ngày. Nếu variance cao (ví dụ 200ms lúc 3h sáng vs 1.200ms lúc 3h chiều) — đây là dấu hiệu noisy neighbor.</p></div>
+
+        <h3>2. Concurrent users làm website chậm hoặc crash</h3>
+        <p>Shared hosting thường giới hạn số lượng PHP processes đồng thời (entry processes) — thường 10-25 processes. Khi vượt ngưỡng này, request mới bị queue hoặc trả về lỗi 503.</p>
+        <p>Nếu bạn thấy website OK khi vắng người nhưng chậm hoặc error khi có chiến dịch marketing, flash sale, hoặc viral traffic — đây là bottleneck entry process của shared hosting.</p>
+
+        <h3>3. Cần custom software stack</h3>
+        <p>Shared hosting thường chạy Apache + PHP với version do nhà cung cấp quyết định. Nếu bạn cần:</p>
+        <ul>
+          <li>Nginx thay vì Apache (hiệu năng static file tốt hơn)</li>
+          <li>Node.js, Python (FastAPI/Django), Ruby, Go</li>
+          <li>PHP 8.3+ hoặc PHP extensions không có sẵn</li>
+          <li>Redis, Memcached, RabbitMQ</li>
+          <li>Docker containers</li>
+        </ul>
+        <p>Bạn không thể làm được trên shared hosting. VPS cho phép cài bất kỳ phần mềm nào vì bạn có root access.</p>
+
+        <h3>4. Cron job bị giới hạn hoặc không đáng tin cậy</h3>
+        <p>Shared hosting thường giới hạn cron jobs tối thiểu 15 phút/lần (để tránh quá tải server). Nếu bạn cần:</p>
+        <ul>
+          <li>Cron job chạy mỗi phút (queue processor, price updater)</li>
+          <li>Long-running script (vài phút đến vài giờ)</li>
+          <li>Background job processing</li>
+        </ul>
+        <p>Shared hosting không phù hợp. VPS cho phép cron job với frequency tùy ý và timeout không giới hạn.</p>
+
+        <h3>5. Database performance trở thành bottleneck</h3>
+        <p>Shared hosting dùng shared MySQL server — nhiều database instances trên cùng một MySQL engine. Bạn không thể:</p>
+        <ul>
+          <li>Điều chỉnh MySQL configuration (<code>my.cnf</code>)</li>
+          <li>Dùng PostgreSQL hoặc MongoDB</li>
+          <li>Tạo read replica hoặc connection pooling</li>
+          <li>Xem slow query log để debug</li>
+        </ul>
+
+        <h2>So sánh trực tiếp</h2>
+        <table class="comparison-table">
+          <thead><tr><th>Tiêu chí</th><th>Shared Hosting</th><th>VPS</th></tr></thead>
+          <tbody>
+            <tr><td>Giá khởi điểm</td><td class="good">$3-15/tháng</td><td>$9-39/tháng</td></tr>
+            <tr><td>Tài nguyên riêng</td><td class="bad">Chia sẻ</td><td class="good">Đảm bảo (dedicated)</td></tr>
+            <tr><td>Root access</td><td class="bad">Không</td><td class="good">Có</td></tr>
+            <tr><td>Custom software</td><td class="bad">Không</td><td class="good">Tùy ý</td></tr>
+            <tr><td>Concurrent users</td><td class="bad">~10-50 đồng thời</td><td class="good">Tùy cấu hình</td></tr>
+            <tr><td>Cron jobs</td><td class="bad">≥15 phút/lần</td><td class="good">Tùy ý</td></tr>
+            <tr><td>Cần quản lý server</td><td class="good">Không</td><td>Cần kỹ năng hoặc managed VPS</td></tr>
+            <tr><td>Phù hợp</td><td class="good">Blog, portfolio, landing page</td><td class="good">App, SaaS, e-commerce tầm trung</td></tr>
+          </tbody>
+        </table>
+
+        <h2>Khi nào KHÔNG cần VPS?</h2>
+        <p>Nếu website của bạn là: blog cá nhân, portfolio, landing page với &lt;500 lượt truy cập/ngày, WordPress đơn giản không có nhiều plugin nặng — shared hosting hoàn toàn đủ. Đừng chuyển sang VPS chỉ vì "nghe có vẻ xịn hơn" — bạn sẽ phải tự quản lý server update, security patch, backup.</p>
+
+        <div class="callout"><p><strong>Tóm lại:</strong> Chuyển sang VPS khi bạn gặp ít nhất một trong 5 vấn đề trên. Nếu chưa gặp vấn đề nào — shared hosting đang làm tốt công việc của nó, tiết kiệm chi phí và thời gian quản lý.</p></div>
+
+        <h2>Managed VPS — lựa chọn trung gian</h2>
+        <p>Nếu bạn cần hiệu năng VPS nhưng không muốn tự quản lý Linux — Managed VPS là giải pháp: nhà cung cấp lo OS, security update, backup, monitoring. Bạn chỉ cần deploy ứng dụng. EO Technology cung cấp VPS với hỗ trợ cấu hình ban đầu — xem thêm tại <a href="../services/vps.html" style="color:var(--c-accent-500)">trang VPS của chúng tôi</a>.</p>
+
+        <div style="margin-top:48px;padding-top:32px;border-top:1px solid var(--c-border);display:flex;gap:16px;flex-wrap:wrap">
+          <a href="../blog.html" class="btn btn-secondary">← Về danh sách Blog</a>
+          <a href="../contact.html" class="btn btn-primary">Tư vấn chọn hosting →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-bottom"><span>© 2025 EO Technology. Mọi quyền được bảo lưu.</span></div>
+  </div>
+</footer>
+<script src="../assets/js/config.js"></script><script src="../assets/js/i18n.js"></script><script src="../assets/js/main.js"></script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6a45042d854f801d4378b7b0/1jsepgkpf';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+</html>

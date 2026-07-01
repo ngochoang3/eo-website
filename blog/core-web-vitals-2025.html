@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="vi" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Core Web Vitals 2025: Thực sự ảnh hưởng gì đến ranking? — EO Technology Blog</title>
+<meta name="description" content="LCP, CLS, INP — giải thích thực tế không lý thuyết. 8 kỹ thuật optimize có thể áp dụng ngay hôm nay dựa trên Google Search Central documentation 2025.">
+<link rel="canonical" href="https://eo.io.vn/blog/core-web-vitals-2025">
+<link rel="icon" href="../image/icon.png" type="image/png">
+<meta name="theme-color" content="#060c18">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/css/responsive.css">
+<link rel="stylesheet" href="../assets/css/chatbot.css">
+<style>
+.article-body { max-width:740px; margin:0 auto; }
+.article-body h2 { font-size:var(--text-xl); margin:40px 0 14px; }
+.article-body h3 { font-size:var(--text-lg); margin:28px 0 10px; }
+.article-body p { font-size:var(--text-sm); color:var(--c-text-muted); line-height:1.85; margin-bottom:16px; }
+.article-body ul, .article-body ol { padding-left:22px; margin-bottom:16px; }
+.article-body li { font-size:var(--text-sm); color:var(--c-text-muted); line-height:1.7; margin-bottom:8px; }
+.article-body strong { color:var(--c-text); }
+.article-body code { background:var(--c-surface-3); padding:2px 7px; border-radius:4px; font-size:12px; font-family:monospace; }
+.article-meta { display:flex; gap:16px; align-items:center; font-size:12px; color:var(--c-text-muted); margin-bottom:32px; flex-wrap:wrap; }
+.article-tag { background:rgba(34,197,94,.1); color:#4ade80; padding:3px 10px; border-radius:99px; font-size:11px; font-weight:700; text-transform:uppercase; }
+.callout { background:rgba(0,144,232,.07); border-left:3px solid var(--c-accent-500); padding:14px 18px; border-radius:0 8px 8px 0; margin:24px 0; }
+.callout p { margin:0; }
+.metric-card { background:var(--c-surface-2); border:1px solid var(--c-border); border-radius:12px; padding:20px; margin:16px 0; }
+.metric-card h3 { margin-top:0; }
+.threshold-row { display:flex; gap:8px; margin-top:12px; flex-wrap:wrap; }
+.threshold { padding:6px 14px; border-radius:8px; font-size:12px; font-weight:700; }
+.threshold.good { background:rgba(16,185,129,.12); color:#10b981; }
+.threshold.needs { background:rgba(245,158,11,.12); color:#f59e0b; }
+.threshold.poor { background:rgba(239,68,68,.12); color:#ef4444; }
+</style>
+</head>
+<body>
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <a href="../index.html" class="brand"><img src="../image/logo.png" alt="EO Technology" width="36" height="36"><span class="brand-text"><span class="brand-name">EO</span><span class="brand-sub">Technology</span></span></a>
+    <nav class="main-nav"><a href="../index.html">Trang Chủ</a><a href="../services.html">Dịch Vụ</a><a href="../portfolio.html">Portfolio</a><a href="../pricing.html">Bảng Giá</a><a href="../blog.html" aria-current="page">Blog</a><a href="../about.html">Về Chúng Tôi</a></nav>
+    <div class="header-actions">
+      <a href="../contact.html" class="btn btn-primary btn-sm">Liên hệ ngay</a>
+      <button class="nav-toggle" aria-label="Mở menu" aria-expanded="false" aria-controls="navDrawer"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<nav class="nav-drawer" id="navDrawer">
+  <a href="../index.html">Trang Chủ</a><a href="../services.html">Dịch Vụ</a><a href="../portfolio.html">Portfolio</a><a href="../blog.html">Blog</a><a href="../contact.html">Liên Hệ</a>
+  <div class="drawer-actions"><a href="../contact.html" class="btn btn-primary btn-block">Liên hệ ngay</a></div>
+</nav>
+
+<main id="main">
+  <section class="page-hero" style="padding-bottom:40px">
+    <div class="container">
+      <nav class="breadcrumb"><a href="../index.html">Trang Chủ</a><span>›</span><a href="../blog.html">Blog</a><span>›</span><span>Core Web Vitals 2025</span></nav>
+      <div style="margin-bottom:16px"><span class="article-tag">Web Dev</span></div>
+      <h1 style="max-width:760px">Core Web Vitals 2025: Những thứ thực sự ảnh hưởng đến ranking Google</h1>
+      <div class="article-meta">
+        <span>5 tháng 6, 2025</span><span>·</span><span>7 phút đọc</span><span>·</span><span>EO Technology</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="article-body">
+        <p>Google chính thức đưa Core Web Vitals vào ranking signal từ tháng 6/2021 (Page Experience update). Từ tháng 3/2024, INP (Interaction to Next Paint) thay thế FID. Bài này tổng hợp trạng thái hiện tại của 3 Core Web Vitals và kỹ thuật optimize thực tế — không lý thuyết.</p>
+
+        <div class="callout"><p><strong>Nguồn:</strong> Tất cả ngưỡng và thông tin trong bài dựa trên <a href="https://web.dev/articles/vitals" style="color:var(--c-accent-500)" target="_blank" rel="noopener">web.dev/vitals</a> và <a href="https://developers.google.com/search/docs/appearance/core-web-vitals" style="color:var(--c-accent-500)" target="_blank" rel="noopener">Google Search Central</a>.</p></div>
+
+        <h2>3 Core Web Vitals hiện tại (2024–2025)</h2>
+
+        <div class="metric-card">
+          <h3>LCP — Largest Contentful Paint</h3>
+          <p style="margin-bottom:8px">Thời gian để element lớn nhất trên viewport (thường là hero image hoặc heading lớn) được render. Đây là metric phản ánh tốc độ tải trang từ góc nhìn người dùng.</p>
+          <div class="threshold-row">
+            <span class="threshold good">Tốt: ≤ 2.5s</span>
+            <span class="threshold needs">Cần cải thiện: 2.5s – 4.0s</span>
+            <span class="threshold poor">Kém: &gt; 4.0s</span>
+          </div>
+        </div>
+
+        <div class="metric-card">
+          <h3>CLS — Cumulative Layout Shift</h3>
+          <p style="margin-bottom:8px">Tổng cộng "layout shift" không mong đợi trong suốt vòng đời trang — khi element dịch chuyển đột ngột (ví dụ: quảng cáo load xong đẩy content xuống). Đơn vị là điểm, không phải giây.</p>
+          <div class="threshold-row">
+            <span class="threshold good">Tốt: ≤ 0.1</span>
+            <span class="threshold needs">Cần cải thiện: 0.1 – 0.25</span>
+            <span class="threshold poor">Kém: &gt; 0.25</span>
+          </div>
+        </div>
+
+        <div class="metric-card">
+          <h3>INP — Interaction to Next Paint (thay FID từ 3/2024)</h3>
+          <p style="margin-bottom:8px">Latency của tất cả user interactions (click, tap, keyboard) trong suốt vòng đời trang — lấy percentile thứ 75 cao nhất. Khác FID chỉ đo lần interaction đầu tiên, INP đo toàn bộ session.</p>
+          <div class="threshold-row">
+            <span class="threshold good">Tốt: ≤ 200ms</span>
+            <span class="threshold needs">Cần cải thiện: 200ms – 500ms</span>
+            <span class="threshold poor">Kém: &gt; 500ms</span>
+          </div>
+        </div>
+
+        <h2>8 kỹ thuật optimize áp dụng được ngay</h2>
+
+        <h3>1. Preload LCP image</h3>
+        <p>Nếu LCP element là image, thêm <code>&lt;link rel="preload" as="image"&gt;</code> vào <code>&lt;head&gt;</code>. Image sẽ được tải song song với HTML parsing thay vì đợi đến khi render tree build xong. Thường cải thiện LCP 300-800ms.</p>
+
+        <h3>2. Dùng <code>fetchpriority="high"</code> cho hero image</h3>
+        <p>Thêm thuộc tính <code>fetchpriority="high"</code> vào thẻ <code>&lt;img&gt;</code> của LCP element. Browser sẽ ưu tiên tải image này trước. Kết hợp với preload cho hiệu quả tốt nhất.</p>
+
+        <h3>3. Đặt kích thước cố định cho image và embed</h3>
+        <p>Luôn đặt <code>width</code> và <code>height</code> cho <code>&lt;img&gt;</code>, <code>&lt;video&gt;</code>, <code>&lt;iframe&gt;</code>. Browser sẽ reserve space trước khi content load, tránh layout shift. Đây là fix đơn giản nhất cho CLS cao.</p>
+
+        <h3>4. Tránh chèn content trên existing content</h3>
+        <p>Không inject banner, cookie consent, hay dynamic content phía trên content đã render trừ khi đã reserve space bằng <code>min-height</code>. Font loading cũng gây CLS — dùng <code>font-display: optional</code> hoặc preload font.</p>
+
+        <h3>5. Break up long tasks trên main thread</h3>
+        <p>INP cao thường do long tasks (tasks &gt;50ms) block main thread. Dùng <code>scheduler.yield()</code> (hoặc <code>setTimeout(0)</code> nếu browser cũ) để chia nhỏ JS task, cho browser có cơ hội xử lý input.</p>
+
+        <h3>6. Lazy load non-critical JS</h3>
+        <p>Script không cần thiết ngay khi load trang → dùng <code>defer</code> hoặc dynamic import. Giảm Total Blocking Time giúp INP và LCP cùng cải thiện. Đặc biệt quan trọng với third-party scripts (analytics, chat widget).</p>
+
+        <h3>7. Dùng CDN và cache headers đúng cách</h3>
+        <p>Static assets (JS, CSS, image) cần <code>Cache-Control: max-age=31536000, immutable</code> với content-hashed filename. Dynamic HTML cần <code>Cache-Control: no-store</code> hoặc stale-while-revalidate. CDN giảm TTFB, TTFB thấp giúp LCP.</p>
+
+        <h3>8. Image format hiện đại: WebP và AVIF</h3>
+        <p>AVIF nhỏ hơn WebP ~20%, WebP nhỏ hơn JPEG ~30% ở cùng chất lượng. Dùng <code>&lt;picture&gt;</code> element với fallback. Next.js, Nuxt, Astro đều tự động optimize — nếu dùng framework khác, cần cài sharp hoặc imagemin vào build pipeline.</p>
+
+        <h2>Core Web Vitals có thực sự ảnh hưởng đến ranking?</h2>
+        <p>Có, nhưng đây là một trong rất nhiều ranking signals. Google xác nhận CWV là "tiebreaker" — khi 2 trang có content quality tương đương, trang có CWV tốt hơn sẽ được ưu tiên. Đừng kỳ vọng chỉ cải thiện CWV sẽ tăng 10 bậc nếu content không đủ tốt.</p>
+        <p>Nơi CWV có tác động rõ ràng nhất: Google Discover và AMP — nơi page experience signal có weight cao hơn.</p>
+
+        <h2>Cách đo Core Web Vitals</h2>
+        <ul>
+          <li><strong>Google Search Console</strong> → Core Web Vitals report: dữ liệu thực từ Chrome users (Field data)</li>
+          <li><strong>PageSpeed Insights</strong> (pagespeed.web.dev): cả Lab data và Field data</li>
+          <li><strong>Chrome DevTools</strong> → Performance tab: Lab measurement cho từng session</li>
+          <li><strong>web-vitals npm package</strong>: embed vào app để thu thập real user data</li>
+        </ul>
+
+        <div class="callout"><p><strong>Quan trọng:</strong> Chỉ dùng Field data (real user data) để đánh giá impact đến SEO. Lab data (PageSpeed score) hữu ích để debug nhưng không phản ánh trải nghiệm thực tế của user.</p></div>
+
+        <div style="margin-top:48px;padding-top:32px;border-top:1px solid var(--c-border);display:flex;gap:16px;flex-wrap:wrap">
+          <a href="../blog.html" class="btn btn-secondary">← Về danh sách Blog</a>
+          <a href="../services/web-development.html" class="btn btn-primary">Dịch vụ Web Development →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-bottom"><span>© 2025 EO Technology. Mọi quyền được bảo lưu.</span></div>
+  </div>
+</footer>
+<script src="../assets/js/config.js"></script><script src="../assets/js/i18n.js"></script><script src="../assets/js/main.js"></script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6a45042d854f801d4378b7b0/1jsepgkpf';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+</html>
