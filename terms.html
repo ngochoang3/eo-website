@@ -1,122 +1,194 @@
 <!doctype html>
-<html lang="vi">
+<html lang="vi" data-theme="dark">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Điều Khoản Sử Dụng | EO</title>
-<meta name="description" content="Điều khoản sử dụng dịch vụ EO - quy định về tài khoản, hành vi người chơi và quyền sở hữu nội dung.">
+<title>Điều Khoản Dịch Vụ — EO Technology</title>
+<meta name="description" content="Điều khoản sử dụng dịch vụ EO Technology: hosting, VPS, cloud, web development, mobile app, game development và AI. Rõ ràng, không ẩn chi phí.">
 <meta name="robots" content="index,follow">
-<link rel="canonical" href="https://eo.io.vn/terms.html">
+<link rel="canonical" href="https://eo.io.vn/terms">
 <link rel="icon" href="image/icon.png" type="image/png">
 <link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#0c1730">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Điều Khoản Sử Dụng | EO">
-<meta property="og:url" content="https://eo.io.vn/terms.html">
-<meta property="og:image" content="https://eo.io.vn/image/og-image.webp">
+<meta name="theme-color" content="#060c18">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Nunito:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap">
 <link rel="stylesheet" href="assets/css/main.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 <link rel="stylesheet" href="assets/css/chatbot.css">
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Trang Chủ","item":"https://eo.io.vn/index.html"},{"@type":"ListItem","position":2,"name":"Điều Khoản Sử Dụng","item":"https://eo.io.vn/terms.html"}]}
-</script>
+<style>
+.legal-page { max-width:780px; margin:0 auto; }
+.legal-page h2 { font-size:var(--text-xl); margin:40px 0 12px; color:var(--c-text); }
+.legal-page h3 { font-size:var(--text-base); font-weight:600; margin:24px 0 8px; color:var(--c-text); }
+.legal-page p, .legal-page li { font-size:var(--text-sm); color:var(--c-text-muted); line-height:1.8; margin-bottom:12px; }
+.legal-page ul { padding-left:20px; }
+.legal-page li { margin-bottom:6px; }
+.legal-highlight { background:rgba(0,144,232,.07); border-left:3px solid var(--c-accent-500); padding:16px 20px; border-radius:0 8px 8px 0; margin:20px 0; }
+.legal-highlight p { margin:0; font-size:var(--text-sm); color:var(--c-text); }
+.legal-updated { font-size:12px; color:var(--c-text-muted); margin-bottom:32px; }
+.terms-table { width:100%; border-collapse:collapse; margin:16px 0; font-size:var(--text-sm); }
+.terms-table th { background:var(--c-surface-3); color:var(--c-text); font-weight:600; padding:10px 14px; text-align:left; border:1px solid var(--c-border); }
+.terms-table td { padding:10px 14px; border:1px solid var(--c-border); color:var(--c-text-muted); vertical-align:top; }
+</style>
 </head>
 <body>
 <a class="skip-link" href="#main">Bỏ qua đến nội dung chính</a>
-<header class="site-header">
+<header class="site-header" id="siteHeader">
   <div class="container">
-    <a href="index.html" class="brand"><img src="image/logo.png" alt="EO logo" width="40" height="40">EO</a>
-    <nav class="main-nav" aria-label="Menu chính">
-      <a href="index.html" data-i18n="nav.home">Trang Chủ</a>
-      <a href="games.html" data-i18n="nav.games">Games</a>
-      <a href="apps.html" data-i18n="nav.apps">Apps</a>
-      <a href="universe.html" data-i18n="nav.universe">Universe</a>
-      <a href="news.html" data-i18n="nav.news">Tin Tức</a>
-      <a href="guilds.html" data-i18n="nav.community">Cộng Đồng</a>
-      <a href="about.html" data-i18n="nav.about">Về Chúng Tôi</a>
-      <a href="contact.html" data-i18n="nav.contact">Liên Hệ</a>
-    </nav>
+    <a href="index.html" class="brand"><img src="image/logo.png" alt="EO Technology" width="36" height="36"><span class="brand-text"><span class="brand-name">EO</span><span class="brand-sub" data-i18n="brand.sub">Technology</span></span></a>
+    <nav class="main-nav"><a href="index.html">Trang Chủ</a><a href="services.html">Dịch Vụ</a><a href="portfolio.html">Portfolio</a><a href="pricing.html">Bảng Giá</a><a href="blog.html">Blog</a><a href="about.html">Về Chúng Tôi</a></nav>
     <div class="header-actions">
-      <div class="lang-switch" role="group" aria-label="Chọn ngôn ngữ">
-        <button type="button" data-lang="vi">VI</button>
-        <button type="button" data-lang="en">EN</button>
-      </div>
-      <a href="#" class="btn-login" data-i18n="nav.login">Đăng Nhập</a>
-      <a href="#" class="btn btn-primary btn-play" data-i18n="nav.play">Chơi Ngay</a>
+      <div class="lang-switch" role="group"><button type="button" data-lang="vi">VI</button><button type="button" data-lang="en">EN</button></div>
+      <a href="contact.html" class="btn btn-primary btn-sm">Liên hệ ngay</a>
       <button class="nav-toggle" aria-label="Mở menu" aria-expanded="false" aria-controls="navDrawer"><span></span><span></span><span></span></button>
     </div>
   </div>
 </header>
-<div class="drawer-overlay"></div>
-<nav class="nav-drawer" id="navDrawer" aria-label="Menu di động">
-  <a href="index.html" data-i18n="nav.home">Trang Chủ</a>
-  <a href="games.html" data-i18n="nav.games">Games</a>
-  <a href="apps.html" data-i18n="nav.apps">Apps</a>
-  <a href="universe.html" data-i18n="nav.universe">Universe</a>
-  <a href="news.html" data-i18n="nav.news">Tin Tức</a>
-  <a href="guilds.html" data-i18n="nav.community">Cộng Đồng</a>
-  <a href="about.html" data-i18n="nav.about">Về Chúng Tôi</a>
-  <a href="contact.html" data-i18n="nav.contact">Liên Hệ</a>
-  <div class="lang-switch lang-switch--drawer" role="group" aria-label="Chọn ngôn ngữ">
-    <button type="button" data-lang="vi">VI</button>
-    <button type="button" data-lang="en">EN</button>
-  </div>
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<nav class="nav-drawer" id="navDrawer">
+  <a href="index.html">Trang Chủ</a><a href="services.html">Dịch Vụ</a><a href="portfolio.html">Portfolio</a><a href="pricing.html">Bảng Giá</a><a href="about.html">Về Chúng Tôi</a><a href="contact.html">Liên Hệ</a>
+  <div class="lang-switch lang-switch--drawer" role="group"><button type="button" data-lang="vi">VI</button><button type="button" data-lang="en">EN</button></div>
+  <div class="drawer-actions"><a href="contact.html" class="btn btn-primary btn-block">Liên hệ ngay</a></div>
 </nav>
 
 <main id="main">
-  <section class="page-hero" style="min-height:32vh">
-    <img src="image/banner.png" alt="Điều khoản sử dụng EO" width="1920" height="600">
+  <section class="page-hero">
     <div class="container">
-      <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="index.html" data-i18n="breadcrumb.home">Trang Chủ</a><span>/</span><span aria-current="page" data-i18n="footer.terms">Điều Khoản Sử Dụng</span>
-      </nav>
-      <h1 data-i18n="footer.terms">Điều Khoản Sử Dụng</h1>
+      <nav class="breadcrumb"><a href="index.html">Trang Chủ</a><span>›</span><span>Điều Khoản Dịch Vụ</span></nav>
+      <h1>Điều Khoản <span class="gradient-text">Dịch Vụ</span></h1>
+      <p class="hero-desc">Điều khoản rõ ràng, không chữ nhỏ ẩn, không phát sinh phí bất ngờ. EO Technology cam kết minh bạch trong mọi giao dịch.</p>
     </div>
   </section>
+
   <section class="section">
-    <div class="container prose">
-      <p>Cập nhật lần cuối: 21/06/2026</p>
-      <h2>1. Chấp nhận điều khoản</h2>
-      <p>Bằng việc tải, cài đặt hoặc sử dụng EO, bạn đồng ý tuân thủ các điều khoản sử dụng được quy định tại đây.</p>
-      <h2>2. Tài khoản người dùng</h2>
-      <p>Bạn có trách nhiệm bảo mật thông tin tài khoản và chịu trách nhiệm với mọi hoạt động diễn ra dưới tài khoản của mình.</p>
-      <h2>3. Hành vi bị cấm</h2>
-      <p>Nghiêm cấm sử dụng phần mềm gian lận, khai thác lỗi game hoặc có hành vi quấy rối người chơi khác.</p>
-      <h2>4. Quyền sở hữu nội dung</h2>
-      <p>Mọi nội dung trong game thuộc quyền sở hữu của EO Studio và được bảo vệ bởi luật bản quyền.</p>
-      <h2>5. Liên hệ</h2>
-      <p>Mọi thắc mắc về điều khoản sử dụng, vui lòng liên hệ qua <a href="contact.html">trang Liên Hệ</a>.</p>
+    <div class="container">
+      <div class="legal-page">
+        <p class="legal-updated">Cập nhật lần cuối: 01/07/2025 — Phiên bản 2.0</p>
+
+        <div class="legal-highlight">
+          <p><strong>Tóm tắt cam kết của EO:</strong> Giá niêm yết là giá cuối — không phát sinh. 100% source code thuộc về bạn khi bàn giao. Đội ngũ in-house, không outsource ngoài. Phản hồi trong 2 giờ làm việc.</p>
+        </div>
+
+        <h2>1. Định nghĩa và phạm vi</h2>
+        <p><strong>"EO Technology"</strong> (hoặc "EO") chỉ công ty/nhóm phát triển vận hành tại eo.io.vn.</p>
+        <p><strong>"Khách hàng"</strong> là cá nhân hoặc tổ chức sử dụng bất kỳ dịch vụ nào của EO Technology.</p>
+        <p><strong>"Dịch vụ"</strong> bao gồm: Web Hosting, VPS, Cloud Infrastructure, Web Development, Mobile App Development, Game Development, AI Solutions, và SaaS Development.</p>
+        <p>Bằng việc sử dụng dịch vụ hoặc ký hợp đồng với EO Technology, bạn đồng ý với toàn bộ điều khoản này. Nếu không đồng ý, không sử dụng dịch vụ.</p>
+
+        <h2>2. Điều khoản thanh toán</h2>
+        <h3>2.1 Giá dịch vụ</h3>
+        <p>Giá niêm yết tại <a href="pricing.html" style="color:var(--c-accent-500)">eo.io.vn/pricing</a> là giá đã bao gồm tất cả chi phí cơ bản. EO Technology cam kết không phát sinh chi phí ngoài phạm vi đã thỏa thuận trước khi bắt đầu dự án.</p>
+        <p>Mọi thay đổi scope sẽ được thảo luận và có báo giá rõ ràng trước khi thực hiện.</p>
+
+        <h3>2.2 Hình thức thanh toán</h3>
+        <ul>
+          <li>Dịch vụ hosting / VPS / cloud: Thanh toán hàng tháng hoặc hàng năm (giảm giá 15% khi trả năm)</li>
+          <li>Dự án phát triển (web, app, game): Theo milestone — thường 30% đặt cọc, 40% khi demo, 30% khi bàn giao</li>
+          <li>Dịch vụ AI / tư vấn: Có thể theo giờ hoặc theo gói cố định</li>
+          <li>Retainer / bảo trì: Thanh toán trước đầu tháng</li>
+        </ul>
+
+        <h3>2.3 Chính sách quá hạn</h3>
+        <p>Hóa đơn quá hạn 7 ngày: nhắc qua email. Quá hạn 14 ngày: dịch vụ có thể tạm dừng. Quá hạn 30 ngày: EO có quyền chấm dứt hợp đồng và xóa dữ liệu (có thông báo trước 7 ngày).</p>
+
+        <h2>3. Chính sách hoàn tiền và hủy dịch vụ</h2>
+        <table class="terms-table">
+          <thead><tr><th>Loại dịch vụ</th><th>Điều kiện hoàn tiền</th></tr></thead>
+          <tbody>
+            <tr><td>Hosting / VPS (gói tháng)</td><td>Hoàn tiền tháng còn lại nếu hủy trước ngày 15 của tháng. Sau ngày 15: không hoàn tháng hiện tại.</td></tr>
+            <tr><td>Hosting / VPS (gói năm)</td><td>Hoàn tiền các tháng chưa dùng (tính theo ngày), trừ 1 tháng phí xử lý.</td></tr>
+            <tr><td>Dự án phát triển (đặt cọc)</td><td>Hoàn tối đa 50% đặt cọc nếu hủy trước khi bắt đầu. Đã bắt đầu: không hoàn phần đã thực hiện.</td></tr>
+            <tr><td>Dự án đang thực hiện</td><td>Thanh toán phần công việc đã hoàn thành. Bàn giao toàn bộ tài sản đã tạo.</td></tr>
+            <tr><td>Gói AI / Retainer</td><td>Hủy cuối tháng hiện tại. Không ràng buộc tối thiểu, trừ khi có thỏa thuận riêng.</td></tr>
+          </tbody>
+        </table>
+
+        <h2>4. Quyền sở hữu trí tuệ</h2>
+        <h3>4.1 Sản phẩm phát triển theo hợp đồng</h3>
+        <p>Sau khi thanh toán đầy đủ, toàn bộ source code, thiết kế, tài liệu kỹ thuật và tài sản số của dự án thuộc về khách hàng 100%. EO Technology không giữ lại bất kỳ quyền sử dụng thương mại nào đối với sản phẩm đã bàn giao.</p>
+
+        <h3>4.2 Framework và thư viện nội bộ</h3>
+        <p>EO có thể sử dụng các framework và component nội bộ để tăng tốc phát triển. Các thành phần này sẽ được bàn giao kèm license cho phép khách hàng sử dụng trong dự án của mình, nhưng không tái phân phối độc lập.</p>
+
+        <h3>4.3 Portfolio và case study</h3>
+        <p>EO Technology có quyền đề cập tên dự án và kết quả tổng quan (không tiết lộ chi tiết kỹ thuật hay số liệu kinh doanh) trong portfolio và case study, trừ khi khách hàng yêu cầu bảo mật.</p>
+
+        <h2>5. Giới hạn sử dụng dịch vụ hạ tầng</h2>
+        <p>Khi sử dụng hosting, VPS, cloud của EO, bạn cam kết KHÔNG:</p>
+        <ul>
+          <li>Host nội dung bất hợp pháp, spam, phishing, malware</li>
+          <li>Thực hiện tấn công DDoS, port scan, brute-force nhắm vào hệ thống khác</li>
+          <li>Khai thác tiền điện tử (crypto mining) trên tài nguyên được cấp</li>
+          <li>Gửi email hàng loạt không có opt-in (spam)</li>
+          <li>Vi phạm bản quyền, phát tán nội dung bảo vệ bản quyền trái phép</li>
+          <li>Lạm dụng tài nguyên gây ảnh hưởng đến khách hàng khác (CPU/bandwidth flooding)</li>
+        </ul>
+        <p>Vi phạm các điều trên có thể dẫn đến tạm dừng dịch vụ ngay lập tức mà không hoàn tiền.</p>
+
+        <h2>6. SLA và cam kết uptime</h2>
+        <table class="terms-table">
+          <thead><tr><th>Dịch vụ</th><th>Cam kết uptime</th><th>Bồi thường khi vi phạm</th></tr></thead>
+          <tbody>
+            <tr><td>Shared Hosting</td><td>99.5% / tháng</td><td>Gia hạn miễn phí 1 ngày / giờ downtime</td></tr>
+            <tr><td>VPS</td><td>99.9% / tháng</td><td>Gia hạn miễn phí 3 ngày / giờ downtime</td></tr>
+            <tr><td>Cloud (managed)</td><td>99.9% / tháng</td><td>Hoàn tiền theo tỷ lệ thời gian downtime</td></tr>
+          </tbody>
+        </table>
+        <p>Downtime theo lịch bảo trì (thông báo trước 24h) không tính vào SLA. Downtime do lỗi phía khách hàng (misconfiguration, quá tải ứng dụng) cũng không tính.</p>
+
+        <h2>7. Bảo mật và trách nhiệm dữ liệu</h2>
+        <p>EO Technology thực hiện các biện pháp bảo mật tốt nhất có thể, nhưng không đảm bảo 100% bảo mật trước mọi cuộc tấn công. Khách hàng chịu trách nhiệm:</p>
+        <ul>
+          <li>Bảo mật thông tin đăng nhập của mình</li>
+          <li>Cập nhật ứng dụng và plugin kịp thời</li>
+          <li>Backup dữ liệu quan trọng (EO cung cấp backup tự động nhưng không là bảo hiểm duy nhất)</li>
+          <li>Báo cáo ngay khi phát hiện bất thường về bảo mật</li>
+        </ul>
+
+        <h2>8. Giới hạn trách nhiệm</h2>
+        <p>Trong mọi trường hợp, trách nhiệm pháp lý tối đa của EO Technology không vượt quá tổng số tiền khách hàng đã thanh toán trong 3 tháng gần nhất.</p>
+        <p>EO Technology không chịu trách nhiệm về: mất dữ liệu do lỗi của khách hàng, thiệt hại gián tiếp (lost profits, lost business), hay sự cố nằm ngoài tầm kiểm soát (thiên tai, sự cố ISP, lỗi datacenter ngoài SLA).</p>
+
+        <h2>9. Chấm dứt hợp đồng</h2>
+        <p>Khách hàng có thể hủy dịch vụ bất kỳ lúc nào bằng cách thông báo qua email. EO Technology sẽ:</p>
+        <ul>
+          <li>Cung cấp đủ thời gian để export dữ liệu (tối thiểu 7 ngày)</li>
+          <li>Bàn giao toàn bộ tài sản thuộc về khách hàng</li>
+          <li>Xóa dữ liệu khỏi hệ thống của EO sau 30 ngày</li>
+        </ul>
+        <p>EO Technology có thể chấm dứt hợp đồng ngay lập tức nếu khách hàng vi phạm điều khoản sử dụng (Mục 5), thanh toán quá hạn 30 ngày, hoặc có hành vi gian lận.</p>
+
+        <h2>10. Giải quyết tranh chấp</h2>
+        <p>Mọi tranh chấp sẽ được ưu tiên giải quyết qua thương lượng. Nếu không đạt thỏa thuận trong 30 ngày, tranh chấp sẽ được giải quyết tại Tòa án nhân dân TP. Hồ Chí Minh theo pháp luật Việt Nam.</p>
+
+        <h2>11. Điều khoản bổ sung</h2>
+        <p>EO Technology bảo lưu quyền cập nhật điều khoản khi cần thiết. Thay đổi quan trọng sẽ được thông báo trước 14 ngày qua email. Tiếp tục sử dụng dịch vụ sau thời điểm điều khoản mới có hiệu lực được coi là đồng ý.</p>
+        <p>Nếu bất kỳ điều khoản nào bị tòa án xác định không hợp lệ, các điều khoản còn lại vẫn có hiệu lực đầy đủ.</p>
+
+        <h2>12. Liên hệ</h2>
+        <p>Mọi câu hỏi về điều khoản dịch vụ:</p>
+        <ul>
+          <li>Email: <a href="mailto:hello@eo.io.vn" style="color:var(--c-accent-500)">hello@eo.io.vn</a></li>
+          <li>Telegram: <a href="https://t.me/eoiovn" style="color:var(--c-accent-500)" target="_blank" rel="noopener">t.me/eoiovn</a></li>
+        </ul>
+      </div>
     </div>
   </section>
 </main>
 
 <footer class="site-footer">
   <div class="container">
-    <div class="footer-bottom">
-      <span data-i18n="footer.copyright">© 2026 EO Studio. Bảo lưu mọi quyền.</span>
-      <span><a href="privacy.html" data-i18n="footer.privacy">Chính Sách Bảo Mật</a></span>
+    <div class="footer-grid">
+      <div class="footer-brand"><a href="index.html" class="brand"><img src="image/logo.png" alt="EO Technology" width="32" height="32"><span style="font-weight:800;font-size:18px;color:#fff">EO Technology</span></a><p>Giải pháp công nghệ toàn diện — Web, Cloud, AI, Game.</p></div>
+      <nav class="footer-col"><h4>Dịch Vụ</h4><a href="services/hosting.html">Hosting</a><a href="services/cloud.html">Cloud</a><a href="services/vps.html">VPS</a><a href="services/web-development.html">Web Development</a><a href="services/ai-solutions.html">AI Solutions</a></nav>
+      <nav class="footer-col"><h4>Công Ty</h4><a href="about.html">Về Chúng Tôi</a><a href="portfolio.html">Portfolio</a><a href="pricing.html">Bảng Giá</a><a href="career.html">Tuyển Dụng</a></nav>
+      <div class="footer-col"><h4>Pháp Lý</h4><a href="privacy-policy.html">Bảo Mật</a><a href="terms.html" aria-current="page">Điều Khoản</a><a href="contact.html">Liên Hệ</a><a href="faq.html">FAQ</a></div>
     </div>
+    <div class="footer-bottom"><span>© 2025 EO Technology. Mọi quyền được bảo lưu.</span><span>Made in Vietnam 🇻🇳</span></div>
   </div>
 </footer>
 <button class="back-to-top" aria-label="Lên đầu trang">↑</button>
-<script src="assets/js/config.js"></script>
-<script src="assets/js/i18n.js"></script>
-<script src="assets/js/main.js"></script>
-<script src="assets/js/chatbot/text-utils.js"></script>
-<script src="assets/js/chatbot/synonyms.js"></script>
-<script src="assets/js/chatbot/kb-loader.js"></script>
-<script src="assets/js/chatbot/kb-cache.js"></script>
-<script src="assets/js/chatbot/search-engine.js"></script>
-<script src="assets/js/chatbot/intent-detector.js"></script>
-<script src="assets/js/chatbot/entity-extractor.js"></script>
-<script src="assets/js/chatbot/reasoning-engine.js"></script>
-<script src="assets/js/chatbot/memory.js"></script>
-<script src="assets/js/chatbot/answer-templates.js"></script>
-<script src="assets/js/chatbot/chat-engine.js"></script>
-<script src="assets/js/chatbot/chat-admin.js"></script>
-<script src="assets/js/chatbot/chat-ui.js"></script>
+<script src="assets/js/config.js"></script><script src="assets/js/i18n.js"></script><script src="assets/js/main.js"></script>
+<script src="assets/js/chatbot/text-utils.js"></script><script src="assets/js/chatbot/synonyms.js"></script><script src="assets/js/chatbot/kb-loader.js"></script><script src="assets/js/chatbot/kb-cache.js"></script><script src="assets/js/chatbot/search-engine.js"></script><script src="assets/js/chatbot/intent-detector.js"></script><script src="assets/js/chatbot/entity-extractor.js"></script><script src="assets/js/chatbot/reasoning-engine.js"></script><script src="assets/js/chatbot/memory.js"></script><script src="assets/js/chatbot/answer-templates.js"></script><script src="assets/js/chatbot/chat-engine.js"></script><script src="assets/js/chatbot/chat-admin.js"></script><script src="assets/js/chatbot/chat-ui.js"></script>
 </body>
 </html>

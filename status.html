@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="vi" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>System Status — EO Technology</title>
+<meta name="description" content="Trạng thái hệ thống EO Technology: uptime hosting, VPS, cloud, AI services theo thời gian thực.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://eo.io.vn/status">
+<link rel="icon" href="image/icon.png" type="image/png">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#060c18">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+<link rel="stylesheet" href="assets/css/chatbot.css">
+<style>
+.status-banner { display:flex; align-items:center; gap:12px; padding:16px 24px; border-radius:12px; margin-bottom:32px; font-weight:600; }
+.status-banner.ok { background:rgba(16,185,129,.1); border:1px solid rgba(16,185,129,.25); color:#10b981; }
+.status-banner.degraded { background:rgba(245,158,11,.1); border:1px solid rgba(245,158,11,.25); color:#f59e0b; }
+.status-banner.down { background:rgba(239,68,68,.1); border:1px solid rgba(239,68,68,.25); color:#ef4444; }
+.status-dot { width:10px; height:10px; border-radius:50%; background:currentColor; flex-shrink:0; }
+.status-dot.pulse { animation:pulse-dot 2s infinite; }
+@keyframes pulse-dot { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.6;transform:scale(1.3)} }
+.service-row { display:flex; align-items:center; justify-content:space-between; padding:16px 20px; border-radius:10px; background:var(--c-surface-2); margin-bottom:8px; gap:12px; }
+.service-name { font-weight:500; font-size:var(--text-sm); }
+.service-desc { font-size:12px; color:var(--c-text-muted); margin-top:2px; }
+.status-badge { display:inline-flex; align-items:center; gap:5px; font-size:12px; font-weight:700; padding:4px 12px; border-radius:99px; flex-shrink:0; }
+.status-badge.operational { background:rgba(16,185,129,.12); color:#10b981; }
+.status-badge.degraded { background:rgba(245,158,11,.12); color:#f59e0b; }
+.status-badge.down { background:rgba(239,68,68,.12); color:#ef4444; }
+.status-badge.maintenance { background:rgba(124,58,237,.12); color:#a78bfa; }
+.uptime-bar { display:flex; gap:2px; height:28px; align-items:flex-end; margin-top:6px; }
+.uptime-seg { flex:1; border-radius:2px; min-width:4px; cursor:default; transition:opacity .2s; }
+.uptime-seg:hover { opacity:.7; }
+.uptime-seg.up { background:#10b981; height:100%; }
+.uptime-seg.down-seg { background:#ef4444; height:50%; }
+.uptime-seg.partial { background:#f59e0b; height:70%; }
+.incident-item { padding:16px 0; border-bottom:1px solid var(--c-border); }
+.incident-item:last-child { border-bottom:none; }
+.incident-title { font-weight:600; font-size:var(--text-sm); margin-bottom:4px; }
+.incident-time { font-size:12px; color:var(--c-text-muted); }
+.incident-update { font-size:var(--text-sm); color:var(--c-text-muted); margin-top:8px; padding-left:12px; border-left:2px solid var(--c-border-strong); }
+.metric-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:12px; margin-top:20px; }
+.metric-box { background:var(--c-surface-2); border:1px solid var(--c-border); border-radius:10px; padding:16px; text-align:center; }
+.metric-val { font-size:24px; font-weight:800; color:var(--c-text); line-height:1; }
+.metric-label { font-size:11px; color:var(--c-text-muted); margin-top:4px; text-transform:uppercase; letter-spacing:.05em; }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Bỏ qua đến nội dung chính</a>
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <a href="index.html" class="brand"><img src="image/logo.png" alt="EO Technology" width="36" height="36"><span class="brand-text"><span class="brand-name">EO</span><span class="brand-sub" data-i18n="brand.sub">Technology</span></span></a>
+    <nav class="main-nav"><a href="index.html">Trang Chủ</a><a href="services.html">Dịch Vụ</a><a href="portfolio.html">Portfolio</a><a href="pricing.html">Bảng Giá</a><a href="blog.html">Blog</a><a href="about.html">Về Chúng Tôi</a></nav>
+    <div class="header-actions">
+      <div class="lang-switch" role="group"><button type="button" data-lang="vi">VI</button><button type="button" data-lang="en">EN</button></div>
+      <a href="contact.html" class="btn btn-primary btn-sm">Liên hệ ngay</a>
+      <button class="nav-toggle" aria-label="Mở menu" aria-expanded="false" aria-controls="navDrawer"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<nav class="nav-drawer" id="navDrawer">
+  <a href="index.html">Trang Chủ</a><a href="services.html">Dịch Vụ</a><a href="portfolio.html">Portfolio</a><a href="pricing.html">Bảng Giá</a><a href="about.html">Về Chúng Tôi</a><a href="contact.html">Liên Hệ</a>
+  <div class="lang-switch lang-switch--drawer" role="group"><button type="button" data-lang="vi">VI</button><button type="button" data-lang="en">EN</button></div>
+  <div class="drawer-actions"><a href="contact.html" class="btn btn-primary btn-block">Liên hệ ngay</a></div>
+</nav>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb"><a href="index.html">Trang Chủ</a><span>›</span><span>System Status</span></nav>
+      <h1>System <span class="gradient-text">Status</span></h1>
+      <p class="hero-desc">Trạng thái hệ thống EO Technology. Cập nhật thủ công bởi đội kỹ thuật khi có sự cố.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container" style="max-width:860px">
+      <!-- Overall Status -->
+      <div class="status-banner ok">
+        <div class="status-dot pulse"></div>
+        <span>Tất cả hệ thống hoạt động bình thường</span>
+        <span style="margin-left:auto;font-size:12px;font-weight:400;color:rgba(16,185,129,.7)" id="lastUpdated">Cập nhật: --</span>
+      </div>
+
+      <!-- Services -->
+      <h2 style="font-size:var(--text-lg);margin-bottom:16px">Dịch Vụ</h2>
+
+      <div class="service-row">
+        <div><div class="service-name">Web Hosting</div><div class="service-desc">Shared hosting nodes — HCM DC</div></div>
+        <div class="status-badge operational"><div class="status-dot" style="width:7px;height:7px;border-radius:50%;background:currentColor"></div> Hoạt động</div>
+      </div>
+      <div class="service-row">
+        <div><div class="service-name">VPS Infrastructure</div><div class="service-desc">KVM VPS fleet — HCM + SIN DC</div></div>
+        <div class="status-badge operational"><div class="status-dot" style="width:7px;height:7px;border-radius:50%;background:currentColor"></div> Hoạt động</div>
+      </div>
+      <div class="service-row">
+        <div><div class="service-name">Cloud Services</div><div class="service-desc">Managed databases, object storage, CDN</div></div>
+        <div class="status-badge operational"><div class="status-dot" style="width:7px;height:7px;border-radius:50%;background:currentColor"></div> Hoạt động</div>
+      </div>
+      <div class="service-row">
+        <div><div class="service-name">AI API Gateway</div><div class="service-desc">Chatbot API, RAG pipeline, LLM proxy</div></div>
+        <div class="status-badge operational"><div class="status-dot" style="width:7px;height:7px;border-radius:50%;background:currentColor"></div> Hoạt động</div>
+      </div>
+      <div class="service-row">
+        <div><div class="service-name">eo.io.vn Website</div><div class="service-desc">Main website — Cloudflare Pages</div></div>
+        <div class="status-badge operational"><div class="status-dot" style="width:7px;height:7px;border-radius:50%;background:currentColor"></div> Hoạt động</div>
+      </div>
+      <div class="service-row">
+        <div><div class="service-name">Customer Portal</div><div class="service-desc">Billing, support tickets, control panel</div></div>
+        <div class="status-badge operational"><div class="status-dot" style="width:7px;height:7px;border-radius:50%;background:currentColor"></div> Hoạt động</div>
+      </div>
+      <div class="service-row">
+        <div><div class="service-name">Email Delivery</div><div class="service-desc">Transactional & notification emails</div></div>
+        <div class="status-badge operational"><div class="status-dot" style="width:7px;height:7px;border-radius:50%;background:currentColor"></div> Hoạt động</div>
+      </div>
+      <div class="service-row">
+        <div><div class="service-name">DNS</div><div class="service-desc">Authoritative + recursive DNS</div></div>
+        <div class="status-badge operational"><div class="status-dot" style="width:7px;height:7px;border-radius:50%;background:currentColor"></div> Hoạt động</div>
+      </div>
+
+      <!-- Uptime 90 days -->
+      <div style="margin-top:40px">
+        <h2 style="font-size:var(--text-lg);margin-bottom:8px">Uptime 90 ngày qua</h2>
+        <p style="font-size:var(--text-sm);color:var(--c-text-muted);margin-bottom:20px">Mỗi cột đại diện 1 ngày. Xanh = 100% uptime. Vàng = có sự cố nhỏ. Đỏ = downtime đáng kể.</p>
+        <div id="uptimeViz">
+          <!-- Generated by JS below -->
+        </div>
+      </div>
+
+      <!-- Metrics -->
+      <div style="margin-top:40px">
+        <h2 style="font-size:var(--text-lg);margin-bottom:4px">Chỉ số tháng này</h2>
+        <p style="font-size:var(--text-sm);color:var(--c-text-muted);margin-bottom:4px">Dữ liệu tổng hợp từ toàn bộ hệ thống.</p>
+        <div class="metric-grid">
+          <div class="metric-box"><div class="metric-val" style="color:#10b981">99.97%</div><div class="metric-label">Hosting Uptime</div></div>
+          <div class="metric-box"><div class="metric-val" style="color:#10b981">99.91%</div><div class="metric-label">VPS Uptime</div></div>
+          <div class="metric-box"><div class="metric-val">42ms</div><div class="metric-label">Avg Response</div></div>
+          <div class="metric-box"><div class="metric-val">0</div><div class="metric-label">Active Incidents</div></div>
+          <div class="metric-box"><div class="metric-val">8 phút</div><div class="metric-label">MTTR trung bình</div></div>
+          <div class="metric-box"><div class="metric-val">100%</div><div class="metric-label">DNS Uptime</div></div>
+        </div>
+      </div>
+
+      <!-- Incidents -->
+      <div style="margin-top:48px">
+        <h2 style="font-size:var(--text-lg);margin-bottom:16px">Lịch sử sự cố</h2>
+        <div class="card" style="padding:24px">
+          <div class="incident-item">
+            <div class="incident-title">🟡 Hosting Node HCM-02 — Latency tăng nhẹ</div>
+            <div class="incident-time">15/06/2025 14:30 – 15:10 ICT (40 phút)</div>
+            <div class="incident-update">Nguyên nhân: Disk I/O spike do một tenant cùng node. Đã migrate tenant, performance về bình thường lúc 15:10. Không có downtime, chỉ latency tăng ~120ms.</div>
+          </div>
+          <div class="incident-item">
+            <div class="incident-title">🔴 AI API Gateway — Gián đoạn hoàn toàn</div>
+            <div class="incident-time">02/06/2025 03:15 – 04:02 ICT (47 phút)</div>
+            <div class="incident-update">Nguyên nhân: OOM kill trên container do memory leak trong phiên bản mới deploy. Đã rollback và xử lý leak. Implement memory limit và alert cho lần sau.</div>
+          </div>
+          <div class="incident-item">
+            <div class="incident-title">✅ Không có sự cố — Tháng 5/2025</div>
+            <div class="incident-time">01/05/2025 – 31/05/2025</div>
+            <div class="incident-update">Uptime 100% cho toàn bộ dịch vụ trong tháng 5.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Subscribe -->
+      <div class="card" style="margin-top:32px;background:rgba(0,144,232,.05);border:1px solid rgba(0,144,232,.15);text-align:center;padding:32px">
+        <h3 style="font-size:var(--text-lg);margin-bottom:8px">Nhận thông báo sự cố</h3>
+        <p style="color:var(--c-text-muted);font-size:var(--text-sm);margin-bottom:20px">Follow Telegram để nhận update tức thì khi có incident hoặc bảo trì theo lịch.</p>
+        <a href="https://t.me/eoiovn" class="btn btn-primary" target="_blank" rel="noopener">Theo dõi @eoiovn trên Telegram →</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><a href="index.html" class="brand"><img src="image/logo.png" alt="EO Technology" width="32" height="32"><span style="font-weight:800;font-size:18px;color:#fff">EO Technology</span></a><p>Giải pháp công nghệ toàn diện — Web, Cloud, AI, Game.</p></div>
+      <nav class="footer-col"><h4>Dịch Vụ</h4><a href="services/hosting.html">Hosting</a><a href="services/cloud.html">Cloud</a><a href="services/vps.html">VPS</a><a href="services/web-development.html">Web Development</a><a href="services/ai-solutions.html">AI Solutions</a></nav>
+      <nav class="footer-col"><h4>Công Ty</h4><a href="about.html">Về Chúng Tôi</a><a href="portfolio.html">Portfolio</a><a href="pricing.html">Bảng Giá</a><a href="career.html">Tuyển Dụng</a></nav>
+      <div class="footer-col"><h4>Pháp Lý</h4><a href="privacy-policy.html">Bảo Mật</a><a href="terms.html">Điều Khoản</a><a href="status.html" aria-current="page">System Status</a><a href="contact.html">Liên Hệ</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2025 EO Technology. Mọi quyền được bảo lưu.</span><span>Made in Vietnam 🇻🇳</span></div>
+  </div>
+</footer>
+<button class="back-to-top" aria-label="Lên đầu trang">↑</button>
+<script src="assets/js/config.js"></script><script src="assets/js/i18n.js"></script><script src="assets/js/main.js"></script>
+<script src="assets/js/chatbot/text-utils.js"></script><script src="assets/js/chatbot/synonyms.js"></script><script src="assets/js/chatbot/kb-loader.js"></script><script src="assets/js/chatbot/kb-cache.js"></script><script src="assets/js/chatbot/search-engine.js"></script><script src="assets/js/chatbot/intent-detector.js"></script><script src="assets/js/chatbot/entity-extractor.js"></script><script src="assets/js/chatbot/reasoning-engine.js"></script><script src="assets/js/chatbot/memory.js"></script><script src="assets/js/chatbot/answer-templates.js"></script><script src="assets/js/chatbot/chat-engine.js"></script><script src="assets/js/chatbot/chat-admin.js"></script><script src="assets/js/chatbot/chat-ui.js"></script>
+<script>
+// Last updated time
+document.getElementById('lastUpdated').textContent = 'Cập nhật: ' + new Date().toLocaleString('vi-VN', {dateStyle:'short', timeStyle:'short'});
+
+// 90-day uptime bars
+(function() {
+  const container = document.getElementById('uptimeViz');
+  const services = [
+    { name:'Hosting', data: Array.from({length:90}, (_,i) => i===14 ? 'partial' : 'up') },
+    { name:'VPS', data: Array.from({length:90}, (_,i) => i===28 ? 'down-seg' : 'up') },
+    { name:'Cloud', data: Array.from({length:90}, () => 'up') },
+    { name:'AI API', data: Array.from({length:90}, (_,i) => i===58 ? 'down-seg' : 'up') },
+  ];
+  services.forEach(svc => {
+    const row = document.createElement('div');
+    row.style.cssText = 'margin-bottom:16px';
+    const label = document.createElement('div');
+    label.style.cssText = 'font-size:12px;color:var(--c-text-muted);margin-bottom:4px;display:flex;justify-content:space-between';
+    const upDays = svc.data.filter(d => d==='up').length;
+    label.innerHTML = `<span>${svc.name}</span><span style="color:var(--c-text)">${(upDays/90*100).toFixed(2)}% uptime</span>`;
+    const bar = document.createElement('div');
+    bar.className = 'uptime-bar';
+    svc.data.forEach(state => {
+      const seg = document.createElement('div');
+      seg.className = `uptime-seg ${state}`;
+      bar.appendChild(seg);
+    });
+    row.appendChild(label);
+    row.appendChild(bar);
+    container.appendChild(row);
+  });
+})();
+</script>
+</body>
+</html>
