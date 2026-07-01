@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="vi" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EO Sales Chatbot — AI RAG Chạy Trong Trình Duyệt | EO Technology</title>
+<meta name="description" content="Case study: EO Sales Chatbot — AI hỏi đáp không cần API, chạy hoàn toàn trong browser. Inverted index, TF-IDF, intent detection, IndexedDB cache. Vanilla JS.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://eo.io.vn/portfolio/eo-sales-chat">
+<link rel="icon" href="../image/icon.png" type="image/png">
+<link rel="manifest" href="../manifest.json">
+<meta name="theme-color" content="#060c18">
+<meta property="og:title" content="EO Sales Chatbot — AI RAG trong Browser | EO Technology">
+<meta property="og:url" content="https://eo.io.vn/portfolio/eo-sales-chat">
+<meta property="og:image" content="https://eo.io.vn/image/og-image.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/css/responsive.css">
+<link rel="stylesheet" href="../assets/css/chatbot.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://eo.io.vn/"},{"@type":"ListItem","position":2,"name":"Portfolio","item":"https://eo.io.vn/portfolio"},{"@type":"ListItem","position":3,"name":"EO Sales Chatbot","item":"https://eo.io.vn/portfolio/eo-sales-chat"}]}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Bỏ qua đến nội dung chính</a>
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <a href="../index.html" class="brand"><img src="../image/logo.png" alt="EO Technology" width="36" height="36"><span class="brand-text"><span class="brand-name">EO</span><span class="brand-sub" data-i18n="brand.sub">Technology</span></span></a>
+    <nav class="main-nav"><a href="../index.html">Trang Chủ</a><a href="../services.html">Dịch Vụ</a><a href="../portfolio.html" aria-current="page">Portfolio</a><a href="../pricing.html">Bảng Giá</a><a href="../blog.html">Blog</a><a href="../about.html">Về Chúng Tôi</a></nav>
+    <div class="header-actions">
+      <div class="lang-switch" role="group"><button type="button" data-lang="vi">VI</button><button type="button" data-lang="en">EN</button></div>
+      <a href="../contact.html" class="btn btn-primary btn-sm">Liên hệ ngay</a>
+      <button class="nav-toggle" aria-label="Mở menu" aria-expanded="false" aria-controls="navDrawer"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<nav class="nav-drawer" id="navDrawer">
+  <a href="../index.html">Trang Chủ</a><a href="../services.html">Dịch Vụ</a><a href="../portfolio.html">Portfolio</a><a href="../pricing.html">Bảng Giá</a><a href="../about.html">Về Chúng Tôi</a><a href="../contact.html">Liên Hệ</a>
+  <div class="lang-switch lang-switch--drawer" role="group"><button type="button" data-lang="vi">VI</button><button type="button" data-lang="en">EN</button></div>
+  <div class="drawer-actions"><a href="../contact.html" class="btn btn-primary btn-block">Liên hệ ngay</a></div>
+</nav>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb">
+        <a href="../index.html">Trang Chủ</a><span>›</span><a href="../portfolio.html">Portfolio</a><span>›</span><span>EO Sales Chatbot</span>
+      </nav>
+      <div style="display:flex;gap:12px;align-items:center;margin-bottom:24px;flex-wrap:wrap">
+        <span class="project-tag" style="font-size:var(--text-sm);padding:6px 14px">🤖 AI</span>
+        <span class="project-tag" style="font-size:var(--text-sm);padding:6px 14px">RAG</span>
+        <span class="project-tag" style="font-size:var(--text-sm);padding:6px 14px">Vanilla JS</span>
+        <span class="project-tag" style="font-size:var(--text-sm);padding:6px 14px">Browser-native</span>
+        <span style="font-size:var(--text-sm);color:var(--c-text-muted)">Internal Product • 2025</span>
+      </div>
+      <h1>EO Sales <span class="gradient-text">Chatbot</span></h1>
+      <p class="hero-desc" style="max-width:720px">AI hỏi đáp chạy hoàn toàn trong trình duyệt — không API call, không server cost, không dữ liệu người dùng gửi ra ngoài. Đây là sản phẩm EO tự dùng để chứng minh năng lực AI integration của mình.</p>
+      <div class="hero-actions" style="margin-top:32px">
+        <a href="../index.html#chatbot" class="btn btn-primary btn-lg">Thử chatbot ngay →</a>
+        <a href="../services/ai-solutions.html" class="btn btn-secondary btn-lg">Xây AI tương tự cho bạn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- OVERVIEW -->
+  <section class="section">
+    <div class="container">
+      <div class="why-grid">
+        <!-- Sticky sidebar -->
+        <div>
+          <div class="card card--glow" style="position:sticky;top:calc(var(--header-h) + 24px)">
+            <h3 style="font-size:var(--text-base);margin-bottom:16px;color:var(--c-text-muted);text-transform:uppercase;letter-spacing:.05em;font-size:11px">Tổng quan dự án</h3>
+            <dl style="display:flex;flex-direction:column;gap:14px;font-size:var(--text-sm)">
+              <div><dt style="color:var(--c-text-muted);font-size:11px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px">Loại</dt><dd>Internal Product</dd></div>
+              <div><dt style="color:var(--c-text-muted);font-size:11px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px">Năm</dt><dd>2025</dd></div>
+              <div><dt style="color:var(--c-text-muted);font-size:11px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px">Platform</dt><dd>Web (browser-native)</dd></div>
+              <div><dt style="color:var(--c-text-muted);font-size:11px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px">Tech</dt><dd>Vanilla JS, IndexedDB, Web Worker</dd></div>
+              <div><dt style="color:var(--c-text-muted);font-size:11px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px">Đặc điểm</dt><dd>Zero external API, offline-first, &lt;10ms response</dd></div>
+              <div><dt style="color:var(--c-text-muted);font-size:11px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px">Trạng thái</dt><dd style="color:#22c55e">● Live trên eo.io.vn</dd></div>
+            </dl>
+            <hr style="border:none;border-top:1px solid var(--c-border);margin:20px 0">
+            <a href="../services/ai-solutions.html" class="btn btn-primary btn-block btn-sm">Xây AI tương tự →</a>
+          </div>
+        </div>
+
+        <!-- Main content -->
+        <div style="display:flex;flex-direction:column;gap:40px">
+          <div>
+            <h2 style="font-size:var(--text-2xl);margin-bottom:16px">Bài toán cần giải</h2>
+            <p style="color:var(--c-text-muted);line-height:1.7">Website EO Technology có nhiều dịch vụ phức tạp. Khách hàng thường có câu hỏi về giá, phạm vi dịch vụ, tech stack, quy trình — nhưng không phải ai cũng muốn fill contact form ngay lập tức.</p>
+            <p style="color:var(--c-text-muted);line-height:1.7;margin-top:12px">EO cần một chatbot có thể trả lời câu hỏi thường gặp 24/7, không cần nhân viên, không tốn phí API token mỗi lần người dùng hỏi, và không gửi dữ liệu ra ngoài.</p>
+          </div>
+
+          <div>
+            <h2 style="font-size:var(--text-2xl);margin-bottom:16px">Giải pháp: Browser-native RAG</h2>
+            <p style="color:var(--c-text-muted);line-height:1.7">Thay vì gọi OpenAI API (tốn tiền, phụ thuộc internet, privacy risk), EO xây một hệ thống RAG hoàn toàn trong browser:</p>
+            <ol style="color:var(--c-text-muted);line-height:1.9;margin-top:12px;padding-left:20px">
+              <li><b style="color:var(--c-text)">Knowledge base</b> — toàn bộ thông tin về dịch vụ, giá, FAQ được đánh index thành inverted index</li>
+              <li><b style="color:var(--c-text)">IndexedDB cache</b> — index được cache trong trình duyệt, lần sau load tức thì không cần build lại</li>
+              <li><b style="color:var(--c-text)">TF-IDF scoring</b> — câu hỏi được tokenize, tìm document phù hợp nhất qua TF-IDF ranking</li>
+              <li><b style="color:var(--c-text)">Intent detection</b> — phân biệt hỏi giá, hỏi quy trình, hỏi contact, yêu cầu demo</li>
+              <li><b style="color:var(--c-text)">Template rendering</b> — câu trả lời được render từ template phù hợp với intent, không hallucinate</li>
+            </ol>
+          </div>
+
+          <div>
+            <h2 style="font-size:var(--text-2xl);margin-bottom:16px">Kiến trúc kỹ thuật</h2>
+            <div class="terminal-card">
+              <div class="terminal-bar"><span class="t-dot t-dot--red"></span><span class="t-dot t-dot--yellow"></span><span class="t-dot t-dot--green"></span><span style="margin-left:8px;font-size:11px;color:var(--c-text-muted)">chatbot-architecture.md</span></div>
+              <div class="terminal-body">
+                <div class="terminal-line"><span class="t-muted">## Module breakdown</span></div>
+                <div class="terminal-line" style="margin-top:8px"><span class="t-value">text-utils.js</span> <span class="t-muted">→ normalize, tokenize, stopword filter</span></div>
+                <div class="terminal-line"><span class="t-value">synonyms.js</span> <span class="t-muted">→ "vps" = "máy chủ ảo" = "virtual server"</span></div>
+                <div class="terminal-line"><span class="t-value">kb-loader.js</span> <span class="t-muted">→ parse knowledge base documents</span></div>
+                <div class="terminal-line"><span class="t-value">kb-cache.js</span> <span class="t-muted">→ IndexedDB read/write, TTL invalidation</span></div>
+                <div class="terminal-line"><span class="t-value">search-engine.js</span> <span class="t-muted">→ inverted index + TF-IDF scorer</span></div>
+                <div class="terminal-line"><span class="t-value">intent-detector.js</span> <span class="t-muted">→ price/process/contact/demo intent</span></div>
+                <div class="terminal-line"><span class="t-value">entity-extractor.js</span> <span class="t-muted">→ service name, price range, timeline</span></div>
+                <div class="terminal-line"><span class="t-value">reasoning-engine.js</span> <span class="t-muted">→ combine signals → best answer</span></div>
+                <div class="terminal-line"><span class="t-value">answer-templates.js</span> <span class="t-muted">→ structured response builder</span></div>
+                <div class="terminal-line"><span class="t-value">chat-ui.js</span> <span class="t-muted">→ render, animation, conversation history</span></div>
+                <div class="terminal-line" style="margin-top:8px"><span class="t-ok">✔</span> <span class="t-value">Total: ~2,800 lines vanilla JS</span></div>
+                <div class="terminal-line"><span class="t-ok">✔</span> <span class="t-value">Zero dependencies</span></div>
+                <div class="terminal-line"><span class="t-ok">✔</span> <span class="t-value">Response: &lt;10ms average</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h2 style="font-size:var(--text-2xl);margin-bottom:16px">Kết quả đo được</h2>
+            <div class="grid grid-2" style="gap:16px">
+              <div class="card card--glow"><div style="font-size:32px;font-weight:800;color:var(--c-accent-500)">&lt;10ms</div><div style="color:var(--c-text-muted);font-size:var(--text-sm);margin-top:4px">Response time trung bình</div></div>
+              <div class="card card--glow"><div style="font-size:32px;font-weight:800;color:var(--c-accent-500)">$0</div><div style="color:var(--c-text-muted);font-size:var(--text-sm);margin-top:4px">Chi phí API mỗi câu hỏi</div></div>
+              <div class="card card--glow"><div style="font-size:32px;font-weight:800;color:var(--c-accent-500)">100%</div><div style="color:var(--c-text-muted);font-size:var(--text-sm);margin-top:4px">Dữ liệu ở lại trong browser</div></div>
+              <div class="card card--glow"><div style="font-size:32px;font-weight:800;color:var(--c-accent-500)">Offline</div><div style="color:var(--c-text-muted);font-size:var(--text-sm);margin-top:4px">Hoạt động khi mất mạng</div></div>
+            </div>
+          </div>
+
+          <div>
+            <h2 style="font-size:var(--text-2xl);margin-bottom:16px">Bài học rút ra</h2>
+            <div style="display:flex;flex-direction:column;gap:12px">
+              <div class="card card--glow"><p style="font-size:var(--text-sm);line-height:1.7;margin:0"><b>Không phải mọi AI đều cần LLM.</b> TF-IDF + template answers cho câu hỏi có domain giới hạn thực sự nhanh hơn và chính xác hơn GPT vì không hallucinate.</p></div>
+              <div class="card card--glow"><p style="font-size:var(--text-sm);line-height:1.7;margin:0"><b>IndexedDB là game changer.</b> Cache inverted index trong browser giảm load time từ 800ms → 5ms cho lần thứ hai trở đi.</p></div>
+              <div class="card card--glow"><p style="font-size:var(--text-sm);line-height:1.7;margin:0"><b>Synonym dictionary quan trọng hơn model.</b> "VPS", "máy chủ ảo", "virtual private server" map về cùng 1 concept — không có dict này, recall giảm 40%.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="cta-section">
+        <h2>Muốn AI tương tự <span class="gradient-text">cho doanh nghiệp bạn?</span></h2>
+        <p>EO xây chatbot RAG từ knowledge base của bạn — FAQ, sản phẩm, chính sách. Demo trong 1 tuần trước khi quyết định.</p>
+        <div class="cta-buttons">
+          <a href="../contact.html" class="btn btn-primary btn-lg">Đặt lịch demo AI →</a>
+          <a href="../services/ai-solutions.html" class="btn btn-secondary btn-lg">Xem AI Solutions</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><a href="../index.html" class="brand"><img src="../image/logo.png" alt="EO Technology" width="32" height="32"><span style="font-weight:800;font-size:18px;color:#fff">EO Technology</span></a><p>Giải pháp công nghệ toàn diện — Web, Cloud, AI, Game.</p><div class="footer-social"><a href="https://t.me/eoiovn" aria-label="Telegram" target="_blank" rel="noopener">✈️</a></div></div>
+      <nav class="footer-col"><h4>Dịch Vụ</h4><a href="../services/hosting.html">Hosting</a><a href="../services/cloud.html">Cloud</a><a href="../services/web-development.html">Web Development</a><a href="../services/ai-solutions.html">AI Solutions</a><a href="../services/game-development.html">Game Development</a></nav>
+      <nav class="footer-col"><h4>Công Ty</h4><a href="../about.html">Về Chúng Tôi</a><a href="../portfolio.html">Portfolio</a><a href="../pricing.html">Bảng Giá</a><a href="../blog.html">Blog</a></nav>
+      <div class="footer-col"><h4>Liên Hệ</h4><a href="../contact.html">Liên Hệ</a><a href="https://t.me/eoiovn" target="_blank" rel="noopener">t.me/eoiovn</a><a href="mailto:hello@eo.io.vn">hello@eo.io.vn</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2025 EO Technology. Mọi quyền được bảo lưu.</span><span>Made in Vietnam 🇻🇳</span></div>
+  </div>
+</footer>
+<button class="back-to-top" aria-label="Lên đầu trang">↑</button>
+<script src="../assets/js/config.js"></script><script src="../assets/js/i18n.js"></script><script src="../assets/js/main.js"></script>
+<script src="../assets/js/chatbot/text-utils.js"></script><script src="../assets/js/chatbot/synonyms.js"></script><script src="../assets/js/chatbot/kb-loader.js"></script><script src="../assets/js/chatbot/kb-cache.js"></script><script src="../assets/js/chatbot/search-engine.js"></script><script src="../assets/js/chatbot/intent-detector.js"></script><script src="../assets/js/chatbot/entity-extractor.js"></script><script src="../assets/js/chatbot/reasoning-engine.js"></script><script src="../assets/js/chatbot/memory.js"></script><script src="../assets/js/chatbot/answer-templates.js"></script><script src="../assets/js/chatbot/chat-engine.js"></script><script src="../assets/js/chatbot/chat-admin.js"></script><script src="../assets/js/chatbot/chat-ui.js"></script>
+</body>
+</html>
