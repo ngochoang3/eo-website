@@ -18,12 +18,12 @@ const PAGES = [
   {
     file: 'services/hosting.html',
     url:  'https://eo.io.vn/services/hosting',
-    tags: ['hosting', 'cloud hosting', 'shared hosting', 'nvme', 'ssl', 'ovh', 'giá hosting', '3.99', '6.99', '12.99', 'anti-ddos'],
+    tags: ['hosting', 'cloud hosting', 'shared hosting', 'nvme', 'ssl', 'ovh', 'giá hosting', '3.99', '5.99', '9.99', 'anti-ddos', 'aapanel', '27.5'],
   },
   {
     file: 'services/vps.html',
     url:  'https://eo.io.vn/services/vps',
-    tags: ['vps', 'server riêng', 'root access', 'linux', 'ram', 'nvme', 'ovh', 'giá vps', '9.99', '14.99', '29.99', '54.99'],
+    tags: ['vps', 'server riêng', 'root access', 'linux', 'ram', 'nvme', 'ovh', 'giá vps', '7.99', '14.99', '20.99', '38.99', 'ovh 2027'],
   },
   {
     file: 'services/web-development.html',
