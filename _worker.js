@@ -105,15 +105,15 @@ function formatSiteAnswer(results) {
   return answer;
 }
 
-async function loadSiteIndex() {
+async function loadSiteIndex(env) {
   if (cachedIndex !== null) return cachedIndex;
   try {
-    const res = await fetch('https://eo.io.vn/site-index.json', {
-      cf: { cacheTtl: 3600, cacheEverything: true },
-    });
+    // Use env.ASSETS.fetch() to read directly from asset bundle — bypasses
+    // Cloudflare CDN cache (no stale BOM-version risk from cf.cacheTtl).
+    const res = await env.ASSETS.fetch(new Request('https://eo.io.vn/site-index.json'));
     if (res.ok) {
       const text = await res.text();
-      // Strip UTF-8 BOM (0xEF 0xBB 0xBF) which breaks JSON.parse
+      // Defensive: strip UTF-8 BOM (0xEF 0xBB 0xBF) if still present
       cachedIndex = JSON.parse(text.replace(/^﻿/, ''));
     } else {
       cachedIndex = [];
@@ -237,7 +237,7 @@ export default {
       // Branch 1: Site search
       const lc = question.toLowerCase();
       if (SITE_KEYWORDS.some(kw => lc.includes(kw))) {
-        const index = await loadSiteIndex();
+        const index = await loadSiteIndex(env);
         const hits  = searchIndex(index, question, 3);
         if (hits.length > 0) {
           return json({
