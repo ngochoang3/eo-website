@@ -97,38 +97,58 @@
     }
     tawkTrigger.addEventListener("click", tawkToggle);
 
-    // ── Tawk.to: hide native bubble, retry up to 5× in case of async load ──
+    // ── Tawk.to: suppress native bubble completely ──
+    // Step 1: inject CSS immediately to hide Tawk container BEFORE it renders
+    // (prevents "We Are Here!" attention grabber flash on page load / F5)
+    var _tawkSuppressStyle = document.createElement("style");
+    _tawkSuppressStyle.id = "eo-tawk-suppress";
+    _tawkSuppressStyle.textContent = [
+      "#tawkchat-container,",
+      ".tawk-min-container,",
+      "#tawkchat-status-container{visibility:hidden!important;opacity:0!important;}"
+    ].join("");
+    document.head.appendChild(_tawkSuppressStyle);
+
+    // Step 2: on Tawk load, call hideWidget() and remove temp CSS
     window.Tawk_API = window.Tawk_API || {};
     (function () {
       var _prev = window.Tawk_API.onLoad;
       window.Tawk_API.onLoad = function () {
         if (typeof window.Tawk_API.hideWidget === "function") window.Tawk_API.hideWidget();
+        // Remove temporary CSS after widget is properly hidden via API
+        setTimeout(function () {
+          var s = document.getElementById("eo-tawk-suppress");
+          if (s) s.remove();
+        }, 150);
         if (typeof _prev === "function") _prev();
       };
     })();
-    // Fallback retry loop — hides widget even if onLoad already fired before our hook
+    // Step 3: retry in case Tawk already loaded before our hook was set
     var _tawkRetries = 0;
     var _tawkRetryTimer = setInterval(function () {
       if (window.Tawk_API && typeof window.Tawk_API.hideWidget === "function") {
         window.Tawk_API.hideWidget();
       }
       if (++_tawkRetries >= 5) clearInterval(_tawkRetryTimer);
-    }, 800);
+    }, 600);
 
     // ── Speed-dial for very small screens ≤390px ──
+    // Order matches desktop stack (from corner outward): AI → Live → back-to-top
+    // In speed-dial (flex-column, bottom-anchored): Live is top (far from corner),
+    // AI is second (close to main button = close to corner)
     var speedOptions = el("div", { class: "eo-speed-options" }, [
-      el("div", { class: "eo-speed-item" }, [
-        el("span", { class: "eo-speed-item-label", html: "Hỏi AI" }),
-        el("button", { type: "button", class: "eo-speed-item-btn eo-speed-ai-btn", id: "eo-speed-ai-btn", "aria-label": "Mở AI chatbot" }, [
-          el("span", { html: "💬" }),
-          el("span", { class: "eo-speed-btn-lbl", html: "AI" })
-        ])
-      ]),
       el("div", { class: "eo-speed-item" }, [
         el("span", { class: "eo-speed-item-label", html: "Tư vấn trực tiếp" }),
         el("button", { type: "button", class: "eo-speed-item-btn eo-speed-live-btn", id: "eo-speed-live-btn", "aria-label": "Live chat nhân viên" }, [
           el("span", { html: "👤" }),
           el("span", { class: "eo-speed-btn-lbl", html: "Live" })
+        ])
+      ]),
+      el("div", { class: "eo-speed-item" }, [
+        el("span", { class: "eo-speed-item-label", html: "Hỏi AI" }),
+        el("button", { type: "button", class: "eo-speed-item-btn eo-speed-ai-btn", id: "eo-speed-ai-btn", "aria-label": "Mở AI chatbot" }, [
+          el("span", { html: "💬" }),
+          el("span", { class: "eo-speed-btn-lbl", html: "AI" })
         ])
       ])
     ]);

@@ -111,8 +111,17 @@ async function loadSiteIndex() {
     const res = await fetch('https://eo.io.vn/site-index.json', {
       cf: { cacheTtl: 3600, cacheEverything: true },
     });
-    cachedIndex = res.ok ? await res.json() : [];
-  } catch { cachedIndex = []; }
+    if (res.ok) {
+      const text = await res.text();
+      // Strip UTF-8 BOM (0xEF 0xBB 0xBF) which breaks JSON.parse
+      cachedIndex = JSON.parse(text.replace(/^﻿/, ''));
+    } else {
+      cachedIndex = [];
+    }
+  } catch (e) {
+    console.error('[EO Worker] loadSiteIndex failed:', e?.message);
+    cachedIndex = [];
+  }
   return cachedIndex;
 }
 
