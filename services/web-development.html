@@ -57,10 +57,10 @@
         <a href="../portfolio.html" class="btn btn-secondary btn-lg">Xem portfolio</a>
       </div>
       <div class="hero-stats">
-        <div class="hero-stat"><span class="num">&lt;3s</span><span class="label">Page load</span></div>
-        <div class="hero-stat"><span class="num">90+</span><span class="label">Lighthouse score</span></div>
-        <div class="hero-stat"><span class="num">100%</span><span class="label">Bàn giao source</span></div>
-        <div class="hero-stat"><span class="num">SEO</span><span class="label">Ready từ đầu</span></div>
+        <div class="hero-stat"><span class="num">&lt; 3s</span><span class="label"> Page load</span></div>
+        <div class="hero-stat"><span class="num">90+</span><span class="label"> Lighthouse score</span></div>
+        <div class="hero-stat"><span class="num">100%</span><span class="label"> Bàn giao source</span></div>
+        <div class="hero-stat"><span class="num">SEO</span><span class="label"> Ready từ đầu</span></div>
       </div>
     </div>
   </section>
@@ -239,7 +239,193 @@
     </div>
   </section>
 
+  <!-- TEMPLATE SHOWCASE -->
   <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Mẫu tham khảo</span>
+        <h2 class="section-title">Phong cách thiết kế theo từng loại</h2>
+        <p class="section-sub">Mỗi dự án là thiết kế riêng từ đầu — không dùng template sẵn. Dưới đây là phong cách và layout điển hình theo từng loại website EO đã làm.</p>
+      </div>
+      <style>
+        .template-card { background:var(--c-surface-2); border:1px solid var(--c-border); border-radius:16px; overflow:hidden; transition:transform var(--dur-base), box-shadow var(--dur-base); }
+        .template-card:hover { transform:translateY(-4px); box-shadow:0 12px 40px rgba(0,0,0,.4); }
+        .browser-mock { background:#111827; border-bottom:1px solid var(--c-border); padding:10px 14px 0; }
+        .browser-bar { display:flex; align-items:center; gap:6px; margin-bottom:10px; }
+        .browser-dot { width:10px; height:10px; border-radius:50%; }
+        .browser-dot.r { background:#ef4444; }
+        .browser-dot.y { background:#f59e0b; }
+        .browser-dot.g { background:#10b981; }
+        .browser-url { flex:1; background:rgba(255,255,255,.06); border-radius:4px; padding:4px 10px; font-size:10px; color:var(--c-text-muted); font-family:monospace; }
+        .browser-content { height:200px; position:relative; overflow:hidden; }
+        .template-info { padding:20px; }
+        .template-type { font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.08em; color:var(--c-accent-500); margin-bottom:6px; }
+        .template-info h3 { font-size:var(--text-base); margin:0 0 8px; }
+        .template-info p { font-size:var(--text-sm); color:var(--c-text-muted); margin:0 0 14px; }
+        .template-tags { display:flex; flex-wrap:wrap; gap:6px; }
+        .template-tag { background:var(--c-surface-3); color:var(--c-text-muted); font-size:11px; padding:3px 9px; border-radius:6px; }
+      </style>
+      <div class="grid grid-2" style="gap:24px">
+
+        <!-- Landing Page -->
+        <div class="template-card reveal">
+          <div class="browser-mock">
+            <div class="browser-bar">
+              <span class="browser-dot r"></span><span class="browser-dot y"></span><span class="browser-dot g"></span>
+              <span class="browser-url">https://yourproduct.com</span>
+            </div>
+            <div class="browser-content" style="background:linear-gradient(160deg,#0a0f1e 0%,#0d1f3c 50%,#060c18 100%)">
+              <div style="padding:24px">
+                <div style="width:40%;height:6px;background:var(--c-accent-500);border-radius:3px;margin-bottom:10px;opacity:.8"></div>
+                <div style="width:70%;height:18px;background:rgba(255,255,255,.9);border-radius:3px;margin-bottom:8px"></div>
+                <div style="width:55%;height:18px;background:rgba(255,255,255,.6);border-radius:3px;margin-bottom:16px"></div>
+                <div style="width:45%;height:12px;background:rgba(255,255,255,.3);border-radius:2px;margin-bottom:20px"></div>
+                <div style="display:flex;gap:10px">
+                  <div style="width:120px;height:36px;background:var(--c-accent-500);border-radius:8px"></div>
+                  <div style="width:100px;height:36px;background:rgba(255,255,255,.1);border-radius:8px;border:1px solid rgba(255,255,255,.2)"></div>
+                </div>
+                <div style="position:absolute;right:24px;bottom:16px;width:110px;height:90px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:10px"></div>
+              </div>
+            </div>
+          </div>
+          <div class="template-info">
+            <div class="template-type">Landing Page</div>
+            <h3>SaaS / Product Launch</h3>
+            <p>Hero section + features + pricing + CTA. Tập trung vào conversion — mỗi phần tử đều có mục đích chuyển đổi rõ ràng.</p>
+            <div class="template-tags"><span class="template-tag">React / Next.js</span><span class="template-tag">Dark Mode</span><span class="template-tag">SEO Ready</span><span class="template-tag">Từ 5 triệu</span></div>
+          </div>
+        </div>
+
+        <!-- Business Website -->
+        <div class="template-card reveal">
+          <div class="browser-mock">
+            <div class="browser-bar">
+              <span class="browser-dot r"></span><span class="browser-dot y"></span><span class="browser-dot g"></span>
+              <span class="browser-url">https://yourbusiness.vn</span>
+            </div>
+            <div class="browser-content" style="background:#fff">
+              <div style="background:#1e40af;height:36px;display:flex;align-items:center;padding:0 16px;gap:12px">
+                <div style="width:60px;height:10px;background:rgba(255,255,255,.9);border-radius:2px"></div>
+                <div style="flex:1;display:flex;gap:12px;justify-content:flex-end">
+                  <div style="width:30px;height:8px;background:rgba(255,255,255,.5);border-radius:2px"></div>
+                  <div style="width:30px;height:8px;background:rgba(255,255,255,.5);border-radius:2px"></div>
+                  <div style="width:50px;height:20px;background:rgba(255,255,255,.2);border-radius:4px;border:1px solid rgba(255,255,255,.4)"></div>
+                </div>
+              </div>
+              <div style="padding:20px;background:#f8fafc">
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px">
+                  <div>
+                    <div style="width:80%;height:14px;background:#1e3a5f;border-radius:2px;margin-bottom:6px"></div>
+                    <div style="width:90%;height:8px;background:#94a3b8;border-radius:2px;margin-bottom:4px"></div>
+                    <div style="width:70%;height:8px;background:#94a3b8;border-radius:2px;margin-bottom:12px"></div>
+                    <div style="width:80px;height:28px;background:#1e40af;border-radius:6px"></div>
+                  </div>
+                  <div style="background:#e2e8f0;border-radius:8px;height:90px"></div>
+                </div>
+                <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px">
+                  <div style="background:#fff;border:1px solid #e2e8f0;border-radius:6px;height:50px;padding:8px"><div style="width:60%;height:6px;background:#cbd5e1;border-radius:2px;margin-bottom:4px"></div><div style="width:80%;height:6px;background:#e2e8f0;border-radius:2px"></div></div>
+                  <div style="background:#fff;border:1px solid #e2e8f0;border-radius:6px;height:50px;padding:8px"><div style="width:60%;height:6px;background:#cbd5e1;border-radius:2px;margin-bottom:4px"></div><div style="width:80%;height:6px;background:#e2e8f0;border-radius:2px"></div></div>
+                  <div style="background:#fff;border:1px solid #e2e8f0;border-radius:6px;height:50px;padding:8px"><div style="width:60%;height:6px;background:#cbd5e1;border-radius:2px;margin-bottom:4px"></div><div style="width:80%;height:6px;background:#e2e8f0;border-radius:2px"></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="template-info">
+            <div class="template-type">Website Doanh Nghiệp</div>
+            <h3>Corporate / Professional</h3>
+            <p>Header + hero + services + team + contact. Light theme chuyên nghiệp, đa ngôn ngữ, CMS dễ chỉnh sửa cho marketing team.</p>
+            <div class="template-tags"><span class="template-tag">WordPress / Next.js</span><span class="template-tag">i18n</span><span class="template-tag">CMS</span><span class="template-tag">Từ 10 triệu</span></div>
+          </div>
+        </div>
+
+        <!-- E-Commerce -->
+        <div class="template-card reveal">
+          <div class="browser-mock">
+            <div class="browser-bar">
+              <span class="browser-dot r"></span><span class="browser-dot y"></span><span class="browser-dot g"></span>
+              <span class="browser-url">https://yourshop.vn</span>
+            </div>
+            <div class="browser-content" style="background:#fafafa">
+              <div style="background:#111;height:32px;display:flex;align-items:center;padding:0 14px;justify-content:space-between">
+                <div style="width:60px;height:8px;background:#fff;border-radius:2px;opacity:.8"></div>
+                <div style="display:flex;gap:16px">
+                  <div style="width:16px;height:16px;background:rgba(255,255,255,.2);border-radius:3px"></div>
+                  <div style="width:16px;height:16px;background:rgba(255,255,255,.2);border-radius:3px"></div>
+                </div>
+              </div>
+              <div style="padding:12px;display:grid;grid-template-columns:repeat(3,1fr);gap:8px">
+                <div style="background:#fff;border:1px solid #e5e7eb;border-radius:6px;overflow:hidden">
+                  <div style="height:60px;background:linear-gradient(135deg,#f3f4f6,#e5e7eb)"></div>
+                  <div style="padding:8px"><div style="width:80%;height:6px;background:#374151;border-radius:2px;margin-bottom:4px"></div><div style="width:50%;height:8px;background:#ef4444;border-radius:2px;font-weight:bold"></div></div>
+                </div>
+                <div style="background:#fff;border:1px solid #e5e7eb;border-radius:6px;overflow:hidden">
+                  <div style="height:60px;background:linear-gradient(135deg,#fef3c7,#fde68a)"></div>
+                  <div style="padding:8px"><div style="width:70%;height:6px;background:#374151;border-radius:2px;margin-bottom:4px"></div><div style="width:50%;height:8px;background:#ef4444;border-radius:2px"></div></div>
+                </div>
+                <div style="background:#fff;border:1px solid #e5e7eb;border-radius:6px;overflow:hidden">
+                  <div style="height:60px;background:linear-gradient(135deg,#e0f2fe,#bae6fd)"></div>
+                  <div style="padding:8px"><div style="width:75%;height:6px;background:#374151;border-radius:2px;margin-bottom:4px"></div><div style="width:50%;height:8px;background:#ef4444;border-radius:2px"></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="template-info">
+            <div class="template-type">E-Commerce</div>
+            <h3>Online Shop / WooCommerce</h3>
+            <p>Product listing, cart, checkout tích hợp VNPAY/MoMo/ZaloPay. Quản lý kho, đơn hàng, khách hàng từ 1 dashboard admin.</p>
+            <div class="template-tags"><span class="template-tag">WooCommerce</span><span class="template-tag">VNPAY / MoMo</span><span class="template-tag">Quản lý kho</span><span class="template-tag">Từ 15 triệu</span></div>
+          </div>
+        </div>
+
+        <!-- Dashboard / SaaS -->
+        <div class="template-card reveal">
+          <div class="browser-mock">
+            <div class="browser-bar">
+              <span class="browser-dot r"></span><span class="browser-dot y"></span><span class="browser-dot g"></span>
+              <span class="browser-url">https://app.yourproduct.com/dashboard</span>
+            </div>
+            <div class="browser-content" style="background:#0f172a;display:grid;grid-template-columns:52px 1fr">
+              <div style="background:#1e293b;border-right:1px solid #334155;padding:12px 8px;display:flex;flex-direction:column;gap:10px">
+                <div style="width:32px;height:32px;background:var(--c-accent-500);border-radius:8px"></div>
+                <div style="width:28px;height:4px;background:#334155;border-radius:2px"></div>
+                <div style="width:28px;height:4px;background:#334155;border-radius:2px"></div>
+                <div style="width:28px;height:4px;background:#334155;border-radius:2px"></div>
+                <div style="width:28px;height:4px;background:#334155;border-radius:2px"></div>
+              </div>
+              <div style="padding:12px">
+                <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:10px">
+                  <div style="background:#1e293b;border:1px solid #334155;border-radius:6px;padding:8px"><div style="font-size:10px;color:#64748b;margin-bottom:2px">Revenue</div><div style="width:60%;height:10px;background:#0090e8;border-radius:2px"></div></div>
+                  <div style="background:#1e293b;border:1px solid #334155;border-radius:6px;padding:8px"><div style="font-size:10px;color:#64748b;margin-bottom:2px">Users</div><div style="width:45%;height:10px;background:#10b981;border-radius:2px"></div></div>
+                  <div style="background:#1e293b;border:1px solid #334155;border-radius:6px;padding:8px"><div style="font-size:10px;color:#64748b;margin-bottom:2px">Orders</div><div style="width:70%;height:10px;background:#f59e0b;border-radius:2px"></div></div>
+                </div>
+                <div style="background:#1e293b;border:1px solid #334155;border-radius:6px;padding:8px;height:80px;display:flex;align-items:flex-end;gap:4px">
+                  <div style="flex:1;height:60%;background:rgba(0,144,232,.3);border-radius:2px 2px 0 0"></div>
+                  <div style="flex:1;height:80%;background:rgba(0,144,232,.5);border-radius:2px 2px 0 0"></div>
+                  <div style="flex:1;height:45%;background:rgba(0,144,232,.3);border-radius:2px 2px 0 0"></div>
+                  <div style="flex:1;height:90%;background:var(--c-accent-500);border-radius:2px 2px 0 0"></div>
+                  <div style="flex:1;height:70%;background:rgba(0,144,232,.4);border-radius:2px 2px 0 0"></div>
+                  <div style="flex:1;height:55%;background:rgba(0,144,232,.3);border-radius:2px 2px 0 0"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="template-info">
+            <div class="template-type">Dashboard / SaaS</div>
+            <h3>Admin Panel / Analytics</h3>
+            <p>Sidebar navigation, KPI cards, biểu đồ real-time, phân quyền role-based. CRM nội bộ, quản lý nhân sự, hoặc SaaS platform.</p>
+            <div class="template-tags"><span class="template-tag">React + Chart.js</span><span class="template-tag">Role-based auth</span><span class="template-tag">Export PDF</span><span class="template-tag">Từ 20 triệu</span></div>
+          </div>
+        </div>
+
+      </div>
+      <div style="text-align:center;margin-top:32px">
+        <p style="color:var(--c-text-muted);font-size:var(--text-sm);margin-bottom:16px">Muốn tham khảo website thực tế EO đã làm?</p>
+        <a href="../portfolio.html" class="btn btn-secondary">Xem Portfolio →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
     <div class="container">
       <div class="section-head"><span class="eyebrow">FAQ</span><h2 class="section-title">Câu hỏi về Web Development</h2></div>
       <div class="faq-list" style="max-width:720px;margin:0 auto">
@@ -270,7 +456,7 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand"><a href="../index.html" class="brand"><img src="../image/logo.png" alt="EO Technology" width="32" height="32"><span style="font-weight:800;font-size:18px;color:#fff">EO Technology</span></a><p>Giải pháp công nghệ toàn diện — Web, Cloud, AI, Game.</p><div class="footer-social"><a href="https://t.me/eoiovn" aria-label="Telegram" target="_blank" rel="noopener">✈️</a></div></div>
-      <nav class="footer-col"><h4>Dịch Vụ</h4><a href="hosting.html">Hosting</a><a href="cloud.html">Cloud</a><a href="vps.html">VPS</a><a href="web-development.html">Web Development</a><a href="ai-solutions.html">AI Solutions</a></nav>
+      <nav class="footer-col"><h4>Dịch Vụ</h4><a href="hosting.html">Hosting</a><a href="hosting.html">Cloud Hosting</a><a href="vps.html">VPS</a><a href="web-development.html">Web Development</a><a href="ai-solutions.html">AI Solutions</a></nav>
       <nav class="footer-col"><h4>Công Ty</h4><a href="../about.html">Về Chúng Tôi</a><a href="../portfolio.html">Portfolio</a><a href="../pricing.html">Bảng Giá</a><a href="../blog.html">Blog</a></nav>
       <div class="footer-col"><h4>Liên Hệ</h4><a href="../contact.html">Liên Hệ</a><a href="https://t.me/eoiovn" target="_blank" rel="noopener">t.me/eoiovn</a><a href="mailto:cramenk@gmail.com">cramenk@gmail.com</a><a href="../privacy-policy.html">Chính Sách Bảo Mật</a></div>
     </div>
