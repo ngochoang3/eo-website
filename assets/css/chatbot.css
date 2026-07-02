@@ -1,4 +1,4 @@
-/*! EO Studio Chatbot — widget styling (ChatGPT-like, MMORPG dark theme) */
+/*! EO Technology Chatbot — widget styling */
 #eo-chat-widget {
   --eo-bg: #0c1730;
   --eo-bg-alt: #142544;
@@ -8,7 +8,7 @@
   --eo-bubble-bot: #1c2c4f;
   --eo-border: rgba(255,255,255,.08);
   position: fixed;
-  z-index: 2000;
+  z-index: 10002;   /* above Tawk.to (uses ~9999999 via iframe, but container is lower) */
   right: 24px;
   bottom: 24px;
   font-family: var(--font-body, "Nunito", sans-serif);
@@ -27,7 +27,7 @@
   background: var(--grad-brand, linear-gradient(135deg,#6BD968,#4CC9F0));
   border: none; color: #fff; font-size: 26px; cursor: pointer;
   box-shadow: 0 12px 28px rgba(0,0,0,.35);
-  display: flex; align-items: center; justify-content: center;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1px;
   transition: transform .25s cubic-bezier(.22,1,.36,1);
   animation: eo-bubble-pulse 2.6s ease-in-out infinite;
 }
@@ -84,8 +84,9 @@
 }
 .eo-chat-msg-user .eo-chat-msg-bubble { background: var(--eo-bubble-user); color: #fff; border-bottom-right-radius: 4px; }
 .eo-chat-msg-bot .eo-chat-msg-bubble { background: var(--eo-bubble-bot); color: var(--eo-text); border-bottom-left-radius: 4px; }
-.eo-streaming::after { content: "▌"; animation: eo-caret-blink 1s steps(1) infinite; }
-@keyframes eo-caret-blink { 50% { opacity: 0; } }
+.eo-chat-sources { margin-top: 8px; font-size: 12px; opacity: .7; }
+.eo-chat-sources a { color: #4CC9F0; text-decoration: none; }
+.eo-chat-sources a:hover { text-decoration: underline; }
 
 .eo-chat-typing {
   display: flex; gap: 4px; padding: 0 16px 10px;
@@ -113,34 +114,19 @@
 }
 .eo-chat-send-btn:hover { transform: scale(1.06); }
 
-.eo-chat-admin {
-  position: absolute; inset: 0; background: var(--eo-bg); padding: 16px; overflow-y: auto;
-}
-.eo-chat-admin h4 { margin: 0 0 8px; font-family: var(--font-display, inherit); }
-.eo-chat-admin-stats { font-size: 12.5px; color: var(--eo-text-dim); margin-bottom: 14px; }
-.eo-chat-admin-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 14px; }
-.eo-chat-admin-actions .btn { font-size: 12.5px; padding: 8px 10px; }
-.eo-chat-admin-log {
-  font-size: 11px; background: var(--eo-bg-alt); border-radius: 10px; padding: 10px;
-  max-height: 320px; overflow-y: auto; white-space: pre-wrap; color: var(--eo-text-dim);
-}
-
 /* ===== FLOATING BUTTON STACK (bottom-right, from bottom up) ===
-   Pages with FULL chatbot (chat-ui.js loaded → body.has-eo-chatbot):
-     [1] AI Chatbot  — bottom: 24px  (60×60, gradient green/cyan)
-     [2] Tawk trigger— bottom: 104px (56×56, solid blue)
-     [3] Back-to-top — bottom: 180px (44×44, accent)
-   Pages with chatbot.css only (blog pages — no AI widget):
-     [1] Tawk native — bottom: ~20px
-     [2] Back-to-top — bottom: 100px
+   Desktop — body.has-eo-chatbot:
+     [1] AI Chatbot  — bottom: 24px  (60×60)
+     [2] Tawk trigger— bottom: 104px (56×56)
+     [3] Back-to-top — bottom: 180px
+   Desktop — blog/no-chatbot pages:
+     [1] Back-to-top — bottom: 100px
 ================================================================ */
 
-/* 2-button layout (blog/contact-success: chatbot.css loaded, no AI widget) */
 .back-to-top { bottom: 100px; }
-/* 3-button layout (full chatbot pages) */
 body.has-eo-chatbot .back-to-top { bottom: 180px; }
 
-/* AI bubble label ("AI") inside the existing bubble */
+/* AI bubble label */
 .eo-chat-bubble-label {
   display: block;
   font-size: 8px; font-weight: 800; letter-spacing: .06em;
@@ -151,7 +137,7 @@ body.has-eo-chatbot .back-to-top { bottom: 180px; }
 #eo-tawk-trigger {
   position: fixed;
   right: 20px; bottom: 104px;
-  z-index: 1900;
+  z-index: 10000;   /* above Tawk native, below our widget */
   width: 56px; height: 56px; border-radius: 50%;
   background: #1565c0;
   color: #fff; border: none; cursor: pointer;
@@ -164,7 +150,6 @@ body.has-eo-chatbot .back-to-top { bottom: 180px; }
 #eo-tawk-trigger:hover { transform: scale(1.08); box-shadow: 0 8px 28px rgba(21,101,192,.6); }
 #eo-tawk-trigger .eo-tawk-icon { font-size: 22px; line-height: 1; }
 #eo-tawk-trigger .eo-tawk-label { font-size: 8px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; line-height: 1; }
-/* Tooltip on hover (desktop) */
 #eo-tawk-trigger::before {
   content: 'Tư vấn trực tiếp';
   position: absolute; right: calc(100% + 10px); top: 50%; transform: translateY(-50%);
@@ -174,17 +159,88 @@ body.has-eo-chatbot .back-to-top { bottom: 180px; }
 }
 #eo-tawk-trigger:hover::before { opacity: 1; }
 
+/* ===== SPEED-DIAL (hidden by default, shows on ≤390px) ===== */
+#eo-speed-dial {
+  display: none;
+  position: fixed;
+  right: 14px;
+  bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+  z-index: 10001;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+.eo-speed-options {
+  display: flex; flex-direction: column; align-items: flex-end; gap: 8px;
+  max-height: 0; opacity: 0; overflow: hidden; pointer-events: none;
+  transition: max-height .3s cubic-bezier(.22,1,.36,1), opacity .25s;
+}
+#eo-speed-dial.eo-speed-open .eo-speed-options {
+  max-height: 200px; opacity: 1; pointer-events: auto;
+}
+.eo-speed-item { display: flex; align-items: center; gap: 8px; }
+.eo-speed-item-label {
+  background: rgba(0,0,0,.72); color: #fff;
+  font-size: 11px; font-weight: 600; letter-spacing: .02em;
+  padding: 4px 10px; border-radius: 6px; white-space: nowrap;
+  font-family: var(--font-body, "Nunito", sans-serif);
+}
+.eo-speed-item-btn {
+  width: 48px; height: 48px; border-radius: 50%;
+  border: none; cursor: pointer; color: #fff;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1px;
+  box-shadow: 0 4px 16px rgba(0,0,0,.3); font-size: 18px;
+  transition: transform .2s;
+}
+.eo-speed-item-btn:active { transform: scale(.92); }
+.eo-speed-ai-btn { background: var(--grad-brand, linear-gradient(135deg,#6BD968,#4CC9F0)); }
+.eo-speed-live-btn { background: #1565c0; }
+.eo-speed-btn-lbl { font-size: 7px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; line-height: 1; }
+.eo-speed-main {
+  width: 56px; height: 56px; border-radius: 50%;
+  background: var(--grad-brand, linear-gradient(135deg,#6BD968,#4CC9F0));
+  border: none; color: #fff; font-size: 22px; cursor: pointer;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.35);
+  transition: transform .3s cubic-bezier(.22,1,.36,1);
+}
+.eo-speed-main.eo-speed-open { transform: rotate(45deg); }
+.eo-speed-main-lbl { font-size: 7px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; line-height: 1; }
+
+/* ===== MOBILE ≤640px ===== */
 @media (max-width: 640px) {
-  #eo-chat-widget { right: 14px; bottom: 14px; }
-  #eo-tawk-trigger { right: 14px; bottom: 86px; width: 50px; height: 50px; }
+  #eo-chat-widget {
+    right: 14px;
+    bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+  }
+  #eo-tawk-trigger {
+    right: 14px;
+    bottom: calc(88px + env(safe-area-inset-bottom, 0px));
+    width: 50px; height: 50px;
+  }
   #eo-tawk-trigger .eo-tawk-icon { font-size: 20px; }
   #eo-tawk-trigger::before { display: none; }
   #eo-chat-panel {
-    width: 100vw; height: 100vh; max-height: 100vh;
+    /* Use dvh so browser chrome doesn't clip content */
+    width: 100vw; height: 100dvh; max-height: 100dvh;
     position: fixed; inset: 0; right: auto; bottom: auto; border-radius: 0;
   }
-  .back-to-top { bottom: 82px; }
-  body.has-eo-chatbot .back-to-top { bottom: 150px; }
+  .back-to-top { bottom: calc(82px + env(safe-area-inset-bottom, 0px)); }
+  body.has-eo-chatbot .back-to-top { bottom: calc(152px + env(safe-area-inset-bottom, 0px)); }
+}
+
+/* ===== VERY SMALL SCREENS ≤390px — speed-dial replaces individual buttons ===== */
+@media (max-width: 390px) {
+  /* Hide individual AI bubble and Tawk trigger; chat panel still works via JS */
+  #eo-chat-bubble { display: none !important; }
+  #eo-tawk-trigger { display: none !important; }
+  /* Show combined speed-dial */
+  #eo-speed-dial { display: flex; }
+  /* Move back-to-top above speed-dial fully-open height (~185px) */
+  .back-to-top,
+  body.has-eo-chatbot .back-to-top {
+    bottom: calc(82px + env(safe-area-inset-bottom, 0px));
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

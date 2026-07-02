@@ -1,4 +1,4 @@
-/*! EO Technology Chatbot — gọi /api/search, không dùng KnowledgeBase game */
+/*! EO Technology Chatbot — gọi /api/search, speed-dial mobile ≤390px */
 (function (global) {
   "use strict";
 
@@ -76,7 +76,7 @@
     // Mark body so CSS can apply 3-button positioning
     document.body.classList.add("has-eo-chatbot");
 
-    // Tawk.to custom trigger — positioned middle of stack (bottom: 104px)
+    // ── Tawk.to custom trigger (middle of stack, bottom: 104px desktop / 88px mobile) ──
     var tawkTrigger = el("button", {
       id: "eo-tawk-trigger",
       "aria-label": "Tư vấn trực tiếp với nhân viên",
@@ -88,15 +88,16 @@
     ]);
     document.body.appendChild(tawkTrigger);
 
-    tawkTrigger.addEventListener("click", function () {
+    function tawkToggle() {
       if (window.Tawk_API && typeof window.Tawk_API.toggle === "function") {
         window.Tawk_API.toggle();
       } else if (window.Tawk_API && typeof window.Tawk_API.maximize === "function") {
         window.Tawk_API.maximize();
       }
-    });
+    }
+    tawkTrigger.addEventListener("click", tawkToggle);
 
-    // Hide native Tawk.to bubble so our custom button takes its place
+    // ── Tawk.to: hide native bubble, retry up to 5× in case of async load ──
     window.Tawk_API = window.Tawk_API || {};
     (function () {
       var _prev = window.Tawk_API.onLoad;
@@ -105,20 +106,54 @@
         if (typeof _prev === "function") _prev();
       };
     })();
+    // Fallback retry loop — hides widget even if onLoad already fired before our hook
+    var _tawkRetries = 0;
+    var _tawkRetryTimer = setInterval(function () {
+      if (window.Tawk_API && typeof window.Tawk_API.hideWidget === "function") {
+        window.Tawk_API.hideWidget();
+      }
+      if (++_tawkRetries >= 5) clearInterval(_tawkRetryTimer);
+    }, 800);
 
-    return { root: root, bubble: bubble, panel: panel, messages: messages, typing: typing, form: form };
-  }
+    // ── Speed-dial for very small screens ≤390px ──
+    var speedOptions = el("div", { class: "eo-speed-options" }, [
+      el("div", { class: "eo-speed-item" }, [
+        el("span", { class: "eo-speed-item-label", html: "Hỏi AI" }),
+        el("button", { type: "button", class: "eo-speed-item-btn eo-speed-ai-btn", id: "eo-speed-ai-btn", "aria-label": "Mở AI chatbot" }, [
+          el("span", { html: "💬" }),
+          el("span", { class: "eo-speed-btn-lbl", html: "AI" })
+        ])
+      ]),
+      el("div", { class: "eo-speed-item" }, [
+        el("span", { class: "eo-speed-item-label", html: "Tư vấn trực tiếp" }),
+        el("button", { type: "button", class: "eo-speed-item-btn eo-speed-live-btn", id: "eo-speed-live-btn", "aria-label": "Live chat nhân viên" }, [
+          el("span", { html: "👤" }),
+          el("span", { class: "eo-speed-btn-lbl", html: "Live" })
+        ])
+      ])
+    ]);
+    var speedMainBtn = el("button", { type: "button", class: "eo-speed-main", id: "eo-speed-main-btn", "aria-label": "Mở menu hỗ trợ" }, [
+      el("span", { class: "eo-speed-main-icon", html: "💬" }),
+      el("span", { class: "eo-speed-main-lbl", html: "Hỗ trợ" })
+    ]);
+    var speedDial = el("div", { id: "eo-speed-dial" });
+    speedDial.appendChild(speedOptions);
+    speedDial.appendChild(speedMainBtn);
+    document.body.appendChild(speedDial);
 
-  function renderAnswer(html) {
-    // The backend may return HTML links — keep them; escape plain text from user
-    return html;
+    return {
+      root: root, bubble: bubble, panel: panel,
+      messages: messages, typing: typing, form: form,
+      speedDial: speedDial, speedMainBtn: speedMainBtn,
+      tawkToggle: tawkToggle
+    };
   }
 
   function appendMessage(ui, role, html) {
     var wrapper = el("div", { class: "eo-chat-msg eo-chat-msg-" + role });
     var bubble = el("div", { class: "eo-chat-msg-bubble" });
     if (role === "bot") {
-      bubble.innerHTML = renderAnswer(html);
+      bubble.innerHTML = html;
     } else {
       bubble.textContent = html;
     }
@@ -148,6 +183,7 @@
     }
     function closePanel() { ui.root.classList.remove("eo-chat-open"); }
 
+    // Regular bubble (desktop / tablets ≥391px)
     ui.bubble.addEventListener("click", function () {
       ui.root.classList.contains("eo-chat-open") ? closePanel() : openPanel();
     });
@@ -159,6 +195,37 @@
       try { localStorage.setItem(THEME_STORAGE_KEY, next); } catch (e) {}
     });
 
+    // ── Speed-dial handlers (mobile ≤390px) ──
+    function closeSpeedDial() {
+      ui.speedDial.classList.remove("eo-speed-open");
+      ui.speedMainBtn.classList.remove("eo-speed-open");
+      var icon = ui.speedMainBtn.querySelector(".eo-speed-main-icon");
+      if (icon) icon.textContent = "💬";
+    }
+
+    document.getElementById("eo-speed-main-btn").addEventListener("click", function () {
+      var isOpen = ui.speedDial.classList.contains("eo-speed-open");
+      if (isOpen) {
+        closeSpeedDial();
+      } else {
+        ui.speedDial.classList.add("eo-speed-open");
+        ui.speedMainBtn.classList.add("eo-speed-open");
+        var icon = ui.speedMainBtn.querySelector(".eo-speed-main-icon");
+        if (icon) icon.textContent = "✕";
+      }
+    });
+
+    document.getElementById("eo-speed-ai-btn").addEventListener("click", function () {
+      closeSpeedDial();
+      openPanel();
+    });
+
+    document.getElementById("eo-speed-live-btn").addEventListener("click", function () {
+      closeSpeedDial();
+      ui.tawkToggle();
+    });
+
+    // ── Chat form submit → POST /api/search ──
     ui.form.addEventListener("submit", async function (e) {
       e.preventDefault();
       var input = document.getElementById("eo-chat-input");
@@ -188,7 +255,7 @@
         var answerHtml = (data.answer || "Không có dữ liệu").replace(/\n/g, "<br>");
 
         if (data.sources && data.sources.length > 0) {
-          answerHtml += '<div class="eo-chat-sources">';
+          answerHtml += '<div class="eo-chat-sources">📎 ';
           answerHtml += data.sources.map(function (s) {
             return '<a href="' + s.url + '" target="_blank" rel="noopener">' + s.title + '</a>';
           }).join(" · ");
