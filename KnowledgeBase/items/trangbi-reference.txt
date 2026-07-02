@@ -1,1 +1,0 @@
-Xem F:\unitygame\trangbi.txt — bậc màu + chuyển sinh đã map trong EquipmentRarity / EquipmentRarityUtility / PlayerReincarnationTier.
