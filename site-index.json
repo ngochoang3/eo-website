@@ -2,21 +2,125 @@
   {
     "title": "Giải Pháp Công Nghệ Toàn Diện | Web · Cloud · AI · Game",
     "url": "https://eo.io.vn/",
-    "content": "EO Technology - Giải Pháp Công Nghệ Toàn Diện | Web · Cloud · AI · Game Bỏ qua đến nội dung chính Đối tác công nghệ toàn cầu Công nghệ vận hành. Ý tưởng bứt phá. Web Development · Cloud Hosting · Game Development · AI Solutions — Một đội ngũ. Toàn bộ hành trình công nghệ của bạn. Tư vấn miễn phí → Xem Portfolio Không cam kết. Không áp lực. Chỉ cần 30 phút. Dịch vụ Giải pháp công nghệ cho mọi quy mô Từ startup đến doanh nghiệp — chúng tôi có giải pháp phù hợp với từng giai đoạn phát triển của bạn. 🖥️ Web Hosting Tốc độ cao, SSL miễn phí, backup tự động. Chạy yên tâm không lo hạ tầng. Tìm hiểu thêm → ☁️ Cloud Linh hoạt, scale tự động, thanh toán đúng mức dùng. Không waste budget. Tìm hiểu thêm → ⚡ VPS Root access đầy đủ, NVMe SSD, cài bất kỳ stack nào bạn cần. Tìm hiểu thêm → 🌐 Web Development Landing page chuyển đổi cao đến hệ thống quản lý phức tạp. Tìm hiểu thêm → 📱 Mobile App iOS & Android, native performance. 1 codebase, 2 platform. Tìm hiểu thêm → 🎮 Game Development Unity, Backend, LiveOps. Cloud Ball là minh chứng chúng tôi build game thực sự. Tìm hiểu thêm → 🤖 AI Solutions Chatbot, RAG, tự động hóa workflow. Không cần thay toàn bộ hệ thống. Tìm hiểu thêm → 💼 SaaS Platform Xây sản phẩm phần mềm bán subscription — từ ý tưởng đến MRR. Tìm hiểu thêm → Tại sao chọn EO Một đội ngũ. Không giới hạn giải pháp. Chúng tôi không outsource. Mọi dự án đều được thực hiện bởi đội ngũ in-house, với trách nhiệm rõ ràng và giao tiếp trực tiếp. ⚡ Phản hồi trong 2 giờ làm việc Không mất tăm sau khi chốt hợp đồng 💰 Chi phí minh bạch từ đầu Không phát sinh ẩn khi đến giai đoạn cuối 🔑 Code ownership 100% thuộc về bạn Bàn giao đầy đủ, không lock-in nhà cung cấp 🛡️ Cam kết SLA 99.9% uptime Hỗ trợ sau bàn giao không giới hạn 🎮 Sản phẩm thực sự của chính mình Cloud Ball & EO Sales Chat — chứng minh năng lực product eo-deploy — bash $ eo deploy --prod --region vn-sg ✓ Build: 2.4s ✓ Deploy: 8 edge locations ✓ SSL: Active ✓ CDN: Purged ✓ Backup: Scheduled daily 🟢 Live at eo.io.vn Response: 94ms · Score: 99/100 Công nghệ Stack hiện đại, được thế giới kiểm chứng Frontend Backend Infrastructure AI & Data ⚛️ React ▲ Next.js 📘 TypeScript 🎨 TailwindCSS 💚 Vue.js 🕹️ Unity 📦 PWA 🌐 WebGL 🟩 Node.js 🐹 Go 🐘 PHP 🐍 Python #️⃣ C# 🗄️ PostgreSQL 🔴 Redis 🍃 MongoDB 🔶 Cloudflare 🐳 Docker 🌿 Nginx 🔧 GitHub Actions 🐧 Linux 🔥 Firebase 🌩️ AWS 🧠 Claude API ✨ OpenAI API 🦜 LangChain 📊 Vector DB 🔍 RAG 🤗 HuggingFace Portfolio Những gì chúng tôi đã build Từ game mobile đến hệ thống bán hàng — sản phẩm thực sự, vận hành thực sự. Unity C# Firebase Game Dev Cloud Ball MMORPG Slime Fantasy mobile với 17 vùng đất, PvP, Guild và hệ thống LiveOps đầy đủ. 2023 – 2025 Xem chi tiết → 💬 Firebase SaaS Mobile App EO Sales Chat Hệ thống chat bán hàng 2 ứng dụng (shop + khách hàng). Cloud Functions, realtime, bảo mật. 2024 – 2025 Xem chi tiết → 🚀 Sắp ra mắt Dự án mới Đang phát triển — theo dõi để cập nhật sớm nhất. 2025 – 2026 Xem tất cả → Xem toàn bộ Portfolio → Quy trình Cách c",
-    "summary": "EO Technology - Giải Pháp Công Nghệ Toàn Diện | Web · Cloud · AI · Game Bỏ qua đến nội dung chính Đối tác công nghệ toàn cầu Công nghệ vận hành. Ý tưởng bứt phá. Web Development · Cloud Hosting · Game Development · AI Solutions — Một đội ngũ. Toàn bộ hành trình công nghệ của bạn.…",
+    "summary": "EO Technology cung cấp những dịch vụ gì?: EO Technology cung cấp đầy đủ: Web Hosting, VPS, Cloud Infrastructure, Web Development, Mobile App (iOS & Android), Game Development (Unity), AI Solutions và SaaS Platform Development. Tất cả do đội ngũ…",
     "tags": [
       "trang chủ",
       "eo technology",
       "giới thiệu",
       "dịch vụ",
       "web cloud ai game"
+    ],
+    "entries": [
+      {
+        "heading": "EO Technology cung cấp những dịch vụ gì?",
+        "text": "EO Technology cung cấp những dịch vụ gì?: EO Technology cung cấp đầy đủ: Web Hosting, VPS, Cloud Infrastructure, Web Development, Mobile App (iOS & Android), Game Development (Unity), AI Solutions và SaaS Platform Development. Tất cả do đội ngũ in-house thực hiện, không outsource."
+      },
+      {
+        "heading": "Thời gian phản hồi tư vấn là bao lâu?",
+        "text": "Thời gian phản hồi tư vấn là bao lâu?: Chúng tôi cam kết phản hồi trong 2 giờ làm việc (8h–18h, Thứ Hai đến Thứ Sáu). Ngoài giờ hoặc cuối tuần có thể liên hệ qua Telegram để nhận hỗ trợ nhanh hơn."
+      },
+      {
+        "heading": "Chi phí hosting/VPS tính theo mô hình nào?",
+        "text": "Chi phí hosting/VPS tính theo mô hình nào?: Thanh toán theo tháng hoặc năm (giảm giá khi thanh toán năm). Không có chi phí setup ẩn. Bạn chỉ trả cho những gì thực sự sử dụng. Xem chi tiết tại trang Bảng Giá."
+      },
+      {
+        "heading": "Dự án web có được bảo hành sau khi bàn giao không?",
+        "text": "Dự án web có được bảo hành sau khi bàn giao không?: Có. Tất cả dự án được hỗ trợ không giới hạn thời gian cho các lỗi kỹ thuật phát sinh từ code chúng tôi viết. Các yêu cầu thay đổi tính năng mới sẽ được báo giá riêng."
+      },
+      {
+        "heading": "Có thể tư vấn miễn phí trước khi quyết định không?",
+        "text": "Có thể tư vấn miễn phí trước khi quyết định không?: Hoàn toàn có. Chúng tôi cung cấp buổi tư vấn 30 phút miễn phí qua Zalo/Telegram/Zoom để lắng nghe nhu cầu và đề xuất giải pháp. Không cam kết, không áp lực."
+      },
+      {
+        "heading": "Cloud Ball — game cũ của EO Studio — vẫn có thể chơi không?",
+        "text": "Cloud Ball — game cũ của EO Studio — vẫn có thể chơi không?: Có. Cloud Ball vẫn được phát triển và vận hành, hiện là sản phẩm game chính thức của EO Technology. Bạn có thể tìm thấy thông tin đầy đủ trong mục Portfolio."
+      },
+      {
+        "heading": "Giải pháp công nghệ cho mọi quy mô",
+        "text": "Giải pháp công nghệ cho mọi quy mô: Từ startup đến doanh nghiệp — chúng tôi có giải pháp phù hợp với từng giai đoạn phát triển của bạn. 🖥️"
+      },
+      {
+        "heading": "Web Hosting",
+        "text": "Web Hosting: Tốc độ cao, SSL miễn phí, backup tự động. Chạy yên tâm không lo hạ tầng. Tìm hiểu thêm → ☁️"
+      },
+      {
+        "heading": "VPS",
+        "text": "VPS: Root access đầy đủ, NVMe SSD, cài bất kỳ stack nào bạn cần. Tìm hiểu thêm → 🌐"
+      },
+      {
+        "heading": "Web Development",
+        "text": "Web Development: Landing page chuyển đổi cao đến hệ thống quản lý phức tạp. Tìm hiểu thêm → 📱"
+      },
+      {
+        "heading": "Mobile App",
+        "text": "Mobile App: iOS & Android, native performance. 1 codebase, 2 platform. Tìm hiểu thêm → 🎮"
+      },
+      {
+        "heading": "Game Development",
+        "text": "Game Development: Unity, Backend, LiveOps. Cloud Ball là minh chứng chúng tôi build game thực sự. Tìm hiểu thêm → 🤖"
+      },
+      {
+        "heading": "AI Solutions",
+        "text": "AI Solutions: Chatbot, RAG, tự động hóa workflow. Không cần thay toàn bộ hệ thống. Tìm hiểu thêm → 💼"
+      },
+      {
+        "heading": "SaaS Platform",
+        "text": "SaaS Platform: Xây sản phẩm phần mềm bán subscription — từ ý tưởng đến MRR. Tìm hiểu thêm →"
+      },
+      {
+        "heading": "Một đội ngũ.Không giới hạn giải pháp.",
+        "text": "Một đội ngũ.Không giới hạn giải pháp.: Chúng tôi không outsource. Mọi dự án đều được thực hiện bởi đội ngũ in-house, với trách nhiệm rõ ràng và giao tiếp trực tiếp. ⚡ Phản hồi trong 2 giờ làm việc Không mất tăm sau khi chốt hợp đồng 💰 Chi phí minh bạch từ đầu Không phát sinh ẩn khi đến giai đoạn cuối 🔑 Code ownership 100% thuộc về bạn Bàn giao đầy đủ, không lock-in nhà cung cấp 🛡️ Ca"
+      },
+      {
+        "heading": "Stack hiện đại, được thế giới kiểm chứng",
+        "text": "Stack hiện đại, được thế giới kiểm chứng: Frontend Backend Infrastructure AI & Data ⚛️React ▲Next.js 📘TypeScript 🎨TailwindCSS 💚Vue.js 🕹️Unity 📦PWA 🌐WebGL 🟩Node.js 🐹Go 🐘PHP 🐍Python #️⃣C# 🗄️PostgreSQL 🔴Redis 🍃MongoDB 🔶Cloudflare 🐳Docker 🌿Nginx 🔧GitHub Actions 🐧Linux 🔥Firebase 🌩️AWS 🧠Claude API ✨OpenAI API 🦜LangChain 📊Vector DB 🔍RAG 🤗HuggingFace"
+      },
+      {
+        "heading": "Những gì chúng tôi đã build",
+        "text": "Những gì chúng tôi đã build: Từ game mobile đến hệ thống bán hàng — sản phẩm thực sự, vận hành thực sự. Unity C# Firebase Game Dev"
+      },
+      {
+        "heading": "EO Sales Chat",
+        "text": "EO Sales Chat: Hệ thống chat bán hàng 2 ứng dụng (shop + khách hàng). Cloud Functions, realtime, bảo mật. 2024 – 2025 Xem chi tiết →"
+      },
+      {
+        "heading": "Dự án mới",
+        "text": "Dự án mới: Đang phát triển — theo dõi để cập nhật sớm nhất. 2025 – 2026 Xem tất cả →"
+      },
+      {
+        "heading": "Cách chúng tôi làm việc",
+        "text": "Cách chúng tôi làm việc: Minh bạch từ ngày đầu đến khi sản phẩm ra mắt và vận hành. 01 Tư vấn Lắng nghe, phân tích, đề xuất 02 Thiết kế UI/UX, Architecture 03 Phát triển Agile, weekly demo 04 Kiểm thử QA, performance, security 05 Triển khai Deploy, CI/CD, monitor 06 Hỗ trợ Bảo trì, cập nhật dài hạn"
+      },
+      {
+        "heading": "Kiến thức & Cập nhật",
+        "text": "Kiến thức & Cập nhật: Chia sẻ kinh nghiệm thực chiến về web development, cloud, AI và game development. ☁️ Cloud"
+      },
+      {
+        "heading": "Khi nào nên dùng VPS thay vì Shared Hosting?",
+        "text": "Khi nào nên dùng VPS thay vì Shared Hosting?: Phân tích chi tiết khi nào bạn cần nâng cấp lên VPS và cách chọn cấu hình phù hợp. 15/06/20255 phút đọc"
+      },
+      {
+        "heading": "Tích hợp RAG vào hệ thống chatbot cho doanh nghiệp",
+        "text": "Tích hợp RAG vào hệ thống chatbot cho doanh nghiệp: Hướng dẫn thực tế xây chatbot AI đọc knowledge base riêng, không dùng API đắt tiền. 10/06/20258 phút đọc"
+      },
+      {
+        "heading": "Kiến trúc LiveOps cho mobile game Unity",
+        "text": "Kiến trúc LiveOps cho mobile game Unity: Bài học từ Cloud Ball: cách thiết kế hệ thống sự kiện, điều chỉnh game real-time không cần update app. 05/06/202510 phút đọc"
+      },
+      {
+        "heading": "Câu hỏi thường gặp",
+        "text": "Câu hỏi thường gặp: EO Technology cung cấp những dịch vụ gì? EO Technology cung cấp đầy đủ: Web Hosting, VPS, Cloud Infrastructure, Web Development, Mobile App (iOS & Android), Game Development (Unity), AI Solutions và SaaS Platform Development. Tất cả do đội ngũ in-house thực hiện, không outsource. Thời gian phản hồi tư vấn là bao lâu? Chúng tôi cam kết phản hồi tron"
+      },
+      {
+        "heading": "Sẵn sàng xây dựng cùng nhau?",
+        "text": "Sẵn sàng xây dựng cùng nhau?: Đặt lịch tư vấn miễn phí 30 phút. Chúng tôi sẽ lắng nghe và đề xuất giải pháp phù hợp nhất cho bạn. Đặt lịch tư vấn ngay → ✈️ Telegram"
+      }
     ]
   },
   {
     "title": "Cloud Hosting Tốc Độ Cao — OVH NVMe | EO Technology",
     "url": "https://eo.io.vn/services/hosting",
-    "content": "Cloud Hosting Tốc Độ Cao — OVH NVMe | EO Technology Bỏ qua đến nội dung chính ☁️ Cloud Hosting Cloud Hosting hạ tầng OVH NVMe SSD, Anti-DDoS Shared hosting chạy trên máy chủ OVH thực tế — NVMe SSD, anti-DDoS tích hợp sẵn, SSL miễn phí, aaPanel quản lý dễ dàng. Không cần biết kỹ thuật, chỉ cần website chạy. Dùng thử miễn phí 7 ngày → Xem bảng giá 99.9 % Uptime SLA OVH Infrastructure Anti -DDoS Daily Backup 🏢 Hạ tầng OVH chi phí cố định — không bị ảnh hưởng giá 2027 EO vận hành Cloud Hosting trên VPS OVH được thuê từ trước khi OVH ra bảng giá dòng 2027, với chi phí cố định $27.5/tháng . Tài nguyên hạ tầng này vượt trội so với dòng VPS-4 2027 thông thường ($23.37 cho 8 vCore/24GB/200GB) — đồng nghĩa với việc khách hàng Cloud Hosting EO hưởng mức tài nguyên cao hơn mà giá không thay đổi theo thị trường. Anti-DDoS, NVMe SSD và băng thông lớn đến từ OVH — không qua reseller. Quản lý qua aaPanel , chia sẻ 10–15 tài khoản/VPS. Tính năng Mọi thứ website cần — sẵn sàng ngay từ đầu ⚡ NVMe SSD Ổ đĩa NVMe thực sự từ OVH VPS. Tốc độ đọc/ghi nhanh gấp 10× HDD thông thường. PHP, database, file tĩnh đều hưởng lợi. 🛡️ Anti-DDoS OVH Anti-DDoS tích hợp sẵn từ OVH (Layer 3/4 mitigation). Website vẫn online khi bị tấn công volumetric. Không cần cấu hình thêm. 🔒 SSL miễn phí + tự gia hạn Let's Encrypt SSL tự động qua aaPanel. HTTPS mặc định, tự gia hạn 90 ngày, không cần làm gì thêm. 💾 Backup hàng ngày Backup toàn bộ website + database 1 lần/ngày, giữ 14 ngày. Restore khi cần, không tính phí. 📧 Email theo tên miền Tạo email @yourdomain.com không giới hạn. Hỗ trợ IMAP/SMTP, Webmail, kết nối Outlook/Gmail. 🌏 CDN Cloudflare miễn phí Tích hợp Cloudflare CDN. Static asset cache toàn cầu, giảm tải server, tăng tốc load ở mọi nơi. 🔧 aaPanel quản lý dễ Quản lý website, database MySQL, file manager, cronjob — tất cả trên giao diện aaPanel trực quan. Không cần SSH. 📦 1-click Install WordPress, WooCommerce, Laravel — cài trong vài phút. Database tự động tạo và cấu hình. 🚀 LiteSpeed Web Server LiteSpeed nhanh hơn Apache/Nginx cho WordPress. LSCache plugin miễn phí, thích hợp với site PHP nặng. Gói dịch vụ Cloud Hosting — Shared trên OVH 1 VPS OVH ($27.5/tháng cố định) chia cho 10–15 tài khoản qua aaPanel. Phù hợp blog, landing page, website doanh nghiệp vừa, e-commerce nhỏ. Starter $3.99 /tháng Blog, landing page, portfolio cá nhân. Traffic vừa phải. ✅ 10 GB NVMe SSD ✅ 5 website ✅ SSL miễn phí ✅ Backup 7 ngày ✅ 5 email accounts ✅ LiteSpeed ✅ Anti-DDoS OVH ✗ CDN Cloudflare Bắt đầu ngay Phổ biến nhất Pro $5.99 /tháng Doanh nghiệp vừa, e-commerce, hệ thống booking. ✅ 30 GB NVMe SSD ✅ 20 website ✅ SSL + CDN Cloudflare ✅ Backup 14 ngày ✅ Email không giới hạn ✅ LiteSpeed + Cache ✅ Anti-DDoS OVH ✅ Staging environment Bắt đầu ngay Business $9.99 /tháng Traffic cao, nhiều website, cần tài nguyên độc lập hơn. ✅ 100 GB NVMe SSD ✅ Website không giới hạn ✅ SSL wildcard ✅ Backup custom schedule ✅ Email không giới hạn ✅ Anti-DDoS OVH ✅ CDN + Dedicated IP ✅ Priority support Tư vấn ngay G",
-    "summary": "Cloud Hosting Tốc Độ Cao — OVH NVMe | EO Technology Bỏ qua đến nội dung chính ☁️ Cloud Hosting Cloud Hosting hạ tầng OVH NVMe SSD, Anti-DDoS Shared hosting chạy trên máy chủ OVH thực tế — NVMe SSD, anti-DDoS tích hợp sẵn, SSL miễn phí, aaPanel quản lý dễ dàng. Không cần biết kỹ…",
+    "summary": "Hosting của EO dùng hạ tầng nào?: EO dùng VPS OVH (Asia region) làm nền tảng, cài aaPanel để quản lý và phân chia tài nguyên cho các gói hosting. Bạn không trực tiếp SSH vào OVH VPS — đó là trách nhiệm quản lý của EO.",
     "tags": [
       "hosting",
       "cloud hosting",
@@ -31,13 +135,134 @@
       "anti-ddos",
       "aapanel",
       "27.5"
+    ],
+    "entries": [
+      {
+        "heading": "Hosting của EO dùng hạ tầng nào?",
+        "text": "Hosting của EO dùng hạ tầng nào?: EO dùng VPS OVH (Asia region) làm nền tảng, cài aaPanel để quản lý và phân chia tài nguyên cho các gói hosting. Bạn không trực tiếp SSH vào OVH VPS — đó là trách nhiệm quản lý của EO."
+      },
+      {
+        "heading": "Tôi có thể dùng WordPress không?",
+        "text": "Tôi có thể dùng WordPress không?: Hoàn toàn được. EO Cloud Hosting hỗ trợ WordPress, WooCommerce, Elementor. Cài 1-click qua aaPanel, đã tối ưu LiteSpeed + LSCache."
+      },
+      {
+        "heading": "Anti-DDoS hoạt động như thế nào?",
+        "text": "Anti-DDoS hoạt động như thế nào?: OVH cung cấp anti-DDoS tự động (VAC system) tích hợp sẵn trong mọi máy chủ OVH. Khi phát hiện tấn công, OVH tự động scrub traffic — không cần cấu hình. Bảo vệ Layer 3/4, phù hợp với DDoS volumetric phổ biến."
+      },
+      {
+        "heading": "Tôi đang dùng host khác, chuyển sang mất bao lâu?",
+        "text": "Tôi đang dùng host khác, chuyển sang mất bao lâu?: Thường 2-4 giờ. Đội kỹ thuật EO làm toàn bộ: copy file, import database, cấu hình email, kiểm thử trước khi chuyển DNS. Website không bị down trong quá trình chuyển đổi."
+      },
+      {
+        "heading": "Khi nào nên chuyển từ hosting sang VPS riêng?",
+        "text": "Khi nào nên chuyển từ hosting sang VPS riêng?: Khi website vượt 5.000 pageview/ngày, cần Node.js/Python/Go thay vì PHP, hoặc cần cronjob chạy mỗi phút — đó là lúc VPS riêng phù hợp hơn. EO sẽ tư vấn và hỗ trợ migration miễn phí."
+      },
+      {
+        "heading": "Có hỗ trợ Node.js, Python không?",
+        "text": "Có hỗ trợ Node.js, Python không?: Cloud Hosting (shared) hỗ trợ PHP và Node.js giới hạn qua Passenger. Nếu cần chạy service liên tục, custom stack, hay container — VPS riêng là lựa chọn phù hợp."
+      },
+      {
+        "heading": "Giá EO vận hành Cloud Hosting trên VPS OVH được thuê từ trước khi OVH ra b",
+        "text": "EO vận hành Cloud Hosting trên VPS OVH được thuê từ trước khi OVH ra bảng giá dòng 2027, với chi phí cố định $27.5/tháng. Tài nguyên hạ tầng này vượt trội so với dòng VPS-4 2027 thông thường ($23.37 cho 8 vCore/24GB/200GB) — đồng nghĩa với việc khách hàng Cloud Hosting EO hưởng mức tài nguyên cao hơn mà giá không thay đổi theo thị trường."
+      },
+      {
+        "heading": "Giá Starter",
+        "text": "Giá Starter — $3.99/tháng — Blog, landing page, portfolio cá nhân. Traffic vừa phải. — 10 GB NVMe SSD — 5 website — SSL miễn phí — Backup 7 ngày — 5 email accounts"
+      },
+      {
+        "heading": "Giá Pro",
+        "text": "Giá Pro — $5.99/tháng — Doanh nghiệp vừa, e-commerce, hệ thống booking. — 30 GB NVMe SSD — 20 website — SSL + CDN Cloudflare — Backup 14 ngày — Email không giới hạn"
+      },
+      {
+        "heading": "Giá Business",
+        "text": "Giá Business — $9.99/tháng — Traffic cao, nhiều website, cần tài nguyên độc lập hơn. — 100 GB NVMe SSD — Website không giới hạn — SSL wildcard — Backup custom schedule — Email không giới hạn"
+      },
+      {
+        "heading": "Hạ tầng OVH chi phí cố định — không bị ảnh hưởng giá 2027",
+        "text": "Hạ tầng OVH chi phí cố định — không bị ảnh hưởng giá 2027: EO vận hành Cloud Hosting trên VPS OVH được thuê từ trước khi OVH ra bảng giá dòng 2027, với chi phí cố định $27.5/tháng. Tài nguyên hạ tầng này vượt trội so với dòng VPS-4 2027 thông thường ($23.37 cho 8 vCore/24GB/200GB) — đồng nghĩa với việc khách hàng Cloud Hosting EO hưởng mức tài nguyên cao hơn mà giá không thay đổi theo thị trường. Anti-DDoS"
+      },
+      {
+        "heading": "NVMe SSD",
+        "text": "NVMe SSD: Ổ đĩa NVMe thực sự từ OVH VPS. Tốc độ đọc/ghi nhanh gấp 10× HDD thông thường. PHP, database, file tĩnh đều hưởng lợi. 🛡️"
+      },
+      {
+        "heading": "Anti-DDoS OVH",
+        "text": "Anti-DDoS OVH: Anti-DDoS tích hợp sẵn từ OVH (Layer 3/4 mitigation). Website vẫn online khi bị tấn công volumetric. Không cần cấu hình thêm. 🔒"
+      },
+      {
+        "heading": "SSL miễn phí + tự gia hạn",
+        "text": "SSL miễn phí + tự gia hạn: Let's Encrypt SSL tự động qua aaPanel. HTTPS mặc định, tự gia hạn 90 ngày, không cần làm gì thêm. 💾"
+      },
+      {
+        "heading": "Backup hàng ngày",
+        "text": "Backup hàng ngày: Backup toàn bộ website + database 1 lần/ngày, giữ 14 ngày. Restore khi cần, không tính phí. 📧"
+      },
+      {
+        "heading": "Email theo tên miền",
+        "text": "Email theo tên miền: Tạo email @yourdomain.com không giới hạn. Hỗ trợ IMAP/SMTP, Webmail, kết nối Outlook/Gmail. 🌏"
+      },
+      {
+        "heading": "CDN Cloudflare miễn phí",
+        "text": "CDN Cloudflare miễn phí: Tích hợp Cloudflare CDN. Static asset cache toàn cầu, giảm tải server, tăng tốc load ở mọi nơi. 🔧"
+      },
+      {
+        "heading": "aaPanel quản lý dễ",
+        "text": "aaPanel quản lý dễ: Quản lý website, database MySQL, file manager, cronjob — tất cả trên giao diện aaPanel trực quan. Không cần SSH. 📦"
+      },
+      {
+        "heading": "1-click Install",
+        "text": "1-click Install: WordPress, WooCommerce, Laravel — cài trong vài phút. Database tự động tạo và cấu hình. 🚀"
+      },
+      {
+        "heading": "LiteSpeed Web Server",
+        "text": "LiteSpeed Web Server: LiteSpeed nhanh hơn Apache/Nginx cho WordPress. LSCache plugin miễn phí, thích hợp với site PHP nặng."
+      },
+      {
+        "heading": "Cloud Hosting — Shared trên OVH",
+        "text": "Cloud Hosting — Shared trên OVH: 1 VPS OVH ($27.5/tháng cố định) chia cho 10–15 tài khoản qua aaPanel. Phù hợp blog, landing page, website doanh nghiệp vừa, e-commerce nhỏ. Starter $3.99/tháng Blog, landing page, portfolio cá nhân. Traffic vừa phải. ✅ 10 GB NVMe SSD ✅ 5 website ✅ SSL miễn phí ✅ Backup 7 ngày ✅ 5 email accounts ✅ LiteSpeed ✅ Anti-DDoS OVH ✗ CDN Cloudflare Bắt đầu n"
+      },
+      {
+        "heading": "Hosting không chỉ là server",
+        "text": "Hosting không chỉ là server: eo-migrate.sh $ eo migrate --from old-host ✔ Files transferred (2.3 GB) 18s ✔ Database imported 4s ✔ DNS propagated 45s ✔ SSL provisioned 12s 🌐 https://yoursite.com LIVE"
+      },
+      {
+        "heading": "Migrate miễn phí từ host cũ",
+        "text": "Migrate miễn phí từ host cũ: Đội ngũ kỹ thuật chuyển toàn bộ file, database, email về EO không downtime. Không mất phí dịch vụ."
+      },
+      {
+        "heading": "Hỗ trợ kỹ thuật thực sự",
+        "text": "Hỗ trợ kỹ thuật thực sự: Nhân viên kỹ thuật in-house, không chatbot. Phản hồi ticket trung bình <30 phút trong giờ làm việc."
+      },
+      {
+        "heading": "Cần nhiều hơn? Nâng VPS riêng",
+        "text": "Cần nhiều hơn? Nâng VPS riêng: Website traffic cao cần tài nguyên dedicated? Nâng lên VPS riêng (OVH VPS mới đứng tên EO) — không downtime, không mất dữ liệu."
+      },
+      {
+        "heading": "Câu hỏi thường gặp về Cloud Hosting",
+        "text": "Câu hỏi thường gặp về Cloud Hosting: Hosting của EO dùng hạ tầng nào? EO dùng VPS OVH (Asia region) làm nền tảng, cài aaPanel để quản lý và phân chia tài nguyên cho các gói hosting. Bạn không trực tiếp SSH vào OVH VPS — đó là trách nhiệm quản lý của EO. Tôi có thể dùng WordPress không? Hoàn toàn được. EO Cloud Hosting hỗ trợ WordPress, WooCommerce, Elementor. Cài 1-click qua aaPanel, "
+      },
+      {
+        "heading": "VPS Riêng",
+        "text": "VPS Riêng: Tài nguyên dedicated, root access đầy đủ. Mỗi khách 1 OVH VPS riêng. Từ $9.99/tháng. 🌐"
+      },
+      {
+        "heading": "Web Development",
+        "text": "Web Development: Cần xây dựng website mới? Đội ngũ EO làm từ thiết kế đến deploy và host. 🤖"
+      },
+      {
+        "heading": "AI Solutions",
+        "text": "AI Solutions: Tích hợp AI chatbot hoặc tự động hoá quy trình cho website của bạn."
+      },
+      {
+        "heading": "Dùng thử Cloud Hosting EO 7 ngày miễn phí",
+        "text": "Dùng thử Cloud Hosting EO 7 ngày miễn phí: Không cần thẻ tín dụng. Hoàn tiền 100% trong 30 ngày đầu nếu không hài lòng. Bắt đầu dùng thử → Xem tất cả gói"
+      }
     ]
   },
   {
     "title": "VPS Việt Nam NVMe SSD Giá Rẻ | EO Technology",
     "url": "https://eo.io.vn/services/vps",
-    "content": "VPS Việt Nam NVMe SSD Giá Rẻ | EO Technology Bỏ qua đến nội dung chính ⚡ Virtual Private Server VPS hiệu năng cao dành cho developer KVM virtualization, NVMe SSD, root access đầy đủ. Cài Docker, Node.js, Python, Go — bất kỳ stack nào. Deploy trong 60 giây, không cần chờ approval. Triển khai VPS ngay → Xem cấu hình & giá 60 s Setup time 10 Gbps Uplink port 99.9 % Uptime SLA KVM Virtualization Cấu hình VPS riêng — mỗi khách 1 OVH VPS độc lập Mỗi đơn hàng là 1 VPS OVH mới đứng tên EO thuê, tài nguyên 100% dedicated không chia sẻ. NVMe SSD, Anti-DDoS, IPv4+IPv6. 💡 Chi phí gốc — dòng OVH VPS 2027 (Asia): Mỗi khách đặt VPS mới = EO đặt 1 VPS OVH mới theo giá 2027. Giá bán = Chi phí OVH × 1.10 (thuế ước tính) × 1.50 (margin 50%). Xem giá gốc OVH → VPS Starter $7.99 /tháng OVH 2027 VPS-1: $4.54 + thuế + margin 🖥️ 2 vCore 🧠 4 GB RAM 💾 40 GB NVMe 🌐 250 Mbps / 2 TB 🛡️ Anti-DDoS OVH 🔑 Root access đầy đủ Chọn gói này Phổ biến nhất VPS Pro $14.99 /tháng OVH 2027 VPS-2: $8.50 + thuế + margin 🖥️ 4 vCore 🧠 8 GB RAM 💾 75 GB NVMe 🌐 500 Mbps / 2 TB 🛡️ Anti-DDoS OVH 🔑 Root access đầy đủ Chọn gói này VPS Business $20.99 /tháng OVH 2027 VPS-3: $12.32 + thuế + margin 🖥️ 6 vCore 🧠 12 GB RAM 💾 100 GB NVMe 🌐 500 Mbps / 2 TB 🛡️ Anti-DDoS OVH 🔑 Root access đầy đủ Chọn gói này Cần VPS cao cấp? VPS Enterprise — OVH 2027 VPS-4: 8 vCore / 24 GB / 200 GB → $38.99/tháng . Liên hệ tư vấn → Use cases VPS dùng để làm gì? 🚀 Backend API Chạy Node.js, Python FastAPI, Go, Laravel — bất kỳ backend framework nào. PM2, systemd, hoặc Docker Compose. 🎮 Game Server Minecraft, Unity game server, dedicated Valheim/Terraria. Low-latency với data center Singapore, ping thấp từ Việt Nam. 🐳 Docker / Kubernetes Self-host Portainer, Coolify, Dokploy. Chạy toàn bộ stack: Nginx, Redis, PostgreSQL, app trong container. 🤖 AI / ML Inference Chạy Ollama, LLaMA.cpp, Whisper, Stable Diffusion. GPU VPS theo yêu cầu nếu cần accelerator. 🗄️ Database Server PostgreSQL, MySQL, MongoDB, Redis. NVMe SSD giảm đáng kể latency I/O. Replication master-slave trong cùng region. 🔧 Dev & CI/CD Self-host Gitea, Jenkins, Drone CI, Woodpecker. Build pipeline riêng, không phụ thuộc GitHub Actions minutes. Setup nhanh Từ order đến server chạy trong 60 giây ssh root@vps.eo.io.vn $ apt update && apt install -y docker.io docker-compose ✔ Docker installed 28s $ docker run -d -p 3000:3000 myapp:latest ✔ Container started 3s $ curl localhost:3000/health ✔ {\"status\":\"ok\",\"uptime\":4.2} 🌐 https://api.yourdomain.com LIVE FAQ Câu hỏi về VPS VPS EO dùng hypervisor gì? KVM (Kernel-based Virtual Machine) — chuẩn enterprise, mỗi VPS có kernel riêng biệt hoàn toàn. Không shared memory với tenant khác, bảo mật cao hơn OpenVZ. Có thể cài OS gì? Ubuntu 20.04/22.04/24.04, Debian 11/12, CentOS Stream 9, AlmaLinux 9, Rocky Linux 9, Fedora. Yêu cầu OS khác (FreeBSD, custom ISO) liên hệ hỗ trợ. Bandwidth được tính như nào? Tính tổng traffic vào ra (inbound + outbound). Nếu vượt giới hạn, tốc độ giảm xuống 10 Mbps, không phát s",
-    "summary": "VPS Việt Nam NVMe SSD Giá Rẻ | EO Technology Bỏ qua đến nội dung chính ⚡ Virtual Private Server VPS hiệu năng cao dành cho developer KVM virtualization, NVMe SSD, root access đầy đủ. Cài Docker, Node.js, Python, Go — bất kỳ stack nào. Deploy trong 60 giây, không cần chờ approval.…",
+    "summary": "VPS EO dùng hypervisor gì?: KVM (Kernel-based Virtual Machine) — chuẩn enterprise, mỗi VPS có kernel riêng biệt hoàn toàn. Không shared memory với tenant khác, bảo mật cao hơn OpenVZ.",
     "tags": [
       "vps",
       "server riêng",
@@ -52,13 +277,106 @@
       "20.99",
       "38.99",
       "ovh 2027"
+    ],
+    "entries": [
+      {
+        "heading": "VPS EO dùng hypervisor gì?",
+        "text": "VPS EO dùng hypervisor gì?: KVM (Kernel-based Virtual Machine) — chuẩn enterprise, mỗi VPS có kernel riêng biệt hoàn toàn. Không shared memory với tenant khác, bảo mật cao hơn OpenVZ."
+      },
+      {
+        "heading": "Có thể cài OS gì?",
+        "text": "Có thể cài OS gì?: Ubuntu 20.04/22.04/24.04, Debian 11/12, CentOS Stream 9, AlmaLinux 9, Rocky Linux 9, Fedora. Yêu cầu OS khác (FreeBSD, custom ISO) liên hệ hỗ trợ."
+      },
+      {
+        "heading": "Bandwidth được tính như nào?",
+        "text": "Bandwidth được tính như nào?: Tính tổng traffic vào ra (inbound + outbound). Nếu vượt giới hạn, tốc độ giảm xuống 10 Mbps, không phát sinh phí thêm. Có thể mua thêm bandwidth nếu cần."
+      },
+      {
+        "heading": "VPS có snapshot không?",
+        "text": "VPS có snapshot không?: Có. Snapshot on-demand (lưu trạng thái hiện tại của disk), backup định kỳ hàng tuần. Restore từ snapshot mất khoảng 2-5 phút tùy disk size."
+      },
+      {
+        "heading": "Ping từ Việt Nam đến server SG là bao nhiêu?",
+        "text": "Ping từ Việt Nam đến server SG là bao nhiêu?: Trung bình 15-30ms từ Hà Nội, 8-15ms từ TP.HCM đến Singapore. Có thể chọn data center Hà Nội/HCM nếu cần latency thấp nhất trong nước."
+      },
+      {
+        "heading": "Giá VPS Starter",
+        "text": "Giá VPS Starter — $7.99/tháng — OVH 2027 VPS-1: $4.54 + thuế + margin — 2 vCore — 4 GB RAM — 40 GB NVMe — 250 Mbps / 2 TB — Anti-DDoS OVH"
+      },
+      {
+        "heading": "Giá VPS Pro",
+        "text": "Giá VPS Pro — $14.99/tháng — OVH 2027 VPS-2: $8.50 + thuế + margin — 4 vCore — 8 GB RAM — 75 GB NVMe — 500 Mbps / 2 TB — Anti-DDoS OVH"
+      },
+      {
+        "heading": "Giá VPS Business",
+        "text": "Giá VPS Business — $20.99/tháng — OVH 2027 VPS-3: $12.32 + thuế + margin — 6 vCore — 12 GB RAM — 100 GB NVMe — 500 Mbps / 2 TB — Anti-DDoS OVH"
+      },
+      {
+        "heading": "Giá VPS Enterprise",
+        "text": "Cần VPS cao cấp? VPS Enterprise — OVH 2027 VPS-4: 8 vCore / 24 GB / 200 GB $38.99/tháng."
+      },
+      {
+        "heading": "Giá Chia sẻ tài nguyên OVH, dễ quản lý, phù hợp website không cần root acc",
+        "text": "Chia sẻ tài nguyên OVH, dễ quản lý, phù hợp website không cần root access. Từ $3.99/tháng."
+      },
+      {
+        "heading": "VPS riêng — mỗi khách 1 OVH VPS độc lập",
+        "text": "VPS riêng — mỗi khách 1 OVH VPS độc lập: Mỗi đơn hàng là 1 VPS OVH mới đứng tên EO thuê, tài nguyên 100% dedicated không chia sẻ. NVMe SSD, Anti-DDoS, IPv4+IPv6. 💡 Chi phí gốc — dòng OVH VPS 2027 (Asia): Mỗi khách đặt VPS mới = EO đặt 1 VPS OVH mới theo giá 2027. Giá bán = Chi phí OVH × 1.10 (thuế ước tính) × 1.50 (margin 50%). Xem giá gốc OVH → VPS Starter $7.99/tháng OVH 2027 VPS-1: $4"
+      },
+      {
+        "heading": "Backend API",
+        "text": "Backend API: Chạy Node.js, Python FastAPI, Go, Laravel — bất kỳ backend framework nào. PM2, systemd, hoặc Docker Compose. 🎮"
+      },
+      {
+        "heading": "Game Server",
+        "text": "Game Server: Minecraft, Unity game server, dedicated Valheim/Terraria. Low-latency với data center Singapore, ping thấp từ Việt Nam. 🐳"
+      },
+      {
+        "heading": "Docker / Kubernetes",
+        "text": "Docker / Kubernetes: Self-host Portainer, Coolify, Dokploy. Chạy toàn bộ stack: Nginx, Redis, PostgreSQL, app trong container. 🤖"
+      },
+      {
+        "heading": "AI / ML Inference",
+        "text": "AI / ML Inference: Chạy Ollama, LLaMA.cpp, Whisper, Stable Diffusion. GPU VPS theo yêu cầu nếu cần accelerator. 🗄️"
+      },
+      {
+        "heading": "Database Server",
+        "text": "Database Server: PostgreSQL, MySQL, MongoDB, Redis. NVMe SSD giảm đáng kể latency I/O. Replication master-slave trong cùng region. 🔧"
+      },
+      {
+        "heading": "Dev & CI/CD",
+        "text": "Dev & CI/CD: Self-host Gitea, Jenkins, Drone CI, Woodpecker. Build pipeline riêng, không phụ thuộc GitHub Actions minutes."
+      },
+      {
+        "heading": "Từ order đến server chạy trong 60 giây",
+        "text": "Từ order đến server chạy trong 60 giây: ssh root@vps.eo.io.vn $ apt update && apt install -y docker.io docker-compose ✔ Docker installed 28s $ docker run -d -p 3000:3000 myapp:latest ✔ Container started 3s $ curl localhost:3000/health ✔ {\"status\":\"ok\",\"uptime\":4.2} 🌐 https://api.yourdomain.com LIVE"
+      },
+      {
+        "heading": "Câu hỏi về VPS",
+        "text": "Câu hỏi về VPS: VPS EO dùng hypervisor gì?KVM (Kernel-based Virtual Machine) — chuẩn enterprise, mỗi VPS có kernel riêng biệt hoàn toàn. Không shared memory với tenant khác, bảo mật cao hơn OpenVZ. Có thể cài OS gì?Ubuntu 20.04/22.04/24.04, Debian 11/12, CentOS Stream 9, AlmaLinux 9, Rocky Linux 9, Fedora. Yêu cầu OS khác (FreeBSD, custom ISO) liên hệ hỗ trợ. Band"
+      },
+      {
+        "heading": "Cloud Hosting",
+        "text": "Cloud Hosting: Chia sẻ tài nguyên OVH, dễ quản lý, phù hợp website không cần root access. Từ $3.99/tháng. 🌐"
+      },
+      {
+        "heading": "Web Development",
+        "text": "Web Development: Cần xây dựng website chạy trên VPS? EO thiết kế, phát triển và deploy cho bạn. 🎮"
+      },
+      {
+        "heading": "Game Development",
+        "text": "Game Development: Cần server cho game Unity? Đội ngũ EO setup và quản lý cho bạn."
+      },
+      {
+        "heading": "Deploy VPS trong 60 giây",
+        "text": "Deploy VPS trong 60 giây: Chọn cấu hình, chọn OS, chọn region. Server sẵn sàng ngay.Triển khai VPS ngay →So sánh cấu hình"
+      }
     ]
   },
   {
     "title": "Thiết Kế & Lập Trình Web Chuyên Nghiệp | EO Technology",
     "url": "https://eo.io.vn/services/web-development",
-    "content": "Thiết Kế & Lập Trình Web Chuyên Nghiệp | EO Technology Bỏ qua đến nội dung chính 🌐 Web Development Website chuyển đổi cao , hệ thống không giới hạn Từ landing page đơn giản đến hệ thống enterprise phức tạp — EO thiết kế và xây dựng web cho đúng mục tiêu của bạn, không phải để đẹp trên dribbble. Nhận báo giá trong 24h → Xem portfolio < 3s Page load 90+ Lighthouse score 100% Bàn giao source SEO Ready từ đầu Chúng tôi xây dựng Mọi loại sản phẩm web 🎯 Landing Page cao cấp Thiết kế để chuyển đổi. A/B test sẵn sàng, tốc độ tải <1.5s, SEO on-page chuẩn. Không dùng template sẵn. Từ 5.000.000đ 🛒 E-Commerce WooCommerce, custom checkout, tích hợp VNPAY/MoMo/ZaloPay. Quản lý kho, đơn hàng, khách hàng từ 1 dashboard. Từ 15.000.000đ 📊 Dashboard & Admin CRM nội bộ, quản lý nhân sự, báo cáo real-time. React + chart library, phân quyền role-based, export Excel/PDF. Từ 20.000.000đ 💼 SaaS Platform Đăng ký, billing subscription, quản lý tenant, usage analytics. Từ MVP đến production-ready, hỗ trợ scale. Từ 40.000.000đ 🏢 Website doanh nghiệp Thể hiện thương hiệu chuyên nghiệp, đa ngôn ngữ, CMS dễ chỉnh sửa. Blog, case studies, tuyển dụng tích hợp. Từ 10.000.000đ 🔌 API & Integration REST API, GraphQL, webhook. Kết nối ERP, CRM, payment, logistics. Microservices hoặc monolith tùy quy mô. Tùy dự án Tech Stack Công nghệ hiện đại, bảo trì lâu dài Frontend Backend CMS Deploy ⚛️ React / Next.js 💎 TypeScript 🎨 Tailwind CSS ✨ Framer Motion 📦 Vite / Turbopack 🧪 Vitest / Playwright 🐘 Laravel / PHP 🟢 Node.js / Express 🚀 FastAPI / Python 🗄️ PostgreSQL / MySQL 📮 Redis / Queue 🔐 JWT / OAuth2 🔵 Sanity.io 📝 Strapi 🟡 WordPress ⚡ Contentful 🌿 Payload CMS 📋 Custom Admin ▲ Vercel / Netlify ☁️ EO Cloud 🐳 Docker / CI/CD 🌐 Cloudflare CDN 🔒 SSL auto 📊 Monitoring Quy trình Từ ý tưởng đến sản phẩm live 01 Tư vấn & Phân tích Hiểu mục tiêu kinh doanh, đối tượng người dùng, benchmark đối thủ. Xác định scope chính xác trước khi báo giá. 02 Wireframe & Prototype Thiết kế flow người dùng, wireframe tương tác. Prototype click-through để duyệt trước khi code. 03 UI Design Design system, color palette, typography, component library. Thiết kế đẹp và đồng nhất từ desktop đến mobile. 04 Development Code theo sprint 2 tuần. Demo liên tục trên staging. Client review và feedback sau mỗi sprint. 05 QA & Testing Cross-browser, cross-device, performance test, security audit. Lighthouse score target ≥90 trên tất cả metrics. 06 Launch & Handover Deploy production, bàn giao source code đầy đủ, hướng dẫn sử dụng. Hỗ trợ 30 ngày sau go-live. Cam kết Những thứ bạn không nhận được ở agency thường 📋 Báo giá chi tiết từng hạng mục Không báo giá gộp rồi phát sinh thêm. Bạn biết chính xác tiền đang đi đâu, từng tính năng giá bao nhiêu. 🔑 Bàn giao source code 100% Source code, database schema, deployment docs — tất cả thuộc về bạn. Không lock-in vendor. 🚀 SEO-ready từ ngày đầu Core Web Vitals, structured data, sitemap, robots.txt, canonical URLs — không phải thêm vào sau. 📱 Mobile-first mặc đị",
-    "summary": "Thiết Kế & Lập Trình Web Chuyên Nghiệp | EO Technology Bỏ qua đến nội dung chính 🌐 Web Development Website chuyển đổi cao , hệ thống không giới hạn Từ landing page đơn giản đến hệ thống enterprise phức tạp — EO thiết kế và xây dựng web cho đúng mục tiêu của bạn, không phải để…",
+    "summary": "Dự án thường mất bao lâu?: Landing page: 1-2 tuần. Website doanh nghiệp: 3-6 tuần. E-commerce: 4-8 tuần. SaaS: 3-6 tháng tùy scope. EO báo timeline chi tiết sau buổi tư vấn, và cam kết giữ đúng deadline.",
     "tags": [
       "web",
       "landing page",
@@ -66,15 +384,143 @@
       "wordpress",
       "nextjs",
       "thiết kế web",
-      "react",
-      "template"
+      "react"
+    ],
+    "entries": [
+      {
+        "heading": "Dự án thường mất bao lâu?",
+        "text": "Dự án thường mất bao lâu?: Landing page: 1-2 tuần. Website doanh nghiệp: 3-6 tuần. E-commerce: 4-8 tuần. SaaS: 3-6 tháng tùy scope. EO báo timeline chi tiết sau buổi tư vấn, và cam kết giữ đúng deadline."
+      },
+      {
+        "heading": "Tôi cần chuẩn bị gì trước khi làm việc với EO?",
+        "text": "Tôi cần chuẩn bị gì trước khi làm việc với EO?: Ý tưởng về sản phẩm, đối tượng khách hàng, và tham khảo website bạn thích. Nội dung (text, logo, ảnh) — EO có thể hỗ trợ copywriting và ảnh nếu cần. Ngân sách dự kiến để EO tư vấn scope phù hợp."
+      },
+      {
+        "heading": "Sau khi bàn giao, nếu tôi muốn sửa thêm thì sao?",
+        "text": "Sau khi bàn giao, nếu tôi muốn sửa thêm thì sao?: EO cung cấp gói maintenance theo tháng (từ 500k/tháng) bao gồm update nhỏ, backup, security patch. Hoặc bạn có thể thuê developer riêng vì có full source code."
+      },
+      {
+        "heading": "EO có làm WordPress không?",
+        "text": "EO có làm WordPress không?: Có. WordPress + Elementor/ACF cho các dự án cần client tự chỉnh nội dung. Custom theme code tay, không dùng theme marketplace — đảm bảo performance và bảo mật."
+      },
+      {
+        "heading": "SEO có được đảm bảo không?",
+        "text": "SEO có được đảm bảo không?: EO đảm bảo technical SEO chuẩn (tốc độ, cấu trúc, schema). Kết quả organic search phụ thuộc nội dung và backlink — EO không kiểm soát được Google algorithm. EO sẽ tư vấn content strategy nếu cần."
+      },
+      {
+        "heading": "Landing Page cao cấp",
+        "text": "Landing Page cao cấp: Thiết kế để chuyển đổi. A/B test sẵn sàng, tốc độ tải <1.5s, SEO on-page chuẩn. Không dùng template sẵn. Từ 5.000.000đ 🛒"
+      },
+      {
+        "heading": "E-Commerce",
+        "text": "E-Commerce: WooCommerce, custom checkout, tích hợp VNPAY/MoMo/ZaloPay. Quản lý kho, đơn hàng, khách hàng từ 1 dashboard. Từ 15.000.000đ 📊"
+      },
+      {
+        "heading": "Dashboard & Admin",
+        "text": "Dashboard & Admin: CRM nội bộ, quản lý nhân sự, báo cáo real-time. React + chart library, phân quyền role-based, export Excel/PDF. Từ 20.000.000đ 💼"
+      },
+      {
+        "heading": "SaaS Platform",
+        "text": "SaaS Platform: Đăng ký, billing subscription, quản lý tenant, usage analytics. Từ MVP đến production-ready, hỗ trợ scale. Từ 40.000.000đ 🏢"
+      },
+      {
+        "heading": "Website doanh nghiệp",
+        "text": "Website doanh nghiệp: Thể hiện thương hiệu chuyên nghiệp, đa ngôn ngữ, CMS dễ chỉnh sửa. Blog, case studies, tuyển dụng tích hợp. Từ 10.000.000đ 🔌"
+      },
+      {
+        "heading": "API & Integration",
+        "text": "API & Integration: REST API, GraphQL, webhook. Kết nối ERP, CRM, payment, logistics. Microservices hoặc monolith tùy quy mô. Tùy dự án"
+      },
+      {
+        "heading": "Công nghệ hiện đại, bảo trì lâu dài",
+        "text": "Công nghệ hiện đại, bảo trì lâu dài: Frontend Backend CMS Deploy ⚛️React / Next.js 💎TypeScript 🎨Tailwind CSS ✨Framer Motion 📦Vite / Turbopack 🧪Vitest / Playwright 🐘Laravel / PHP 🟢Node.js / Express 🚀FastAPI / Python 🗄️PostgreSQL / MySQL 📮Redis / Queue 🔐JWT / OAuth2 🔵Sanity.io 📝Strapi 🟡WordPress ⚡Contentful 🌿Payload CMS 📋Custom Admin ▲Vercel / Netlify ☁️EO Cloud 🐳Docker "
+      },
+      {
+        "heading": "Tư vấn & Phân tích",
+        "text": "Tư vấn & Phân tích: Hiểu mục tiêu kinh doanh, đối tượng người dùng, benchmark đối thủ. Xác định scope chính xác trước khi báo giá. 02"
+      },
+      {
+        "heading": "Wireframe & Prototype",
+        "text": "Wireframe & Prototype: Thiết kế flow người dùng, wireframe tương tác. Prototype click-through để duyệt trước khi code. 03"
+      },
+      {
+        "heading": "UI Design",
+        "text": "UI Design: Design system, color palette, typography, component library. Thiết kế đẹp và đồng nhất từ desktop đến mobile. 04"
+      },
+      {
+        "heading": "Development",
+        "text": "Development: Code theo sprint 2 tuần. Demo liên tục trên staging. Client review và feedback sau mỗi sprint. 05"
+      },
+      {
+        "heading": "QA & Testing",
+        "text": "QA & Testing: Cross-browser, cross-device, performance test, security audit. Lighthouse score target ≥90 trên tất cả metrics. 06"
+      },
+      {
+        "heading": "Launch & Handover",
+        "text": "Launch & Handover: Deploy production, bàn giao source code đầy đủ, hướng dẫn sử dụng. Hỗ trợ 30 ngày sau go-live."
+      },
+      {
+        "heading": "📋 Báo giá chi tiết từng hạng mục",
+        "text": "📋 Báo giá chi tiết từng hạng mục: Không báo giá gộp rồi phát sinh thêm. Bạn biết chính xác tiền đang đi đâu, từng tính năng giá bao nhiêu."
+      },
+      {
+        "heading": "🔑 Bàn giao source code 100%",
+        "text": "🔑 Bàn giao source code 100%: Source code, database schema, deployment docs — tất cả thuộc về bạn. Không lock-in vendor."
+      },
+      {
+        "heading": "🚀 SEO-ready từ ngày đầu",
+        "text": "🚀 SEO-ready từ ngày đầu: Core Web Vitals, structured data, sitemap, robots.txt, canonical URLs — không phải thêm vào sau."
+      },
+      {
+        "heading": "📱 Mobile-first mặc định",
+        "text": "📱 Mobile-first mặc định: Thiết kế từ 375px màn hình nhỏ lên. Không scale down desktop cho mobile."
+      },
+      {
+        "heading": "Phong cách thiết kế theo từng loại",
+        "text": "Phong cách thiết kế theo từng loại: Mỗi dự án là thiết kế riêng từ đầu — không dùng template sẵn. Dưới đây là phong cách và layout điển hình theo từng loại website EO đã làm. https://yourproduct.com Landing Page"
+      },
+      {
+        "heading": "SaaS / Product Launch",
+        "text": "SaaS / Product Launch: Hero section + features + pricing + CTA. Tập trung vào conversion — mỗi phần tử đều có mục đích chuyển đổi rõ ràng. React / Next.jsDark ModeSEO ReadyTừ 5 triệu https://yourbusiness.vn Website Doanh Nghiệp"
+      },
+      {
+        "heading": "Corporate / Professional",
+        "text": "Corporate / Professional: Header + hero + services + team + contact. Light theme chuyên nghiệp, đa ngôn ngữ, CMS dễ chỉnh sửa cho marketing team. WordPress / Next.jsi18nCMSTừ 10 triệu https://yourshop.vn E-Commerce"
+      },
+      {
+        "heading": "Online Shop / WooCommerce",
+        "text": "Online Shop / WooCommerce: Product listing, cart, checkout tích hợp VNPAY/MoMo/ZaloPay. Quản lý kho, đơn hàng, khách hàng từ 1 dashboard admin. WooCommerceVNPAY / MoMoQuản lý khoTừ 15 triệu https://app.yourproduct.com/dashboard Revenue Users Orders Dashboard / SaaS"
+      },
+      {
+        "heading": "Admin Panel / Analytics",
+        "text": "Admin Panel / Analytics: Sidebar navigation, KPI cards, biểu đồ real-time, phân quyền role-based. CRM nội bộ, quản lý nhân sự, hoặc SaaS platform. React + Chart.jsRole-based authExport PDFTừ 20 triệu Muốn tham khảo website thực tế EO đã làm? Xem Portfolio →"
+      },
+      {
+        "heading": "Câu hỏi về Web Development",
+        "text": "Câu hỏi về Web Development: Dự án thường mất bao lâu?Landing page: 1-2 tuần. Website doanh nghiệp: 3-6 tuần. E-commerce: 4-8 tuần. SaaS: 3-6 tháng tùy scope. EO báo timeline chi tiết sau buổi tư vấn, và cam kết giữ đúng deadline. Tôi cần chuẩn bị gì trước khi làm việc với EO?Ý tưởng về sản phẩm, đối tượng khách hàng, và tham khảo website bạn thích. Nội dung (text, logo, ảnh) "
+      },
+      {
+        "heading": "Mobile App",
+        "text": "Mobile App: Mở rộng web sang iOS và Android. React Native — 1 codebase, 2 platform. 🤖"
+      },
+      {
+        "heading": "AI Solutions",
+        "text": "AI Solutions: Tích hợp chatbot, AI search, auto-suggest vào website của bạn. 🖥️"
+      },
+      {
+        "heading": "Hosting & Deploy",
+        "text": "Hosting & Deploy: EO lo luôn phần deploy và hosting. Không cần thuê server thêm."
+      },
+      {
+        "heading": "Nhận báo giá trong 24 giờ",
+        "text": "Nhận báo giá trong 24 giờ: Mô tả dự án, EO trả lời chi tiết. Không phí tư vấn, không cam kết.Nhận báo giá →Xem portfolio trước"
+      }
     ]
   },
   {
     "title": "Phát Triển App Mobile iOS & Android | EO Technology",
     "url": "https://eo.io.vn/services/mobile-app",
-    "content": "Phát Triển App Mobile iOS & Android | EO Technology Bỏ qua đến nội dung chính 📱 Mobile App Development App iOS & Android 1 lần xây, 2 platform React Native và Expo — viết code 1 lần, publish đồng thời lên App Store và Google Play. Native performance, native UI, không hy sinh trải nghiệm người dùng. Tư vấn dự án app → Xem ví dụ thực tế iOS + Android 1 Codebase OTA Updates Store Submit support Tính năng App hoàn chỉnh, không chỉ là MVP ⚡ Native Performance React Native render bằng native components, không WebView. Animation 60fps, scroll mượt, không lag trên thiết bị cũ. 🔔 Push Notifications APNs (iOS) và FCM (Android). Deep link từ notification vào đúng màn hình. Analytics CTR notification. 📴 Offline-first App hoạt động khi mất mạng. Sync dữ liệu tự động khi online lại. SQLite local storage, conflict resolution. 💳 In-App Purchase StoreKit (iOS), Google Play Billing. Subscription, one-time purchase. Receipt validation server-side. 📷 Native APIs Camera, GPS, biometric (Face ID / fingerprint), Bluetooth, NFC, contacts — tích hợp trực tiếp. 🔄 OTA Updates Cập nhật logic JS không cần submit App Store lại. Fix bug nhanh hơn, không cần người dùng update manual. App types Chúng tôi đã xây dựng 🛒 E-Commerce App Catalog sản phẩm, giỏ hàng, thanh toán VNPAY/MoMo, theo dõi đơn hàng, loyalty points. 💬 Chat & Community Real-time messaging (Socket.IO/Firebase), group chat, media sharing, reaction, thread. 📚 Learning App Video course, quiz, progress tracking, certificate, offline video download. 🏥 Health & Booking Đặt lịch hẹn, video call telemedicine, hồ sơ bệnh nhân, nhắc nhở uống thuốc. 📊 Business Dashboard Analytics real-time, báo cáo doanh thu, quản lý team, task management cho internal ops. 🎮 Casual Game (Mobile) Unity mobile game publish lên App Store/Play Store. Kết hợp với dịch vụ Game Development của EO. FAQ Câu hỏi về Mobile App React Native có tốt bằng native Swift/Kotlin không? Với hầu hết app thương mại: có. 95% app không cần hiệu năng của game engine hay computer vision nặng. React Native đủ cho e-commerce, social, fintech. Nếu app cần native specific (AR, custom camera pipeline), EO sẽ tư vấn hybrid hoặc native module. App có cần backend riêng không? Phụ thuộc chức năng. App đơn giản dùng Firebase/Supabase là đủ. App phức tạp (payment, business logic, data ownership) cần backend riêng — EO làm luôn cả phần này. Submit App Store mất bao lâu? Google Play: 1-3 ngày. Apple App Store: 1-7 ngày. EO chuẩn bị toàn bộ metadata, screenshot, privacy policy. Hỗ trợ xử lý rejection từ Apple nếu có. Phí Apple Developer và Google Play là bao nhiêu? Apple Developer Program: $99/năm (~2.5 triệu). Google Play: $25 một lần. Khách hàng tự đăng ký tài khoản riêng — EO không đứng tên publisher app của bạn. Cập nhật app sau này có tốn phí không? EO cung cấp gói retainer theo tháng bao gồm update nhỏ và fix bug. Update tính năng lớn báo giá riêng. Có full source code nên có thể thuê developer khác nếu muốn. Dịch vụ liên quan Hoàn thiện ecosystem 🌐 Web Develop",
-    "summary": "Phát Triển App Mobile iOS & Android | EO Technology Bỏ qua đến nội dung chính 📱 Mobile App Development App iOS & Android 1 lần xây, 2 platform React Native và Expo — viết code 1 lần, publish đồng thời lên App Store và Google Play. Native performance, native UI, không hy sinh…",
+    "summary": "React Native có tốt bằng native Swift/Kotlin không?: Với hầu hết app thương mại: có. 95% app không cần hiệu năng của game engine hay computer vision nặng. React Native đủ cho e-commerce, social, fintech. Nếu app cần native specific (AR, custom camera…",
     "tags": [
       "mobile",
       "mobile app",
@@ -82,13 +528,102 @@
       "android",
       "react native",
       "flutter"
+    ],
+    "entries": [
+      {
+        "heading": "React Native có tốt bằng native Swift/Kotlin không?",
+        "text": "React Native có tốt bằng native Swift/Kotlin không?: Với hầu hết app thương mại: có. 95% app không cần hiệu năng của game engine hay computer vision nặng. React Native đủ cho e-commerce, social, fintech. Nếu app cần native specific (AR, custom camera pipeline), EO sẽ tư vấn hybrid hoặc native module."
+      },
+      {
+        "heading": "App có cần backend riêng không?",
+        "text": "App có cần backend riêng không?: Phụ thuộc chức năng. App đơn giản dùng Firebase/Supabase là đủ. App phức tạp (payment, business logic, data ownership) cần backend riêng — EO làm luôn cả phần này."
+      },
+      {
+        "heading": "Submit App Store mất bao lâu?",
+        "text": "Submit App Store mất bao lâu?: Google Play: 1-3 ngày. Apple App Store: 1-7 ngày. EO chuẩn bị toàn bộ metadata, screenshot, privacy policy. Hỗ trợ xử lý rejection từ Apple nếu có."
+      },
+      {
+        "heading": "Phí Apple Developer và Google Play là bao nhiêu?",
+        "text": "Phí Apple Developer và Google Play là bao nhiêu?: Apple Developer Program: $99/năm (~2.5 triệu). Google Play: $25 một lần. Khách hàng tự đăng ký tài khoản riêng — EO không đứng tên publisher app của bạn."
+      },
+      {
+        "heading": "Cập nhật app sau này có tốn phí không?",
+        "text": "Cập nhật app sau này có tốn phí không?: EO cung cấp gói retainer theo tháng bao gồm update nhỏ và fix bug. Update tính năng lớn báo giá riêng. Có full source code nên có thể thuê developer khác nếu muốn."
+      },
+      {
+        "heading": "Native Performance",
+        "text": "Native Performance: React Native render bằng native components, không WebView. Animation 60fps, scroll mượt, không lag trên thiết bị cũ. 🔔"
+      },
+      {
+        "heading": "Push Notifications",
+        "text": "Push Notifications: APNs (iOS) và FCM (Android). Deep link từ notification vào đúng màn hình. Analytics CTR notification. 📴"
+      },
+      {
+        "heading": "Offline-first",
+        "text": "Offline-first: App hoạt động khi mất mạng. Sync dữ liệu tự động khi online lại. SQLite local storage, conflict resolution. 💳"
+      },
+      {
+        "heading": "In-App Purchase",
+        "text": "In-App Purchase: StoreKit (iOS), Google Play Billing. Subscription, one-time purchase. Receipt validation server-side. 📷"
+      },
+      {
+        "heading": "Native APIs",
+        "text": "Native APIs: Camera, GPS, biometric (Face ID / fingerprint), Bluetooth, NFC, contacts — tích hợp trực tiếp. 🔄"
+      },
+      {
+        "heading": "OTA Updates",
+        "text": "OTA Updates: Cập nhật logic JS không cần submit App Store lại. Fix bug nhanh hơn, không cần người dùng update manual."
+      },
+      {
+        "heading": "🛒 E-Commerce App",
+        "text": "🛒 E-Commerce App: Catalog sản phẩm, giỏ hàng, thanh toán VNPAY/MoMo, theo dõi đơn hàng, loyalty points."
+      },
+      {
+        "heading": "💬 Chat & Community",
+        "text": "💬 Chat & Community: Real-time messaging (Socket.IO/Firebase), group chat, media sharing, reaction, thread."
+      },
+      {
+        "heading": "📚 Learning App",
+        "text": "📚 Learning App: Video course, quiz, progress tracking, certificate, offline video download."
+      },
+      {
+        "heading": "🏥 Health & Booking",
+        "text": "🏥 Health & Booking: Đặt lịch hẹn, video call telemedicine, hồ sơ bệnh nhân, nhắc nhở uống thuốc."
+      },
+      {
+        "heading": "📊 Business Dashboard",
+        "text": "📊 Business Dashboard: Analytics real-time, báo cáo doanh thu, quản lý team, task management cho internal ops."
+      },
+      {
+        "heading": "🎮 Casual Game (Mobile)",
+        "text": "🎮 Casual Game (Mobile): Unity mobile game publish lên App Store/Play Store. Kết hợp với dịch vụ Game Development của EO."
+      },
+      {
+        "heading": "Câu hỏi về Mobile App",
+        "text": "Câu hỏi về Mobile App: React Native có tốt bằng native Swift/Kotlin không?Với hầu hết app thương mại: có. 95% app không cần hiệu năng của game engine hay computer vision nặng. React Native đủ cho e-commerce, social, fintech. Nếu app cần native specific (AR, custom camera pipeline), EO sẽ tư vấn hybrid hoặc native module. App có cần backend riêng không?Phụ thuộc chức năng"
+      },
+      {
+        "heading": "Web Development",
+        "text": "Web Development: Web admin, landing page — dùng chung API với mobile app. 💼"
+      },
+      {
+        "heading": "SaaS Platform",
+        "text": "SaaS Platform: App mobile kết hợp SaaS backend, subscription billing, multi-tenant. 🤖"
+      },
+      {
+        "heading": "AI Solutions",
+        "text": "AI Solutions: Tích hợp AI chatbot, object detection, text recognition vào mobile app."
+      },
+      {
+        "heading": "Biến ý tưởng thành app thực sự",
+        "text": "Biến ý tưởng thành app thực sự: Mô tả app bạn muốn xây. EO tư vấn tech stack, timeline, và báo giá chi tiết trong 24h.Tư vấn dự án app →Xem ví dụ thực tế"
+      }
     ]
   },
   {
     "title": "Phát Triển Game Unity — Mobile & PC | EO Technology",
     "url": "https://eo.io.vn/services/game-development",
-    "content": "Phát Triển Game Unity — Mobile & PC | EO Technology Bỏ qua đến nội dung chính 🎮 Game Development Xây dựng game thực sự , không chỉ demo Unity game client, backend multiplayer, LiveOps system, IAP, analytics — toàn bộ pipeline từ prototype đến sản phẩm chạy trên App Store và Google Play. Xem Cloud Ball — case study → Tư vấn dự án game Unity Engine iOS + Android Multi -player LiveOps Ready Portfolio Sản phẩm đã xuất bản 🎮 Unity Mobile Multiplayer Cloud Ball Mobile game với physics simulation, multiplayer mode, cloud progression system. Unity + C# + custom backend. Đọc case study → 🔮 Unity 2025 Q4 Dự án tiếp theo Đang trong giai đoạn development. Liên hệ EO để cùng xây dựng sản phẩm game của bạn. Bắt đầu cùng EO → Dịch vụ game Toàn bộ pipeline phát triển game 🎮 Unity Game Client Gameplay programming, physics, animation, UI/UX game. Addressables cho asset management, profiling và optimize performance. 🌐 Multiplayer Backend Game server authoritative, lobby, matchmaking, real-time sync. WebSocket/UDP. Anti-cheat server-side validation. ☁️ Cloud Save & Progression Player profile, inventory, progression lưu server-side. Multi-device sync, offline play với sync khi online lại. 💰 IAP & Monetization In-App Purchase, subscription, virtual currency. Tích hợp AdMob, Unity Ads. Receipt validation chống gian lận. 🔥 LiveOps System Admin dashboard để quản lý event, battle pass, limited offer, balance config — không cần update app mỗi lần. 📊 Analytics & A/B Test DAU, retention, ARPU tracking. Funnel analysis, heatmap. A/B test monetization, difficulty, onboarding. Tech Stack Công nghệ game EO sử dụng 🎮 Game Client Unity 6 C# Addressables DOTween Unity Physics TextMeshPro Cinemachine Unity Profiler 🌐 Backend & Infrastructure Node.js + TypeScript WebSocket PostgreSQL Redis Docker EO Cloud VPS Firebase (analytics) PlayFab (optional) Kinh nghiệm EO hiểu game từ bên trong Developer tự chơi game Đội ngũ EO là gamer thực sự — hiểu game feel, game loop, và tại sao player retention lại quan trọng hơn graphics. Unity in-house, không outsource Không thuê freelancer nước ngoài theo dự án. Developer Unity cố định tại EO, hiểu codebase từ đầu đến cuối. Đã có sản phẩm live Cloud Ball là proof-of-concept của chính EO — không chỉ là portfolio fake. Thực tế đối mặt với performance, store review, player feedback. cloud-ball-server $ pm2 list online game-server uptime 42d online matchmaking uptime 42d online liveops-api uptime 42d $ eo metrics --today DAU: 1,247 Avg session: 18.4 min D1 retention: 42% Revenue: $284 FAQ Câu hỏi về Game Development EO làm được game thể loại gì? Casual (hyper-casual, puzzle, arcade), mid-core (RPG nhỏ, strategy), sports simulation. EO không làm AAA 3D phức tạp. Sản phẩm tốt nhất của EO là mobile games đến mid-size indie. Chi phí làm game từ bao nhiêu? Hyper-casual prototype: 20-50 triệu. Mobile game đầy đủ (3-4 tháng): 80-200 triệu. Game có multiplayer + backend: 150-400 triệu. Giá phụ thuộc scope, số màn, hệ thống phức tạp. Có hỗ trợ sau khi g",
-    "summary": "Phát Triển Game Unity — Mobile & PC | EO Technology Bỏ qua đến nội dung chính 🎮 Game Development Xây dựng game thực sự , không chỉ demo Unity game client, backend multiplayer, LiveOps system, IAP, analytics — toàn bộ pipeline từ prototype đến sản phẩm chạy trên App Store và…",
+    "summary": "EO làm được game thể loại gì?: Casual (hyper-casual, puzzle, arcade), mid-core (RPG nhỏ, strategy), sports simulation. EO không làm AAA 3D phức tạp. Sản phẩm tốt nhất của EO là mobile games đến mid-size indie.",
     "tags": [
       "game",
       "game dev",
@@ -96,13 +631,106 @@
       "liveops",
       "cloud ball",
       "game mobile"
+    ],
+    "entries": [
+      {
+        "heading": "EO làm được game thể loại gì?",
+        "text": "EO làm được game thể loại gì?: Casual (hyper-casual, puzzle, arcade), mid-core (RPG nhỏ, strategy), sports simulation. EO không làm AAA 3D phức tạp. Sản phẩm tốt nhất của EO là mobile games đến mid-size indie."
+      },
+      {
+        "heading": "Chi phí làm game từ bao nhiêu?",
+        "text": "Chi phí làm game từ bao nhiêu?: Hyper-casual prototype: 20-50 triệu. Mobile game đầy đủ (3-4 tháng): 80-200 triệu. Game có multiplayer + backend: 150-400 triệu. Giá phụ thuộc scope, số màn, hệ thống phức tạp."
+      },
+      {
+        "heading": "Có hỗ trợ sau khi game ra mắt không?",
+        "text": "Có hỗ trợ sau khi game ra mắt không?: Có. EO cung cấp dịch vụ LiveOps: thêm event theo mùa, cập nhật balance, fix bug, thêm nội dung. Gói retainer theo tháng hoặc thanh toán theo dự án nhỏ."
+      },
+      {
+        "heading": "Bản quyền game thuộc về ai?",
+        "text": "Bản quyền game thuộc về ai?: 100% thuộc về khách hàng. EO bàn giao toàn bộ source code Unity, asset, backend code, database schema. Không giữ lại bất cứ thứ gì."
+      },
+      {
+        "heading": "Sản phẩm đã xuất bản",
+        "text": "Sản phẩm đã xuất bản: 🎮 Unity Mobile Multiplayer"
+      },
+      {
+        "heading": "Cloud Ball",
+        "text": "Cloud Ball: Mobile game với physics simulation, multiplayer mode, cloud progression system. Unity + C# + custom backend. Đọc case study → 🔮 Unity 2025 Q4"
+      },
+      {
+        "heading": "Dự án tiếp theo",
+        "text": "Dự án tiếp theo: Đang trong giai đoạn development. Liên hệ EO để cùng xây dựng sản phẩm game của bạn. Bắt đầu cùng EO →"
+      },
+      {
+        "heading": "Unity Game Client",
+        "text": "Unity Game Client: Gameplay programming, physics, animation, UI/UX game. Addressables cho asset management, profiling và optimize performance. 🌐"
+      },
+      {
+        "heading": "Multiplayer Backend",
+        "text": "Multiplayer Backend: Game server authoritative, lobby, matchmaking, real-time sync. WebSocket/UDP. Anti-cheat server-side validation. ☁️"
+      },
+      {
+        "heading": "Cloud Save & Progression",
+        "text": "Cloud Save & Progression: Player profile, inventory, progression lưu server-side. Multi-device sync, offline play với sync khi online lại. 💰"
+      },
+      {
+        "heading": "IAP & Monetization",
+        "text": "IAP & Monetization: In-App Purchase, subscription, virtual currency. Tích hợp AdMob, Unity Ads. Receipt validation chống gian lận. 🔥"
+      },
+      {
+        "heading": "LiveOps System",
+        "text": "LiveOps System: Admin dashboard để quản lý event, battle pass, limited offer, balance config — không cần update app mỗi lần. 📊"
+      },
+      {
+        "heading": "Analytics & A/B Test",
+        "text": "Analytics & A/B Test: DAU, retention, ARPU tracking. Funnel analysis, heatmap. A/B test monetization, difficulty, onboarding."
+      },
+      {
+        "heading": "🎮 Game Client",
+        "text": "🎮 Game Client: Unity 6 C# Addressables DOTween Unity Physics TextMeshPro Cinemachine Unity Profiler"
+      },
+      {
+        "heading": "🌐 Backend & Infrastructure",
+        "text": "🌐 Backend & Infrastructure: Node.js + TypeScript WebSocket PostgreSQL Redis Docker EO Cloud VPS Firebase (analytics) PlayFab (optional)"
+      },
+      {
+        "heading": "Developer tự chơi game",
+        "text": "Developer tự chơi game: Đội ngũ EO là gamer thực sự — hiểu game feel, game loop, và tại sao player retention lại quan trọng hơn graphics."
+      },
+      {
+        "heading": "Unity in-house, không outsource",
+        "text": "Unity in-house, không outsource: Không thuê freelancer nước ngoài theo dự án. Developer Unity cố định tại EO, hiểu codebase từ đầu đến cuối."
+      },
+      {
+        "heading": "Đã có sản phẩm live",
+        "text": "Đã có sản phẩm live: Cloud Ball là proof-of-concept của chính EO — không chỉ là portfolio fake. Thực tế đối mặt với performance, store review, player feedback. cloud-ball-server $ pm2 list online game-server uptime 42d online matchmaking uptime 42d online liveops-api uptime 42d $ eo metrics --today DAU: 1,247 Avg session: 18.4 min D1 retention: 42% Revenue: $284"
+      },
+      {
+        "heading": "Câu hỏi về Game Development",
+        "text": "Câu hỏi về Game Development: EO làm được game thể loại gì?Casual (hyper-casual, puzzle, arcade), mid-core (RPG nhỏ, strategy), sports simulation. EO không làm AAA 3D phức tạp. Sản phẩm tốt nhất của EO là mobile games đến mid-size indie. Chi phí làm game từ bao nhiêu?Hyper-casual prototype: 20-50 triệu. Mobile game đầy đủ (3-4 tháng): 80-200 triệu. Game có multiplayer + backend"
+      },
+      {
+        "heading": "Mobile App",
+        "text": "Mobile App: Kết hợp game với companion app: clan management, leaderboard, store. ☁️"
+      },
+      {
+        "heading": "Cloud Hosting",
+        "text": "Cloud Hosting: Game server cần scale? EO quản lý hạ tầng cloud cho bạn. 🤖"
+      },
+      {
+        "heading": "AI Solutions",
+        "text": "AI Solutions: AI procedural content, adaptive difficulty, NPC behavior với ML."
+      },
+      {
+        "heading": "Xây dựng game thực sự của bạn",
+        "text": "Xây dựng game thực sự của bạn: Từ GDD đến App Store. EO đồng hành toàn bộ hành trình.Bắt đầu dự án game →Xem Cloud Ball case study"
+      }
     ]
   },
   {
     "title": "Giải Pháp AI — Chatbot, RAG, Tự Động Hóa | EO Technology",
     "url": "https://eo.io.vn/services/ai-solutions",
-    "content": "Giải Pháp AI — Chatbot, RAG, Tự Động Hóa | EO Technology Bỏ qua đến nội dung chính 🤖 AI Solutions AI thực dụng cho doanh nghiệp Việt Không cần thay toàn bộ hệ thống — EO tích hợp AI vào workflow hiện tại. Chatbot thông minh, RAG hỏi đáp tài liệu, tự động hóa quy trình, AI search. Kết quả thực tế, không chỉ demo. Demo AI miễn phí → Xem giải pháp -70% Thời gian tư vấn 24/7 AI luôn trực RAG Knowledge base On-prem Tùy chọn Giải pháp AI ứng dụng vào đúng bài toán của bạn 💬 Chatbot thông minh Chatbot hiểu ngữ cảnh, trả lời đúng theo knowledge base của doanh nghiệp. Tích hợp website, Zalo, Facebook Messenger, Telegram. ✓ Hiểu tiếng Việt tự nhiên ✓ Fallback human agent ✓ Multi-channel 📚 RAG — Hỏi đáp tài liệu Upload tài liệu nội bộ (PDF, Word, Wiki), AI trả lời câu hỏi từ đúng tài liệu đó. Không hallucinate — luôn có nguồn trích dẫn. ✓ Internal knowledge base ✓ Semantic search ✓ Citation included ⚙️ Tự động hóa quy trình AI phân loại email, tóm tắt cuộc họp, trích xuất dữ liệu từ hóa đơn/hợp đồng, tạo báo cáo tự động. ✓ Document extraction ✓ Email triage ✓ Report generation 🔍 AI Search Tìm kiếm hiểu ngữ nghĩa, không chỉ keyword matching. \"Tìm sản phẩm chống thấm cho tường ngoài trời\" — hiểu đúng ý. ✓ Vector search ✓ Intent detection ✓ E-commerce ready ✍️ AI Content Generate product description, SEO meta, email template theo brand voice của bạn. Không cần edit nhiều, chỉ review và publish. ✓ Brand voice fine-tune ✓ Bulk generation ✓ SEO optimized 👁️ Computer Vision Phân loại ảnh sản phẩm, OCR hóa đơn/CMND, face recognition, quality control tự động trên dây chuyền. ✓ OCR + NLP ✓ Product classification ✓ Quality inspection Quy trình Tích hợp AI không đau 01 Phân tích bài toán Hiểu đúng pain point. Không phải mọi bài toán đều cần AI — EO sẽ nói thẳng nếu giải pháp khác rẻ hơn. 02 PoC nhanh (1-2 tuần) Prototype nhỏ trên data thực của bạn. Đánh giá accuracy trước khi đầu tư lớn. 03 Fine-tune & Eval Tuỳ chỉnh model với dữ liệu domain. Đo accuracy, precision, recall với test set thực tế. 04 Deploy & Monitor API sẵn dùng, dashboard monitor quality. Alert khi AI trả lời sai nhiều hơn threshold. Demo thực tế Chatbot AI đang chạy trên site này 🤖 EO Sales Chatbot Icon chat ở góc dưới phải chính là sản phẩm AI của EO. Nó đọc toàn bộ knowledge base eo.io.vn và trả lời câu hỏi của khách hàng. 🔍 Kiến trúc RAG Inverted index + TF-IDF, chạy offline-first trong trình duyệt. Không cần gọi API external — nhanh, không tốn token, private. 💡 Thử ngay Hỏi thử: \"EO có làm VPS không?\" hoặc \"Giá web development bao nhiêu?\" — xem chatbot trả lời từ đúng knowledge base. eo-chatbot-architecture # User query pipeline 1. Normalize + tokenize query 2. Detect intent (FAQ/price/contact) 3. Search inverted index (TF-IDF) 4. Re-rank by semantic similarity 5. Template-based answer generation 6. Render with citations ✔ Response time: ~8ms ✔ Zero API calls ✔ Runs in browser LLM & Models Chọn đúng model cho đúng bài toán OpenAI GPT-4o Reasoning phức tạp, code generation, multimodal (ảnh +",
-    "summary": "Giải Pháp AI — Chatbot, RAG, Tự Động Hóa | EO Technology Bỏ qua đến nội dung chính 🤖 AI Solutions AI thực dụng cho doanh nghiệp Việt Không cần thay toàn bộ hệ thống — EO tích hợp AI vào workflow hiện tại. Chatbot thông minh, RAG hỏi đáp tài liệu, tự động hóa quy trình, AI…",
+    "summary": "Chi phí tích hợp AI từ bao nhiêu?: PoC cơ bản: 10-30 triệu. Chatbot production-ready: 30-80 triệu. RAG system với pipeline đầy đủ: 50-150 triệu. Phụ thuộc độ phức tạp, số lượng document, channel tích hợp.",
     "tags": [
       "ai solutions",
       "chatbot",
@@ -110,14 +738,118 @@
       "automation",
       "llm",
       "machine learning",
-      "trí tuệ nhân tạo"
+      "trí tuệ nhân tạo",
+      "tính năng chatbot",
+      "tính năng ai",
+      "chatbot tính năng"
+    ],
+    "entries": [
+      {
+        "heading": "Chi phí tích hợp AI từ bao nhiêu?",
+        "text": "Chi phí tích hợp AI từ bao nhiêu?: PoC cơ bản: 10-30 triệu. Chatbot production-ready: 30-80 triệu. RAG system với pipeline đầy đủ: 50-150 triệu. Phụ thuộc độ phức tạp, số lượng document, channel tích hợp."
+      },
+      {
+        "heading": "Dữ liệu của tôi có bị gửi cho bên thứ 3 không?",
+        "text": "Dữ liệu của tôi có bị gửi cho bên thứ 3 không?: Phụ thuộc model chọn. Nếu dùng OpenAI/Claude API — có. Nếu dùng Ollama on-premise — không, data không rời server của bạn. EO tư vấn chọn theo yêu cầu bảo mật dữ liệu của tổ chức."
+      },
+      {
+        "heading": "AI có thể trả lời sai không?",
+        "text": "AI có thể trả lời sai không?: Có. Không có AI nào đạt accuracy 100%. Với RAG, giảm hallucination vì AI trả lời từ tài liệu thực — nhưng vẫn cần human review với quyết định quan trọng. EO setup monitoring để phát hiện câu trả lời chất lượng thấp."
+      },
+      {
+        "heading": "Tích hợp với hệ thống CRM/ERP hiện tại được không?",
+        "text": "Tích hợp với hệ thống CRM/ERP hiện tại được không?: Được, qua API. EO kết nối AI với Salesforce, HubSpot, Odoo, SAP, hoặc hệ thống tự xây dựng. Webhook, REST API, hoặc database connector tùy case."
+      },
+      {
+        "heading": "Chatbot thông minh",
+        "text": "Chatbot thông minh: Chatbot hiểu ngữ cảnh, trả lời đúng theo knowledge base của doanh nghiệp. Tích hợp website, Zalo, Facebook Messenger, Telegram. ✓ Hiểu tiếng Việt tự nhiên ✓ Fallback human agent ✓ Multi-channel 📚"
+      },
+      {
+        "heading": "RAG — Hỏi đáp tài liệu",
+        "text": "RAG — Hỏi đáp tài liệu: Upload tài liệu nội bộ (PDF, Word, Wiki), AI trả lời câu hỏi từ đúng tài liệu đó. Không hallucinate — luôn có nguồn trích dẫn. ✓ Internal knowledge base ✓ Semantic search ✓ Citation included ⚙️"
+      },
+      {
+        "heading": "Tự động hóa quy trình",
+        "text": "Tự động hóa quy trình: AI phân loại email, tóm tắt cuộc họp, trích xuất dữ liệu từ hóa đơn/hợp đồng, tạo báo cáo tự động. ✓ Document extraction ✓ Email triage ✓ Report generation 🔍"
+      },
+      {
+        "heading": "AI Search",
+        "text": "AI Search: Tìm kiếm hiểu ngữ nghĩa, không chỉ keyword matching. \"Tìm sản phẩm chống thấm cho tường ngoài trời\" — hiểu đúng ý. ✓ Vector search ✓ Intent detection ✓ E-commerce ready ✍️"
+      },
+      {
+        "heading": "AI Content",
+        "text": "AI Content: Generate product description, SEO meta, email template theo brand voice của bạn. Không cần edit nhiều, chỉ review và publish. ✓ Brand voice fine-tune ✓ Bulk generation ✓ SEO optimized 👁️"
+      },
+      {
+        "heading": "Computer Vision",
+        "text": "Computer Vision: Phân loại ảnh sản phẩm, OCR hóa đơn/CMND, face recognition, quality control tự động trên dây chuyền. ✓ OCR + NLP ✓ Product classification ✓ Quality inspection"
+      },
+      {
+        "heading": "Phân tích bài toán",
+        "text": "Phân tích bài toán: Hiểu đúng pain point. Không phải mọi bài toán đều cần AI — EO sẽ nói thẳng nếu giải pháp khác rẻ hơn. 02"
+      },
+      {
+        "heading": "PoC nhanh (1-2 tuần)",
+        "text": "PoC nhanh (1-2 tuần): Prototype nhỏ trên data thực của bạn. Đánh giá accuracy trước khi đầu tư lớn. 03"
+      },
+      {
+        "heading": "Fine-tune & Eval",
+        "text": "Fine-tune & Eval: Tuỳ chỉnh model với dữ liệu domain. Đo accuracy, precision, recall với test set thực tế. 04"
+      },
+      {
+        "heading": "Deploy & Monitor",
+        "text": "Deploy & Monitor: API sẵn dùng, dashboard monitor quality. Alert khi AI trả lời sai nhiều hơn threshold."
+      },
+      {
+        "heading": "🤖 EO Sales Chatbot",
+        "text": "🤖 EO Sales Chatbot: Icon chat ở góc dưới phải chính là sản phẩm AI của EO. Nó đọc toàn bộ knowledge base eo.io.vn và trả lời câu hỏi của khách hàng."
+      },
+      {
+        "heading": "🔍 Kiến trúc RAG",
+        "text": "🔍 Kiến trúc RAG: Inverted index + TF-IDF, chạy offline-first trong trình duyệt. Không cần gọi API external — nhanh, không tốn token, private."
+      },
+      {
+        "heading": "💡 Thử ngay",
+        "text": "💡 Thử ngay: Hỏi thử: \"EO có làm VPS không?\" hoặc \"Giá web development bao nhiêu?\" — xem chatbot trả lời từ đúng knowledge base. eo-chatbot-architecture # User query pipeline 1. Normalize + tokenize query 2. Detect intent (FAQ/price/contact) 3. Search inverted index (TF-IDF) 4. Re-rank by semantic similarity 5. Template-based answer generation 6. Render with ci"
+      },
+      {
+        "heading": "OpenAI GPT-4o",
+        "text": "OpenAI GPT-4o: Reasoning phức tạp, code generation, multimodal (ảnh + text). Phù hợp chatbot enterprise yêu cầu cao."
+      },
+      {
+        "heading": "Claude 3.5 / Gemini",
+        "text": "Claude 3.5 / Gemini: Long context, document analysis, tóm tắt tài liệu dài. Tốt cho RAG với knowledge base lớn."
+      },
+      {
+        "heading": "Ollama (on-premise)",
+        "text": "Ollama (on-premise): Llama 3, Mistral, Qwen — chạy trên server của bạn. Data không rời khỏi công ty. Phù hợp ngân hàng, y tế, chính phủ."
+      },
+      {
+        "heading": "Câu hỏi về AI Solutions",
+        "text": "Câu hỏi về AI Solutions: Chi phí tích hợp AI từ bao nhiêu?PoC cơ bản: 10-30 triệu. Chatbot production-ready: 30-80 triệu. RAG system với pipeline đầy đủ: 50-150 triệu. Phụ thuộc độ phức tạp, số lượng document, channel tích hợp. Dữ liệu của tôi có bị gửi cho bên thứ 3 không?Phụ thuộc model chọn. Nếu dùng OpenAI/Claude API — có. Nếu dùng Ollama on-premise — không, data không"
+      },
+      {
+        "heading": "Cloud Hosting",
+        "text": "Cloud Hosting: GPU instance cho AI inference. Object storage cho vector database. 💼"
+      },
+      {
+        "heading": "SaaS Platform",
+        "text": "SaaS Platform: Đóng gói AI thành SaaS — sell access theo subscription. 🌐"
+      },
+      {
+        "heading": "Web Development",
+        "text": "Web Development: Dashboard quản lý AI, admin panel review câu trả lời, knowledge base editor."
+      },
+      {
+        "heading": "Demo AI trên data của bạn",
+        "text": "Demo AI trên data của bạn: Mang 50 câu hỏi thường gặp. EO build demo chatbot RAG trong 1 tuần để bạn thấy kết quả trước khi quyết định.Đặt lịch demo →Xem case studies AI"
+      }
     ]
   },
   {
     "title": "Phát Triển SaaS Platform — Từ Ý Tưởng Đến Subscription | EO Technology",
     "url": "https://eo.io.vn/services/saas",
-    "content": "Phát Triển SaaS Platform — Từ Ý Tưởng Đến Subscription | EO Technology Bỏ qua đến nội dung chính 💼 SaaS Development Từ ý tưởng đến subscription thực sự EO xây dựng SaaS platform hoàn chỉnh — từ landing page chuyển đổi, onboarding flow, dashboard người dùng, đến billing subscription và analytics tăng trưởng. Không chỉ MVP — sản phẩm sẵn sàng scale. Bắt đầu xây SaaS → Xem gói phát triển Multi -tenant MRR Tracking Auto Billing Scale -ready Bao gồm SaaS stack đầy đủ từ ngày 1 🏠 Marketing Site Landing page chuyển đổi, pricing page, features comparison, testimonials, blog. SEO-ready, A/B test sẵn sàng. 🔐 Auth & Onboarding Signup, email verify, OAuth (Google/GitHub), 2FA. Onboarding wizard, empty states hướng dẫn người dùng mới. 🏢 Multi-tenant Architecture Workspace/organization, invite member, role-based access (admin/member/viewer). Data isolation giữa các tenant. 💳 Billing & Subscription Stripe/Paddle integration. Free trial, monthly/yearly plan, upgrade/downgrade, proration. Invoice tự động gửi email. 📊 Admin Dashboard MRR, churn, active users, trial conversions. User management, support ticket, feature flag, announcement. 📧 Email Automation Welcome sequence, trial ending reminder, churn win-back, feature announcement. Transactional + marketing email. 🔌 API & Webhooks REST API với auth token, rate limiting, API docs tự động. Webhook cho integration với Zapier/n8n. 📈 Product Analytics Feature adoption tracking, user journey funnel, heatmap, session recording. Tích hợp PostHog hoặc Mixpanel. 🛠️ DevOps & CI/CD GitHub Actions pipeline, staging env, production deploy. Monitoring, error tracking (Sentry), uptime alert. Timeline Từ 0 đến SaaS chạy thực W1-2 Discovery Phân tích product, đối thủ, xác định MVP scope, wireframe core flow, định nghĩa database schema. W3-6 Core MVP Auth, core feature, basic dashboard. Staging env, demo cho khách hàng thử đầu tiên. W7-10 Billing & Polish Stripe integration, email automation, onboarding flow, UI polish, performance optimization. W11-12 Launch Production deploy, monitoring setup, marketing site live, Product Hunt / first 100 users strategy. Timeline 12 tuần cho MVP chuẩn. Scope phức tạp hơn kéo dài 16-24 tuần. Tech Stack Xây để tồn tại lâu dài Frontend Backend Infra Next.js 14+ TypeScript Tailwind CSS Shadcn/ui Recharts / Chart.js React Query Zustand Framer Motion Node.js + TypeScript tRPC / REST API Prisma ORM PostgreSQL Redis (queue/cache) Stripe SDK Resend / SendGrid PostHog Analytics Vercel / EO Cloud GitHub Actions Docker Compose Cloudflare CDN Sentry (errors) Uptime Robot Terraform IaC Postgres backup daily FAQ Câu hỏi về SaaS Development EO có xây SaaS B2B hay B2C không? Cả hai. B2B SaaS (workspace/team, invoice by company) cần multi-tenant phức tạp hơn. B2C (individual subscription) đơn giản hơn nhưng cần onboarding smooth và virality mechanics. EO tư vấn model phù hợp với thị trường bạn target. Stripe có chấp nhận thanh toán Việt Nam không? Stripe chấp nhận card quốc tế. Cho khách hàng Việt Nam, ",
-    "summary": "Phát Triển SaaS Platform — Từ Ý Tưởng Đến Subscription | EO Technology Bỏ qua đến nội dung chính 💼 SaaS Development Từ ý tưởng đến subscription thực sự EO xây dựng SaaS platform hoàn chỉnh — từ landing page chuyển đổi, onboarding flow, dashboard người dùng, đến billing…",
+    "summary": "EO có xây SaaS B2B hay B2C không?: Cả hai. B2B SaaS (workspace/team, invoice by company) cần multi-tenant phức tạp hơn. B2C (individual subscription) đơn giản hơn nhưng cần onboarding smooth và virality mechanics. EO tư vấn model phù hợp với thị…",
     "tags": [
       "saas",
       "platform",
@@ -125,13 +857,106 @@
       "subscription",
       "phần mềm",
       "mrr"
+    ],
+    "entries": [
+      {
+        "heading": "EO có xây SaaS B2B hay B2C không?",
+        "text": "EO có xây SaaS B2B hay B2C không?: Cả hai. B2B SaaS (workspace/team, invoice by company) cần multi-tenant phức tạp hơn. B2C (individual subscription) đơn giản hơn nhưng cần onboarding smooth và virality mechanics. EO tư vấn model phù hợp với thị trường bạn target."
+      },
+      {
+        "heading": "Stripe có chấp nhận thanh toán Việt Nam không?",
+        "text": "Stripe có chấp nhận thanh toán Việt Nam không?: Stripe chấp nhận card quốc tế. Cho khách hàng Việt Nam, tích hợp thêm PayOS, VNPAY hoặc MoMo. EO setup dual payment gateway — Stripe cho khách quốc tế, local gateway cho Việt Nam."
+      },
+      {
+        "heading": "Tôi cần có sẵn ý tưởng rõ ràng chưa mới làm việc được?",
+        "text": "Tôi cần có sẵn ý tưởng rõ ràng chưa mới làm việc được?: Không cần hoàn chỉnh. EO giúp bạn xác định MVP scope trong buổi Discovery. Có ý tưởng thô + biết target customer là đủ để bắt đầu. EO sẽ đặt câu hỏi đúng để scope dự án thực tế."
+      },
+      {
+        "heading": "Sau launch tôi muốn thêm tính năng thì sao?",
+        "text": "Sau launch tôi muốn thêm tính năng thì sao?: SaaS luôn cần iterate. EO cung cấp gói retainer monthly (thiết kế + dev) hoặc sprint-based. Có thể thuê team ngoài vì có full source code — EO không lock-in."
+      },
+      {
+        "heading": "Marketing Site",
+        "text": "Marketing Site: Landing page chuyển đổi, pricing page, features comparison, testimonials, blog. SEO-ready, A/B test sẵn sàng. 🔐"
+      },
+      {
+        "heading": "Auth & Onboarding",
+        "text": "Auth & Onboarding: Signup, email verify, OAuth (Google/GitHub), 2FA. Onboarding wizard, empty states hướng dẫn người dùng mới. 🏢"
+      },
+      {
+        "heading": "Multi-tenant Architecture",
+        "text": "Multi-tenant Architecture: Workspace/organization, invite member, role-based access (admin/member/viewer). Data isolation giữa các tenant. 💳"
+      },
+      {
+        "heading": "Billing & Subscription",
+        "text": "Billing & Subscription: Stripe/Paddle integration. Free trial, monthly/yearly plan, upgrade/downgrade, proration. Invoice tự động gửi email. 📊"
+      },
+      {
+        "heading": "Admin Dashboard",
+        "text": "Admin Dashboard: MRR, churn, active users, trial conversions. User management, support ticket, feature flag, announcement. 📧"
+      },
+      {
+        "heading": "Email Automation",
+        "text": "Email Automation: Welcome sequence, trial ending reminder, churn win-back, feature announcement. Transactional + marketing email. 🔌"
+      },
+      {
+        "heading": "API & Webhooks",
+        "text": "API & Webhooks: REST API với auth token, rate limiting, API docs tự động. Webhook cho integration với Zapier/n8n. 📈"
+      },
+      {
+        "heading": "Product Analytics",
+        "text": "Product Analytics: Feature adoption tracking, user journey funnel, heatmap, session recording. Tích hợp PostHog hoặc Mixpanel. 🛠️"
+      },
+      {
+        "heading": "DevOps & CI/CD",
+        "text": "DevOps & CI/CD: GitHub Actions pipeline, staging env, production deploy. Monitoring, error tracking (Sentry), uptime alert."
+      },
+      {
+        "heading": "Discovery",
+        "text": "Discovery: Phân tích product, đối thủ, xác định MVP scope, wireframe core flow, định nghĩa database schema. W3-6"
+      },
+      {
+        "heading": "Core MVP",
+        "text": "Core MVP: Auth, core feature, basic dashboard. Staging env, demo cho khách hàng thử đầu tiên. W7-10"
+      },
+      {
+        "heading": "Billing & Polish",
+        "text": "Billing & Polish: Stripe integration, email automation, onboarding flow, UI polish, performance optimization. W11-12"
+      },
+      {
+        "heading": "Launch",
+        "text": "Launch: Production deploy, monitoring setup, marketing site live, Product Hunt / first 100 users strategy. Timeline 12 tuần cho MVP chuẩn. Scope phức tạp hơn kéo dài 16-24 tuần."
+      },
+      {
+        "heading": "Xây để tồn tại lâu dài",
+        "text": "Xây để tồn tại lâu dài: Frontend Backend Infra Next.js 14+ TypeScript Tailwind CSS Shadcn/ui Recharts / Chart.js React Query Zustand Framer Motion Node.js + TypeScript tRPC / REST API Prisma ORM PostgreSQL Redis (queue/cache) Stripe SDK Resend / SendGrid PostHog Analytics Vercel / EO Cloud GitHub Actions Docker Compose Cloudflare CDN Sentry (errors) Uptime Robot Terraform"
+      },
+      {
+        "heading": "Câu hỏi về SaaS Development",
+        "text": "Câu hỏi về SaaS Development: EO có xây SaaS B2B hay B2C không?Cả hai. B2B SaaS (workspace/team, invoice by company) cần multi-tenant phức tạp hơn. B2C (individual subscription) đơn giản hơn nhưng cần onboarding smooth và virality mechanics. EO tư vấn model phù hợp với thị trường bạn target. Stripe có chấp nhận thanh toán Việt Nam không?Stripe chấp nhận card quốc tế. Cho khách "
+      },
+      {
+        "heading": "Mobile App",
+        "text": "Mobile App: Mobile companion cho SaaS. Notification, offline access, native camera/GPS. 🤖"
+      },
+      {
+        "heading": "AI Solutions",
+        "text": "AI Solutions: Thêm AI feature vào SaaS: tự động hóa, recommendation, chatbot trong app. ☁️"
+      },
+      {
+        "heading": "Cloud Hosting",
+        "text": "Cloud Hosting: SaaS scale cần cloud linh hoạt. EO quản lý infra khi user tăng."
+      },
+      {
+        "heading": "SaaS idea của bạn xứng đáng được xây",
+        "text": "SaaS idea của bạn xứng đáng được xây: Đừng để ý tưởng chỉ là ý tưởng. Đặt lịch Discovery Session miễn phí — 90 phút, EO giúp bạn có roadmap rõ ràng.Đặt Discovery Session →Xem gói phát triển"
+      }
     ]
   },
   {
     "title": "Bảng Giá Dịch Vụ Công Nghệ | EO Technology",
     "url": "https://eo.io.vn/pricing",
-    "content": "Bảng Giá Dịch Vụ Công Nghệ | EO Technology Bỏ qua đến nội dung chính Giá minh bạch , không phát sinh ẩn Mọi con số đều được liệt kê rõ ràng. Không có chi phí setup ẩn, không phát sinh khi gần xong. Báo giá chi tiết từng hạng mục trước khi ký hợp đồng. Hạ Tầng Phát Triển AI Duy Trì Cloud Hosting · VPS Hạ tầng hàng tháng — OVH Infrastructure Thanh toán theo tháng hoặc năm (giảm 20% khi trả năm). Không phí setup ban đầu. Giá USD, thanh toán qua chuyển khoản hoặc PayPal. ☁️ Cloud Hosting — Shared Nền chi phí: $27.5/tháng cố định 1 VPS OVH hiện hữu (chi phí cố định $27.5/tháng, thuê trước bảng giá 2027) chia cho 10–15 tài khoản qua aaPanel. Tài nguyên hạ tầng cao hơn dòng VPS-4 2027 thông thường ($23.37 cho 8 vCore/24GB). Phù hợp: blog, landing page, e-commerce nhỏ, website doanh nghiệp. Không cần quản lý server. Starter $3.99 /tháng ≈ $38/năm (giảm 20% · $27.5÷15 slots + margin) ✅ 10 GB NVMe SSD ✅ 5 website ✅ SSL miễn phí ✅ Backup 7 ngày ✅ 5 email accounts ✅ Anti-DDoS OVH ✗ CDN Cloudflare Đăng ký Phổ biến Pro $5.99 /tháng ≈ $57/năm (giảm 20% · $27.5÷10 slots + margin) ✅ 30 GB NVMe SSD ✅ 20 website ✅ SSL + CDN Cloudflare ✅ Backup 14 ngày ✅ Email không giới hạn ✅ Anti-DDoS OVH ✅ Staging environment ✅ Migrate miễn phí Đăng ký Business $9.99 /tháng ≈ $96/năm (giảm 20% · tài nguyên ưu tiên) ✅ 100 GB NVMe SSD ✅ Websites không giới hạn ✅ SSL wildcard ✅ Backup custom ✅ Email không giới hạn ✅ Anti-DDoS OVH ✅ CDN + Dedicated IP ✅ Priority support Tư vấn ngay ⚡ VPS Riêng — Mỗi khách 1 OVH VPS độc lập Nền chi phí: OVH VPS 2027 + thuế + margin Mỗi khách đặt VPS mới = EO đặt 1 OVH VPS 2027 mới. Chi phí: giá OVH × 1.10 (thuế ~10%) × 1.50 (margin 50%). Tài nguyên 100% dedicated. Root access đầy đủ. Phù hợp: backend API, game server, Docker, database server. Gói vCore RAM NVMe Giá OVH 2027 Giá bán/tháng VPS Starter 2 4 GB 40 GB $4.54 + thuế $7.99 Chọn VPS Pro ⭐ 4 8 GB 75 GB $8.50 + thuế $14.99 Chọn VPS Business 6 12 GB 100 GB $12.32 + thuế $20.99 Chọn VPS Enterprise 8 24 GB 200 GB $23.37 + thuế $38.99 Chọn * Tất cả VPS: hạ tầng OVH Asia 2027, Anti-DDoS tích hợp, IPv4+IPv6, snapshot, root access. Giá bán = giá OVH × 1.10 (thuế) × 1.50 (margin). Lưu ý: giá tạm thời — xác nhận lại sau khi đối chiếu hóa đơn thực tế. Web · Mobile · Game · SaaS Phát triển sản phẩm Giá ước tính cho scope điển hình. Dự án thực tế sẽ báo giá chi tiết từng hạng mục sau buổi tư vấn. 🎯 Landing Page 5 – 12tr Thiết kế custom, responsive, SEO chuẩn, form tích hợp. Thời gian: 1–2 tuần. Design HTML/CSS/JS SEO Deploy 🌐 Website doanh nghiệp 10 – 25tr Multi-page, CMS, blog, i18n, case study. Thời gian: 3–5 tuần. Next.js / WP CMS i18n 🛒 E-Commerce 15 – 40tr Sản phẩm, giỏ hàng, payment VNPAY/MoMo, quản lý đơn. Thời gian: 4–8 tuần. WooCommerce VNPAY Kho hàng 📱 Mobile App (iOS + Android) 30 – 100tr React Native, 1 codebase 2 platform. Submit store included. Thời gian: 6–14 tuần. React Native iOS Android 🎮 Game Unity Mobile 50 – 200tr Unity client + backend + LiveOps + IAP. Thời gian: 3–6 tháng. Unity B",
-    "summary": "Bảng Giá Dịch Vụ Công Nghệ | EO Technology Bỏ qua đến nội dung chính Giá minh bạch , không phát sinh ẩn Mọi con số đều được liệt kê rõ ràng. Không có chi phí setup ẩn, không phát sinh khi gần xong. Báo giá chi tiết từng hạng mục trước khi ký hợp đồng. Hạ Tầng Phát Triển AI Duy…",
+    "summary": "Giá có thể thay đổi sau khi ký không?: Không. EO cam kết giá cố định từ đầu dựa trên scope đã thống nhất. Nếu khách hàng yêu cầu thêm tính năng ngoài scope ban đầu, sẽ có báo giá phụ lục riêng và cần ký chấp thuận trước khi làm.",
     "tags": [
       "giá",
       "bảng giá",
@@ -142,26 +967,188 @@
       "thanh toán",
       "paypal",
       "chuyển khoản"
+    ],
+    "entries": [
+      {
+        "heading": "Giá có thể thay đổi sau khi ký không?",
+        "text": "Giá có thể thay đổi sau khi ký không?: Không. EO cam kết giá cố định từ đầu dựa trên scope đã thống nhất. Nếu khách hàng yêu cầu thêm tính năng ngoài scope ban đầu, sẽ có báo giá phụ lục riêng và cần ký chấp thuận trước khi làm."
+      },
+      {
+        "heading": "Thanh toán như thế nào?",
+        "text": "Thanh toán như thế nào?: Phát triển phần mềm: Milestone-based — thường 30% khi ký, 40% khi demo stage 1, 30% khi bàn giao. Hosting/VPS: thanh toán đầu tháng. Hỗ trợ các hình thức: chuyển khoản, VNPAY, Momo."
+      },
+      {
+        "heading": "Có thể thử trước khi trả tiền không?",
+        "text": "Có thể thử trước khi trả tiền không?: Với hosting/VPS: dùng thử 7 ngày miễn phí, hoàn tiền 30 ngày nếu không hài lòng. Với dự án phát triển: tư vấn miễn phí + wireframe cơ bản trước khi quyết định ký hợp đồng."
+      },
+      {
+        "heading": "Giá trên tính theo VNĐ hay USD?",
+        "text": "Giá trên tính theo VNĐ hay USD?: Tất cả giá niêm yết bằng VNĐ. Một số dịch vụ cloud infrastructure có thể tham chiếu USD (vì cost gốc tính theo USD) — sẽ được ghi rõ trong báo giá."
+      },
+      {
+        "heading": "Có VAT không?",
+        "text": "Có VAT không?: Giá trên chưa bao gồm VAT 10%. Invoice VAT đầy đủ được cung cấp cho doanh nghiệp khi yêu cầu. EO có đăng ký kinh doanh hợp lệ, xuất hóa đơn điện tử theo yêu cầu."
+      },
+      {
+        "heading": "Giá Cloud Hosting — Shared",
+        "text": "Giá Cloud Hosting — Shared — $27.5/tháng"
+      },
+      {
+        "heading": "Giá Starter",
+        "text": "Giá Starter — $3.99/tháng — ≈ $38/năm (giảm 20% · $27.5÷15 slots + margin) — 10 GB NVMe SSD — 5 website — SSL miễn phí — Backup 7 ngày — 5 email accounts"
+      },
+      {
+        "heading": "Giá Pro",
+        "text": "Giá Pro — $5.99/tháng — ≈ $57/năm (giảm 20% · $27.5÷10 slots + margin) — 30 GB NVMe SSD — 20 website — SSL + CDN Cloudflare — Backup 14 ngày — Email không giới hạn"
+      },
+      {
+        "heading": "Giá Business",
+        "text": "Giá Business — $9.99/tháng — ≈ $96/năm (giảm 20% · tài nguyên ưu tiên) — 100 GB NVMe SSD — Websites không giới hạn — SSL wildcard — Backup custom — Email không giới hạn"
+      },
+      {
+        "heading": "Hạ tầng hàng tháng — OVH Infrastructure",
+        "text": "Hạ tầng hàng tháng — OVH Infrastructure: Thanh toán theo tháng hoặc năm (giảm 20% khi trả năm). Không phí setup ban đầu. Giá USD, thanh toán qua chuyển khoản hoặc PayPal."
+      },
+      {
+        "heading": "☁️ Cloud Hosting — Shared",
+        "text": "☁️ Cloud Hosting — Shared: Nền chi phí: $27.5/tháng cố định 1 VPS OVH hiện hữu (chi phí cố định $27.5/tháng, thuê trước bảng giá 2027) chia cho 10–15 tài khoản qua aaPanel. Tài nguyên hạ tầng cao hơn dòng VPS-4 2027 thông thường ($23.37 cho 8 vCore/24GB). Phù hợp: blog, landing page, e-commerce nhỏ, website doanh nghiệp. Không cần quản lý server. Starter $3.99/tháng ≈ $38/nă"
+      },
+      {
+        "heading": "⚡ VPS Riêng — Mỗi khách 1 OVH VPS độc lập",
+        "text": "⚡ VPS Riêng — Mỗi khách 1 OVH VPS độc lập: Nền chi phí: OVH VPS 2027 + thuế + margin Mỗi khách đặt VPS mới = EO đặt 1 OVH VPS 2027 mới. Chi phí: giá OVH × 1.10 (thuế ~10%) × 1.50 (margin 50%). Tài nguyên 100% dedicated. Root access đầy đủ. Phù hợp: backend API, game server, Docker, database server. Gói vCore RAM NVMe Giá OVH 2027 Giá bán/tháng VPS Starter 2 4 GB 40 GB $4.54 + thuế $7.99 Chọ"
+      },
+      {
+        "heading": "Phát triển sản phẩm",
+        "text": "Phát triển sản phẩm: Giá ước tính cho scope điển hình. Dự án thực tế sẽ báo giá chi tiết từng hạng mục sau buổi tư vấn."
+      },
+      {
+        "heading": "🎯 Landing Page",
+        "text": "🎯 Landing Page: 5 – 12tr Thiết kế custom, responsive, SEO chuẩn, form tích hợp. Thời gian: 1–2 tuần. DesignHTML/CSS/JSSEODeploy"
+      },
+      {
+        "heading": "🌐 Website doanh nghiệp",
+        "text": "🌐 Website doanh nghiệp: 10 – 25tr Multi-page, CMS, blog, i18n, case study. Thời gian: 3–5 tuần. Next.js / WPCMSi18n"
+      },
+      {
+        "heading": "🛒 E-Commerce",
+        "text": "🛒 E-Commerce: 15 – 40tr Sản phẩm, giỏ hàng, payment VNPAY/MoMo, quản lý đơn. Thời gian: 4–8 tuần. WooCommerceVNPAYKho hàng"
+      },
+      {
+        "heading": "📱 Mobile App (iOS + Android)",
+        "text": "📱 Mobile App (iOS + Android): 30 – 100tr React Native, 1 codebase 2 platform. Submit store included. Thời gian: 6–14 tuần. React NativeiOSAndroid"
+      },
+      {
+        "heading": "🎮 Game Unity Mobile",
+        "text": "🎮 Game Unity Mobile: 50 – 200tr Unity client + backend + LiveOps + IAP. Thời gian: 3–6 tháng. UnityBackendLiveOps"
+      },
+      {
+        "heading": "💼 SaaS Platform (MVP)",
+        "text": "💼 SaaS Platform (MVP): 80 – 250tr Multi-tenant, billing Stripe, dashboard, onboarding. Thời gian: 12–20 tuần. Next.jsStripeMulti-tenant 💡 Tất cả dự án: Báo giá chi tiết sau tư vấn 30 phút. Giá trên là ước tính scope điển hình — scope nhỏ hơn/lớn hơn giá thay đổi tương ứng. Thanh toán theo milestone, không trả hết trước. Bàn giao 100% source code. Chatbot · RAG · Automat"
+      },
+      {
+        "heading": "Giải pháp AI",
+        "text": "Giải pháp AI: Tích hợp AI vào workflow hiện tại. Giá phụ thuộc scope knowledge base và channel tích hợp. Starter 30tr một lần Chatbot FAQ tích hợp website. Phù hợp doanh nghiệp vừa. ✅ Knowledge base <200 Q&A✅ Tích hợp website✅ Hiểu tiếng Việt ✅ Fallback email✅ Dashboard xem logs✗ Multi-channel✗ Custom model Tư vấn Phổ biến Professional 60 – 100tr một lần RAG đầy"
+      },
+      {
+        "heading": "Gói duy trì & phát triển tiếp",
+        "text": "Gói duy trì & phát triển tiếp: Sau khi dự án hoàn thành, gói retainer đảm bảo sản phẩm luôn hoạt động ổn định và có người phụ trách thêm tính năng. Basic Support 500k/tháng Duy trì, monitoring, fix bug nhỏ. ✅ Uptime monitoring 24/7✅ Security patch tự động✅ Fix bug nhỏ (<2h/tháng) ✅ Backup verification✗ Thêm tính năng✗ Priority response Đăng ký Phổ biến Growth 2tr/tháng Thêm tính"
+      },
+      {
+        "heading": "EO Technology vs Agency thường",
+        "text": "EO Technology vs Agency thường: EO Technology Agency thường Báo giá chi tiết từ đầu✅Thường gộp chung Bàn giao 100% source code✅Một số giữ lại Dev in-house (không outsource)✅Thường outsource Thanh toán theo milestone✅50-70% trả trước Hỗ trợ sau bàn giao 30 ngày✅Thường mất phí Portfolio sản phẩm live thực sự✅Thường chỉ mockup"
+      },
+      {
+        "heading": "Câu hỏi về bảng giá",
+        "text": "Câu hỏi về bảng giá: Giá có thể thay đổi sau khi ký không?Không. EO cam kết giá cố định từ đầu dựa trên scope đã thống nhất. Nếu khách hàng yêu cầu thêm tính năng ngoài scope ban đầu, sẽ có báo giá phụ lục riêng và cần ký chấp thuận trước khi làm. Thanh toán như thế nào?Phát triển phần mềm: Milestone-based — thường 30% khi ký, 40% khi demo stage 1, 30% khi bàn giao. Ho"
+      },
+      {
+        "heading": "🏦 Chuyển khoản ngân hàng",
+        "text": "🏦 Chuyển khoản ngân hàng: Chuyển khoản nội địa (VietQR, VNPAY, MoMo). Settlement ngay T+0 hoặc T+1. Lấy thông tin tài khoản →"
+      },
+      {
+        "heading": "💳 PayPal (Quốc tế)",
+        "text": "💳 PayPal (Quốc tế): Thanh toán quốc tế bằng thẻ Visa/Mastercard hoặc tài khoản PayPal. Phù hợp với khách hàng ngoài Việt Nam. Thanh toán qua PayPal"
+      },
+      {
+        "heading": "Nhận báo giá trong 24 giờ",
+        "text": "Nhận báo giá trong 24 giờ: Mô tả ngắn về dự án — EO sẽ phân tích và gửi báo giá chi tiết. Không phí tư vấn, không cam kết. Nhận báo giá → Xem tất cả dịch vụ"
+      }
     ]
   },
   {
     "title": "Về Chúng Tôi — EO Technology | Đội Ngũ & Sứ Mệnh",
     "url": "https://eo.io.vn/about",
-    "content": "Về Chúng Tôi — EO Technology | Đội Ngũ & Sứ Mệnh Bỏ qua đến nội dung chính Chúng tôi là EO Technology Công ty công nghệ Việt Nam tập trung vào sản phẩm thực tế — không outsource, không freelancer ngắn hạn. Đội ngũ in-house xây dựng từ hosting đến game, từ website đến AI. Sứ mệnh Công nghệ phải tạo ra giá trị thực EO Technology được lập ra với một niềm tin đơn giản: Công nghệ không phải để gây ấn tượng, mà để giải quyết vấn đề thực sự của khách hàng. Chúng tôi không thích demo đẹp mà không chạy được khi production. Không thích báo giá thấp rồi phát sinh thêm khi gần xong. Không thích bàn giao sản phẩm rồi biến mất. Vì thế EO chỉ nhận dự án mà đội ngũ tự tin làm tốt — và làm đến cùng. eo-values.sh $ eo principles --list 01 Sản phẩm thực, không mockup 02 Source code 100% cho khách hàng 03 Giá niêm yết, không phát sinh ẩn 04 In-house team, không outsource 05 Phản hồi trong 2 giờ làm việc 06 Không nhận dự án không thể làm tốt # Version: since 2020 ✔ All principles: active 5+ Năm hoạt động 30+ Dự án hoàn thành 100% Source code bàn giao 2h Phản hồi trung bình 0 Dự án outsource Đội ngũ Con người đằng sau EO Mỗi thành viên là specialist trong domain của mình — không phải \"full-stack developer\" làm tất cả ở mức trung bình. 🎮 Game & Backend Lead Unity · C# · Node.js 5+ năm Unity. Kiến trúc game server, LiveOps. Tác giả chính của Cloud Ball. 🌐 Web & Frontend Lead React · Next.js · TypeScript Chuyên SaaS frontend, design system. Lighthouse ≥90 là baseline, không phải mục tiêu. 🤖 AI & Data Engineer Python · RAG · LLM RAG pipeline, fine-tuning, on-premise. Không hype AI — chỉ dùng khi thực sự phù hợp. ☁️ Cloud & DevOps Docker · Terraform · K8s Infrastructure as Code, CI/CD pipeline, monitoring, uptime và tối ưu chi phí cloud. 📱 Mobile Developer React Native · iOS · Android Cross-platform mobile, App Store optimization, push notification, offline-first. 🎨 Product & Design Figma · UX · Conversion Thiết kế không chỉ để đẹp — mỗi quyết định design đều có lý do conversion cụ thể. Cam kết Giá trị cốt lõi của EO Bốn nguyên tắc không thay đổi trong mọi dự án, mọi khách hàng. 🏗️ Đội ngũ in-house, 0% outsource Mọi công việc được thực hiện bởi chính đội ngũ EO. Không thuê ngoài, không qua trung gian — bạn luôn làm việc trực tiếp với người thực sự viết code và thiết kế sản phẩm của bạn. 📦 100% source code thuộc về bạn Sau khi thanh toán, toàn bộ source code, tài liệu kỹ thuật và tài sản số được bàn giao đầy đủ. Không vendor lock-in, không giữ lại bất kỳ quyền thương mại nào. 💰 Giá niêm yết, không phát sinh Giá báo là giá cuối. Mọi thay đổi scope được thảo luận và báo giá rõ ràng trước khi thực hiện — không có chi phí ẩn hoặc phát sinh bất ngờ. ⚡ Phản hồi trong 2 giờ làm việc Cam kết phản hồi mọi liên hệ trong vòng 2 giờ làm việc. Khi có incident, thông báo ngay và update liên tục cho đến khi giải quyết xong. Gặp đội ngũ EO Technology Tư vấn 30 phút miễn phí — không cam kết. Cùng thảo luận bài toán của bạn. Liên hệ → Gia nhập EO ↑",
-    "summary": "Về Chúng Tôi — EO Technology | Đội Ngũ & Sứ Mệnh Bỏ qua đến nội dung chính Chúng tôi là EO Technology Công ty công nghệ Việt Nam tập trung vào sản phẩm thực tế — không outsource, không freelancer ngắn hạn. Đội ngũ in-house xây dựng từ hosting đến game, từ website đến AI. Sứ mệnh…",
+    "summary": "Công nghệ phải tạo ra giá trị thực: EO Technology được lập ra với một niềm tin đơn giản: Công nghệ không phải để gây ấn tượng, mà để giải quyết vấn đề thực sự của khách hàng. Chúng tôi không thích demo đẹp mà không chạy được khi production. Không…",
     "tags": [
       "về chúng tôi",
       "đội ngũ",
       "kinh nghiệm",
       "about",
       "eo technology"
+    ],
+    "entries": [
+      {
+        "heading": "Công nghệ phải tạo ra giá trị thực",
+        "text": "Công nghệ phải tạo ra giá trị thực: EO Technology được lập ra với một niềm tin đơn giản: Công nghệ không phải để gây ấn tượng, mà để giải quyết vấn đề thực sự của khách hàng. Chúng tôi không thích demo đẹp mà không chạy được khi production. Không thích báo giá thấp rồi phát sinh thêm khi gần xong. Không thích bàn giao sản phẩm rồi biến mất. Vì thế EO chỉ nhận dự án mà đội ngũ tự tin "
+      },
+      {
+        "heading": "Con người đằng sau EO",
+        "text": "Con người đằng sau EO: Mỗi thành viên là specialist trong domain của mình — không phải \"full-stack developer\" làm tất cả ở mức trung bình. 🎮"
+      },
+      {
+        "heading": "Game & Backend Lead",
+        "text": "Game & Backend Lead: Unity · C# · Node.js5+ năm Unity. Kiến trúc game server, LiveOps. Tác giả chính của Cloud Ball. 🌐"
+      },
+      {
+        "heading": "Web & Frontend Lead",
+        "text": "Web & Frontend Lead: React · Next.js · TypeScriptChuyên SaaS frontend, design system. Lighthouse ≥90 là baseline, không phải mục tiêu. 🤖"
+      },
+      {
+        "heading": "AI & Data Engineer",
+        "text": "AI & Data Engineer: Python · RAG · LLMRAG pipeline, fine-tuning, on-premise. Không hype AI — chỉ dùng khi thực sự phù hợp. ☁️"
+      },
+      {
+        "heading": "Cloud & DevOps",
+        "text": "Cloud & DevOps: Docker · Terraform · K8sInfrastructure as Code, CI/CD pipeline, monitoring, uptime và tối ưu chi phí cloud. 📱"
+      },
+      {
+        "heading": "Mobile Developer",
+        "text": "Mobile Developer: React Native · iOS · AndroidCross-platform mobile, App Store optimization, push notification, offline-first. 🎨"
+      },
+      {
+        "heading": "Product & Design",
+        "text": "Product & Design: Figma · UX · ConversionThiết kế không chỉ để đẹp — mỗi quyết định design đều có lý do conversion cụ thể."
+      },
+      {
+        "heading": "Giá trị cốt lõi của EO",
+        "text": "Giá trị cốt lõi của EO: Bốn nguyên tắc không thay đổi trong mọi dự án, mọi khách hàng. 🏗️"
+      },
+      {
+        "heading": "Đội ngũ in-house, 0% outsource",
+        "text": "Đội ngũ in-house, 0% outsource: Mọi công việc được thực hiện bởi chính đội ngũ EO. Không thuê ngoài, không qua trung gian — bạn luôn làm việc trực tiếp với người thực sự viết code và thiết kế sản phẩm của bạn. 📦"
+      },
+      {
+        "heading": "100% source code thuộc về bạn",
+        "text": "100% source code thuộc về bạn: Sau khi thanh toán, toàn bộ source code, tài liệu kỹ thuật và tài sản số được bàn giao đầy đủ. Không vendor lock-in, không giữ lại bất kỳ quyền thương mại nào. 💰"
+      },
+      {
+        "heading": "Giá niêm yết, không phát sinh",
+        "text": "Giá niêm yết, không phát sinh: Giá báo là giá cuối. Mọi thay đổi scope được thảo luận và báo giá rõ ràng trước khi thực hiện — không có chi phí ẩn hoặc phát sinh bất ngờ. ⚡"
+      },
+      {
+        "heading": "Phản hồi trong 2 giờ làm việc",
+        "text": "Phản hồi trong 2 giờ làm việc: Cam kết phản hồi mọi liên hệ trong vòng 2 giờ làm việc. Khi có incident, thông báo ngay và update liên tục cho đến khi giải quyết xong."
+      },
+      {
+        "heading": "Gặp đội ngũ EO Technology",
+        "text": "Gặp đội ngũ EO Technology: Tư vấn 30 phút miễn phí — không cam kết. Cùng thảo luận bài toán của bạn. Liên hệ → Gia nhập EO"
+      }
     ]
   },
   {
     "title": "Liên Hệ — EO Technology | Tư Vấn & Báo Giá",
     "url": "https://eo.io.vn/contact",
-    "content": "Liên Hệ — EO Technology | Tư Vấn & Báo Giá Bỏ qua đến nội dung chính Bắt đầu dự án của bạn Mô tả ngắn về bài toán — EO phản hồi trong 2 giờ làm việc. Không chatbot auto-reply, không template email hàng loạt. Gửi yêu cầu Họ tên * Công ty (nếu có) Email * Số điện thoại Dịch vụ quan tâm * Chọn dịch vụ... Web Hosting VPS Cloud Infrastructure Web Development Mobile App (iOS/Android) Game Development AI Solutions SaaS Platform Khác / Tư vấn chung Ngân sách dự kiến Chọn khoảng ngân sách... Dưới 5 triệu 5 – 20 triệu 20 – 50 triệu 50 – 150 triệu Trên 150 triệu Subscription / hàng tháng Chưa xác định Mô tả dự án / yêu cầu * Timeline mong muốn Bạn cần hoàn thành khi nào? Càng sớm càng tốt Trong 1 tháng Trong 3 tháng Trong 6 tháng Linh hoạt Gửi yêu cầu → EO phản hồi trong 2 giờ làm việc (8h – 18h, T2 – T6). Thông tin của bạn được bảo mật. Liên hệ trực tiếp ✈️ Telegram t.me/eoiovn — Nhanh nhất, phản hồi ngay 📧 Email eotechnologys@gmail.com — Cho trao đổi chi tiết, tài liệu ▶️ YouTube @eoiovn — Demo, tutorial, product updates 💳 Thanh toán Chấp nhận thanh toán qua PayPal (quốc tế) và chuyển khoản ngân hàng nội địa. Thanh toán qua PayPal ⏰ Giờ làm việc Thứ 2 – Thứ 6 8:00 – 18:00 ICT Thứ 7 9:00 – 12:00 ICT Chủ nhật & Lễ Nghỉ Support kỹ thuật cho hạ tầng (hosting/VPS): 24/7 qua ticket. SLA cam kết theo gói. 🗓️ Đặt lịch tư vấn Tư vấn 30 phút qua Google Meet hoặc Zoom — miễn phí, không cam kết. Phù hợp để thảo luận dự án phức tạp trước khi gửi form. Nhắn Telegram để đặt lịch → Câu hỏi nhanh Phản hồi mất bao lâu? 2 giờ làm việc trong giờ hành chính. Ngoài giờ hoặc cuối tuần: ngày làm việc tiếp theo sáng sớm. Tư vấn có mất phí không? Không. Tư vấn lần đầu hoàn toàn miễn phí, không cam kết ký hợp đồng. Cần chuẩn bị gì trước khi liên hệ? Ý tưởng về sản phẩm/dự án, đối tượng người dùng, và ngân sách dự kiến. Không cần tài liệu kỹ thuật chi tiết — đó là việc EO giúp bạn xây. ↑",
-    "summary": "Liên Hệ — EO Technology | Tư Vấn & Báo Giá Bỏ qua đến nội dung chính Bắt đầu dự án của bạn Mô tả ngắn về bài toán — EO phản hồi trong 2 giờ làm việc. Không chatbot auto-reply, không template email hàng loạt. Gửi yêu cầu Họ tên * Công ty (nếu có) Email * Số điện thoại Dịch vụ quan…",
+    "summary": "Phản hồi mất bao lâu?: 2 giờ làm việc trong giờ hành chính. Ngoài giờ hoặc cuối tuần: ngày làm việc tiếp theo sáng sớm.",
     "tags": [
       "liên hệ",
       "contact",
@@ -169,30 +1156,198 @@
       "email",
       "tư vấn miễn phí",
       "zalo"
+    ],
+    "entries": [
+      {
+        "heading": "Phản hồi mất bao lâu?",
+        "text": "Phản hồi mất bao lâu?: 2 giờ làm việc trong giờ hành chính. Ngoài giờ hoặc cuối tuần: ngày làm việc tiếp theo sáng sớm."
+      },
+      {
+        "heading": "Tư vấn có mất phí không?",
+        "text": "Tư vấn có mất phí không?: Không. Tư vấn lần đầu hoàn toàn miễn phí, không cam kết ký hợp đồng."
+      },
+      {
+        "heading": "Cần chuẩn bị gì trước khi liên hệ?",
+        "text": "Cần chuẩn bị gì trước khi liên hệ?: Ý tưởng về sản phẩm/dự án, đối tượng người dùng, và ngân sách dự kiến. Không cần tài liệu kỹ thuật chi tiết — đó là việc EO giúp bạn xây."
+      },
+      {
+        "heading": "Gửi yêu cầu",
+        "text": "Gửi yêu cầu: Họ tên * Công ty (nếu có) Email * Số điện thoại Dịch vụ quan tâm * Chọn dịch vụ... Web Hosting VPS Cloud Infrastructure Web Development Mobile App (iOS/Android) Game Development AI Solutions SaaS Platform Khác / Tư vấn chung Ngân sách dự kiến Chọn khoảng ngân sách... Dưới 5 triệu 5 – 20 triệu 20 – 50 triệu 50 – 150 triệu Trên 150 triệu Subscription"
+      },
+      {
+        "heading": "Liên hệ trực tiếp",
+        "text": "Liên hệ trực tiếp: ✈️ Telegramt.me/eoiovn — Nhanh nhất, phản hồi ngay 📧 Emaileotechnologys@gmail.com — Cho trao đổi chi tiết, tài liệu ▶️ YouTube@eoiovn — Demo, tutorial, product updates"
+      },
+      {
+        "heading": "💳 Thanh toán",
+        "text": "💳 Thanh toán: Chấp nhận thanh toán qua PayPal (quốc tế) và chuyển khoản ngân hàng nội địa. Thanh toán qua PayPal"
+      },
+      {
+        "heading": "⏰ Giờ làm việc",
+        "text": "⏰ Giờ làm việc: Thứ 2 – Thứ 68:00 – 18:00 ICT Thứ 79:00 – 12:00 ICT Chủ nhật & LễNghỉ Support kỹ thuật cho hạ tầng (hosting/VPS): 24/7 qua ticket. SLA cam kết theo gói."
+      },
+      {
+        "heading": "🗓️ Đặt lịch tư vấn",
+        "text": "🗓️ Đặt lịch tư vấn: Tư vấn 30 phút qua Google Meet hoặc Zoom — miễn phí, không cam kết. Phù hợp để thảo luận dự án phức tạp trước khi gửi form. Nhắn Telegram để đặt lịch →"
+      },
+      {
+        "heading": "Câu hỏi nhanh",
+        "text": "Câu hỏi nhanh: Phản hồi mất bao lâu?2 giờ làm việc trong giờ hành chính. Ngoài giờ hoặc cuối tuần: ngày làm việc tiếp theo sáng sớm. Tư vấn có mất phí không?Không. Tư vấn lần đầu hoàn toàn miễn phí, không cam kết ký hợp đồng. Cần chuẩn bị gì trước khi liên hệ?Ý tưởng về sản phẩm/dự án, đối tượng người dùng, và ngân sách dự kiến. Không cần tài liệu kỹ thuật chi ti"
+      }
     ]
   },
   {
     "title": "Portfolio — Sản Phẩm Thực Tế | EO Technology",
     "url": "https://eo.io.vn/portfolio",
-    "content": "Portfolio — Sản Phẩm Thực Tế | EO Technology Bỏ qua đến nội dung chính Sản phẩm thực tế không chỉ mockup EO Technology tin vào sản phẩm thực. Mỗi case study trong portfolio này đều là thứ đang chạy thực sự — không phải demo hay concept cho giải thưởng. Tất cả Game AI / Chat Web / SaaS 🎮 Unity Mobile Game Unity C# Backend LiveOps Cloud Ball Mobile game với physics simulation và multiplayer. Đội ngũ EO tự xây dựng từ game design đến backend server và LiveOps system — bằng chứng thực tế về năng lực game development của EO. 📅 2024 — Ongoing • 📱 iOS + Android • 👤 Internal project Đọc case study đầy đủ → 🤖 AI RAG AI RAG JavaScript IndexedDB EO Sales Chatbot AI chatbot chạy hoàn toàn trong trình duyệt — không API call, không server, không chi phí vận hành. Sử dụng inverted index + TF-IDF + intent detection để trả lời câu hỏi từ knowledge base eo.io.vn. 📅 2025 • 🌐 Web • 👤 Internal product Xem chi tiết → 🌐 Web SEO Web PWA i18n Cloudflare Pages eo.io.vn Rebuild Rebuild hoàn toàn từ EO Studio (indie game) sang EO Technology (tech company). Vanilla JS không framework, i18n VI/EN, PWA, SEO 301 redirect, Lighthouse ≥90. Serving từ Cloudflare Pages. 📅 2025 • 🌐 eo.io.vn • 👤 EO's own site Đây chính là site đó → 🔮 Dự án tiếp theo 2025 Q4 Dự án của bạn? Slot tiếp theo trong portfolio EO đang chờ. Sản phẩm bạn xây cùng EO sẽ được showcase ở đây — cùng case study, metrics thực, và câu chuyện phía sau. Bắt đầu dự án cùng EO → 🎮 Game Unity Multiplayer Cloud Ball Mobile game physics + multiplayer + LiveOps. Đội EO tự build từ A-Z. Đọc case study → Tìm hiểu Game Development Service → 🤖 AI RAG Browser EO Sales Chatbot AI chạy trong browser, không API, không server cost. TF-IDF + intent detection. Xem chi tiết → Tìm hiểu AI Solutions Service → 🌐 Web PWA i18n eo.io.vn Rebuild Vanilla JS, bilingual, PWA, Cloudflare Pages. EO's own site — eating our own cooking. Đây chính là site đó → Tìm hiểu Web Development Service → 3+ Sản phẩm live 5+ Năm kinh nghiệm 100% Source code bàn giao 0 Dự án bỏ ngang Dự án của bạn sẽ là case study tiếp theo EO tin vào chất lượng đủ để showcase công khai. Bạn có thể xem kết quả trước khi quyết định. Bắt đầu dự án → Xem tất cả dịch vụ ↑",
-    "summary": "Portfolio — Sản Phẩm Thực Tế | EO Technology Bỏ qua đến nội dung chính Sản phẩm thực tế không chỉ mockup EO Technology tin vào sản phẩm thực. Mỗi case study trong portfolio này đều là thứ đang chạy thực sự — không phải demo hay concept cho giải thưởng. Tất cả Game AI / Chat Web /…",
+    "summary": "Cloud Ball: Mobile game với physics simulation và multiplayer. Đội ngũ EO tự xây dựng từ game design đến backend server và LiveOps system — bằng chứng thực tế về năng lực game development của EO. 📅 2024 — Ongoing • 📱 iOS + Android • 👤 Internal…",
     "tags": [
       "portfolio",
       "dự án",
       "cloud ball",
       "eo sales chat",
       "sản phẩm đã làm"
+    ],
+    "entries": [
+      {
+        "heading": "Cloud Ball",
+        "text": "Cloud Ball: Mobile game với physics simulation và multiplayer. Đội ngũ EO tự xây dựng từ game design đến backend server và LiveOps system — bằng chứng thực tế về năng lực game development của EO. 📅 2024 — Ongoing • 📱 iOS + Android • 👤 Internal project Đọc case study đầy đủ → 🤖 AI RAG AI RAG JavaScript IndexedDB"
+      },
+      {
+        "heading": "EO Sales Chatbot",
+        "text": "EO Sales Chatbot: AI chatbot chạy hoàn toàn trong trình duyệt — không API call, không server, không chi phí vận hành. Sử dụng inverted index + TF-IDF + intent detection để trả lời câu hỏi từ knowledge base eo.io.vn. 📅 2025 • 🌐 Web • 👤 Internal product Xem chi tiết → 🌐 Web SEO Web PWA i18n Cloudflare Pages"
+      },
+      {
+        "heading": "eo.io.vn Rebuild",
+        "text": "eo.io.vn Rebuild: Rebuild hoàn toàn từ EO Studio (indie game) sang EO Technology (tech company). Vanilla JS không framework, i18n VI/EN, PWA, SEO 301 redirect, Lighthouse ≥90. Serving từ Cloudflare Pages. 📅 2025 • 🌐 eo.io.vn • 👤 EO's own site Đây chính là site đó → 🔮 Dự án tiếp theo 2025 Q4"
+      },
+      {
+        "heading": "Dự án của bạn?",
+        "text": "Dự án của bạn?: Slot tiếp theo trong portfolio EO đang chờ. Sản phẩm bạn xây cùng EO sẽ được showcase ở đây — cùng case study, metrics thực, và câu chuyện phía sau. Bắt đầu dự án cùng EO → 🎮 GameUnityMultiplayer"
+      },
+      {
+        "heading": "Cloud Ball",
+        "text": "Cloud Ball: Mobile game physics + multiplayer + LiveOps. Đội EO tự build từ A-Z. Đọc case study → Tìm hiểu Game Development Service → 🤖 AIRAGBrowser"
+      },
+      {
+        "heading": "EO Sales Chatbot",
+        "text": "EO Sales Chatbot: AI chạy trong browser, không API, không server cost. TF-IDF + intent detection. Xem chi tiết → Tìm hiểu AI Solutions Service → 🌐 WebPWAi18n"
+      },
+      {
+        "heading": "eo.io.vn Rebuild",
+        "text": "eo.io.vn Rebuild: Vanilla JS, bilingual, PWA, Cloudflare Pages. EO's own site — eating our own cooking. Đây chính là site đó → Tìm hiểu Web Development Service →"
+      },
+      {
+        "heading": "Dự án của bạn sẽ là case study tiếp theo",
+        "text": "Dự án của bạn sẽ là case study tiếp theo: EO tin vào chất lượng đủ để showcase công khai. Bạn có thể xem kết quả trước khi quyết định. Bắt đầu dự án → Xem tất cả dịch vụ"
+      }
     ]
   },
   {
     "title": "FAQ — Câu Hỏi Thường Gặp | EO Technology",
     "url": "https://eo.io.vn/faq",
-    "content": "FAQ — Câu Hỏi Thường Gặp | EO Technology Bỏ qua đến nội dung chính Câu hỏi thường gặp Không tìm được câu trả lời? Hỏi trực tiếp chatbot AI ở góc dưới phải, hoặc liên hệ đội ngũ — phản hồi trong 2 giờ làm việc. Chung EO Technology cung cấp những dịch vụ gì? EO Technology cung cấp 8 nhóm dịch vụ: Web Hosting, Cloud Infrastructure, VPS, Web Development, Mobile App (iOS/Android), Game Development (Unity), AI Solutions (Chatbot/RAG/Automation), và SaaS Platform . Xem chi tiết tại trang dịch vụ . EO Technology có trụ sở ở đâu? EO Technology có team tại Việt Nam. Chúng tôi phục vụ khách hàng trên toàn quốc qua online. Với dự án lớn, có thể sắp xếp gặp trực tiếp tại TP.HCM và Hà Nội. Làm thế nào để bắt đầu làm việc với EO? 3 cách liên hệ: 1. Form tại eo.io.vn/contact 2. Telegram: t.me/eoiovn 3. Email: eotechnologys@gmail.com EO phản hồi trong 2 giờ làm việc và sắp xếp buổi tư vấn miễn phí 30 phút. EO có hỗ trợ tiếng Anh không? Có. Website eo.io.vn có bản dịch tiếng Anh (nút VI/EN ở header). Đội ngũ EO giao tiếp được bằng tiếng Anh qua email và chat. Hợp đồng có thể ký bằng tiếng Anh hoặc tiếng Việt. Hosting & Hạ Tầng Uptime SLA của EO là bao nhiêu? Hosting và VPS: 99.9% SLA (~8.7 giờ downtime/năm). Cloud Managed: 99.99% SLA (~52 phút/năm). Khi vi phạm SLA, EO bồi thường credit dịch vụ tỷ lệ tương ứng. Data center đặt ở đâu? EO có data center tại Singapore (Equinix), Hà Nội (Viettel IDC), và TP.HCM (CMC Telecom). Khách hàng chọn region khi đăng ký. Đa vùng (multi-region) theo yêu cầu dự án. Có thể nâng cấp gói giữa chừng không? Có. Upgrade/downgrade bất cứ lúc nào — áp dụng theo ngày tính tiền. Không cần downtime khi upgrade Hosting hay VPS (trong cùng data center). Downgrade cần notice 7 ngày trước chu kỳ billing mới. Migrate từ host cũ về EO mất bao lâu? Thông thường 2-4 giờ cho website nhỏ và vừa. Đội kỹ thuật EO làm toàn bộ — copy file, import database, kiểm thử — trước khi chuyển DNS. Website không bị down trong quá trình chuyển. Dịch vụ migrate miễn phí. Phát Triển Sản Phẩm EO Technology có bàn giao source code không? Có, 100%. Source code, database schema, deployment docs, và hướng dẫn sử dụng — tất cả thuộc về khách hàng sau khi hoàn thành dự án và thanh toán đủ. Không lock-in vendor. Quy trình phát triển của EO như thế nào? 6 bước: Tư vấn → Wireframe/Prototype → UI Design → Development (sprint 2 tuần) → QA & Testing → Launch & Handover . Khách hàng được demo và review sau mỗi sprint. Không có bất ngờ khi đến giai đoạn bàn giao. Nếu tôi muốn thêm tính năng sau khi bàn giao? Có gói Basic Support (500k/tháng) — monitoring + fix bug. Gói Growth (2tr/tháng) — thêm 8 giờ dev. Hoặc báo giá theo project nhỏ nếu thay đổi lớn hơn. Có full source code nên cũng có thể thuê developer khác. EO có NDA không? Có. EO ký NDA (Non-Disclosure Agreement) khi khách hàng yêu cầu — đặc biệt với dự án SaaS, AI, hoặc sản phẩm startup chưa công bố. NDA tiêu chuẩn hoặc theo template của khách hàng đều được. AI & Game Development Chatbot AI của EO có hiểu tiếng Việt không? Có. EO ",
-    "summary": "FAQ — Câu Hỏi Thường Gặp | EO Technology Bỏ qua đến nội dung chính Câu hỏi thường gặp Không tìm được câu trả lời? Hỏi trực tiếp chatbot AI ở góc dưới phải, hoặc liên hệ đội ngũ — phản hồi trong 2 giờ làm việc. Chung EO Technology cung cấp những dịch vụ gì? EO Technology cung cấp…",
+    "summary": "EO Technology cung cấp những dịch vụ gì?: EO Technology cung cấp 8 nhóm dịch vụ: Web Hosting, Cloud Infrastructure, VPS, Web Development, Mobile App (iOS/Android), Game Development (Unity), AI Solutions (Chatbot/RAG/Automation), và SaaS Platform. Xem…",
     "tags": [
       "faq",
       "câu hỏi thường gặp",
       "frequently asked"
+    ],
+    "entries": [
+      {
+        "heading": "EO Technology cung cấp những dịch vụ gì?",
+        "text": "EO Technology cung cấp những dịch vụ gì?: EO Technology cung cấp 8 nhóm dịch vụ: Web Hosting, Cloud Infrastructure, VPS, Web Development, Mobile App (iOS/Android), Game Development (Unity), AI Solutions (Chatbot/RAG/Automation), và SaaS Platform. Xem chi tiết tại trang dịch vụ."
+      },
+      {
+        "heading": "EO Technology có trụ sở ở đâu?",
+        "text": "EO Technology có trụ sở ở đâu?: EO Technology có team tại Việt Nam. Chúng tôi phục vụ khách hàng trên toàn quốc qua online. Với dự án lớn, có thể sắp xếp gặp trực tiếp tại TP.HCM và Hà Nội."
+      },
+      {
+        "heading": "Làm thế nào để bắt đầu làm việc với EO?",
+        "text": "Làm thế nào để bắt đầu làm việc với EO?: 3 cách liên hệ: 1. Form tại eo.io.vn/contact 2. Telegram: t.me/eoiovn 3. Email: eotechnologys@gmail.comEO phản hồi trong 2 giờ làm việc và sắp xếp buổi tư vấn miễn phí 30 phút."
+      },
+      {
+        "heading": "EO có hỗ trợ tiếng Anh không?",
+        "text": "EO có hỗ trợ tiếng Anh không?: Có. Website eo.io.vn có bản dịch tiếng Anh (nút VI/EN ở header). Đội ngũ EO giao tiếp được bằng tiếng Anh qua email và chat. Hợp đồng có thể ký bằng tiếng Anh hoặc tiếng Việt."
+      },
+      {
+        "heading": "Uptime SLA của EO là bao nhiêu?",
+        "text": "Uptime SLA của EO là bao nhiêu?: Hosting và VPS: 99.9% SLA (~8.7 giờ downtime/năm). Cloud Managed: 99.99% SLA (~52 phút/năm). Khi vi phạm SLA, EO bồi thường credit dịch vụ tỷ lệ tương ứng."
+      },
+      {
+        "heading": "Data center đặt ở đâu?",
+        "text": "Data center đặt ở đâu?: EO có data center tại Singapore (Equinix), Hà Nội (Viettel IDC), và TP.HCM (CMC Telecom). Khách hàng chọn region khi đăng ký. Đa vùng (multi-region) theo yêu cầu dự án."
+      },
+      {
+        "heading": "Có thể nâng cấp gói giữa chừng không?",
+        "text": "Có thể nâng cấp gói giữa chừng không?: Có. Upgrade/downgrade bất cứ lúc nào — áp dụng theo ngày tính tiền. Không cần downtime khi upgrade Hosting hay VPS (trong cùng data center). Downgrade cần notice 7 ngày trước chu kỳ billing mới."
+      },
+      {
+        "heading": "Migrate từ host cũ về EO mất bao lâu?",
+        "text": "Migrate từ host cũ về EO mất bao lâu?: Thông thường 2-4 giờ cho website nhỏ và vừa. Đội kỹ thuật EO làm toàn bộ — copy file, import database, kiểm thử — trước khi chuyển DNS. Website không bị down trong quá trình chuyển. Dịch vụ migrate miễn phí."
+      },
+      {
+        "heading": "EO Technology có bàn giao source code không?",
+        "text": "EO Technology có bàn giao source code không?: Có, 100%. Source code, database schema, deployment docs, và hướng dẫn sử dụng — tất cả thuộc về khách hàng sau khi hoàn thành dự án và thanh toán đủ. Không lock-in vendor."
+      },
+      {
+        "heading": "Quy trình phát triển của EO như thế nào?",
+        "text": "Quy trình phát triển của EO như thế nào?: 6 bước: Tư vấn → Wireframe/Prototype → UI Design → Development (sprint 2 tuần) → QA & Testing → Launch & Handover. Khách hàng được demo và review sau mỗi sprint. Không có bất ngờ khi đến giai đoạn bàn giao."
+      },
+      {
+        "heading": "Nếu tôi muốn thêm tính năng sau khi bàn giao?",
+        "text": "Nếu tôi muốn thêm tính năng sau khi bàn giao?: Có gói Basic Support (500k/tháng) — monitoring + fix bug. Gói Growth (2tr/tháng) — thêm 8 giờ dev. Hoặc báo giá theo project nhỏ nếu thay đổi lớn hơn. Có full source code nên cũng có thể thuê developer khác."
+      },
+      {
+        "heading": "EO có NDA không?",
+        "text": "EO có NDA không?: Có. EO ký NDA (Non-Disclosure Agreement) khi khách hàng yêu cầu — đặc biệt với dự án SaaS, AI, hoặc sản phẩm startup chưa công bố. NDA tiêu chuẩn hoặc theo template của khách hàng đều được."
+      },
+      {
+        "heading": "Chatbot AI của EO có hiểu tiếng Việt không?",
+        "text": "Chatbot AI của EO có hiểu tiếng Việt không?: Có. EO build synonym dictionary riêng cho tiếng Việt và xử lý không dấu (ví dụ \"vps\" = \"máy chủ ảo\" = \"virtual private server\"). Với chatbot LLM (GPT-4o, Claude), khả năng tiếng Việt rất tốt theo mặc định."
+      },
+      {
+        "heading": "Cloud Ball là gì?",
+        "text": "Cloud Ball là gì?: Cloud Ball là mobile game do EO Technology tự phát triển bằng Unity — game physics + multiplayer + LiveOps system. Đây là dự án nội bộ chứng minh năng lực game development của đội ngũ. Chi tiết tại portfolio/cloud-ball."
+      },
+      {
+        "heading": "EO Technology có làm game PC không?",
+        "text": "EO Technology có làm game PC không?: Có. Unity hỗ trợ build cho Windows, Mac, Linux, WebGL. Tuy nhiên EO focus chủ yếu vào mobile game (iOS/Android) và mid-size indie. Game AAA 3D phức tạp không phải thế mạnh của EO."
+      },
+      {
+        "heading": "EO chấp nhận hình thức thanh toán nào?",
+        "text": "EO chấp nhận hình thức thanh toán nào?: Chuyển khoản ngân hàng (Vietcombank, Techcombank, BIDV), VNPAY QR, MoMo, ZaloPay. Với khách nước ngoài: Stripe, PayPal, Wise. Xuất hóa đơn VAT điện tử theo yêu cầu."
+      },
+      {
+        "heading": "Có hoàn tiền không nếu không hài lòng?",
+        "text": "Có hoàn tiền không nếu không hài lòng?: Hosting/VPS: hoàn tiền 100% trong 30 ngày đầu nếu không hài lòng. Dự án phát triển: thanh toán theo milestone — chỉ trả cho phần đã hoàn thành và được chấp thuận. Không mất tiền nếu dừng dự án giữa chừng theo điều khoản hợp đồng."
+      },
+      {
+        "heading": "Giá có bao gồm VAT không?",
+        "text": "Giá có bao gồm VAT không?: Giá niêm yết chưa bao gồm VAT 10%. Hóa đơn VAT đầy đủ được cung cấp khi yêu cầu. EO có đăng ký kinh doanh hợp lệ, hoạt động minh bạch theo quy định pháp luật Việt Nam."
+      },
+      {
+        "heading": "Chung",
+        "text": "Chung: EO Technology cung cấp những dịch vụ gì? EO Technology cung cấp 8 nhóm dịch vụ: Web Hosting, Cloud Infrastructure, VPS, Web Development, Mobile App (iOS/Android), Game Development (Unity), AI Solutions (Chatbot/RAG/Automation), và SaaS Platform. Xem chi tiết tại trang dịch vụ. EO Technology có trụ sở ở đâu? EO Technology có team tại Việt Nam. Chúng"
+      },
+      {
+        "heading": "Hosting & Hạ Tầng",
+        "text": "Hosting & Hạ Tầng: Uptime SLA của EO là bao nhiêu? Hosting và VPS: 99.9% SLA (~8.7 giờ downtime/năm). Cloud Managed: 99.99% SLA (~52 phút/năm). Khi vi phạm SLA, EO bồi thường credit dịch vụ tỷ lệ tương ứng. Data center đặt ở đâu? EO có data center tại Singapore (Equinix), Hà Nội (Viettel IDC), và TP.HCM (CMC Telecom). Khách hàng chọn region khi đăng ký. Đa vùng (mult"
+      },
+      {
+        "heading": "Phát Triển Sản Phẩm",
+        "text": "Phát Triển Sản Phẩm: EO Technology có bàn giao source code không? Có, 100%. Source code, database schema, deployment docs, và hướng dẫn sử dụng — tất cả thuộc về khách hàng sau khi hoàn thành dự án và thanh toán đủ. Không lock-in vendor. Quy trình phát triển của EO như thế nào? 6 bước: Tư vấn → Wireframe/Prototype → UI Design → Development (sprint 2 tuần) → QA & Testin"
+      },
+      {
+        "heading": "AI & Game Development",
+        "text": "AI & Game Development: Chatbot AI của EO có hiểu tiếng Việt không? Có. EO build synonym dictionary riêng cho tiếng Việt và xử lý không dấu (ví dụ \"vps\" = \"máy chủ ảo\" = \"virtual private server\"). Với chatbot LLM (GPT-4o, Claude), khả năng tiếng Việt rất tốt theo mặc định. Cloud Ball là gì? Cloud Ball là mobile game do EO Technology tự phát triển bằng Unity — game physics"
+      },
+      {
+        "heading": "Thanh Toán & Hợp Đồng",
+        "text": "Thanh Toán & Hợp Đồng: EO chấp nhận hình thức thanh toán nào? Chuyển khoản ngân hàng (Vietcombank, Techcombank, BIDV), VNPAY QR, MoMo, ZaloPay. Với khách nước ngoài: Stripe, PayPal, Wise. Xuất hóa đơn VAT điện tử theo yêu cầu. Có hoàn tiền không nếu không hài lòng? Hosting/VPS: hoàn tiền 100% trong 30 ngày đầu nếu không hài lòng. Dự án phát triển: thanh toán theo milesto"
+      },
+      {
+        "heading": "Không tìm thấy câu trả lời?",
+        "text": "Không tìm thấy câu trả lời?: Hỏi trực tiếp — đội ngũ EO phản hồi trong 2 giờ làm việc, không chatbot auto-reply. Liên hệ trực tiếp → Chat Telegram"
+      }
     ]
   }
 ]

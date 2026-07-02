@@ -75,34 +75,108 @@ function isModerationBlocked(text) {
 }
 
 // ─── SEARCH ─────────────────────────────────────────────────────────────────
+// Common Vietnamese stopwords — filter from queries to avoid false boosts in long body text
+const VI_STOPWORDS = new Set([
+  'của','và','cho','với','trong','tại','các','này','đó','có','không','là','một','được',
+  'từ','khi','hay','cũng','đây','như','rất','sẽ','đã','bạn','chúng','mọi','theo','hơn',
+  'nhất','mình','vào','lên','xuống','trên','dưới','sau','trước','gồm','thêm','đến','về',
+  'qua','nào','bao','làm','đang','những','họ','tôi','mỗi','nếu','cần','phải','luôn','đều',
+  'bởi','vì','nên','thì','mà','còn','nhưng','hoặc','vẫn','muốn','biết','tìm','hỏi',
+]);
+
 function tokenize(text) {
-  return text.toLowerCase().replace(/[^\wÀ-ỹ\s]/gu, ' ').split(/\s+/).filter(t => t.length > 2);
+  return text.toLowerCase().replace(/[^\wÀ-ỹ\s]/gu, ' ').split(/\s+/)
+    .filter(t => t.length > 2 && !VI_STOPWORDS.has(t));
 }
 
-function searchIndex(index, query, limit = 3) {
+function searchIndex(index, query, limit = 6) {
   const tokens = tokenize(query);
   if (!tokens.length) return [];
-  const scored = index.map(doc => {
-    const haystack = [doc.title, doc.content, ...(doc.tags || [])].join(' ').toLowerCase();
-    let score = 0;
-    for (const tok of tokens) {
-      score += (haystack.match(new RegExp(tok, 'g')) || []).length;
-      if (doc.title.toLowerCase().includes(tok)) score += 4;
-      if ((doc.tags || []).some(t => t.includes(tok))) score += 2;
+  const hits = [];
+
+  for (const doc of index) {
+    const tagHaystack = [(doc.tags || []).join(' '), doc.title].join(' ').toLowerCase();
+    let tagBoost = 0;
+    for (const tok of tokens) { if (tagHaystack.includes(tok)) tagBoost += 2; }
+
+    // Pricing-intent: "giá", "bảng", "phí", "price" in query → boost entries with actual prices
+    const hasPricingIntent = tokens.some(t => ['giá','bảng','phí','price','pricing'].includes(t));
+
+    if (doc.entries && doc.entries.length > 0) {
+      for (const entry of doc.entries) {
+        const haystack = [entry.heading, entry.text].join(' ').toLowerCase();
+        let score = tagBoost;
+        for (const tok of tokens) {
+          score += (haystack.match(new RegExp(tok, 'gi')) || []).length;
+          if (entry.heading.toLowerCase().includes(tok)) score += 5;
+        }
+        // Strong boost: entry has real price pattern AND query is price-intent
+        if (hasPricingIntent && /\$\d+\.\d+\s*\/?\s*tháng/.test(entry.text)) score += 10;
+        // Extra boost for clean customer plan entries (short heading = plan name, not infra context)
+        if (hasPricingIntent && /\$\d+\.\d+\s*\/?\s*tháng/.test(entry.text) && entry.heading.length < 25) score += 10;
+        if (score > tagBoost) hits.push({ doc, entry, score });
+      }
+    } else {
+      // Legacy schema without entries — fall back to page-level scoring
+      const haystack = [doc.title, doc.summary || '', doc.content || '', (doc.tags || []).join(' ')].join(' ').toLowerCase();
+      let score = 0;
+      for (const tok of tokens) {
+        score += (haystack.match(new RegExp(tok, 'gi')) || []).length;
+        if (doc.title.toLowerCase().includes(tok)) score += 4;
+        if ((doc.tags || []).some(t => t.includes(tok))) score += 2;
+      }
+      if (score > 0) hits.push({ doc, entry: { heading: doc.title, text: doc.summary || '' }, score });
     }
-    return { ...doc, score };
-  });
-  return scored.filter(d => d.score > 0).sort((a, b) => b.score - a.score).slice(0, limit);
+  }
+
+  return hits.sort((a, b) => b.score - a.score).slice(0, limit);
+}
+
+function escHtml(s) {
+  return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
 function formatSiteAnswer(results) {
-  const top = results[0];
-  let answer = `**${top.title}**\n\n${top.summary}`;
-  if (results.length > 1) {
-    answer += '\n\n**Xem thêm:**';
-    for (const r of results.slice(1)) answer += `\n- [${r.title}](${r.url})`;
+  if (!results.length) return '';
+  const topPageUrl   = results[0].doc.url;
+  const topPageTitle = results[0].doc.title.replace(/\s*[|—–-]\s*EO Technology\s*$/i, '').trim();
+  const samePageHits = results.filter(r => r.doc.url === topPageUrl);
+  const otherHits    = results.filter(r => r.doc.url !== topPageUrl).slice(0, 2);
+
+  // Sort same-page hits: price entries with short headings (customer plans) first,
+  // then price entries with long headings (context/infra), then non-price entries
+  const PRICE_DISPLAY_RE = /\$\d+\.\d+/;
+  const sortedHits = [...samePageHits].sort((a, b) => {
+    const aHasPrice = PRICE_DISPLAY_RE.test(a.entry.text) ? 1 : 0;
+    const bHasPrice = PRICE_DISPLAY_RE.test(b.entry.text) ? 1 : 0;
+    if (aHasPrice !== bHasPrice) return bHasPrice - aHasPrice; // price entries first
+    if (aHasPrice && bHasPrice) return a.entry.heading.length - b.entry.heading.length; // shorter heading first
+    return 0; // preserve score order otherwise
+  });
+
+  let html = '';
+  if (sortedHits.length >= 2) {
+    html += `<strong>${escHtml(topPageTitle)}</strong><br><br>`;
+    for (const r of sortedHits.slice(0, 5)) {
+      const body = escHtml(
+        r.entry.text
+          .replace(new RegExp('^' + r.entry.heading.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\s*[—:–\\s]*'), '')
+          .slice(0, 220)
+      );
+      html += `• <strong>${escHtml(r.entry.heading)}</strong>: ${body}<br>`;
+    }
+    html += `<br><a href="${topPageUrl}" target="_blank">Xem chi tiết →</a>`;
+  } else {
+    const top = results[0];
+    html = `<strong>${escHtml(top.entry.heading)}</strong><br>${escHtml(top.entry.text.slice(0, 400))}`;
+    html += `<br><br><a href="${topPageUrl}" target="_blank">${escHtml(topPageTitle)} →</a>`;
   }
-  return answer;
+
+  if (otherHits.length > 0) {
+    html += '<br><br><strong>Có thể bạn cần:</strong><br>';
+    for (const r of otherHits) html += `• <a href="${r.doc.url}" target="_blank">${escHtml(r.entry.heading)}</a><br>`;
+  }
+  return html;
 }
 
 async function loadSiteIndex(env) {
@@ -238,12 +312,16 @@ export default {
       const lc = question.toLowerCase();
       if (SITE_KEYWORDS.some(kw => lc.includes(kw))) {
         const index = await loadSiteIndex(env);
-        const hits  = searchIndex(index, question, 3);
+        const hits  = searchIndex(index, question, 8);
         if (hits.length > 0) {
+          // Deduplicate sources by page URL
+          const sources = [...new Map(
+            hits.map(r => [r.doc.url, { title: r.doc.title.split('|')[0].trim(), url: r.doc.url }])
+          ).values()].slice(0, 3);
           return json({
             branch:  'site',
             answer:  formatSiteAnswer(hits),
-            sources: hits.map(r => ({ title: r.title, url: r.url })),
+            sources,
           });
         }
       }
