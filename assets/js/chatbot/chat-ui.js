@@ -29,8 +29,9 @@
   function buildWidget() {
     var root = el("div", { id: "eo-chat-widget", "data-theme": localStorage.getItem(THEME_STORAGE_KEY) || "dark" });
 
-    var bubble = el("button", { id: "eo-chat-bubble", "aria-label": "Mở trợ lý EO Assistant", type: "button" }, [
-      el("span", { class: "eo-chat-bubble-icon", html: "💬" })
+    var bubble = el("button", { id: "eo-chat-bubble", "aria-label": "Mở trợ lý EO Assistant — Tra cứu tự động", type: "button" }, [
+      el("span", { class: "eo-chat-bubble-icon", html: "💬" }),
+      el("span", { class: "eo-chat-bubble-label", html: "AI" })
     ]);
 
     var panel = el("section", { id: "eo-chat-panel", "aria-label": "EO Assistant", role: "dialog" });
@@ -76,7 +77,40 @@
     root.appendChild(bubble);
     document.body.appendChild(root);
 
-    return { root: root, bubble: bubble, panel: panel, messages: messages, typing: typing, form: form };
+    // Mark body so CSS can apply 3-button positioning
+    document.body.classList.add("has-eo-chatbot");
+
+    // Tawk.to custom trigger — positioned middle of stack (bottom: 104px)
+    var tawkTrigger = el("button", {
+      id: "eo-tawk-trigger",
+      "aria-label": "Tư vấn trực tiếp với nhân viên",
+      title: "Live chat — nhân viên tư vấn",
+      type: "button"
+    }, [
+      el("span", { class: "eo-tawk-icon", html: "👤" }),
+      el("span", { class: "eo-tawk-label", html: "Live" })
+    ]);
+    document.body.appendChild(tawkTrigger);
+
+    tawkTrigger.addEventListener("click", function() {
+      if (window.Tawk_API && typeof window.Tawk_API.toggle === "function") {
+        window.Tawk_API.toggle();
+      } else if (window.Tawk_API && typeof window.Tawk_API.maximize === "function") {
+        window.Tawk_API.maximize();
+      }
+    });
+
+    // Hide native Tawk.to bubble so our custom button takes its place
+    window.Tawk_API = window.Tawk_API || {};
+    (function() {
+      var _prev = window.Tawk_API.onLoad;
+      window.Tawk_API.onLoad = function() {
+        if (typeof window.Tawk_API.hideWidget === "function") window.Tawk_API.hideWidget();
+        if (typeof _prev === "function") _prev();
+      };
+    })();
+
+    return { root: root, bubble: bubble, panel: panel, messages: messages, typing: typing, form: form, tawkTrigger: tawkTrigger };
   }
 
   function buildAdminPanel() {

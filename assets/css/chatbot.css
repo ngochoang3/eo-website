@@ -125,17 +125,66 @@
   max-height: 320px; overflow-y: auto; white-space: pre-wrap; color: var(--eo-text-dim);
 }
 
-/* Keep the page's own "back to top" button from sitting under the chat
-   bubble — push it up so the two stack vertically with a clear gap. */
-.back-to-top { bottom: 96px; }
+/* ===== FLOATING BUTTON STACK (bottom-right, from bottom up) ===
+   Pages with FULL chatbot (chat-ui.js loaded → body.has-eo-chatbot):
+     [1] AI Chatbot  — bottom: 24px  (60×60, gradient green/cyan)
+     [2] Tawk trigger— bottom: 104px (56×56, solid blue)
+     [3] Back-to-top — bottom: 180px (44×44, accent)
+   Pages with chatbot.css only (blog pages — no AI widget):
+     [1] Tawk native — bottom: ~20px
+     [2] Back-to-top — bottom: 100px
+================================================================ */
+
+/* 2-button layout (blog/contact-success: chatbot.css loaded, no AI widget) */
+.back-to-top { bottom: 100px; }
+/* 3-button layout (full chatbot pages) */
+body.has-eo-chatbot .back-to-top { bottom: 180px; }
+
+/* AI bubble label ("AI") inside the existing bubble */
+.eo-chat-bubble-label {
+  display: block;
+  font-size: 8px; font-weight: 800; letter-spacing: .06em;
+  text-transform: uppercase; line-height: 1; margin-top: 1px;
+}
+
+/* ===== TAWK.TO CUSTOM TRIGGER ===== */
+#eo-tawk-trigger {
+  position: fixed;
+  right: 20px; bottom: 104px;
+  z-index: 1900;
+  width: 56px; height: 56px; border-radius: 50%;
+  background: #1565c0;
+  color: #fff; border: none; cursor: pointer;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center; gap: 1px;
+  box-shadow: 0 4px 20px rgba(21,101,192,.45);
+  transition: transform .25s cubic-bezier(.22,1,.36,1), box-shadow .25s;
+  font-family: var(--font-body, "Nunito", sans-serif);
+}
+#eo-tawk-trigger:hover { transform: scale(1.08); box-shadow: 0 8px 28px rgba(21,101,192,.6); }
+#eo-tawk-trigger .eo-tawk-icon { font-size: 22px; line-height: 1; }
+#eo-tawk-trigger .eo-tawk-label { font-size: 8px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; line-height: 1; }
+/* Tooltip on hover (desktop) */
+#eo-tawk-trigger::before {
+  content: 'Tư vấn trực tiếp';
+  position: absolute; right: calc(100% + 10px); top: 50%; transform: translateY(-50%);
+  background: rgba(0,0,0,.75); color: #fff; font-size: 11px;
+  padding: 4px 10px; border-radius: 6px; white-space: nowrap;
+  opacity: 0; transition: opacity .2s; pointer-events: none;
+}
+#eo-tawk-trigger:hover::before { opacity: 1; }
 
 @media (max-width: 640px) {
   #eo-chat-widget { right: 14px; bottom: 14px; }
+  #eo-tawk-trigger { right: 14px; bottom: 86px; width: 50px; height: 50px; }
+  #eo-tawk-trigger .eo-tawk-icon { font-size: 20px; }
+  #eo-tawk-trigger::before { display: none; }
   #eo-chat-panel {
     width: 100vw; height: 100vh; max-height: 100vh;
     position: fixed; inset: 0; right: auto; bottom: auto; border-radius: 0;
   }
-  .back-to-top { bottom: 78px; }
+  .back-to-top { bottom: 82px; }
+  body.has-eo-chatbot .back-to-top { bottom: 150px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
